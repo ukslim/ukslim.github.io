@@ -20,6 +20,23 @@ use_math: false
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
 
+# Root-level markdown files used for repo docs, not site pages.
+# Custom exclude replaces Jekyll defaults — include those too (vendor/bundle, etc.).
+exclude:
+  - AGENTS.md
+  - README.md
+  - poster-story-sources/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
 plugins:
@@ -29,7 +46,7 @@ plugins:
   - jekyll-github-metadata
 
 titles_from_headings:
-  enabled:     true
+  enabled: true
   strip_title: true
   collections: true
 
