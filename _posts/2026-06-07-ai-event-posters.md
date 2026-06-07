@@ -107,7 +107,9 @@ I think this is already much better. It stands out just be being different. I wo
 
 Well, thanks GPT. I knew there was an endless array of design styles that it could produce. Instead of trying to dredge some names from my memory, I asked for suggestions.
 
-It replied with a list of styles, some of which I'd never heard of - and some
+It replied with a list of styles, some of which I'd never heard of, some
+I recognised but couldn't picture, some which were names I didn't know for
+styles I did.
 
 > **Me:** Give me a list of styles to choose from
 >
