@@ -1,0 +1,49 @@
+---
+layout: page
+title: Poster Prompts
+permalink: /poster-prompts/
+---
+
+<p>
+  Fifty design styles as copy-paste prompts for ChatGPT image generation. Each
+  page shows the prompt alongside an example of what it produces — for two
+  events: a village fête and a music gig.
+</p>
+
+<p>
+  Some look great in my opinion. Some still look like slop, but with some
+  tweaking they could be fixed for a specific event. In aggregate, they
+  demonstrate the breadth of style available.
+</p>
+
+<p>
+  <a href="/poster-prompts/how-to-use/">How to use these prompts</a> — tips on
+  editing prompts, avoiding common AI quirks, and managing image generation
+  quotas.
+</p>
+
+{% assign category_order =
+"design_history,art_movement_poster,print_process,handmade,niche_flyer,agency_zeitgeist"
+| split: "," %} {% for cat in category_order %} {% assign cat_label =
+site.data.poster_styles.categories[cat] %}
+<h2>{{ cat_label }}</h2>
+<div class="poster-grid">
+  {% for style in site.data.poster_styles.styles %} {% if style.category == cat
+  %}
+  <a
+    class="poster-card"
+    href="/poster-prompts/{{ style.id | replace: '_', '-' }}/"
+  >
+    <img
+      src="/assets/poster-examples/{{ style.id }}-fete.png"
+      alt="{{ style.name }}"
+      onerror="
+        this.onerror = null;
+        this.src = '/assets/poster-examples/placeholder.png';
+      "
+    />
+    <span class="card-name">{{ style.name }}</span>
+  </a>
+  {% endif %} {% endfor %}
+</div>
+{% endfor %}

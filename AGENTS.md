@@ -12,12 +12,15 @@ Personal blog published at [https://ukslim.github.io](https://ukslim.github.io) 
 
 ## Local development
 
+Ruby 3.3 (Homebrew keg-only) is required — it is not on PATH by default. Use the convenience script:
+
 ```bash
-bundle install
-bundle exec jekyll serve
+./serve.sh
 ```
 
-Site is served at `http://localhost:4000`. Use `bundle exec jekyll build` to produce output in `_site/` (gitignored).
+This prepends `/opt/homebrew/opt/ruby@3.3/bin` to PATH and runs `bundle exec jekyll serve`. Pass extra flags through as normal (`./serve.sh --drafts`). Site is served at `http://localhost:4000`.
+
+`_config.yml` changes require a server restart. All other file changes (layouts, includes, posts, data, SCSS) are picked up automatically by the live server.
 
 ## Deployment
 
@@ -29,14 +32,28 @@ Push to the default branch; GitHub Pages builds and publishes automatically. No 
 |------|---------|
 | `_posts/` | Blog posts (`YEAR-MM-DD-slug.md`) |
 | `_includes/` | Custom Liquid partials (alert boxes, images, head overrides) |
-| `_config.yml` | Site title, theme, plugins, markdown/math settings |
+| `_layouts/` | Custom page layouts (currently `poster_style.html`) |
+| `_config.yml` | Site title, theme, plugins, collections, markdown/math settings |
 | `assets/main.scss` | Custom CSS (extends Minima via `@import`) |
 | `index.md` | Home page |
 | `about.md` | About page |
 | `404.html` | Custom 404 page |
 | `images/` | Post images (referenced as `/images/...`) |
+| `poster-prompts/` | Poster prompts subsite — index and how-to pages |
+| `_poster_styles/` | Collection stub files — one per style (50 total) |
+| `_data/poster_styles.yaml` | All 50 poster style definitions (authoritative source) |
+| `_data/events.yaml` | Reference event descriptions (fête + gig) used in prompts |
+| `assets/poster-examples/` | Poster example images (`{style_id}-fete.png`, `{style_id}-gig.png`) |
 
 The Minima theme lives in the Ruby gem — do not vendor or copy theme files into the repo unless explicitly asked.
+
+### Poster prompts subsite
+
+Individual style pages are generated from the `poster_styles` Jekyll collection. Each stub file in `_poster_styles/` has a `style_id` front matter field; the `poster_style` layout looks up the full style data from `_data/poster_styles.yaml` at build time.
+
+URLs use hyphens (`/poster-prompts/art-nouveau/`) even though style ids use underscores (`art_nouveau`) — Jekyll slugifies the filename. Use `{{ style.id | replace: '_', '-' }}` when constructing URLs from data.
+
+To add a new style: add it to `_data/poster_styles.yaml`, create a stub in `_poster_styles/{id}.md`, and add placeholder images to `assets/poster-examples/`. To add a per-style notice (info box), add a `note:` field to the style entry in the YAML.
 
 ## Writing blog posts
 
@@ -53,7 +70,7 @@ Create a new file in `_posts/` named `YYYY-MM-DD-descriptive-slug.md`.
 - Use standard Markdown (GFM): headings, lists, links, footnotes, tables, fenced code blocks
 - Set the post date via the filename, not front matter (unless you add YAML front matter for layout overrides)
 
-See `_posts/2020-01-14-welcome.md` for formatting examples.
+See existing posts in `_posts/` for formatting examples.
 
 ## Custom includes
 

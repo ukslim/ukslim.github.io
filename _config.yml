@@ -10,9 +10,9 @@ title: "'ERE I AM - JH!"
 description: Somewhere to drop my thoughts.
 github_username: ukslim
 
-# Email and twitter are optional:
+# Email is optional:
 email:
-twitter_username: ukslim
+bluesky_url: https://bsky.app/profile/ere-i-am-jh.bsky.social
 
 # Set this to true to get LaTeX math equation support
 use_math: false
@@ -26,6 +26,8 @@ exclude:
   - AGENTS.md
   - README.md
   - poster-story-sources/
+  - poster-styles/
+  - serve.sh
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -36,6 +38,16 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+collections:
+  poster_styles:
+    output: true
+    permalink: /poster-prompts/:name/
+
+header_pages:
+  - index.md
+  - about.md
+  - poster-prompts/index.html
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima

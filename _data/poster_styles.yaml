@@ -1,0 +1,1715 @@
+version: 1
+
+meta:
+  purpose: Poster style catalogue for AI prompt generation
+  target_count: 50
+  blog_post: _posts/2026-06-07-ai-event-posters.md
+  sources:
+    dk_design: "Design: The Definitive Visual History (DK)"
+    dk_art: "Art: The Definitive Visual Guide (DK)"
+  avoid_defaults:
+    - pastel craft-fair palette
+    - bunting and pennants
+    - hand-drawn twee florals
+    - airbrush or oil painting effects
+    - stock-photo people
+    - generic spring-fayre template look
+
+categories:
+  design_history: Major design movements
+  art_movement_poster: Art movements, framed as posters the movement might have produced
+  print_process: Print techniques and reproduction aesthetics
+  handmade: Naive, DIY, and schoolkid aesthetics with intentional imperfection
+  niche_flyer: Subcultural, era-specific, and regional poster traditions
+  agency_zeitgeist: Named studios, brands, or zeitgeisty design schools
+
+styles:
+  # --- design_history (14) ---
+
+  - id: arts_and_crafts
+    name: Arts and Crafts
+    category: design_history
+    era: 1880s–1910s
+    dk_source:
+      design_chapter: Arts and Crafts
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Honest craft aesthetic rooted in William Morris — natural motifs, hand-worked
+      textures, and typography that feels carved or printed with care rather than
+      mass-produced.
+    visual_traits:
+      - stylised natural forms — vines, flowers, birds
+      - hand-crafted texture suggesting woodcut or embroidery
+      - symmetrical or balanced ornamental composition
+      - muted earth tones with rich accent colours
+    typography:
+      - blackletter or humanist serif influences
+      - decorative capitals
+      - text integrated into border ornament
+    palette: forest green, terracotta, ochre, deep burgundy, cream
+    layout: central motif with ornamental border or frame
+    mood: earnest, artisanal, pre-industrial warmth
+    references:
+      - William Morris
+      - CFA Voysey
+    avoid:
+      - pastel craft-fair palette
+      - bunting
+      - clip-art florals
+    poster_framing: Village hall event poster as a Morris & Co print might look
+    caution: null
+
+  - id: art_nouveau
+    name: Art Nouveau
+    category: design_history
+    era: 1890s–1910s
+    dk_source:
+      design_chapter: Art Nouveau
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Flowing organic lines and decorative elegance — the Belle Époque lithograph
+      tradition of Mucha and Toulouse-Lautrec applied to an event poster.
+    visual_traits:
+      - sinuous whiplash curves
+      - ornamental borders and frames
+      - flat colour areas with fine linework
+      - female figure or floral motif as centrepiece
+    typography:
+      - custom lettering integrated into curves
+      - tall condensed serifs
+      - decorative capitals
+    palette: muted gold, sage, dusty rose, teal, cream
+    layout: vertical format with strong border; figure dominates upper half
+    mood: elegant, theatrical, fin-de-siècle
+    references:
+      - Alphonse Mucha
+      - Henri de Toulouse-Lautrec
+      - Jules Chéret
+    avoid:
+      - geometric modernism
+      - sans-serif dominance
+      - flat corporate illustration
+    poster_framing: Fin-de-siècle lithograph poster for a cultural event
+    caution: null
+
+  - id: japonisme
+    name: Japonisme
+    category: design_history
+    era: 1870s–1900s
+    dk_source:
+      design_chapter: Japonisme
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      European design influenced by Japanese woodblock prints — flat planes,
+      asymmetry, and restrained colour applied to a Western event poster.
+    visual_traits:
+      - flat colour planes without shading
+      - asymmetrical composition
+      - cropped or off-centre focal element
+      - bold outlines around forms
+      - negative space used actively
+    typography:
+      - clean serif or restrained sans
+      - text subordinate to image
+    palette: indigo, vermillion, cream, black, muted grey-green
+    layout: asymmetrical; large empty area balanced by dense detail elsewhere
+    mood: refined, cross-cultural, quietly striking
+    references:
+      - Ukiyo-e print tradition
+      - James McNeill Whistler
+    avoid:
+      - busy symmetrical layouts
+      - gradient shading
+      - ornate Victorian decoration
+    poster_framing: European poster borrowing Japanese print composition principles
+    caution: null
+
+  - id: art_deco
+    name: Art Deco
+    category: design_history
+    era: 1920s–1930s
+    dk_source:
+      design_chapter: Art Deco
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Geometric luxury and streamlined glamour — sunbursts, stepped forms, and
+      metallic accents evoking the golden age of poster design.
+    visual_traits:
+      - geometric symmetry and stepped forms
+      - sunburst or fan motifs
+      - metallic gold or silver accents
+      - stylised figures or architecture
+      - strong vertical emphasis
+    typography:
+      - bold geometric sans or high-contrast serif
+      - all-caps headlines
+      - letterforms with inline decoration
+    palette: black, gold, cream, deep teal, coral
+    layout: symmetrical tower composition; headline at top, detail below
+    mood: glamorous, confident, Jazz Age
+    references:
+      - A.M. Cassandre
+      - Erté
+    avoid:
+      - hand-drawn naivety
+      - grunge texture
+      - pastel craft aesthetics
+    poster_framing: 1930s luxury event or exhibition poster
+    caution: null
+
+  - id: streamline_moderne
+    name: Streamline Moderne
+    category: design_history
+    era: 1930s–1940s
+    dk_source:
+      design_chapter: Art Deco / 1930s
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Aerodynamic curves and speed lines — the optimistic machine-age aesthetic
+      of 1930s transport and consumer posters.
+    visual_traits:
+      - horizontal speed lines
+      - rounded aerodynamic forms
+      - metallic sheen suggestions
+      - dynamic forward motion
+      - simplified industrial shapes
+    typography:
+      - bold condensed sans-serif
+      - italic slant suggesting speed
+      - horizontal text bands
+    palette: chrome silver, navy, white, red accent, sky blue
+    layout: strong horizontal flow; object moving left-to-right
+    mood: optimistic, futuristic-for-its-time, energetic
+    references:
+      - Raymond Loewy
+      - Norman Bel Geddes
+    avoid:
+      - ornamental Art Nouveau curves
+      - hand-drawn texture
+      - static centred composition
+    poster_framing: 1930s transport or technology expo poster
+    caution: null
+
+  - id: bauhaus_modernist
+    name: Bauhaus / Modernist
+    category: design_history
+    era: 1920s–1930s
+    dk_source:
+      design_chapter: Modern / Bauhaus
+      art_chapter: Early 20th century
+    blog_validated: true
+    summary: >
+      Geometric modernist poster rooted in Bauhaus principles — function over
+      decoration, primary colours, and clear typographic hierarchy.
+    visual_traits:
+      - primary colour blocks — red, blue, yellow
+      - basic geometric shapes — circles, rectangles, semicircles
+      - flat colour with no texture or shading
+      - abstracted symbolic forms rather than literal illustration
+    typography:
+      - bold geometric sans-serif
+      - clear hierarchy with few sizes
+      - asymmetrical text placement
+    palette: primary red, blue, yellow, black, white
+    layout: asymmetrical grid; information-first; generous negative space
+    mood: cultural, gallery-like, confident, design-led
+    references:
+      - Herbert Bayer
+      - László Moholy-Nagy
+      - Josef Albers
+    avoid:
+      - pastel florals
+      - decorative borders
+      - bunting
+      - hand-drawn craft aesthetics
+    poster_framing: Contemporary event poster in Bauhaus exhibition style
+    caution: null
+
+  - id: swiss_international
+    name: Swiss / International Typographic Style
+    category: design_history
+    era: 1950s–1970s
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Strict grid, abundant whitespace, and objective typography — the
+      information-design tradition of Swiss poster masters.
+    visual_traits:
+      - mathematical grid alignment
+      - large areas of white or single-colour field
+      - photographic or abstract graphic element
+      - minimal decoration
+    typography:
+      - Helvetica or Akzidenz-Grotesk
+      - flush-left ragged-right text blocks
+      - one accent weight or size contrast
+    palette: white, black, one accent colour — red, orange, or green
+    layout: strict grid; text and image in clear zones
+    mood: institutional, precise, calm authority
+    references:
+      - Josef Müller-Brockmann
+      - Armin Hofmann
+      - Emil Ruder
+    avoid:
+      - ornamental decoration
+      - multiple competing colours
+      - hand-drawn elements
+      - craft-fair aesthetics
+    poster_framing: Museum or civic institution event announcement
+    caution: null
+
+  - id: constructivist
+    name: Constructivist
+    category: design_history
+    era: 1920s–1930s
+    dk_source:
+      design_chapter: Modern
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Diagonal dynamism, photomontage, and agitprop energy — Russian
+      Constructivist graphic design applied to a bold event poster.
+    visual_traits:
+      - diagonal axes and wedge shapes
+      - photomontage or halftone collage
+      - red and black dominance
+      - radiating lines suggesting movement
+      - bold geometric abstraction
+    typography:
+      - heavy block sans-serif
+      - text at angles
+      - contrasting size extremes
+    palette: red, black, white, occasional grey
+    layout: dynamic diagonal; elements appear to thrust outward
+    mood: urgent, revolutionary, visually aggressive
+    references:
+      - Alexander Rodchenko
+      - El Lissitzky
+    avoid:
+      - soft pastels
+      - symmetrical decorative layouts
+      - literal illustration
+    poster_framing: 1920s avant-garde cultural event poster
+    caution: null
+
+  - id: de_stijl
+    name: De Stijl
+    category: design_history
+    era: 1917–1930s
+    dk_source:
+      design_chapter: Modern
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Orthogonal purity — Mondrian's grid of primary blocks and black lines
+      translated into a rigorous event poster layout.
+    visual_traits:
+      - horizontal and vertical lines only — no diagonals
+      - rectangles in primary colours
+      - black dividing lines
+      - asymmetric balance through colour weight
+    typography:
+      - sans-serif, often lowercase
+      - text confined to rectangular zones
+    palette: red, blue, yellow, black, white only
+    layout: orthogonal grid; strict alignment; no curves
+    mood: intellectual, pure, quietly radical
+    references:
+      - Piet Mondrian
+      - Theo van Doesburg
+    avoid:
+      - curves or organic shapes
+      - gradients or shadows
+      - decorative type
+    poster_framing: Gallery exhibition poster in Neoplasticist style
+    caution: null
+
+  - id: mid_century_modern_graphic
+    name: Mid-century Modern Graphic
+    category: design_history
+    era: 1940s–1960s
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Optimistic post-war graphic design — atomic-age shapes, friendly sans-serif
+      type, and a limited cheerful palette.
+    visual_traits:
+      - atomic or starburst motifs
+      - simplified organic shapes — kidneys, boomerangs
+      - flat colour illustration
+      - playful asymmetry
+    typography:
+      - rounded or geometric sans-serif
+      - friendly headline weight
+      - mixed case
+    palette: teal, mustard, coral, avocado, cream, charcoal
+    layout: balanced asymmetry; illustration and text in clear bands
+    mood: optimistic, suburban-modern, welcoming
+    references:
+      - Paul Rand
+      - Alvin Lustig
+      - Saul Bass
+    avoid:
+      - grunge or distress
+      - dark moody palettes
+      - craft-fair hand-drawn florals
+    poster_framing: 1950s community event or modern design exhibition poster
+    caution: null
+
+  - id: memphis_postmodern
+    name: Memphis / 80s Postmodern
+    category: design_history
+    era: 1980s
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: 1945 onwards
+    blog_validated: true
+    summary: >
+      Playful postmodern rebellion — squiggles, clashing colours, and geometric
+      shapes that refuse to take themselves seriously.
+    visual_traits:
+      - squiggles and zigzag patterns
+      - clashing bright colours
+      - laminated or plastic surface feel
+      - mix of geometric and organic shapes
+      - terrazzo or speckled textures
+    typography:
+      - bold geometric sans
+      - playful scale contrasts
+      - text at playful angles
+    palette: hot pink, electric blue, yellow, black, white, teal
+    layout: scattered energetic composition; no single focal point
+    mood: fun, irreverent, deliberately kitsch
+    references:
+      - Ettore Sottsass
+      - Memphis Group
+    avoid:
+      - muted natural palettes
+      - serious minimalism
+      - craft-fair aesthetics
+    poster_framing: 1980s design-group launch party poster
+    caution: null
+
+  - id: brutalist_graphic
+    name: Brutalist Graphic Design
+    category: design_history
+    era: 1960s–present
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Raw, high-contrast, almost ugly on purpose — heavy black blocks and stark
+      type that reject conventional polish.
+    visual_traits:
+      - large black rectangular fields
+      - extreme contrast — black on white or white on black
+      - raw unpolished edges
+      - minimal or no illustration
+      - concrete-grey textures optional
+    typography:
+      - heavy grotesque sans-serif
+      - oversized headlines
+      - tight or overlapping letterspacing
+    palette: black, white, one brutal accent — orange or yellow
+    layout: massive type blocks dominating the page; information crammed or isolated
+    mood: rebellious, confrontational, anti-decorative
+    references:
+      - Experimental Jetset
+      - Brutalist architecture tradition
+    avoid:
+      - soft pastels
+      - decorative illustration
+      - craft-fair warmth
+    poster_framing: Underground venue gig poster rejecting mainstream polish
+    caution: Tone down slightly for family events — keep raw energy without illegibility
+
+  - id: contemporary_editorial
+    name: Contemporary Editorial
+    category: design_history
+    era: 2000s–present
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Magazine-quality layout — big headline, elegant serif-and-sans pairing,
+      and the feel of a weekend newspaper supplement.
+    visual_traits:
+      - large headline dominating upper portion
+      - high-quality photography or illustration area
+      - generous margins
+      - subtle colour blocking
+    typography:
+      - display serif for headline
+      - clean sans-serif for details
+      - clear size hierarchy — three levels maximum
+    palette: white, black, one editorial accent; muted photography tones
+    layout: classic editorial grid; headline, subhead, body, image
+    mood: premium, literate, surprisingly polished for a local event
+    references:
+      - The New York Times Magazine
+      - Monocle
+    avoid:
+      - clip-art
+      - bunting
+      - multiple decorative fonts
+    poster_framing: Weekend supplement cover announcing a cultural event
+    caution: null
+
+  - id: wayfinding_signage
+    name: Wayfinding / Signage
+    category: design_history
+    era: 1960s–present
+    dk_source:
+      design_chapter: Mid-century modern / Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Functional signage aesthetic — icons, arrows, and systematic layout
+      borrowed from transport and park maps.
+    visual_traits:
+      - simple icons with consistent stroke weight
+      - directional arrows
+      - colour-coded zones or categories
+      - pictograms for activities
+      - map-like spatial organisation
+    typography:
+      - clean sans-serif
+      - all-caps for labels
+      - small caps for secondary information
+    palette: white, dark grey, safety green, directional blue, alert orange
+    layout: grid of icon + label pairs; clear information zones
+    mood: functional, trustworthy, quietly distinctive
+    references:
+      - London Underground signage
+      - National Park Service graphics
+    avoid:
+      - decorative illustration
+      - script fonts
+      - craft-fair ornament
+    poster_framing: Park map or transport system poster for a community event
+    caution: null
+
+  # --- art_movement_poster (12) ---
+
+  - id: victorian_broadside
+    name: Victorian Broadside
+    category: art_movement_poster
+    era: 1850s–1900s
+    dk_source:
+      design_chapter: Arts and Crafts / 1850s
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Dense woodtype and ornamental rules — the Victorian playbill or fairground
+      poster tradition with Pre-Raphaelite colour richness.
+    visual_traits:
+      - multiple woodtype sizes stacked tightly
+      - ornamental rules and dividers
+      - central woodcut or engraving illustration
+      - border frames
+    typography:
+      - varied woodtype faces in one composition
+      - condensed and extended mixes
+      - all-capital headlines
+    palette: black, cream, deep red, gold, forest green
+    layout: dense centred stack; information fills the frame
+    mood: boisterous, fairground, old-world
+    references:
+      - Victorian playbill tradition
+      - Pre-Raphaelite colour sensibility
+    avoid:
+      - modern sans-serif
+      - minimal whitespace
+      - flat vector illustration
+    poster_framing: Victorian-era fair or theatre announcement poster
+    caution: null
+
+  - id: belle_epoque_lithograph
+    name: Belle Époque Lithograph
+    category: art_movement_poster
+    era: 1890s–1910s
+    dk_source:
+      design_chapter: Art Nouveau
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Parisian poster-lithograph tradition — Chéret and Toulouse-Lautrec's
+      vibrant colour and lively figures advertising a cabaret or event.
+    visual_traits:
+      - lithographic colour layering
+      - lively figure in motion
+      - spontaneous brushstroke energy
+      - limited palette per stone
+    typography:
+      - hand-lettered integration with image
+      - playful baseline shifts
+    palette: warm red, yellow, black, teal, cream
+    layout: figure dominates; text woven into lower third
+    mood: lively, theatrical, Parisian nightlife
+    references:
+      - Jules Chéret
+      - Henri de Toulouse-Lautrec
+    avoid:
+      - digital flatness without texture
+      - geometric modernism
+    poster_framing: 1890s Parisian cabaret or cultural event lithograph
+    caution: null
+
+  - id: futurist
+    name: Futurist
+    category: art_movement_poster
+    era: 1909–1940s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Dynamic diagonals and motion blur — Marinetti's visual velocity applied
+      to a poster that seems to move even when static.
+    visual_traits:
+      - force lines and motion blur
+      - fragmented overlapping forms
+      - diagonal composition
+      - mechanical and urban imagery
+    typography:
+      - bold sans-serif at aggressive angles
+      - words fragmented across the surface
+      - onomatopoeic text sizing
+    palette: red, black, grey, yellow, white
+    layout: centrifugal energy; elements radiate from a point
+    mood: aggressive, modern, speed-obsessed
+    references:
+      - F.T. Marinetti
+      - Giacomo Balla
+    avoid:
+      - static centred layouts
+      - soft pastoral imagery
+      - craft aesthetics
+    poster_framing: 1920s avant-garde performance or technology event poster
+    caution: null
+
+  - id: dada_collage
+    name: Dada Collage
+    category: art_movement_poster
+    era: 1916–1920s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Absurd juxtaposition and cut-up typography — Dada's anti-art rebellion
+      as an event poster that refuses to make sense conventionally.
+    visual_traits:
+      - mixed media collage — photographs, paper scraps, type
+      - absurd scale relationships
+      - monochrome with one shock accent
+      - visible cut edges and overlaps
+    typography:
+      - ransom-note mixed fonts
+      - random orientations
+      - deliberately illegible passages
+    palette: black, white, newsprint grey, one red accent
+    layout: chaotic layering; no clear hierarchy
+    mood: absurdist, provocative, anti-establishment
+    references:
+      - Hannah Höch
+      - Kurt Schwitters
+      - Marcel Duchamp
+    avoid:
+      - polished corporate layout
+      - harmonious colour schemes
+    poster_framing: 1920s Dada soirée or anti-art exhibition poster
+    caution: Illegibility risk — keep event details readable despite chaos
+
+  - id: cubist_exhibition
+    name: Cubist Exhibition Poster
+    category: art_movement_poster
+    era: 1940s framing (Cubism 1907–1920s)
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: true
+    summary: >
+      Fragmented planes and muted earth tones — a 1940s gallery poster
+      announcing a cubist exhibition, as demonstrated in the blog post.
+    visual_traits:
+      - fragmented geometric planes
+      - multiple viewpoints in one image
+      - muted ochre, grey, and umber palette
+      - analytical line structure
+      - abstracted still-life or figure forms
+    typography:
+      - clean 1940s serif capitals
+      - formal exhibition text block
+      - centred or left-aligned institutional layout
+    palette: ochre, grey, umber, black, cream
+    layout: central cubist image; formal typographic band below
+    mood: intellectual, gallery-serious, historically grounded
+    references:
+      - Pablo Picasso
+      - Georges Braque
+    avoid:
+      - bright pop colours
+      - literal realistic illustration
+      - craft-fair aesthetics
+    poster_framing: 1940s lithograph poster for a cubist art exhibition
+    caution: null
+
+  - id: surrealist
+    name: Surrealist
+    category: art_movement_poster
+    era: 1920s–1950s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Dream imagery with precise rendering — the impossible made believable,
+      as a poster Dalí or Magritte might have approved.
+    visual_traits:
+      - impossible juxtapositions — scale shifts, floating objects
+      - hyper-real rendering of unreal scenes
+      - vast empty landscapes or skies
+      - symbolic objects — clocks, apples, birds
+    typography:
+      - classical serif, understated
+      - text as quiet caption below image
+    palette: deep blue sky, warm sand, muted green, realistic tones
+    layout: single surreal image dominating; modest text below
+    mood: uncanny, dreamlike, intellectually playful
+    references:
+      - Salvador Dalí
+      - René Magritte
+    avoid:
+      - cartoon simplification
+      - busy decorative borders
+      - craft-fair warmth
+    poster_framing: 1930s surrealist group exhibition announcement
+    caution: null
+
+  - id: expressionist_woodcut
+    name: Expressionist Woodcut
+    category: art_movement_poster
+    era: 1905–1920s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Jagged black forms and high contrast — German Expressionist printmaking
+      tradition applied to a stark, emotionally charged event poster.
+    visual_traits:
+      - bold woodcut or linocut texture
+      - jagged angular forms
+      - high contrast black and white
+      - distorted perspective for emotional effect
+      - visible carving marks
+    typography:
+      - hand-carved letterforms or heavy grotesque
+      - text integrated into the block print
+    palette: black, white, one accent — red or orange
+    layout: single powerful image; text in carved bands
+    mood: raw, emotional, urgent
+    references:
+      - Käthe Kollwitz
+      - Die Brücke
+      - Emil Nolde
+    avoid:
+      - soft pastels
+      - smooth vector gradients
+      - decorative ornament
+    poster_framing: German Expressionist theatre or exhibition poster
+    caution: null
+
+  - id: pop_art
+    name: Pop Art
+    category: art_movement_poster
+    era: 1950s–1960s
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Ben-Day dots, bold primaries, and comic-book energy — Warhol and
+      Lichtenstein's consumer-culture aesthetic for a loud event poster.
+    visual_traits:
+      - Ben-Day dot patterns
+      - bold black outlines around colour fields
+      - comic-book halftone
+      - consumer product or celebrity reference
+      - flat primaries
+    typography:
+      - bold comic sans or heavy grotesque
+      - speech-bubble text optional
+      - onomatopoeia as graphic element
+    palette: red, yellow, blue, black, white
+    layout: centred iconic image; bold headline above or below
+    mood: loud, playful, mass-culture aware
+    references:
+      - Andy Warhol
+      - Roy Lichtenstein
+      - Richard Hamilton
+    avoid:
+      - muted natural palettes
+      - fine-art restraint
+      - craft aesthetics
+    poster_framing: 1960s pop art exhibition or festival poster
+    caution: null
+
+  - id: op_art
+    name: Op Art
+    category: art_movement_poster
+    era: 1960s
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Optical vibration and dizzying repetition — Bridget Riley's black-and-white
+      patterns creating movement from stasis.
+    visual_traits:
+      - concentric circles or parallel lines creating vibration
+      - black and white high contrast
+      - geometric repetition
+      - illusion of movement or depth
+    typography:
+      - simple bold sans-serif
+      - text kept minimal to not compete with pattern
+    palette: black, white, occasional single accent
+    layout: optical pattern fills background; text in calm zone
+    mood: hypnotic, psychedelic-adjacent, visually intense
+    references:
+      - Bridget Riley
+      - Victor Vasarely
+    avoid:
+      - illustrative scenes
+      - soft organic forms
+      - busy multi-font typography
+    poster_framing: 1965 optical art exhibition poster
+    caution: Pattern can overwhelm text — reserve a quiet zone for event details
+
+  - id: psychedelic_sixties
+    name: Psychedelic Sixties
+    category: art_movement_poster
+    era: 1966–1970s
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Swirling colour and Art Nouveau revival — the Haight-Ashbury concert
+      poster tradition of Wes Wilson and Victor Moscoso.
+    visual_traits:
+      - swirling organic forms
+      - vibrating colour combinations
+      - Art Nouveau-influenced letterforms
+      - dense all-over composition
+    typography:
+      - letterforms melting into illustration
+      - difficult-to-read on purpose
+      - ornate psychedelic capitals
+    palette: hot pink, orange, purple, lime green, electric blue
+    layout: all-over dense composition; text woven into illustration
+    mood: trippy, energetic, countercultural
+    references:
+      - Wes Wilson
+      - Victor Moscoso
+      - Rick Griffin
+    avoid:
+      - minimal whitespace
+      - corporate sans-serif
+      - craft-fair pastels
+    poster_framing: 1967 San Francisco concert poster for a music event
+    caution: Legibility suffers by design — ensure event details remain findable
+
+  - id: minimalism_art
+    name: Minimalism (Art)
+    category: art_movement_poster
+    era: 1960s–1970s
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Extreme reduction — one form, vast space, and almost nothing else;
+      a Judd or Flavin sensibility applied to poster design.
+    visual_traits:
+      - single geometric form or line
+      - vast empty field
+      - no decoration whatsoever
+      - industrial precision
+    typography:
+      - small neutral sans-serif
+      - text minimal and peripheral
+    palette: white, off-white, one colour — red or yellow
+    layout: object centred or off-centre in empty space; tiny text corner
+    mood: contemplative, austere, gallery-white-cube
+    references:
+      - Donald Judd
+      - Agnes Martin
+      - Dan Flavin
+    avoid:
+      - illustration
+      - multiple colours
+      - decorative type
+    poster_framing: Minimalist sculpture exhibition announcement
+    caution: null
+
+  - id: graffiti_street_art
+    name: Graffiti / Street Art
+    category: art_movement_poster
+    era: 1970s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Spray-can texture and urban handstyle — street art's bold fill colours
+      and attitude applied to an event poster.
+    visual_traits:
+      - spray paint texture and drips
+      - bold handstyle lettering
+      - brick wall or urban surface background
+      - stencil layers
+      - vibrant fill colours with black outlines
+    typography:
+      - graffiti handstyle for headline
+      - clean sans for event details
+    palette: electric colours on dark or brick background
+    layout: large handstyle across top; details in clean zone below
+    mood: urban, energetic, youth-culture
+    references:
+      - Jean-Michel Basquiat
+      - Banksy
+      - Keith Haring
+    avoid:
+      - pastoral imagery
+      - craft-fair aesthetics
+      - corporate polish
+    poster_framing: Street art festival or urban music event poster
+    caution: null
+
+  # --- print_process (6) ---
+
+  - id: risograph
+    name: Risograph
+    category: print_process
+    era: 1980s–present
+    dk_source:
+      design_chapter: Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Limited ink colours with slight misregistration and grain — feels
+      handmade but designed, not crafty.
+    visual_traits:
+      - two or three spot colours only
+      - slight misregistration between layers
+      - visible grain and print texture
+      - bold simplified shapes
+      - overprint colour mixing
+    typography:
+      - clean sans-serif or simple serif
+      - solid colour fills, no gradients
+    palette: fluorescent pink, teal, yellow, black — pick two or three
+    layout: bold graphic shapes; text in solid colour blocks
+    mood: indie, zine-culture, deliberately lo-fi
+    references:
+      - Risograph print tradition
+      - Independent publishing aesthetic
+    avoid:
+      - smooth digital gradients
+      - full-colour photographic realism
+      - craft-fair pastels
+    poster_framing: Indie bookshop or community event riso-printed poster
+    caution: null
+
+  - id: stamp_letterpress_modern
+    name: Stamp / Letterpress (Modernised)
+    category: print_process
+    era: Contemporary
+    dk_source:
+      design_chapter: Arts and Crafts / Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Bold inked shapes with tactile impression — modern letterpress aesthetic
+      suggesting an event without being twee.
+    visual_traits:
+      - heavy ink coverage
+      - slight impression or deboss texture
+      - bold simplified graphic marks
+      - limited colour — two inks maximum
+      - stamp-like repeated motifs
+    typography:
+      - letterpress serif or woodtype
+      - tactile letter impression visible
+      - generous letterspacing
+    palette: black, cream, one accent — red or green
+    layout: centred bold graphic; text in clear bands
+    mood: crafted, substantial, event-worthy
+    references:
+      - Hatch Show Print
+      - Modern letterpress revival
+    avoid:
+      - digital smoothness
+      - pastel craft-fair palette
+      - bunting
+    poster_framing: Letterpress-printed event poster from a boutique print shop
+    caution: null
+
+  - id: screenprint_pop
+    name: Screenprint Pop
+    category: print_process
+    era: 1960s–present
+    dk_source:
+      design_chapter: Mid-century modern / Contemporary
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Flat spot colours with slight overlap — the poster-shop screenprint
+      tradition of gig posters and political prints.
+    visual_traits:
+      - flat spot colours — three to five layers
+      - slight overlap where colours meet
+      - simplified bold illustration
+      - visible screen texture
+    typography:
+      - bold sans or hand-drawn lettering
+      - text as a colour layer
+    palette: bold opaque colours — no transparency effects
+    layout: illustration centred; text stacked below in bands
+    mood: direct, handmade, graphic
+    references:
+      - Gig poster tradition
+      - Political screenprint
+    avoid:
+      - photographic realism
+      - gradient shading
+      - craft-fair ornament
+    poster_framing: Screen-printed gig or community event poster
+    caution: null
+
+  - id: botanical_scientific
+    name: Botanical Scientific Illustration
+    category: print_process
+    era: Contemporary
+    dk_source:
+      design_chapter: null
+      art_chapter: 19th century
+    blog_validated: true
+    summary: >
+      Clean line drawings of plants with label-style annotations — quietly
+      distinctive and slightly academic.
+    visual_traits:
+      - fine pen-and-ink botanical line drawings
+      - specimen labels or Latin names
+      - diagrammatic layout
+      - white or cream background
+      - one highlight colour for emphasis
+    typography:
+      - small serif for labels
+      - clean sans-serif for event details
+      - type aligned to diagram structure
+    palette: black ink on cream, one green or rust accent
+    layout: specimen drawings arranged taxonomically; text in margin
+    mood: quiet, academic, refined
+    references:
+      - Botanical illustration tradition
+      - Scientific plate engraving
+    avoid:
+      - colourful cartoon florals
+      - bunting
+      - hand-drawn craft-fair style
+    poster_framing: Spring event poster as a field-guide plate
+    caution: null
+
+  - id: cut_paper_matisse
+    name: Cut Paper / Matisse
+    category: print_process
+    era: 1940s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: true
+    summary: >
+      Bold organic shapes with visible paper edges — Matisse cut-out energy
+      applied to a striking event poster.
+    visual_traits:
+      - bold organic colour shapes
+      - visible cut-paper edges
+      - no shading or gradient within shapes
+      - playful scale relationships
+      - white gaps between shapes
+    typography:
+      - simple bold sans-serif
+      - text separate from cut shapes
+    palette: bright blue, orange, green, pink, white background
+    layout: cut shapes fill the field; text in clear zone
+    mood: joyful, bold, gallery-quality
+    references:
+      - Henri Matisse
+      - Jazz cut-out series
+    avoid:
+      - realistic illustration
+      - gradient shading
+      - craft-fair pastels
+    poster_framing: Contemporary art exhibition poster in Matisse cut-out style
+    caution: null
+
+  - id: monochrome_single_accent
+    name: Monochrome + Single Accent
+    category: print_process
+    era: Contemporary
+    dk_source:
+      design_chapter: Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Black, white, and one bright accent colour — typography-led design
+      relying on composition rather than illustration.
+    visual_traits:
+      - no illustration or a single minimal mark
+      - black and white dominance
+      - one accent colour used sparingly
+      - strong negative space
+    typography:
+      - typography is the primary visual element
+      - bold weight contrast
+      - careful kerning and spacing
+    palette: black, white, one accent — bright green, orange, or red
+    layout: type-driven; accent colour highlights one word or element
+    mood: confident, minimal, design-conscious
+    references:
+      - Swiss poster tradition
+      - Contemporary typographic posters
+    avoid:
+      - illustration-heavy layouts
+      - multiple accent colours
+      - craft-fair decoration
+    poster_framing: Typographic event poster where the type is the image
+    caution: null
+
+  # --- handmade (5) ---
+
+  - id: child_paint_pro_typography
+    name: Child Poster Paint + Pro Typography
+    category: handmade
+    era: Contemporary
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Naive poster-paint drawing by a child with professional graphic designer
+      typography added — charming contrast of raw and refined.
+    visual_traits:
+      - thick poster-paint brushstrokes
+      - naive drawing of event subject — sun, flowers, tents
+      - paint drips and uneven coverage
+      - bright primary paint colours
+      - white paper showing through
+    typography:
+      - professional crisp sans-serif or serif
+      - perfect kerning and alignment
+      - deliberately contrasts with the painting
+    palette: poster-paint primaries — red, blue, yellow, green
+    layout: child painting fills upper area; professional type in lower band
+    mood: charming, honest, community-made
+    references:
+      - School fair poster tradition
+    avoid:
+      - polished digital illustration pretending to be naive
+      - craft-fair AI slop
+      - bunting
+    poster_framing: School or community fair poster with children's art and professional layout
+    caution: The contrast between naive art and pro type is essential
+    note: We include this as an example of a useful design approach. We'd encourage you to use a real drawing by a real child — it will look far more authentic, and it will make the child happy.
+
+  - id: school_cutout_collage
+    name: School Cutout Collage
+    category: handmade
+    era: Contemporary
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Scissors, construction paper, and uneven glue — primary-school craft
+      aesthetic with sincere enthusiasm.
+    visual_traits:
+      - construction paper in bold colours
+      - visible scissor-cut edges
+      - overlapping paper layers
+      - glue marks or slight misalignment
+      - simple representational shapes — sun, tree, tent
+    typography:
+      - cut-out paper letters or marker handwriting
+      - uneven baseline
+    palette: construction paper colours — red, green, blue, yellow, orange
+    layout: collage fills the page; text cut from contrasting paper
+    mood: enthusiastic, primary-school, community
+    references:
+      - Primary school classroom display
+    avoid:
+      - digital smoothness
+      - professional polish
+      - stock illustration
+    poster_framing: Primary school spring fair announcement made in class
+    caution: null
+    note: We include this as an example of a useful design approach. We'd encourage you to use a real collage made by a real child — it will look far more authentic, and it will make the child happy.
+
+  - id: crayon_folk_handmade
+    name: Crayon Folk Handmade
+    category: handmade
+    era: Contemporary
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Waxy crayon texture and earnest imperfection — folk-art simplicity
+      without the polished craft-fair AI look.
+    visual_traits:
+      - waxy crayon texture visible
+      - simple folk motifs — flowers, birds, suns
+      - uneven colour fill
+      - white paper texture showing through
+      - childlike but not incompetent
+    typography:
+      - hand-lettered marker or crayon
+      - slightly wobbly but legible
+    palette: crayon primaries with waxy build-up
+    layout: central folk motif; hand-lettered text around it
+    mood: warm, folk, homespun
+    references:
+      - Folk art tradition
+      - Community hall handmade signs
+    avoid:
+      - digital craft-fair slop
+      - bunting and pennants
+      - airbrush effects
+    poster_framing: Village hall handmade sign for a local gathering
+    caution: Distinct from AI craft-fair slop — must feel genuinely hand-made
+    note: We include this as an example of a useful design approach. We'd encourage you to use a real drawing by a real child — it will look far more authentic, and it will make the child happy.
+
+  - id: punk_fanzine
+    name: Punk Photocopied Fanzine
+    category: handmade
+    era: 1970s–1980s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Photocopied 1980s punk fanzine aesthetic with some colour snuck in —
+      distressed, DIY, and confrontational.
+    visual_traits:
+      - photocopy grain and high contrast
+      - torn paper edges
+      - ransom-note cut-out letters
+      - black and white with one or two colour xerox layers
+      - safety pins, anarchy symbols, or punk collage
+    typography:
+      - mixed typewriter, newspaper cut-out, and marker
+      - deliberately rough alignment
+    palette: black, white, photocopy grey, occasional red or yellow xerox
+    layout: dense collage; text and image competing for space
+    mood: confrontational, DIY, underground
+    references:
+      - UK punk fanzine tradition
+      - Sniffin' Glue
+    avoid:
+      - polished design
+      - craft-fair aesthetics
+      - pastel colours
+    poster_framing: 1980s punk gig flyer photocopied and pasted on a wall
+    caution: null
+
+  - id: zine_cut_and_paste
+    name: Zine Cut-and-Paste
+    category: handmade
+    era: 1990s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Mixed-media collage with margin scribbles — indie zine layout with
+      tape marks and found imagery.
+    visual_traits:
+      - cut-out magazine and photo fragments
+      - visible tape or glue marks
+      - margin notes and scribbles
+      - layered transparent overlaps
+      - photocopied texture
+    typography:
+      - typewriter text
+      - handwritten annotations
+      - rubber-stamp dates
+    palette: black and white base with found colour fragments
+    layout: chaotic layering; no grid; marginalia in corners
+    mood: indie, personal, underground publishing
+    references:
+      - Riot grrrl zine tradition
+      - Independent publishing
+    avoid:
+      - corporate polish
+      - craft-fair warmth
+      - digital flat illustration
+    poster_framing: Indie zine back-page event listing blown up to poster size
+    caution: null
+
+  # --- niche_flyer (8) ---
+
+  - id: rave_acid_graphics
+    name: 90s Rave / Acid Graphics
+    category: niche_flyer
+    era: 1988–1995
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Neon colours, warped type, and energetic layout — acid house flyer
+      aesthetic echoing the energy of live music.
+    visual_traits:
+      - neon colours on black background
+      - warped or melting typography
+      - smiley face or ecstasy-era motifs
+      - fractal or computer-generated backgrounds
+      - dense information listing DJs or acts
+    typography:
+      - warped display fonts
+      - outlined and shadowed text
+      - multiple competing sizes
+    palette: neon green, hot pink, electric blue, black
+    layout: dense stacked text; central graphic motif; information-heavy
+    mood: euphoric, high-energy, subcultural
+    references:
+      - Acid house flyer tradition
+      - Designers Republic adjacent
+    avoid:
+      - craft-fair aesthetics
+      - pastoral imagery
+      - muted palettes
+    poster_framing: 1991 warehouse rave flyer with spring event details
+    caution: Use with restraint for family events — keep energy without drug culture references
+
+  - id: dnb_fractal_flyer
+    name: 90s Drum and Bass Flyer
+    category: niche_flyer
+    era: 1994–1999
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Early 3D fractal computer imagery with dark mood and stacked gig text —
+      the drum and bass club flyer tradition.
+    visual_traits:
+      - rendered 3D fractal or chrome objects
+      - dark background with spotlight effects
+      - early CGI aesthetic — dated but deliberate
+      - stacked artist names in small text
+    typography:
+      - futuristic display font
+      - chrome or metallic text effects
+      - dense lineup text at bottom
+    palette: black, dark blue, chrome silver, neon green accent
+    layout: fractal image dominates upper two-thirds; lineup text stacked below
+    mood: dark, futuristic-for-1996, bass-heavy
+    references:
+      - Jungle and drum and bass flyer tradition
+      - Early Bryce/Kai's Power Tools renders
+    avoid:
+      - bright pastoral imagery
+      - craft aesthetics
+      - modern flat illustration
+    poster_framing: 1996 drum and bass club night flyer
+    caution: null
+
+  - id: festival_indie_lineup
+    name: Festival Indie Lineup
+    category: niche_flyer
+    era: 2000s–present
+    dk_source:
+      design_chapter: Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Big central graphic with stacked band or act names — contemporary
+      indie music festival poster format.
+    visual_traits:
+      - single strong central illustration or photograph
+      - band names stacked in descending size
+      - sponsor logos in footer band
+      - limited colour palette — two or three colours
+    typography:
+      - bold display sans for headline
+      - clean sans for lineup
+      - clear date and venue prominence
+    palette: depends on central graphic; typically bold and limited
+    layout: graphic top half; lineup text bottom half; date prominent
+    mood: contemporary, music-led, professional-indie
+    references:
+      - Glastonbury poster tradition
+      - Coachella poster format
+    avoid:
+      - craft-fair aesthetics
+      - bunting
+      - generic spring florals
+    poster_framing: Indie music festival poster with band lineup for a community event with live music
+    caution: null
+
+  - id: wpa_new_deal
+    name: WPA / New Deal
+    category: niche_flyer
+    era: 1935–1943
+    dk_source:
+      design_chapter: 1930s–1940s
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Bold sans-serif and limited palette — American public-information
+      poster tradition of the Works Progress Administration.
+    visual_traits:
+      - silkscreen flat colour areas
+      - bold simplified figures
+      - industrial or community imagery
+      - strong silhouettes
+    typography:
+      - bold geometric sans-serif
+      - all-caps headline
+      - clear direct language
+    palette: red, blue, cream, black — limited and flat
+    layout: image above, headline below, details in footer
+    mood: civic, direct, democratic
+    references:
+      - WPA Federal Art Project
+      - Works Progress Administration posters
+    avoid:
+      - ornate decoration
+      - pastel craft aesthetics
+      - commercial gloss
+    poster_framing: 1939 WPA community event or public information poster
+    caution: null
+
+  - id: soviet_propaganda
+    name: Soviet Propaganda
+    category: niche_flyer
+    era: 1920s–1950s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Heroic figures, red palette, and diagonal momentum — Soviet political
+      poster tradition distinct from Constructivist abstraction.
+    visual_traits:
+      - heroic forward-striding figures
+      - red flag or star motifs
+      - radiating light behind leader figure
+      - bold simplified realism
+      - diagonal upward momentum
+    typography:
+      - bold block Cyrillic-influenced sans
+      - banner-style text bands
+    palette: red, cream, black, gold
+    layout: figure dominates; text in banner across top or bottom
+    mood: heroic, collective, aspirational
+    references:
+      - Soviet political poster tradition
+      - Gustav Klutsis
+    avoid:
+      - Western commercial aesthetics
+      - pastel craft palettes
+      - ironic detachment
+    poster_framing: 1930s Soviet cultural celebration poster — use political imagery carefully
+    caution: Political connotations — frame as historical aesthetic, not endorsement
+
+  - id: polish_poster_school
+    name: Polish Poster School
+    category: niche_flyer
+    era: 1950s–1980s
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Painterly symbolism and metaphorical imagery with sparse type —
+      the Polish circus and film poster tradition.
+    visual_traits:
+      - painterly surreal imagery
+      - metaphorical rather than literal representation
+      - bold colour fields
+      - hand-painted texture
+      - sparse composition with single strong image
+    typography:
+      - minimal text, small and unobtrusive
+      - clean sans-serif in corner
+    palette: rich saturated colours — deep red, ultramarine, ochre
+    layout: single image dominates; tiny text in corner
+    mood: artistic, symbolic, intellectually rich
+    references:
+      - Henryk Tomaszewski
+      - Jan Lenica
+      - Polish circus poster tradition
+    avoid:
+      - literal illustration
+      - busy text layout
+      - craft-fair aesthetics
+    poster_framing: Polish circus poster for a community event — symbolic imagery
+    caution: null
+
+  - id: golden_age_travel
+    name: Golden Age Travel Poster
+    category: niche_flyer
+    era: 1920s–1950s
+    dk_source:
+      design_chapter: Art Deco / 1930s
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Vintage tourism lithograph — panoramic landscape band and bold destination
+      type from the golden age of travel advertising.
+    visual_traits:
+      - panoramic landscape or cityscape band
+      - simplified flat colour areas
+      - art deco-influenced lettering
+      - sun, sea, or landmark motif
+    typography:
+      - bold art deco display face
+      - destination name as hero text
+    palette: azure blue, warm sand, sunset orange, white
+    layout: landscape band across middle; destination name above; details below
+    mood: aspirational, sunny, escapist
+    references:
+      - A.M. Cassandre
+      - British Rail poster tradition
+      - Visit Britain campaigns
+    avoid:
+      - photographic realism
+      - craft-fair aesthetics
+      - dark moody palettes
+    poster_framing: 1935 railway company poster advertising a park or seaside event
+    caution: null
+
+  - id: japanese_minimal_poster
+    name: Japanese Minimal Poster
+    category: niche_flyer
+    era: 1960s–present
+    dk_source:
+      design_chapter: Japonisme / Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Very restrained layout with vast empty space and one strong graphic
+      element — elegant, calm, and unusual for a local event.
+    visual_traits:
+      - vast white or single-colour field
+      - one small or medium graphic element
+      - extreme restraint
+      - asymmetrical balance
+      - no decoration
+    typography:
+      - refined sans-serif or mincho serif
+      - small text, precisely placed
+      - Japanese and Latin type harmony optional
+    palette: white, black, one muted accent — indigo, vermillion, or moss green
+    layout: tiny element in lower corner or off-centre; text minimal
+    mood: calm, elegant, contemplative
+    references:
+      - Ikko Tanaka
+      - Japanese graphic design tradition
+    avoid:
+      - busy illustration
+      - multiple colours
+      - craft-fair decoration
+      - bunting
+    poster_framing: Contemporary Japanese graphic design exhibition poster
+    caution: null
+
+  # --- agency_zeitgeist (5) ---
+
+  - id: designers_republic
+    name: Designers Republic
+    category: agency_zeitgeist
+    era: 1986–present
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: true
+    summary: >
+      Techno typography, consumerist slogans, and subversive polish — the
+      Sheffield design studio famous for Warp Records sleeves.
+    visual_traits:
+      - bold geometric logo-like forms
+      - consumer product parody
+      - techno-industrial aesthetic
+      - layered text slogans
+      - Japanese-influenced flat colour
+    typography:
+      - custom techno display fonts
+      - slogans as graphic elements
+      - mixed scale and orientation
+    palette: white, black, red, yellow, industrial grey
+    layout: dense graphic field; slogans scattered; logo-centred
+    mood: subversive, techno, culturally literate
+    references:
+      - Designers Republic
+      - Ian Anderson
+      - Warp Records
+    avoid:
+      - craft-fair aesthetics
+      - pastoral imagery
+      - conventional event poster layout
+    poster_framing: Warp Records-era club night poster in Designers Republic style
+    caution: AI may add extra marketing copy unprompted — specify exact text
+
+  - id: nasa_worm_modernist
+    name: NASA Worm Modernist
+    category: agency_zeitgeist
+    era: 1975–1992
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Clean federal modernism — the NASA Graphics Standards Manual aesthetic
+      of technical confidence and systematic design.
+    visual_traits:
+      - clean vector forms
+      - systematic colour coding
+      - technical diagram aesthetic
+      - bold logotype integration
+      - grid-precise layout
+    typography:
+      - Helvetica or similar grotesque
+      - NASA-style weight and spacing
+      - technical labelling
+    palette: warm red, warm grey, white, black
+    layout: systematic grid; logo and information in precise zones
+    mood: technical, confident, American modernist
+    references:
+      - NASA Graphics Standards Manual
+      - Danne & Blackburn
+    avoid:
+      - hand-drawn elements
+      - decorative ornament
+      - craft aesthetics
+    poster_framing: 1976 NASA public event announcement poster
+    caution: null
+
+  - id: psychedelic_seventies_corporate
+    name: Psychedelic Seventies Corporate
+    category: agency_zeitgeist
+    era: 1968–1979
+    dk_source:
+      design_chapter: 1970s
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Corporate groovy — the 1970s mainstream attempt at psychedelia for
+      brands, distinct from underground sixties acid graphics.
+    visual_traits:
+      - soft rainbow gradients
+      - rounded bubble forms
+      - friendly illustration style
+      - warm earth-tone overlays
+      - slightly faded print quality
+    typography:
+      - rounded friendly sans-serif
+      - outlined display type
+      - warm colour fills
+    palette: burnt orange, avocado, harvest gold, brown, cream
+    layout: centred friendly illustration; warm text below
+    mood: groovy-but-wholesome, corporate-friendly, nostalgic
+    references:
+      - 1970s corporate branding
+      - Yellow Submarine mainstream influence
+    avoid:
+      - underground punk aesthetic
+      - dark neon rave style
+      - craft-fair slop
+    poster_framing: 1974 community centre event poster with groovy corporate warmth
+    caution: null
+    note: This output is closest to the default ChatGPT AI style everyone hates.
+
+  - id: y2k_chrome
+    name: Y2K Chrome
+    category: agency_zeitgeist
+    era: 1998–2004
+    dk_source:
+      design_chapter: Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Metallic gradients, blob forms, and early-digital gloss — the turn-of-
+      the-millennium aesthetic of optimism and synthetic futurism.
+    visual_traits:
+      - chrome and holographic gradients
+      - translucent blob forms
+      - star sparkle accents
+      - early 3D render aesthetic
+      - iridescent colour shifts
+    typography:
+      - rounded techno sans-serif
+      - chrome or gradient-filled text
+      - slightly inflated letterforms
+    palette: silver, electric blue, hot pink, white, iridescent
+    layout: central 3D blob or sphere; text wrapped around form
+    mood: optimistic, synthetic, millennial
+    references:
+      - Y2K aesthetic revival
+      - Early internet era design
+    avoid:
+      - flat minimalism
+      - craft aesthetics
+      - muted natural palettes
+    poster_framing: 2000 millennium celebration event poster
+    caution: null
+
+  - id: contemporary_flat_illustration
+    name: Contemporary Flat Illustration
+    category: agency_zeitgeist
+    era: 2015–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Modern vector editorial illustration — the default of contemporary
+      design agencies, usable when pushed away from craft-fair slop.
+    visual_traits:
+      - flat vector shapes with no gradient
+      - limited palette — three or four colours
+      - geometric simplification of figures and objects
+      - subtle texture overlay optional
+    typography:
+      - clean geometric sans-serif
+      - modern weight contrast
+    palette: bold but not pastel — coral, teal, navy, mustard
+    layout: illustration and text in clear zones; modern grid
+    mood: contemporary, friendly, agency-polished
+    references:
+      - Contemporary tech company illustration style
+      - Editorial vector art
+    avoid:
+      - pastel craft-fair palette
+      - bunting and pennants
+      - hand-drawn twee florals
+      - airbrush effects
+    poster_framing: Contemporary design agency poster — specify a distinct palette and subject
+    caution: Highest slop risk — must specify what NOT to do using avoid_defaults

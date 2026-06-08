@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+{% assign style = nil %}
+{% for s in site.data.poster_styles.styles %}
+  {% if s.id == page.style_id %}{% assign style = s %}{% endif %}
+{% endfor %}
+
+{% if style == nil %}
+<p>Style not found: <code>{{ page.style_id }}</code></p>
+{% else %}
+
+{% capture event_fete %}{{ site.data.events.fete.title }}
+{{ site.data.events.fete.date }}
+{{ site.data.events.fete.venue }}
+{{ site.data.events.fete.beneficiary }}
+
+Attractions:
+{%- for a in site.data.events.fete.attractions %}
+- {{ a }}
+{%- endfor %}
+
+{{ site.data.events.fete.footer }}{% endcapture %}
+
+{% capture event_gig %}{{ site.data.events.gig.presenter }}
+
+{{ site.data.events.gig.headliner }}
+{{ site.data.events.gig.support }}
+
+{{ site.data.events.gig.date }}
+{{ site.data.events.gig.venue }}
+
+Tickets: {{ site.data.events.gig.tickets }}
+Available from {{ site.data.events.gig.ticket_source }}
+
+{{ site.data.events.gig.footer }}{% endcapture %}
+
+{% capture style_part %}Design this poster in {{ style.name }} style ({{ style.era }}).
+
+{{ style.poster_framing }}
+
+Visual traits:
+{%- for t in style.visual_traits %}
+- {{ t }}
+{%- endfor %}
+
+Typography:
+{%- for t in style.typography %}
+- {{ t }}
+{%- endfor %}
+
+Palette: {{ style.palette }}
+Layout: {{ style.layout }}
+Mood: {{ style.mood }}
+
+Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+
+{% capture fete_prompt %}{{ event_fete | strip }}
+
+---
+
+{{ style_part | strip }}{% endcapture %}
+
+{% capture gig_prompt %}{{ event_gig | strip }}
+
+---
+
+{{ style_part | strip }}{% endcapture %}
+
+<article class="poster-style-page">
+
+  <h1>{{ style.name }} <span class="era">({{ style.era }})</span></h1>
+
+  <p class="summary">{{ style.summary }}</p>
+
+  {% if style.caution %}
+    {% include alert.html text=style.caution %}
+  {% endif %}
+
+  {% if style.note %}
+    {% include info.html text=style.note %}
+  {% endif %}
+
+  <section class="poster-example">
+    <h2>Fête poster</h2>
+    <div class="poster-example-row">
+      <div class="prompt-col">
+        <label for="prompt-fete">Copy this prompt into ChatGPT:</label>
+        <textarea id="prompt-fete" class="prompt-box" readonly>{{ fete_prompt }}</textarea>
+        <button class="copy-btn" data-target="prompt-fete">Copy to clipboard</button>
+      </div>
+      <div class="image-col">
+        <img src="/assets/poster-examples/{{ style.id }}-fete.png"
+             alt="{{ style.name }} — fête poster example"
+             onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.png'">
+      </div>
+    </div>
+  </section>
+
+  <section class="poster-example">
+    <h2>Gig poster</h2>
+    <div class="poster-example-row">
+      <div class="prompt-col">
+        <label for="prompt-gig">Copy this prompt into ChatGPT:</label>
+        <textarea id="prompt-gig" class="prompt-box" readonly>{{ gig_prompt }}</textarea>
+        <button class="copy-btn" data-target="prompt-gig">Copy to clipboard</button>
+      </div>
+      <div class="image-col">
+        <img src="/assets/poster-examples/{{ style.id }}-gig.png"
+             alt="{{ style.name }} — gig poster example"
+             onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.png'">
+      </div>
+    </div>
+  </section>
+
+</article>
+
+<script>
+document.querySelectorAll('.image-col img').forEach(function(img) {
+  img.addEventListener('click', function() {
+    img.classList.toggle('expanded');
+  });
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.image-col img.expanded').forEach(function(img) {
+      img.classList.remove('expanded');
+    });
+  }
+});
+
+document.querySelectorAll('.copy-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var textarea = document.getElementById(btn.dataset.target);
+    navigator.clipboard.writeText(textarea.value).then(function() {
+      btn.textContent = 'Copied!';
+      setTimeout(function() { btn.textContent = 'Copy to clipboard'; }, 2000);
+    });
+  });
+});
+</script>
+
+{% endif %}
