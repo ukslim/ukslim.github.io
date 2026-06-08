@@ -42,6 +42,10 @@ A few ways to deal with this:
 
 > No photographs of people. No realistic crowd scenes. Abstract graphic representation only.
 
+**Make the prompt more specific.** The AI invents things to fill a vacuum — give it specific instructions and it will do those things instead. Describe the colour scheme, the imagery, the mood, even specific graphic elements you want included.
+
+> Deep red and black only. A silhouette of a single guitar. No text other than the event name and date.
+
 **Supply a reference image.** In ChatGPT you can upload an image alongside your prompt. Upload a photo of your band, your venue, or your town and ask the AI to use it as a reference rather than inventing its own.
 
 **Post-edit.** Generate the poster as a decorative background and graphic treatment, then add your own text, photographs, and real content on top using Canva, Photoshop, or any basic image editor. The AI-generated part becomes the *style* layer; your real content sits on top.
