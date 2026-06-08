@@ -27,14 +27,14 @@ I made a point of specifying what I thought was a different style:
 
 > **Me:**
 >
-> Produce a poster for a spring fayre.
-> 21 April - 11am to 3pm
-> Mill Beach Park, Honeyford
-> Free entry
-> Tombola
-> Cakes and drinks
-> Performance by a samba band and a dhol band.
-> Craft stalls
+> Produce a poster for a spring fayre.  
+> 21 April - 11am to 3pm  
+> Mill Beach Park, Honeyford  
+> Free entry  
+> Tombola  
+> Cakes and drinks  
+> Performance by a samba band and a dhol band.  
+> Craft stalls  
 > Circus Skills workshop
 >
 > Go for a clean, unfussy, bright layout with a bold striking spring-themed
@@ -68,23 +68,23 @@ I think this is already much better. It stands out just be being different. I wo
 >
 > **Bauhaus / Modernist Poster Design**
 >
-> Rooted in the Bauhaus tradition (1920s–30s)
-> Strong emphasis on function over decoration
-> Asymmetrical layout with clear hierarchy
-> Bold, simple sans-serif typography
-> Limited, high-contrast colour palette
+> - Rooted in the Bauhaus tradition (1920s–30s)
+> - Strong emphasis on function over decoration
+> - Asymmetrical layout with clear hierarchy
+> - Bold, simple sans-serif typography
+> - Limited, high-contrast colour palette
 >
 > **Geometric Minimalism**
 >
-> Built from basic shapes (circles, semicircles, rectangles)
-> The flower is abstracted into almost symbolic forms
-> Very little texture or shading — mostly flat colour
+> - Built from basic shapes (circles, semicircles, rectangles)
+> - The flower is abstracted into almost symbolic forms
+> - Very little texture or shading — mostly flat colour
 >
 > **Swiss Style (International Typographic Style) influence**
 >
-> Clean grid-based alignment (even if loosely applied)
-> Information-first layout
-> Clear, legible structure
+> - Clean grid-based alignment (even if loosely applied)
+> - Information-first layout
+> - Clear, legible structure
 >
 > If you wanted a shorthand label for a designer or printer, you could call it:
 >
@@ -115,80 +115,90 @@ styles I did.
 >
 > **ChatGPT:** Here's a deliberately varied menu—some safe-but-distinct, some quite left-field. I've kept each one concrete so you can imagine how your fayre poster would actually look.
 >
-> **Clean but Characterful**
+> **🎨 Clean but Characterful**
 >
-> 1. Bauhaus / Modernist
->    (What you just saw)
->    Geometric shapes, primary colours, strong type
->    Feels cultural / design-led rather than "craft fair"
-> 2. Swiss Style
->    strict grid, lots of whitespace
->    Black/white + one accent colour
->    Very "information design", almost institutional
-> 3. Contemporary Editorial (Magazine-style)
->    Big headline, elegant serif + sans mix
->    Think weekend supplement or gallery leaflet
->    Could feel surprisingly premium for a fayre
+> **1. Bauhaus / Modernist**  
+> (What you just saw)  
+> Geometric shapes, primary colours, strong type  
+> Feels cultural / design-led rather than "craft fair"
 >
-> **Graphic & Illustrative (but not twee)**
+> **2. Swiss Style**  
+> strict grid, lots of whitespace  
+> Black/white + one accent colour  
+> Very "information design", almost institutional
 >
-> 1. Risograph Print Style
->    Limited ink colours, slightly misregistered layers
->    Grainy textures, bold shapes
->    Feels handmade but designed, not crafty
-> 2. Cut Paper / Collage (Matisse-inspired)
->    Inspired by Henri Matisse cut-outs
->    Organic shapes, bold colour blocks
->    Very striking from a distance
-> 3. Botanical Scientific Illustration (Modernised)
->    Clean line drawings of plants, labelled or diagram-like
->    Monochrome + one highlight colour
->    Quietly distinctive, slightly academic
+> **3. Contemporary Editorial (Magazine-style)**  
+> Big headline, elegant serif + sans mix  
+> Think weekend supplement or gallery leaflet  
+> Could feel surprisingly premium for a fayre
 >
-> **Bold / Unusual Directions**
+> **🌿 Graphic & Illustrative (but not twee)**
 >
-> 1. Brutalist Graphic Design
->    Raw, high-contrast, almost "ugly on purpose"
->    Heavy black blocks, stark type
->    Feels rebellious—very different from typical village posters
-> 2. 90s Rave Flyer / Acid Graphics
->    Neon colours, warped type, energetic layout
->    Could echo the samba/dhol energy
->    Surprisingly effective if done with restraint
-> 3. Memphis Design (80s Postmodern)
->    Playful shapes, squiggles, clashing colours
->    Inspired by Memphis Group
->    Fun but still graphic and bold
+> **4. Risograph Print Style**  
+> Limited ink colours, slightly misregistered layers  
+> Grainy textures, bold shapes  
+> Feels handmade but designed, not crafty
 >
-> **Quietly Distinct / Understated**
+> **5. Cut Paper / Collage (Matisse-inspired)**  
+> Inspired by Henri Matisse cut-outs  
+> Organic shapes, bold colour blocks  
+> Very striking from a distance
 >
-> 1. Japanese Minimal Poster
->    Very restrained layout, lots of empty space
->    One strong graphic element
->    Elegant, calm, and unusual in this context
-> 2. Monochrome + Single Accent (Ultra-minimal)
->    Black, white, and e.g. bright green or orange
->    Typography-led, almost no illustration
->    Relies on composition rather than decoration
-> 3. Wayfinding / Signage Style
->    Looks like a park map or transport signage
->    Icons, arrows, structured layout
->    Functional but visually interesting
+> **6. Botanical Scientific Illustration (Modernised)**  
+> Clean line drawings of plants, labelled or diagram-like  
+> Monochrome + one highlight colour  
+> Quietly distinctive, slightly academic
 >
-> **Slightly Playful but Still Clean**
+> **⚡ Bold / Unusual Directions**
 >
-> 1. Modern Icon System
->    Everything represented as simple icons
->    Consistent stroke weight, grid-based
->    Feels like an app UI or transport system
-> 2. Stamp / Letterpress Style (Modernised)
->    Bold inked shapes, slight imperfections
->    Limited palette, strong contrast
->    Suggests "event" without being twee
-> 3. Festival Poster (Contemporary Indie)
->    Big central graphic + stacked lineup text
->    Borrow cues from music festivals
->    Works nicely given the bands
+> **7. Brutalist Graphic Design**  
+> Raw, high-contrast, almost "ugly on purpose"  
+> Heavy black blocks, stark type  
+> Feels rebellious—very different from typical village posters
+>
+> **8. 90s Rave Flyer / Acid Graphics**  
+> Neon colours, warped type, energetic layout  
+> Could echo the samba/dhol energy  
+> Surprisingly effective if done with restraint
+>
+> **9. Memphis Design (80s Postmodern)**  
+> Playful shapes, squiggles, clashing colours  
+> Inspired by Memphis Group  
+> Fun but still graphic and bold
+>
+> **🧭 Quietly Distinct / Understated**
+>
+> **10. Japanese Minimal Poster**  
+> Very restrained layout, lots of empty space  
+> One strong graphic element  
+> Elegant, calm, and unusual in this context
+>
+> **11. Monochrome + Single Accent (Ultra-minimal)**  
+> Black, white, and e.g. bright green or orange  
+> Typography-led, almost no illustration  
+> Relies on composition rather than decoration
+>
+> **12. Wayfinding / Signage Style**  
+> Looks like a park map or transport signage  
+> Icons, arrows, structured layout  
+> Functional but visually interesting
+>
+> **🎪 Slightly Playful but Still Clean**
+>
+> **13. Modern Icon System**  
+> Everything represented as simple icons  
+> Consistent stroke weight, grid-based  
+> Feels like an app UI or transport system
+>
+> **14. Stamp / Letterpress Style (Modernised)**  
+> Bold inked shapes, slight imperfections  
+> Limited palette, strong contrast  
+> Suggests "event" without being twee
+>
+> **15. Festival Poster (Contemporary Indie)**  
+> Big central graphic + stacked lineup text  
+> Borrow cues from music festivals  
+> Works nicely given the bands
 >
 > **If you want a steer**
 >
