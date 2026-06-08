@@ -56,6 +56,7 @@ A few ways to deal with this:
 
 The examples on this site were generated in June 2026 using ChatGPT (GPT-4o image generation). The prompts should work — with varying results and possibly minor tweaks — in any AI image generation service, including:
 
+- **Google Gemini** — usage is more or less identical to ChatGPT; paste the prompt and ask it to generate an image
 - **Midjourney** — generally strong on aesthetic styles; add `--ar 2:3` for portrait format
 - **Adobe Firefly** — good commercial-use licensing; style adherence varies
 - **DALL-E 3** (via API or Bing Image Creator) — the predecessor to GPT-4o image generation; still capable
