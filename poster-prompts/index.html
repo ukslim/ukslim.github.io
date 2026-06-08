@@ -35,11 +35,11 @@ site.data.poster_styles.categories[cat] %}
     href="/poster-prompts/{{ style.id | replace: '_', '-' }}/"
   >
     <img
-      src="/assets/poster-examples/{{ style.id }}-fete.png"
+      src="/assets/poster-thumbnails/{{ style.id }}-fete.jpg"
       alt="{{ style.name }}"
       onerror="
         this.onerror = null;
-        this.src = '/assets/poster-examples/placeholder.png';
+        this.src = '/assets/poster-thumbnails/placeholder.jpg';
       "
     />
     <span class="card-name">{{ style.name }}</span>
