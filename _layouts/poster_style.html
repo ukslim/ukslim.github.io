@@ -11,6 +11,21 @@ layout: default
 <p>Style not found: <code>{{ page.style_id }}</code></p>
 {% else %}
 
+{% assign all_styles = site.data.poster_styles.styles %}
+{% assign prev_style = nil %}
+{% assign next_style = nil %}
+{% assign cur_idx = nil %}
+{% for s in all_styles %}
+  {% if s.id == page.style_id %}{% assign cur_idx = forloop.index0 %}{% endif %}
+{% endfor %}
+{% if cur_idx > 0 %}
+  {% assign prev_idx = cur_idx | minus: 1 %}
+  {% assign prev_style = all_styles | slice: prev_idx, 1 | first %}
+{% endif %}
+{% assign next_idx = cur_idx | plus: 1 %}
+{% assign next_style = all_styles | slice: next_idx, 1 | first %}
+{% assign cat_label = site.data.poster_styles.categories[style.category] %}
+
 {% capture event_fete %}{{ site.data.events.fete.title }}
 {{ site.data.events.fete.date }}
 {{ site.data.events.fete.venue }}
@@ -68,6 +83,23 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
 
 {{ style_part | strip }}{% endcapture %}
 
+<nav class="style-nav">
+  <div class="style-nav-up">
+    <a href="/poster-prompts/">All poster prompts</a>
+    <a href="/poster-prompts/#{{ style.category }}">{{ cat_label }}</a>
+  </div>
+  <div class="style-nav-prevnext">
+    {% if prev_style %}
+      <a class="style-nav-prev" href="/poster-prompts/{{ prev_style.id | replace: '_', '-' }}/">&larr; {{ prev_style.name }}</a>
+    {% else %}
+      <span class="style-nav-placeholder"></span>
+    {% endif %}
+    {% if next_style %}
+      <a class="style-nav-next" href="/poster-prompts/{{ next_style.id | replace: '_', '-' }}/">{{ next_style.name }} &rarr;</a>
+    {% endif %}
+  </div>
+</nav>
+
 <article class="poster-style-page">
 
   <h1>{{ style.name }} <span class="era">({{ style.era }})</span></h1>
@@ -86,9 +118,15 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
     <h2>Fête poster</h2>
     <div class="poster-example-row">
       <div class="prompt-col">
-        <label for="prompt-fete">Copy this prompt into ChatGPT:</label>
-        <textarea id="prompt-fete" class="prompt-box" readonly>{{ fete_prompt }}</textarea>
-        <button class="copy-btn" data-target="prompt-fete">Copy to clipboard</button>
+        <div class="prompt-mobile-bar">
+          <button class="prompt-toggle-btn">Show prompt</button>
+          <button class="copy-btn" data-target="prompt-fete">Copy to clipboard</button>
+        </div>
+        <div class="prompt-expandable" hidden>
+          <label for="prompt-fete">Copy this prompt into ChatGPT:</label>
+          <textarea id="prompt-fete" class="prompt-box" readonly>{{ fete_prompt }}</textarea>
+        </div>
+        <button class="copy-btn prompt-desktop-copy" data-target="prompt-fete">Copy to clipboard</button>
       </div>
       <div class="image-col">
         <img src="/assets/poster-examples/{{ style.id }}-fete.png"
@@ -102,9 +140,15 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
     <h2>Gig poster</h2>
     <div class="poster-example-row">
       <div class="prompt-col">
-        <label for="prompt-gig">Copy this prompt into ChatGPT:</label>
-        <textarea id="prompt-gig" class="prompt-box" readonly>{{ gig_prompt }}</textarea>
-        <button class="copy-btn" data-target="prompt-gig">Copy to clipboard</button>
+        <div class="prompt-mobile-bar">
+          <button class="prompt-toggle-btn">Show prompt</button>
+          <button class="copy-btn" data-target="prompt-gig">Copy to clipboard</button>
+        </div>
+        <div class="prompt-expandable" hidden>
+          <label for="prompt-gig">Copy this prompt into ChatGPT:</label>
+          <textarea id="prompt-gig" class="prompt-box" readonly>{{ gig_prompt }}</textarea>
+        </div>
+        <button class="copy-btn prompt-desktop-copy" data-target="prompt-gig">Copy to clipboard</button>
       </div>
       <div class="image-col">
         <img src="/assets/poster-examples/{{ style.id }}-gig.png"
@@ -115,6 +159,23 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
   </section>
 
 </article>
+
+<nav class="style-nav">
+  <div class="style-nav-up">
+    <a href="/poster-prompts/">All poster prompts</a>
+    <a href="/poster-prompts/#{{ style.category }}">{{ cat_label }}</a>
+  </div>
+  <div class="style-nav-prevnext">
+    {% if prev_style %}
+      <a class="style-nav-prev" href="/poster-prompts/{{ prev_style.id | replace: '_', '-' }}/">&larr; {{ prev_style.name }}</a>
+    {% else %}
+      <span class="style-nav-placeholder"></span>
+    {% endif %}
+    {% if next_style %}
+      <a class="style-nav-next" href="/poster-prompts/{{ next_style.id | replace: '_', '-' }}/">{{ next_style.name }} &rarr;</a>
+    {% endif %}
+  </div>
+</nav>
 
 <script>
 document.querySelectorAll('.image-col img').forEach(function(img) {
@@ -129,15 +190,37 @@ document.addEventListener('keydown', function(e) {
       img.classList.remove('expanded');
     });
   }
+  if (e.key === 'ArrowLeft') {
+    var prev = document.querySelector('.style-nav-prev');
+    if (prev) window.location.href = prev.href;
+  }
+  if (e.key === 'ArrowRight') {
+    var next = document.querySelector('.style-nav-next');
+    if (next) window.location.href = next.href;
+  }
 });
 
 document.querySelectorAll('.copy-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
     var textarea = document.getElementById(btn.dataset.target);
     navigator.clipboard.writeText(textarea.value).then(function() {
+      var original = btn.textContent;
       btn.textContent = 'Copied!';
-      setTimeout(function() { btn.textContent = 'Copy to clipboard'; }, 2000);
+      setTimeout(function() { btn.textContent = original; }, 2000);
     });
+  });
+});
+
+document.querySelectorAll('.prompt-toggle-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var expandable = btn.closest('.prompt-col').querySelector('.prompt-expandable');
+    if (expandable.hidden) {
+      expandable.hidden = false;
+      btn.textContent = 'Hide prompt';
+    } else {
+      expandable.hidden = true;
+      btn.textContent = 'Show prompt';
+    }
   });
 });
 </script>

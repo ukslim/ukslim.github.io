@@ -87,10 +87,9 @@
   margin-top: 0.8rem;
 }
 
-@media (max-width: 700px) {
-  .poster-example-row {
-    grid-template-columns: 1fr;
-  }
+.prompt-col {
+  display: flex;
+  flex-direction: column;
 }
 
 .prompt-col label {
@@ -98,6 +97,50 @@
   font-size: 0.8rem;
   color: #666;
   margin-bottom: 0.3rem;
+}
+
+.prompt-mobile-bar {
+  display: none;
+}
+
+.prompt-toggle-btn {
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background: white;
+  color: #021a40;
+  border: 1px solid #021a40;
+  border-radius: 3px;
+
+  &:hover { background: #f0f4f8; }
+  &:active { background: #e0e8f0; }
+}
+
+@media (max-width: 700px) {
+  .poster-example-row {
+    grid-template-columns: 1fr;
+  }
+  .image-col {
+    order: -1;
+  }
+  .prompt-mobile-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .prompt-mobile-bar .copy-btn {
+    margin-top: 0;
+  }
+  .prompt-desktop-copy {
+    display: none;
+  }
+}
+
+@media (min-width: 701px) {
+  .prompt-expandable[hidden] {
+    display: block !important;
+  }
 }
 
 .copy-btn {
@@ -179,6 +222,44 @@
 
   &:hover .card-name {
     text-decoration: underline;
+  }
+}
+
+.style-nav {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  .style-nav-up {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+  }
+
+  .style-nav-prevnext {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .style-nav-prev,
+  .style-nav-next {
+    max-width: 45%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .style-nav-next {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .style-nav-placeholder {
+    flex: 1;
   }
 }
 
