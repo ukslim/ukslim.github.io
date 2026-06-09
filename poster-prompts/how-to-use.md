@@ -11,7 +11,7 @@ Each style page has two ready-made prompts — one for a village fête, one for 
 3. Edit the event details — name, date, venue, attractions — to match your actual event
 4. Generate, review, and iterate
 
-Sometimes ChatGPT will respond with text describing what it *would* do rather than actually generating an image. If that happens, either click the edit icon on your message and resubmit it, or just follow up with: **Do it**
+Sometimes ChatGPT will respond with text describing what it _would_ do rather than actually generating an image. If that happens, either click the edit icon on your message and resubmit it, or just follow up with: **Do it**
 
 You don't need to use the full prompt verbatim. Cut anything that doesn't fit, or add details that do.
 
@@ -25,7 +25,7 @@ It's good at catching omissions: a missing day of the week, a vague venue name, 
 
 ## Sepia, fading, and "antique" effects
 
-Historical styles — Art Nouveau, Art Deco, Constructivist, and so on — can trigger the AI's instinct to make the image look *old*: sepia-tinted, faded, foxed, as if photographed from a century-old original. That's usually not what you want.
+Historical styles — Art Nouveau, Art Deco, Constructivist, and so on — can trigger the AI's instinct to make the image look _old_: sepia-tinted, faded, foxed, as if photographed from a century-old original. That's usually not what you want.
 
 If this happens, add one or more of these to your prompt:
 
@@ -40,7 +40,7 @@ For styles where muted tones are intentional (Arts and Crafts, Cubist, some Surr
 
 ## Inappropriate or awkward imagery
 
-The AI makes things up. If your prompt mentions a band, a town, or a venue, expect it to *invent* what those look like — realistic-looking photographs of people who don't exist, plausible-sounding maps of places that aren't real, street scenes of fictional towns.
+The AI makes things up. If your prompt mentions a band, a town, or a venue, expect it to _invent_ what those look like — realistic-looking photographs of people who don't exist, plausible-sounding maps of places that aren't real, street scenes of fictional towns.
 
 A few ways to deal with this:
 
@@ -54,7 +54,7 @@ A few ways to deal with this:
 
 **Supply a reference image.** In ChatGPT you can upload an image alongside your prompt. Upload a photo of your band, your venue, or your town and ask the AI to use it as a reference rather than inventing its own.
 
-**Post-edit.** Generate the poster as a decorative background and graphic treatment, then add your own text, photographs, and real content on top using Canva, Photoshop, or any basic image editor. The AI-generated part becomes the *style* layer; your real content sits on top.
+**Post-edit.** Generate the poster as a decorative background and graphic treatment, then add your own text, photographs, and real content on top using Canva, Photoshop, or any basic image editor. The AI-generated part becomes the _style_ layer; your real content sits on top.
 
 ---
 
@@ -80,6 +80,14 @@ If you're refining a result, keep your changes small — one adjustment at a tim
 
 **Look at the result carefully.** The examples on this site are mostly the first image that came out of ChatGPT — good enough to illustrate a style, but not necessarily ready to print. For a real poster, zoom in and check: is the text legible and correct? Does anyone have a third arm, a violin bow growing from their elbow, or fingers that don't add up? AI image generation has characteristic failure modes, and they're easy to miss at a glance. Reject and regenerate rather than hoping nobody notices.
 
+**Think about honesty.** Sometime an illustration is just a pretty picture. But sometimes an illustration makes promises the event can't keep.
+If your fête won't have a big striped marquee with bunting, your poster shouldn't show one. If your poster shows someone eating candy floss,
+your event had better sell candy floss. If your event takes place in community library full of modern furniture, your poster shouldn't show a
+Harry Potter oak-panelled library. If your even takes place near a church with a steeple, don't depict a church with a square belfry. Even if
+your event does feature a big wheel, don't depict a forty metre wheel if the real thing will be small.
+
+AI will invent these falsehoods for you if you don't rein it in.
+
 **Ask the AI to review the result too.** Before you declare it done, ask:
 
 > Is this ready to print and display in the library or corner shop?
@@ -102,7 +110,7 @@ The prompts here are structured to be reliable and transferable. Your own prompt
 
 ## Consider making it yourself
 
-A human-made poster, even a modest one, is almost always more distinctive than an AI-generated one. AI image generation is good at plausible. It is less good at *yours*.
+A human-made poster, even a modest one, is almost always more distinctive than an AI-generated one. AI image generation is good at plausible. It is less good at _yours_.
 
 If you have any interest in design tools — Canva, Affinity, even PowerPoint — it is worth spending an afternoon on something handmade. You will be able to use your actual photographs, your actual fonts, your actual colours. You will be able to move things around until they look right rather than hoping the next generation is the one. And the result will be unambiguously, unmistakably yours.
 
