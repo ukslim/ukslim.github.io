@@ -15,6 +15,12 @@ Sometimes ChatGPT will respond with text describing what it *would* do rather th
 
 You don't need to use the full prompt verbatim. Cut anything that doesn't fit, or add details that do.
 
+**Check your event description before generating.** The example events — a village fête and a music gig — are deliberately written with everything a poster reader needs: what, where, when (including the day of the week), and any other key information. Before you generate, ask the AI to review your own event details:
+
+> Does this event description include all the information someone would need? Is anything missing or ambiguous?
+
+It's good at catching omissions: a missing day of the week, a vague venue name, a time that's implied but not stated.
+
 ---
 
 ## Sepia, fading, and "antique" effects
@@ -72,6 +78,14 @@ No two generations are identical. If your first result is disappointing, try aga
 
 If you're refining a result, keep your changes small — one adjustment at a time — so you know what's working.
 
+**Look at the result carefully.** The examples on this site are mostly the first image that came out of ChatGPT — good enough to illustrate a style, but not necessarily ready to print. For a real poster, zoom in and check: is the text legible and correct? Does anyone have a third arm, a violin bow growing from their elbow, or fingers that don't add up? AI image generation has characteristic failure modes, and they're easy to miss at a glance. Reject and regenerate rather than hoping nobody notices.
+
+**Ask the AI to review the result too.** Before you declare it done, ask:
+
+> Is this ready to print and display in the library or corner shop?
+
+It will flag obvious problems — illegible text, a date that got garbled, a layout that wouldn't survive being scaled up to A3.
+
 **Free-tier users:** AI image generation quotas are real. Free accounts typically allow a small number of image generations per day. If you're making a poster for an actual event, don't leave this to the night before — start a few days ahead in case you need more attempts than your daily allowance allows, or in case you need to wait for your quota to reset.
 
 Paid tiers (ChatGPT Plus, Pro, or equivalents elsewhere) have higher limits but are still not unlimited, particularly for image generation. If you're generating large numbers of images in one session, pace yourself.
@@ -93,3 +107,9 @@ A human-made poster, even a modest one, is almost always more distinctive than a
 If you have any interest in design tools — Canva, Affinity, even PowerPoint — it is worth spending an afternoon on something handmade. You will be able to use your actual photographs, your actual fonts, your actual colours. You will be able to move things around until they look right rather than hoping the next generation is the one. And the result will be unambiguously, unmistakably yours.
 
 This site exists because AI posters are often ugly and repetitive, and they don't have to be. But the best reason they don't have to be is that you could just make one.
+
+---
+
+## Did this help?
+
+If these prompts were useful for a real event, I'd love to hear about it — and see the poster you made. Find me on [Bluesky](https://bsky.app/profile/ere-i-am-jh.bsky.social).
