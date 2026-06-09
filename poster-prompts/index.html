@@ -5,7 +5,7 @@ permalink: /poster-prompts/
 ---
 
 <p>
-  Fifty design styles as copy-paste prompts for ChatGPT image generation. Each
+  One hundred design styles as copy-paste prompts for ChatGPT image generation. Each
   page shows the prompt alongside an example of what it produces — for two
   events: a village fête and a music gig.
 </p>
@@ -38,8 +38,8 @@ site.data.poster_styles.categories[cat] %}
       src="/assets/poster-thumbnails/{{ style.id }}-fete.jpg"
       alt="{{ style.name }}"
       onerror="
-        this.onerror = null;
-        this.src = '/assets/poster-thumbnails/placeholder.jpg';
+        if (this.dataset.tried) { this.onerror=null; this.src='/assets/poster-thumbnails/placeholder.jpg'; }
+        else { this.dataset.tried='1'; this.src='/assets/poster-examples/{{ style.id }}-fete.png'; }
       "
     />
     <span class="card-name">{{ style.name }}</span>

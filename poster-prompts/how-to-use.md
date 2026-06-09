@@ -11,7 +11,11 @@ Each style page has two ready-made prompts — one for a village fête, one for 
 3. Edit the event details — name, date, venue, attractions — to match your actual event
 4. Generate, review, and iterate
 
-Sometimes ChatGPT will respond with text describing what it _would_ do rather than actually generating an image. If that happens, either click the edit icon on your message and resubmit it, or just follow up with: **Do it**
+Sometimes ChatGPT will respond with text describing what it _would_ do rather than actually generating an image. Before you tell it to get on with it, read what it says — this is a free look at its interpretation of your prompt before any quota is spent. If the description mentions something you don't want (a colour scheme that sounds wrong, a compositional choice that won't work, a subject it has misunderstood), now is the best time to correct it:
+
+> Actually, make the background dark rather than light. And no figures — just typography and geometric shapes.
+
+Once you're happy with the direction, follow up with: **Do it** — or edit and resubmit your original message if you'd rather start fresh.
 
 You don't need to use the full prompt verbatim. Cut anything that doesn't fit, or add details that do.
 
@@ -102,7 +106,7 @@ Paid tiers (ChatGPT Plus, Pro, or equivalents elsewhere) have higher limits but 
 
 ## Have your own ideas
 
-Fifty styles is not an exhaustive list. It is a starting point and a demonstration that the space is larger than the default. If you know what you want — a style, a reference, an artist, a decade, a vibe — just ask for it directly. You don't need this catalogue to tell you that Saul Bass posters exist, or that you liked the look of something you saw last week, or that you want something that feels like a 1970s Soviet children's book. Describe what you're after and see what happens.
+One hundred styles is not an exhaustive list. It is a starting point and a demonstration that the space is larger than the default. If you know what you want — a style, a reference, an artist, a decade, a vibe — just ask for it directly. You don't need this catalogue to tell you that Saul Bass posters exist, or that you liked the look of something you saw last week, or that you want something that feels like a 1970s Soviet children's book. Describe what you're after and see what happens.
 
 The prompts here are structured to be reliable and transferable. Your own prompt, written for your specific event with your specific taste, will probably be better.
 

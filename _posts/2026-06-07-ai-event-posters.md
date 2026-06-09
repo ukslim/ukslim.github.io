@@ -276,5 +276,5 @@ that can't be edited. Claude and Gemini can generate HTML, PNG, PDF,
 where the text is real text, layers are real layers, you can change fonts,
 move things around, edit the text -- but that's more than I want to talk about today.
 
-Inspired by this blog post, I went on to make a [catalogue of fifty poster styles](/poster-prompts/),
+Inspired by this blog post, I went on to make a [catalogue of one hundred poster styles](/poster-prompts/),
 with ready-to-paste prompts and example images for each one.

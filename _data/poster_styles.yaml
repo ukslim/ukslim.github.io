@@ -2,7 +2,7 @@ version: 1
 
 meta:
   purpose: Poster style catalogue for AI prompt generation
-  target_count: 50
+  target_count: 100
   blog_post: _posts/2026-06-07-ai-event-posters.md
   sources:
     dk_design: "Design: The Definitive Visual History (DK)"
@@ -1713,3 +1713,2023 @@ styles:
       - airbrush effects
     poster_framing: Contemporary design agency poster — specify a distinct palette and subject
     caution: Highest slop risk — must specify what NOT to do using avoid_defaults
+
+  # --- design_history (additions) ---
+
+  - id: vienna_secession
+    name: Vienna Secession
+    category: design_history
+    era: 1897–1914
+    dk_source:
+      design_chapter: Art Nouveau
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Klimt, Hoffmann, and Olbrich's revolt against academic historicism — where
+      Art Nouveau's organic curves meet architectural geometry. Rectilinear gold
+      frames enclose stylised natural motifs; the result is more symmetrical and
+      structural than French Art Nouveau, with a jewelled, almost hieratic quality.
+    visual_traits:
+      - rectilinear grid frames containing organic or figurative motifs
+      - gold leaf or metallic gold as a primary design element
+      - stylised geometric flower heads — squares within circles
+      - high-contrast black and white with gold and muted colour accents
+      - bilateral symmetry with decorative insets
+    typography:
+      - tall roman capitals with geometric construction
+      - lettering integrated into ornamental bands
+      - text in clearly demarcated rectangular zones
+    palette: black, white, gold, grey-violet, muted rose, deep teal
+    layout: symmetrical vertical composition; architectural frame contains central image
+    mood: jewelled, solemn, art-as-religion, Wien 1900
+    references:
+      - Gustav Klimt
+      - Josef Hoffmann
+      - Koloman Moser
+      - Ver Sacrum magazine
+    avoid:
+      - flowing naturalistic curves of French Art Nouveau
+      - pastel softness
+      - craft-fair warmth
+      - artificial yellowing or ageing
+    poster_framing: Vienna Secession exhibition poster — architectural ornament enclosing a symbolic or figurative image
+    caution: null
+
+  - id: glasgow_style
+    name: Glasgow Style
+    category: design_history
+    era: 1893–1913
+    dk_source:
+      design_chapter: Art Nouveau
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Charles Rennie Mackintosh and the Glasgow Four developed an aesthetic that
+      shares Art Nouveau's organic sensibility but replaces its lush naturalism
+      with severe verticals, elongated figures, and a cooler, more architectural
+      restraint. The rose motif, attenuated forms, and high-contrast palette make
+      it immediately distinguishable from its continental cousins.
+    visual_traits:
+      - extreme vertical emphasis — tall narrow compositions
+      - elongated attenuated human figures or organic forms
+      - stylised rose or abstract floral motif
+      - strong black outlines on white with limited colour
+      - grid insets and square decorative elements
+    typography:
+      - tall roman letterforms with fine strokes
+      - lettering integrated into vertical decorative bands
+      - restrained, small, and precisely placed
+    palette: black, white, rose pink, grey-purple, silver-green
+    layout: tall narrow format; vertical stacking of ornamental zones
+    mood: cool, austere, mystical, Northern European
+    references:
+      - Charles Rennie Mackintosh
+      - Margaret Macdonald
+      - Frances Macdonald
+      - Herbert McNair
+    avoid:
+      - warm naturalistic organic curves of French Art Nouveau
+      - gold and jewelled richness of Vienna Secession
+      - craft-fair pastels
+      - artificial yellowing or ageing
+    poster_framing: Glasgow School of Art exhibition poster — severe vertical ornament with attenuated figures
+    caution: null
+
+  - id: push_pin_studios
+    name: Push Pin Studios
+    category: design_history
+    era: 1954–1990s
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Milton Glaser's defining technique: a flat black silhouette of a figure or
+      profile, with hair or background filled by swirling Art Nouveau organic
+      patterns in flat, non-gradient colour areas. Think of his 1966 Bob Dylan
+      poster — solid black bust, psychedelic swirling multicolour hair, pure flat
+      colour blocks. Seymour Chwast contributed a complementary woodcut-influenced
+      style: bold distorted historical pastiche, heavy outlines, primary colours,
+      Victorian imagery made strange. Together: Pop Art flatness + Art Nouveau
+      ornament + hand-lettering, always with illustrative wit.
+    visual_traits:
+      - flat black silhouette of figure or portrait profile as primary element
+      - hair, clothing, or background filled with swirling Art Nouveau line patterns
+      - all colour areas flat — no gradient, no shading, no blending
+      - strong black outline defining every form
+      - limited palette of vivid flat colours — typically three to five
+    typography:
+      - hand-lettered display type with personality — not a digital font
+      - lettering integrated into the image, not set beneath it separately
+      - letterforms may use Art Nouveau curves or bold woodcut weight
+    palette: flat vivid — deep cobalt, vermillion, lime green, gold, black; pure Pop Art colour blocking
+    layout: dominant flat silhouette figure; decorative pattern fill; hand-lettered title woven in
+    mood: witty, graphic, culturally literate — Pop Art meets Art Nouveau meets folk illustration
+    references:
+      - Milton Glaser — Bob Dylan poster (1966)
+      - Milton Glaser — Aretha Franklin portrait posters
+      - Seymour Chwast
+      - Push Pin Monthly Graphic
+    avoid:
+      - photorealistic illustration or airbrush rendering
+      - gradient or blended colour anywhere
+      - generic corporate vector illustration
+      - Swiss-style grid
+      - artificial yellowing or ageing
+    poster_framing: 1960s–70s New York cultural event poster — flat black silhouette figure with swirling patterned fill and hand-lettered title
+    caution: If the output looks like generic illustrated poster work, push harder — specify "flat black silhouette profile, Art Nouveau swirling hair pattern, pure flat colour blocking, no gradients, in the style of Milton Glaser's 1966 Bob Dylan poster"
+
+  - id: new_wave_typography
+    name: New Wave Typography
+    category: design_history
+    era: 1976–1990
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Wolfgang Weingart's Basel experiments and April Greiman's California work
+      broke the Swiss grid without abandoning its rigour. Columns are shattered
+      and layered; photographic fragments overlap with geometric forms; halftone
+      screens become decorative texture. Hybrid analog-digital, it announced that
+      the rules had been understood and could now be broken intelligently.
+    visual_traits:
+      - fragmented overlapping grid columns
+      - photographic elements combined with type and geometry
+      - halftone dot screens used as visual texture
+      - text blocks at angles cutting across the composition
+      - layered transparent elements creating depth
+    typography:
+      - Swiss grotesques used at unexpected scales and angles
+      - letter-spacing pushed wide or tight for effect
+      - mixed weights creating rhythm across the page
+    palette: black, white, warm grey; one or two strong accent colours — red, yellow, or blue
+    layout: multi-layered — no single reading order; the eye is directed across planes
+    mood: intellectual, experimental, proto-digital, knowing
+    references:
+      - Wolfgang Weingart
+      - April Greiman
+      - Dan Friedman
+    avoid:
+      - clean Swiss orthodoxy
+      - decorative illustration
+      - craft-fair aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Late-1980s design school or cultural event poster in New Wave experimental style
+    caution: null
+
+  - id: grunge_typography
+    name: Grunge Typography
+    category: design_history
+    era: 1990–1998
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      David Carson at Beach Culture and Ray Gun magazine made illegibility a
+      legitimate aesthetic position. Type is set in damaged, wrong, or distorted
+      fonts; images are blurred, scratched, or printed over with text; the
+      conventional hierarchy of headline and body is abandoned in favour of
+      emotional rawness. Anti-design, but only possible because its practitioners
+      knew exactly what they were destroying.
+    visual_traits:
+      - damaged or distorted typefaces
+      - text overprinting images or running off the edge
+      - torn paper, scratched film, or photocopied textures
+      - no clear typographic hierarchy
+      - image and text compete for the same space
+    typography:
+      - fonts used wrongly — backwards, upside down, corrupted
+      - extreme tracking extremes — either very tight or very loose
+      - body text set in display faces or vice versa
+    palette: black, white, and photographic tones; occasional crude colour
+    layout: anti-hierarchical; elements crash into each other
+    mood: raw, emotional, anti-establishment, surf-and-skate literate
+    references:
+      - David Carson
+      - Ray Gun magazine
+      - Ed Fella
+    avoid:
+      - Swiss-style order
+      - clean digital polish
+      - craft-fair aesthetics
+      - artificial yellowing or ageing
+    poster_framing: 1990s alternative music or culture event flyer rejecting design convention
+    caution: Legibility suffers by design — keep event essentials findable despite the chaos
+
+  - id: neon_sign
+    name: Neon Sign / Diner Americana
+    category: design_history
+    era: 1930s–1970s
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The American roadside tradition of neon-lit diners, motels, bowling alleys,
+      and drive-ins produced a distinctive visual language: glowing outlined
+      letterforms on a dark ground, with the specific luminous halo that neon
+      tubing creates. Las Vegas, Route 66, the mid-century American commercial
+      landscape — signs that had to be legible at night from a moving car, made
+      beautiful by the physics of excited gas in glass.
+    visual_traits:
+      - glowing letterforms with a soft neon halo effect on dark background
+      - outlined tube-style lettering suggesting bent glass tubing
+      - dark ground — deep blue-black or near-black
+      - vivid saturated colour: hot pink, electric blue, yellow-white, red
+      - arrows, stars, or simple geometric motifs as secondary neon elements
+    typography:
+      - script or rounded display letterforms evoking hand-bent neon tube
+      - outlined rather than solid — the tube is the stroke, not a fill
+      - generous letter spacing to suggest physical tube construction
+    palette: deep blue-black ground; neon pink, electric blue, acid yellow, warm white glow
+    layout: dominant illuminated headline; secondary neon motif; dark field surrounding
+    mood: nocturnal, American roadside, retro-glamorous, warmly commercial
+    references:
+      - American neon sign tradition
+      - Las Vegas vintage signage
+      - Route 66 roadside commercial aesthetics
+      - Young Electric Sign Company (YESCO)
+    avoid:
+      - daylight or bright white backgrounds
+      - flat colour without glow
+      - hand-crafted or artisanal warmth
+      - artificial yellowing or ageing
+    poster_framing: Evening or night event poster as a glowing neon roadside sign
+    caution: null
+
+  # --- art_movement_poster (additions) ---
+
+  - id: suprematism
+    name: Suprematism
+    category: art_movement_poster
+    era: 1915–1925
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Kazimir Malevich's declaration that painting could exist entirely without
+      objects. Pure geometric shapes — squares, rectangles, circles, crosses —
+      float against white in compositions that suggest movement, gravity, and
+      spatial tension without depicting anything. The palette is almost entirely
+      black, red, and white. There is no metaphor; only sensation.
+    visual_traits:
+      - basic geometric forms — square, rectangle, circle, cross, diagonal bar
+      - shapes float against a white or off-white ground
+      - implied movement through rotation and diagonal placement
+      - forms overlap or cluster to create compositional weight
+      - absolutely no representational imagery
+    typography:
+      - minimal — a single sans-serif word or numeral if needed
+      - text treated as a geometric form, not decoration
+    palette: black, red, white; very occasionally a muted grey or blue-grey
+    layout: asymmetric arrangement of floating forms; generous white space
+    mood: pure, radical, weightless, intellectual
+    references:
+      - Kazimir Malevich
+      - Black Square (1915)
+      - UNOVIS group
+    avoid:
+      - representation of objects, figures, or landscapes
+      - decorative detail
+      - gradient or shadow
+      - artificial yellowing or ageing
+    poster_framing: Exhibition announcement in Suprematist style — geometric forms as pure visual event
+    caution: null
+
+  - id: vorticism
+    name: Vorticism
+    category: art_movement_poster
+    era: 1914–1920
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Britain's most aggressive avant-garde movement, launched in the magazine
+      BLAST. Angular, wedge-like machine forms radiate from central vortices;
+      everything is triangular, jagged, and compressed. Related to both Futurism
+      and Cubism but colder — the aesthetic of industrial cities and mechanical
+      warfare rather than speed for its own sake.
+    visual_traits:
+      - diagonal wedge and triangle forms radiating from a centre
+      - compressed overlapping angular planes
+      - harsh black-and-white contrast with minimal colour
+      - machine-like interlocking shapes suggesting force
+      - no organic curves anywhere
+    typography:
+      - heavy angular block letterforms
+      - bold condensed sans-serif
+      - text treated as a geometric wedge within the composition
+    palette: black, white; sharp red or yellow as single accent
+    layout: radiating centrifugal composition; energy pushes outward from centre
+    mood: aggressive, mechanical, uncompromising, industrial
+    references:
+      - Wyndham Lewis
+      - BLAST magazine
+      - David Bomberg
+      - Christopher Nevinson
+    avoid:
+      - organic curves or naturalistic forms
+      - soft Futurist motion blur
+      - pastel colour
+      - artificial yellowing or ageing
+    poster_framing: 1914 avant-garde manifesto poster for a cultural or industrial event
+    caution: null
+
+  - id: neue_sachlichkeit
+    name: Neue Sachlichkeit / New Objectivity
+    category: art_movement_poster
+    era: 1920s–1930s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Weimar Germany's sober, unsentimental answer to Expressionist distortion.
+      John Heartfield's photomontages dissected capitalists and fascists with
+      surgical precision; George Grosz and Otto Dix observed the damaged city
+      without flinching. As a poster aesthetic: harsh documentary realism,
+      photographic collage, and the visual grammar of political emergency.
+    visual_traits:
+      - photomontage combining photographs with drawn or typographic elements
+      - harsh realistic rendering without idealism
+      - dramatic cropping and scale contrast between elements
+      - photographic figures placed against flat colour fields
+      - visible collage seams used expressively
+    typography:
+      - bold block sans-serif in German grotesque tradition
+      - text used as slogans integrated into the image
+      - tight uppercase headlines
+    palette: black, white, photographic grey tones; deep red as political accent
+    layout: photomontage dominates; text cuts across or anchors the composition
+    mood: urgent, critical, politically charged, documentary
+    references:
+      - John Heartfield
+      - George Grosz
+      - Otto Dix
+      - AIZ magazine
+    avoid:
+      - Expressionist distortion or emotional exaggeration
+      - decorative ornament
+      - craft-fair warmth
+      - artificial yellowing or ageing
+    poster_framing: 1930s political or social-commentary poster in Weimar photomontage style
+    caution: Political content — frame as historical aesthetic; use for events with clear non-partisan framing
+
+  - id: orphism
+    name: Orphism / Simultanism
+    category: art_movement_poster
+    era: 1912–1920s
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Robert and Sonia Delaunay discovered that adjacent complementary colours
+      create optical vibration — simultaneous contrast — without needing any
+      depicted subject. Circular prismatic forms, rainbow colour progressions,
+      and the idea that colour rhythm alone can carry movement and emotion. Joyful
+      and mathematically exact at the same time.
+    visual_traits:
+      - circular or arc forms arranged in prismatic progressions
+      - pure spectral colours used in adjacent complementary pairs
+      - colour rhythms suggesting rotation and movement
+      - no representational subject — colour is the entire content
+      - overlapping colour discs or wedges creating optical vibration
+    typography:
+      - minimal text, integrated as a colour block
+      - clean geometric sans-serif if used at all
+    palette: full spectrum — red, orange, yellow, green, blue, violet in adjacent complementary arrangement
+    layout: centred radial composition; colour progression from warm centre to cool edge or vice versa
+    mood: joyful, energetic, musical, rigorously playful
+    references:
+      - Robert Delaunay
+      - Sonia Delaunay
+      - Simultaneous Contrasts (1913)
+    avoid:
+      - representational imagery
+      - dark or sombre tones
+      - decorative ornament
+      - artificial yellowing or ageing
+    poster_framing: Exhibition or concert poster as pure colour composition — Orphist simultaneous contrasts
+    caution: null
+
+  - id: concrete_art
+    name: Concrete Art
+    category: art_movement_poster
+    era: 1930s–1970s
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Max Bill and Richard Paul Lohse in Switzerland pursued an art whose only
+      subject was its own formal structure. Colour progressions move through
+      systematic permutations; grids organise space with mathematical exactitude.
+      No metaphor, no expression, no illusion — the form is the complete content.
+      Concrete Art directly fed Swiss graphic design; it looks like graphic design
+      but refuses to communicate anything except its own order.
+    visual_traits:
+      - systematic colour progressions — sequential hue or value shifts
+      - grid-based composition with mathematical subdivision
+      - geometric forms that are exactly what they are — no symbolic meaning
+      - each element repeated or permuted according to a visible rule
+      - white space used as a structural element, not just background
+    typography:
+      - minimal — a title and artist name in small neutral sans-serif
+      - text occupies a defined grid zone and does not compete with image
+    palette: systematic sequences — not arbitrary; often full spectrum in ordered steps
+    layout: grid subdivisions revealing a visual series or progression
+    mood: intellectual, precise, quietly radical, mathematically beautiful
+    references:
+      - Max Bill
+      - Richard Paul Lohse
+      - Camille Graeser
+      - Verena Loewensberg
+    avoid:
+      - subjective expression or gestural marks
+      - decorative or symbolic imagery
+      - arbitrary colour choices
+      - artificial yellowing or ageing
+    poster_framing: Gallery exhibition announcement — the poster itself is a Concrete Art work
+    caution: null
+
+  - id: cobra
+    name: CoBrA
+    category: art_movement_poster
+    era: 1948–1951
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Artists from Copenhagen, Brussels, and Amsterdam — Karel Appel, Asger Jorn,
+      Constant — reacted against post-war rationalism with expressive imagery
+      drawn from Nordic myth, folk art, and raw gesture. Figures look simultaneously
+      like children's drawings and ancient cave paintings; colour is vivid and
+      unmodulated; the brushwork is urgent and physical. Short-lived but intensely
+      distinctive.
+    visual_traits:
+      - childlike or mythic figures with bold outlines
+      - vivid flat or semi-flat colour applied with visible energy
+      - heavy gestural line that defines form expressively
+      - animal, mask, and totemic imagery
+      - composition without Western academic perspective
+    typography:
+      - hand-painted or roughly stencilled title
+      - text integrated into the image rather than set formally
+    palette: vivid unmodulated colours — cobalt, vermillion, ochre, viridian, black, white
+    layout: figure or figures filling the field; text in a bold painted band
+    mood: raw, mythic, child-like vigour, post-war energy, Nordic
+    references:
+      - Karel Appel
+      - Asger Jorn
+      - Constant
+      - Pierre Alechinsky
+    avoid:
+      - Swiss or Bauhaus rational geometry
+      - photographic realism
+      - decorative polish
+      - artificial yellowing or ageing
+    poster_framing: 1950s avant-garde exhibition poster — painted with the urgency of the movement itself
+    caution: null
+
+  # --- print_process (additions) ---
+
+  - id: cyanotype
+    name: Cyanotype / Blueprint
+    category: print_process
+    era: 1842–present
+    dk_source:
+      design_chapter: null
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Anna Atkins's botanical photograms established the cyanotype aesthetic:
+      Prussian blue ground with white silhouettes of objects placed directly on
+      light-sensitive paper. The blueprint evolved for architectural and engineering
+      drawings but shares the same high-contrast, ghostly quality — precise detail
+      rendered as white absence within an intense blue field.
+    visual_traits:
+      - deep Prussian blue ground
+      - subject rendered as white silhouette or fine white line
+      - high contrast with no mid-tones
+      - delicate fine detail in white against blue
+      - slight halo or soft edge where light has scattered
+    typography:
+      - white text on blue ground — stencil or fine technical lettering
+      - engineering-drawing annotation style
+    palette: Prussian blue and white only; occasional very pale blue for mid-tones
+    layout: specimen or object centred on blue field; technical text in margins or below
+    mood: scientific, ghostly, precise, quietly beautiful
+    references:
+      - Anna Atkins
+      - Botanical photogram tradition
+      - Architectural blueprint
+    avoid:
+      - warm colours of any kind
+      - photographic realism with tonal range
+      - decorative ornament
+      - artificial yellowing or ageing
+    poster_framing: Event poster as botanical or architectural cyanotype — subject as white silhouette on deep blue
+    caution: null
+
+  - id: penny_dreadful
+    name: Penny Dreadful / Sensation Novel Cover
+    category: print_process
+    era: 1840s–1890s
+    dk_source:
+      design_chapter: Arts and Crafts / 1850s
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Weekly penny serials and sensation novels sold on melodrama — their covers
+      delivered maximum shock in a single woodcut or engraved scene: a villain
+      looming over a swooning woman, a murder in a moonlit street, a figure
+      falling from a cliff. Black line engraving over a single garish tint —
+      typically red, green, or blue — on cheap paper. Everything is crisis,
+      everything is at its most extreme moment. The aesthetic of Victorian
+      popular culture before cinema existed to do the same job.
+    visual_traits:
+      - dramatic engraved scene at peak moment of crisis or villainy
+      - black line illustration over a single flat colour tint
+      - figures at extreme expressive angles — swooning, menacing, fleeing
+      - heavy black hatching for shadow areas
+      - moonlight, candlelight, or gaslight as a dramatic lighting source
+    typography:
+      - bold condensed woodtype headline screaming the title
+      - serif body type for price and issue number
+      - title often split across two lines for maximum impact
+    palette: black engraving on white with one garish tint — blood red, poison green, or gaslight blue
+    layout: full-bleed dramatic scene; title in bold band above; price and number below
+    mood: melodramatic, sensational, breathless, Victorian popular horror
+    references:
+      - Penny dreadful cover tradition
+      - Varney the Vampire (1847)
+      - Spring-Heeled Jack
+      - Victorian sensation novel covers
+    avoid:
+      - decorative ornamental borders
+      - multiple colours
+      - restrained good taste of any kind
+      - artificial yellowing or ageing
+    poster_framing: Event poster as a penny dreadful cover — the event subject rendered as Victorian melodramatic crisis
+    caution: Comic potential is high — this works best when the event subject is played up as dramatic
+
+  - id: etching_engraving
+    name: Etching / Engraving
+    category: print_process
+    era: 16th century–present
+    dk_source:
+      design_chapter: null
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      From Dürer to Piranesi to Hogarth, the intaglio tradition produces imagery
+      through dense systems of cross-hatched and parallel lines incised into metal.
+      Tonal gradients emerge entirely from mark density; shadow is accumulated line;
+      the line itself has a specific scratchy precision no brush or digital tool
+      replicates. Intimate in scale, extraordinarily detailed, and quietly authoritative.
+    visual_traits:
+      - fine cross-hatching and parallel lines building tonal gradients
+      - precise scratchy line quality suggesting a metal point
+      - high contrast with mid-tones achieved through line density
+      - detailed figurative or architectural imagery
+      - slight plate tone or aquatint ground optional
+    typography:
+      - formal engraved lettering — copperplate or roman capitals
+      - text in a below-image caption band, small and precise
+    palette: black ink on cream or warm white; sepia-toned variant for aquatint feeling
+    layout: central image occupying most of the field; formal caption below
+    mood: authoritative, detailed, historical, scholarly
+    references:
+      - Albrecht Dürer
+      - Giovanni Piranesi
+      - William Hogarth
+      - Engraving and etching tradition
+    avoid:
+      - flat vector simplification
+      - solid colour fills
+      - photographic realism
+      - artificial yellowing or ageing
+    poster_framing: Formal cultural or historical event announcement in engraved plate tradition
+    caution: null
+
+  - id: halftone_newsprint
+    name: Halftone / Newsprint
+    category: print_process
+    era: 1970s–1980s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      A British newspaper front page from the 1970s or 1980s — freshly printed,
+      white or very pale grey paper, before colour photography became standard.
+      The defining visual signature is exaggerated halftone dot screens: photos
+      resolve into large visible blobs of black ink, losing detail but gaining
+      graphic punch. Two variants: red-top tabloid (The Sun, Daily Mirror) with
+      a bold red masthead banner and screaming condensed headline; or broadsheet
+      (The Guardian, The Times) with a more formal column grid and restrained
+      typography. Pre-digital, pre-colour, pure black ink on white.
+    visual_traits:
+      - large exaggerated halftone dot screen — blobs not fine dots — over all photos
+      - photos read as high-contrast graphic patches, detail sacrificed to dot pattern
+      - white or very pale grey paper ground — freshly printed, not aged
+      - heavy black ink with slight spread into paper texture
+      - ruled column dividers and horizontal rules between stories
+    typography:
+      - tabloid variant — massive bold condensed sans headline, all-caps, urgent
+      - broadsheet variant — authoritative serif headline, mixed case, formal column grid
+      - standfirst in slightly smaller bold; body text in tight justified columns
+    palette: black ink on white; optional single red for masthead banner or drop capital only — no other colour
+    layout: masthead across full width at top; dominant photo with halftone screen; stacked headline and columns below
+    mood: urgent, journalistic, democratic, freshly inked, pre-digital Britain
+    references:
+      - British tabloid front page tradition — The Sun, Daily Mirror
+      - British broadsheet tradition — The Guardian, The Times
+      - 1970s–80s newspaper design
+    avoid:
+      - yellowed or aged paper — this is a freshly printed newspaper
+      - colour photography or colour ink other than a single red accent
+      - fine halftone dots — make them large and visible
+      - decorative illustration
+      - artificial yellowing or ageing
+    poster_framing: Event announcement as a newspaper front page — tabloid splash or broadsheet lead story
+    caution: Specify which variant — "red-top tabloid with red masthead banner" or "broadsheet with formal column grid" — to avoid a generic hybrid
+
+  - id: mimeograph
+    name: Mimeograph / Ditto Machine
+    category: print_process
+    era: 1920s–1980s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The ditto machine used a solvent to transfer waxy ink, producing copies in
+      a characteristic smudged purple-blue with slight ghosting and soft edges.
+      The mimeograph stencil allowed typed text and crude drawings on the same
+      sheet. Community newsletters, church bulletins, school handouts — the
+      aesthetic of limited resources, genuine local necessity, and democratic
+      self-publishing before desktop printing existed.
+    visual_traits:
+      - waxy smudged purple-blue or blue-grey ink
+      - slight ghosting or double-image on text and line work
+      - soft unfocused edges on drawn elements
+      - typewriter text combined with hand-drawn illustration
+      - visible stencil grain or texture
+    typography:
+      - typewriter monospace — typically Courier or Pica
+      - manual underlining and hand-added emphasis
+      - occasional hand-written annotation
+    palette: purple-blue or grey-blue on off-white paper
+    layout: informal; text and crude drawings sharing the page without strict hierarchy
+    mood: community, democratic, low-resource, pre-digital warmth
+    references:
+      - Mimeograph self-publishing tradition
+      - Community newsletter aesthetic
+      - Early zine culture
+    avoid:
+      - clean digital typography
+      - full-colour imagery
+      - corporate polish
+      - artificial yellowing or ageing
+    poster_framing: Community event notice run off on the church hall duplicating machine
+    caution: null
+
+  # --- niche_flyer (additions) ---
+
+  - id: cuban_ospaaal
+    name: Cuban OSPAAAL Revolutionary
+    category: niche_flyer
+    era: 1964–1985
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The Organisation of Solidarity with the Peoples of Africa, Asia and Latin
+      America produced posters that fused Constructivist directness with Caribbean
+      colour and revolutionary imagery. Designed to be folded into magazines and
+      distributed internationally, they are models of flat graphic power — bold
+      silhouettes, very limited palettes, and images of solidarity and resistance
+      made universal through simplicity.
+    visual_traits:
+      - flat bold silhouettes of figures, weapons, or symbols
+      - very limited palette — typically two colours plus black
+      - strong diagonal composition suggesting forward movement
+      - map or globe fragments suggesting international solidarity
+      - large simple shapes with fine detail only in faces or hands
+    typography:
+      - bold sans-serif in Spanish or English slogans
+      - text used sparingly — one headline and one attribution line
+      - large type integrated into the composition
+    palette: flat black, red, and one other — green, yellow, blue, or orange
+    layout: diagonal central figure or symbol; slogan across top or bottom
+    mood: urgent, internationalist, politically direct, graphic power
+    references:
+      - OSPAAAL poster tradition
+      - Alfredo Rostgaard
+      - Rafael Morante
+    avoid:
+      - photographic realism
+      - decorative ornament
+      - soft gradients
+      - artificial yellowing or ageing
+    poster_framing: Community solidarity or fundraising event poster in Cuban revolutionary graphic style
+    caution: Political connotations — works best for events with a genuine community or cause dimension
+
+  - id: atelier_populaire
+    name: Atelier Populaire / Paris May 1968
+    category: niche_flyer
+    era: 1968
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      When students occupied the École des Beaux-Arts in May 1968 they set up an
+      impromptu screenprint workshop. Posters were designed, printed, and distributed
+      within hours — crude, gestural, and urgently communicative. Large black figures,
+      immediate slogans, and the visible speed of collective production. No refinement,
+      no polish, maximum message. The most influential body of graphic design produced
+      in a single month.
+    visual_traits:
+      - large bold black figure or symbol on white or coloured ground
+      - gestural brush-drawn or stencil-cut illustration
+      - one-colour screenprint quality
+      - very simple composition — one image, one slogan
+      - visible roughness of rushed production
+    typography:
+      - hand-lettered or stencilled slogan
+      - large scale, minimal words
+      - integrated with the image rather than typeset beneath it
+    palette: black on white; or black on single flat colour — red, yellow, or cream
+    layout: single bold image with slogan — nothing else; no credits, no hierarchy
+    mood: urgent, collective, political immediacy, anti-authoritarian
+    references:
+      - Atelier Populaire
+      - Grapus (emerged from same tradition)
+      - Mai 68 poster collection
+    avoid:
+      - polished typesetting
+      - multiple colours
+      - decorative illustration
+      - artificial yellowing or ageing
+    poster_framing: Community campaign or cultural event poster with the urgency of the occupied print workshop
+    caution: Political aesthetic — most effective for events with a genuine collective or community spirit
+
+  - id: east_german_defa
+    name: East German DEFA Film Poster
+    category: niche_flyer
+    era: 1950s–1989
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The state film studio's poster tradition occupied a unique space between
+      Soviet Socialist Realism and Western European graphic design. Painterly
+      figurative illustration, rich chromatic colour, and a humanistic sensibility
+      that Soviet propaganda often lacked. The best examples are quietly strange —
+      a socialism that made room for melancholy, romance, and complexity.
+    visual_traits:
+      - painterly illustration combining realism with graphic simplification
+      - rich chromatic colour — saturated but not garish
+      - figurative composition with a strong emotional register
+      - faces and gestures carrying psychological weight
+      - layout combining illustration with bold typographic title
+    typography:
+      - bold East German grotesque sans-serif for film title
+      - clean hierarchical layout — title, then supporting cast and credits
+      - occasional hand-lettered accent
+    palette: deep blues, reds, and earthy tones; more varied and warmer than Soviet propaganda
+    layout: figurative illustration dominates upper two-thirds; bold title below
+    mood: humanistic, melancholic, socialist-romantic, quietly distinctive
+    references:
+      - DEFA film poster tradition
+      - East German graphic design
+    avoid:
+      - heroic Soviet propaganda posture
+      - Western commercial gloss
+      - flat vector simplification
+      - artificial yellowing or ageing
+    poster_framing: Cultural film screening or theatre event poster in DEFA painterly style
+    caution: null
+
+  - id: taisho_modern
+    name: Taisho Modern / Japanese 1920s
+    category: niche_flyer
+    era: 1912–1926
+    dk_source:
+      design_chapter: Art Deco
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The Taisho period saw Western modernism collide productively with Japanese
+      graphic traditions. Art Deco geometry and the moga/mobo (modern girl/modern
+      boy) glamour imagery appear alongside ukiyo-e compositional principles and
+      kaisho calligraphy. Department store posters and magazine covers developed
+      a hybrid visual language — neither Western nor traditionally Japanese, but
+      confidently both at once.
+    visual_traits:
+      - Art Deco geometry in composition and borders
+      - glamorous figure in hybrid Western-Japanese dress
+      - ukiyo-e-influenced flat colour areas and bold outline
+      - kaisho or mincho calligraphy alongside Roman type
+      - asymmetric composition balancing figure and text
+    typography:
+      - vertical Japanese text alongside horizontal Roman or kana
+      - bold geometric Art Deco headline treatment
+      - typefaces mixing Eastern and Western letterform traditions
+    palette: deep red, black, gold, cream; occasional teal or violet
+    layout: central glamorous figure; text in vertical and horizontal bands
+    mood: cosmopolitan, hybrid, modernising, confidently East-meets-West
+    references:
+      - Taisho era commercial poster tradition
+      - Takehisa Yumeji
+      - Japanese department store (depato) advertising
+    avoid:
+      - purely Western Art Deco without Japanese elements
+      - purely traditional Japanese without Western influence
+      - artificial yellowing or ageing
+    poster_framing: 1920s Tokyo cultural or commercial event poster — hybrid modernity
+    caution: null
+
+  - id: shanghai_yuefenpai
+    name: Shanghai Calendar Poster / Yuefenpai
+    category: niche_flyer
+    era: 1920s–1940s
+    dk_source:
+      design_chapter: Art Deco
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Commercial calendar posters from Republican China depicted glamorous women
+      in settings combining Western modernity with traditional Chinese dress and
+      décor. Saturated colour, Western perspective rendering, and aspirational
+      consumer framing created the visual language of Shanghai cosmopolitanism —
+      confident, hybrid, and sensual. Produced by foreign tobacco companies and
+      Chinese businesses alike.
+    visual_traits:
+      - glamorous female figure in Western or traditional Chinese dress
+      - Western perspective rendering with decorative Chinese elements
+      - saturated colour with careful tonal modelling of figure
+      - product or calendar grid element in corner or border
+      - flowers, fans, or decorative motifs framing the figure
+    typography:
+      - Chinese characters in elegant traditional script or bold modern form
+      - Roman type for Western-market variants
+      - decorative cartouche or banner for title
+    palette: rich saturated warm tones — rouge, jade green, gold, ivory, sky blue
+    layout: central standing or seated figure; decorative borders; calendar grid below
+    mood: aspirational, cosmopolitan, glamorous, Shanghai 1930s
+    references:
+      - Yuefenpai calendar poster tradition
+      - Hang Zhiying
+      - Republican China commercial art
+    avoid:
+      - revolutionary or political imagery
+      - austere modernism
+      - artificial yellowing or ageing
+    poster_framing: Event announcement in Shanghai Republican-era calendar poster style — glamorous and aspirational
+    caution: null
+
+  - id: festival_of_britain
+    name: Festival of Britain
+    category: niche_flyer
+    era: 1951
+    dk_source:
+      design_chapter: Mid-century modern
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The Festival Pattern Group developed decorative motifs based on crystal
+      structures and molecular diagrams — atomic-age optimism given physical form.
+      Abram Games' target poster for the Festival combined formal precision with
+      warm primary colour. Post-war Britain inventing a bright future from
+      scientific first principles: molecular models, festival typography, and
+      the confident sense that things would now get better.
+    visual_traits:
+      - molecular or crystalline pattern motifs derived from atomic diagrams
+      - Festival of Britain Britannia or compass-rose symbol
+      - bright primary colours with clean white ground
+      - mid-century modern graphic shapes — atoms, trajectories, abstract forms
+      - playful but precise — science made decorative
+    typography:
+      - clean Festival typography — geometric sans with humanist warmth
+      - mixed case, friendly scale contrasts
+      - clear hierarchical layout with optimistic tone
+    palette: red, white, blue, gold, bright green — British primary palette with optimism
+    layout: central symbolic or structural motif; clear typographic bands
+    mood: optimistic, post-war renewal, scientific wonder, British mid-century
+    references:
+      - Abram Games
+      - Festival Pattern Group
+      - Festival of Britain 1951
+    avoid:
+      - wartime austerity or drabness
+      - nostalgic tea-cosy Britishness
+      - craft-fair aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Community event poster celebrating local renewal in Festival of Britain spirit
+    caution: null
+
+  - id: brazilian_tropicalia
+    name: Brazilian Tropicália
+    category: niche_flyer
+    era: 1967–1972
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Rogério Duarte and the Tropicália movement merged Brazilian Concretism,
+      Pop Art, psychedelia, and indigenous imagery into a visual language of
+      radical syncretic joy. Caetano Veloso and Gilberto Gil's album covers define
+      the look: tropical colour, collage logic, and the simultaneous embrace and
+      critique of mass culture. Hallucinatory, political, and distinctly Brazilian.
+    visual_traits:
+      - tropical imagery — parrots, jungle, carnival — made psychedelic
+      - collage combining photography, colour fields, and drawn elements
+      - bold colour blocks with vibrant clashing combinations
+      - geometric Concretist elements alongside organic tropical forms
+      - pop culture references subverted or celebrated simultaneously
+    typography:
+      - bold graphic lettering mixing Portuguese and visual-music aesthetics
+      - type as a visual element within the collage
+      - occasional Art Nouveau-influenced lettering for ironic contrast
+    palette: tropical vivid — hot pink, lime green, orange, turquoise, yellow, deep violet
+    layout: collage logic — no single reading order; elements crowd and overlap
+    mood: psychedelic, political, carnivalesque, syncretic, joyfully subversive
+    references:
+      - Rogério Duarte
+      - Hélio Oiticica
+      - Tropicália movement
+      - Caetano Veloso album covers
+    avoid:
+      - pure European graphic design without Brazilian synthesis
+      - austere minimalism
+      - artificial yellowing or ageing
+    poster_framing: Cultural event or music festival poster in Brazilian Tropicália psychedelic-collage style
+    caution: null
+
+  - id: italian_futurist_typography
+    name: Italian Futurist Typography
+    category: niche_flyer
+    era: 1909–1944
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      Marinetti's parole in libertà (words in freedom) treated the printed page
+      as a battlefield where words move at different speeds. Text runs diagonally,
+      vertically, in expanding or contracting sizes; onomatopoeia becomes visual
+      sound; the white space around each word is part of the composition. This is
+      distinct from Futurism as an art movement — here typography itself is the
+      content, carrying velocity and noise in its physical arrangement.
+    visual_traits:
+      - words at multiple orientations — diagonal, vertical, radiating
+      - extreme size contrasts between words within a single composition
+      - onomatopoeia as visual object — BANG, RUMBLE, CRASH
+      - white space used dynamically as a field words move through
+      - no conventional reading order — the eye chases meaning
+    typography:
+      - mixed typefaces within a single work — grotesque, italic, bold, light
+      - text IS the image — no separate illustration
+      - direction of reading changes within a single line
+    palette: black and white principally; occasional red for emphatic words
+    layout: words scattered across the full field; centrifugal energy
+    mood: loud, kinetic, aggressive, speed-obsessed, noise made visible
+    references:
+      - F.T. Marinetti
+      - Zang Tumb Tumb (1914)
+      - Italian Futurist typography tradition
+    avoid:
+      - conventional horizontal reading order
+      - uniform type size or weight
+      - decorative illustration
+      - artificial yellowing or ageing
+    poster_framing: Futurist manifesto event announcement — the typography itself performs velocity
+    caution: Legibility suffers by design — keep event details in at least one legible cluster
+
+  - id: factory_records
+    name: Factory Records / Haçienda
+    category: niche_flyer
+    era: 1978–1992
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Peter Saville's design for Factory Records established an aesthetic of
+      elegant austerity: fine grid systems, restrained serif and sans-serif
+      dialogue, and a deliberate quality of cool remove. Joy Division's Unknown
+      Pleasures cover, New Order's Power Corruption and Lies — the graphic
+      language of post-industrial Manchester rendered with Bauhaus precision
+      and romantic melancholy. Beautiful, cold, and completely serious.
+    visual_traits:
+      - fine grid with careful proportional relationships
+      - restrained serif/sans dialogue — often a classical face with grotesque
+      - large areas of single colour — black, white, or one strong hue
+      - photography or abstract graphic used with almost no decoration
+      - catalogue numbering as design element (FAC numbers)
+    typography:
+      - precise sans-serif for functional information
+      - classical serif for title — understated, never shouty
+      - generous white space around type
+    palette: black, white, and one colour — often deep blue, grey, or green
+    layout: systematic grid; generous margins; information precisely located
+    mood: austere, romantic, post-industrial, elegantly melancholy
+    references:
+      - Peter Saville
+      - Factory Records
+      - Haçienda
+      - Joy Division / New Order
+    avoid:
+      - warmth or decorative detail
+      - clashing colours or busy composition
+      - craft-fair aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Music event or club night poster in Factory Records austere grid style
+    caution: null
+
+  - id: four_ad_records
+    name: 4AD Records
+    category: niche_flyer
+    era: 1980–2000s
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Vaughan Oliver and his studio 23 Envelope developed a visual language for
+      4AD that was unlike anything else in music packaging. Distressed photographic
+      textures, etched line drawings, gothic romanticism, and dreamlike collage —
+      the aesthetic of Cocteau Twins, This Mortal Coil, and Pixies. Ambiguous,
+      beautiful, slightly threatening, and entirely resistant to easy explanation.
+    visual_traits:
+      - distressed photographic texture as background or primary image
+      - etched or engraved line drawing overlaid on photography
+      - gothic romantic imagery — architecture, natural forms, decay
+      - dreamlike collage combining incompatible elements at wrong scales
+      - rich dark tones with areas of intense colour
+    typography:
+      - type used sparingly — band name often small or partially obscured
+      - delicate serif or custom letterforms
+      - text as texture rather than clear information
+    palette: dark — deep red, black, brown, bone white, occasional vivid green or blue
+    layout: image-led; text placed quietly within or below the dominant visual
+    mood: gothic romantic, dreamlike, beautiful darkness, underground
+    references:
+      - Vaughan Oliver
+      - 23 Envelope
+      - 4AD Records
+      - This Mortal Coil
+    avoid:
+      - clean Swiss clarity
+      - bright cheerful colours
+      - craft-fair aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Alternative music or arts event poster in 4AD gothic-romantic dreamlike style
+    caution: null
+
+  - id: heavy_metal_poster
+    name: Heavy Metal Concert Poster
+    category: niche_flyer
+    era: 1970s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The metal poster tradition draws on fantasy illustration, gothic lettering,
+      and a visual rhetoric of extreme imagery — skulls, flames, dragons, and
+      screaming figures. Roger Dean's impossible landscapes, Boris Vallejo's heroic
+      figures, and the lettering of Ed Benguiat twisted into thorned blackletter
+      all feed a genre that is genuinely its own visual world: maximalist, dark,
+      and proud to be too much.
+    visual_traits:
+      - skulls, dragons, flames, demons, or fantasy architecture as central image
+      - detailed figurative illustration with dramatic lighting
+      - blackletter or thorned gothic display type
+      - heavy dark background — black or deep purple-black
+      - fire or lightning as compositional elements
+    typography:
+      - blackletter gothic or custom thorned metal lettering
+      - band name enormous — often the dominant visual element
+      - support acts in smaller but still dramatic type
+    palette: black, deep red, orange flame, silver, bone white
+    layout: dramatic central image; band name across top or arched above; dates below
+    mood: dark, powerful, maximalist, earnestly epic
+    references:
+      - Roger Dean (Yes, Asia)
+      - Boris Vallejo
+      - Heavy metal album art tradition
+    avoid:
+      - pastel colours
+      - clean modernist minimalism
+      - ironic detachment
+      - artificial yellowing or ageing
+    poster_framing: Rock or metal gig poster — can work for village fête with ironic epic grandeur
+    caution: Tone may not suit all events — excellent for gigs, use with knowing humour for family events
+
+  - id: reggae_sound_system
+    name: Reggae / Sound System Flyer
+    category: niche_flyer
+    era: 1960s–1990s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Jamaican sound system culture and its UK diaspora successors produced
+      handmade or simply typeset flyers for dances advertised by word-of-mouth
+      and flyposted on walls. Bold hand-lettered or stencil-cut type, primary
+      colours in the red-gold-green Rastafarian palette, and an informal urgency
+      that reflected the culture it served — communal, warm, handmade.
+    visual_traits:
+      - bold hand-lettered or stencil type — no pretence of polish
+      - lion of Judah, map of Africa, or sound system speaker stack as imagery
+      - red, gold, and green as dominant palette with black
+      - event details stacked with emphasis on DJ and sound system names
+      - informal but confident layout
+    typography:
+      - hand-lettered or stencil-cut display type
+      - bold caps with outlines or drop shadows
+      - all information on equal footing — no clear typographic hierarchy
+    palette: red, gold, green, black — Rastafarian national colours
+    layout: informal stack; imagery and text share the field on equal terms
+    mood: warm, communal, roots, handmade, joyful
+    references:
+      - Jamaican sound system tradition
+      - UK dancehall flyer culture
+      - Notting Hill Carnival poster tradition
+    avoid:
+      - Swiss or corporate polish
+      - cold minimalism
+      - artificial yellowing or ageing
+    poster_framing: Community music event or outdoor dance flyer in sound system tradition
+    caution: null
+
+  - id: hip_hop_flyer
+    name: 80s NYC Hip Hop Flyer
+    category: niche_flyer
+    era: 1979–1995
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The block party and club flyer tradition of early hip hop used whatever
+      tools were available — photocopiers, colour Xerox, bubble graffiti lettering,
+      and eventually desktop publishing — to announce Saturday night. The format
+      is announcement-first: who, where, when, how much. Stacked bold type,
+      bubble letter headlines, and break-dancer silhouettes carry the culture's
+      energy with complete directness.
+    visual_traits:
+      - bubble graffiti lettering for headline or DJ name
+      - break-dancer or b-boy silhouette
+      - colour Xerox or photocopied quality
+      - bold stacked text announcing the event details
+      - boombox, vinyl record, or microphone as secondary motif
+    typography:
+      - bubble or throw-up graffiti style for key names
+      - bold condensed sans for supporting information
+      - hand-written elements alongside typeset text
+    palette: black, two or three vivid primaries — red, blue, yellow, orange; on white or bright ground
+    layout: headline bold at top; details stacked below; central break-dancer image
+    mood: direct, energetic, street-level, community-made
+    references:
+      - Bronx block party flyer tradition
+      - Early hip hop flyer culture
+      - Studio 54 and club flyer comparison
+    avoid:
+      - corporate polish
+      - Swiss grid
+      - pastel craft aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Music or outdoor community event flyer in early hip hop block party tradition
+    caution: null
+
+  - id: act_up_aids
+    name: ACT UP / AIDS Crisis Activism
+    category: niche_flyer
+    era: 1987–1995
+    dk_source:
+      design_chapter: Postmodern and Contemporary
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Gran Fury and the ACT UP design collective used stark visual confrontation
+      as political strategy. The Silence=Death pink triangle on black, the red
+      equals sign, aggressive bold sans-serif demands — information as weapon,
+      design as survival. Every element earns its place because lives depend on
+      it. The most morally purposeful graphic design tradition of the twentieth
+      century.
+    visual_traits:
+      - stark high-contrast — black ground with white or pink/red graphic element
+      - single powerful symbol — triangle, equals sign, red hand
+      - bold confrontational sans-serif statement
+      - no decorative elements — every mark is functional
+      - activist information hierarchy — demand first, detail below
+    typography:
+      - bold geometric sans-serif caps — clear, unambiguous, urgent
+      - minimal word count — maximum impact
+      - type treated as a weapon or a fact, never decoration
+    palette: black and one colour — hot pink, red, or white
+    layout: single symbol dominating field; statement below or across; stark margins
+    mood: urgent, confrontational, political, uncompromising, life-or-death
+    references:
+      - Gran Fury
+      - ACT UP
+      - Silence=Death Project
+    avoid:
+      - decorative elements of any kind
+      - warm pastel tones
+      - corporate polish
+      - artificial yellowing or ageing
+    poster_framing: Community campaign or fundraising event poster using the moral urgency of activist design
+    caution: Powerful aesthetic — most effective when the event genuinely serves a community need or cause
+
+  - id: blaxploitation
+    name: Blaxploitation Movie Poster
+    category: niche_flyer
+    era: 1971–1975
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Hand-painted movie poster illustration for films like Shaft, Super Fly, and
+      Foxy Brown combined dynamic action composition with the warm colour palette
+      of 1970s American commercial art. Afro silhouettes, leather coats, and urban
+      cityscapes — a visual language of Black cool, power, and style designed to
+      reach an audience Hollywood had long ignored. Proud, stylish, and kinetic.
+    visual_traits:
+      - dynamic painted figure in action pose — leaping, shooting, striding
+      - urban cityscape or dramatic background
+      - afro silhouette as a compositional anchor
+      - bold hand-painted title in impactful display lettering
+      - figures at diagonal angles creating energy
+    typography:
+      - bold display lettering — custom or heavy serif
+      - title treated as a graphic object, not just information
+      - supporting cast and credits in smaller but still bold type
+    palette: warm 1970s tones — burnt orange, rust, deep brown, cream, electric yellow
+    layout: full-bleed action illustration; title across upper portion; credits at base
+    mood: cool, powerful, kinetic, stylish, 70s urban
+    references:
+      - Shaft poster (1971)
+      - Foxy Brown (1974)
+      - Blaxploitation movie poster tradition
+    avoid:
+      - cold or muted colour
+      - static composition
+      - artificial yellowing or ageing
+    poster_framing: Music event or outdoor festival poster with the cool power of 70s Blaxploitation style
+    caution: null
+
+  - id: skateboard_graphics
+    name: Skateboard / Street Graphics
+    category: niche_flyer
+    era: 1980s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Jim Phillips' screaming hand logo, VCJ's Santa Cruz board graphics, and
+      Pushead's Thrasher illustrations established a visual vocabulary for
+      skateboarding: weird cartoon anatomy, eyeballs and skulls in psychedelic
+      settings, horror-comedy hybrids with heavy outline and vivid colour. The
+      graphic tradition of youth cultures that perform transgression as identity —
+      simultaneously menacing and absurd.
+    visual_traits:
+      - cartoon figures with anatomically wrong or exaggerated features
+      - skulls, eyeballs, dripping elements, claws, or screaming mouths
+      - heavy black outline on all forms
+      - vivid, saturated colours — often clashing
+      - psychedelic or surreal background elements
+    typography:
+      - custom display lettering with spiky or dripping modifications
+      - bold all-caps with outline or drop shadow
+      - graffiti-influenced letterforms
+    palette: vivid clashing — hot pink, lime, electric blue, orange, black
+    layout: central character or skull dominating; text around the figure
+    mood: transgressive, youth-culture, absurd-menacing, irreverent
+    references:
+      - Jim Phillips (Santa Cruz)
+      - VCJ — Vernon Courtlandt Johnson
+      - Pushead — Brian Schroeder
+      - Thrasher magazine
+    avoid:
+      - clean corporate illustration
+      - pastel or muted colours
+      - conventional poster hierarchy
+      - artificial yellowing or ageing
+    poster_framing: Youth event or skate-park opening in skateboard deck graphic tradition
+    caution: May not suit conservative audiences — excellent for youth-focused or alternative events
+
+  - id: north_korean_propaganda
+    name: North Korean Propaganda
+    category: niche_flyer
+    era: 1950s–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      DPRK visual culture takes socialist realism to a baroque extreme: idealized
+      workers, soldiers, and students surge toward a radiant socialist sunrise in
+      maximally saturated primary colour. The Mass Games aesthetic of collective
+      choreography has its poster analogue — individual expression is absent,
+      communal aspiration is total. Monumental, relentless, and visually unlike
+      anything else.
+    visual_traits:
+      - heroic forward-striding figures in idealized poses
+      - saturated primary colours — red, blue, yellow — maximally vivid
+      - rising sun, rockets, or crops as background motifs
+      - crowd scenes suggesting mass collective energy
+      - Juche tower or architectural monumentalism
+    typography:
+      - bold block Korean hangul script as dominant text
+      - banner-style slogans
+      - triumphant exclamation-marked text
+    palette: red, white, blue, yellow — all maximally saturated; no muted tones
+    layout: heroic figure or crowd in lower two-thirds; blazing sky above; slogan across top
+    mood: triumphalist, collective, monumental, intense optimism
+    references:
+      - DPRK poster tradition
+      - North Korean graphic art
+    avoid:
+      - individualism or ambiguity
+      - muted or pastel colour
+      - ironic tone
+      - artificial yellowing or ageing
+    poster_framing: Community celebration or sports event poster with monumental collective energy
+    caution: Strong political associations — use the visual language; remove all DPRK-specific iconography
+
+  - id: soviet_space
+    name: Soviet Space Programme
+    category: niche_flyer
+    era: 1957–1975
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      From Sputnik to the Moon race, Soviet space posters celebrated cosmonaut
+      heroism with specific visual language: rocket silhouettes against star
+      fields, heroic figures in pressure suits, orbital diagrams as decorative
+      geometry. More optimistic and forward-looking than general Soviet propaganda
+      — these are images of the actual future, not ideological present — and they
+      have aged into something genuinely beautiful.
+    visual_traits:
+      - rocket silhouette against deep blue-black star field
+      - cosmonaut in pressure suit as heroic figure
+      - orbital trajectory arcs as decorative geometric element
+      - Soviet star motifs and celestial bodies
+      - rays of light emanating from rocket or Earth
+    typography:
+      - bold Cyrillic-influenced block sans for headline
+      - technical information presented cleanly alongside heroic image
+      - date or mission designation as a graphic element
+    palette: deep space blue-black, silver-white, gold-orange rocket flame, red Soviet accent
+    layout: rocket or cosmonaut figure ascending; Earth below; stars above; text at base
+    mood: heroic optimism, scientific wonder, socialist aspiration, genuinely cosmic
+    references:
+      - Soviet space programme poster tradition
+      - Yuri Gagarin imagery
+      - Constructivist space poster tradition
+    avoid:
+      - military Cold War imagery
+      - contemporary astronaut aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Science event, astronomy night, or outdoor event poster with Soviet space-age optimism
+    caution: null
+
+  # --- handmade (additions — folk / vernacular) ---
+
+  - id: soyuzmultfilm
+    name: Soyuzmultfilm Animation
+    category: niche_flyer
+    era: 1950s–1980s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The Moscow animation studio Soyuzmultfilm produced a body of work with
+      a visual language utterly distinct from Western cartoons: geometric rounded
+      animal characters with circular heads, simplified tubular limbs, and
+      enormous expressive eyes — think Cheburashka, the Wolf and Hare from
+      Nu Pogodi!, the Hedgehog from Hedgehog in the Fog. Backgrounds are
+      painterly and atmospheric — misty forests, soft fields, simplified Soviet
+      domestic interiors — in muted warm palettes far from American primary
+      colours. Constructivist graphic design sensibility applied to gentle
+      storytelling. The style The Simpsons parodied as "Worker and Parasite."
+    visual_traits:
+      - rounded geometric animal characters — circular head, large round eyes, tubular limbs
+      - soft painterly backgrounds with flat colour and subtle texture
+      - muted, sophisticated colour — nothing saturated or primary
+      - simplified landscape or interior settings with Constructivist graphic clarity
+      - characters placed against backgrounds as flat graphic elements, not integrated naturalistically
+    typography:
+      - clean Cyrillic-influenced sans-serif or rounded letterforms
+      - title card style — text on plain colour band, not overlaid on image
+      - generous spacing, unhurried
+    palette: dusty ochre, soft forest green, warm grey, muted cobalt, cream — no saturated primaries
+    layout: character or characters in simplified landscape; sky occupies upper third; text in clean band
+    mood: gentle, warm, mid-century Soviet, quietly magical, unhurried
+    references:
+      - Soyuzmultfilm studio
+      - Cheburashka (1966)
+      - Nu Pogodi! (1969)
+      - Hedgehog in the Fog (1975)
+    avoid:
+      - American cartoon saturated primaries and hard outlines
+      - Disney or anime character design
+      - aggressive action poses
+      - artificial yellowing or ageing
+    poster_framing: Community event poster illustrated in Soyuzmultfilm style — rounded animal characters in a soft painterly landscape setting
+    caution: null
+    note: The AI may add Cyrillic text — this is authentic to the style. To suppress it, add "no text, Latin characters only" to the prompt.
+
+  - id: mexican_calavera
+    name: Mexican Calavera / Posada
+    category: handmade
+    era: Traditional–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      José Guadalupe Posada's skeleton caricatures established a visual tradition
+      merging pre-Columbian death imagery with biting political satire. Day of the
+      Dead iconography — skeleton figures dressed in elaborate period clothing,
+      decorative floral and paper-cut borders, vivid colour — continues in folk
+      crafts and contemporary design as a distinctly Mexican celebration of
+      mortality as neither feared nor mournful, but joyfully acknowledged.
+    visual_traits:
+      - skeleton figures in animated poses, dressed and accessorised
+      - decorative papel picado (paper-cut) border patterns
+      - marigold flowers (cempasúchil) as decorative motifs
+      - vibrant colour — yellow, orange, pink, purple, cobalt blue
+      - bold outline drawing in woodcut or engraving tradition
+    typography:
+      - hand-lettered bold display type
+      - decorative letterforms with floral or bone-motif embellishments
+      - text integrated within the decorative border
+    palette: vivid saturated warm and cool — orange, yellow, pink, cobalt, purple, black
+    layout: central skeleton figure with decorative border; text in ornamental band
+    mood: joyful, celebratory, dark-funny, distinctly Mexican, community
+    references:
+      - José Guadalupe Posada
+      - Day of the Dead tradition
+      - Oaxacan folk art
+    avoid:
+      - mournful or horror-movie treatment of death
+      - Northern European Halloween aesthetic
+      - artificial yellowing or ageing
+    poster_framing: Outdoor community event or harvest celebration in Mexican Day of the Dead folk tradition
+    caution: null
+
+  - id: pennsylvania_dutch
+    name: Pennsylvania Dutch / Fraktur
+    category: handmade
+    era: 18th–19th century
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Pennsylvania German Fraktur documents and hex signs use animals and figures
+      that are purely heraldic and emblematic — not naturalistic, not cartoons.
+      The distelfink bird is a flat stylised silhouette in strict profile, with
+      a fan tail and a single decorative eye dot, like a playing card symbol.
+      Horses are profile silhouettes with a stylised mane, stiff legs, and
+      decorative dots or chevrons as internal pattern. Human figures when they
+      appear are flat and frontal like paper dolls — simplified features, arms
+      held out symmetrically, no shading or perspective of any kind. Everything
+      is flat pattern, as if cut from coloured paper or embroidered on cloth.
+      Think heraldry or playing card suits, not illustration.
+    visual_traits:
+      - all animals and figures in strict flat profile or frontal view — no three-quarter angles, no depth
+      - distelfink bird as a flat silhouette: round body, fan tail, profile head with dot eye
+      - horses as flat profile silhouettes with stylised mane and decorative internal pattern fill
+      - bilateral symmetry — paired motifs either side of a central axis
+      - internal pattern fills within flat shapes — small dots, chevrons, cross-hatching — not solid colour
+    typography:
+      - Fraktur blackletter script — angular, decorative, Germanic
+      - large decorative initial capitals as visual anchors
+      - text integrated within the symmetrical composition in cartouche or arch
+    palette: barn red, cobalt blue, ochre yellow, forest green on cream — flat, no shading
+    layout: strict bilateral symmetry; central motif flanked by paired birds or tulips; text in arch above or band below
+    mood: heraldic, devotional, folk craft, symmetrical, domestic celebration
+    references:
+      - Pennsylvania German Fraktur tradition
+      - Taufschein (birth certificate) documents
+      - Hex sign tradition
+      - Playing card heraldry as visual analogy
+    avoid:
+      - naturalistic or three-dimensional animal rendering
+      - cute cartoon animals
+      - soft blended colour or shading
+      - asymmetric composition
+      - modern sans-serif type
+      - artificial yellowing or ageing
+    poster_framing: Community celebration or folk fair poster — paired distelfink birds and tulips in strict heraldic symmetry, flat as a playing card
+    caution: null
+
+  - id: madhubani
+    name: Madhubani / Indian Folk Art
+    category: handmade
+    era: Traditional–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      From the Mithila region of Bihar, Madhubani painting uses heavy black
+      outlines to contain intricate geometric fill patterns within all forms.
+      Fish, birds, the sun and moon, peacocks, and mythological scenes from the
+      Ramayana are depicted through pattern rather than naturalistic shading.
+      Every surface is filled — negative space is pattern, positive space is
+      denser pattern. A warm earthy palette punctuated by vivid local colour.
+    visual_traits:
+      - heavy black outline defining all forms — never open or unfinished
+      - every area filled with geometric pattern — hatching, dots, chevrons
+      - fish, bird, peacock, lotus, and solar motifs
+      - flat colour within pattern fill — no shading or gradient
+      - double black outline borders framing the entire composition
+    typography:
+      - hand-lettered Devanagari script if used
+      - text treated as a decorative element within the filled field
+    palette: ochre, terracotta, turmeric yellow, indigo, forest green, black on cream or natural paper
+    layout: central figure or scene surrounded by dense decorative border; every area filled
+    mood: devotional, communal, mythic, richly patterned, folk celebration
+    references:
+      - Madhubani painting tradition
+      - Mithila art
+      - Sita Devi
+    avoid:
+      - empty or negative space
+      - Western perspective or shading
+      - artificial yellowing or ageing
+    poster_framing: Cultural or community celebration poster in Madhubani folk painting tradition
+    caution: null
+
+  - id: scandinavian_rosemaling
+    name: Scandinavian Folk / Rosemaling
+    category: handmade
+    era: 18th century–present
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Norwegian and Swedish folk decorative painting covered domestic objects
+      and interiors with organic floral scrollwork — acanthus leaves, roses,
+      tulips — in asymmetric but visually balanced compositions. Unlike Pennsylvania
+      Dutch folk art, Rosemaling is fluid and asymmetric; the brushwork is visible
+      and confident; the compositions feel grown rather than constructed. Warmth,
+      skill, and domestic pride.
+    visual_traits:
+      - organic flowing acanthus and floral scrollwork
+      - asymmetric composition with visual balance through weight distribution
+      - visible confident brushwork — strokes are expressive, not laboured
+      - rose, tulip, and leaf motifs as primary elements
+      - double-stroke brush technique creating C and S curves
+    typography:
+      - hand-painted lettering in the same scroll tradition as the imagery
+      - text flows within the decorative composition
+    palette: earth tones — ochre, sienna, burnt umber; cobalt blue, forest green, rose pink on warm white or cream
+    layout: scrollwork fills the field; text woven into the botanical composition
+    mood: warm, domestic, crafted with pride, Nordic folk
+    references:
+      - Norwegian Rosemaling tradition
+      - Telemark and Hallingdal regional variants
+      - Swedish folk painting
+    avoid:
+      - symmetrical or geometric composition
+      - flat vector illustration
+      - artificial yellowing or ageing
+    poster_framing: Harvest fair, folk festival, or community gathering in Scandinavian folk painting tradition
+    caution: null
+
+  # --- art_movement_poster (further additions) ---
+
+  - id: pre_raphaelite
+    name: Pre-Raphaelite Illustration
+    category: art_movement_poster
+    era: 1848–1900
+    dk_source:
+      design_chapter: null
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      The Brotherhood's rejection of academic painting convention in favour of
+      medieval narrative, intense colour, and painstaking natural detail created
+      a distinctive illustrative tradition. Millais, Rossetti, Burne-Jones — richly
+      detailed scenes of Arthurian romance and Shakespearean tragedy, jewel-toned
+      colour, intricate foliage and textile detail, and idealised figures in
+      states of profound feeling. Beauty as the highest moral category.
+    visual_traits:
+      - richly detailed figurative scene with elaborate natural setting
+      - jewel-toned colour — deep emerald, ruby, cobalt, gold
+      - intricate foliage, water, or textile detail filling the background
+      - idealised figures — women with elaborate flowing hair
+      - flat or near-flat areas of pure colour in clothing and sky
+    typography:
+      - ornate gothic or arts-and-crafts influenced lettering
+      - text in a formal cartouche or below the image as caption
+      - hand-lettered title integrated into a decorative border
+    palette: jewel tones — deep red, emerald, cobalt, gold, ivory; no pastels
+    layout: full-bleed figurative scene; text in border or caption band below
+    mood: romantic, medieval, languid intensity, beauty-as-devotion
+    references:
+      - Dante Gabriel Rossetti
+      - John Everett Millais
+      - Edward Burne-Jones
+      - William Morris (related)
+    avoid:
+      - modernist abstraction
+      - photographic realism without painterly detail
+      - artificial yellowing or ageing
+    poster_framing: Cultural event or arts festival poster as a Pre-Raphaelite narrative scene
+    caution: null
+
+  - id: german_expressionist_film
+    name: German Expressionist Film Poster
+    category: art_movement_poster
+    era: 1919–1933
+    dk_source:
+      design_chapter: null
+      art_chapter: Early 20th century
+    blog_validated: false
+    summary: >
+      The visual language of Weimar cinema — The Cabinet of Dr. Caligari,
+      Nosferatu, Metropolis — applied angular distorted architecture, deep raking
+      shadow, and claustrophobic oblique perspective to poster design. The sets
+      designed by Expressionist painters became the aesthetic of psychological
+      horror. The geometry itself is threatening: walls lean, streets tilt, figures
+      are dwarfed by impossible architecture.
+    visual_traits:
+      - distorted angular architecture with impossible perspective
+      - raking diagonal shadows cutting across the composition
+      - figures made small by overwhelming dark architecture
+      - high contrast — vast black areas with sharp white highlights
+      - tilted or oblique framing creating visual unease
+    typography:
+      - angular gothic or compressed sans-serif letterforms
+      - title at a slight angle or set into an architectural element
+      - bold and stark — matches the visual severity
+    palette: black, white, and cold grey; occasional deep red as blood accent
+    layout: architectural scene dominating; figure(s) subordinate to environment; title at top
+    mood: threatening, psychological, dark, nightmare geometry
+    references:
+      - The Cabinet of Dr. Caligari (1920)
+      - Nosferatu (1922)
+      - Metropolis (1927)
+      - Weimar cinema tradition
+    avoid:
+      - warmth or natural lighting
+      - decorative ornament
+      - artificial yellowing or ageing
+    poster_framing: Theatre, horror, or film screening event poster in Weimar Expressionist style
+    caution: Strong dark mood — excellent for spooky or theatrical events; use carefully for family occasions
+
+  - id: hong_kong_cinema
+    name: Hong Kong Cinema Poster
+    category: art_movement_poster
+    era: 1950s–1990s
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Hand-painted movie posters for Hong Kong kung fu, crime, and melodrama
+      films used dynamic airbrush illustration, dramatically foreshortened action
+      poses, and vivid warm colour to attract audiences. The genre demands spectacle:
+      explosions, leaping figures, confrontation and desire — all rendered with
+      the controlled intensity of professional commercial illustration at its most
+      physically confident.
+    visual_traits:
+      - dynamic airbrushed figurative illustration
+      - figures in mid-action — leaping, fighting, shooting — at dramatic angles
+      - vivid warm colour with bold highlights and deep shadows
+      - multiple figures at different scales showing narrative moments
+      - hand-painted title lettering in Chinese and/or Latin script
+    typography:
+      - bold painted or brush-script title — often in both Chinese and English
+      - supporting cast and studio information in smaller display type
+      - title treated as a visual object, painted to match the energy of the image
+    palette: vivid warm tones — scarlet, gold, deep orange, cream, sky blue for contrast
+    layout: full-bleed action scene; title across upper portion; multiple figures at different scales
+    mood: kinetic, spectacular, physically confident, commercial cinema
+    references:
+      - Hong Kong martial arts cinema poster tradition
+      - Shaw Brothers film posters
+    avoid:
+      - flat vector illustration
+      - muted or cold colour
+      - artificial yellowing or ageing
+    poster_framing: Music or community festival event poster in Hong Kong cinema hand-painted action style
+    caution: null
+
+  - id: ukiyo_e_woodblock
+    name: Ukiyo-e / Japanese Woodblock
+    category: art_movement_poster
+    era: 1600s–1900s
+    dk_source:
+      design_chapter: Japonisme
+      art_chapter: 19th century
+    blog_validated: false
+    summary: >
+      Ukiyo-e considered as a print process rather than as Western influence:
+      the carved keyblock defines bold fluid outlines; successive colour blocks
+      registered precisely create flat areas; bokashi gradients blend colour within
+      a single block. The result has specific technical qualities no digital tool
+      fully replicates — the line quality of a brush-cut block, the flatness of
+      water-based pigment, the spatial logic of Hiroshige's atmospheric distances.
+    visual_traits:
+      - bold fluid outlines from a brush-cut keyblock
+      - flat colour areas with no Western-style shading
+      - bokashi — gradated colour within a single area, horizontal bands of lighter-to-darker
+      - strong asymmetric composition
+      - nature or urban scene with distinct foreground/mid/background planes
+    typography:
+      - Japanese text integrated as a cartouche within the composition
+      - calligraphic artist seal as a design element
+      - Latin text adapted to sit within the visual logic of the print
+    palette: indigo, vermillion, black, cream, muted green; woodblock colour range
+    layout: asymmetric; large sky or water area; cropped elements at edges
+    mood: serene, composed, atmospheric, technically precise
+    references:
+      - Katsushika Hokusai
+      - Utagawa Hiroshige
+      - Ukiyo-e print tradition
+    avoid:
+      - Western Japonisme interpretation (this is the original, not the Western response)
+      - gradient shading suggesting Western tonal rendering
+      - artificial yellowing or ageing
+    poster_framing: Event poster as a woodblock print — landscape or scene with compositional precision of ukiyo-e
+    caution: null
+
+  # --- agency_zeitgeist (additions — digital / internet era) ---
+
+  - id: vaporwave
+    name: Vaporwave
+    category: agency_zeitgeist
+    era: 2010–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Classical marble busts, corrupted Windows 95 UI elements, Japanese katakana,
+      and Greco-Roman architecture floating in a grid of pastel neon — vaporwave
+      aestheticized the nostalgia for a corporate digital future that never quite
+      arrived. Oceanic gradients from cyan to magenta, glitch text, and the
+      uncanny quality of things rendered in obsolete software. Melancholy optimism
+      for a simulated utopia.
+    visual_traits:
+      - classical marble bust or column in neon-lit grid environment
+      - Windows 95 or early Macintosh UI element fragments
+      - Japanese katakana text as decorative visual element
+      - horizontal scan lines over photographic areas
+      - perspective grid receding to a glowing horizon
+    typography:
+      - corrupted or double-exposed Western or Japanese display type
+      - chrome or gradient-filled letterforms
+      - text partially obscured or glitched
+    palette: pastel neon — cyan, lavender, hot pink, peach on deep purple or dark blue
+    layout: central classical object in glowing synthetic environment; text fragmented across field
+    mood: nostalgic, melancholy, synthetic, dreaming of a future that didn't happen
+    references:
+      - Vaporwave aesthetic
+      - Macintosh Plus — Floral Shoppe
+      - Early internet aesthetic tradition
+    avoid:
+      - warm organic colours
+      - hand-made or craft textures
+      - artificial yellowing or ageing
+    poster_framing: Arts event or music night poster in vaporwave nostalgic-digital aesthetic
+    caution: null
+
+  - id: synthwave
+    name: Synthwave / Retrowave
+    category: agency_zeitgeist
+    era: 2010–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      A perspective grid receding to a neon horizon, a pink-to-purple gradient
+      sun bisected by horizontal scan lines, palm tree silhouettes, and chrome
+      letterforms — synthwave reconstructs an imagined 1980s of science fiction
+      films and video games that never quite existed. All nostalgia, no
+      authenticity: a future that was dreamed rather than lived, missed intensely.
+    visual_traits:
+      - perspective grid receding to a bright horizon line
+      - gradient sunset — hot pink fading to deep purple
+      - chrome or metallic 3D letterforms
+      - palm tree silhouettes against the gradient sky
+      - horizontal scan lines suggesting a CRT monitor
+    typography:
+      - chrome or gradient-filled bold letterforms — 3D extruded or bevelled
+      - neon outline type — glowing edge on dark ground
+      - mixed serif/sans with retrofuturist personality
+    palette: deep purple-black background; hot pink, electric blue, cyan, and gold neon
+    layout: landscape orientation preferred; grid in lower half; gradient sky in upper half; text centred
+    mood: nostalgic, retrofuturist, cinematic, coolly synthetic
+    references:
+      - Synthwave music aesthetic
+      - Outrun video game aesthetic
+      - Miami Vice visual tradition
+    avoid:
+      - hand-made or organic textures
+      - natural colour palettes
+      - artificial yellowing or ageing
+    poster_framing: Music event or evening outdoor event poster in synthwave retrofuturist neon style
+    caution: null
+
+  - id: glitch_art
+    name: Glitch Art
+    category: agency_zeitgeist
+    era: 2005–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Deliberate corruption of digital image data — databending, pixel sorting,
+      RGB channel separation, scan-line multiplication — creates compositions that
+      are simultaneously familiar and catastrophically broken. A portrait survives
+      its own corruption; a landscape becomes an abstract field of sorted colour.
+      Controlled error as aesthetic: the beauty of systems failing in interesting
+      ways.
+    visual_traits:
+      - RGB channel separation — red, green, blue shifts out of alignment
+      - pixel sorting creating streaked columns or rows of colour
+      - scan-line or interlace artifacts suggesting video signal failure
+      - recognisable subject partially surviving data corruption
+      - sharp horizontal banding cutting across imagery
+    typography:
+      - type treated to the same glitch effects as imagery
+      - text partially corrupted — letters sliding or colour-separated
+      - clean digital sans where legibility is needed
+    palette: base image palette fragmented; RGB shift adds cyan, magenta, yellow fringing
+    layout: full-bleed image field with text surviving in a less-corrupted zone
+    mood: uncanny, post-digital, controlled failure, eerie precision
+    references:
+      - Glitch art tradition
+      - Rosa Menkman
+      - Databending and pixel sorting
+    avoid:
+      - analogue grain or film texture — glitch is digital, not analog
+      - warm craft aesthetics
+      - artificial yellowing or ageing
+    poster_framing: Digital arts event or contemporary music poster using glitch aesthetic
+    caution: null
+
+  - id: pixel_art
+    name: Pixel Art
+    category: agency_zeitgeist
+    era: 1978–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The aesthetic of early arcade and home computer graphics, where hardware
+      limits forced artists to work within grids of large visible square pixels
+      and palettes of 4, 16, or 256 colours. Specific hardware palettes are
+      part of the vocabulary: the four-colour CGA palette (cyan, magenta, white,
+      black), the ZX Spectrum's eight pure colours with bright variants, the
+      NES palette of 54 colours, the Game Boy's four shades of green. Dithering
+      — alternating pixels of two colours in a checkerboard — creates the
+      illusion of a third tone. Characters are defined by tiny sprite grids of
+      16×16 or 32×32 pixels; backgrounds are tile-based. Everything has a
+      chunky, deliberate, hand-placed quality.
+    visual_traits:
+      - large square pixels visible as discrete units — chunky, not smooth
+      - strictly limited colour palette — 4 to 16 colours maximum
+      - dithering patterns — checkerboard alternation — to suggest additional tones
+      - sprite-based character design — small, read at a glance
+      - tile-based backgrounds with visible repetition
+    typography:
+      - bitmap pixel font — each letter defined on a 5×7 or 8×8 pixel grid
+      - all-caps or monospace; no anti-aliasing
+      - text in solid colour blocks on contrasting ground
+    palette: hardware-specific — CGA (cyan/magenta/white/black), Spectrum (pure primaries + black/white), NES, or Game Boy (four greens)
+    layout: foreground sprite(s) against tiled background; health bar or score panel optional; HUD-style information bands
+    mood: nostalgic, playful, technically constrained, earnestly retro
+    references:
+      - Arcade game aesthetics — Pac-Man, Space Invaders, Donkey Kong
+      - ZX Spectrum, Commodore 64, NES, SNES home computer era
+      - Game Boy
+    avoid:
+      - smooth anti-aliased edges
+      - gradients or soft colour blending
+      - modern high-resolution illustration
+      - artificial yellowing or ageing
+    poster_framing: Event announcement rendered as a pixel art game screen — subject as a sprite, venue as a tile-based background
+    caution: Specify the hardware palette by name (CGA, Spectrum, Game Boy) for a specific look; without this the AI will produce a generic pixel aesthetic
+
+  - id: low_poly
+    name: Low Poly
+    category: agency_zeitgeist
+    era: 1994–present
+    dk_source:
+      design_chapter: Contemporary / Digital
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      Early PlayStation and Nintendo 64 3D graphics — but rendered with the
+      primitive lighting engine of that era, not modern 3D software. Each
+      triangular polygon face is a single flat, unmodulated colour: no
+      specular highlight, no reflection, no ambient occlusion, no normal map,
+      no subsurface scattering. Surfaces are completely matte and dumb. Textures
+      are 64×64 or 128×128 pixels maximum, visibly blocky, and affine-mapped so
+      they warp and swim across polygon faces. Lighting is a single directional
+      source casting hard, fake-looking shadows — no bounced light, no gradient
+      falloff. Distance fog cuts in abruptly as a flat colour plane, not a smooth
+      gradient. The whole image should look like it was rendered on 1990s hardware:
+      naive, limited, and visibly struggling with the geometry.
+    visual_traits:
+      - each polygon face is a single flat, completely unshaded colour — no highlight, no gradient within a face
+      - zero reflections or specularity on any surface — fully matte throughout
+      - textures visibly pixelated at 64×64 resolution, warping across polygon edges
+      - hard, unconvincing shadows — a dark polygon beneath figures, nothing more
+      - distance fog as an abrupt flat colour cutoff, not a smooth gradient
+    typography:
+      - chunky geometric sans-serif suggesting early 3D UI
+      - drop shadows or emboss effects typical of PS1-era menus
+      - bold, simple, high contrast against dark backgrounds
+    palette: flat, unshaded polygon colours — vivid but matte; no metallic or iridescent tones
+    layout: 3D scene with foreground polygon figures; abrupt fog plane cutting off mid-ground; void or flat-colour sky
+    mood: uncanny, naive, lo-fi, earnestly primitive
+    references:
+      - PlayStation 1 and Nintendo 64 game aesthetics
+      - Tomb Raider (1996)
+      - Final Fantasy VII (1997)
+      - Crash Bandicoot (1996)
+    avoid:
+      - specular highlights or reflections of any kind
+      - ambient occlusion or global illumination
+      - normal maps or bump maps adding surface detail
+      - smooth gradient fog — it must cut off abruptly
+      - modern PBR (physically based rendering) materials
+      - artificial yellowing or ageing
+    poster_framing: Event poster as a PS1-era 3D game scene — flat-shaded matte polygons, warping low-res textures, naive lighting, abrupt fog
+    caution: If the output looks too polished, add "flat shading only, no specular, no reflections, no ambient occlusion, matte surfaces, PS1-era graphics" to override the AI's instinct to render beautifully
+
+  - id: big_eyes
+    name: Big Eyes / Keane Waif
+    category: agency_zeitgeist
+    era: 1950s–1970s
+    dk_source:
+      design_chapter: null
+      art_chapter: 1945 onwards
+    blog_validated: false
+    summary: >
+      Margaret Keane's paintings of children and animals with enormous glistening
+      eyes — disproportionately large, liquid, sorrowful — became one of the most
+      recognisable and widely reproduced fine art styles of the 1960s. Soft
+      blended oil or acrylic rendering, figures emerging from plain or loosely
+      painted backgrounds, a quality of melancholy vulnerability in every subject.
+      Kitsch by academic standards, but visually precise and immediately
+      recognisable. Specify the subject — a waif child, a kitten, a puppy — and
+      the style does the rest.
+    visual_traits:
+      - enormous liquid eyes occupying a third or more of the face
+      - soft blended painting — no hard outlines, edges dissolve into background
+      - solitary child or animal subject, frontally posed, meeting the viewer's gaze
+      - plain or loosely atmospheric background — dark tones, simple colour wash
+      - slight shimmer or moisture in the eyes — a single highlight point
+    typography:
+      - minimal — a small title or artist signature in simple serif or script
+      - text never competes with the eyes; placed quietly at bottom
+    palette: muted warm tones — ochre, sienna, raw umber, soft grey; eyes themselves vivid and glistening
+    layout: close-cropped figure against plain background; eyes in the upper half of the composition
+    mood: sentimental, melancholy, vulnerable, kitsch sincerity, 1960s American
+    references:
+      - Margaret Keane
+      - Walter Keane (attributed fraudulently)
+      - Big Eyes (Tim Burton, 2014)
+      - Keane Gallery, San Francisco
+    avoid:
+      - hard cartoon outlines
+      - flat vector illustration
+      - multiple figures competing for attention
+      - artificial yellowing or ageing
+    poster_framing: Event poster with the event subject — person, animal, or symbolic figure — rendered as a Keane waif with enormous eyes
+    caution: Works best when the subject is specified precisely; without a clear subject the AI will default to a generic sad child
