@@ -16,19 +16,21 @@ meta:
     - generic spring-fayre template look
 
 categories:
-  design_history: Major design movements
-  art_movement_poster: Art movements, framed as posters the movement might have produced
+  graphic_design_history: Graphic design movements
+  fine_art_movements: Fine art movements, framed as posters the movement might have produced
   print_process: Print techniques and reproduction aesthetics
-  handmade: Naive, DIY, and schoolkid aesthetics with intentional imperfection
-  niche_flyer: Subcultural, era-specific, and regional poster traditions
-  agency_zeitgeist: Named studios, brands, or zeitgeisty design schools
+  folk_and_handmade: Folk, handmade and vernacular aesthetics
+  political_and_activist: Political, propaganda and activist traditions
+  music_and_subculture: Music scenes and subcultures
+  national_and_regional: National, regional and era-specific styles
+  digital_and_screen: Digital, screen and contemporary aesthetics
 
 styles:
   # --- design_history (14) ---
 
   - id: arts_and_crafts
     name: Arts and Crafts
-    category: design_history
+    category: graphic_design_history
     era: 1880s–1910s
     dk_source:
       design_chapter: Arts and Crafts
@@ -62,7 +64,7 @@ styles:
 
   - id: art_nouveau
     name: Art Nouveau
-    category: design_history
+    category: graphic_design_history
     era: 1890s–1910s
     dk_source:
       design_chapter: Art Nouveau
@@ -96,7 +98,7 @@ styles:
 
   - id: japonisme
     name: Japonisme
-    category: design_history
+    category: fine_art_movements
     era: 1870s–1900s
     dk_source:
       design_chapter: Japonisme
@@ -129,7 +131,7 @@ styles:
 
   - id: art_deco
     name: Art Deco
-    category: design_history
+    category: graphic_design_history
     era: 1920s–1930s
     dk_source:
       design_chapter: Art Deco
@@ -163,7 +165,7 @@ styles:
 
   - id: streamline_moderne
     name: Streamline Moderne
-    category: design_history
+    category: graphic_design_history
     era: 1930s–1940s
     dk_source:
       design_chapter: Art Deco / 1930s
@@ -197,7 +199,7 @@ styles:
 
   - id: bauhaus_modernist
     name: Bauhaus / Modernist
-    category: design_history
+    category: graphic_design_history
     era: 1920s–1930s
     dk_source:
       design_chapter: Modern / Bauhaus
@@ -232,7 +234,7 @@ styles:
 
   - id: swiss_international
     name: Swiss / International Typographic Style
-    category: design_history
+    category: graphic_design_history
     era: 1950s–1970s
     dk_source:
       design_chapter: Mid-century modern
@@ -267,7 +269,7 @@ styles:
 
   - id: constructivist
     name: Constructivist
-    category: design_history
+    category: graphic_design_history
     era: 1920s–1930s
     dk_source:
       design_chapter: Modern
@@ -301,7 +303,7 @@ styles:
 
   - id: de_stijl
     name: De Stijl
-    category: design_history
+    category: graphic_design_history
     era: 1917–1930s
     dk_source:
       design_chapter: Modern
@@ -333,7 +335,7 @@ styles:
 
   - id: mid_century_modern_graphic
     name: Mid-century Modern Graphic
-    category: design_history
+    category: graphic_design_history
     era: 1940s–1960s
     dk_source:
       design_chapter: Mid-century modern
@@ -367,7 +369,7 @@ styles:
 
   - id: memphis_postmodern
     name: Memphis / 80s Postmodern
-    category: design_history
+    category: graphic_design_history
     era: 1980s
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -401,7 +403,7 @@ styles:
 
   - id: brutalist_graphic
     name: Brutalist Graphic Design
-    category: design_history
+    category: graphic_design_history
     era: 1960s–present
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -435,7 +437,7 @@ styles:
 
   - id: contemporary_editorial
     name: Contemporary Editorial
-    category: design_history
+    category: graphic_design_history
     era: 2000s–present
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -468,7 +470,7 @@ styles:
 
   - id: wayfinding_signage
     name: Wayfinding / Signage
-    category: design_history
+    category: graphic_design_history
     era: 1960s–present
     dk_source:
       design_chapter: Mid-century modern / Contemporary
@@ -504,7 +506,7 @@ styles:
 
   - id: victorian_broadside
     name: Victorian Broadside
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1850s–1900s
     dk_source:
       design_chapter: Arts and Crafts / 1850s
@@ -537,7 +539,7 @@ styles:
 
   - id: belle_epoque_lithograph
     name: Belle Époque Lithograph
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1890s–1910s
     dk_source:
       design_chapter: Art Nouveau
@@ -568,7 +570,7 @@ styles:
 
   - id: futurist
     name: Futurist
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1909–1940s
     dk_source:
       design_chapter: null
@@ -601,7 +603,7 @@ styles:
 
   - id: dada_collage
     name: Dada Collage
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1916–1920s
     dk_source:
       design_chapter: null
@@ -634,7 +636,7 @@ styles:
 
   - id: cubist_exhibition
     name: Cubist Exhibition Poster
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1940s framing (Cubism 1907–1920s)
     dk_source:
       design_chapter: null
@@ -668,7 +670,7 @@ styles:
 
   - id: surrealist
     name: Surrealist
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1920s–1950s
     dk_source:
       design_chapter: null
@@ -700,7 +702,7 @@ styles:
 
   - id: expressionist_woodcut
     name: Expressionist Woodcut
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1905–1920s
     dk_source:
       design_chapter: null
@@ -734,7 +736,7 @@ styles:
 
   - id: pop_art
     name: Pop Art
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1950s–1960s
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -769,7 +771,7 @@ styles:
 
   - id: op_art
     name: Op Art
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1960s
     dk_source:
       design_chapter: null
@@ -801,7 +803,7 @@ styles:
 
   - id: psychedelic_sixties
     name: Psychedelic Sixties
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1966–1970s
     dk_source:
       design_chapter: null
@@ -835,7 +837,7 @@ styles:
 
   - id: minimalism_art
     name: Minimalism (Art)
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1960s–1970s
     dk_source:
       design_chapter: null
@@ -868,7 +870,7 @@ styles:
 
   - id: graffiti_street_art
     name: Graffiti / Street Art
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1970s–present
     dk_source:
       design_chapter: null
@@ -1105,7 +1107,7 @@ styles:
 
   - id: child_paint_pro_typography
     name: Child Poster Paint + Pro Typography
-    category: handmade
+    category: folk_and_handmade
     era: Contemporary
     dk_source:
       design_chapter: null
@@ -1139,7 +1141,7 @@ styles:
 
   - id: school_cutout_collage
     name: School Cutout Collage
-    category: handmade
+    category: folk_and_handmade
     era: Contemporary
     dk_source:
       design_chapter: null
@@ -1172,7 +1174,7 @@ styles:
 
   - id: crayon_folk_handmade
     name: Crayon Folk Handmade
-    category: handmade
+    category: folk_and_handmade
     era: Contemporary
     dk_source:
       design_chapter: null
@@ -1206,7 +1208,7 @@ styles:
 
   - id: punk_fanzine
     name: Punk Photocopied Fanzine
-    category: handmade
+    category: folk_and_handmade
     era: 1970s–1980s
     dk_source:
       design_chapter: null
@@ -1239,7 +1241,7 @@ styles:
 
   - id: zine_cut_and_paste
     name: Zine Cut-and-Paste
-    category: handmade
+    category: folk_and_handmade
     era: 1990s–present
     dk_source:
       design_chapter: null
@@ -1275,7 +1277,7 @@ styles:
 
   - id: rave_acid_graphics
     name: 90s Rave / Acid Graphics
-    category: niche_flyer
+    category: music_and_subculture
     era: 1988–1995
     dk_source:
       design_chapter: null
@@ -1309,7 +1311,7 @@ styles:
 
   - id: dnb_fractal_flyer
     name: 90s Drum and Bass Flyer
-    category: niche_flyer
+    category: music_and_subculture
     era: 1994–1999
     dk_source:
       design_chapter: null
@@ -1342,7 +1344,7 @@ styles:
 
   - id: festival_indie_lineup
     name: Festival Indie Lineup
-    category: niche_flyer
+    category: music_and_subculture
     era: 2000s–present
     dk_source:
       design_chapter: Contemporary
@@ -1375,7 +1377,7 @@ styles:
 
   - id: wpa_new_deal
     name: WPA / New Deal
-    category: niche_flyer
+    category: political_and_activist
     era: 1935–1943
     dk_source:
       design_chapter: 1930s–1940s
@@ -1408,7 +1410,7 @@ styles:
 
   - id: soviet_propaganda
     name: Soviet Propaganda
-    category: niche_flyer
+    category: political_and_activist
     era: 1920s–1950s
     dk_source:
       design_chapter: null
@@ -1441,7 +1443,7 @@ styles:
 
   - id: polish_poster_school
     name: Polish Poster School
-    category: niche_flyer
+    category: national_and_regional
     era: 1950s–1980s
     dk_source:
       design_chapter: null
@@ -1475,7 +1477,7 @@ styles:
 
   - id: golden_age_travel
     name: Golden Age Travel Poster
-    category: niche_flyer
+    category: national_and_regional
     era: 1920s–1950s
     dk_source:
       design_chapter: Art Deco / 1930s
@@ -1508,7 +1510,7 @@ styles:
 
   - id: japanese_minimal_poster
     name: Japanese Minimal Poster
-    category: niche_flyer
+    category: national_and_regional
     era: 1960s–present
     dk_source:
       design_chapter: Japonisme / Contemporary
@@ -1545,7 +1547,7 @@ styles:
 
   - id: designers_republic
     name: Designers Republic
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1986–present
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -1580,7 +1582,7 @@ styles:
 
   - id: nasa_worm_modernist
     name: NASA Worm Modernist
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1975–1992
     dk_source:
       design_chapter: Mid-century modern
@@ -1614,7 +1616,7 @@ styles:
 
   - id: psychedelic_seventies_corporate
     name: Psychedelic Seventies Corporate
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1968–1979
     dk_source:
       design_chapter: 1970s
@@ -1649,7 +1651,7 @@ styles:
 
   - id: y2k_chrome
     name: Y2K Chrome
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1998–2004
     dk_source:
       design_chapter: Contemporary
@@ -1683,7 +1685,7 @@ styles:
 
   - id: contemporary_flat_illustration
     name: Contemporary Flat Illustration
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 2015–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -1718,7 +1720,7 @@ styles:
 
   - id: vienna_secession
     name: Vienna Secession
-    category: design_history
+    category: graphic_design_history
     era: 1897–1914
     dk_source:
       design_chapter: Art Nouveau
@@ -1757,7 +1759,7 @@ styles:
 
   - id: glasgow_style
     name: Glasgow Style
-    category: design_history
+    category: graphic_design_history
     era: 1893–1913
     dk_source:
       design_chapter: Art Nouveau
@@ -1797,7 +1799,7 @@ styles:
 
   - id: push_pin_studios
     name: Push Pin Studios
-    category: design_history
+    category: graphic_design_history
     era: 1954–1990s
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -1841,7 +1843,7 @@ styles:
 
   - id: new_wave_typography
     name: New Wave Typography
-    category: design_history
+    category: graphic_design_history
     era: 1976–1990
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -1880,7 +1882,7 @@ styles:
 
   - id: grunge_typography
     name: Grunge Typography
-    category: design_history
+    category: graphic_design_history
     era: 1990–1998
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -1920,7 +1922,7 @@ styles:
 
   - id: neon_sign
     name: Neon Sign / Diner Americana
-    category: design_history
+    category: national_and_regional
     era: 1930s–1970s
     dk_source:
       design_chapter: Mid-century modern
@@ -1963,7 +1965,7 @@ styles:
 
   - id: suprematism
     name: Suprematism
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1915–1925
     dk_source:
       design_chapter: null
@@ -2001,7 +2003,7 @@ styles:
 
   - id: vorticism
     name: Vorticism
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1914–1920
     dk_source:
       design_chapter: null
@@ -2041,7 +2043,7 @@ styles:
 
   - id: neue_sachlichkeit
     name: Neue Sachlichkeit / New Objectivity
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1920s–1930s
     dk_source:
       design_chapter: null
@@ -2081,7 +2083,7 @@ styles:
 
   - id: orphism
     name: Orphism / Simultanism
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1912–1920s
     dk_source:
       design_chapter: null
@@ -2119,7 +2121,7 @@ styles:
 
   - id: concrete_art
     name: Concrete Art
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1930s–1970s
     dk_source:
       design_chapter: Mid-century modern
@@ -2159,7 +2161,7 @@ styles:
 
   - id: cobra
     name: CoBrA
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1948–1951
     dk_source:
       design_chapter: null
@@ -2405,7 +2407,7 @@ styles:
 
   - id: cuban_ospaaal
     name: Cuban OSPAAAL Revolutionary
-    category: niche_flyer
+    category: political_and_activist
     era: 1964–1985
     dk_source:
       design_chapter: null
@@ -2445,7 +2447,7 @@ styles:
 
   - id: atelier_populaire
     name: Atelier Populaire / Paris May 1968
-    category: niche_flyer
+    category: political_and_activist
     era: 1968
     dk_source:
       design_chapter: null
@@ -2485,7 +2487,7 @@ styles:
 
   - id: east_german_defa
     name: East German DEFA Film Poster
-    category: niche_flyer
+    category: national_and_regional
     era: 1950s–1989
     dk_source:
       design_chapter: null
@@ -2523,7 +2525,7 @@ styles:
 
   - id: taisho_modern
     name: Taisho Modern / Japanese 1920s
-    category: niche_flyer
+    category: national_and_regional
     era: 1912–1926
     dk_source:
       design_chapter: Art Deco
@@ -2562,7 +2564,7 @@ styles:
 
   - id: shanghai_yuefenpai
     name: Shanghai Calendar Poster / Yuefenpai
-    category: niche_flyer
+    category: national_and_regional
     era: 1920s–1940s
     dk_source:
       design_chapter: Art Deco
@@ -2601,7 +2603,7 @@ styles:
 
   - id: festival_of_britain
     name: Festival of Britain
-    category: niche_flyer
+    category: national_and_regional
     era: 1951
     dk_source:
       design_chapter: Mid-century modern
@@ -2641,7 +2643,7 @@ styles:
 
   - id: brazilian_tropicalia
     name: Brazilian Tropicália
-    category: niche_flyer
+    category: national_and_regional
     era: 1967–1972
     dk_source:
       design_chapter: null
@@ -2680,7 +2682,7 @@ styles:
 
   - id: italian_futurist_typography
     name: Italian Futurist Typography
-    category: niche_flyer
+    category: national_and_regional
     era: 1909–1944
     dk_source:
       design_chapter: null
@@ -2720,7 +2722,7 @@ styles:
 
   - id: factory_records
     name: Factory Records / Haçienda
-    category: niche_flyer
+    category: music_and_subculture
     era: 1978–1992
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -2761,7 +2763,7 @@ styles:
 
   - id: four_ad_records
     name: 4AD Records
-    category: niche_flyer
+    category: music_and_subculture
     era: 1980–2000s
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -2801,7 +2803,7 @@ styles:
 
   - id: heavy_metal_poster
     name: Heavy Metal Concert Poster
-    category: niche_flyer
+    category: music_and_subculture
     era: 1970s–present
     dk_source:
       design_chapter: null
@@ -2841,7 +2843,7 @@ styles:
 
   - id: reggae_sound_system
     name: Reggae / Sound System Flyer
-    category: niche_flyer
+    category: music_and_subculture
     era: 1960s–1990s
     dk_source:
       design_chapter: null
@@ -2879,7 +2881,7 @@ styles:
 
   - id: hip_hop_flyer
     name: 80s NYC Hip Hop Flyer
-    category: niche_flyer
+    category: music_and_subculture
     era: 1979–1995
     dk_source:
       design_chapter: null
@@ -2919,7 +2921,7 @@ styles:
 
   - id: act_up_aids
     name: ACT UP / AIDS Crisis Activism
-    category: niche_flyer
+    category: political_and_activist
     era: 1987–1995
     dk_source:
       design_chapter: Postmodern and Contemporary
@@ -2959,7 +2961,7 @@ styles:
 
   - id: blaxploitation
     name: Blaxploitation Movie Poster
-    category: niche_flyer
+    category: music_and_subculture
     era: 1971–1975
     dk_source:
       design_chapter: null
@@ -2997,7 +2999,7 @@ styles:
 
   - id: skateboard_graphics
     name: Skateboard / Street Graphics
-    category: niche_flyer
+    category: music_and_subculture
     era: 1980s–present
     dk_source:
       design_chapter: null
@@ -3038,7 +3040,7 @@ styles:
 
   - id: north_korean_propaganda
     name: North Korean Propaganda
-    category: niche_flyer
+    category: political_and_activist
     era: 1950s–present
     dk_source:
       design_chapter: null
@@ -3077,7 +3079,7 @@ styles:
 
   - id: soviet_space
     name: Soviet Space Programme
-    category: niche_flyer
+    category: political_and_activist
     era: 1957–1975
     dk_source:
       design_chapter: null
@@ -3118,7 +3120,7 @@ styles:
 
   - id: soyuzmultfilm
     name: Soyuzmultfilm Animation
-    category: niche_flyer
+    category: national_and_regional
     era: 1950s–1980s
     dk_source:
       design_chapter: null
@@ -3163,7 +3165,7 @@ styles:
 
   - id: mexican_calavera
     name: Mexican Calavera / Posada
-    category: handmade
+    category: folk_and_handmade
     era: Traditional–present
     dk_source:
       design_chapter: null
@@ -3202,7 +3204,7 @@ styles:
 
   - id: pennsylvania_dutch
     name: Pennsylvania Dutch / Fraktur
-    category: handmade
+    category: folk_and_handmade
     era: 18th–19th century
     dk_source:
       design_chapter: null
@@ -3249,7 +3251,7 @@ styles:
 
   - id: madhubani
     name: Madhubani / Indian Folk Art
-    category: handmade
+    category: folk_and_handmade
     era: Traditional–present
     dk_source:
       design_chapter: null
@@ -3287,7 +3289,7 @@ styles:
 
   - id: scandinavian_rosemaling
     name: Scandinavian Folk / Rosemaling
-    category: handmade
+    category: folk_and_handmade
     era: 18th century–present
     dk_source:
       design_chapter: null
@@ -3327,7 +3329,7 @@ styles:
 
   - id: pre_raphaelite
     name: Pre-Raphaelite Illustration
-    category: art_movement_poster
+    category: fine_art_movements
     era: 1848–1900
     dk_source:
       design_chapter: null
@@ -3367,7 +3369,7 @@ styles:
 
   - id: german_expressionist_film
     name: German Expressionist Film Poster
-    category: art_movement_poster
+    category: national_and_regional
     era: 1919–1933
     dk_source:
       design_chapter: null
@@ -3407,7 +3409,7 @@ styles:
 
   - id: hong_kong_cinema
     name: Hong Kong Cinema Poster
-    category: art_movement_poster
+    category: national_and_regional
     era: 1950s–1990s
     dk_source:
       design_chapter: null
@@ -3445,7 +3447,7 @@ styles:
 
   - id: ukiyo_e_woodblock
     name: Ukiyo-e / Japanese Woodblock
-    category: art_movement_poster
+    category: national_and_regional
     era: 1600s–1900s
     dk_source:
       design_chapter: Japonisme
@@ -3486,7 +3488,7 @@ styles:
 
   - id: vaporwave
     name: Vaporwave
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 2010–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -3525,7 +3527,7 @@ styles:
 
   - id: synthwave
     name: Synthwave / Retrowave
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 2010–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -3563,7 +3565,7 @@ styles:
 
   - id: glitch_art
     name: Glitch Art
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 2005–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -3602,7 +3604,7 @@ styles:
 
   - id: pixel_art
     name: Pixel Art
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1978–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -3646,7 +3648,7 @@ styles:
 
   - id: low_poly
     name: Low Poly
-    category: agency_zeitgeist
+    category: digital_and_screen
     era: 1994–present
     dk_source:
       design_chapter: Contemporary / Digital
@@ -3694,7 +3696,7 @@ styles:
 
   - id: big_eyes
     name: Big Eyes / Keane Waif
-    category: agency_zeitgeist
+    category: fine_art_movements
     era: 1950s–1970s
     dk_source:
       design_chapter: null
