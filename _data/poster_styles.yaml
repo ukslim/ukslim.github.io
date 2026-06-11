@@ -25,6 +25,19 @@ categories:
   national_and_regional: National, regional and era-specific styles
   digital_and_screen: Digital, screen and contemporary aesthetics
 
+# Canonical display/navigation order. Both the index page and the prev/next
+# links on style pages are derived from this order, grouped by category, with
+# styles appearing in the order they're listed below within each category.
+category_order:
+  - graphic_design_history
+  - fine_art_movements
+  - print_process
+  - folk_and_handmade
+  - national_and_regional
+  - political_and_activist
+  - music_and_subculture
+  - digital_and_screen
+
 styles:
   # --- design_history (14) ---
 

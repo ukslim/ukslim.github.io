@@ -11,19 +11,19 @@ layout: default
 <p>Style not found: <code>{{ page.style_id }}</code></p>
 {% else %}
 
-{% assign all_styles = site.data.poster_styles.styles %}
+{% include poster_styles_ordered.html %}
 {% assign prev_style = nil %}
 {% assign next_style = nil %}
 {% assign cur_idx = nil %}
-{% for s in all_styles %}
+{% for s in ordered_styles %}
   {% if s.id == page.style_id %}{% assign cur_idx = forloop.index0 %}{% endif %}
 {% endfor %}
 {% if cur_idx > 0 %}
   {% assign prev_idx = cur_idx | minus: 1 %}
-  {% assign prev_style = all_styles | slice: prev_idx, 1 | first %}
+  {% assign prev_style = ordered_styles | slice: prev_idx, 1 | first %}
 {% endif %}
 {% assign next_idx = cur_idx | plus: 1 %}
-{% assign next_style = all_styles | slice: next_idx, 1 | first %}
+{% assign next_style = ordered_styles | slice: next_idx, 1 | first %}
 {% assign cat_label = site.data.poster_styles.categories[style.category] %}
 
 {% capture event_fete %}{{ site.data.events.fete.title }}

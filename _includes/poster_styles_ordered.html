@@ -1,0 +1,5 @@
+{% assign ordered_styles = "" | split: "" %}
+{% for cat in site.data.poster_styles.category_order %}
+  {% assign cat_styles = site.data.poster_styles.styles | where: "category", cat %}
+  {% assign ordered_styles = ordered_styles | concat: cat_styles %}
+{% endfor %}

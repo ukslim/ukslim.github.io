@@ -22,9 +22,8 @@ permalink: /poster-prompts/
   quotas.
 </p>
 
-{% assign category_order =
-"graphic_design_history,fine_art_movements,print_process,folk_and_handmade,national_and_regional,political_and_activist,music_and_subculture,digital_and_screen"
-| split: "," %} {% for cat in category_order %} {% assign cat_label =
+{% assign category_order = site.data.poster_styles.category_order %}
+{% for cat in category_order %} {% assign cat_label =
 site.data.poster_styles.categories[cat] %}
 <h2 id="{{ cat }}">{{ cat_label }}</h2>
 <div class="poster-grid">
