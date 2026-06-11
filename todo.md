@@ -2,11 +2,6 @@
 
 Lower-priority items from a project review, not yet addressed.
 
-- **Pin/remove Primer CSS dependency** — `_includes/head.html` loads
-  `https://unpkg.com/@primer/css/dist/primer.css` with no version pin and no
-  `integrity`/`crossorigin` attributes, used only for the Toast alert/info
-  boxes. Either copy the relevant Toast CSS into `assets/main.scss` and drop
-  the dependency, or pin a version with SRI.
 - **Stale faraday pin** — `Gemfile` pins `gem "faraday", "< 1.0"` (locks
   0.17.6, EOL ~2020). Check whether this workaround is still needed and
   remove if not.

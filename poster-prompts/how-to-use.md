@@ -2,6 +2,7 @@
 layout: page
 title: How to use these prompts
 permalink: /poster-prompts/how-to-use/
+description: "Tips for using the poster prompt catalogue — editing prompts, avoiding AI image-generation quirks, and managing image generation quotas."
 ---
 
 Each style page has two ready-made prompts — one for a village fête, one for a music gig. They are starting points, not finished recipes. The general process:

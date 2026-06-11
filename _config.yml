@@ -45,6 +45,16 @@ collections:
     output: true
     permalink: /poster-prompts/:name/
 
+# Per-collection metadata defaults — used by jekyll-seo-tag for <meta
+# name="description"> etc., so poster style pages don't fall back to
+# site.description ("Somewhere to drop my thoughts.")
+defaults:
+  - scope:
+      path: ""
+      type: poster_styles
+    values:
+      description: "A copy-paste AI image-generation prompt for this poster style, with example fête and gig posters — part of a 100-style poster prompt catalogue."
+
 header_pages:
   - index.md
   - about.md
