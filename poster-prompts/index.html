@@ -23,6 +23,11 @@ description: "One hundred design styles as copy-paste AI image-generation prompt
   quotas.
 </p>
 
+<div class="thumb-toggle" role="group" aria-label="Thumbnail style">
+  <button type="button" aria-pressed="false" data-variant="fete">Fête posters</button>
+  <button type="button" class="active" aria-pressed="true" data-variant="gig">Gig posters</button>
+</div>
+
 {% assign category_order = site.data.poster_styles.category_order %}
 {% for cat in category_order %} {% assign cat_label =
 site.data.poster_styles.categories[cat] %}
@@ -35,17 +40,59 @@ site.data.poster_styles.categories[cat] %}
     href="/poster-prompts/{{ style.id | replace: '_', '-' }}/"
   >
     <img
-      src="/assets/poster-thumbnails/{{ style.id }}-fete.jpg"
+      class="poster-thumb"
+      src="/assets/poster-thumbnails/{{ style.id }}-gig.jpg"
+      data-id="{{ style.id }}"
       alt="{{ style.name }}"
       loading="lazy"
       decoding="async"
-      onerror="
-        if (this.dataset.tried) { this.onerror=null; this.src='/assets/poster-thumbnails/placeholder.jpg'; }
-        else { this.dataset.tried='1'; this.src='/assets/poster-examples/{{ style.id }}-fete.webp'; }
-      "
     />
     <span class="card-name">{{ style.name }}</span>
   </a>
   {% endif %} {% endfor %}
 </div>
 {% endfor %}
+
+<script>
+(function() {
+  var THUMB_BASE = '/assets/poster-thumbnails/';
+  var EXAMPLE_BASE = '/assets/poster-examples/';
+  var PLACEHOLDER = THUMB_BASE + 'placeholder.jpg';
+  var STORAGE_KEY = 'posterThumbVariant';
+
+  function applyVariant(variant) {
+    document.querySelectorAll('.poster-thumb').forEach(function(img) {
+      var id = img.dataset.id;
+      img.dataset.tried = '';
+      img.onerror = function() {
+        if (img.dataset.tried) {
+          img.onerror = null;
+          img.src = PLACEHOLDER;
+        } else {
+          img.dataset.tried = '1';
+          img.src = EXAMPLE_BASE + id + '-' + variant + '.webp';
+        }
+      };
+      img.src = THUMB_BASE + id + '-' + variant + '.jpg';
+    });
+
+    document.querySelectorAll('.thumb-toggle button').forEach(function(btn) {
+      var active = btn.dataset.variant === variant;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+
+    try { localStorage.setItem(STORAGE_KEY, variant); } catch (e) {}
+  }
+
+  document.querySelectorAll('.thumb-toggle button').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      applyVariant(btn.dataset.variant);
+    });
+  });
+
+  var saved;
+  try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+  applyVariant(saved === 'fete' ? 'fete' : 'gig');
+})();
+</script>
