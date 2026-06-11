@@ -36,6 +36,8 @@ site.data.poster_styles.categories[cat] %}
     <img
       src="/assets/poster-thumbnails/{{ style.id }}-fete.jpg"
       alt="{{ style.name }}"
+      loading="lazy"
+      decoding="async"
       onerror="
         if (this.dataset.tried) { this.onerror=null; this.src='/assets/poster-thumbnails/placeholder.jpg'; }
         else { this.dataset.tried='1'; this.src='/assets/poster-examples/{{ style.id }}-fete.webp'; }

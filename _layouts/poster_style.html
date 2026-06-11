@@ -153,6 +153,7 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
       <div class="image-col">
         <img src="/assets/poster-examples/{{ style.id }}-gig.webp"
              alt="{{ style.name }} — gig poster example"
+             loading="lazy" decoding="async"
              onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.webp'">
       </div>
     </div>
@@ -190,6 +191,7 @@ document.addEventListener('keydown', function(e) {
       img.classList.remove('expanded');
     });
   }
+  if (e.target.matches('textarea, input')) return;
   if (e.key === 'ArrowLeft') {
     var prev = document.querySelector('.style-nav-prev');
     if (prev) window.location.href = prev.href;
@@ -203,6 +205,7 @@ document.addEventListener('keydown', function(e) {
 (function() {
   var startX, startY;
   document.addEventListener('touchstart', function(e) {
+    if (e.target.matches('textarea, input')) { startX = undefined; return; }
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
   }, { passive: true });

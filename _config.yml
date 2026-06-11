@@ -25,6 +25,7 @@ google_analytics:
 exclude:
   - AGENTS.md
   - README.md
+  - todo.md
   - poster-story-sources/
   - poster-styles/
   - serve.sh
@@ -56,6 +57,7 @@ plugins:
   - jekyll-gist
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-sitemap
 
 titles_from_headings:
   enabled: true

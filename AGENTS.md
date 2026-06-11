@@ -40,10 +40,11 @@ Push to the default branch; GitHub Pages builds and publishes automatically. No 
 | `404.html` | Custom 404 page |
 | `images/` | Post images (referenced as `/images/...`) |
 | `poster-prompts/` | Poster prompts subsite — index and how-to pages |
-| `_poster_styles/` | Collection stub files — one per style (50 total) |
-| `_data/poster_styles.yaml` | All 50 poster style definitions (authoritative source) |
+| `_poster_styles/` | Collection stub files — one per style (100 total) |
+| `_data/poster_styles.yaml` | All 100 poster style definitions (authoritative source) |
 | `_data/events.yaml` | Reference event descriptions (fête + gig) used in prompts |
-| `assets/poster-examples/` | Poster example images (`{style_id}-fete.png`, `{style_id}-gig.png`) |
+| `assets/poster-examples/` | Poster example images (`{style_id}-fete.webp`, `{style_id}-gig.webp`) |
+| `assets/poster-thumbnails/` | Fête thumbnail images (`{style_id}-fete.jpg`) used on the poster-prompts index grid |
 
 The Minima theme lives in the Ruby gem — do not vendor or copy theme files into the repo unless explicitly asked.
 

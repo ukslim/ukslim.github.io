@@ -84,10 +84,10 @@ If you're refining a result, keep your changes small — one adjustment at a tim
 
 **Look at the result carefully.** The examples on this site are mostly the first image that came out of ChatGPT — good enough to illustrate a style, but not necessarily ready to print. For a real poster, zoom in and check: is the text legible and correct? Does anyone have a third arm, a violin bow growing from their elbow, or fingers that don't add up? AI image generation has characteristic failure modes, and they're easy to miss at a glance. Reject and regenerate rather than hoping nobody notices.
 
-**Think about honesty.** Sometime an illustration is just a pretty picture. But sometimes an illustration makes promises the event can't keep.
+**Think about honesty.** Sometimes an illustration is just a pretty picture. But sometimes an illustration makes promises the event can't keep.
 If your fête won't have a big striped marquee with bunting, your poster shouldn't show one. If your poster shows someone eating candy floss,
-your event had better sell candy floss. If your event takes place in community library full of modern furniture, your poster shouldn't show a
-Harry Potter oak-panelled library. If your even takes place near a church with a steeple, don't depict a church with a square belfry. Even if
+your event had better sell candy floss. If your event takes place in a community library full of modern furniture, your poster shouldn't show a
+Harry Potter oak-panelled library. If your event takes place near a church with a steeple, don't depict a church with a square belfry. Even if
 your event does feature a big wheel, don't depict a forty metre wheel if the real thing will be small.
 
 AI will invent these falsehoods for you if you don't rein it in.
