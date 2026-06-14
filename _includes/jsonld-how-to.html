@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": {
+    "@type": "Collection",
+    "name": "Poster Prompts",
+    "url": {{ '/poster-prompts/' | absolute_url | jsonify }}
+  },
+  "author": {
+    "@type": "Person",
+    "name": {{ site.title | jsonify }}
+  }
+}
+</script>

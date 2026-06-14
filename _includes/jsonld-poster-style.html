@@ -1,0 +1,62 @@
+{% assign style = nil %}
+{% for s in site.data.poster_styles.styles %}
+  {% if s.id == page.style_id %}{% assign style = s %}{% endif %}
+{% endfor %}
+
+{% if style %}
+{% assign cat_label = site.data.poster_styles.categories[style.category] %}
+{% assign style_url = page.url | absolute_url %}
+{% assign catalogue_url = '/poster-prompts/' | absolute_url %}
+{% assign style_image = '/assets/poster-examples/' | append: style.id | append: '-fete.webp' | absolute_url %}
+{% assign style_description = style.summary | replace: '
+', ' ' | replace: '
+', ' ' | strip %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {{ '/' | absolute_url | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Poster Prompts",
+          "item": {{ catalogue_url | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ cat_label | jsonify }},
+          "item": {{ '/poster-prompts/#' | append: style.category | absolute_url | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": {{ style.name | jsonify }},
+          "item": {{ style_url | jsonify }}
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": {{ style.name | append: ' poster prompt' | jsonify }},
+      "description": {{ style_description | jsonify }},
+      "url": {{ style_url | jsonify }},
+      "image": {{ style_image | jsonify }},
+      "isPartOf": {
+        "@type": "Collection",
+        "name": "Poster Prompts",
+        "url": {{ catalogue_url | jsonify }}
+      }
+    }
+  ]
+}
+</script>
+{% endif %}

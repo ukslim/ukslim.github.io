@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "numberOfItems": {{ site.data.poster_styles.styles.size }},
+  "itemListElement": [
+    {%- for style in site.data.poster_styles.styles -%}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": {{ style.name | jsonify }},
+      "url": {{ '/poster-prompts/' | append: style.id | replace: '_', '-' | append: '/' | absolute_url | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>

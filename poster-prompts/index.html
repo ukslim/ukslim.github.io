@@ -43,7 +43,7 @@ site.data.poster_styles.categories[cat] %}
       class="poster-thumb"
       src="/assets/poster-thumbnails/{{ style.id }}-gig.jpg"
       data-id="{{ style.id }}"
-      alt="{{ style.name }}"
+      alt="{{ style.name }} gig poster example"
       loading="lazy"
       decoding="async"
     />
@@ -52,6 +52,8 @@ site.data.poster_styles.categories[cat] %}
   {% endif %} {% endfor %}
 </div>
 {% endfor %}
+
+{% include jsonld-poster-index.html %}
 
 <script>
 (function() {
@@ -63,6 +65,8 @@ site.data.poster_styles.categories[cat] %}
   function applyVariant(variant) {
     document.querySelectorAll('.poster-thumb').forEach(function(img) {
       var id = img.dataset.id;
+      var name = img.closest('.poster-card').querySelector('.card-name').textContent;
+      img.alt = name + ' ' + variant + ' poster example';
       img.dataset.tried = '';
       img.onerror = function() {
         if (img.dataset.tried) {

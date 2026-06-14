@@ -83,10 +83,20 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
 
 {{ style_part | strip }}{% endcapture %}
 
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/poster-prompts/">Poster Prompts</a></li>
+    <li><a href="/poster-prompts/#{{ style.category }}">{{ cat_label }}</a></li>
+    <li aria-current="page">{{ style.name }}</li>
+  </ol>
+</nav>
+
 <nav class="style-nav">
   <div class="style-nav-up">
     <a href="/poster-prompts/">All poster prompts</a>
     <a href="/poster-prompts/#{{ style.category }}">{{ cat_label }}</a>
+    <a href="/poster-prompts/how-to-use/">How to use</a>
   </div>
   <div class="style-nav-prevnext">
     {% if prev_style %}
@@ -131,6 +141,7 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
       <div class="image-col">
         <img src="/assets/poster-examples/{{ style.id }}-fete.webp"
              alt="{{ style.name }} — fête poster example"
+             loading="lazy" decoding="async"
              onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.webp'">
       </div>
     </div>
@@ -165,6 +176,7 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
   <div class="style-nav-up">
     <a href="/poster-prompts/">All poster prompts</a>
     <a href="/poster-prompts/#{{ style.category }}">{{ cat_label }}</a>
+    <a href="/poster-prompts/how-to-use/">How to use</a>
   </div>
   <div class="style-nav-prevnext">
     {% if prev_style %}
@@ -250,5 +262,7 @@ document.querySelectorAll('.prompt-toggle-btn').forEach(function(btn) {
   });
 });
 </script>
+
+{% include jsonld-poster-style.html %}
 
 {% endif %}

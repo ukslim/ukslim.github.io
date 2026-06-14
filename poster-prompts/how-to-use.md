@@ -126,3 +126,5 @@ This site exists because AI posters are often ugly and repetitive, and they don'
 ## Did this help?
 
 If these prompts were useful for a real event, I'd love to hear about it — and see the poster you made. Find me on [Bluesky](https://bsky.app/profile/ere-i-am-jh.bsky.social).
+
+{% include jsonld-how-to.html %}

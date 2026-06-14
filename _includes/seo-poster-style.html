@@ -1,0 +1,30 @@
+{% assign style = nil %}
+{% for s in site.data.poster_styles.styles %}
+  {% if s.id == page.style_id %}{% assign style = s %}{% endif %}
+{% endfor %}
+
+{% if style %}
+{% assign seo_title = style.name | append: ' poster prompt (' | append: style.era | append: ')' %}
+{% assign seo_description = style.summary | replace: '
+', ' ' | replace: '
+', ' ' | strip | truncate: 155, '' %}
+{% assign seo_image_path = '/assets/poster-examples/' | append: style.id | append: '-fete.webp' %}
+{% assign seo_image = seo_image_path | absolute_url %}
+{% assign page_url = page.url | absolute_url %}
+
+<title>{{ seo_title }} | {{ site.title }}</title>
+<meta name="generator" content="Jekyll {{ jekyll.version }}">
+<meta name="description" content="{{ seo_description | escape }}">
+<link rel="canonical" href="{{ page_url }}">
+<meta property="og:title" content="{{ seo_title | escape }}">
+<meta property="og:locale" content="{{ site.lang | default: 'en' }}">
+<meta property="og:description" content="{{ seo_description | escape }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{ seo_image }}">
+<meta name="twitter:card" content="{{ site.twitter.card | default: 'summary_large_image' }}">
+<meta name="twitter:title" content="{{ seo_title | escape }}">
+<meta name="twitter:description" content="{{ seo_description | escape }}">
+<meta name="twitter:image" content="{{ seo_image }}">
+{% endif %}

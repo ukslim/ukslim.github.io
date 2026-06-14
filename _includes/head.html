@@ -2,7 +2,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
+  {% if page.style_id %}
+    {% include seo-poster-style.html %}
+  {% else %}
+    {%- seo -%}
+  {% endif %}
+  {% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {% endif %}
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png" sizes="32x32">
   <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">

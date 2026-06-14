@@ -8,7 +8,13 @@
 
 title: "'ERE I AM - JH!"
 description: Somewhere to drop my thoughts.
+url: "https://ukslim.github.io"
+lang: en-GB
+rss: /feed.xml
 github_username: ukslim
+
+twitter:
+  card: summary_large_image
 
 # Email is optional:
 email:
@@ -54,6 +60,10 @@ defaults:
       type: poster_styles
     values:
       description: "A copy-paste AI image-generation prompt for this poster style, with example fête and gig posters — part of a 100-style poster prompt catalogue."
+  - scope:
+      path: ""
+    values:
+      image: /assets/poster-thumbnails/placeholder.jpg
 
 header_pages:
   - index.md
