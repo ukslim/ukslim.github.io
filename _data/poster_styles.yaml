@@ -3131,10 +3131,53 @@ styles:
 
   # --- handmade (additions — folk / vernacular) ---
 
+  - id: zagreb_school_animation
+    name: Zagreb School Animation
+    category: national_and_regional
+    era: 1956–1965
+    dk_source:
+      design_chapter: null
+      art_chapter: null
+    blog_validated: false
+    summary: >
+      The Zagreb School of animation — especially Dušan Vukotić's Oscar-winning
+      Surogat (1961) — developed a deadpan Eastern European art-school cartoon
+      look built from angular geometry and flat colour. Figures and objects are
+      assembled from triangles and wedges rather than rounded forms; bold black
+      outlines sit on unshaded colour fields in a limited-animation cel aesthetic.
+      The Simpsons parodied this strand as "Worker and Parasite".
+    visual_traits:
+      - figures and objects built from triangles and angular wedges, not circles
+      - bold black outlines on flat colour fields, no gradients or shading
+      - jagged, faintly stiff silhouettes — limited-animation cel quality
+      - abstracted symbolic forms rather than literal illustration
+    typography:
+      - bold constructivist-style sans-serif, slightly mismatched or hand-set looking
+      - clear hierarchy with few sizes
+      - asymmetrical text placement
+    palette: mustard yellow, rust orange, grey-green, ink black, with one acid-bright accent colour
+    layout: flat two-plane composition (single background plane, foreground plane of figures and stalls); asymmetrical grid; generous negative space
+    mood: cheerful event delivered deadpan — gallery-like, slightly absurdist, confident
+    references:
+      - Dušan Vukotić
+      - Surogat (1961)
+      - Zagreb School of animation
+      - The Simpsons "Worker and Parasite"
+    avoid:
+      - pastel florals
+      - decorative borders
+      - soft shading
+      - painterly texture
+      - rounded or Soyuzmultfilm-style cute character design
+      - photorealism
+    poster_framing: Contemporary event poster styled as a still from a deadpan Eastern European art-school cartoon
+    caution: null
+
   - id: soyuzmultfilm
     name: Soyuzmultfilm Animation
     category: national_and_regional
     era: 1950s–1980s
+    orphaned: true
     dk_source:
       design_chapter: null
       art_chapter: null
@@ -3147,8 +3190,8 @@ styles:
       Nu Pogodi!, the Hedgehog from Hedgehog in the Fog. Backgrounds are
       painterly and atmospheric — misty forests, soft fields, simplified Soviet
       domestic interiors — in muted warm palettes far from American primary
-      colours. Constructivist graphic design sensibility applied to gentle
-      storytelling. The style The Simpsons parodied as "Worker and Parasite."
+      colours.       Constructivist graphic design sensibility applied to gentle
+      storytelling — softer and more rounded than the angular Zagreb School look.
     visual_traits:
       - rounded geometric animal characters — circular head, large round eyes, tubular limbs
       - soft painterly backgrounds with flat colour and subtle texture

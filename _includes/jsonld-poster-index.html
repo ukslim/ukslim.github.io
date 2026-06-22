@@ -5,15 +5,19 @@
   "name": {{ page.title | jsonify }},
   "description": {{ page.description | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
-  "numberOfItems": {{ site.data.poster_styles.styles.size }},
+  "numberOfItems": {% assign indexed_styles = site.data.poster_styles.styles | where_exp: "s", "s.orphaned != true" %}{{ indexed_styles.size }},
   "itemListElement": [
+    {%- assign list_pos = 0 -%}
     {%- for style in site.data.poster_styles.styles -%}
+    {%- unless style.orphaned -%}
+    {%- assign list_pos = list_pos | plus: 1 -%}
     {
       "@type": "ListItem",
-      "position": {{ forloop.index }},
+      "position": {{ list_pos }},
       "name": {{ style.name | jsonify }},
       "url": {{ '/poster-prompts/' | append: style.id | replace: '_', '-' | append: '/' | absolute_url | jsonify }}
-    }{%- unless forloop.last -%},{%- endunless -%}
+    }{%- assign indexed_remaining = indexed_styles.size | minus: list_pos -%}{%- if indexed_remaining > 0 -%},{%- endif -%}
+    {%- endunless -%}
     {%- endfor -%}
   ]
 }

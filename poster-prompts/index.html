@@ -33,7 +33,7 @@ description: "One hundred design styles as copy-paste AI image-generation prompt
 site.data.poster_styles.categories[cat] %}
 <h2 id="{{ cat }}">{{ cat_label }}</h2>
 <div class="poster-grid">
-  {% for style in site.data.poster_styles.styles %} {% if style.category == cat
+  {% for style in site.data.poster_styles.styles %} {% if style.category == cat and style.orphaned != true
   %}
   <a
     class="poster-card"

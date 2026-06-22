@@ -18,12 +18,16 @@ layout: default
 {% for s in ordered_styles %}
   {% if s.id == page.style_id %}{% assign cur_idx = forloop.index0 %}{% endif %}
 {% endfor %}
-{% if cur_idx > 0 %}
+{% unless style.orphaned %}
+{% if cur_idx != nil and cur_idx > 0 %}
   {% assign prev_idx = cur_idx | minus: 1 %}
   {% assign prev_style = ordered_styles | slice: prev_idx, 1 | first %}
 {% endif %}
-{% assign next_idx = cur_idx | plus: 1 %}
-{% assign next_style = ordered_styles | slice: next_idx, 1 | first %}
+{% if cur_idx != nil %}
+  {% assign next_idx = cur_idx | plus: 1 %}
+  {% assign next_style = ordered_styles | slice: next_idx, 1 | first %}
+{% endif %}
+{% endunless %}
 {% assign cat_label = site.data.poster_styles.categories[style.category] %}
 
 {% capture event_fete %}{{ site.data.events.fete.title }}
