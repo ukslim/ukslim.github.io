@@ -1,0 +1,2248 @@
+---
+layout: null
+permalink: /backpressure/
+title: "Backpressure"
+description: "What a biscuit factory can teach us about AI-assisted development — on queues, throttling, and why finishing code faster isn't the same as shipping it faster."
+---
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backpressure: What a Biscuit Factory Can Teach Us About AI-Assisted Development</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #14171C;
+    --ink-panel: #1B1F26;
+    --paper: #F0EDE4;
+    --paper-dim: #C9C4B6;
+    --amber: #E8B34A;
+    --amber-dim: #8A6A2E;
+    --signal-green: #5B8C7B;
+    --violet: #8A6E9E;
+    --line: #34393F;
+    --line-soft: #2A2E36;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --serif: "Source Serif 4", Georgia, serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--serif);
+    font-size: 19px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--amber);
+    color: var(--ink);
+  }
+
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- Header ---------- */
+
+  header.masthead {
+    padding: 96px 24px 64px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .masthead-inner {
+    max-width: 680px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin: 0 0 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .kicker::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--amber);
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px rgba(232, 179, 74, 0.6);
+  }
+
+  h1.title {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 0 0 20px;
+    color: var(--paper);
+  }
+
+  h1.title em {
+    font-style: italic;
+    color: var(--amber);
+  }
+
+  .subdek {
+    font-family: var(--mono);
+    font-size: 14.5px;
+    color: var(--paper-dim);
+    line-height: 1.6;
+    max-width: 46ch;
+    margin: 0;
+  }
+
+  /* Ambient gauge decoration in header */
+  .masthead-gauge {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    width: 320px;
+    height: 320px;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+
+  @media (max-width: 860px) {
+    .masthead-gauge { display: none; }
+  }
+
+  /* ---------- Body typography ---------- */
+
+  main { padding: 8px 0 40px; }
+
+  section.chapter {
+    padding: 72px 0;
+  }
+
+  section.chapter + section.chapter {
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .chapter-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--signal-green);
+    margin: 0 0 14px;
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.25;
+    color: var(--paper);
+    margin: 0 0 28px;
+    letter-spacing: -0.005em;
+  }
+
+  p {
+    margin: 0 0 22px;
+    color: #DEDAD0;
+  }
+
+  p strong {
+    color: var(--paper);
+    font-weight: 600;
+  }
+
+  p em, li em {
+    font-style: italic;
+    color: var(--amber);
+  }
+
+  .lede p:first-of-type {
+    font-size: 1.02em;
+  }
+
+  ul.harms {
+    list-style: none;
+    margin: 0 0 26px;
+    padding: 0;
+    border-left: 2px solid var(--amber-dim);
+  }
+
+  ul.harms li {
+    padding: 4px 0 20px 22px;
+    color: #DEDAD0;
+    position: relative;
+  }
+
+  ul.harms li:last-child { padding-bottom: 4px; }
+
+  ul.harms li strong {
+    display: block;
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
+  ul.plain {
+    margin: 0 0 26px;
+    padding-left: 22px;
+  }
+
+  ul.plain li {
+    margin-bottom: 14px;
+    color: #DEDAD0;
+  }
+
+  ul.slack {
+    list-style: none;
+    margin: 0 0 26px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  ul.slack li {
+    border: 1px solid var(--line);
+    background: var(--ink-panel);
+    border-radius: 3px;
+    padding: 16px 20px;
+    color: #DEDAD0;
+  }
+
+  ul.slack li strong {
+    color: var(--signal-green);
+    font-weight: 600;
+  }
+
+  ol.recap {
+    list-style: none;
+    counter-reset: recap-counter;
+    margin: 0 0 8px;
+    padding: 0;
+  }
+
+  ol.recap li {
+    counter-increment: recap-counter;
+    position: relative;
+    padding: 0 0 22px 42px;
+    color: #DEDAD0;
+    border-left: 1px solid var(--line-soft);
+    margin-left: 11px;
+  }
+
+  ol.recap li:last-child {
+    padding-bottom: 2px;
+    border-left-color: transparent;
+  }
+
+  ol.recap li::before {
+    content: counter(recap-counter);
+    position: absolute;
+    left: -11px;
+    top: -1px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--ink-panel);
+    border: 1px solid var(--amber-dim);
+    color: var(--amber);
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ol.recap li strong {
+    color: var(--paper);
+    font-weight: 600;
+  }
+
+  .qhead {
+    font-family: var(--mono);
+    font-size: 13.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--ink-panel);
+    border-left: 3px solid var(--amber);
+    padding: 10px 16px;
+    margin: 40px 0 20px;
+    font-weight: 500;
+  }
+
+  hr.divider {
+    border: none;
+    height: 1px;
+    background: var(--line-soft);
+    margin: 0;
+  }
+
+  .lever-break {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--violet);
+    text-align: center;
+    margin: 48px 0 0;
+  }
+
+  /* ---------- Diagram panel shell ---------- */
+
+  .diagram-panel {
+    margin: 44px -24px;
+    border: 1px solid var(--line);
+    background: var(--ink-panel);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .diagram-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+  }
+
+  .diagram-head-labels {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    flex-wrap: wrap;
+  }
+
+  .diagram-tag {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .diagram-tag .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--signal-green);
+  }
+
+  .diagram-title {
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    color: var(--amber);
+  }
+
+  .diagram-restart {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--paper-dim);
+    border-radius: 3px;
+    padding: 5px 10px 5px 8px;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .diagram-restart:hover {
+    color: var(--paper);
+    border-color: #4A4F57;
+  }
+
+  .diagram-restart:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+  }
+
+  .diagram-restart svg {
+    width: 11px;
+    height: 11px;
+    transition: transform 0.4s ease;
+  }
+
+  .diagram-restart.spinning svg {
+    transform: rotate(-360deg);
+  }
+
+  .diagram-body {
+    padding: 28px 20px 8px;
+  }
+
+  .diagram-caption {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--paper-dim);
+    padding: 16px 20px 22px;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .diagram-caption b { color: var(--paper); font-weight: 500; }
+
+  /* Placeholder-style panel for not-yet-built diagrams */
+  .diagram-panel.placeholder .diagram-body {
+    padding: 48px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .placeholder-note {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--paper-dim);
+    border: 1px dashed var(--line);
+    padding: 20px 24px;
+    border-radius: 3px;
+    line-height: 1.7;
+    max-width: 44ch;
+  }
+
+  .placeholder-note .ph-label {
+    display: block;
+    color: var(--amber);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 620px) {
+    .diagram-panel { margin: 44px 0; border-radius: 6px; }
+  }
+
+  /* ---------- Diagram 1: Widening Gap chart ---------- */
+
+  .gap-chart-wrap {
+    width: 100%;
+    display: block;
+  }
+
+  .gap-legend {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0 20px 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--paper-dim);
+  }
+
+  .gap-legend .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .gap-legend .swatch {
+    width: 14px;
+    height: 3px;
+    display: inline-block;
+    border-radius: 2px;
+  }
+
+  .gap-legend .swatch.produced { background: var(--amber); }
+  .gap-legend .swatch.reviewed { background: var(--signal-green); }
+  .gap-legend .swatch.backlog { background: var(--paper-dim); opacity: 0.4; }
+
+  /* ---------- Diagram 2: Factory Floor ---------- */
+
+  .factory-wrap {
+    width: 100%;
+    display: block;
+  }
+
+  .factory-legend {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0 20px 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--paper-dim);
+  }
+
+  .factory-legend .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .factory-legend .swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .factory-legend .swatch.rate-fast { background: var(--amber); }
+  .factory-legend .swatch.rate-slow { background: var(--signal-green); }
+  .factory-legend .swatch.rate-jammed { background: #C97B4A; }
+  .factory-legend .swatch.pileup { background: var(--paper-dim); opacity: 0.5; }
+
+  .factory-legend .scale-note {
+    color: #6B7178;
+    font-style: italic;
+  }
+
+  .ff-accum {
+    transition: transform 0.16s ease-out;
+  }
+
+  .ff-buffer-rect.is-full {
+    stroke: #C97B4A;
+    stroke-dasharray: none;
+  }
+
+  .ff-status.is-full { fill: #C97B4A; }
+  .ff-status.is-steady { fill: #5B8C7B; }
+
+  /* ---------- Diagram 3: The Jam (toggle) ---------- */
+
+  .jam-toggle {
+    display: flex;
+    gap: 2px;
+    padding: 16px 20px 0;
+  }
+
+  .jam-toggle button {
+    flex: 1;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--paper-dim);
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  }
+
+  .jam-toggle button:first-child { border-radius: 3px 0 0 3px; }
+  .jam-toggle button:last-child { border-radius: 0 3px 3px 0; border-left: none; }
+
+  .jam-toggle button:hover {
+    color: var(--paper);
+  }
+
+  .jam-toggle button.active {
+    color: var(--ink);
+    background: var(--amber);
+    border-color: var(--amber);
+  }
+
+  .jam-toggle button.active.throttled {
+    background: var(--signal-green);
+    border-color: var(--signal-green);
+  }
+
+  .jam-toggle button:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+  }
+
+  .jam-outcome-label {
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--paper-dim);
+    padding: 14px 20px 0;
+    min-height: 1.6em;
+  }
+
+  .jam-outcome-label b { color: var(--amber); }
+  .jam-outcome-label.is-good b { color: var(--signal-green); }
+
+  @keyframes jamLightPulse {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.35; }
+  }
+
+  .jam-light {
+    animation: jamLightPulse 1.6s ease-in-out infinite;
+  }
+
+  /* ---------- Diagram 4: Two Ways to Say Slow Down ---------- */
+
+  .mech-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    background: var(--line);
+  }
+
+  @media (min-width: 560px) {
+    .mech-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .mech-panel {
+    background: var(--ink-panel);
+    padding: 20px 18px 22px;
+  }
+
+  .mech-panel-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    margin-bottom: 4px;
+  }
+
+  .mech-panel-label b {
+    color: var(--amber);
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    margin-top: 4px;
+  }
+
+  .mech-panel:last-child .mech-panel-label b {
+    color: var(--signal-green);
+  }
+
+  .mech-svg-wrap {
+    margin: 16px 0 10px;
+  }
+
+  @keyframes tcpPacketPush {
+    0%   { transform: translateX(0); opacity: 0; }
+    8%   { opacity: 1; }
+    38%  { transform: translateX(var(--pkt-x)); opacity: 1; }
+    46%  { opacity: 0; transform: translateX(var(--pkt-x)); }
+    100% { opacity: 0; transform: translateX(var(--pkt-x)); }
+  }
+
+  @keyframes tcpPacketBlockedPush {
+    0%   { transform: translateX(0); opacity: 0; }
+    8%   { opacity: 1; }
+    30%  { transform: translateX(var(--pkt-blocked-x)); opacity: 1; }
+    55%  { transform: translateX(var(--pkt-blocked-x)); opacity: 1; }
+    62%  { opacity: 0; transform: translateX(var(--pkt-blocked-x)); }
+    100% { opacity: 0; transform: translateX(var(--pkt-blocked-x)); }
+  }
+
+  .tcp-packet {
+    animation: tcpPacketPush 3.2s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+
+  .tcp-packet.blocked {
+    animation-name: tcpPacketBlockedPush;
+  }
+
+  @keyframes streamPull {
+    0%   { opacity: 0; transform: translateX(0); }
+    10%  { opacity: 1; }
+    45%  { opacity: 1; transform: translateX(var(--pull-x)); }
+    58%  { opacity: 0; transform: translateX(var(--pull-x)); }
+    100% { opacity: 0; transform: translateX(var(--pull-x)); }
+  }
+
+  .stream-chunk {
+    animation: streamPull 3.6s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+
+  @keyframes pulseRequest {
+    0%, 100% { opacity: 0.35; }
+    50%      { opacity: 1; }
+  }
+
+  .pull-request-arrow {
+    animation: pulseRequest 3.6s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+
+  .mech-playing .tcp-packet,
+  .mech-playing .stream-chunk,
+  .mech-playing .pull-request-arrow {
+    animation-play-state: running;
+  }
+
+  /* ---------- Diagram 5: WIP Limit as Backpressure ---------- */
+
+  .kanban-wrap {
+    padding: 22px 20px 4px;
+  }
+
+  .kanban-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  @media (max-width: 520px) {
+    .kanban-board { grid-template-columns: 1fr; }
+  }
+
+  .kanban-col {
+    background: #1F242C;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kanban-col-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+  }
+
+  .kanban-col.is-review .kanban-col-head { color: var(--amber); }
+  .kanban-col.is-review.at-cap .kanban-col-head { color: #C97B4A; }
+
+  .kanban-cap {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--paper-dim);
+    padding: 2px 7px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+
+  .kanban-col.is-review.at-cap .kanban-cap {
+    color: #C97B4A;
+    border-color: #6B4530;
+  }
+
+  .kanban-cards {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .kanban-card {
+    background: #2A2F38;
+    border: 1px solid #3A4048;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: #D9D5CA;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  .kanban-card.shown {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .kanban-card.pending-card {
+    border-style: dashed;
+    color: var(--paper-dim);
+  }
+
+  .kanban-card.blocked-card {
+    border-color: #6B4530;
+    background: #2E241C;
+    color: #C97B4A;
+  }
+
+  .kanban-card.shake {
+    animation: cardShake 0.4s ease;
+  }
+
+  @keyframes cardShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    75% { transform: translateX(4px); }
+  }
+
+  .kanban-new-btn-row {
+    padding: 16px 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .kanban-new-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    background: var(--amber);
+    color: var(--ink);
+    border: none;
+    border-radius: 3px;
+    padding: 9px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease, transform 0.1s ease;
+  }
+
+  .kanban-new-btn:hover { background: #F0C368; }
+  .kanban-new-btn:active { transform: scale(0.97); }
+
+  .kanban-new-btn:focus-visible {
+    outline: 2px solid var(--paper);
+    outline-offset: 2px;
+  }
+
+  .kanban-status {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--paper-dim);
+  }
+
+  .kanban-status b { color: #C97B4A; }
+
+  /* ---------- Diagram 6: Same Limit, Different Pressure ---------- */
+
+  .twin-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    background: var(--line);
+  }
+
+  @media (min-width: 560px) {
+    .twin-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .twin-panel {
+    background: var(--ink-panel);
+    padding: 18px 18px 20px;
+  }
+
+  .twin-panel-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+
+  .twin-panel-label .cap-badge {
+    font-size: 10.5px;
+    padding: 2px 7px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    color: var(--paper-dim);
+  }
+
+  .twin-col {
+    background: #1F242C;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    min-height: 190px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .twin-card {
+    background: #2A2F38;
+    border: 1px solid #3A4048;
+    border-radius: 3px;
+    font-family: var(--mono);
+    color: #D9D5CA;
+    font-size: 10.5px;
+    padding: 7px 9px;
+    opacity: 0;
+    transition: opacity 0.5s ease, border-color 0.4s ease, background 0.4s ease;
+  }
+
+  /* Uniform (healthy) cards: small, consistent height, cycle through */
+  .twin-card.uniform { height: 24px; }
+
+  /* Lumpy (unhealthy) cards: wildly different heights */
+  .twin-card.lumpy-1 { height: 20px; }
+  .twin-card.lumpy-2 { height: 46px; }
+  .twin-card.lumpy-3 { height: 70px; }
+
+  .twin-card.stuck {
+    border-color: #6B4530;
+    background: #2E241C;
+    color: #C97B4A;
+  }
+
+  .twin-playing .twin-card {
+    opacity: 1;
+  }
+
+  .twin-flow-status {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--paper-dim);
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .twin-flow-status.good { color: var(--signal-green); }
+  .twin-flow-status.bad { color: #C97B4A; }
+
+  @keyframes cardCycle {
+    0%, 22%   { opacity: 1; transform: translateY(0); }
+    28%       { opacity: 0; transform: translateY(-6px); }
+    32%       { opacity: 0; transform: translateY(6px); }
+    38%, 100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .twin-playing .twin-card.uniform {
+    animation: cardCycle 4.5s ease-in-out infinite;
+  }
+
+  .twin-playing .twin-card.uniform:nth-child(2) { animation-delay: 1.1s; }
+  .twin-playing .twin-card.uniform:nth-child(3) { animation-delay: 2.2s; }
+
+  @keyframes stuckPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(201, 123, 74, 0); }
+    50%      { box-shadow: 0 0 0 3px rgba(201, 123, 74, 0.18); }
+  }
+
+  .twin-playing .twin-card.stuck {
+    animation: stuckPulse 2.4s ease-in-out infinite;
+  }
+
+  /* ---------- Diagram 7: Plan Backwards, Not Forwards ---------- */
+
+  .replan-wrap {
+    padding: 24px 20px 6px;
+  }
+
+  .replan-row-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    margin-bottom: 10px;
+  }
+
+  .replan-row-label.bad { color: #C97B4A; }
+  .replan-row-label.good { color: var(--signal-green); }
+
+  .replan-row {
+    margin-bottom: 34px;
+  }
+
+  .replan-row:last-child { margin-bottom: 0; }
+
+  @keyframes chunkReveal {
+    0%   { opacity: 0; transform: translateY(-4px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .replan-playing .replan-chunk {
+    animation: chunkReveal 0.4s ease forwards;
+  }
+
+  .replan-playing .replan-chunk.flag-in {
+    animation: flagPulse 0.6s ease forwards;
+    animation-delay: 1.6s;
+  }
+
+  @keyframes flagPulse {
+    0%   { fill: #C97B4A; }
+    40%  { fill: #E8896A; }
+    100% { fill: #C97B4A; }
+  }
+
+  .replan-playing .replan-mistake-label {
+    transition: opacity 0.5s ease;
+    transition-delay: 1.6s;
+  }
+
+  .replan-playing .replan-mistake-label.show {
+    opacity: 1;
+  }
+
+  .replan-playing .replan-fan-path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    animation: fanDraw 0.6s ease forwards;
+  }
+
+  @keyframes fanDraw {
+    to { stroke-dashoffset: 0; }
+  }
+
+  .replan-playing .replan-gate {
+    transition: opacity 0.4s ease;
+  }
+
+  /* ---------- AI disclosure ---------- */
+
+  .disclosure {
+    max-width: 680px;
+    margin: 28px auto 0;
+    padding: 0 24px;
+  }
+
+  .disclosure-box {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--ink-panel);
+  }
+
+  .disclosure-box summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 13px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .disclosure-box summary::-webkit-details-marker { display: none; }
+
+  .disclosure-box summary:hover { color: var(--paper); }
+
+  .disclosure-box summary:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  .disclosure-box summary .chev {
+    width: 9px;
+    height: 9px;
+    border-right: 1.4px solid var(--amber);
+    border-bottom: 1.4px solid var(--amber);
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .disclosure-box[open] summary .chev {
+    transform: rotate(45deg);
+  }
+
+  .disclosure-box .disclosure-body {
+    padding: 4px 18px 18px;
+    border-top: 1px solid var(--line-soft);
+    padding-top: 14px;
+  }
+
+  .disclosure-box .disclosure-body p {
+    font-family: var(--serif);
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: #C9C4B6;
+    margin: 0 0 14px;
+  }
+
+  .disclosure-box .disclosure-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---------- Footer ---------- */
+
+  footer {
+    padding: 48px 24px 80px;
+    text-align: center;
+  }
+
+  footer .fnote {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--paper-dim);
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 560px) {
+    body { font-size: 17.5px; }
+    header.masthead { padding: 64px 20px 48px; }
+    h1.title { font-size: 32px; }
+    h2 { font-size: 25px; }
+    section.chapter { padding: 56px 0; }
+    .diagram-panel { margin-left: -20px; margin-right: -20px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Systems &amp; Process</p>
+    <h1 class="title">Backpressure: what a <em>biscuit factory</em> can teach us about AI&#8209;assisted development</h1>
+    <p class="subdek">On queues, throttling, and why finishing code faster isn't the same as shipping it faster.</p>
+  </div>
+  <svg class="masthead-gauge" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="100" cy="100" r="86" fill="none" stroke="#34393F" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#34393F" stroke-width="1"/>
+    <g stroke="#8A6A2E" stroke-width="1.5">
+      <line x1="100" y1="14" x2="100" y2="26"/>
+      <line x1="100" y1="174" x2="100" y2="186"/>
+      <line x1="14" y1="100" x2="26" y2="100"/>
+      <line x1="174" y1="100" x2="186" y2="100"/>
+    </g>
+    <path d="M 100 100 L 145 60" stroke="#E8B34A" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="100" cy="100" r="5" fill="#E8B34A"/>
+  </svg>
+</header>
+
+<div class="disclosure">
+  <details class="disclosure-box">
+    <summary><span class="chev"></span>AI disclosure</summary>
+    <div class="disclosure-body">
+      <p>This article was written by Claude LLM under close supervision by me. My process is to tell the LLM the ideas to communicate, the broad structure of the article, and let it write it for me. Then I read it, ask for changes, and keep moulding until I'm happy with it.</p>
+      <p>I make no attempt to hide the inevitable AI tone of voice, but the content is the content I, a human, wanted.</p>
+    </div>
+  </details>
+</div>
+
+<main>
+<div class="wrap">
+
+  <section class="chapter lede" id="s1">
+    <p class="chapter-label">01 — The problem</p>
+
+    <p>Every team that ships code follows roughly the same loop. Someone writes code. They open a pull request. A reviewer looks at it. Once it passes review, it merges. For most of software history, the slow step was writing the code. Review was quick by comparison, because there wasn't much to review at once. The queue of open PRs stayed short almost by accident &mdash; code simply couldn't pile up faster than people could look at it.</p>
+
+    <p>AI-assisted coding breaks that accident. A developer working with an AI assistant can produce a working, review-ready PR in a fraction of the time it used to take. That sounds like a pure win. But writing code was never the bottleneck for the whole system &mdash; it was one stage in a pipeline, and the other stages didn't speed up. Review didn't get faster. Testing didn't get faster. The attention of the one senior engineer who understands the billing module didn't get faster.</p>
+
+    <p>So the PRs pile up.</p>
+
+    <div class="diagram-panel" id="diagram-1">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 1 / THROUGHPUT</span>
+          <span class="diagram-title">The Widening Gap</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="1"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+      <div class="diagram-body">
+        <div class="gap-chart-wrap">
+          <svg id="gap-chart-svg" viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart showing PRs produced per day rising sharply after AI-assisted coding is introduced, while PRs reviewed per day stays flat, with the growing gap between them shaded as backlog.">
+            <!-- gridlines -->
+            <g stroke="#2A2E36" stroke-width="1">
+              <line x1="50" y1="40" x2="50" y2="270"/>
+              <line x1="50" y1="270" x2="610" y2="270"/>
+              <line x1="50" y1="215" x2="610" y2="215" stroke-dasharray="2 5"/>
+              <line x1="50" y1="160" x2="610" y2="160" stroke-dasharray="2 5"/>
+              <line x1="50" y1="105" x2="610" y2="105" stroke-dasharray="2 5"/>
+              <line x1="50" y1="50" x2="610" y2="50" stroke-dasharray="2 5"/>
+            </g>
+
+            <!-- axis labels -->
+            <text x="50" y="292" font-family="IBM Plex Mono" font-size="11" fill="#6B7178">day 0</text>
+            <text x="325" y="292" font-family="IBM Plex Mono" font-size="11" fill="#8A6A2E" text-anchor="middle">AI-assisted coding introduced</text>
+            <text x="595" y="292" font-family="IBM Plex Mono" font-size="11" fill="#6B7178" text-anchor="end">day 60</text>
+
+            <!-- threshold marker line where AI kicks in -->
+            <line x1="325" y1="40" x2="325" y2="270" stroke="#8A6A2E" stroke-width="1" stroke-dasharray="4 4"/>
+
+            <!-- backlog shaded area, drawn first so lines sit on top -->
+            <path id="backlog-fill" d="M 325 190 L 325 190 L 610 190 L 610 190 Z" fill="#E8B34A" opacity="0" />
+
+            <!-- reviewed line (flat, signal-green) -->
+            <path id="reviewed-line" d="M 50 190 L 610 190" fill="none" stroke="#5B8C7B" stroke-width="2.5" stroke-linecap="round" />
+
+            <!-- produced line (amber, ramps up after threshold) -->
+            <path id="produced-line" d="M 50 190 L 325 190" fill="none" stroke="#E8B34A" stroke-width="2.5" stroke-linecap="round" />
+
+            <!-- endpoint dots -->
+            <circle id="reviewed-dot" cx="610" cy="190" r="4" fill="#5B8C7B"/>
+            <circle id="produced-dot" cx="325" cy="190" r="4" fill="#E8B34A" opacity="0"/>
+
+            <!-- backlog label, fades in -->
+            <text id="backlog-label" x="470" y="130" font-family="IBM Plex Mono" font-size="12" fill="#F0EDE4" text-anchor="middle" opacity="0">backlog</text>
+          </svg>
+        </div>
+        <div class="gap-legend">
+          <span class="item"><span class="swatch produced"></span>PRs produced / day</span>
+          <span class="item"><span class="swatch reviewed"></span>PRs reviewed / day</span>
+          <span class="item"><span class="swatch backlog"></span>growing backlog</span>
+        </div>
+      </div>
+      <div class="diagram-caption">Once AI-assisted coding is introduced, <b>production</b> climbs steeply &mdash; but <b>review capacity</b> stays flat. The shaded gap is the backlog, and it only grows.</div>
+    </div>
+
+    <p>A backlog of open PRs isn't just an untidy dashboard. It's a source of real, compounding cost:</p>
+
+    <ul class="harms">
+      <li><strong>Reviewer fatigue</strong>Six PRs waiting for the same reviewer get a worse review than one PR waiting alone. Attention is finite, and it gets spread thin across the queue instead of focused on each change.</li>
+      <li><strong>Stale bases</strong>While a PR waits, other PRs merge ahead of it. The longer it sits, the further its starting point drifts from the current codebase, and the more likely it is to need a fiddly rebase before anyone can even look at it properly.</li>
+      <li><strong>Rework and re-review</strong>Feedback on a stale PR often means the author has to reconstruct context they've since forgotten, make the fix, and then wait in the queue a second time &mdash; for a second review of a change that should have been small.</li>
+    </ul>
+
+    <p>None of this is a people problem. It's a systems problem. When one stage of a pipeline speeds up and the next stage doesn't, something has to give. The question is whether we choose what gives, or let it happen to us.</p>
+  </section>
+
+  <section class="chapter" id="s2">
+    <p class="chapter-label">02 — The biscuit factory</p>
+    <h2>An analogy from the factory floor</h2>
+
+    <p>Picture a biscuit factory. The production line can bake and cut a thousand biscuits a minute. The wrapping machine downstream can only wrap eight hundred a minute. If the production line just runs flat out at its own top speed, biscuits pile up faster than they can be wrapped.</p>
+
+    <div class="diagram-panel" id="diagram-2">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 2 / FACTORY FLOOR</span>
+          <span class="diagram-title">The Factory Floor</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="2"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+      <div class="diagram-body">
+        <div class="factory-wrap">
+          <svg id="ff-svg" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Simulation of an oven producing a thousand biscuits a minute feeding a buffer, and a wrapping machine consuming eight hundred a minute. Each dot stands for two biscuits. The buffer accumulates the surplus two hundred a minute in a grid five high, packing against the wrapper end, until it is completely full and production has nowhere to go.">
+
+            <!-- conveyor base line -->
+            <line x1="20" y1="245" x2="620" y2="245" stroke="#2A2E36" stroke-width="1"/>
+
+            <!-- OVEN -->
+            <g>
+              <rect x="20" y="150" width="90" height="80" rx="4" fill="#1F242C" stroke="#E8B34A" stroke-width="1.5"/>
+              <text x="65" y="140" font-family="IBM Plex Mono" font-size="12" fill="#E8B34A" text-anchor="middle">OVEN</text>
+              <text x="65" y="192" font-family="IBM Plex Mono" font-size="16" fill="#F0EDE4" text-anchor="middle" font-weight="600">1000</text>
+              <text x="65" y="208" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">biscuits / min</text>
+              <g stroke="#8A6A2E" stroke-width="1.5" stroke-linecap="round">
+                <line x1="35" y1="222" x2="35" y2="215"/>
+                <line x1="50" y1="222" x2="50" y2="212"/>
+                <line x1="65" y1="222" x2="65" y2="216"/>
+                <line x1="80" y1="222" x2="80" y2="212"/>
+                <line x1="95" y1="222" x2="95" y2="215"/>
+              </g>
+            </g>
+
+            <!-- BUFFER zone -->
+            <g>
+              <rect id="ff-buffer-rect" class="ff-buffer-rect" x="324" y="150" width="156" height="80" rx="2" fill="none" stroke="#34393F" stroke-width="1" stroke-dasharray="3 4"/>
+              <text x="324" y="140" font-family="IBM Plex Mono" font-size="11" fill="#6B7178" text-anchor="start" letter-spacing="0.08em">BUFFER</text>
+              <text id="ff-count" x="480" y="140" font-family="IBM Plex Mono" font-size="11" fill="#6B7178" text-anchor="end">0 waiting</text>
+
+              <g id="ff-travellers"></g>
+              <g id="ff-accum" class="ff-accum"></g>
+              <g id="ff-exiters"></g>
+            </g>
+
+            <!-- WRAPPER -->
+            <g>
+              <rect x="530" y="150" width="90" height="80" rx="4" fill="#1F242C" stroke="#5B8C7B" stroke-width="1.5"/>
+              <text x="575" y="140" font-family="IBM Plex Mono" font-size="12" fill="#5B8C7B" text-anchor="middle">WRAPPER</text>
+              <text x="575" y="192" font-family="IBM Plex Mono" font-size="16" fill="#F0EDE4" text-anchor="middle" font-weight="600">800</text>
+              <text x="575" y="208" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">biscuits / min</text>
+              <g stroke="#3F6656" stroke-width="1.5" stroke-linecap="round">
+                <line x1="545" y1="222" x2="545" y2="216"/>
+                <line x1="560" y1="222" x2="560" y2="212"/>
+                <line x1="575" y1="222" x2="575" y2="216"/>
+                <line x1="590" y1="222" x2="590" y2="212"/>
+                <line x1="605" y1="222" x2="605" y2="216"/>
+              </g>
+            </g>
+
+            <text id="ff-status" class="ff-status" x="320" y="268" font-family="IBM Plex Mono" font-size="11" fill="#8A9096" text-anchor="middle">A thousand a minute in, eight hundred out. The buffer takes the difference.</text>
+          </svg>
+        </div>
+        <div class="factory-legend">
+          <span class="item"><span class="swatch rate-fast"></span>going in &mdash; 1000 / min</span>
+          <span class="item"><span class="swatch rate-slow"></span>coming out &mdash; 800 / min</span>
+          <span class="item"><span class="swatch pileup"></span>stuck in the buffer</span>
+          <span class="item scale-note">one dot = 2 biscuits</span>
+        </div>
+      </div>
+      <div class="diagram-caption">Two hundred biscuits a minute have nowhere to go. They pack against the wrapper end, five high, and the pile only ever grows leftward &mdash; until the buffer is full and the whole line has to stop.</div>
+    </div>
+
+    <p>There are a few ways to handle this.</p>
+
+    <p>One: make the wrapping machine faster, or add more of them. This lets the oven run at full pace, and nothing upstream has to change. But the new machines cost money, and there's a question worth asking before you buy them: does this actually solve the problem, or just move it downstream? Can the shipping department load a thousand biscuits a minute onto vans? Can the retailers even shift them that fast?</p>
+
+    <p>Two: slow the production line down to eight hundred biscuits a minute. No pile-up, no staleness, no overflow. The oven can bake faster than that in isolation, but the pipeline's real maximum was never the oven's top speed &mdash; it's set by the slowest stage in the line, whichever one that turns out to be. Run at eight hundred and the whole system is finally working at its actual capacity, <em>sustainably</em>, rather than the oven's alone.</p>
+
+    <p>Three: build a bigger buffer. Let unwrapped biscuits pile up on a growing line of trays, and hope the wrapping machine eventually catches up. This works for a while, and it isn't nothing &mdash; a big enough buffer means the wrapping machine can keep running through a short gap, say while the ovens are being cleaned, without the whole line grinding to a halt. But it's a shock absorber, not a fix. However large the buffer is, it will fill if the wrapper can't match the oven's rate <em>on average</em>. A bigger buffer only buys time before option two anyway &mdash; production still has to come down to what the wrapper can sustain, or the pile takes up space, biscuits waiting around get stale, and the buffer eventually overflows regardless of how big it was.</p>
+
+    <p>Now suppose one wrapping machine jams, and capacity drops to five hundred a minute. A well-designed factory slows the oven down too, to match the machine that's actually struggling.</p>
+
+    <div class="diagram-panel" id="diagram-3">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 3 / FAULT STATE</span>
+          <span class="diagram-title">The Jam</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="3"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+
+      <div class="jam-toggle" role="tablist" aria-label="Choose how the factory responds to the jam">
+        <button type="button" id="jam-btn-unthrottled" class="active" role="tab" aria-selected="true" aria-controls="diagram-3">Keep baking at 1000</button>
+        <button type="button" id="jam-btn-throttled" role="tab" aria-selected="false" aria-controls="diagram-3">Throttle the oven</button>
+      </div>
+
+      <div class="diagram-body">
+        <div class="factory-wrap">
+          <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Simulation of the same production line with the wrapping machine jammed, its capacity down to five hundred biscuits a minute. Each dot stands for two biscuits. Toggle between the oven continuing at a thousand a minute, which fills the buffer and stops the line, and the oven throttling down to five hundred to match, which holds the buffer steady.">
+
+            <line x1="20" y1="245" x2="620" y2="245" stroke="#2A2E36" stroke-width="1"/>
+
+            <!-- OVEN -->
+            <g>
+              <rect x="20" y="150" width="90" height="80" rx="4" fill="#1F242C" stroke="#E8B34A" stroke-width="1.5"/>
+              <text x="65" y="140" font-family="IBM Plex Mono" font-size="12" fill="#E8B34A" text-anchor="middle">OVEN</text>
+              <text id="jam-oven-rate" x="65" y="192" font-family="IBM Plex Mono" font-size="16" fill="#F0EDE4" text-anchor="middle" font-weight="600">1000</text>
+              <text x="65" y="208" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">biscuits / min</text>
+              <g stroke="#8A6A2E" stroke-width="1.5" stroke-linecap="round">
+                <line x1="35" y1="222" x2="35" y2="215"/>
+                <line x1="50" y1="222" x2="50" y2="212"/>
+                <line x1="65" y1="222" x2="65" y2="216"/>
+                <line x1="80" y1="222" x2="80" y2="212"/>
+                <line x1="95" y1="222" x2="95" y2="215"/>
+              </g>
+            </g>
+
+            <!-- BUFFER zone -->
+            <g>
+              <rect id="jam-buffer-rect" class="ff-buffer-rect" x="324" y="150" width="156" height="80" rx="2" fill="none" stroke="#34393F" stroke-width="1" stroke-dasharray="3 4"/>
+              <text x="324" y="140" font-family="IBM Plex Mono" font-size="11" fill="#6B7178" text-anchor="start" letter-spacing="0.08em">BUFFER</text>
+              <text id="jam-count" x="480" y="140" font-family="IBM Plex Mono" font-size="11" fill="#6B7178" text-anchor="end">0 waiting</text>
+
+              <g id="jam-travellers"></g>
+              <g id="jam-accum" class="ff-accum"></g>
+              <g id="jam-exiters"></g>
+            </g>
+
+            <!-- WRAPPER, jammed -->
+            <g>
+              <rect x="530" y="150" width="90" height="80" rx="4" fill="#1F242C" stroke="#8A5A3E" stroke-width="1.5"/>
+              <text x="575" y="140" font-family="IBM Plex Mono" font-size="12" fill="#C97B4A" text-anchor="middle">WRAPPER</text>
+              <text x="575" y="192" font-family="IBM Plex Mono" font-size="16" fill="#F0EDE4" text-anchor="middle" font-weight="600">500</text>
+              <text x="575" y="208" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">biscuits / min</text>
+              <g stroke="#6B4530" stroke-width="1.5" stroke-linecap="round">
+                <line x1="545" y1="222" x2="545" y2="217"/>
+                <line x1="560" y1="222" x2="560" y2="216"/>
+                <line x1="575" y1="222" x2="575" y2="218"/>
+                <line x1="590" y1="222" x2="590" y2="216"/>
+                <line x1="605" y1="222" x2="605" y2="217"/>
+              </g>
+              <!-- jam warning light -->
+              <circle class="jam-light" cx="608" cy="160" r="4.5" fill="#C97B4A"/>
+              <circle class="jam-light" cx="608" cy="160" r="8.5" fill="none" stroke="#C97B4A" stroke-width="1" opacity="0.5"/>
+            </g>
+
+            <text id="jam-status" class="ff-status" x="320" y="268" font-family="IBM Plex Mono" font-size="11" fill="#8A9096" text-anchor="middle">The wrapper has jammed. The oven keeps going at a thousand a minute.</text>
+          </svg>
+        </div>
+        <div class="factory-legend">
+          <span class="item"><span class="swatch rate-fast"></span>going in &mdash; <span id="jam-legend-in">1000</span> / min</span>
+          <span class="item"><span class="swatch rate-jammed"></span>coming out &mdash; 500 / min</span>
+          <span class="item"><span class="swatch pileup"></span>stuck in the buffer</span>
+          <span class="item scale-note">one dot = 2 biscuits</span>
+        </div>
+      </div>
+      <div class="diagram-caption">Same jam, two choices. Keep baking and the buffer fills in seconds. Throttle the oven to match and the line runs at five hundred a minute &mdash; slower, but still running.</div>
+    </div>
+
+    <p>For that throttling to happen, the wrapping machine has to tell the production line how fast it can actually go, and the production line has to listen. That might be a snazzy automated sensor and control loop, or it might just be a human supervisor watching the jam light and turning a dial. Either way, that signal, flowing backward from the constrained stage to the stage feeding it, is what's called <strong>backpressure</strong>. It isn't a failure mode. It's the mechanism that keeps a pipeline with mismatched stages from falling over.</p>
+  </section>
+
+  <section class="chapter" id="s3">
+    <p class="chapter-label">03 — Prior art</p>
+    <h2>Backpressure isn't a new idea</h2>
+
+    <p>This pattern shows up everywhere in systems that move things from a producer to a consumer. Three examples are worth knowing, because they show backpressure can be implemented in genuinely different ways &mdash; from a strict, continuous limit down to a simple, one-off &ldquo;not right now.&rdquo;</p>
+
+    <p><strong>TCP flow control.</strong> Every time your computer receives data over the network, it sends back an acknowledgement &mdash; and tucked into that acknowledgement is a number: how much buffer space it has left, its &ldquo;window size.&rdquo; It's a running, constantly updated statement of capacity, not a one-off promise made at the start. A well-behaved sender never sends more than that window allows.</p>
+
+    <p>If a sender ignores it and sends more anyway, nothing dramatic happens: the receiver simply has nowhere to put the extra data, so it drops it, silently, exactly as it said it would. No error comes back. The sender only realises something went wrong when the acknowledgement it was expecting never arrives, and has to send that data again. The receiver isn't policing anyone. It just does precisely what it said it would do, and the space it doesn't have was never going to appear from wanting it to.</p>
+
+    <p><strong>HTTP 429: Too Many Requests.</strong> A much blunter version of the same idea. Instead of a continuously updated number, the server just says no. Send it requests faster than it can handle and it replies with a 429 status code &mdash; sometimes with a &ldquo;try again in N seconds&rdquo; attached, sometimes not.</p>
+
+    <p>There's no fine-grained window here, no ongoing negotiation. It's a flat rejection after the fact, rather than a limit stated in advance. Coarse, but it works, and almost anyone who's called a rate-limited API has met it directly.</p>
+
+    <p><strong>Pull-based streaming, like watching a video.</strong> Here the model flips entirely. When you stream a video, the server isn't blasting you the whole file as fast as your connection allows. Your video player has a buffer of limited size, and it only asks for the next chunk once there's room for it.</p>
+
+    <p>Skip forward to a point you haven't buffered yet, and you'll see the player pause and spin while it catches up &mdash; that's the buffer being empty and the player refusing to display what it doesn't have yet. Nothing is ever pushed faster than the player is ready to receive; the player is always the one asking. This is the same idea behind streaming APIs like Node.js streams, where a &ldquo;high water mark&rdquo; marks how full the consumer's buffer is allowed to get before it stops asking for more.</p>
+
+    <p>All three achieve the same outcome &mdash; the fast side never permanently outruns the slow side &mdash; by genuinely different means. One is a continuous, precise limit, silently enforced. One is a blunt rejection after the limit's already been crossed. One is the consumer never asking for more than it can hold in the first place. Worth keeping all three in mind, because a dev team can borrow from any of them.</p>
+
+  </section>
+
+  <section class="chapter" id="s4">
+    <p class="chapter-label">04 — Applying it</p>
+    <h2>Applying backpressure to a dev team</h2>
+
+    <p>Here's the trap. AI coding assistants make it tempting to treat &ldquo;not currently generating code&rdquo; as wasted time &mdash; an opportunity cost, tokens left on the table, a feature sitting untouched in the backlog while you could be building it right now. But a PR that's finished and sitting in a review queue behind four other PRs isn't delivering value. It's inventory. And like the unwrapped biscuits, it's not neutral inventory quietly waiting its turn. It's actively getting worse the longer it sits:</p>
+
+    <ul class="plain">
+      <li>Every PR that merges ahead of it pushes its base further out of date, raising the odds of a conflict-riddled rebase before review can even start.</li>
+      <li>The author's own memory of <em>why</em> they made each decision fades, so review comments that should take five minutes to address instead require reconstructing context from scratch.</li>
+      <li>A reviewer facing a stack of stale PRs reviews faster and shallower than one facing a single fresh PR. The backlog doesn't just delay throughput &mdash; it degrades the quality of the review itself, the same way a rushed wrapping machine starts producing sloppier wrapping.</li>
+    </ul>
+
+    <p>Producing more code just throws more biscuits at a wrapping machine that's already behind.</p>
+
+    <p class="qhead">So what should actually throttle?</p>
+
+    <p>The honest answer is: not gut feeling. An individual developer, heads-down with an AI assistant, has no way to see how deep the review queue has become &mdash; same as the factory worker at the oven can't see the wrapping machine from the far end of the floor. If throttling depends on each person independently sensing &ldquo;I should probably slow down,&rdquo; it will happen too late, unevenly, or not at all. Backpressure has to be a visible signal, not a vibe.</p>
+
+    <p>That points to a concrete mechanism, borrowed straight from Kanban: a <strong>work-in-progress limit</strong>, set on the review queue rather than on any individual. Cap the number of PRs open against a given reviewer or team at once. When the cap is hit, that's the backpressure signal &mdash; same as the wrapping machine's jam light. It doesn't matter how fast the oven <em>could</em> run. Nobody starts a new PR until an old one clears.</p>
+
+    <div class="diagram-panel" id="diagram-5">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 4 / WIP LIMIT</span>
+          <span class="diagram-title">WIP Limit as Backpressure</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="5"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+
+      <div class="diagram-body">
+        <div class="kanban-wrap">
+          <div class="kanban-board">
+            <div class="kanban-col">
+              <div class="kanban-col-head">In progress</div>
+              <div class="kanban-cards" id="kanban-col-progress">
+                <div class="kanban-card shown">Add refund flow</div>
+                <div class="kanban-card shown">Fix tax band rounding</div>
+              </div>
+            </div>
+
+            <div class="kanban-col is-review at-cap" id="kanban-col-review-wrap">
+              <div class="kanban-col-head">
+                <span>In review</span>
+                <span class="kanban-cap" id="kanban-cap-label">3 / 3</span>
+              </div>
+              <div class="kanban-cards" id="kanban-col-review">
+                <div class="kanban-card shown">Affordability card bisection</div>
+                <div class="kanban-card shown">Income tax slider a11y fix</div>
+                <div class="kanban-card shown">GitLab MR sync job</div>
+              </div>
+            </div>
+
+            <div class="kanban-col">
+              <div class="kanban-col-head">Merged</div>
+              <div class="kanban-cards" id="kanban-col-merged">
+                <div class="kanban-card shown">Scenario card caching</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="kanban-new-btn-row">
+            <button type="button" class="kanban-new-btn" id="kanban-new-pr-btn">+ Open new PR</button>
+            <span class="kanban-status" id="kanban-status">Review is at its cap. The new PR has nowhere to go.</span>
+          </div>
+        </div>
+      </div>
+      <div class="diagram-caption">The cap on <b>In review</b> is the jam light. It doesn't matter how many more PRs are ready &mdash; none of them start until one already in review clears.</div>
+    </div>
+
+    <p class="qhead">When is it OK to produce more code?</p>
+    <p>When the review queue has room. That's it. That's the whole rule, and it's worth resisting the urge to make it more complicated than that.</p>
+
+    <p class="qhead">When should we hold back?</p>
+    <p>When the queue is at or near its cap. Not &ldquo;when I feel behind on review&rdquo; &mdash; by the time it feels that way, the backlog has usually already done its damage.</p>
+
+    <p class="qhead">What do we do with the slack time?</p>
+    <p>This is where it's worth remembering that &ldquo;slow down&rdquo; doesn't mean &ldquo;stop.&rdquo; The oven doesn't have to sit cold while the wrapping machine catches up &mdash; but running it flat out on more biscuits is exactly the wrong move. The useful moves are the ones that relieve pressure elsewhere in the pipeline rather than adding to the pile:</p>
+
+    <ul class="slack">
+      <li><strong>Review someone else's PR.</strong> The most direct way to unblock the queue is to help clear it &mdash; the one item on this list that actually drains the bottleneck rather than just staying clear of it.</li>
+      <li><strong>Use the AI assistant upstream of the bottleneck instead of downstream of it.</strong> Spend the time on spec work, design docs, or breaking down the next backlog item, so that when review capacity frees up, the next PR is better-shaped and faster to review &mdash; rather than just being next in an identical queue.</li>
+      <li><strong>Do the work that never produces a PR at all.</strong> Research a tricky problem before committing to an approach. Read up on a new library or pattern. Dig into an analysis that informs a future decision. Invest in your own skills. None of this touches the review queue, and all of it makes the next PR you do write better.</li>
+    </ul>
+
+    <p>Notice what's missing from that list: writing more tests, or paying down tech debt. Both are real, valuable work &mdash; but both land as a new PR in the same review queue we're trying to drain. They're still biscuits. Slack time is well spent on work that stays <em>out</em> of the pipeline until the queue has room again, or that directly shrinks the queue rather than adding to it.</p>
+
+    <p>None of this is about working less. It's about recognising that the production line was never the whole factory. A faster oven, pointed at a wrapping machine that's already behind, doesn't make more biscuits reach the shelf. It just makes a bigger mess in the middle.</p>
+
+    <p class="lever-break">Rate is one lever. It's not the only one.</p>
+  </section>
+
+  <section class="chapter" id="s5">
+    <p class="chapter-label">05 — The other lever</p>
+    <h2>Shrink the biscuits</h2>
+
+    <p>Everything so far has been about <em>rate</em> &mdash; how many PRs go in, how many come out, how to throttle the gap between them. But there's a second variable sitting underneath all of it, and it's easy to miss because the factory analogy hides it: biscuits are all roughly the same size. PRs aren't.</p>
+
+    <p>A WIP limit caps how many PRs are open at once. It says nothing about how big each one is. Two teams can both run &ldquo;max 3 PRs in review&rdquo; and have wildly different queues &mdash; one made of small, focused changes that clear in an hour, the other made of sprawling PRs that each take a reviewer half a day to get through. Same limit, same number on the dashboard, completely different amount of pressure on the system.</p>
+
+    <p>That's because review time doesn't scale in a straight line with PR size. A fifty-line change is something a reviewer can hold in their head all at once. A five-hundred-line change usually isn't &mdash; it takes real effort to build a mental model of what's going on, and that effort gets paid <em>again</em> every time the reviewer is interrupted and has to reload it. Ten small PRs reviewed separately can genuinely cost less total time than one big PR ten times the size.</p>
+
+    <p>Smaller PRs also attack the harms named right back in section 1. A PR that's open for two hours barely has time to go stale. A PR that's open for two days has drifted noticeably from the base it started against. Small PRs move through review quickly almost by construction, which means they spend far less time exposed to the rebase-and-rework problem in the first place.</p>
+
+    <p>There's also a quieter benefit: small PRs make the queue itself trustworthy. A WIP limit is only a meaningful signal &mdash; a real jam light &mdash; if the units it's counting are roughly comparable in size. &ldquo;Three PRs open&rdquo; means very little if one of those three is secretly five features stapled together. Keep PRs small and uniform, and the count on the board actually means what it says.</p>
+
+    <p>None of this is new advice. Build the feature behind a flag and land it in slices. Let a changeset be deep or wide, but never both.</p>
+
+    <p>This matters more, not less, with AI-assisted coding. AI doesn't just make code faster to write &mdash; it makes extra <em>scope</em> almost free to add. Asking an assistant to also handle the edge case, also refactor the neighbouring function, also add the related feature costs the author almost nothing in the moment. So the natural failure mode isn't just &ldquo;more PRs, more often.&rdquo; It's one PR quietly ballooning to do five things at once, because nothing in the process pushed back on that while it was being written. That's the discipline AI-assisted coding makes hardest to hold onto &mdash; and, for exactly that reason, the one most worth insisting on.</p>
+
+    <div class="diagram-panel" id="diagram-6">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 5 / SIGNAL VS. NOISE</span>
+          <span class="diagram-title">Same Limit, Different Pressure</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="6"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+
+      <div class="twin-grid">
+        <div class="twin-panel">
+          <div class="twin-panel-label"><span>Small, uniform PRs</span><span class="cap-badge">max 3 in review</span></div>
+          <div class="twin-col" id="twin-col-good">
+            <div class="twin-card uniform">Fix rounding in tax band calc</div>
+            <div class="twin-card uniform">Add loading state to slider</div>
+            <div class="twin-card uniform">Update affordability copy</div>
+          </div>
+          <p class="twin-flow-status good" id="twin-status-good">Each one clears in under an hour. The column keeps moving.</p>
+        </div>
+
+        <div class="twin-panel">
+          <div class="twin-panel-label"><span>Sprawling PRs</span><span class="cap-badge">max 3 in review</span></div>
+          <div class="twin-col" id="twin-col-bad">
+            <div class="twin-card lumpy-1">Fix typo in scenario label</div>
+            <div class="twin-card lumpy-2">Refactor tax engine + new edge cases</div>
+            <div class="twin-card lumpy-3 stuck">Bisection rewrite, 3 features, 2 refactors, no clear scope</div>
+          </div>
+          <p class="twin-flow-status bad" id="twin-status-bad">Same &ldquo;3&rdquo; on the dashboard. The bottom card alone could sit here for days.</p>
+        </div>
+      </div>
+
+      <div class="diagram-caption">Both boards report the identical number. Only one of them is telling the truth about how much pressure is actually in the system.</div>
+    </div>
+
+    <p>Rate and size are two separate dials, and they compound. Throttle how many PRs are in flight, and keep each one small &mdash; do both, and the queue stays short <em>and</em> legible. Do only the first, and you can still end up with a review backlog in everything but name.</p>
+  </section>
+
+  <section class="chapter" id="s6">
+    <p class="chapter-label">06 — A new way to slice</p>
+    <h2>Plan backwards, not forwards</h2>
+
+    <p>Small, incremental changes have always been the goal. Nobody needed convincing of that. The trouble was never the advice &mdash; it was doing it.</p>
+
+    <p>Chunking a large piece of work means deciding how to slice it before you've actually built it. That's the hard part. You make your best guess at chunk one, chunk two, chunk three, and keep going &mdash; and it's only by chunk twenty, once the real shape of the problem has revealed itself, that you realise chunk three was built on the wrong foundation. That's not carelessness. Genuine foresight, before you've built the thing, is just hard to come by.</p>
+
+    <p>AI-assisted coding offers a way around this, and it works by flipping the order. Instead of planning the slices first and building second, build the whole changeset first. Let the AI assistant produce the entire thing, mistakes and all &mdash; not as a PR, just as a working draft. Only once it exists, and its real shape is fully visible, ask the AI a different question: <em>if we'd known this shape from the start, how would we have built it incrementally?</em></p>
+
+    <p>That's a retrospective re-slice, done with full hindsight instead of blind foresight. The AI takes the finished work and decomposes it into a coherent, dependent train of smaller changesets &mdash; the sequence you'd have chosen on day one, if only you'd known on day one what you only found out by the end.</p>
+
+    <p>None of this is unfamiliar. Test-driven development already works this way at a small scale &mdash; you write a test, get it wrong, revise, and treat the misstep as a normal part of discovery rather than a failure. That's expected, and healthy. The difference is what we let cross into the shared history. A TDD cycle's false starts stay local, on one machine, in one head. A retrospective re-slice does the same thing at the scale of the whole changeset &mdash; what reaches the review queue looks as if it had been built by someone with perfect foresight from the start.</p>
+
+    <p>This isn't licence to open the whole train as five PRs at once. That just swaps one big backlog item for five small ones sitting in the same queue. The gate from section four still applies: peel off the first chunk, open it as a PR, and wait. Only once the review queue has room does the next chunk go up. The train gets released one link at a time, at the pace the queue can actually take.</p>
+
+    <p>What's new here isn't the value of small PRs. It's that re-planning with full hindsight, always the better version of chunking, used to be too expensive to redo after the work was already done. AI makes the redo cheap enough to do every time.</p>
+
+    <div class="diagram-panel" id="diagram-7">
+      <div class="diagram-head">
+        <div class="diagram-head-labels">
+          <span class="diagram-tag"><span class="dot"></span>FIG. 6 / RETROSPECTIVE CHUNKING</span>
+          <span class="diagram-title">Plan Backwards, Not Forwards</span>
+        </div>
+        <button type="button" class="diagram-restart" data-restart="7"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.8 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M14 2.5V6H10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Replay</button>
+      </div>
+
+      <div class="diagram-body">
+        <div class="replan-wrap">
+
+          <div class="replan-row">
+            <div class="replan-row-label bad">Planned forward &mdash; sliced before building</div>
+            <svg viewBox="0 0 620 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A sequence of twenty chunks planned in advance and built in order. Chunk three is flagged as a mistake only once chunk twenty reveals the real shape of the problem.">
+              <line x1="10" y1="34" x2="600" y2="34" stroke="#2A2E36" stroke-width="1"/>
+
+              <!-- 20 small chunk ticks -->
+              <g id="replan-forward-chunks">
+                <!-- generated as simple rects along the line -->
+              </g>
+
+              <!-- chunk 3 marker, flagged -->
+              <circle class="replan-chunk flag-in" cx="98" cy="34" r="6" fill="#C97B4A"/>
+              <text x="98" y="20" font-family="IBM Plex Mono" font-size="9" fill="#8A9096" text-anchor="middle">3</text>
+
+              <!-- chunk 20 marker -->
+              <circle class="replan-chunk" cx="580" cy="34" r="6" fill="#5B6068" style="animation-delay:1.2s"/>
+              <text x="580" y="20" font-family="IBM Plex Mono" font-size="9" fill="#8A9096" text-anchor="middle">20</text>
+
+              <text class="replan-mistake-label" x="98" y="64" font-family="IBM Plex Mono" font-size="10" fill="#C97B4A" text-anchor="middle" opacity="0">wrong foundation &mdash; found too late</text>
+            </svg>
+          </div>
+
+          <div class="replan-row">
+            <div class="replan-row-label good">Re-sliced backward &mdash; sliced after building, with hindsight</div>
+            <svg viewBox="0 0 620 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The whole changeset is built first as one block. It is then retrospectively re-sliced into a clean, coherent train of chunks, each one released only once the review queue has room.">
+              <!-- "build the whole thing" block -->
+              <rect x="10" y="16" width="130" height="34" rx="4" fill="#1F242C" stroke="#E8B34A" stroke-width="1.5"/>
+              <text x="75" y="37" font-family="IBM Plex Mono" font-size="10" fill="#F0EDE4" text-anchor="middle">build it all</text>
+
+              <!-- retrospective re-slice arrow -->
+              <path class="replan-fan-path" d="M 145 33 L 195 33" stroke="#5B8C7B" stroke-width="1.5" marker-end="url(#replanArrow)"/>
+              <text x="170" y="16" font-family="IBM Plex Mono" font-size="8.5" fill="#5B8C7B" text-anchor="middle">re-slice</text>
+
+              <!-- fan lines into clean train -->
+              <path class="replan-fan-path" d="M 195 33 L 230 33" stroke="#3A4048" stroke-width="1"/>
+
+              <!-- clean train of 5 chunks -->
+              <g id="replan-train">
+                <rect x="230" y="18" width="52" height="30" rx="3" fill="#2A2F38" stroke="#5B8C7B" stroke-width="1.3"/>
+                <text x="256" y="37" font-family="IBM Plex Mono" font-size="9.5" fill="#D9D5CA" text-anchor="middle">1</text>
+
+                <rect x="292" y="18" width="52" height="30" rx="3" fill="#2A2F38" stroke="#5B8C7B" stroke-width="1.3"/>
+                <text x="318" y="37" font-family="IBM Plex Mono" font-size="9.5" fill="#D9D5CA" text-anchor="middle">2</text>
+
+                <rect x="354" y="18" width="52" height="30" rx="3" fill="#2A2F38" stroke="#3A4048" stroke-width="1.3" opacity="0.5"/>
+                <text x="380" y="37" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">3</text>
+
+                <rect x="416" y="18" width="52" height="30" rx="3" fill="#2A2F38" stroke="#3A4048" stroke-width="1.3" opacity="0.5"/>
+                <text x="442" y="37" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">4</text>
+
+                <rect x="478" y="18" width="52" height="30" rx="3" fill="#2A2F38" stroke="#3A4048" stroke-width="1.3" opacity="0.5"/>
+                <text x="504" y="37" font-family="IBM Plex Mono" font-size="9.5" fill="#8A9096" text-anchor="middle">5</text>
+              </g>
+
+              <!-- gate marker between chunk 1 and chunk 2 -->
+              <g class="replan-gate">
+                <line x1="288" y1="10" x2="288" y2="56" stroke="#E8B34A" stroke-width="1" stroke-dasharray="2 3"/>
+                <text x="288" y="70" font-family="IBM Plex Mono" font-size="8" fill="#E8B34A" text-anchor="middle">queue</text>
+                <text x="288" y="80" font-family="IBM Plex Mono" font-size="8" fill="#E8B34A" text-anchor="middle">has room?</text>
+              </g>
+
+              <text x="256" y="106" font-family="IBM Plex Mono" font-size="9" fill="#5B8C7B" text-anchor="middle">open now</text>
+              <text x="380" y="106" font-family="IBM Plex Mono" font-size="9" fill="#8A9096" text-anchor="middle">waiting for room</text>
+
+              <defs>
+                <marker id="replanArrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+                  <path d="M0,0 L7,3.5 L0,7 Z" fill="#5B8C7B"/>
+                </marker>
+              </defs>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+      <div class="diagram-caption">Same destination, opposite direction. One plans the slices before knowing the shape. The other builds first, then slices with full hindsight &mdash; and still waits its turn.</div>
+    </div>
+  </section>
+
+  <section class="chapter" id="s7">
+    <p class="chapter-label">07 — Recap</p>
+    <h2>What this comes down to</h2>
+
+    <ol class="recap">
+      <li>AI-assisted coding makes producing PRs much faster, but it doesn't make reviewing them any faster. The gap between the two is a growing backlog, not a one-off surge.</li>
+      <li>An open PR isn't neutral inventory quietly waiting its turn. The longer it sits, the more it costs &mdash; stale bases, forgotten context, shallower review.</li>
+      <li><strong>Backpressure</strong> is a signal fed back from the constrained stage to the one feeding it, so the producer throttles to match &mdash; rather than piling up work the next stage can't absorb.</li>
+      <li>Real systems implement that signal in different ways: a continuous, silently-enforced limit (TCP), a blunt rejection after the fact (HTTP 429), or a consumer that simply never asks for more than it can hold (streaming).</li>
+      <li>For a dev team, the equivalent is a <strong>WIP limit on the review queue</strong>: cap how many PRs can be in review at once, and don't open a new one until the cap has room.</li>
+      <li>Rate isn't the only lever. <strong>PR size</strong> is a second, independent one &mdash; small PRs review faster, go stale less, and make the WIP-limit count itself trustworthy.</li>
+      <li>AI makes this discipline harder to hold onto, not easier &mdash; extra scope is almost free to add, so the natural failure mode is one bloated PR instead of several small ones.</li>
+      <li>AI also offers a way out that wasn't practical before: build the whole changeset first, then ask it to <strong>retrospectively re-slice</strong> the finished work into the incremental train you'd have written with full hindsight.</li>
+      <li>That train still isn't opened all at once. Each chunk goes up only once the review queue has room for it &mdash; the WIP limit and the retrospective slice work together, not instead of each other.</li>
+    </ol>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <p class="fnote">END OF TRANSMISSION</p>
+</footer>
+
+<script>
+(function() {
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---------- Diagram 1: The Widening Gap ----------
+
+  function animateGapChart() {
+    var produced = document.getElementById('produced-line');
+    var producedDot = document.getElementById('produced-dot');
+    var backlogFill = document.getElementById('backlog-fill');
+    var backlogLabel = document.getElementById('backlog-label');
+
+    if (!produced) return;
+
+    // Chart geometry: threshold at x=325, right edge x=610, y baseline 190 (flat reviewed line)
+    // Produced line rises from y=190 at x=325 up to y=60 at x=610 (steep climb)
+    var flatPart = "M 50 190 L 325 190";
+    var risingPart = " C 410 190, 470 120, 610 60";
+    var fullPath = flatPart + risingPart;
+
+    // Reset to start state first (needed for replay)
+    produced.style.transition = 'none';
+    produced.setAttribute('d', flatPart);
+    producedDot.style.transition = 'none';
+    producedDot.setAttribute('cx', '325');
+    producedDot.setAttribute('cy', '190');
+    producedDot.setAttribute('opacity', '0');
+    backlogFill.style.transition = 'none';
+    backlogFill.setAttribute('d', 'M 325 190 L 325 190 L 610 190 L 610 190 Z');
+    backlogFill.setAttribute('opacity', '0');
+    backlogLabel.style.transition = 'none';
+    backlogLabel.setAttribute('opacity', '0');
+
+    // force reflow so the reset actually takes before we animate again
+    produced.getBoundingClientRect();
+
+    if (reduceMotion) {
+      produced.setAttribute('d', fullPath);
+      producedDot.setAttribute('cx', '610');
+      producedDot.setAttribute('cy', '60');
+      producedDot.setAttribute('opacity', '1');
+      backlogFill.setAttribute('d', 'M 325 190 C 410 190, 470 120, 610 60 L 610 190 Z');
+      backlogFill.setAttribute('opacity', '0.16');
+      backlogLabel.setAttribute('opacity', '1');
+      return;
+    }
+
+    // Animate the produced line growing along its path using stroke-dasharray trick
+    var totalLength = 900; // approximate path length, generous
+    produced.style.strokeDasharray = totalLength;
+    produced.style.strokeDashoffset = totalLength;
+    produced.setAttribute('d', fullPath);
+
+    // force reflow
+    produced.getBoundingClientRect();
+
+    produced.style.transition = 'stroke-dashoffset 2.2s cubic-bezier(0.4, 0, 0.2, 1)';
+    produced.style.strokeDashoffset = '0';
+
+    producedDot.style.transition = 'opacity 0.4s ease 2.0s, cx 2.2s cubic-bezier(0.4,0,0.2,1), cy 2.2s cubic-bezier(0.4,0,0.2,1)';
+    producedDot.setAttribute('opacity', '1');
+    producedDot.setAttribute('cx', '610');
+    producedDot.setAttribute('cy', '60');
+
+    backlogFill.setAttribute('d', 'M 325 190 C 410 190, 470 120, 610 60 L 610 190 Z');
+    backlogFill.style.transition = 'opacity 1.4s ease 1.4s';
+    setTimeout(function() {
+      backlogFill.setAttribute('opacity', '0.16');
+    }, 50);
+
+    backlogLabel.style.transition = 'opacity 0.8s ease 2.3s';
+    setTimeout(function() {
+      backlogLabel.setAttribute('opacity', '1');
+    }, 50);
+  }
+
+  registerDiagram('1', 'diagram-1', animateGapChart);
+
+  // ---------- Shared conveyor simulation (used by Fig 2 and Fig 3) ----------
+
+  // Biscuits arrive from the oven, pack into a grid that fills against the wrapper
+  // end, and are consumed from the wrapper side. Clearing a column slides the whole
+  // pile one place to the right.
+  function makeConveyorSim(cfg) {
+    var COLS = 8, ROWS = 5, COL_W = 18, ROW_H = 14, DOT_R = 5.5;
+    var RIGHT_X = 464, BASE_Y = 214;
+    var PER_DOT = 2;                  // one dot stands for this many biscuits
+    var SPEED = 220;                  // px per second along the conveyor
+    var SPAWN_X = 116, EXIT_X = 528;
+    var NS = 'http://www.w3.org/2000/svg';
+
+    var accumG = document.getElementById(cfg.accum);
+    var travG = document.getElementById(cfg.trav);
+    var exitG = document.getElementById(cfg.exit);
+    var statusEl = document.getElementById(cfg.status);
+    var countEl = document.getElementById(cfg.count);
+    var bufferRect = document.getElementById(cfg.rect);
+    if (!accumG || !travG || !exitG) return null;
+
+    var inPerMin = cfg.inPerMin;
+    var outPerMin = cfg.outPerMin;
+    var inColour = cfg.inColour || '#E8B34A';
+    var outColour = cfg.outColour || '#5B8C7B';
+
+    // Pre-build the accumulation grid; each slot is simply shown or hidden.
+    var pool = [];
+    for (var i = 0; i < COLS; i++) {
+      pool[i] = [];
+      for (var j = 0; j < ROWS; j++) {
+        var c = document.createElementNS(NS, 'circle');
+        c.setAttribute('cx', RIGHT_X - i * COL_W);
+        c.setAttribute('cy', BASE_Y - j * ROW_H);
+        c.setAttribute('r', DOT_R);
+        c.setAttribute('fill', '#C9C4B6');
+        c.setAttribute('opacity', '0');
+        accumG.appendChild(c);
+        pool[i][j] = c;
+      }
+    }
+
+    // cols[0] is the column nearest the wrapper; new arrivals land on the far left.
+    var cols = [], travellers = [], exiters = [];
+    var inAcc = 0, outAcc = 0, lastT = 0, rafId = null;
+    var running = false, isFull = false;
+
+    function inRate()  { return (inPerMin / 60) / PER_DOT; }
+    function outRate() { return (outPerMin / 60) / PER_DOT; }
+    function rowY(j)   { return BASE_Y - j * ROW_H; }
+
+    function total() {
+      var t = 0;
+      for (var i = 0; i < cols.length; i++) t += cols[i];
+      return t;
+    }
+
+    function frontX() {
+      if (!cols.length) return RIGHT_X;
+      var last = cols.length - 1;
+      if (cols[last] < ROWS) return RIGHT_X - last * COL_W;
+      return RIGHT_X - cols.length * COL_W;
+    }
+
+    function nextRow() {
+      if (!cols.length) return 0;
+      var last = cols.length - 1;
+      return cols[last] < ROWS ? cols[last] : 0;
+    }
+
+    function spawnTraveller() {
+      var el = document.createElementNS(NS, 'circle');
+      el.setAttribute('cx', SPAWN_X);
+      el.setAttribute('cy', rowY(nextRow()));
+      el.setAttribute('r', DOT_R - 0.5);
+      el.setAttribute('fill', inColour);
+      travG.appendChild(el);
+      travellers.push({ x: SPAWN_X, el: el });
+    }
+
+    function spawnExiter(y) {
+      var el = document.createElementNS(NS, 'circle');
+      el.setAttribute('cx', RIGHT_X);
+      el.setAttribute('cy', y);
+      el.setAttribute('r', DOT_R - 0.5);
+      el.setAttribute('fill', outColour);
+      exitG.appendChild(el);
+      exiters.push({ x: RIGHT_X, el: el });
+    }
+
+    function absorb() {
+      if (!cols.length) { cols.push(1); }
+      else {
+        var last = cols.length - 1;
+        if (cols[last] < ROWS) cols[last]++;
+        else if (cols.length < COLS) cols.push(1);
+        else return;
+      }
+      if (cols.length === COLS && cols[COLS - 1] === ROWS) isFull = true;
+    }
+
+    function consume() {
+      if (!cols.length || cols[0] === 0) return;
+      cols[0]--;
+      spawnExiter(rowY(cols[0]));
+      if (cols[0] === 0) shiftRight();
+    }
+
+    // A cleared column means the whole pile slides one place towards the wrapper.
+    function shiftRight() {
+      cols.shift();
+      accumG.style.transition = 'none';
+      accumG.style.transform = 'translateX(' + (-COL_W) + 'px)';
+      accumG.getBoundingClientRect(); // force reflow
+      accumG.style.transition = '';
+      accumG.style.transform = 'translateX(0px)';
+    }
+
+    function render() {
+      for (var i = 0; i < COLS; i++) {
+        var n = i < cols.length ? cols[i] : 0;
+        for (var j = 0; j < ROWS; j++) {
+          pool[i][j].setAttribute('opacity', j < n ? '0.9' : '0');
+        }
+      }
+      if (countEl) countEl.textContent = (total() * PER_DOT) + ' waiting';
+    }
+
+    function clearNodes(list, group) {
+      for (var k = 0; k < list.length; k++) {
+        if (list[k].el.parentNode === group) group.removeChild(list[k].el);
+      }
+      list.length = 0;
+    }
+
+    function setStatus(text, mod) {
+      if (!statusEl) return;
+      statusEl.textContent = text;
+      statusEl.classList.remove('is-full', 'is-steady');
+      if (mod) statusEl.classList.add(mod);
+    }
+
+    function showFull() {
+      setStatus(cfg.fullText, 'is-full');
+      if (bufferRect) bufferRect.classList.add('is-full');
+      clearNodes(travellers, travG);
+      clearNodes(exiters, exitG);
+    }
+
+    function tick(now) {
+      if (!running) return;
+      var dt = Math.min((now - lastT) / 1000, 0.05);
+      lastT = now;
+
+      inAcc += dt * inRate();
+      while (inAcc >= 1) { spawnTraveller(); inAcc -= 1; }
+
+      var fx = frontX();
+      for (var k = travellers.length - 1; k >= 0; k--) {
+        var t = travellers[k];
+        t.x += SPEED * dt;
+        if (t.x >= fx) {
+          absorb();
+          if (t.el.parentNode === travG) travG.removeChild(t.el);
+          travellers.splice(k, 1);
+          fx = frontX();
+        } else {
+          t.el.setAttribute('cx', t.x);
+        }
+      }
+
+      outAcc += dt * outRate();
+      while (outAcc >= 1) { consume(); outAcc -= 1; }
+
+      for (var m = exiters.length - 1; m >= 0; m--) {
+        var e = exiters[m];
+        e.x += SPEED * dt;
+        if (e.x >= EXIT_X) {
+          if (e.el.parentNode === exitG) exitG.removeChild(e.el);
+          exiters.splice(m, 1);
+        } else {
+          e.el.setAttribute('cx', e.x);
+        }
+      }
+
+      render();
+
+      if (isFull) { running = false; showFull(); return; }
+      rafId = requestAnimationFrame(tick);
+    }
+
+    function reset() {
+      running = false;
+      if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+      cols = [];
+      inAcc = 0; outAcc = 0; isFull = false;
+      clearNodes(travellers, travG);
+      clearNodes(exiters, exitG);
+      accumG.style.transition = 'none';
+      accumG.style.transform = 'translateX(0px)';
+      accumG.getBoundingClientRect();
+      accumG.style.transition = '';
+      setStatus(cfg.runningText(inPerMin), cfg.steady ? 'is-steady' : null);
+      if (bufferRect) bufferRect.classList.remove('is-full');
+      render();
+    }
+
+    function start() {
+      reset();
+      if (reduceMotion) {
+        if (inPerMin > outPerMin) {
+          // Skip the simulation: show the end state the animation argues for.
+          for (var i = 0; i < COLS; i++) cols.push(ROWS);
+          isFull = true;
+          render();
+          showFull();
+        }
+        return;
+      }
+      running = true;
+      lastT = performance.now();
+      rafId = requestAnimationFrame(tick);
+    }
+
+    // Change the oven rate mid-run. If the line already stalled, start afresh.
+    function setInRate(perMin, steady) {
+      inPerMin = perMin;
+      cfg.steady = steady;
+      if (!running) { start(); return; }
+      setStatus(cfg.runningText(perMin), steady ? 'is-steady' : null);
+    }
+
+    return { start: start, setInRate: setInRate };
+  }
+
+  // ---------- Diagram 2: Factory Floor ----------
+
+  var factorySim = makeConveyorSim({
+    accum: 'ff-accum', trav: 'ff-travellers', exit: 'ff-exiters',
+    status: 'ff-status', count: 'ff-count', rect: 'ff-buffer-rect',
+    inPerMin: 1000, outPerMin: 800,
+    inColour: '#E8B34A', outColour: '#5B8C7B',
+    runningText: function() {
+      return 'A thousand a minute in, eight hundred out. The buffer takes the difference.';
+    },
+    fullText: 'Buffer full. The oven has nowhere to put the next biscuit.'
+  });
+
+  function animateFactoryFloor() {
+    if (factorySim) factorySim.start();
+  }
+
+  registerDiagram('2', 'diagram-2', animateFactoryFloor);
+
+  // ---------- Diagram 3: The Jam (toggle) ----------
+
+  var jamOvenRate = document.getElementById('jam-oven-rate');
+  var jamLegendIn = document.getElementById('jam-legend-in');
+  var jamBtnUnthrottled = document.getElementById('jam-btn-unthrottled');
+  var jamBtnThrottled = document.getElementById('jam-btn-throttled');
+
+  var jamSim = makeConveyorSim({
+    accum: 'jam-accum', trav: 'jam-travellers', exit: 'jam-exiters',
+    status: 'jam-status', count: 'jam-count', rect: 'jam-buffer-rect',
+    inPerMin: 1000, outPerMin: 500,
+    inColour: '#E8B34A', outColour: '#C97B4A',
+    runningText: function(perMin) {
+      return perMin > 500
+        ? 'The wrapper has jammed. The oven keeps going at a thousand a minute.'
+        : 'The oven has throttled to five hundred, matching the jammed wrapper. Nothing piles up.';
+    },
+    fullText: 'Buffer full. The line stops \u2014 and the jam still has to be cleared.'
+  });
+
+  function setJamState(throttled) {
+    if (throttled) {
+      jamBtnThrottled.classList.add('active', 'throttled');
+      jamBtnThrottled.setAttribute('aria-selected', 'true');
+      jamBtnUnthrottled.classList.remove('active');
+      jamBtnUnthrottled.setAttribute('aria-selected', 'false');
+    } else {
+      jamBtnUnthrottled.classList.add('active');
+      jamBtnUnthrottled.setAttribute('aria-selected', 'true');
+      jamBtnThrottled.classList.remove('active', 'throttled');
+      jamBtnThrottled.setAttribute('aria-selected', 'false');
+    }
+    var perMin = throttled ? 500 : 1000;
+    if (jamOvenRate) jamOvenRate.textContent = perMin;
+    if (jamLegendIn) jamLegendIn.textContent = perMin;
+    if (jamSim) jamSim.setInRate(perMin, throttled);
+  }
+
+  if (jamBtnUnthrottled && jamBtnThrottled) {
+    jamBtnUnthrottled.addEventListener('click', function() { setJamState(false); });
+    jamBtnThrottled.addEventListener('click', function() { setJamState(true); });
+  }
+
+  function playJamScene() {
+    // Always open on the unthrottled scenario; the reader chooses the other.
+    if (jamBtnUnthrottled) {
+      jamBtnUnthrottled.classList.add('active');
+      jamBtnUnthrottled.setAttribute('aria-selected', 'true');
+    }
+    if (jamBtnThrottled) {
+      jamBtnThrottled.classList.remove('active', 'throttled');
+      jamBtnThrottled.setAttribute('aria-selected', 'false');
+    }
+    if (jamOvenRate) jamOvenRate.textContent = '1000';
+    if (jamLegendIn) jamLegendIn.textContent = '1000';
+    if (jamSim) { jamSim.setInRate(1000, false); jamSim.start(); }
+  }
+
+  registerDiagram('3', 'diagram-3', playJamScene);
+
+  // ---------- Diagram 4 (visual index): WIP Limit as Backpressure ----------
+
+  var kanbanBtn = document.getElementById('kanban-new-pr-btn');
+  var kanbanReviewCol = document.getElementById('kanban-col-review');
+  var kanbanProgressCol = document.getElementById('kanban-col-progress');
+  var kanbanStatus = document.getElementById('kanban-status');
+  var kanbanBlockedCard = null;
+  var kanbanDefaultStatus = 'Review is at its cap. The new PR has nowhere to go.';
+
+  function tryOpenPR() {
+    if (!kanbanReviewCol) return;
+
+    // Remove any previous blocked-attempt card
+    if (kanbanBlockedCard && kanbanBlockedCard.parentNode) {
+      kanbanBlockedCard.parentNode.removeChild(kanbanBlockedCard);
+    }
+
+    // Add a new "pending" card to In Progress, showing the PR was written...
+    var newCard = document.createElement('div');
+    newCard.className = 'kanban-card pending-card';
+    newCard.textContent = 'New PR, ready for review';
+    kanbanProgressCol.appendChild(newCard);
+    requestAnimationFrame(function() {
+      newCard.classList.add('shown');
+    });
+
+    // ...then show it attempting to enter Review and being blocked
+    setTimeout(function() {
+      newCard.classList.remove('pending-card');
+      newCard.classList.add('blocked-card');
+      newCard.textContent = 'Blocked \u2014 review at cap';
+      newCard.classList.add('shake');
+      setTimeout(function() {
+        newCard.classList.remove('shake');
+      }, 400);
+      kanbanBlockedCard = newCard;
+
+      if (kanbanStatus) {
+        kanbanStatus.innerHTML = 'Still at <b>3 / 3</b>. This PR waits until one already in review clears.';
+      }
+    }, 650);
+  }
+
+  if (kanbanBtn) {
+    kanbanBtn.addEventListener('click', tryOpenPR);
+  }
+
+  function resetKanbanScene() {
+    if (kanbanBlockedCard && kanbanBlockedCard.parentNode) {
+      kanbanBlockedCard.parentNode.removeChild(kanbanBlockedCard);
+      kanbanBlockedCard = null;
+    }
+    if (kanbanStatus) kanbanStatus.textContent = kanbanDefaultStatus;
+  }
+
+  registerDiagram('5', 'diagram-5', resetKanbanScene);
+
+  // ---------- Diagram 5 (visual index): Same Limit, Different Pressure ----------
+
+  function playTwinScene() {
+    var diagram6 = document.getElementById('diagram-6');
+    if (!diagram6) return;
+    diagram6.classList.remove('twin-playing');
+    diagram6.getBoundingClientRect(); // force reflow so the CSS animation restarts
+    diagram6.classList.add('twin-playing');
+  }
+
+  registerDiagram('6', 'diagram-6', playTwinScene);
+
+  // ---------- Diagram 6 (visual index): Plan Backwards, Not Forwards ----------
+
+  (function buildForwardChunks() {
+    var group = document.getElementById('replan-forward-chunks');
+    if (!group || group.children.length) return; // only build once
+    var ns = 'http://www.w3.org/2000/svg';
+    var startX = 20, endX = 590, count = 20;
+    for (var i = 1; i <= count; i++) {
+      var x = startX + ((endX - startX) * (i - 1) / (count - 1));
+      if (i === 3 || i === 20) continue; // these are drawn explicitly with labels
+      var dot = document.createElementNS(ns, 'circle');
+      dot.setAttribute('cx', x.toFixed(1));
+      dot.setAttribute('cy', '34');
+      dot.setAttribute('r', '3');
+      dot.setAttribute('fill', '#4A4F57');
+      dot.setAttribute('class', 'replan-chunk');
+      dot.style.animationDelay = (i * 0.05) + 's';
+      group.appendChild(dot);
+    }
+  })();
+
+  function playReplanScene() {
+    var panel = document.getElementById('diagram-7');
+    var mistakeLabel = document.querySelector('.replan-mistake-label');
+    if (!panel) return;
+
+    panel.classList.remove('replan-playing');
+    if (mistakeLabel) {
+      mistakeLabel.classList.remove('show');
+      mistakeLabel.setAttribute('opacity', '0');
+    }
+    panel.getBoundingClientRect(); // force reflow so CSS animations restart
+
+    panel.classList.add('replan-playing');
+    if (mistakeLabel) {
+      setTimeout(function() {
+        mistakeLabel.classList.add('show');
+        mistakeLabel.setAttribute('opacity', '1');
+      }, reduceMotion ? 0 : 50);
+    }
+  }
+
+  registerDiagram('7', 'diagram-7', playReplanScene);
+
+  // ---------- Shared: scroll-trigger once, plus a Replay button on every panel ----------
+
+  function registerDiagram(restartKey, panelId, playFn) {
+    var panel = document.getElementById(panelId);
+    var played = false;
+
+    function trigger() {
+      played = true;
+      playFn();
+    }
+
+    if (panel) {
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting && !played) {
+              trigger();
+              observer.disconnect();
+            }
+          });
+        }, { threshold: 0.4 });
+        observer.observe(panel);
+      } else {
+        trigger();
+      }
+    }
+
+    var btn = document.querySelector('[data-restart="' + restartKey + '"]');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        playFn();
+        btn.classList.remove('spinning');
+        // force reflow so the icon spin can restart even on rapid re-clicks
+        void btn.offsetWidth;
+        btn.classList.add('spinning');
+      });
+    }
+  }
+})();
+</script>
+
+</body>
+</html>
