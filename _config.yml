@@ -14,7 +14,7 @@ rss: /feed.xml
 github_username: ukslim
 
 twitter:
-  card: summary_large_image
+  card: summary
 
 # Email is optional:
 email:
@@ -68,10 +68,6 @@ defaults:
       type: fiction
     values:
       layout: fiction
-  - scope:
-      path: ""
-    values:
-      image: /assets/poster-thumbnails/placeholder.jpg
 
 header_pages:
   - about.md
