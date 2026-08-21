@@ -50,6 +50,9 @@ collections:
   poster_styles:
     output: true
     permalink: /poster-prompts/:name/
+  fiction:
+    output: true
+    permalink: /fiction/:name/
 
 # Per-collection metadata defaults — used by jekyll-seo-tag for <meta
 # name="description"> etc., so poster style pages don't fall back to
@@ -66,9 +69,9 @@ defaults:
       image: /assets/poster-thumbnails/placeholder.jpg
 
 header_pages:
-  - index.md
   - about.md
   - poster-prompts/index.html
+  - fiction/index.md
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima

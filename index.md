@@ -5,4 +5,7 @@ description: Personal blog by JH — posts on AI image generation and a catalogu
 
 Hello - I wanted to write a blog post, and for that I needed a blog...
 
-See also the [Poster Prompts](/poster-prompts/) catalogue — one hundred design styles as ready-made AI image-generation prompts for event posters.
+Also hosted here:
+
+- a [Poster Prompts](/poster-prompts/) catalogue — one hundred design styles as ready-made AI image-generation prompts for event posters.
+- a [Fiction](/fiction/) section — short stories co-written with AI.
