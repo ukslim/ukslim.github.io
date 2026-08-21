@@ -5,7 +5,7 @@ permalink: /fiction/
 description: Short stories co-written with AI — fiction by JH and Claude.
 ---
 
-These stories were written as a collaboration between AI LLMs and myself.
+These stories were written as a collaboration between AI LLMs and me. I don't want to claim I wrote them, because I very much didn't. I suppose I commissioned them, and moulded them. I enjoyed reading them, so you might too.
 
 My process is to have a long brainstorm with the LLM about the subject matter. This helps me decide what I want, but also fill's the LLM's context with source material.
 
