@@ -18,9 +18,11 @@ fooling the reader into believing AI had no hand in it, is not a goal.
 
 <ul class="post-list">
   {% for story in stories %}
+  {% unless story.path contains '.src.md' %}
   <li>
     <span class="post-meta">{{ story.date | date: "%-d %B %Y" }}</span>
     <h3><a href="{{ story.url }}">{{ story.title }}</a></h3>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>

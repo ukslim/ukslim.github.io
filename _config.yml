@@ -65,6 +65,11 @@ defaults:
       description: "A copy-paste AI image-generation prompt for this poster style, with example fête and gig posters — part of a 100-style poster prompt catalogue."
   - scope:
       path: ""
+      type: fiction
+    values:
+      layout: fiction
+  - scope:
+      path: ""
     values:
       image: /assets/poster-thumbnails/placeholder.jpg
 

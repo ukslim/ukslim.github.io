@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "A Man Who Believed in Fairies"
 date: 2026-07-16
 description: "A man in a Northumberland pub tells a forensic analyst's story about AI chat logs, fairy folklore, and a missing schoolgirl."

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "The Same Fire"
 date: 2026-06-05
 description: "A story in two times — a rave in 1994 and a Calan Mai gathering in 1394."

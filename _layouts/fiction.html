@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+{% if page.path contains '.src.md' %}
+  {% assign story_path = page.path | replace: '.src.md', '.md' %}
+  {% assign story = site.fiction | where: 'path', story_path | first %}
+  {% if story %}
+  <p class="fiction-nav"><a href="{{ story.url }}">← {{ story.title }}</a></p>
+  {% endif %}
+{% endif %}
+
+{{ content }}
+
+{% unless page.path contains '.src.md' %}
+  {% assign source_path = page.path | replace: '.md', '.src.md' %}
+  {% assign source = site.fiction | where: 'path', source_path | first %}
+  {% if source %}
+  <p class="fiction-source"><a href="{{ source.url }}">Chat transcript</a></p>
+  {% endif %}
+{% endunless %}

@@ -356,6 +356,18 @@
 
 // --- Fiction ---
 
+.fiction-nav,
+.fiction-source {
+  @include relative-font-size(0.875);
+  color: $grey-color;
+  margin-top: 2rem;
+}
+
+.fiction-nav {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
 .post-content hr {
   margin: 1.5rem 0;
   border: 0;
