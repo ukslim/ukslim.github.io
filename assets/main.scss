@@ -374,6 +374,14 @@
   border-top: 1px solid lighten($grey-color, 33%);
 }
 
+.fiction-body p.drop-cap::first-letter {
+  float: left;
+  font-size: 3.2em;
+  line-height: 0.85;
+  margin: 0.05em 0.12em 0 0;
+  font-weight: 600;
+}
+
 // --- Footer ---
 
 .site-footer {

@@ -10,7 +10,9 @@ layout: page
   {% endif %}
 {% endif %}
 
+<div class="fiction-body">
 {{ content }}
+</div>
 
 {% unless page.path contains '.src.md' %}
   {% assign source_path = page.path | replace: '.md', '.src.md' %}
