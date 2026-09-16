@@ -6,7 +6,7 @@ description: "A papier-mâché crab becomes something much larger after the inte
 
 # Crab
 
-_Section 1 and most of section 2 are substantially true. Only Malcolm's name and home have been changed. [Uncut](https://www.uncut.co.uk/features/lists/12-weird-and-wonderful-things-we-spotted-at-end-of-the-road-2026/) and [Louder Than War](https://louderthanwar.com/end-of-the-road-2026-festival-review/) really did mention the crab. The extracts in section 3 are real. Images are real, but adapted by asking ChatGPT "anonymise this picture by giving all people a new face"._
+_Section 1 and most of section 2 are substantially true. Only Malcolm's name and home have been changed. A steward really did say those exact words to "Malcolm". Strangers really did help us with the crab attack. [Uncut](https://www.uncut.co.uk/features/lists/12-weird-and-wonderful-things-we-spotted-at-end-of-the-road-2026/) and [Louder Than War](https://louderthanwar.com/end-of-the-road-2026-festival-review/) really did mention the crab. The extracts in section 3 are real. Images are real, but adapted by asking ChatGPT "anonymise this picture by giving all people a new face"._
 
 ---
 
