@@ -14,6 +14,8 @@ Then I dictate a structure, in as much or as little detail as I like, and let it
 I make some attempts to avoid a grating AI tone of voice, through a combination of hand-editing, providing examples, and prompting for tone. Otherwise,
 fooling the reader into believing AI had no hand in it, is not a goal.
 
+In some stories I share some of my workings - partial transcripts or descriptions of the chats that produced the story.
+
 {% assign stories = site.fiction | sort: 'date' | reverse %}
 
 <ul class="post-list">
@@ -21,7 +23,14 @@ fooling the reader into believing AI had no hand in it, is not a goal.
   {% unless story.path contains '.src.md' %}
   <li>
     <span class="post-meta">{{ story.date | date: "%-d %B %Y" }}</span>
-    <h3><a href="{{ story.url }}">{{ story.title }}</a></h3>
+    <h3>
+      <a href="{{ story.url }}">{{ story.title }}</a>
+      {% assign source_path = story.path | replace: '.md', '.src.md' %}
+      {% assign source = site.fiction | where: 'path', source_path | first %}
+      {% if source %}
+      <span class="fiction-workings"><a href="{{ source.url }}">(workings)</a></span>
+      {% endif %}
+    </h3>
   </li>
   {% endunless %}
   {% endfor %}

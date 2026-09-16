@@ -14,10 +14,13 @@ layout: page
 {{ content }}
 </div>
 
-{% unless page.path contains '.src.md' %}
-  {% assign source_path = page.path | replace: '.md', '.src.md' %}
-  {% assign source = site.fiction | where: 'path', source_path | first %}
-  {% if source %}
-  <p class="fiction-source"><a href="{{ source.url }}">Chat transcript</a></p>
-  {% endif %}
-{% endunless %}
+<p class="fiction-source">
+  {% unless page.path contains '.src.md' %}
+    {% assign source_path = page.path | replace: '.md', '.src.md' %}
+    {% assign source = site.fiction | where: 'path', source_path | first %}
+    {% if source %}
+    <a href="{{ source.url }}">workings</a> ·
+    {% endif %}
+  {% endunless %}
+  <a href="{{ '/fiction/' | relative_url }}">fiction index</a>
+</p>

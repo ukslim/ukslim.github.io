@@ -368,6 +368,16 @@
   margin-bottom: 1.5rem;
 }
 
+.fiction-workings {
+  @include relative-font-size(0.75);
+  font-weight: $base-font-weight;
+  margin-left: 0.35em;
+
+  a {
+    color: $grey-color;
+  }
+}
+
 .post-content hr {
   margin: 1.5rem 0;
   border: 0;
