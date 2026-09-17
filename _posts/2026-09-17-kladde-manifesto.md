@@ -26,7 +26,7 @@ You can read any of my stories without reading the workings - but they are there
 
 Then I thought I'd better explain myself. And I thought, who knows, perhaps other people would like to adopt this practice? So I wrote a manifesto. Not entirely as a joke.
 
-**[The Kladde 26 Manifesto: Show Your Workings](/kladde-manifesto/)**
+Read the manifesto here: **[The Kladde 26 Manifesto: Show Your Workings](/kladde-manifesto/)**
 
 I've taken inspiration from the [Dogme 95](https://en.wikipedia.org/wiki/Dogme_95) manifesto, hence the Danish name, though Kladde's aims are quite different from Dogme's "vow of chastity". Dogme constrains what a director may create. Kladde allows you to create what you like, how you like -- but you must disclose your methods. _Kladde_ refers to the rough-book Danish schoolchildren use for preliminary rough-workings. Of course the Kladde manifesto comes with its own workings.
 
