@@ -6,7 +6,7 @@ permalink: /kladde-manifesto/
 description: The Kladde 26 Manifesto — show your workings when you publish writing made with language models.
 ---
 
-_For background and context, read the introductory [blog post about Kladde 26](/2026/09/17/kladde-manifesto/)._
+_For background and context, read the introductory [blog post about Kladde 26](/2026/09/17/kladde-manifesto.html)._
 
 _v1.0.0 — 17 September 2026_
 
