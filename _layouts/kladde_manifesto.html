@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% if page.path contains 'workings' %}
+<p class="fiction-nav"><a href="{{ '/kladde-manifesto/' | relative_url }}">← The Kladde 26 Manifesto</a></p>
+{% endif %}
+
+<div class="fiction-body">
+{{ content }}
+</div>
+
+{% unless page.path contains 'workings' %}
+<p class="fiction-source">
+  <a href="{{ '/kladde-manifesto/workings/' | relative_url }}">workings</a>
+</p>
+{% endunless %}

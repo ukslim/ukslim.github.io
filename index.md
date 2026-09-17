@@ -9,3 +9,4 @@ Also hosted here:
 
 - a [Poster Prompts](/poster-prompts/) catalogue — one hundred design styles as ready-made AI image-generation prompts for event posters.
 - a [Fiction](/fiction/) section — short stories co-written with AI.
+- [The Kladde 26 Manifesto](/kladde-manifesto/) — show your workings when you publish writing made with language models.

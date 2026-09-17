@@ -14,13 +14,15 @@ layout: page
 {{ content }}
 </div>
 
+{% unless page.path contains '.src.md' %}
+  {% assign source_path = page.path | replace: '.md', '.src.md' %}
+  {% assign source = site.fiction | where: 'path', source_path | first %}
+{% endunless %}
+
 <p class="fiction-source">
-  {% unless page.path contains '.src.md' %}
-    {% assign source_path = page.path | replace: '.md', '.src.md' %}
-    {% assign source = site.fiction | where: 'path', source_path | first %}
-    {% if source %}
-    <a href="{{ source.url }}">workings</a> ·
-    {% endif %}
-  {% endunless %}
+  {% if source %}
+  This work has shared workings, in line with <a href="{{ '/kladde-manifesto/' | relative_url }}">Kladde</a>.<br>
+  <a href="{{ source.url }}">workings</a> ·
+  {% endif %}
   <a href="{{ '/fiction/' | relative_url }}">fiction index</a>
 </p>

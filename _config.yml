@@ -33,6 +33,7 @@ exclude:
   - README.md
   - todo.md
   - poster-story-sources/
+  - staging/
   - poster-styles/
   - serve.sh
   - .sass-cache/
@@ -73,6 +74,7 @@ header_pages:
   - about.md
   - poster-prompts/index.html
   - fiction/index.md
+  - kladde-manifesto/index.md
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
