@@ -273,7 +273,7 @@ Confidence dropped below the engagement threshold. The formation held for anothe
 
 Malcolm lowered the crab. One of his friends had sat down on the grass. The woman from Millbrook stopped filming, checked she had got it, and looked at him.
 
-"Well," Malcolm said. "At least they agree it's red."
+"Well," Malcolm said. "At least they'll know it's red."
 
 ---
 
