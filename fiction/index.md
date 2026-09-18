@@ -14,7 +14,7 @@ Then I dictate a structure, in as much or as little detail as I like, and let it
 I make some attempts to avoid a grating AI tone of voice, through a combination of hand-editing, providing examples, and prompting for tone. Otherwise,
 fooling the reader into believing AI had no hand in it, is not a goal.
 
-In some stories I share some of my workings - partial transcripts or descriptions of the chats that produced the story. The wider terms for that practice are in [The Kladde 26 Manifesto](/kladde-manifesto/).
+In some stories I share some of my workings - partial transcripts or descriptions of the chats that produced the story. The wider terms for that practice are in [The Kladde 26 Manifesto](https://kladde26.org/).
 
 {% assign stories = site.fiction | sort: 'date' | reverse %}
 
