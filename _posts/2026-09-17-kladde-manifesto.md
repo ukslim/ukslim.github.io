@@ -1,4 +1,4 @@
-# The Kladde 26 Manifesto
+# Introducing the Kladde 26 Manifesto
 
 My [fiction section](/fiction/) contains writing I produced with the help of AI. Or perhaps writing AI produced under my supervision.
 
