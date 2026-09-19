@@ -368,15 +368,79 @@
   margin-bottom: 1.5rem;
 }
 
+// Numbered table-of-contents listing on /fiction/
+.fiction-index {
+  list-style: none;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  counter-reset: fiction;
+
+  > li {
+    counter-increment: fiction;
+    position: relative;
+    padding-left: 3.5rem;
+    margin-bottom: 2.5rem;
+
+    &::before {
+      content: counter(fiction, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 0.25em;
+      @include relative-font-size(0.875);
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.06em;
+      color: lighten($grey-color, 12%);
+    }
+  }
+}
+
+.fiction-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 1rem;
+
+  h2 {
+    @include relative-font-size(1.5);
+    margin: 0;
+    line-height: 1.2;
+  }
+}
+
+.fiction-date {
+  margin-left: auto;
+  @include relative-font-size(0.8125);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  white-space: nowrap;
+  color: $grey-color;
+}
+
+.fiction-blurb {
+  margin: 0.5rem 0 0;
+  max-width: 40em;
+  color: $grey-color-dark;
+}
+
 .fiction-workings {
-  @include relative-font-size(0.75);
-  font-weight: $base-font-weight;
-  margin-left: 0.35em;
+  @include relative-font-size(0.8125);
+  margin: 0.5rem 0 0;
 
   a {
     color: $grey-color;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .fiction-index > li {
+    padding-left: 2.5rem;
+  }
+
+  .fiction-head h2 {
+    @include relative-font-size(1.25);
+  }
+}
+
 
 .post-content hr {
   margin: 1.5rem 0;

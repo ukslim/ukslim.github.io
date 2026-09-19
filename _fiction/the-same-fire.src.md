@@ -1,12 +1,7 @@
 ---
-## title: "The Same Fire — chat transcript"
-
+title: The Same Fire.src
 date: 2026-06-05
 description: "Brainstorm and drafting chat that produced The Same Fire."
-
-# The Same Fire — Source Code
-
-### A transcript of the conversation that produced the story
 ---
 
 _What follows is an edited transcript of a conversation between a writer (J) and an AI assistant (C). It is published as a companion to the short story "The Same Fire" as a demonstration of the process by which the piece was researched, argued over, and written. The conversation has been condensed — search queries, tooling outputs, and scaffolding removed — but nothing has been materially altered._

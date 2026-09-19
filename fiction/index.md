@@ -18,20 +18,21 @@ In some stories I share some of my workings - partial transcripts or description
 
 {% assign stories = site.fiction | sort: 'date' | reverse %}
 
-<ul class="post-list">
+<ol class="fiction-index" role="list">
   {% for story in stories %}
   {% unless story.path contains '.src.md' %}
   <li>
-    <span class="post-meta">{{ story.date | date: "%-d %B %Y" }}</span>
-    <h3>
-      <a href="{{ story.url }}">{{ story.title }}</a>
-      {% assign source_path = story.path | replace: '.md', '.src.md' %}
-      {% assign source = site.fiction | where: 'path', source_path | first %}
-      {% if source %}
-      <span class="fiction-workings"><a href="{{ source.url }}">(workings)</a></span>
-      {% endif %}
-    </h3>
+    <div class="fiction-head">
+      <h2><a href="{{ story.url }}">{{ story.title }}</a></h2>
+      <span class="fiction-date">{{ story.date | date: "%b %Y" }}</span>
+    </div>
+    {% if story.description %}<p class="fiction-blurb">{{ story.description }}</p>{% endif %}
+    {% assign source_path = story.path | replace: '.md', '.src.md' %}
+    {% assign source = site.fiction | where: 'path', source_path | first %}
+    {% if source %}
+    <p class="fiction-workings"><a href="{{ source.url }}">workings</a></p>
+    {% endif %}
   </li>
   {% endunless %}
   {% endfor %}
-</ul>
+</ol>
