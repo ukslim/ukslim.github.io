@@ -2,7 +2,7 @@
 layout: page
 title: Fiction
 permalink: /fiction/
-description: Short stories co-written with AI — fiction by JH and Claude.
+description: Short stories by John Hartnup and AI agents.
 ---
 
 These stories were written as a collaboration between Artificial Intelligence Large Language Models agents and me. I don't want to claim I wrote them, because I very much didn't. I suppose I commissioned them, and moulded them. I enjoyed reading them, so you might too.
