@@ -30,62 +30,7 @@ layout: default
 {% endunless %}
 {% assign cat_label = site.data.poster_styles.categories[style.category] %}
 
-{% capture event_fete %}{{ site.data.events.fete.title }}
-{{ site.data.events.fete.date }}
-{{ site.data.events.fete.venue }}
-{{ site.data.events.fete.beneficiary }}
-
-Attractions:
-{%- for a in site.data.events.fete.attractions %}
-- {{ a }}
-{%- endfor %}
-
-{{ site.data.events.fete.footer }}{% endcapture %}
-
-{% capture event_gig %}{{ site.data.events.gig.presenter }}
-
-{{ site.data.events.gig.headliner }}
-{{ site.data.events.gig.support }}
-
-{{ site.data.events.gig.date }}
-{{ site.data.events.gig.venue }}
-
-Tickets: {{ site.data.events.gig.tickets }}
-Available from {{ site.data.events.gig.ticket_source }}
-
-{{ site.data.events.gig.footer }}{% endcapture %}
-
-{% capture style_part %}Design this poster in {{ style.name }} style ({{ style.era }}).
-
-{{ style.poster_framing }}
-
-Visual traits:
-{%- for t in style.visual_traits %}
-- {{ t }}
-{%- endfor %}
-
-Typography:
-{%- for t in style.typography %}
-- {{ t }}
-{%- endfor %}
-
-Palette: {{ style.palette }}
-Layout: {{ style.layout }}
-Mood: {{ style.mood }}
-
-Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
-
-{% capture fete_prompt %}{{ event_fete | strip }}
-
----
-
-{{ style_part | strip }}{% endcapture %}
-
-{% capture gig_prompt %}{{ event_gig | strip }}
-
----
-
-{{ style_part | strip }}{% endcapture %}
+{% include poster_prompts.html %}
 
 <nav aria-label="Breadcrumb" class="breadcrumbs">
   <ol>
@@ -130,48 +75,34 @@ Avoid: {% for a in style.avoid %}{{ a }}{% unless forloop.last %}, {% endunless 
 
   <section class="poster-example">
     <h2>Fête poster</h2>
-    <div class="poster-example-row">
-      <div class="prompt-col">
-        <div class="prompt-mobile-bar">
-          <button class="prompt-toggle-btn">Show prompt</button>
-          <button class="copy-btn" data-target="prompt-fete">Copy to clipboard</button>
-        </div>
-        <div class="prompt-expandable" hidden>
-          <label for="prompt-fete">Copy this prompt into ChatGPT:</label>
-          <textarea id="prompt-fete" class="prompt-box" readonly>{{ fete_prompt }}</textarea>
-        </div>
-        <button class="copy-btn prompt-desktop-copy" data-target="prompt-fete">Copy to clipboard</button>
-      </div>
-      <div class="image-col">
-        <img src="/assets/poster-examples/{{ style.id }}-fete.webp"
-             alt="{{ style.name }} — fête poster example"
-             loading="lazy" decoding="async"
-             onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.webp'">
-      </div>
-    </div>
+    {% capture img_v1 %}/assets/poster-examples/{{ style.id }}-fete.webp{% endcapture %}
+    {% capture img_v2 %}/assets/poster-examples/{{ style.id }}-fete-v2.webp{% endcapture %}
+    {% if style.v2_ready %}
+      {% capture alt_v1 %}{{ style.name }} — fête poster example, version 1 prompt{% endcapture %}
+      {% capture alt_v2 %}{{ style.name }} — fête poster example, version 2 prompt{% endcapture %}
+      {% include poster_version_tabs.html event="fete" %}
+      {% include poster_prompt_block.html version="v2" id="prompt-fete-v2" prompt=fete_prompt_v2 image=img_v2 alt=alt_v2 %}
+      {% include poster_prompt_block.html version="v1" id="prompt-fete" hidden=true prompt=fete_prompt image=img_v1 alt=alt_v1 %}
+    {% else %}
+      {% capture alt_v1 %}{{ style.name }} — fête poster example{% endcapture %}
+      {% include poster_prompt_block.html version="v1" id="prompt-fete" prompt=fete_prompt image=img_v1 alt=alt_v1 %}
+    {% endif %}
   </section>
 
   <section class="poster-example">
     <h2>Gig poster</h2>
-    <div class="poster-example-row">
-      <div class="prompt-col">
-        <div class="prompt-mobile-bar">
-          <button class="prompt-toggle-btn">Show prompt</button>
-          <button class="copy-btn" data-target="prompt-gig">Copy to clipboard</button>
-        </div>
-        <div class="prompt-expandable" hidden>
-          <label for="prompt-gig">Copy this prompt into ChatGPT:</label>
-          <textarea id="prompt-gig" class="prompt-box" readonly>{{ gig_prompt }}</textarea>
-        </div>
-        <button class="copy-btn prompt-desktop-copy" data-target="prompt-gig">Copy to clipboard</button>
-      </div>
-      <div class="image-col">
-        <img src="/assets/poster-examples/{{ style.id }}-gig.webp"
-             alt="{{ style.name }} — gig poster example"
-             loading="lazy" decoding="async"
-             onerror="this.onerror=null;this.src='/assets/poster-examples/placeholder.webp'">
-      </div>
-    </div>
+    {% capture img_v1 %}/assets/poster-examples/{{ style.id }}-gig.webp{% endcapture %}
+    {% capture img_v2 %}/assets/poster-examples/{{ style.id }}-gig-v2.webp{% endcapture %}
+    {% if style.v2_ready %}
+      {% capture alt_v1 %}{{ style.name }} — gig poster example, version 1 prompt{% endcapture %}
+      {% capture alt_v2 %}{{ style.name }} — gig poster example, version 2 prompt{% endcapture %}
+      {% include poster_version_tabs.html event="gig" %}
+      {% include poster_prompt_block.html version="v2" id="prompt-gig-v2" prompt=gig_prompt_v2 image=img_v2 alt=alt_v2 %}
+      {% include poster_prompt_block.html version="v1" id="prompt-gig" hidden=true prompt=gig_prompt image=img_v1 alt=alt_v1 %}
+    {% else %}
+      {% capture alt_v1 %}{{ style.name }} — gig poster example{% endcapture %}
+      {% include poster_prompt_block.html version="v1" id="prompt-gig" prompt=gig_prompt image=img_v1 alt=alt_v1 %}
+    {% endif %}
   </section>
 
 </article>
@@ -250,6 +181,26 @@ document.querySelectorAll('.copy-btn').forEach(function(btn) {
       btn.textContent = 'Copied!';
       setTimeout(function() { btn.textContent = original; }, 2000);
     });
+  });
+});
+
+function showVersion(section, wanted) {
+  section.querySelectorAll('.version-tab').forEach(function(t) {
+    var on = t.dataset.version === wanted;
+    t.classList.toggle('is-active', on);
+    t.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  section.querySelectorAll('.poster-example-row').forEach(function(row) {
+    row.hidden = row.dataset.version !== wanted;
+  });
+}
+
+document.querySelectorAll('.prompt-version-tabs').forEach(function(tabs) {
+  var section = tabs.closest('.poster-example');
+  tabs.addEventListener('click', function(e) {
+    var btn = e.target.closest('.version-tab');
+    if (!btn) return;
+    showVersion(section, btn.dataset.version);
   });
 });
 

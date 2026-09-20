@@ -28,6 +28,14 @@ description: "One hundred design styles as copy-paste AI image-generation prompt
   <button type="button" class="active" aria-pressed="true" data-variant="gig">Gig posters</button>
 </div>
 
+{%- comment -%}
+Prompt-version toggle. V2 is the default; V1 is kept for comparison.
+{%- endcomment -%}
+<div class="thumb-toggle version-toggle" role="group" aria-label="Prompt version">
+  <button type="button" class="active" aria-pressed="true" data-version="v2">Version 2</button>
+  <button type="button" aria-pressed="false" data-version="v1">Version 1</button>
+</div>
+
 {% assign category_order = site.data.poster_styles.category_order %}
 {% for cat in category_order %} {% assign cat_label =
 site.data.poster_styles.categories[cat] %}
@@ -61,8 +69,14 @@ site.data.poster_styles.categories[cat] %}
   var EXAMPLE_BASE = '/assets/poster-examples/';
   var PLACEHOLDER = THUMB_BASE + 'placeholder.jpg';
   var STORAGE_KEY = 'posterThumbVariant';
+  var VERSION_KEY = 'posterThumbVersion';
 
-  function applyVariant(variant) {
+  var variant = 'gig';
+  var version = 'v2';
+
+  function suffix() { return version === 'v2' ? '-v2' : ''; }
+
+  function render() {
     document.querySelectorAll('.poster-thumb').forEach(function(img) {
       var id = img.dataset.id;
       var name = img.closest('.poster-card').querySelector('.card-name').textContent;
@@ -74,29 +88,49 @@ site.data.poster_styles.categories[cat] %}
           img.src = PLACEHOLDER;
         } else {
           img.dataset.tried = '1';
-          img.src = EXAMPLE_BASE + id + '-' + variant + '.webp';
+          img.src = EXAMPLE_BASE + id + '-' + variant + suffix() + '.webp';
         }
       };
-      img.src = THUMB_BASE + id + '-' + variant + '.jpg';
+      img.src = THUMB_BASE + id + '-' + variant + suffix() + '.jpg';
     });
 
-    document.querySelectorAll('.thumb-toggle button').forEach(function(btn) {
+    document.querySelectorAll('.thumb-toggle button[data-variant]').forEach(function(btn) {
       var active = btn.dataset.variant === variant;
       btn.classList.toggle('active', active);
       btn.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
-
-    try { localStorage.setItem(STORAGE_KEY, variant); } catch (e) {}
+    document.querySelectorAll('.version-toggle button').forEach(function(btn) {
+      var active = btn.dataset.version === version;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
   }
 
-  document.querySelectorAll('.thumb-toggle button').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      applyVariant(btn.dataset.variant);
-    });
+  function setVariant(v) {
+    variant = v;
+    try { localStorage.setItem(STORAGE_KEY, v); } catch (e) {}
+    render();
+  }
+
+  function setVersion(v) {
+    version = v;
+    try { localStorage.setItem(VERSION_KEY, v); } catch (e) {}
+    render();
+  }
+
+  document.querySelectorAll('.thumb-toggle button[data-variant]').forEach(function(btn) {
+    btn.addEventListener('click', function() { setVariant(btn.dataset.variant); });
+  });
+  document.querySelectorAll('.version-toggle button').forEach(function(btn) {
+    btn.addEventListener('click', function() { setVersion(btn.dataset.version); });
   });
 
-  var saved;
+  var saved, savedVersion;
   try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
-  applyVariant(saved === 'fete' ? 'fete' : 'gig');
+  try { savedVersion = localStorage.getItem(VERSION_KEY); } catch (e) {}
+  variant = saved === 'fete' ? 'fete' : 'gig';
+  version = savedVersion === 'v1' ? 'v1' : 'v2';
+
+  render();
 })();
 </script>

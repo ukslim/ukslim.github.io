@@ -64,6 +64,8 @@ styles:
       - text integrated into border ornament
     palette: forest green, terracotta, ochre, deep burgundy, cream
     layout: central motif with ornamental border or frame
+    subject_source: style
+    v2_ready: true
     mood: earnest, artisanal, pre-industrial warmth
     references:
       - William Morris
@@ -97,6 +99,8 @@ styles:
       - decorative capitals
     palette: muted gold, sage, dusty rose, teal, cream
     layout: vertical format with strong border; figure dominates upper half
+    subject_source: style
+    v2_ready: true
     mood: elegant, theatrical, fin-de-siècle
     references:
       - Alphonse Mucha
@@ -131,6 +135,8 @@ styles:
       - text subordinate to image
     palette: indigo, vermillion, cream, black, muted grey-green
     layout: asymmetrical; large empty area balanced by dense detail elsewhere
+    subject_source: event
+    v2_ready: true
     mood: refined, cross-cultural, quietly striking
     references:
       - Ukiyo-e print tradition
@@ -165,6 +171,8 @@ styles:
       - letterforms with inline decoration
     palette: black, gold, cream, deep teal, coral
     layout: symmetrical tower composition; headline at top, detail below
+    subject_source: event
+    v2_ready: true
     mood: glamorous, confident, Jazz Age
     references:
       - A.M. Cassandre
@@ -199,6 +207,8 @@ styles:
       - horizontal text bands
     palette: chrome silver, navy, white, red accent, sky blue
     layout: strong horizontal flow; object moving left-to-right
+    subject_source: event
+    v2_ready: true
     mood: optimistic, futuristic-for-its-time, energetic
     references:
       - Raymond Loewy
@@ -232,6 +242,8 @@ styles:
       - asymmetrical text placement
     palette: primary red, blue, yellow, black, white
     layout: asymmetrical grid; information-first; generous negative space
+    subject_source: abstract
+    v2_ready: true
     mood: cultural, gallery-like, confident, design-led
     references:
       - Herbert Bayer
@@ -267,6 +279,8 @@ styles:
       - one accent weight or size contrast
     palette: white, black, one accent colour — red, orange, or green
     layout: strict grid; text and image in clear zones
+    subject_source: abstract
+    v2_ready: true
     mood: institutional, precise, calm authority
     references:
       - Josef Müller-Brockmann
@@ -303,6 +317,8 @@ styles:
       - contrasting size extremes
     palette: red, black, white, occasional grey
     layout: dynamic diagonal; elements appear to thrust outward
+    subject_source: event
+    v2_ready: true
     mood: urgent, revolutionary, visually aggressive
     references:
       - Alexander Rodchenko
@@ -335,6 +351,8 @@ styles:
       - text confined to rectangular zones
     palette: red, blue, yellow, black, white only
     layout: orthogonal grid; strict alignment; no curves
+    subject_source: abstract
+    v2_ready: true
     mood: intellectual, pure, quietly radical
     references:
       - Piet Mondrian
@@ -368,6 +386,8 @@ styles:
       - mixed case
     palette: teal, mustard, coral, avocado, cream, charcoal
     layout: balanced asymmetry; illustration and text in clear bands
+    subject_source: event
+    v2_ready: true
     mood: optimistic, suburban-modern, welcoming
     references:
       - Paul Rand
@@ -403,6 +423,8 @@ styles:
       - text at playful angles
     palette: hot pink, electric blue, yellow, black, white, teal
     layout: scattered energetic composition; no single focal point
+    subject_source: abstract
+    v2_ready: true
     mood: fun, irreverent, deliberately kitsch
     references:
       - Ettore Sottsass
@@ -437,6 +459,8 @@ styles:
       - tight or overlapping letterspacing
     palette: black, white, one brutal accent — orange or yellow
     layout: massive type blocks dominating the page; information crammed or isolated
+    subject_source: type
+    v2_ready: true
     mood: rebellious, confrontational, anti-decorative
     references:
       - Experimental Jetset
@@ -470,6 +494,8 @@ styles:
       - clear size hierarchy — three levels maximum
     palette: white, black, one editorial accent; muted photography tones
     layout: classic editorial grid; headline, subhead, body, image
+    subject_source: event
+    v2_ready: true
     mood: premium, literate, surprisingly polished for a local event
     references:
       - The New York Times Magazine
@@ -504,6 +530,8 @@ styles:
       - small caps for secondary information
     palette: white, dark grey, safety green, directional blue, alert orange
     layout: grid of icon + label pairs; clear information zones
+    subject_source: event
+    v2_ready: true
     mood: functional, trustworthy, quietly distinctive
     references:
       - London Underground signage
@@ -539,6 +567,8 @@ styles:
       - all-capital headlines
     palette: black, cream, deep red, gold, forest green
     layout: dense centred stack; information fills the frame
+    subject_source: event
+    v2_ready: true
     mood: boisterous, fairground, old-world
     references:
       - Victorian playbill tradition
@@ -571,6 +601,8 @@ styles:
       - playful baseline shifts
     palette: warm red, yellow, black, teal, cream
     layout: figure dominates; text woven into lower third
+    subject_source: style
+    v2_ready: true
     mood: lively, theatrical, Parisian nightlife
     references:
       - Jules Chéret
@@ -603,6 +635,8 @@ styles:
       - onomatopoeic text sizing
     palette: red, black, grey, yellow, white
     layout: centrifugal energy; elements radiate from a point
+    subject_source: event
+    v2_ready: true
     mood: aggressive, modern, speed-obsessed
     references:
       - F.T. Marinetti
@@ -636,6 +670,8 @@ styles:
       - deliberately illegible passages
     palette: black, white, newsprint grey, one red accent
     layout: chaotic layering; no clear hierarchy
+    subject_source: event
+    v2_ready: true
     mood: absurdist, provocative, anti-establishment
     references:
       - Hannah Höch
@@ -670,6 +706,8 @@ styles:
       - centred or left-aligned institutional layout
     palette: ochre, grey, umber, black, cream
     layout: central cubist image; formal typographic band below
+    subject_source: style
+    v2_ready: true
     mood: intellectual, gallery-serious, historically grounded
     references:
       - Pablo Picasso
@@ -702,6 +740,8 @@ styles:
       - text as quiet caption below image
     palette: deep blue sky, warm sand, muted green, realistic tones
     layout: single surreal image dominating; modest text below
+    subject_source: event
+    v2_ready: true
     mood: uncanny, dreamlike, intellectually playful
     references:
       - Salvador Dalí
@@ -735,6 +775,8 @@ styles:
       - text integrated into the block print
     palette: black, white, one accent — red or orange
     layout: single powerful image; text in carved bands
+    subject_source: event
+    v2_ready: true
     mood: raw, emotional, urgent
     references:
       - Käthe Kollwitz
@@ -770,6 +812,8 @@ styles:
       - onomatopoeia as graphic element
     palette: red, yellow, blue, black, white
     layout: centred iconic image; bold headline above or below
+    subject_source: event
+    v2_ready: true
     mood: loud, playful, mass-culture aware
     references:
       - Andy Warhol
@@ -803,6 +847,8 @@ styles:
       - text kept minimal to not compete with pattern
     palette: black, white, occasional single accent
     layout: optical pattern fills background; text in calm zone
+    subject_source: abstract
+    v2_ready: true
     mood: hypnotic, psychedelic-adjacent, visually intense
     references:
       - Bridget Riley
@@ -836,6 +882,8 @@ styles:
       - ornate psychedelic capitals
     palette: hot pink, orange, purple, lime green, electric blue
     layout: all-over dense composition; text woven into illustration
+    subject_source: event
+    v2_ready: true
     mood: trippy, energetic, countercultural
     references:
       - Wes Wilson
@@ -869,6 +917,8 @@ styles:
       - text minimal and peripheral
     palette: white, off-white, one colour — red or yellow
     layout: object centred or off-centre in empty space; tiny text corner
+    subject_source: abstract
+    v2_ready: true
     mood: contemplative, austere, gallery-white-cube
     references:
       - Donald Judd
@@ -903,6 +953,8 @@ styles:
       - clean sans for event details
     palette: electric colours on dark or brick background
     layout: large handstyle across top; details in clean zone below
+    subject_source: type
+    v2_ready: true
     mood: urban, energetic, youth-culture
     references:
       - Jean-Michel Basquiat
@@ -939,6 +991,8 @@ styles:
       - solid colour fills, no gradients
     palette: fluorescent pink, teal, yellow, black — pick two or three
     layout: bold graphic shapes; text in solid colour blocks
+    subject_source: event
+    v2_ready: true
     mood: indie, zine-culture, deliberately lo-fi
     references:
       - Risograph print tradition
@@ -973,6 +1027,8 @@ styles:
       - generous letterspacing
     palette: black, cream, one accent — red or green
     layout: centred bold graphic; text in clear bands
+    subject_source: event
+    v2_ready: true
     mood: crafted, substantial, event-worthy
     references:
       - Hatch Show Print
@@ -1005,6 +1061,8 @@ styles:
       - text as a colour layer
     palette: bold opaque colours — no transparency effects
     layout: illustration centred; text stacked below in bands
+    subject_source: event
+    v2_ready: true
     mood: direct, handmade, graphic
     references:
       - Gig poster tradition
@@ -1039,6 +1097,8 @@ styles:
       - type aligned to diagram structure
     palette: black ink on cream, one green or rust accent
     layout: specimen drawings arranged taxonomically; text in margin
+    subject_source: style
+    v2_ready: true
     mood: quiet, academic, refined
     references:
       - Botanical illustration tradition
@@ -1072,6 +1132,8 @@ styles:
       - text separate from cut shapes
     palette: bright blue, orange, green, pink, white background
     layout: cut shapes fill the field; text in clear zone
+    subject_source: event
+    v2_ready: true
     mood: joyful, bold, gallery-quality
     references:
       - Henri Matisse
@@ -1105,6 +1167,8 @@ styles:
       - careful kerning and spacing
     palette: black, white, one accent — bright green, orange, or red
     layout: type-driven; accent colour highlights one word or element
+    subject_source: type
+    v2_ready: true
     mood: confident, minimal, design-conscious
     references:
       - Swiss poster tradition
@@ -1141,6 +1205,8 @@ styles:
       - deliberately contrasts with the painting
     palette: poster-paint primaries — red, blue, yellow, green
     layout: child painting fills upper area; professional type in lower band
+    subject_source: event
+    v2_ready: true
     mood: charming, honest, community-made
     references:
       - School fair poster tradition
@@ -1174,6 +1240,8 @@ styles:
       - uneven baseline
     palette: construction paper colours — red, green, blue, yellow, orange
     layout: collage fills the page; text cut from contrasting paper
+    subject_source: event
+    v2_ready: true
     mood: enthusiastic, primary-school, community
     references:
       - Primary school classroom display
@@ -1207,6 +1275,8 @@ styles:
       - slightly wobbly but legible
     palette: crayon primaries with waxy build-up
     layout: central folk motif; hand-lettered text around it
+    subject_source: event
+    v2_ready: true
     mood: warm, folk, homespun
     references:
       - Folk art tradition
@@ -1241,6 +1311,8 @@ styles:
       - deliberately rough alignment
     palette: black, white, photocopy grey, occasional red or yellow xerox
     layout: dense collage; text and image competing for space
+    subject_source: event
+    v2_ready: true
     mood: confrontational, DIY, underground
     references:
       - UK punk fanzine tradition
@@ -1275,6 +1347,8 @@ styles:
       - rubber-stamp dates
     palette: black and white base with found colour fragments
     layout: chaotic layering; no grid; marginalia in corners
+    subject_source: event
+    v2_ready: true
     mood: indie, personal, underground publishing
     references:
       - Riot grrrl zine tradition
@@ -1311,6 +1385,8 @@ styles:
       - multiple competing sizes
     palette: neon green, hot pink, electric blue, black
     layout: dense stacked text; central graphic motif; information-heavy
+    subject_source: style
+    v2_ready: true
     mood: euphoric, high-energy, subcultural
     references:
       - Acid house flyer tradition
@@ -1344,6 +1420,8 @@ styles:
       - dense lineup text at bottom
     palette: black, dark blue, chrome silver, neon green accent
     layout: fractal image dominates upper two-thirds; lineup text stacked below
+    subject_source: style
+    v2_ready: true
     mood: dark, futuristic-for-1996, bass-heavy
     references:
       - Jungle and drum and bass flyer tradition
@@ -1377,6 +1455,8 @@ styles:
       - clear date and venue prominence
     palette: depends on central graphic; typically bold and limited
     layout: graphic top half; lineup text bottom half; date prominent
+    subject_source: event
+    v2_ready: true
     mood: contemporary, music-led, professional-indie
     references:
       - Glastonbury poster tradition
@@ -1410,6 +1490,8 @@ styles:
       - clear direct language
     palette: red, blue, cream, black — limited and flat
     layout: image above, headline below, details in footer
+    subject_source: event
+    v2_ready: true
     mood: civic, direct, democratic
     references:
       - WPA Federal Art Project
@@ -1443,6 +1525,8 @@ styles:
       - banner-style text bands
     palette: red, cream, black, gold
     layout: figure dominates; text in banner across top or bottom
+    subject_source: style
+    v2_ready: true
     mood: heroic, collective, aspirational
     references:
       - Soviet political poster tradition
@@ -1476,6 +1560,8 @@ styles:
       - clean sans-serif in corner
     palette: rich saturated colours — deep red, ultramarine, ochre
     layout: single image dominates; tiny text in corner
+    subject_source: event
+    v2_ready: true
     mood: artistic, symbolic, intellectually rich
     references:
       - Henryk Tomaszewski
@@ -1509,6 +1595,8 @@ styles:
       - destination name as hero text
     palette: azure blue, warm sand, sunset orange, white
     layout: landscape band across middle; destination name above; details below
+    subject_source: event
+    v2_ready: true
     mood: aspirational, sunny, escapist
     references:
       - A.M. Cassandre
@@ -1544,6 +1632,8 @@ styles:
       - Japanese and Latin type harmony optional
     palette: white, black, one muted accent — indigo, vermillion, or moss green
     layout: tiny element in lower corner or off-centre; text minimal
+    subject_source: event
+    v2_ready: true
     mood: calm, elegant, contemplative
     references:
       - Ikko Tanaka
@@ -1581,6 +1671,8 @@ styles:
       - mixed scale and orientation
     palette: white, black, red, yellow, industrial grey
     layout: dense graphic field; slogans scattered; logo-centred
+    subject_source: type
+    v2_ready: true
     mood: subversive, techno, culturally literate
     references:
       - Designers Republic
@@ -1616,6 +1708,8 @@ styles:
       - technical labelling
     palette: warm red, warm grey, white, black
     layout: systematic grid; logo and information in precise zones
+    subject_source: event
+    v2_ready: true
     mood: technical, confident, American modernist
     references:
       - NASA Graphics Standards Manual
@@ -1650,6 +1744,8 @@ styles:
       - warm colour fills
     palette: burnt orange, avocado, harvest gold, brown, cream
     layout: centred friendly illustration; warm text below
+    subject_source: event
+    v2_ready: true
     mood: groovy-but-wholesome, corporate-friendly, nostalgic
     references:
       - 1970s corporate branding
@@ -1685,6 +1781,8 @@ styles:
       - slightly inflated letterforms
     palette: silver, electric blue, hot pink, white, iridescent
     layout: central 3D blob or sphere; text wrapped around form
+    subject_source: style
+    v2_ready: true
     mood: optimistic, synthetic, millennial
     references:
       - Y2K aesthetic revival
@@ -1717,6 +1815,8 @@ styles:
       - modern weight contrast
     palette: bold but not pastel — coral, teal, navy, mustard
     layout: illustration and text in clear zones; modern grid
+    subject_source: event
+    v2_ready: true
     mood: contemporary, friendly, agency-polished
     references:
       - Contemporary tech company illustration style
@@ -1756,6 +1856,8 @@ styles:
       - text in clearly demarcated rectangular zones
     palette: black, white, gold, grey-violet, muted rose, deep teal
     layout: symmetrical vertical composition; architectural frame contains central image
+    subject_source: style
+    v2_ready: true
     mood: jewelled, solemn, art-as-religion, Wien 1900
     references:
       - Gustav Klimt
@@ -1796,6 +1898,8 @@ styles:
       - restrained, small, and precisely placed
     palette: black, white, rose pink, grey-purple, silver-green
     layout: tall narrow format; vertical stacking of ornamental zones
+    subject_source: style
+    v2_ready: true
     mood: cool, austere, mystical, Northern European
     references:
       - Charles Rennie Mackintosh
@@ -1839,6 +1943,8 @@ styles:
       - letterforms may use Art Nouveau curves or bold woodcut weight
     palette: flat vivid — deep cobalt, vermillion, lime green, gold, black; pure Pop Art colour blocking
     layout: dominant flat silhouette figure; decorative pattern fill; hand-lettered title woven in
+    subject_source: event
+    v2_ready: true
     mood: witty, graphic, culturally literate — Pop Art meets Art Nouveau meets folk illustration
     references:
       - Milton Glaser — Bob Dylan poster (1966)
@@ -1880,6 +1986,8 @@ styles:
       - mixed weights creating rhythm across the page
     palette: black, white, warm grey; one or two strong accent colours — red, yellow, or blue
     layout: multi-layered — no single reading order; the eye is directed across planes
+    subject_source: type
+    v2_ready: true
     mood: intellectual, experimental, proto-digital, knowing
     references:
       - Wolfgang Weingart
@@ -1920,6 +2028,8 @@ styles:
       - body text set in display faces or vice versa
     palette: black, white, and photographic tones; occasional crude colour
     layout: anti-hierarchical; elements crash into each other
+    subject_source: type
+    v2_ready: true
     mood: raw, emotional, anti-establishment, surf-and-skate literate
     references:
       - David Carson
@@ -1952,7 +2062,7 @@ styles:
       - glowing letterforms with a soft neon halo effect on dark background
       - outlined tube-style lettering suggesting bent glass tubing
       - dark ground — deep blue-black or near-black
-      - vivid saturated colour: hot pink, electric blue, yellow-white, red
+      - vivid saturated colour — hot pink, electric blue, yellow-white, red
       - arrows, stars, or simple geometric motifs as secondary neon elements
     typography:
       - script or rounded display letterforms evoking hand-bent neon tube
@@ -1960,6 +2070,8 @@ styles:
       - generous letter spacing to suggest physical tube construction
     palette: deep blue-black ground; neon pink, electric blue, acid yellow, warm white glow
     layout: dominant illuminated headline; secondary neon motif; dark field surrounding
+    subject_source: type
+    v2_ready: true
     mood: nocturnal, American roadside, retro-glamorous, warmly commercial
     references:
       - American neon sign tradition
@@ -2001,6 +2113,8 @@ styles:
       - text treated as a geometric form, not decoration
     palette: black, red, white; very occasionally a muted grey or blue-grey
     layout: asymmetric arrangement of floating forms; generous white space
+    subject_source: abstract
+    v2_ready: true
     mood: pure, radical, weightless, intellectual
     references:
       - Kazimir Malevich
@@ -2040,6 +2154,8 @@ styles:
       - text treated as a geometric wedge within the composition
     palette: black, white; sharp red or yellow as single accent
     layout: radiating centrifugal composition; energy pushes outward from centre
+    subject_source: abstract
+    v2_ready: true
     mood: aggressive, mechanical, uncompromising, industrial
     references:
       - Wyndham Lewis
@@ -2080,6 +2196,8 @@ styles:
       - tight uppercase headlines
     palette: black, white, photographic grey tones; deep red as political accent
     layout: photomontage dominates; text cuts across or anchors the composition
+    subject_source: event
+    v2_ready: true
     mood: urgent, critical, politically charged, documentary
     references:
       - John Heartfield
@@ -2119,6 +2237,8 @@ styles:
       - clean geometric sans-serif if used at all
     palette: full spectrum — red, orange, yellow, green, blue, violet in adjacent complementary arrangement
     layout: centred radial composition; colour progression from warm centre to cool edge or vice versa
+    subject_source: abstract
+    v2_ready: true
     mood: joyful, energetic, musical, rigorously playful
     references:
       - Robert Delaunay
@@ -2158,6 +2278,8 @@ styles:
       - text occupies a defined grid zone and does not compete with image
     palette: systematic sequences — not arbitrary; often full spectrum in ordered steps
     layout: grid subdivisions revealing a visual series or progression
+    subject_source: abstract
+    v2_ready: true
     mood: intellectual, precise, quietly radical, mathematically beautiful
     references:
       - Max Bill
@@ -2198,6 +2320,8 @@ styles:
       - text integrated into the image rather than set formally
     palette: vivid unmodulated colours — cobalt, vermillion, ochre, viridian, black, white
     layout: figure or figures filling the field; text in a bold painted band
+    subject_source: style
+    v2_ready: true
     mood: raw, mythic, child-like vigour, post-war energy, Nordic
     references:
       - Karel Appel
@@ -2239,6 +2363,8 @@ styles:
       - engineering-drawing annotation style
     palette: Prussian blue and white only; occasional very pale blue for mid-tones
     layout: specimen or object centred on blue field; technical text in margins or below
+    subject_source: event
+    v2_ready: true
     mood: scientific, ghostly, precise, quietly beautiful
     references:
       - Anna Atkins
@@ -2280,6 +2406,8 @@ styles:
       - title often split across two lines for maximum impact
     palette: black engraving on white with one garish tint — blood red, poison green, or gaslight blue
     layout: full-bleed dramatic scene; title in bold band above; price and number below
+    subject_source: event
+    v2_ready: true
     mood: melodramatic, sensational, breathless, Victorian popular horror
     references:
       - Penny dreadful cover tradition
@@ -2319,6 +2447,8 @@ styles:
       - text in a below-image caption band, small and precise
     palette: black ink on cream or warm white; sepia-toned variant for aquatint feeling
     layout: central image occupying most of the field; formal caption below
+    subject_source: event
+    v2_ready: true
     mood: authoritative, detailed, historical, scholarly
     references:
       - Albrecht Dürer
@@ -2362,6 +2492,8 @@ styles:
       - standfirst in slightly smaller bold; body text in tight justified columns
     palette: black ink on white; optional single red for masthead banner or drop capital only — no other colour
     layout: masthead across full width at top; dominant photo with halftone screen; stacked headline and columns below
+    subject_source: event
+    v2_ready: true
     mood: urgent, journalistic, democratic, freshly inked, pre-digital Britain
     references:
       - British tabloid front page tradition — The Sun, Daily Mirror
@@ -2403,6 +2535,8 @@ styles:
       - occasional hand-written annotation
     palette: purple-blue or grey-blue on off-white paper
     layout: informal; text and crude drawings sharing the page without strict hierarchy
+    subject_source: event
+    v2_ready: true
     mood: community, democratic, low-resource, pre-digital warmth
     references:
       - Mimeograph self-publishing tradition
@@ -2445,6 +2579,8 @@ styles:
       - large type integrated into the composition
     palette: flat black, red, and one other — green, yellow, blue, or orange
     layout: diagonal central figure or symbol; slogan across top or bottom
+    subject_source: event
+    v2_ready: true
     mood: urgent, internationalist, politically direct, graphic power
     references:
       - OSPAAAL poster tradition
@@ -2485,6 +2621,8 @@ styles:
       - integrated with the image rather than typeset beneath it
     palette: black on white; or black on single flat colour — red, yellow, or cream
     layout: single bold image with slogan — nothing else; no credits, no hierarchy
+    subject_source: event
+    v2_ready: true
     mood: urgent, collective, political immediacy, anti-authoritarian
     references:
       - Atelier Populaire
@@ -2524,6 +2662,8 @@ styles:
       - occasional hand-lettered accent
     palette: deep blues, reds, and earthy tones; more varied and warmer than Soviet propaganda
     layout: figurative illustration dominates upper two-thirds; bold title below
+    subject_source: event
+    v2_ready: true
     mood: humanistic, melancholic, socialist-romantic, quietly distinctive
     references:
       - DEFA film poster tradition
@@ -2563,6 +2703,8 @@ styles:
       - typefaces mixing Eastern and Western letterform traditions
     palette: deep red, black, gold, cream; occasional teal or violet
     layout: central glamorous figure; text in vertical and horizontal bands
+    subject_source: style
+    v2_ready: true
     mood: cosmopolitan, hybrid, modernising, confidently East-meets-West
     references:
       - Taisho era commercial poster tradition
@@ -2602,6 +2744,8 @@ styles:
       - decorative cartouche or banner for title
     palette: rich saturated warm tones — rouge, jade green, gold, ivory, sky blue
     layout: central standing or seated figure; decorative borders; calendar grid below
+    subject_source: style
+    v2_ready: true
     mood: aspirational, cosmopolitan, glamorous, Shanghai 1930s
     references:
       - Yuefenpai calendar poster tradition
@@ -2641,6 +2785,8 @@ styles:
       - clear hierarchical layout with optimistic tone
     palette: red, white, blue, gold, bright green — British primary palette with optimism
     layout: central symbolic or structural motif; clear typographic bands
+    subject_source: style
+    v2_ready: true
     mood: optimistic, post-war renewal, scientific wonder, British mid-century
     references:
       - Abram Games
@@ -2680,6 +2826,8 @@ styles:
       - occasional Art Nouveau-influenced lettering for ironic contrast
     palette: tropical vivid — hot pink, lime green, orange, turquoise, yellow, deep violet
     layout: collage logic — no single reading order; elements crowd and overlap
+    subject_source: style
+    v2_ready: true
     mood: psychedelic, political, carnivalesque, syncretic, joyfully subversive
     references:
       - Rogério Duarte
@@ -2720,6 +2868,8 @@ styles:
       - direction of reading changes within a single line
     palette: black and white principally; occasional red for emphatic words
     layout: words scattered across the full field; centrifugal energy
+    subject_source: type
+    v2_ready: true
     mood: loud, kinetic, aggressive, speed-obsessed, noise made visible
     references:
       - F.T. Marinetti
@@ -2760,6 +2910,8 @@ styles:
       - generous white space around type
     palette: black, white, and one colour — often deep blue, grey, or green
     layout: systematic grid; generous margins; information precisely located
+    subject_source: type
+    v2_ready: true
     mood: austere, romantic, post-industrial, elegantly melancholy
     references:
       - Peter Saville
@@ -2800,6 +2952,8 @@ styles:
       - text as texture rather than clear information
     palette: dark — deep red, black, brown, bone white, occasional vivid green or blue
     layout: image-led; text placed quietly within or below the dominant visual
+    subject_source: style
+    v2_ready: true
     mood: gothic romantic, dreamlike, beautiful darkness, underground
     references:
       - Vaughan Oliver
@@ -2841,6 +2995,8 @@ styles:
       - support acts in smaller but still dramatic type
     palette: black, deep red, orange flame, silver, bone white
     layout: dramatic central image; band name across top or arched above; dates below
+    subject_source: style
+    v2_ready: true
     mood: dark, powerful, maximalist, earnestly epic
     references:
       - Roger Dean (Yes, Asia)
@@ -2880,6 +3036,8 @@ styles:
       - all information on equal footing — no clear typographic hierarchy
     palette: red, gold, green, black — Rastafarian national colours
     layout: informal stack; imagery and text share the field on equal terms
+    subject_source: style
+    v2_ready: true
     mood: warm, communal, roots, handmade, joyful
     references:
       - Jamaican sound system tradition
@@ -2919,6 +3077,8 @@ styles:
       - hand-written elements alongside typeset text
     palette: black, two or three vivid primaries — red, blue, yellow, orange; on white or bright ground
     layout: headline bold at top; details stacked below; central break-dancer image
+    subject_source: style
+    v2_ready: true
     mood: direct, energetic, street-level, community-made
     references:
       - Bronx block party flyer tradition
@@ -2959,6 +3119,8 @@ styles:
       - type treated as a weapon or a fact, never decoration
     palette: black and one colour — hot pink, red, or white
     layout: single symbol dominating field; statement below or across; stark margins
+    subject_source: event
+    v2_ready: true
     mood: urgent, confrontational, political, uncompromising, life-or-death
     references:
       - Gran Fury
@@ -2998,6 +3160,8 @@ styles:
       - supporting cast and credits in smaller but still bold type
     palette: warm 1970s tones — burnt orange, rust, deep brown, cream, electric yellow
     layout: full-bleed action illustration; title across upper portion; credits at base
+    subject_source: style
+    v2_ready: true
     mood: cool, powerful, kinetic, stylish, 70s urban
     references:
       - Shaft poster (1971)
@@ -3037,6 +3201,8 @@ styles:
       - graffiti-influenced letterforms
     palette: vivid clashing — hot pink, lime, electric blue, orange, black
     layout: central character or skull dominating; text around the figure
+    subject_source: style
+    v2_ready: true
     mood: transgressive, youth-culture, absurd-menacing, irreverent
     references:
       - Jim Phillips (Santa Cruz)
@@ -3078,6 +3244,8 @@ styles:
       - triumphant exclamation-marked text
     palette: red, white, blue, yellow — all maximally saturated; no muted tones
     layout: heroic figure or crowd in lower two-thirds; blazing sky above; slogan across top
+    subject_source: style
+    v2_ready: true
     mood: triumphalist, collective, monumental, intense optimism
     references:
       - DPRK poster tradition
@@ -3117,6 +3285,8 @@ styles:
       - date or mission designation as a graphic element
     palette: deep space blue-black, silver-white, gold-orange rocket flame, red Soviet accent
     layout: rocket or cosmonaut figure ascending; Earth below; stars above; text at base
+    subject_source: style
+    v2_ready: true
     mood: heroic optimism, scientific wonder, socialist aspiration, genuinely cosmic
     references:
       - Soviet space programme poster tradition
@@ -3157,6 +3327,8 @@ styles:
       - asymmetrical text placement
     palette: mustard yellow, rust orange, grey-green, ink black, with one acid-bright accent colour
     layout: flat two-plane composition (single background plane, foreground plane of figures and stalls); asymmetrical grid; generous negative space
+    subject_source: event
+    v2_ready: true
     mood: cheerful event delivered deadpan — gallery-like, slightly absurdist, confident
     references:
       - Dušan Vukotić
@@ -3172,52 +3344,6 @@ styles:
       - photorealism
     poster_framing: Contemporary event poster styled as a still from a deadpan Eastern European art-school cartoon
     caution: null
-
-  - id: soyuzmultfilm
-    name: Soyuzmultfilm Animation
-    category: national_and_regional
-    era: 1950s–1980s
-    orphaned: true
-    dk_source:
-      design_chapter: null
-      art_chapter: null
-    blog_validated: false
-    summary: >
-      The Moscow animation studio Soyuzmultfilm produced a body of work with
-      a visual language utterly distinct from Western cartoons: geometric rounded
-      animal characters with circular heads, simplified tubular limbs, and
-      enormous expressive eyes — think Cheburashka, the Wolf and Hare from
-      Nu Pogodi!, the Hedgehog from Hedgehog in the Fog. Backgrounds are
-      painterly and atmospheric — misty forests, soft fields, simplified Soviet
-      domestic interiors — in muted warm palettes far from American primary
-      colours.       Constructivist graphic design sensibility applied to gentle
-      storytelling — softer and more rounded than the angular Zagreb School look.
-    visual_traits:
-      - rounded geometric animal characters — circular head, large round eyes, tubular limbs
-      - soft painterly backgrounds with flat colour and subtle texture
-      - muted, sophisticated colour — nothing saturated or primary
-      - simplified landscape or interior settings with Constructivist graphic clarity
-      - characters placed against backgrounds as flat graphic elements, not integrated naturalistically
-    typography:
-      - clean Cyrillic-influenced sans-serif or rounded letterforms
-      - title card style — text on plain colour band, not overlaid on image
-      - generous spacing, unhurried
-    palette: dusty ochre, soft forest green, warm grey, muted cobalt, cream — no saturated primaries
-    layout: character or characters in simplified landscape; sky occupies upper third; text in clean band
-    mood: gentle, warm, mid-century Soviet, quietly magical, unhurried
-    references:
-      - Soyuzmultfilm studio
-      - Cheburashka (1966)
-      - Nu Pogodi! (1969)
-      - Hedgehog in the Fog (1975)
-    avoid:
-      - American cartoon saturated primaries and hard outlines
-      - Disney or anime character design
-      - aggressive action poses
-      - artificial yellowing or ageing
-    poster_framing: Community event poster illustrated in Soyuzmultfilm style — rounded animal characters in a soft painterly landscape setting
-    caution: null
-    note: The AI may add Cyrillic text — this is authentic to the style. To suppress it, add "no text, Latin characters only" to the prompt.
 
   - id: mexican_calavera
     name: Mexican Calavera / Posada
@@ -3246,6 +3372,8 @@ styles:
       - text integrated within the decorative border
     palette: vivid saturated warm and cool — orange, yellow, pink, cobalt, purple, black
     layout: central skeleton figure with decorative border; text in ornamental band
+    subject_source: style
+    v2_ready: true
     mood: joyful, celebratory, dark-funny, distinctly Mexican, community
     references:
       - José Guadalupe Posada
@@ -3279,7 +3407,7 @@ styles:
       Think heraldry or playing card suits, not illustration.
     visual_traits:
       - all animals and figures in strict flat profile or frontal view — no three-quarter angles, no depth
-      - distelfink bird as a flat silhouette: round body, fan tail, profile head with dot eye
+      - distelfink bird as a flat silhouette — round body, fan tail, profile head with dot eye
       - horses as flat profile silhouettes with stylised mane and decorative internal pattern fill
       - bilateral symmetry — paired motifs either side of a central axis
       - internal pattern fills within flat shapes — small dots, chevrons, cross-hatching — not solid colour
@@ -3289,6 +3417,8 @@ styles:
       - text integrated within the symmetrical composition in cartouche or arch
     palette: barn red, cobalt blue, ochre yellow, forest green on cream — flat, no shading
     layout: strict bilateral symmetry; central motif flanked by paired birds or tulips; text in arch above or band below
+    subject_source: style
+    v2_ready: true
     mood: heraldic, devotional, folk craft, symmetrical, domestic celebration
     references:
       - Pennsylvania German Fraktur tradition
@@ -3331,6 +3461,8 @@ styles:
       - text treated as a decorative element within the filled field
     palette: ochre, terracotta, turmeric yellow, indigo, forest green, black on cream or natural paper
     layout: central figure or scene surrounded by dense decorative border; every area filled
+    subject_source: style
+    v2_ready: true
     mood: devotional, communal, mythic, richly patterned, folk celebration
     references:
       - Madhubani painting tradition
@@ -3369,6 +3501,8 @@ styles:
       - text flows within the decorative composition
     palette: earth tones — ochre, sienna, burnt umber; cobalt blue, forest green, rose pink on warm white or cream
     layout: scrollwork fills the field; text woven into the botanical composition
+    subject_source: style
+    v2_ready: true
     mood: warm, domestic, crafted with pride, Nordic folk
     references:
       - Norwegian Rosemaling tradition
@@ -3410,6 +3544,8 @@ styles:
       - hand-lettered title integrated into a decorative border
     palette: jewel tones — deep red, emerald, cobalt, gold, ivory; no pastels
     layout: full-bleed figurative scene; text in border or caption band below
+    subject_source: style
+    v2_ready: true
     mood: romantic, medieval, languid intensity, beauty-as-devotion
     references:
       - Dante Gabriel Rossetti
@@ -3450,6 +3586,8 @@ styles:
       - bold and stark — matches the visual severity
     palette: black, white, and cold grey; occasional deep red as blood accent
     layout: architectural scene dominating; figure(s) subordinate to environment; title at top
+    subject_source: style
+    v2_ready: true
     mood: threatening, psychological, dark, nightmare geometry
     references:
       - The Cabinet of Dr. Caligari (1920)
@@ -3490,6 +3628,8 @@ styles:
       - title treated as a visual object, painted to match the energy of the image
     palette: vivid warm tones — scarlet, gold, deep orange, cream, sky blue for contrast
     layout: full-bleed action scene; title across upper portion; multiple figures at different scales
+    subject_source: style
+    v2_ready: true
     mood: kinetic, spectacular, physically confident, commercial cinema
     references:
       - Hong Kong martial arts cinema poster tradition
@@ -3528,6 +3668,8 @@ styles:
       - Latin text adapted to sit within the visual logic of the print
     palette: indigo, vermillion, black, cream, muted green; woodblock colour range
     layout: asymmetric; large sky or water area; cropped elements at edges
+    subject_source: event
+    v2_ready: true
     mood: serene, composed, atmospheric, technically precise
     references:
       - Katsushika Hokusai
@@ -3569,6 +3711,8 @@ styles:
       - text partially obscured or glitched
     palette: pastel neon — cyan, lavender, hot pink, peach on deep purple or dark blue
     layout: central classical object in glowing synthetic environment; text fragmented across field
+    subject_source: style
+    v2_ready: true
     mood: nostalgic, melancholy, synthetic, dreaming of a future that didn't happen
     references:
       - Vaporwave aesthetic
@@ -3607,6 +3751,8 @@ styles:
       - mixed serif/sans with retrofuturist personality
     palette: deep purple-black background; hot pink, electric blue, cyan, and gold neon
     layout: landscape orientation preferred; grid in lower half; gradient sky in upper half; text centred
+    subject_source: style
+    v2_ready: true
     mood: nostalgic, retrofuturist, cinematic, coolly synthetic
     references:
       - Synthwave music aesthetic
@@ -3646,6 +3792,8 @@ styles:
       - clean digital sans where legibility is needed
     palette: base image palette fragmented; RGB shift adds cyan, magenta, yellow fringing
     layout: full-bleed image field with text surviving in a less-corrupted zone
+    subject_source: event
+    v2_ready: true
     mood: uncanny, post-digital, controlled failure, eerie precision
     references:
       - Glitch art tradition
@@ -3689,6 +3837,8 @@ styles:
       - text in solid colour blocks on contrasting ground
     palette: hardware-specific — CGA (cyan/magenta/white/black), Spectrum (pure primaries + black/white), NES, or Game Boy (four greens)
     layout: foreground sprite(s) against tiled background; health bar or score panel optional; HUD-style information bands
+    subject_source: event
+    v2_ready: true
     mood: nostalgic, playful, technically constrained, earnestly retro
     references:
       - Arcade game aesthetics — Pac-Man, Space Invaders, Donkey Kong
@@ -3734,6 +3884,8 @@ styles:
       - bold, simple, high contrast against dark backgrounds
     palette: flat, unshaded polygon colours — vivid but matte; no metallic or iridescent tones
     layout: 3D scene with foreground polygon figures; abrupt fog plane cutting off mid-ground; void or flat-colour sky
+    subject_source: event
+    v2_ready: true
     mood: uncanny, naive, lo-fi, earnestly primitive
     references:
       - PlayStation 1 and Nintendo 64 game aesthetics
@@ -3778,6 +3930,8 @@ styles:
       - text never competes with the eyes; placed quietly at bottom
     palette: muted warm tones — ochre, sienna, raw umber, soft grey; eyes themselves vivid and glistening
     layout: close-cropped figure against plain background; eyes in the upper half of the composition
+    subject_source: style
+    v2_ready: true
     mood: sentimental, melancholy, vulnerable, kitsch sincerity, 1960s American
     references:
       - Margaret Keane

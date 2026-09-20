@@ -129,6 +129,35 @@
   margin-top: 0.8rem;
 }
 
+// An author `display` beats the UA stylesheet's [hidden], so the inactive
+// prompt version needs this to stay hidden.
+.poster-example-row[hidden] {
+  display: none;
+}
+
+.prompt-version-tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.version-tab {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background: white;
+  color: #021a40;
+  border: 1px solid #021a40;
+  border-radius: 3px;
+
+  &:hover { background: #f0f4f8; }
+
+  &.is-active {
+    background: #021a40;
+    color: white;
+  }
+}
+
 .prompt-col {
   display: flex;
   flex-direction: column;
@@ -237,6 +266,8 @@
 .thumb-toggle {
   display: flex;
   margin: 1rem 0;
+
+  &[hidden] { display: none; }
 
   button {
     padding: 0.4rem 1.2rem;

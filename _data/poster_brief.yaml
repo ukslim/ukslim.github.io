@@ -1,0 +1,103 @@
+# V2 poster design brief.
+#
+# Appended verbatim to the end of every V2 prompt, after `Avoid:`, as the final
+# section. Last position is deliberate: it must sit downstream of `Layout:` so
+# it refines the style's arrangement rather than being overridden by it.
+#
+# Each clause exists to kill a specific observed V1 failure, so treat it as a
+# system rather than a list of suggestions: clause 2 supplies the hierarchy,
+# clause 3 the single subject, clause 4 the rules for playing on a name.
+# V1 prompts must not be changed.
+
+brief: |
+  Before drawing, read the event copy above and decide the following.
+  State your decisions in one short paragraph, then generate the poster.
+
+  1. The hook.
+  Find the single line a passer-by needs in order to know whether this is for
+  them. It is usually what the event would be called in conversation — "the
+  village fête", "the plant sale" — not who is organising it, not who it is in
+  aid of, not the ticket price, not the promoter. If two lines compete, choose
+  the one the reader would most miss if it were removed. That line is the
+  poster.
+
+  2. The tiers.
+  Sort the remaining copy into two further groups: what someone needs in order
+  to turn up (day, date, time, place), and everything else (prices, credits,
+  beneficiaries, lists of what's on, small print). Every line of copy appears on
+  the finished poster — the hierarchy governs size and position, never
+  inclusion. Make the steps between the three tiers unmistakable: the hook
+  should be several times the size of the small print, not one notch larger. If
+  a fact the second tier needs is missing from the copy, leave it out and say
+  so — do not invent it.
+
+  3. The subject.
+  Whatever the Subject line in the style block calls for, there is only ONE of
+  it: one thing the eye lands on, in front, sharp, unambiguous.
+
+  A setting is allowed beneath it. A single coherent place — one continuous
+  scene, held back in contrast and detail — earns its keep, because it
+  establishes where and when in a single move. The test is continuity: a street
+  of shopfronts behind the subject is one place. A bicycle, a coffee cup, a dog
+  and a shop sign arranged around it are an assortment, and an assortment is the
+  failure this brief exists to prevent. If the secondary imagery cannot be
+  described as one place, cut it.
+
+  Everything else is type. Names, dates, times, addresses, prices and web
+  addresses are read, not depicted — never illustrate them. A list of what's on
+  exists to answer questions once someone is already reading; it is not a
+  specification for one small vignette, badge or icon each.
+
+  Small marks tied to individual lines of small print — a device beside the
+  address, a mark beside the beneficiary — are typographic furniture, and are
+  fine. A grid of icons standing in for the list of what's on is not.
+
+  Do not invent logos, crests, badges or sponsor marks for the organisations
+  named in the copy. A real committee will otherwise be handing out a poster
+  carrying a coat of arms their club does not have.
+
+  The image should not merely restate the hook. A poster headed "Spring Plant
+  Sale" showing a spring plant sale has said one thing twice.
+
+  One piece of wit is permitted, and only one. It belongs inside the single
+  subject or at its edge, never as a second element competing beside it. If it
+  cannot be placed within the composition, leave it out.
+
+  Draw only what you can be sure the event has.
+
+  4. Names.
+  A name may be played on, but only when all four of these hold:
+
+  - It is part of the hook — the act, the show, the occasion. Never the venue,
+    the promoter, the charity, the sponsor or the town. Those live in the small
+    print, and a poster that illustrates its small print is advertising the
+    wrong thing. The exception proves it: if the occasion genuinely is the venue
+    — a first night at a famous hall — then the venue has risen into the hook,
+    and it qualifies.
+
+  - It is not a personal name. Surnames and forenames label people; they do not
+    describe them. A band called Carver is not about carving, and illustrating
+    it makes the poster about a butcher. Evocative common nouns and phrases are
+    fair game.
+
+  - You take the register of the word, not the object it denotes. A band called
+    The Undertow is not asking for a picture of an undertow. It is offering
+    scale, pull, the sublime, being out of your depth — find a real image inside
+    that, rather than the first noun.
+
+  - It becomes, or inflects, the single subject, fully committed. A visual pun
+    is a whole picture or it is nothing: never a token in the corner, never a
+    garnish beside the type. Where the style dictates its own subject, the name
+    may colour that subject but never replace it, and where the style calls for
+    no subject at all, the name introduces none.
+
+  The test: the image must work for someone who never makes the connection. If
+  it is only good once explained, it is not good.
+
+  5. Space and ornament.
+  Empty space is a design element, not a gap to fill. Leave areas genuinely bare
+  wherever the style allows, and resist decorating the margins. Ornament may be
+  dense; information may not. If the style is an ornamental tradition, let the
+  ornament be as rich as the tradition demands — but keep one subject, one
+  dominant line of type, and everything else subordinate. Patterns may repeat.
+  Subjects may not.

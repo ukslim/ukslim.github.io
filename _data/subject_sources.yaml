@@ -1,0 +1,37 @@
+# Where a style's single subject comes from. One of these four fragments is
+# rendered as the `Subject:` line immediately after `Layout:` in every V2
+# style block, chosen by the style's `subject_source` field in
+# _data/poster_styles.yaml.
+#
+# This is the one axis that genuinely varies per style; every other clause of
+# the V2 brief (_data/poster_brief.yaml) is universal.
+
+style: >-
+  Subject: this tradition has its own canonical subject — the one named in the
+  visual traits above. Use it; it is what the poster is for. The event supplies
+  the words and the occasion, not the imagery. Render it as well as the
+  tradition demands, and do not substitute something cleverer.
+
+event: >-
+  Subject: this style is a container and takes whatever subject you bring, and
+  the copy almost always offers several. Before choosing, name three or four
+  things in it that could each carry a picture — the obvious one, but also the
+  quieter ones — and say what they are. An observatory open night might offer
+  the meteorite visitors are allowed to hold, the queue winding up the stairs,
+  or the dome standing open to the night. Then pick one of them and commit to
+  it completely. Do not simply take the boldest or most unusual item every
+  time: it is the right answer often enough to be boring, and a poster that
+  always makes the same choice makes the same poster for everyone. Any
+  candidate on your shortlist is a legitimate poster, so choose freely among
+  them rather than ranking them. The subject need not be the most important
+  item on the bill, and the hook above it tells the reader what the poster is
+  for. If the copy offers nothing specific enough to draw, let the typography
+  carry the poster rather than inventing something.
+
+abstract: >-
+  Subject: none. The poster is built from form, colour and geometry. Do not
+  introduce a representational image to illustrate the event.
+
+type: >-
+  Subject: the typography is the image. Any pictorial element is incidental at
+  most. Set the words superbly and let them carry the poster.
