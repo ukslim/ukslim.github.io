@@ -54,11 +54,16 @@
         margin-right: auto;
 }
 
-.post figcaption {
+.post figcaption,
+.image-caption {
   text-align: center;
   font-size: .8rem;
   font-style: italic;
-  color: lightgrey;
+  // Was `lightgrey`, about 1.6:1 against the page — effectively unreadable.
+  // This measures 7.1:1 on the #fdfdfd background, clearing WCAG AAA at this
+  // small italic size, while staying ~2.9:1 apart from the body text so it
+  // still reads as a caption rather than prose.
+  color: #575757;
 }
 
 .language-python { border-left: 1px solid lightcoral; }
@@ -101,6 +106,24 @@
 }
 
 .codecell table { width: auto; }
+
+// Two example posters side by side in a post; stacks on narrow screens.
+.image-pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+
+  figure {
+    flex: 1 1 260px;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 // --- Poster Prompts subsite ---
 

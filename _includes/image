@@ -1,5 +1,5 @@
 <figure>
-  <img class="image" width="{{ include.w }}" src="/images/{{ include.url }}"
+  <img class="image" width="{{ include.w }}" src="{% if include.path %}{{ include.path }}{% else %}/images/{{ include.url }}{% endif %}"
     {% if include.caption %}
     alt="{{ include.caption }}"
     {% endif %}

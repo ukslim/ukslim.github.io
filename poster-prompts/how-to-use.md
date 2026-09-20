@@ -5,6 +5,8 @@ permalink: /poster-prompts/how-to-use/
 description: "Tips for using the poster prompt catalogue — editing prompts, avoiding AI image-generation quirks, and managing image generation quotas."
 ---
 
+[&larr; Back to all poster prompts](/poster-prompts/)
+
 Each style page has a ready-made prompt for two example events — a village fête and a music gig. They are starting points, not finished recipes. The general process:
 
 1. Open [ChatGPT](https://chatgpt.com) and start a **new conversation** (so previous instructions don't bleed in)
@@ -170,5 +172,9 @@ You might want to look at version 1 prompts for historical interest, or just to 
 ## Did this help?
 
 If these prompts were useful for a real event, I'd love to hear about it — and see the poster you made. Find me on [Bluesky](https://bsky.app/profile/ere-i-am-jh.bsky.social).
+
+---
+
+[&larr; Back to all poster prompts](/poster-prompts/)
 
 {% include jsonld-how-to.html %}
