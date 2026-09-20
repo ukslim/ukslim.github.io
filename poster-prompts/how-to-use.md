@@ -5,26 +5,54 @@ permalink: /poster-prompts/how-to-use/
 description: "Tips for using the poster prompt catalogue — editing prompts, avoiding AI image-generation quirks, and managing image generation quotas."
 ---
 
-Each style page has two ready-made prompts — one for a village fête, one for a music gig. They are starting points, not finished recipes. The general process:
+Each style page has a ready-made prompt for two example events — a village fête and a music gig. They are starting points, not finished recipes. The general process:
 
 1. Open [ChatGPT](https://chatgpt.com) and start a **new conversation** (so previous instructions don't bleed in)
 2. Copy a prompt and paste it into the chat
-3. Edit the event details — name, date, venue, attractions — to match your actual event
+3. Replace the event details at the top — name, date, venue, what's on — with your own
 4. Generate, review, and iterate
 
-Sometimes ChatGPT will respond with text describing what it _would_ do rather than actually generating an image. Before you tell it to get on with it, read what it says — this is a free look at its interpretation of your prompt before any quota is spent. If the description mentions something you don't want (a colour scheme that sounds wrong, a compositional choice that won't work, a subject it has misunderstood), now is the best time to correct it:
+Each prompt has two parts, separated by a line of three dashes. **Above the dashes is the event copy: change all of it.** Below the dashes is the style description and a design brief telling the AI how to build a poster — which line to make biggest, how many things to draw, what not to invent. That part is doing a lot of work, so leave it alone unless you have a reason not to.
 
-> Actually, make the background dark rather than light. And no figures — just typography and geometric shapes.
+## Read what it says before it draws
 
-Once you're happy with the direction, follow up with: **Do it** — or edit and resubmit your original message if you'd rather start fresh.
+The prompt asks the AI to state its decisions in a short paragraph before generating. Read that paragraph. It is the cheapest moment in the whole process to change your mind.
 
-You don't need to use the full prompt verbatim. Cut anything that doesn't fit, or add details that do.
+It will tell you which line it picked as the headline, and — where the style lets the event choose the picture — which things it considered drawing and which one it went with:
+
+> Possible picture-carriers are the ferret race, homemade preserves, the bouncy castle and the quieter plant-and-produce stall; I'll commit to one monumental cabbage whose leaves subtly become a fête rosette.
+
+You do not need any design vocabulary to have an opinion about that. If the ferrets are the whole reason anyone turns up, say so:
+
+> Do the ferret instead.
+
+That shortlist is worth more than it looks. It means you get offered the alternatives every time, rather than hoping a different one turns up on the next attempt.
+
+It will also tell you if something is missing. The prompt forbids inventing a date, a time or a fact that isn't in your copy, so if you have left the year off it will say so rather than guessing — which is a good reason to read the paragraph even when you are happy with the picture.
 
 **Check your event description before generating.** The example events — a village fête and a music gig — are deliberately written with everything a poster reader needs: what, where, when (including the day of the week), and any other key information. Before you generate, ask the AI to review your own event details:
 
 > Does this event description include all the information someone would need? Is anything missing or ambiguous?
 
 It's good at catching omissions: a missing day of the week, a vague venue name, a time that's implied but not stated.
+
+## Asking for something specific
+
+If you already know what you want the picture to be — a heroic knight, your church, a particular animal — there are two places to say so, and only one of them is obvious.
+
+**The one that doesn't work** is adding it to your event description at the top. The AI reads everything above the dashes as facts about your event, not as instructions to the artist. Asked for a knight that way, it will often politely decline and draw what the style called for instead.
+
+**Either edit the `Subject:` line**, a few lines below the dashes, and replace it with what you want:
+
+> Subject: a heroic knight in armour, rendered in the style's own manner.
+
+**Or just ask afterwards**, once it has told you what it plans to draw:
+
+> Make the central figure a heroic knight in armour instead.
+
+Both work reliably. Editing up front costs you nothing; asking afterwards may cost you a generation if it has already drawn the first one. Either way the style survives — ask Art Nouveau for a knight and you get a knight in flowing whiplash linework with a floral border, not a knight from somewhere else.
+
+Adding a detail is easier than replacing the subject. Colour, mood, and what to leave out can go in a follow-up message at any point.
 
 ---
 
@@ -53,6 +81,8 @@ A few ways to deal with this:
 
 > No photographs of people. No realistic crowd scenes. Abstract graphic representation only.
 
+Be careful with this one. Some styles exist because of the figure at the centre of them — Art Nouveau, Pre-Raphaelite, the Shanghai calendar posters. Banning figures there removes the reason you picked the style. It is good advice for a container style like Risograph or Swiss, and bad advice for a tradition with a subject of its own.
+
 **Make the prompt more specific.** The AI invents things to fill a vacuum — give it specific instructions and it will do those things instead. Describe the colour scheme, the imagery, the mood, even specific graphic elements you want included.
 
 > Deep red and black only. A silhouette of a single guitar. No text other than the event name and date.
@@ -65,7 +95,7 @@ A few ways to deal with this:
 
 ## These prompts work in other AI image tools too
 
-The examples on this site were generated in June 2026 using ChatGPT (GPT-4o image generation). The prompts should work — with varying results and possibly minor tweaks — in any AI image generation service, including:
+The examples on this site were generated in September 2026 through the OpenAI API, one attempt per style with no cherry-picking. The prompts should work — with varying results and possibly minor tweaks — in any AI image generation service, including:
 
 - **Google Gemini** — usage is more or less identical to ChatGPT; paste the prompt and ask it to generate an image
 - **Midjourney** — generally strong on aesthetic styles; add `--ar 2:3` for portrait format
@@ -73,13 +103,17 @@ The examples on this site were generated in June 2026 using ChatGPT (GPT-4o imag
 - **DALL-E 3** (via API or Bing Image Creator) — the predecessor to GPT-4o image generation; still capable
 - **Stable Diffusion / ComfyUI** — more control, more setup; these prompts work but may need shorter, more direct wording
 
-Some tools follow detailed prose instructions well; others respond better to comma-separated keywords. If a long prompt isn't working, try stripping it down to the most important style descriptors and building back up.
+These prompts are long — around a thousand words — and most of that length is instructions rather than description: what to make biggest, how many things to draw, what not to invent. Tools that follow written instructions closely, like ChatGPT and Gemini, use all of it. Tools that expect a list of keywords will ignore most of it and give you something closer to a plain style pastiche.
+
+So if you are using Midjourney or Stable Diffusion, don't strip the prompt down and expect the same poster — you will be dropping the part that does the composition. Better to keep the style description and accept you are getting a different, looser thing.
 
 ---
 
 ## Try again — and plan for quotas
 
 No two generations are identical. If your first result is disappointing, try again with the same prompt before changing anything. The variation between attempts is often large enough that a second try produces something much better.
+
+How much it varies depends on the style. Where the style has a subject of its own — Art Nouveau's woman among flowers, a Madhubani peacock, a heavy metal skull — you will get that same subject every time, drawn differently. That is the style working as intended, not a fault. Where the style is a container and the picture comes from your event, repeat attempts genuinely do reach for different things. Either way, telling it what you want is quicker than rolling again.
 
 If you're refining a result, keep your changes small — one adjustment at a time — so you know what's working.
 
@@ -92,6 +126,8 @@ Harry Potter oak-panelled library. If your event takes place near a church with 
 your event does feature a big wheel, don't depict a forty metre wheel if the real thing will be small.
 
 AI will invent these falsehoods for you if you don't rein it in.
+
+There is a subtler version. These prompts deliberately pick one thing and make it enormous, because that is what makes a poster work from across a car park. But a poster that is four-fifths ferret does rather suggest the ferrets are the main event. If that isn't true, and the headline above it isn't loud enough to say otherwise, pick something else from the shortlist. That is your call, not the machine's.
 
 **Ask the AI to review the result too.** Before you declare it done, ask:
 
@@ -120,6 +156,14 @@ A human-made poster, even a modest one, is almost always more distinctive than a
 If you have any interest in design tools — Canva, Affinity, even PowerPoint — it is worth spending an afternoon on something handmade. You will be able to use your actual photographs, your actual fonts, your actual colours. You will be able to move things around until they look right rather than hoping the next generation is the one. And the result will be unambiguously, unmistakably yours.
 
 This site exists because AI posters are often ugly and repetitive, and they don't have to be. But the best reason they don't have to be is that you could just make one.
+
+---
+
+## A note on "Version 1"
+
+Each example has a **Version 1** toggle next to it. That is the original prompt this site launched with: a style description and nothing else. It is kept because the comparison is interesting, not because it is an alternative worth using.
+
+Version 1 asks for a style and leaves the composition to chance, which usually means one small picture for every line of your event copy, all the same size, with nothing for the eye to land on. Version 2 adds the part that decides what should be loud. Use Version 2. Look at Version 1 if you want to see why the rest of this page exists.
 
 ---
 
