@@ -161,9 +161,9 @@ This site exists because AI posters are often ugly and repetitive, and they don'
 
 ## A note on "Version 1"
 
-Each example has a **Version 1** toggle next to it. That is the original prompt this site launched with: a style description and nothing else. It is kept because the comparison is interesting, not because it is an alternative worth using.
+Each example has a **Version 1** toggle next to it. That is the original prompt this site launched with: a style description and nothing else. Version one yields pretty good results, and you might want to experiment with it. Version 2 has a number of improvements: it takes more care over which text gets prioritised, it's less liable to clutter the page with unwanted detail, it avoids treating every word of the event detail as a reason for an image (Carver and the Flood at the Anchor, getting an anchor, a woodworking tool and a lot of water...)
 
-Version 1 asks for a style and leaves the composition to chance, which usually means one small picture for every line of your event copy, all the same size, with nothing for the eye to land on. Version 2 adds the part that decides what should be loud. Use Version 2. Look at Version 1 if you want to see why the rest of this page exists.
+You might want to look at version 1 prompts for historical interest, or just to experiment.
 
 ---
 
