@@ -1,11 +1,16 @@
+{%- comment -%}
+Params: url (file in /images/) or path (full URL); w; caption; link (wraps the
+image in an anchor).
+{%- endcomment -%}
 <figure>
+  {%- if include.link %}<a href="{{ include.link }}">{% endif -%}
   <img class="image" width="{{ include.w }}" src="{% if include.path %}{{ include.path }}{% else %}/images/{{ include.url }}{% endif %}"
     {% if include.caption %}
     alt="{{ include.caption }}"
     {% endif %}
   >
+  {%- if include.link %}</a>{% endif -%}
   {% if include.caption %}
   <figcaption class="image-caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
-

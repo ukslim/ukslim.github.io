@@ -4,7 +4,7 @@ I've made a version 2 of my [hundred poster prompts](/poster-prompts/).
 
 | before                                                                                                                                       | after                                                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="/images/poster-v1-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 1 prompt"> | <img src="/images/poster-v2-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 2 prompt"> |
+| <a href="/poster-prompts/expressionist-woodcut/"><img src="/images/poster-v1-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 1 prompt"></a> | <a href="/poster-prompts/expressionist-woodcut/"><img src="/images/poster-v2-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 2 prompt"></a> |
 
 _Expressionist Woodcut, the same fête, version 1 and version 2._
 
@@ -87,8 +87,8 @@ decide what to draw, plus a deliberately awkward one:
 Then we realised we were testing with gpt-5.4-mini - very cheap, but not very clever. Switching up to gpt-5.6-sol -- what ChatGPT would use on Medium -- started behaving much better, and we could remove many of the adjustments we'd made trying to make the mini model work.
 
 <div class="image-pair">
-{% include image path="/assets/poster-examples/japonisme-gig-v2.webp" w="400" caption="Japonisme — the gig, with no anchor, no flood and no chisel in sight" %}
-{% include image path="/assets/poster-examples/cut_paper_matisse-gig-v2.webp" w="400" caption="Cut Paper / Matisse — the same gig: a sweeping cut-paper current, not a literal flood" %}
+{% include image path="/assets/poster-examples/japonisme-gig-v2.webp" w="400" link="/poster-prompts/japonisme/" caption="Japonisme — the gig, with no anchor, no flood and no chisel in sight" %}
+{% include image path="/assets/poster-examples/cut_paper_matisse-gig-v2.webp" w="400" link="/poster-prompts/cut-paper-matisse/" caption="Cut Paper / Matisse — the same gig: a sweeping cut-paper current, not a literal flood" %}
 </div>
 
 All this meant that with about $10 worth of tokens, we'd evaluated and improved our prompts until they met the goals.
@@ -109,8 +109,8 @@ override that by asking.
 Other styles are explicitly abstract.
 
 <div class="image-pair">
-{% include image path="/assets/poster-examples/wayfinding_signage-fete-v2.webp" w="400" caption="Wayfinding / Signage — the event chose the subject. It shortlisted a ferret, a cake and a potted plant, and took the quiet one" %}
-{% include image path="/assets/poster-examples/mexican_calavera-fete-v2.webp" w="400" caption="Mexican Calavera — the style chose the subject; the event supplied the words and the cricket ground" %}
+{% include image path="/assets/poster-examples/wayfinding_signage-fete-v2.webp" w="400" link="/poster-prompts/wayfinding-signage/" caption="Wayfinding / Signage — the event chose the subject. It shortlisted a ferret, a cake and a potted plant, and took the quiet one" %}
+{% include image path="/assets/poster-examples/mexican_calavera-fete-v2.webp" w="400" link="/poster-prompts/mexican-calavera/" caption="Mexican Calavera — the style chose the subject; the event supplied the words and the cricket ground" %}
 </div>
 
 # Cost
@@ -124,8 +124,8 @@ Oh well.
 I think in general the posters are better. They're more striking. The hierarchy of text is clearer. The subject matter is wrong less often.
 
 <div class="image-pair">
-{% include image path="/assets/poster-examples/cobra-gig-v2.webp" w="400" caption="CoBrA — a mythic animal-mask figure, which is the tradition's own subject, not the event's" %}
-{% include image path="/assets/poster-examples/mid_century_modern_graphic-gig-v2.webp" w="400" caption="Mid-century Modern Graphic — echoing “The Flood” without drawing one" %}
+{% include image path="/assets/poster-examples/cobra-gig-v2.webp" w="400" link="/poster-prompts/cobra/" caption="CoBrA — a mythic animal-mask figure, which is the tradition's own subject, not the event's" %}
+{% include image path="/assets/poster-examples/mid_century_modern_graphic-gig-v2.webp" w="400" link="/poster-prompts/mid-century-modern-graphic/" caption="Mid-century Modern Graphic — echoing “The Flood” without drawing one" %}
 </div>
 
 You still need to tweak the prompt, or just roll the dice a few times. The website shows the first shot for each prompt, warts and all. A second try might have been better, or might have been worse.
