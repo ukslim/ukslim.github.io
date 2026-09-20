@@ -184,6 +184,11 @@ document.querySelectorAll('.copy-btn').forEach(function(btn) {
   });
 });
 
+// The prompt-version choice is one switch shown in several places — both
+// sections here, and the grid on the index. It lives in localStorage so it
+// follows the reader around the catalogue.
+var VERSION_KEY = 'posterVersion';
+
 function showVersion(section, wanted) {
   section.querySelectorAll('.version-tab').forEach(function(t) {
     var on = t.dataset.version === wanted;
@@ -195,13 +200,31 @@ function showVersion(section, wanted) {
   });
 }
 
+function applyVersion(wanted, persist) {
+  document.querySelectorAll('.poster-example').forEach(function(section) {
+    showVersion(section, wanted);
+  });
+  if (persist) {
+    try { localStorage.setItem(VERSION_KEY, wanted); } catch (e) {}
+  }
+}
+
 document.querySelectorAll('.prompt-version-tabs').forEach(function(tabs) {
-  var section = tabs.closest('.poster-example');
   tabs.addEventListener('click', function(e) {
     var btn = e.target.closest('.version-tab');
     if (!btn) return;
-    showVersion(section, btn.dataset.version);
+    applyVersion(btn.dataset.version, true);
   });
+});
+
+var savedVersion;
+try { savedVersion = localStorage.getItem(VERSION_KEY); } catch (e) {}
+applyVersion(savedVersion === 'v1' ? 'v1' : 'v2', false);
+
+// Keep other open tabs in step.
+window.addEventListener('storage', function(e) {
+  if (e.key !== VERSION_KEY) return;
+  applyVersion(e.newValue === 'v1' ? 'v1' : 'v2', false);
 });
 
 document.querySelectorAll('.prompt-toggle-btn').forEach(function(btn) {

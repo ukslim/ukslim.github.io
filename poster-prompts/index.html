@@ -81,7 +81,8 @@ site.data.poster_styles.categories[cat] %}
     var EXAMPLE_BASE = "/assets/poster-examples/";
     var PLACEHOLDER = THUMB_BASE + "placeholder.jpg";
     var STORAGE_KEY = "posterThumbVariant";
-    var VERSION_KEY = "posterThumbVersion";
+    // Shared with the style pages: one switch, several faces.
+    var VERSION_KEY = "posterVersion";
 
     var variant = "gig";
     var version = "v2";
@@ -166,5 +167,12 @@ site.data.poster_styles.categories[cat] %}
     version = savedVersion === "v1" ? "v1" : "v2";
 
     render();
+
+    // Keep other open tabs in step.
+    window.addEventListener("storage", function (e) {
+      if (e.key !== VERSION_KEY) return;
+      version = e.newValue === "v1" ? "v1" : "v2";
+      render();
+    });
   })();
 </script>
