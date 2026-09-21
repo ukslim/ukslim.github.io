@@ -1,0 +1,18 @@
+<!-- Source for assets/og-default.png (the sitewide social-preview card).
+     Regenerate with: rsvg-convert -w 1200 -h 630 assets/og-default.svg -o assets/og-default.png
+     Colours: favicon orange #FF6600, site navy #021a40. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="'ERE I AM - JH!">
+  <rect width="1200" height="630" fill="#021a40"/>
+  <rect x="0" y="606" width="1200" height="24" fill="#FF6600"/>
+
+  <g transform="translate(235,300)">
+    <circle cx="0" cy="0" r="150" fill="#FF6600"/>
+    <text x="-40" y="0" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF"
+          font-family="Helvetica" font-weight="bold" font-size="162">J</text>
+    <text x="41" y="0" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF"
+          font-family="Helvetica" font-weight="bold" font-size="162">H</text>
+  </g>
+
+  <text x="450" y="290" fill="#FFFFFF" font-family="Helvetica" font-weight="bold" font-size="82">&#8216;ERE I AM - JH!</text>
+  <text x="452" y="356" fill="#9fb5d6" font-family="Helvetica" font-size="38">Somewhere to drop my thoughts.</text>
+</svg>

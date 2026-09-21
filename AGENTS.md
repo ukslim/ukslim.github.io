@@ -4,7 +4,7 @@ Instructions for AI coding agents working on this repository.
 
 ## Project overview
 
-Personal blog published at [https://ukslim.github.io](https://ukslim.github.io) via GitHub Pages.
+Personal blog published at [https://john.hartnup.uk](https://john.hartnup.uk) via GitHub Pages.
 
 - **Stack:** Jekyll (via `github-pages` gem), Minima theme, Kramdown (GFM), Rouge syntax highlighting
 - **Author:** ukslim (`github_username` in `_config.yml`)
@@ -45,6 +45,8 @@ Push to the default branch; GitHub Pages builds and publishes automatically. No 
 | `_data/events.yaml` | Reference event descriptions (fête + gig) used in prompts |
 | `assets/poster-examples/` | Poster example images (`{style_id}-fete.webp`, `{style_id}-gig.webp`) |
 | `assets/poster-thumbnails/` | Fête thumbnail images (`{style_id}-fete.jpg`) used on the poster-prompts index grid |
+| `assets/og-default.png` | Sitewide social-preview card (source: `assets/og-default.svg`) |
+| `assets/og-poster-prompts.jpg` | Social-preview card for the poster-prompts index |
 
 The Minima theme lives in the Ruby gem — do not vendor or copy theme files into the repo unless explicitly asked.
 
@@ -111,3 +113,4 @@ Active plugins: `jekyll-feed`, `jekyll-gist`, `jekyll-octicons`, `jekyll-github-
 - **Commits:** Only create git commits when the user explicitly asks.
 - **Dependencies:** Pin to the `github-pages` gem versions in `Gemfile` — avoid upgrading Jekyll or plugins unless requested, to stay compatible with GitHub Pages.
 - **Images:** Add image files to `images/` and reference them with root-relative paths (`/images/...`).
+- **Social previews:** `_config.yml` `defaults` gives every page `assets/og-default.png` as its `image:`; set `image:` in a page's front matter to override. Regenerate the default card with `rsvg-convert -w 1200 -h 630 assets/og-default.svg -o assets/og-default.png`. The poster-prompts card is three poster examples resized to 360x540 and composited onto a navy 1200x630 background with ImageMagick.

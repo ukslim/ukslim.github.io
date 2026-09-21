@@ -1,3 +1,7 @@
+---
+description: "When AI writes code faster than you can review it, the queue is the problem. An essay on backpressure in AI-assisted software development."
+---
+
 # AI software development and backpressure
 
 I've been a professional software engineer for 30 years, and AI has changed

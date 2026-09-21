@@ -1,3 +1,10 @@
+---
+description: "Why AI-generated event posters all look alike — and how naming a design style and era, from Bauhaus to punk fanzine, gets far better results."
+image:
+  path: /images/poster-bauhaus-attempt.webp
+  alt: "A spring fayre poster in a Bauhaus-influenced geometric style"
+---
+
 # AI-generated posters don't have to be horrible
 
 ## The problem

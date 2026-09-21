@@ -2,6 +2,9 @@
 title: "Calibration"
 date: 2026-09-01
 description: "A magazine-style account of Perceptual Collapse Disorder — the Stare — and the printer calibration page that started it."
+image:
+  path: /images/calibration-sheet.webp
+  alt: "The printer calibration sheet at the centre of the story"
 ---
 
 # Calibration

@@ -8,13 +8,11 @@
 
 title: "'ERE I AM - JH!"
 description: Somewhere to drop my thoughts.
-url: "https://ukslim.github.io"
+url: "https://john.hartnup.uk"
 lang: en-GB
 rss: /feed.xml
 github_username: ukslim
-
-twitter:
-  card: summary
+author: John Hartnup
 
 # Email is optional:
 email:
@@ -30,6 +28,7 @@ google_analytics:
 # Custom exclude replaces Jekyll defaults — include those too (vendor/bundle, etc.).
 exclude:
   - AGENTS.md
+  - memory/
   - README.md
   - todo.md
   - poster-story-sources/
@@ -59,6 +58,13 @@ collections:
 # name="description"> etc., so poster style pages don't fall back to
 # site.description ("Somewhere to drop my thoughts.")
 defaults:
+  # Social-preview card for any page that doesn't set its own `image:`.
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/og-default.png
+        alt: "'ERE I AM - JH! — a personal blog by John Hartnup"
   - scope:
       path: ""
       type: poster_styles

@@ -1,3 +1,7 @@
+---
+description: "The Kladde 26 Manifesto: a proposal that writing made with AI should be published together with its workings, so readers know what they are reading."
+---
+
 # Introducing the Kladde 26 Manifesto
 
 My [fiction section](/fiction/) contains writing I produced with the help of AI. Or perhaps writing AI produced under my supervision.

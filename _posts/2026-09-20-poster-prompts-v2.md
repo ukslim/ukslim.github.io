@@ -1,3 +1,10 @@
+---
+description: "What my hundred poster prompts got wrong first time round, and what changed in version 2 after Hacker News readers spotted the same flaws I had."
+image:
+  path: /images/poster-v2-expressionist-woodcut-fete.webp
+  alt: "Expressionist woodcut fête poster produced by the version 2 prompt"
+---
+
 # Better poster prompts
 
 I've made a version 2 of my [hundred poster prompts](/poster-prompts/).
@@ -113,13 +120,13 @@ Other styles are explicitly abstract.
 {% include image path="/assets/poster-examples/mexican_calavera-fete-v2.webp" w="400" link="/poster-prompts/mexican-calavera/" caption="Mexican Calavera — the style chose the subject; the event supplied the words and the cricket ground" %}
 </div>
 
-# Cost
+## Cost
 
 This cost me $28 in OpenAI tokens. Around $10 in text-only evaluation runs, then another $18 doing multi-run image tests on four styles, followed by generating all 200 images.
 
 Oh well.
 
-# Outcome
+## Outcome
 
 I think in general the posters are better. They're more striking. The hierarchy of text is clearer. The subject matter is wrong less often.
 
@@ -132,7 +139,7 @@ You still need to tweak the prompt, or just roll the dice a few times. The websi
 
 The new prompts are _way_ longer than V1, and perhaps take some control away from the user. Used as intended - copy-pasted into ChatGPT - it can of course be tweaked. But the audience that would tweak it is possibly an audience that doesn't need the hand-holding these prompts do.
 
-# Ferrets?
+## Ferrets?
 
 It still chooses to use ferrets a lot of the time.
 Well, the ferrets _are_ good. But, by design now,
@@ -141,7 +148,7 @@ chosen, before producing the image. It offers a
 shortlist of other subjects, and the user can ask
 for any of the alternatives.
 
-# Other stuff
+## Other stuff
 
 It's been pointed out that you might be able to get better results by letting AI generate a code-based format like Postscript or SVG. Here it could lay out real fonts, give you elements you could adjust yourself. This is all true, and something that's either already available in tools like Photoshop or Canva, or with a skill and a code agent.
 

@@ -2,6 +2,9 @@
 title: "Crab"
 date: 2026-09-15
 description: "A papier-mâché crab becomes something much larger after the internet, and the state, misunderstand it."
+image:
+  path: /images/crab-festival.webp
+  alt: "Malcolm and his papier-mache crab in a festival tent"
 ---
 
 # Crab
