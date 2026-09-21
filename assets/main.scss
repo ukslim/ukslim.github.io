@@ -186,6 +186,16 @@
   flex-direction: column;
 }
 
+.render-note {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: #333;
+  background: #f4f6f9;
+  border-left: 3px solid #021a40;
+  padding: 0.6rem 0.75rem;
+  margin: 0.8rem 0 0.6rem;
+}
+
 .prompt-col label {
   display: block;
   font-size: 0.8rem;
@@ -262,6 +272,11 @@
   background: #f8f8f8;
   resize: vertical;
   box-sizing: border-box;
+}
+
+// Shorter box when a render note shares the left column.
+.prompt-box.prompt-box-short {
+  height: 210px;
 }
 
 .image-col img {

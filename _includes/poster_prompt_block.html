@@ -1,16 +1,20 @@
 {%- comment -%}
 One prompt + example image pair. Params: version (v1|v2), id (textarea id),
-prompt, image, alt, hidden (truthy to start collapsed behind the version tabs).
+prompt, image, alt, hidden (truthy to start collapsed behind the version tabs),
+note (a short remark about how this particular render turned out; V2 only).
 {%- endcomment -%}
 <div class="poster-example-row" data-version="{{ include.version }}"{% if include.hidden %} hidden{% endif %}>
   <div class="prompt-col">
+    {%- if include.note %}
+    <p class="render-note">{{ include.note }}</p>
+    {%- endif %}
     <div class="prompt-mobile-bar">
       <button class="prompt-toggle-btn">Show prompt</button>
       <button class="copy-btn" data-target="{{ include.id }}">Copy to clipboard</button>
     </div>
     <div class="prompt-expandable" hidden>
       <label for="{{ include.id }}">Copy this prompt into ChatGPT:</label>
-      <textarea id="{{ include.id }}" class="prompt-box" readonly>{{ include.prompt }}</textarea>
+      <textarea id="{{ include.id }}" class="prompt-box{% if include.note %} prompt-box-short{% endif %}" readonly>{{ include.prompt }}</textarea>
     </div>
     <button class="copy-btn prompt-desktop-copy" data-target="{{ include.id }}">Copy to clipboard</button>
   </div>

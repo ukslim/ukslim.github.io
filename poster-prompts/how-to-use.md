@@ -167,6 +167,8 @@ Each example has a **Version 1** toggle next to it. That is the original prompt 
 
 You might want to look at version 1 prompts for historical interest, or just to experiment.
 
+In some cases I think that by making V2 more rules-bound, we lose the opportunity for happy accidents. V1's [Skateboard fete poster](/poster-prompts/skateboard-graphics/) breaks the V2 rules, but consequently contains some pleasing chaos and some quite good jokes.
+
 ---
 
 ## Did this help?

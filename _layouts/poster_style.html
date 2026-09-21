@@ -81,7 +81,9 @@ layout: default
       {% capture alt_v1 %}{{ style.name }} — fête poster example, version 1 prompt{% endcapture %}
       {% capture alt_v2 %}{{ style.name }} — fête poster example, version 2 prompt{% endcapture %}
       {% include poster_version_tabs.html event="fete" %}
-      {% include poster_prompt_block.html version="v2" id="prompt-fete-v2" prompt=fete_prompt_v2 image=img_v2 alt=alt_v2 %}
+      {% capture note_key %}{{ style.id }}-fete{% endcapture %}
+      {% assign render_note = site.data.render_notes[note_key] %}
+      {% include poster_prompt_block.html version="v2" id="prompt-fete-v2" prompt=fete_prompt_v2 image=img_v2 alt=alt_v2 note=render_note %}
       {% include poster_prompt_block.html version="v1" id="prompt-fete" hidden=true prompt=fete_prompt image=img_v1 alt=alt_v1 %}
     {% else %}
       {% capture alt_v1 %}{{ style.name }} — fête poster example{% endcapture %}
@@ -97,7 +99,9 @@ layout: default
       {% capture alt_v1 %}{{ style.name }} — gig poster example, version 1 prompt{% endcapture %}
       {% capture alt_v2 %}{{ style.name }} — gig poster example, version 2 prompt{% endcapture %}
       {% include poster_version_tabs.html event="gig" %}
-      {% include poster_prompt_block.html version="v2" id="prompt-gig-v2" prompt=gig_prompt_v2 image=img_v2 alt=alt_v2 %}
+      {% capture note_key %}{{ style.id }}-gig{% endcapture %}
+      {% assign render_note = site.data.render_notes[note_key] %}
+      {% include poster_prompt_block.html version="v2" id="prompt-gig-v2" prompt=gig_prompt_v2 image=img_v2 alt=alt_v2 note=render_note %}
       {% include poster_prompt_block.html version="v1" id="prompt-gig" hidden=true prompt=gig_prompt image=img_v1 alt=alt_v1 %}
     {% else %}
       {% capture alt_v1 %}{{ style.name }} — gig poster example{% endcapture %}
