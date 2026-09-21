@@ -2,8 +2,8 @@
 
 I've made a version 2 of my [hundred poster prompts](/poster-prompts/).
 
-| before                                                                                                                                       | after                                                                                                                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| before                                                                                                                                                                                            | after                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="/poster-prompts/expressionist-woodcut/"><img src="/images/poster-v1-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 1 prompt"></a> | <a href="/poster-prompts/expressionist-woodcut/"><img src="/images/poster-v2-expressionist-woodcut-fete.webp" width="100%" alt="Expressionist Woodcut fête poster from the version 2 prompt"></a> |
 
 _Expressionist Woodcut, the same fête, version 1 and version 2._
@@ -82,7 +82,7 @@ decide what to draw, plus a deliberately awkward one:
 - **Art Nouveau**, where the tradition insists on its own subject — a woman among flowers — whatever the event says
 - **Suprematism**, which is abstract, and should draw no subject at all
 - **Factory Records**, where the typography _is_ the image
-- **Madhubani**, which fills every square inch, and would tell us whether the new rules about restraint had flattened a style that is supposed to be dense
+- **Madhubani**, which fills every square centimetre, and would tell us whether the new rules about restraint had flattened a style that is supposed to be dense
 
 Then we realised we were testing with gpt-5.4-mini - very cheap, but not very clever. Switching up to gpt-5.6-sol -- what ChatGPT would use on Medium -- started behaving much better, and we could remove many of the adjustments we'd made trying to make the mini model work.
 
