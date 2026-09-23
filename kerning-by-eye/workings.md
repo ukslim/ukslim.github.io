@@ -1,5 +1,6 @@
 ---
 title: Kerning by Eye.src
+permalink: /kerning-by-eye/workings/
 description: Edited transcript of the conversation that produced Kerning by Eye — a two-shot research-then-build, followed by my own hand-tuned kerning numbers.
 ---
 
