@@ -19,11 +19,14 @@ a real designer would hand-draw.
 {% include image path="/assets/poster-examples/push_pin_studios-fete-v2.webp" w="400" link="/poster-prompts/push-pin-studios/" caption="Push Pin Studios" %}
 </div>
 
-Other times it appears more likely that a real font would be the correct choice. [Swiss / International Typographic Style](/poster-prompts/swiss-international/) would almost certainly use Helvetica,
+Other times it appears more likely that a real font would be the correct choice. Swiss / International Typographic Style would almost certainly use Helvetica,
 Contemporary Editorial looks like a mainstream serif font like Times Roman. In this case are we only using the model's approximation
 because it doesn't have another way?
 
+<div class="image-pair">
+{% include image path="/assets/poster-examples/swiss_international-gig-v2.webp" w="400" link="/poster-prompts/swiss-international/" caption="Swiss / International Typographic Style" %}
 {% include image path="/assets/poster-examples/contemporary_editorial-fete-v2.webp" w="400" link="/poster-prompts/contemporary-editorial/" caption="Contemporary Editorial" %}
+</div>
 
 A designer friend observes: "I don't recognise any of the fonts, they’re all approximations. One previously unseen font on a poster I could accept,
 but 2-3 when they're all fairly bland in any case still registers as a tell for me."
