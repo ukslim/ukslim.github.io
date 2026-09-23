@@ -26,3 +26,36 @@ layout: page
   {% endif %}
   <a href="{{ '/fiction/' | relative_url }}">fiction index</a>
 </p>
+
+{% unless page.path contains '.src.md' %}
+{%- if jekyll.environment == 'production' -%}
+<script>
+(function () {
+  var thresholds = [20, 40, 60, 80, 100];
+  var fired = {};
+  function checkScroll() {
+    var doc = document.documentElement;
+    var scrollable = doc.scrollHeight - doc.clientHeight;
+    if (scrollable <= 0) return;
+    var pct = ((window.pageYOffset || doc.scrollTop) / scrollable) * 100;
+    thresholds.forEach(function (t) {
+      if (fired[t] || pct < t) return;
+      fired[t] = true;
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({
+          path: location.pathname + 'scroll-' + t,
+          title: document.title + ' — scroll ' + t + '%',
+          event: true
+        });
+      }
+    });
+    if (thresholds.every(function (t) { return fired[t]; })) {
+      window.removeEventListener('scroll', checkScroll);
+    }
+  }
+  window.addEventListener('scroll', checkScroll, { passive: true });
+  checkScroll();
+})();
+</script>
+{%- endif -%}
+{% endunless %}
