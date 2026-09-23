@@ -13,11 +13,71 @@ some are "could not convert" placeholders; both are shown as they are.
 {%- endcomment -%}
 
 <p>
-  Every example poster beside its SVG rebuild: the artwork cut out of the
-  generated bitmap, and the type reset in a real typeface. Rebuilds marked with
-  an alert icon are known to be flawed; some posters could not be converted at
-  all, and say why.
+  This is the outcome of a running a vibe-coded agent skill on every V2 poster.
 </p>
+<p>
+  The motivation is, people would look at the posters and say:
+  <ul>
+    <li>"Wouldn't it be better if it used a real typeface?" - so it benefits from the painstaking desgin that font designers put into typefaces</li>
+    <li>"Wouldn't it be better if it were an editable vector file?" - so a human can change the text, move elements around, etc.</li>
+  </ul>
+</p>
+<p>
+  I casually asked Claude Code to convert a few, just so I could see whether <em>I</em> preferred the real typefaces. The goal here is to cut out the artwork,
+  recreate that type, and assemble it back together. If the nature of the poster makes it impossible (hand-drawn text, detailed background, etc.), we abort early, explaining why.
+  Redrawing artwork as vectors was not a goal, but Claude did it anyway when the images were simple.
+</p>
+  
+<p>Claude achieved this by writing
+  ad-hoc Python code to locate artwork and text, find a best-fit typeface, and replace the text -- when it could. This consumed a lot of tokens, and I
+  ran out that day. When my quota reset, I asked it to write the tools it would need to do this more efficiently. So we end up with deterministic tools
+  that measure, which the LLM uses to rebuild the poster. As we converted more posters, Claude made changes to the tools on the fly. It is fully vibe coded,
+  so I have no idea whether the code is good or bad. As you can see, doesn't always get things right, but I have called this a stopping point.
+</p>
+
+<p>
+  Claude chose a a palette of 300 fonts from Google Fonts, refusing to use license-encumbered fonts. It tries to pick a font close to the one that 
+  the AI image generation model invented for the poster, and does not always succeed. It also apparently doesn't take advantage of the layout engine's
+  ability to centre text on a line.
+</p>
+
+<p>
+  Results fall into these categories:
+  <ul>
+    <li>Skill abandoned early, correctly, with an explanation</li>
+    <li>Skill abandoned early, maybe it should have tried harder</li>
+    <li>Conversion done, look OK</li>
+    <li>Conversion done, obvious flaws, but the skill thinks it succeeded</li>
+    <li>Conversion done, skill has acknowledged flaws, and explained why (alert icon top left corner</li>
+    <li>Conversion done, skill has acknowledged flaws, and explained why (alert icon top left corner), but flaw description is wrong</li>
+  </ul>
+</p>
+
+<p>
+  Well, the failures are failures. I'm sure there are pro tools that would do a better job.
+</p>
+
+<p>
+  The "successes" are more interesting. Some of them have chosen a close-enough typeface, and positioned it well enough, that we can call it a like-for-like conversion.
+  In those cases, the million pound question is: do I prefer the real type to the image-model drawn text?
+</p>
+
+<p>
+  I'm not sure I do. In most cases, I kind of like what the image model has done better - it's moulded to the shape of the poster, and the shape of the words.
+  It could probably do a better job, with training - but I'm not the connoisseur to adjudicate on that.
+</p>
+
+<p>
+  I know real designers who get an uncanny-valley ick from seeing type that's almost, but not quite, a typeface they know. I also wonder whether a broader
+  audience gets an unconscious sense of "you can always tell" AI ick from seeing text in that mode.
+</p>
+
+<p>
+  Anyway, scroll through and judge for yourself.
+</p>
+
+
+
 
 <div class="thumb-toggle" role="group" aria-label="Comparison mode">
   <button type="button" class="active" aria-pressed="true" data-mode="side">
@@ -35,7 +95,8 @@ some are "could not convert" placeholders; both are shown as they are.
 {% assign slug = style.id | replace: '_', '-' %}
 {% for event in events %}
 {% assign base = style.id | append: '-' | append: event | append: '-v2' %}
-  <figure class="svg-pair" data-mode="side" data-showing="original">
+  <figure class="svg-pair" data-mode="side" data-showing="original"
+          data-thumb="/assets/poster-thumbnails/{{ base }}.jpg">
     <figcaption>
       <span>
         <a href="/poster-prompts/{{ slug }}/">{{ style.name }}</a>
@@ -45,7 +106,7 @@ some are "could not convert" placeholders; both are shown as they are.
     </figcaption>
     <div class="svg-pair-images">
       <div class="svg-pair-cell svg-pair-original">
-        <img src="/assets/poster-examples/{{ base }}.webp" loading="lazy"
+        <img src="/assets/poster-examples/{{ base }}.webp" loading="lazy" decoding="async"
              width="1024" height="1536"
              alt="{{ style.name }} {{ event }} poster, original bitmap">
         <span class="svg-pair-label">Original</span>
@@ -111,6 +172,7 @@ some are "could not convert" placeholders; both are shown as they are.
     // so listen there too (same origin, so its document is reachable).
     function wire(obj) {
       obj.addEventListener('load', function () {
+        obj.style.backgroundImage = '';
         var doc = obj.contentDocument;
         if (!doc) return;
         doc.addEventListener('click', function () {
@@ -120,7 +182,22 @@ some are "could not convert" placeholders; both are shown as they are.
       });
     }
 
+    // While a poster loads, show its small thumbnail in the reserved box,
+    // then drop it once the full image is in (an SVG may be transparent).
+    function preview(fig) {
+      var thumb = 'url("' + fig.getAttribute('data-thumb') + '")';
+      fig.removeAttribute('data-thumb');
+      fig.querySelectorAll('img, object').forEach(function (el) {
+        if (el.tagName === 'IMG' && el.complete && el.naturalWidth) return;
+        el.style.backgroundImage = thumb;
+        if (el.tagName === 'IMG') {
+          el.addEventListener('load', function () { el.style.backgroundImage = ''; });
+        }
+      });
+    }
+
     // Load each SVG as it nears the viewport.
+    var figures = compare.querySelectorAll('.svg-pair[data-thumb]');
     var objects = compare.querySelectorAll('object[data-src]');
     function load(obj) {
       wire(obj);
@@ -134,6 +211,13 @@ some are "could not convert" placeholders; both are shown as they are.
         });
       }, { rootMargin: '1500px 0px' });
       objects.forEach(function (o) { io.observe(o); });
+      // Thumbnails start further out, so they arrive before the full images.
+      var thumbs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { thumbs.unobserve(en.target); preview(en.target); }
+        });
+      }, { rootMargin: '3000px 0px' });
+      figures.forEach(function (f) { thumbs.observe(f); });
     } else {
       objects.forEach(load);
     }
