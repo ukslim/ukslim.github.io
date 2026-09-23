@@ -91,10 +91,16 @@ some are "could not convert" placeholders; both are shown as they are.
 <div class="svg-compare">
 {% include poster_styles_ordered.html %}
 {% assign events = "fete,gig" | split: "," %}
+{%- comment -%} Converted pairs first, then the "no SVG version" placeholders
+listed in _data/poster_svg_skipped.yaml. {%- endcomment %}
+{% assign passes = "converted,skipped" | split: "," %}
+{% for pass in passes %}
 {% for style in ordered_styles %}
 {% assign slug = style.id | replace: '_', '-' %}
 {% for event in events %}
 {% assign base = style.id | append: '-' | append: event | append: '-v2' %}
+{% if site.data.poster_svg_skipped contains base %}{% assign kind = "skipped" %}{% else %}{% assign kind = "converted" %}{% endif %}
+{% if kind != pass %}{% continue %}{% endif %}
   <figure class="svg-pair" data-mode="side" data-showing="original"
           data-thumb="/assets/poster-thumbnails/{{ base }}.jpg">
     <figcaption>
@@ -122,6 +128,7 @@ some are "could not convert" placeholders; both are shown as they are.
       </div>
     </div>
   </figure>
+{% endfor %}
 {% endfor %}
 {% endfor %}
 </div>

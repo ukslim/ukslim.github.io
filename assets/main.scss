@@ -586,6 +586,11 @@
       aspect-ratio: 1024 / 1536;
       background: #f3f3f3 center / cover no-repeat;
     }
+
+    // Match the border that `.post img` gives the original.
+    object {
+      border: 1px solid #021a40;
+    }
   }
 
   .svg-pair-label {

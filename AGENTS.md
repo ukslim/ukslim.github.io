@@ -60,6 +60,14 @@ URLs use hyphens (`/poster-prompts/art-nouveau/`) even though style ids use unde
 
 The SVGs are made by the poster-to-svg skill, which lives in its own repo (github.com/ukslim/poster-to-svg) and is linked in as `.claude/skills/poster-to-svg` (a gitignored symlink to `../../../poster-to-svg`). Its tools find this site from the working directory. `python3 .claude/skills/poster-to-svg/tools/manifest.py` summarises what is done, flawed or skipped.
 
+`poster-prompts/svg.html` lists the skipped ("no SVG version") pairs last, using `_data/poster_svg_skipped.yaml`. After converting posters, regenerate that list (the manifest tool writes `assets/poster-svg/manifest.json` as a side effect; don't commit it):
+
+```bash
+python3 .claude/skills/poster-to-svg/tools/manifest.py --json >/dev/null
+python3 -c 'import json; s=sorted(e["style"]+"-"+e["event"]+"-v2" for e in json.load(open("assets/poster-svg/manifest.json")) if e["status"]=="skipped"); open("_data/poster_svg_skipped.yaml","w").write("# Poster SVGs that are \"could not convert\" placeholders ({style_id}-{event}-v2).\n# poster-prompts/svg.html lists these last. Regenerate after converting posters\n# (see \"Poster prompts subsite\" in AGENTS.md).\n"+"".join("- "+b+"\n" for b in s))'
+rm assets/poster-svg/manifest.json
+```
+
 To add a new style: add it to `_data/poster_styles.yaml`, create a stub in `_poster_styles/{id}.md`, and add placeholder images to `assets/poster-examples/`. To add a per-style notice (info box), add a `note:` field to the style entry in the YAML.
 
 ## Writing blog posts
