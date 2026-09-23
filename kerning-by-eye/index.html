@@ -1,0 +1,454 @@
+---
+layout: null
+permalink: /kerning-by-eye/
+title: "Kerning by Eye"
+description: "Eight examples of where a type designer respaces letters by eye, comparing the browser's own spacing with a hand-kerned version."
+---
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Kerning by Eye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=Merriweather:wght@700&family=Archivo+Black&family=Roboto:wght@900&family=DM+Serif+Display&family=Work+Sans:wght@500&family=EB+Garamond:ital,wght@0,500;1,500&family=Jost:wght@700&family=Manrope:wght@800&display=swap">
+<style>
+:root{
+  --paper:#F1F3EF;
+  --card:#FBFCFA;
+  --ink:#16191B;
+  --muted:#5B6367;
+  --rule:#D3D8D2;
+  --blue:#2C78B8;
+  --blue-soft:#DCEAF6;
+  --focus:#2C78B8;
+  --serif:"Newsreader", "Iowan Old Style", Georgia, serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111416; --card:#171B1E; --ink:#E9ECE8; --muted:#9AA2A6;
+    --rule:#2B3136; --blue:#7DB8EA; --blue-soft:#1B3044; --focus:#7DB8EA;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111416; --card:#171B1E; --ink:#E9ECE8; --muted:#9AA2A6;
+  --rule:#2B3136; --blue:#7DB8EA; --blue-soft:#1B3044; --focus:#7DB8EA;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--serif); font-size:18px; line-height:1.55;
+  padding-inline:20px; padding-block:0 64px;
+}
+.page{max-width:1080px; margin:0 auto}
+
+/* ---------- header ---------- */
+header.intro{padding-block:56px 28px; display:grid; gap:18px}
+.kicker{font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--blue)}
+h1{
+  font-family:var(--serif); font-weight:600; font-size:clamp(44px, 8vw, 88px);
+  line-height:1; margin:0; letter-spacing:-0.025em; text-wrap:balance;
+  font-variation-settings:"opsz" 72;
+}
+.lede{max-width:64ch; margin:0; font-size:20px; color:var(--ink)}
+.lede em{font-style:italic}
+.key{max-width:64ch; margin:0; font-size:16px; color:var(--muted)}
+.key b{font-family:var(--mono); font-weight:500; color:var(--blue); font-size:14px}
+
+/* ---------- mode bar ---------- */
+.bar{
+  position:sticky; top:env(safe-area-inset-top, 0px); z-index:5;
+  background:color-mix(in srgb, var(--paper) 90%, transparent);
+  backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+  border-block:1px solid var(--rule);
+  padding-block:10px; margin-bottom:8px;
+  display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px;
+}
+.bar .lbl{font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.seg{display:inline-flex; border:1px solid var(--rule); border-radius:999px; padding:3px; background:var(--card)}
+.seg button{
+  font:500 13px/1 var(--mono); color:var(--muted); background:none; border:0;
+  padding:9px 14px; border-radius:999px; cursor:pointer;
+}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+.seg button:focus-visible, .panel:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+.bar .hint{font-size:15px; color:var(--muted); font-style:italic}
+body[data-mode="side"] .bar .hint{display:none}
+
+/* ---------- examples ---------- */
+.ex{padding-block:44px 8px; border-top:1px solid var(--rule); display:grid; gap:18px}
+.ex:first-of-type{border-top:0}
+.ex-head{display:grid; gap:6px}
+.eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--blue)}
+.ex h2{font-weight:600; font-size:clamp(26px, 3.4vw, 34px); line-height:1.15; margin:0; text-wrap:balance; font-variation-settings:"opsz" 48; letter-spacing:-0.01em}
+
+.compare{display:grid; gap:12px; grid-template-columns:1fr}
+@media (min-width:760px){
+  body[data-mode="side"] .compare{grid-template-columns:1fr 1fr}
+}
+body[data-mode="flip"] .panel.orig{display:none}
+
+.panel{
+  position:relative; background:var(--card); border:1px solid var(--rule); border-radius:6px;
+  padding:46px 22px 50px; container-type:inline-size; overflow:hidden;
+}
+body[data-mode="flip"] .panel.resp{cursor:pointer; -webkit-tap-highlight-color:transparent}
+.lab{
+  position:absolute; top:12px; left:14px;
+  font:500 11px/1 var(--mono); letter-spacing:.1em; text-transform:uppercase;
+  padding:5px 8px 5px 18px; border-radius:999px; color:var(--muted); border:1px solid var(--rule);
+  transition:color .2s, background-color .2s, border-color .2s;
+}
+.lab::before{content:""; position:absolute; left:7px; top:50%; width:6px; height:6px; margin-top:-3px; border-radius:50%; background:currentColor}
+.resp .lab{color:var(--blue); background:var(--blue-soft); border-color:transparent}
+body[data-mode="side"] .resp .lab .lo{display:none}
+body[data-mode="flip"] .resp:not(.on) .lab .lr{display:none}
+body[data-mode="flip"] .resp.on .lab .lo{display:none}
+body[data-mode="flip"] .resp:not(.on) .lab{color:var(--muted); background:transparent; border-color:var(--rule)}
+.tip{
+  position:absolute; top:13px; right:14px; font:400 11px/1 var(--mono); color:var(--muted);
+  letter-spacing:.06em; text-transform:uppercase;
+}
+body[data-mode="side"] .tip{display:none}
+body[data-mode="flip"] .resp.on .tip{visibility:hidden}
+
+/* specimen */
+.spec{
+  font-size:calc(var(--fit) * 1cqi);
+  font-kerning:normal; font-variant-ligatures:none; font-feature-settings:"liga" 0, "clig" 0;
+  line-height:1.2; white-space:pre;
+}
+.wrap{position:relative; display:inline-block; margin-left:var(--indent, 0em)}
+.line{display:inline-block}
+.resp .line{color:transparent}
+.glyphs{position:absolute; inset:0; pointer-events:none}
+.g{
+  position:absolute; top:0; white-space:pre; letter-spacing:0;
+  transform:translateX(0);
+  transition:transform .42s cubic-bezier(.3,.7,.2,1);
+}
+body[data-mode="side"] .resp .g,
+body[data-mode="flip"] .resp.on .g{transform:translateX(calc(var(--s) * 0.001em))}
+
+.marks{position:absolute; left:0; right:0; top:100%; height:0}
+.mk{position:absolute; left:0; width:0; height:0}
+.mk span{
+  position:absolute; left:0; transform:translateX(-50%); top:6px;
+  font:500 11px/1 var(--mono); color:var(--blue); white-space:nowrap;
+  padding-top:5px; border-top:1px solid var(--blue); padding-inline:2px;
+  font-variant-numeric:tabular-nums;
+}
+.mk.alt span{top:24px}
+.marks{transition:opacity .25s}
+body[data-mode="flip"] .resp:not(.on) .marks{opacity:0}
+
+.margin-rule{
+  position:absolute; top:10px; bottom:10px; width:0; border-left:1px dashed var(--blue); opacity:.7;
+}
+
+.ex-body{display:grid; gap:14px 40px; grid-template-columns:1fr}
+@media (min-width:860px){ .ex-body{grid-template-columns:minmax(0,64ch) 1fr} }
+.ex-body p{margin:0}
+.meta{font:400 12.5px/1.6 var(--mono); color:var(--muted); display:grid; gap:6px; align-content:start}
+.meta div b{font-weight:500; color:var(--ink)}
+.meta .adj{color:var(--blue)}
+
+/* specimen fonts */
+.f-merri{font-family:"Merriweather", Georgia, serif; font-weight:700}
+.f-archivo{font-family:"Archivo Black", "Arial Black", sans-serif; font-weight:400}
+.f-roboto{font-family:"Roboto", "Helvetica Neue", Arial, sans-serif; font-weight:900; font-variant-numeric:tabular-nums}
+.f-dmserif{font-family:"DM Serif Display", Georgia, serif; font-weight:400}
+.f-work{font-family:"Work Sans", "Helvetica Neue", Arial, sans-serif; font-weight:500}
+.f-garamond{font-family:"EB Garamond", Garamond, Georgia, serif; font-weight:500}
+.f-jost{font-family:"Jost", Futura, "Century Gothic", sans-serif; font-weight:700}
+.f-manrope{font-family:"Manrope", "Helvetica Neue", Arial, sans-serif; font-weight:800}
+
+/* footer */
+footer{margin-top:40px; padding-top:36px; border-top:1px solid var(--rule); display:grid; gap:26px}
+@media (min-width:860px){ footer{grid-template-columns:minmax(0,64ch) 1fr; column-gap:40px} }
+footer h3{font-family:var(--mono); font-weight:500; font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 10px}
+footer p{margin:0 0 12px; font-size:16px}
+footer ul{margin:0; padding:0; list-style:none; display:grid; gap:7px; font-size:15px}
+footer a{color:var(--blue); text-underline-offset:2px}
+code{font-family:var(--mono); font-size:.84em}
+
+@media (prefers-reduced-motion: reduce){
+  .g, .marks, .lab{transition:none}
+}
+@media (max-width:520px){
+  body{font-size:17px}
+  .panel{padding:44px 16px 50px}
+  .lede{font-size:18px}
+}
+</style>
+
+<div class="page">
+  <header class="intro">
+    <div class="kicker">Display typography</div>
+    <h1>Kerning by eye</h1>
+    <p class="lede">When you type a headline, the browser spaces it using the font's built-in kerning table: a list of letter <em>pairs</em>, each with a fixed adjustment, chosen by the type designer for reading sizes. It's usually right. But it can't see the whole word, doesn't know how big the type is, and can't tell when a gap spells a different word. These are the moments a graphic designer overrides it.</p>
+    <p class="key">Each example shows the browser's own layout next to a hand-respaced version. Blue figures are the designer's adjustments in <b>1/1000 em</b>, the unit InDesign and Illustrator use for kerning.</p>
+  </header>
+
+  <div class="bar" role="group" aria-label="Comparison mode">
+    <span class="lbl">Compare</span>
+    <div class="seg">
+      <button type="button" id="mode-side" data-mode="side" aria-pressed="true">Side by side</button>
+      <button type="button" id="mode-flip" data-mode="flip" aria-pressed="false">Hover to flip</button>
+    </div>
+    <span class="hint" id="hint">Hover over a specimen to respace it.</span>
+  </div>
+
+  <main id="examples"></main>
+
+  <footer>
+    <div>
+      <h3>How this page works</h3>
+      <p>The <b>Original</b> panel is plain HTML text. The browser lays it out with the font's own kerning (<code>font-kerning: normal</code>) and nothing else, apart from the tight tracking the designer asked for in the "kerning" example.</p>
+      <p>For the <b>Respaced</b> version, the page measures where the browser put each character and redraws each one at that exact spot, shifted by the designer's adjustment. So in flip mode, the resting state is the browser's layout and hovering slides each letter by its adjustment. The adjustments are editorial judgement, tuned by eye. Another designer would choose slightly different numbers, and that's the point.</p>
+    </div>
+    <div>
+      <h3>Sources</h3>
+      <ul>
+        <li><a href="https://creativepro.com/dot-font-type-that-s-tight-but-not-touching/" target="_blank" rel="noopener">John D. Berry, "Type that's tight but not touching"</a></li>
+        <li><a href="https://www.paulshawletterdesign.com/2011/11/tutorial-no-6%E2%80%94tight-but-not-touching-kerning/" target="_blank" rel="noopener">Paul Shaw, "Tight but not touching kerning"</a></li>
+        <li><a href="https://creativepro.com/typetalk-metrics-versus-optical-kerning/" target="_blank" rel="noopener">Ilene Strizver, "Metrics versus Optical kerning"</a></li>
+        <li><a href="https://adobe.com/creativecloud/design/discover/kerning.html" target="_blank" rel="noopener">Adobe, "An introduction to kerning"</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kerning" target="_blank" rel="noopener">Wikipedia, "Kerning"</a></li>
+        <li><a href="https://thisbugslife.com/2023/08/01/kerning-and-keming/" target="_blank" rel="noopener">"Kerning and keming" (the Okavango sign)</a></li>
+        <li><a href="https://type.method.ac/" target="_blank" rel="noopener">Kern Type, a kerning game</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var EXAMPLES = [
+    {
+      eyebrow:"Scale",
+      title:"Spaced for small text, blown up to a headline",
+      cls:"f-merri", fit:11, html:"Harvest Fair",
+      track:-25, adj:[["rv",-10],["ve",-15],["t ",-15],["Fa",-40]],
+      body:"Merriweather was spaced for reading on screens at small sizes, where generous gaps help legibility. At poster size, those same gaps turn into a loose, gappy word. The browser applies the font's spacing exactly; it has no idea the word is two hundred pixels tall. The designer tracks the whole word in, then closes the oversized word space and the hole under the arm of the F.",
+      engine:"Merriweather Bold · font-kerning: normal"
+    },
+    {
+      eyebrow:"Rhythm",
+      title:"One well-kerned pair in an uneven word",
+      cls:"f-archivo", fit:12.5, html:"OKAVANGO",
+      track:-15, adj:[["OK",-15],["KA",35],["AV",-10],["VA",-10],["AN",25],["NG",-20],["GO",-20]],
+      body:"The font's kerning table pulls A, V and A together hard, as it should. But kerning works one pair at a time and nothing in the table looks at the whole word, so once the diagonals interlock, the straight K and N and the round O and G look loose by comparison. The designer takes the AVA a touch tighter still, then brings the rest of the word to the same density: closing up the straight and round pairs, and giving space back where the K and N meet a diagonal, so the word has one even rhythm. Okavango is a known hard case: signs spelling it often show the AVA spaced visibly differently from the rest of the word.",
+      engine:"Archivo Black · font-kerning: normal"
+    },
+    {
+      eyebrow:"Figures",
+      title:"Table-width figures on a shopfront",
+      cls:"f-roboto", fit:12, html:"SINCE 1911",
+      track:0, adj:[[" 1",-50],["19",-50],["91",-60],["11",-110]],
+      body:"Roboto's figures are all the same width so that columns of numbers line up. The narrow 1 sits in the middle of a full-width slot, leaving a hole on each side. The browser is doing exactly what the font says. On a sign with a single date, alignment doesn't matter and the holes do, so the designer pulls the 1s in, most of all where two sit together.",
+      engine:"Roboto Black · font-variant-numeric: tabular-nums"
+    },
+    {
+      eyebrow:"Punctuation",
+      title:"Hanging the quote, closing the r-and-period gap",
+      cls:"f-dmserif", fit:12, html:"“Yes, sir.”", indent:0.55, marginRule:true,
+      lead:"hang", track:0, adj:[["r.",-40],[".”",-40]],
+      body:"With the opening quote inside the margin, the Y looks indented and the left edge wavers (the dashed line marks the margin). Designers hang the quote out into the margin so the letters line up with the text below. A lowercase r followed by a full stop leaves a gap nearly wide enough to read as a word space, and the corner between the full stop and the closing quote leaves another. Both get pulled in by eye.",
+      engine:"DM Serif Display · font-kerning: normal"
+    },
+    {
+      eyebrow:"Misreading",
+      title:"When tight tracking spells a different word",
+      cls:"f-work", fit:17, html:"kerning", style:"letter-spacing:-0.07em",
+      track:0, adj:[["rn",55],["ni",10]],
+      body:"Here the designer has already asked for tight tracking, and the browser applies it evenly to every pair. At a glance the r and n fuse into an m, and “kerning” reads “keming”, which is the joke name for bad kerning. A table of pairs can't catch a misreading; a person can. The fix opens just that one pair and leaves the tight texture alone.",
+      engine:"Work Sans Medium · letter-spacing: −0.07em"
+    },
+    {
+      eyebrow:"Mixed styles",
+      title:"Where roman meets italic",
+      cls:"f-garamond", fit:14, html:"Cry (<i>Wolf</i>)",
+      track:0, adj:[["(W",-30],["f)",50]],
+      body:"Kerning pairs only exist inside a single font. When an italic f runs into a roman closing bracket, the two glyphs come from different fonts, so no kerning pair applies across the join, and the f's overhanging top collides with the bracket. Meanwhile the opening bracket leaves a wedge of space above the slanted W. InDesign's Optical kerning exists partly for this case. By hand, it takes two quick adjustments.",
+      engine:"EB Garamond Medium + Italic · font-kerning: normal"
+    },
+    {
+      eyebrow:"Expression",
+      title:"Tight but not touching",
+      cls:"f-jost", fit:16, html:"together",
+      track:-25, adj:[["to",15],["og",-5],["ge",-5],["et",20],["th",15]],
+      body:"In 1960s and 70s New York advertising, art directors told the type house to set headlines “tight but not touching”: letters as close as they would go without colliding. Phototypesetting made it possible, though each letter was still placed by hand. Here the designer pulls a geometric sans in until the letters nearly meet, then eases the pairs where the t's crossbar would collide with its neighbours. This is a deliberate style, not a correction.",
+      engine:"Jost Bold · font-kerning: normal"
+    },
+    {
+      eyebrow:"All caps",
+      title:"Capitals need air",
+      cls:"f-manrope", fit:8.4, html:"NIGHT MARKET",
+      track:90, adj:[],
+      body:"Capitals are spaced to sit beside lowercase letters. Set as a line on their own they look cramped, and heavier weights make it worse. The usual fix is positive tracking of roughly +25 to +75 units, and more for a heavy weight like this one. This is the one example where the change is uniform: tracking rather than kerning.",
+      engine:"Manrope ExtraBold · font-kerning: normal"
+    }
+  ];
+
+  var root = document.getElementById('examples');
+  function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+  function fmt(v){ return (v>0?'+':v<0?'−':'') + Math.abs(v); }
+  function showPair(p){ return p.replace(/ /g,'␣'); }
+
+  EXAMPLES.forEach(function(ex, n){
+    var adjTxt = [];
+    if (ex.track) adjTxt.push('tracking ' + fmt(ex.track));
+    if (ex.lead === 'hang') adjTxt.push('hang opening quote');
+    ex.adj.forEach(function(a){ adjTxt.push(showPair(a[0]) + ' ' + fmt(a[1])); });
+
+    var specAttrs = 'class="spec ' + ex.cls + '" style="--fit:' + ex.fit + (ex.indent ? ';--indent:' + ex.indent + 'em' : '') + '"';
+    var lineStyle = ex.style ? ' style="' + ex.style + '"' : '';
+    var art = document.createElement('article');
+    art.className = 'ex';
+    art.innerHTML =
+      '<div class="ex-head"><div class="eyebrow">' + ex.eyebrow + '</div><h2>' + esc(ex.title) + '</h2></div>' +
+      '<div class="compare">' +
+        '<div class="panel orig"><span class="lab">Original</span>' +
+          '<div ' + specAttrs + '>' + (ex.marginRule ? '<span class="margin-rule"></span>' : '') +
+          '<span class="wrap"><span class="line"' + lineStyle + '>' + ex.html + '</span></span></div></div>' +
+        '<div class="panel resp" id="stage-' + n + '" aria-label="' + esc(ex.eyebrow) + ' specimen">' +
+          '<span class="lab" aria-live="polite"><span class="lo">Original</span><span class="lr">Respaced</span></span>' +
+          '<span class="tip">Hover to respace</span>' +
+          '<div ' + specAttrs + '>' + (ex.marginRule ? '<span class="margin-rule"></span>' : '') +
+          '<span class="wrap"><span class="line"' + lineStyle + '>' + ex.html + '</span>' +
+          '<span class="glyphs" aria-hidden="true"></span><span class="marks" aria-hidden="true"></span></span></div></div>' +
+      '</div>' +
+      '<div class="ex-body"><p>' + esc(ex.body) + '</p>' +
+        '<div class="meta"><div><b>Browser</b> ' + esc(ex.engine) + '</div>' +
+        '<div class="adj"><b>Respaced</b> ' + esc(adjTxt.join(' · ')) + '</div></div></div>';
+    root.appendChild(art);
+    ex.el = art;
+  });
+
+  // place margin rules at the text's left edge
+  function placeRules(ex){
+    ex.el.querySelectorAll('.margin-rule').forEach(function(r){
+      var wrap = r.parentElement.querySelector('.wrap');
+      r.style.left = wrap.offsetLeft + 'px';
+    });
+  }
+
+  function build(ex){
+    var panel = ex.el.querySelector('.panel.resp');
+    var line = panel.querySelector('.line');
+    var layer = panel.querySelector('.glyphs');
+    var marks = panel.querySelector('.marks');
+    layer.textContent = ''; marks.textContent = '';
+    var fs = parseFloat(getComputedStyle(line).fontSize);
+    var base = line.getBoundingClientRect();
+    if (!fs || !base.width) return;
+
+    var chars = [];
+    var walker = document.createTreeWalker(line, NodeFilter.SHOW_TEXT);
+    var node, range = document.createRange();
+    while ((node = walker.nextNode())) {
+      var cs = getComputedStyle(node.parentElement);
+      for (var k = 0; k < node.data.length; k++) {
+        range.setStart(node, k); range.setEnd(node, k + 1);
+        var r = range.getBoundingClientRect();
+        chars.push({ ch: node.data[k], x: (r.left - base.left) / fs, st: cs });
+      }
+    }
+    var text = chars.map(function(c){ return c.ch; }).join('');
+
+    var gaps = new Array(Math.max(chars.length - 1, 0)).fill(0);
+    var manual = {};
+    ex.adj.forEach(function(a){
+      var i = text.indexOf(a[0]);
+      if (i >= 0) { gaps[i] += a[1]; manual[i] = a[1]; }
+    });
+    var lead = 0;
+    if (ex.lead === 'hang' && chars.length > 1) lead = -Math.round((chars[1].x - chars[0].x) * 1000);
+
+    var shift = lead, frag = document.createDocumentFragment();
+    chars.forEach(function(c, i){
+      if (i > 0) shift += ex.track + gaps[i - 1];
+      c.s = shift;
+      var g = document.createElement('span');
+      g.className = 'g';
+      g.textContent = c.ch;
+      g.style.left = c.x.toFixed(4) + 'em';
+      g.style.setProperty('--s', shift);
+      g.style.fontFamily = c.st.fontFamily;
+      g.style.fontStyle = c.st.fontStyle;
+      g.style.fontWeight = c.st.fontWeight;
+      frag.appendChild(g);
+    });
+    layer.appendChild(frag);
+
+    var alt = false;
+    Object.keys(manual).sort(function(a,b){return a-b;}).forEach(function(key){
+      var i = +key, nx = chars[i + 1];
+      if (!nx) return;
+      var m = document.createElement('span');
+      m.className = 'mk' + (alt ? ' alt' : '');
+      alt = !alt;
+      m.style.left = (nx.x + nx.s / 1000).toFixed(4) + 'em';
+      var lab = document.createElement('span');
+      lab.textContent = fmt(manual[i]);
+      m.appendChild(lab);
+      marks.appendChild(m);
+    });
+    placeRules(ex);
+  }
+
+  function buildAll(){ EXAMPLES.forEach(build); }
+  buildAll();
+  if (document.fonts) {
+    document.fonts.ready.then(buildAll);
+    document.fonts.addEventListener && document.fonts.addEventListener('loadingdone', buildAll);
+  }
+  setTimeout(buildAll, 1500);
+  var rt; window.addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(function(){ EXAMPLES.forEach(placeRules); }, 100); });
+
+  // ---- mode switching ----
+  var body = document.body;
+  var buttons = document.querySelectorAll('.seg button');
+  var touchy = window.matchMedia && window.matchMedia('(hover: none)').matches;
+  if (touchy) {
+    document.getElementById('hint').textContent = 'Tap a specimen to respace it.';
+    document.getElementById('mode-flip').textContent = 'Tap to flip';
+    document.querySelectorAll('.tip').forEach(function(t){ t.textContent = 'Tap to respace'; });
+  }
+  function setMode(m){
+    body.setAttribute('data-mode', m);
+    buttons.forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.mode === m)); });
+    document.querySelectorAll('.panel.resp').forEach(function(p){
+      p.classList.remove('on');
+      if (m === 'flip') { p.setAttribute('tabindex', '0'); p.setAttribute('role', 'button'); p.setAttribute('aria-pressed', 'false'); }
+      else { p.removeAttribute('tabindex'); p.removeAttribute('role'); p.removeAttribute('aria-pressed'); }
+    });
+    try { localStorage.setItem('kerning-mode', m); } catch (e) {}
+  }
+  buttons.forEach(function(b){ b.addEventListener('click', function(){ setMode(b.dataset.mode); }); });
+  var saved = 'side';
+  try { saved = localStorage.getItem('kerning-mode') || 'side'; } catch (e) {}
+  setMode(saved === 'flip' ? 'flip' : 'side');
+
+  function flip(p, on){
+    if (body.getAttribute('data-mode') !== 'flip') return;
+    p.classList.toggle('on', on);
+    p.setAttribute('aria-pressed', String(on));
+  }
+  document.querySelectorAll('.panel.resp').forEach(function(p){
+    var lastType = 'mouse';
+    p.addEventListener('pointerdown', function(e){ lastType = e.pointerType; });
+    p.addEventListener('pointerenter', function(e){ if (e.pointerType === 'mouse') flip(p, true); });
+    p.addEventListener('pointerleave', function(e){ if (e.pointerType === 'mouse') flip(p, false); });
+    p.addEventListener('click', function(){ if (lastType !== 'mouse') flip(p, !p.classList.contains('on')); });
+    p.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(p, !p.classList.contains('on')); }
+    });
+    p.addEventListener('blur', function(){ flip(p, false); });
+  });
+})();
+</script>
+
+</body></html>
