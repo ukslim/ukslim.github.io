@@ -45,6 +45,8 @@ Push to the default branch; GitHub Pages builds and publishes automatically. No 
 | `_data/events.yaml` | Reference event descriptions (fête + gig) used in prompts |
 | `assets/poster-examples/` | Poster example images (`{style_id}-fete.webp`, `{style_id}-gig.webp`) |
 | `assets/poster-thumbnails/` | Fête thumbnail images (`{style_id}-fete.jpg`) used on the poster-prompts index grid |
+| `assets/poster-svg/` | SVG rebuilds of the V2 poster examples (`{style_id}-{event}-v2.svg`): real type over cut-out artwork. Some carry a "flawed" alert icon; some are "could not convert" placeholders |
+| `assets/poster-svg/solutions/` | How each SVG was built (settings, measurements); excluded from the published site |
 | `assets/og-default.png` | Sitewide social-preview card (source: `assets/og-default.svg`) |
 | `assets/og-poster-prompts.jpg` | Social-preview card for the poster-prompts index |
 
@@ -55,6 +57,8 @@ The Minima theme lives in the Ruby gem — do not vendor or copy theme files int
 Individual style pages are generated from the `poster_styles` Jekyll collection. Each stub file in `_poster_styles/` has a `style_id` front matter field; the `poster_style` layout looks up the full style data from `_data/poster_styles.yaml` at build time.
 
 URLs use hyphens (`/poster-prompts/art-nouveau/`) even though style ids use underscores (`art_nouveau`) — Jekyll slugifies the filename. Use `{{ style.id | replace: '_', '-' }}` when constructing URLs from data.
+
+The SVGs are made by the poster-to-svg skill, which lives in its own repo (github.com/ukslim/poster-to-svg) and is linked in as `.claude/skills/poster-to-svg` (a gitignored symlink to `../../../poster-to-svg`). Its tools find this site from the working directory. `python3 .claude/skills/poster-to-svg/tools/manifest.py` summarises what is done, flawed or skipped.
 
 To add a new style: add it to `_data/poster_styles.yaml`, create a stub in `_poster_styles/{id}.md`, and add placeholder images to `assets/poster-examples/`. To add a per-style notice (info box), add a `note:` field to the style entry in the YAML.
 

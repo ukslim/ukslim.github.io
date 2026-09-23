@@ -1,0 +1,702 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/factory_records-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#FCFBFC",
+ "alignment": "ok",
+ "alignment_cost": 0.179,
+ "lines": [
+  {
+   "colour": "dark",
+   "rgb": "#2A2A2A",
+   "y0": 95,
+   "y1": 113,
+   "baseline": 110,
+   "cap_top": 95,
+   "cap": 15,
+   "x_height": 11,
+   "left": 119,
+   "right": 386,
+   "width": 268,
+   "n_runs": 26,
+   "density": 0.2172,
+   "stem_ratio": 0.13333333333333333
+  },
+  {
+   "colour": "dark",
+   "rgb": "#171717",
+   "y0": 357,
+   "y1": 486,
+   "baseline": 487,
+   "cap_top": 360,
+   "cap": 127,
+   "x_height": 127,
+   "left": 306,
+   "right": 827,
+   "width": 522,
+   "n_runs": 5,
+   "density": 0.2036,
+   "stem_ratio": 0.1076923076923077
+  },
+  {
+   "colour": "dark",
+   "rgb": "#171717",
+   "y0": 525,
+   "y1": 651,
+   "baseline": 650,
+   "cap_top": 527,
+   "cap": 123,
+   "x_height": 123,
+   "left": 302,
+   "right": 766,
+   "width": 465,
+   "n_runs": 4,
+   "density": 0.2177,
+   "stem_ratio": 0.05511811023622047
+  },
+  {
+   "colour": "dark",
+   "rgb": "#171717",
+   "y0": 690,
+   "y1": 819,
+   "baseline": 818,
+   "cap_top": 690,
+   "cap": 128,
+   "x_height": 125,
+   "left": 306,
+   "right": 888,
+   "width": 583,
+   "n_runs": 5,
+   "density": 0.2078,
+   "stem_ratio": 0.1076923076923077
+  },
+  {
+   "colour": "dark",
+   "rgb": "#212121",
+   "y0": 961,
+   "y1": 985,
+   "baseline": 981,
+   "cap_top": 961,
+   "cap": 20,
+   "x_height": 14,
+   "left": 312,
+   "right": 661,
+   "width": 350,
+   "n_runs": 24,
+   "density": 0.2257,
+   "stem_ratio": 0.1
+  },
+  {
+   "colour": "dark",
+   "rgb": "#1A1A1A",
+   "y0": 1153,
+   "y1": 1176,
+   "baseline": 1172,
+   "cap_top": 1153,
+   "cap": 19,
+   "x_height": 13,
+   "left": 314,
+   "right": 728,
+   "width": 415,
+   "n_runs": 30,
+   "density": 0.2195,
+   "stem_ratio": 0.10526315789473684
+  },
+  {
+   "colour": "dark",
+   "rgb": "#171717",
+   "y0": 1191,
+   "y1": 1212,
+   "baseline": 1210,
+   "cap_top": 1191,
+   "cap": 19,
+   "x_height": 19,
+   "left": 312,
+   "right": 869,
+   "width": 558,
+   "n_runs": 41,
+   "density": 0.2361,
+   "stem_ratio": 0.10526315789473684
+  },
+  {
+   "colour": "dark",
+   "rgb": "#242424",
+   "y0": 1291,
+   "y1": 1307,
+   "baseline": 1306,
+   "cap_top": 1291,
+   "cap": 15,
+   "x_height": 10,
+   "left": 312,
+   "right": 644,
+   "width": 333,
+   "n_runs": 30,
+   "density": 0.2167,
+   "stem_ratio": 0.08823529411764706
+  },
+  {
+   "colour": "dark",
+   "rgb": "#242424",
+   "y0": 1324,
+   "y1": 1342,
+   "baseline": 1339,
+   "cap_top": 1324,
+   "cap": 15,
+   "x_height": 10,
+   "left": 312,
+   "right": 796,
+   "width": 485,
+   "n_runs": 47,
+   "density": 0.2094,
+   "stem_ratio": 0.125
+  },
+  {
+   "colour": "dark",
+   "rgb": "#292929",
+   "y0": 1359,
+   "y1": 1377,
+   "baseline": 1374,
+   "cap_top": 1359,
+   "cap": 15,
+   "x_height": 11,
+   "left": 312,
+   "right": 539,
+   "width": 228,
+   "n_runs": 21,
+   "density": 0.2221,
+   "stem_ratio": 0.13333333333333333
+  },
+  {
+   "colour": "dark",
+   "rgb": "#1A1A1A",
+   "y0": 1446,
+   "y1": 1457,
+   "baseline": 1458,
+   "cap_top": 1446,
+   "cap": 12,
+   "x_height": 12,
+   "left": 860,
+   "right": 919,
+   "width": 60,
+   "n_runs": 6,
+   "density": 0.2972,
+   "stem_ratio": 0.16666666666666666
+  }
+ ],
+ "assigned": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:",
+   "bands": [
+    0
+   ]
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD",
+   "bands": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace",
+   "bands": [
+    4
+   ]
+  },
+  {
+   "key": "date",
+   "text": "Friday 19th September, doors 7:30pm",
+   "bands": [
+    5
+   ]
+  },
+  {
+   "key": "venue",
+   "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+   "bands": [
+    6
+   ]
+  },
+  {
+   "key": "tickets",
+   "text": "\u00a312 advance / \u00a315 on the door",
+   "bands": [
+    7
+   ]
+  },
+  {
+   "key": "ticket_source",
+   "text": "The Anchor Rooms bar or pallightpro.co.uk",
+   "bands": [
+    8
+   ]
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight.",
+   "bands": [
+    9
+   ]
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 239898,
+   "box": [
+    88,
+    203,
+    283,
+    1426
+   ],
+   "fill": 1.0,
+   "rgb": "#084080"
+  },
+  {
+   "colour": "dark",
+   "kind": "spans the page",
+   "px": 10222,
+   "box": [
+    0,
+    0,
+    1023,
+    1535
+   ],
+   "fill": 0.006,
+   "rgb": "#181818"
+  },
+  {
+   "colour": "dark",
+   "kind": "spans the page",
+   "px": 9939,
+   "box": [
+    15,
+    19,
+    1008,
+    1515
+   ],
+   "fill": 0.007,
+   "rgb": "#181818"
+  },
+  {
+   "colour": "light",
+   "kind": "spans the page",
+   "px": 609,
+   "box": [
+    938,
+    488,
+    938,
+    1096
+   ],
+   "fill": 1.0,
+   "rgb": "#DADADA"
+  },
+  {
+   "colour": "light",
+   "kind": "hairline",
+   "px": 651,
+   "box": [
+    285,
+    1428,
+    935,
+    1428
+   ],
+   "fill": 1.0,
+   "rgb": "#DADADA"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "light",
+   "y0": 101,
+   "y1": 107,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1158,
+   "y1": 1170,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1196,
+   "y1": 1208,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1292,
+   "y1": 1298,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1299,
+   "y1": 1306,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1325,
+   "y1": 1339,
+   "why": "no dark ground behind light type"
+  },
+  {
+   "colour": "light",
+   "y0": 1445,
+   "y1": 1455,
+   "why": "only 1 glyph components"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "presenter",
+    "support",
+    "date",
+    "venue",
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "shape_glyphs": "WMQGR2",
+   "confidence": "low",
+   "margin": 0.043,
+   "distortions": [
+    {
+     "key": "presenter",
+     "ratio": 0.885,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    },
+    {
+     "key": "support",
+     "ratio": 0.908,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "date",
+     "ratio": 0.928,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "venue",
+     "ratio": 0.903,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "tickets",
+     "ratio": 1.189,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "ticket_source",
+     "ratio": 1.195,
+     "kind": "wider_than_face",
+     "stem_matches": false,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "footer",
+     "ratio": 0.895,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Manrope",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Manrope-400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9079,
+     "spread": 0.1309,
+     "stem_err": 0.0434,
+     "shape": 1.1433,
+     "score": 1.6654
+    },
+    {
+     "family": "Avenir",
+     "sub": "Book",
+     "weight": 400,
+     "embed": false,
+     "path": "/System/Library/Fonts/Avenir.ttc",
+     "index": 0,
+     "cap_ratio": 0.708,
+     "width_ratio": 0.9096,
+     "spread": 0.1223,
+     "stem_err": 0.0601,
+     "shape": 1.21,
+     "score": 1.7362
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/InstrumentSans-wdth87-wght400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 1.0525,
+     "spread": 0.1523,
+     "stem_err": 0.0104,
+     "shape": 1.3898,
+     "score": 1.8168
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/InstrumentSans-400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9044,
+     "spread": 0.1323,
+     "stem_err": 0.0923,
+     "shape": 1.2843,
+     "score": 1.8786
+    },
+    {
+     "family": "TeX Gyre Adventor",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/texgyreadventor-regular.otf",
+     "index": null,
+     "cap_ratio": 0.739,
+     "width_ratio": 0.8994,
+     "spread": 0.1075,
+     "stem_err": 0.0372,
+     "shape": 1.4307,
+     "score": 1.8928
+    },
+    {
+     "family": "Public Sans",
+     "sub": "Thin",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/PublicSans-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.723,
+     "width_ratio": 0.9037,
+     "spread": 0.1317,
+     "stem_err": 0.0191,
+     "shape": 1.4682,
+     "score": 1.9182
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/InstrumentSans-wdth100-wght400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9044,
+     "spread": 0.1323,
+     "stem_err": 0.0885,
+     "shape": 1.3488,
+     "score": 1.9355
+    },
+    {
+     "family": "Arial Narrow",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": false,
+     "path": "/System/Library/Fonts/Supplemental/Arial Narrow.ttf",
+     "index": null,
+     "cap_ratio": 0.71582,
+     "width_ratio": 1.1395,
+     "spread": 0.1558,
+     "stem_err": 0.0297,
+     "shape": 1.4235,
+     "score": 1.9649
+    }
+   ]
+  },
+  "display": {
+   "lines": [
+    "headliner"
+   ],
+   "shape_glyphs": "OHDTLE",
+   "confidence": "low",
+   "margin": 0.32,
+   "distortions": [
+    {
+     "key": "headliner",
+     "ratio": 0.785,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Cinzel",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Cinzel-400.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.837,
+     "spread": 0.0,
+     "stem_err": 0.1377,
+     "shape": 0.7821,
+     "score": 1.3714
+    },
+    {
+     "family": "Bitter",
+     "sub": "Thin",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Bitter-wght400.ttf",
+     "index": null,
+     "cap_ratio": 0.698,
+     "width_ratio": 0.8806,
+     "spread": 0.0,
+     "stem_err": 0.0651,
+     "shape": 1.2924,
+     "score": 1.8097
+    },
+    {
+     "family": "Bitter",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Bitter-400.ttf",
+     "index": null,
+     "cap_ratio": 0.698,
+     "width_ratio": 0.8806,
+     "spread": 0.0,
+     "stem_err": 0.0983,
+     "shape": 1.3498,
+     "score": 1.9336
+    },
+    {
+     "family": "TeX Gyre Adventor",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/texgyreadventor-regular.otf",
+     "index": null,
+     "cap_ratio": 0.739,
+     "width_ratio": 0.9369,
+     "spread": 0.0,
+     "stem_err": 0.0589,
+     "shape": 1.4861,
+     "score": 1.9678
+    },
+    {
+     "family": "Urbanist",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Urbanist-400.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9324,
+     "spread": 0.0,
+     "stem_err": 0.0748,
+     "shape": 1.5594,
+     "score": 2.1053
+    },
+    {
+     "family": "Manrope",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Manrope-400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9595,
+     "spread": 0.0,
+     "stem_err": 0.065,
+     "shape": 1.6488,
+     "score": 2.1119
+    },
+    {
+     "family": "Public Sans",
+     "sub": "Thin",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/PublicSans-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.723,
+     "width_ratio": 0.9144,
+     "spread": 0.0,
+     "stem_err": 0.0039,
+     "shape": 1.711,
+     "score": 2.1323
+    },
+    {
+     "family": "Questrial",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Questrial-400.ttf",
+     "index": null,
+     "cap_ratio": 0.662,
+     "width_ratio": 0.8541,
+     "spread": 0.0,
+     "stem_err": 0.0512,
+     "shape": 1.6478,
+     "score": 2.1701
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "Manrope",
+    "Avenir",
+    "Instrument Sans"
+   ]
+  },
+  {
+   "kind": "face_choice",
+   "group": "display",
+   "confidence": "low",
+   "top": [
+    "Cinzel",
+    "Bitter",
+    "Bitter"
+   ]
+  }
+ ],
+ "knobs": {
+  "solid_radius": 24,
+  "rule_length": 0,
+  "rule_thick": 5,
+  "min_glyphs": 2,
+  "artwork": "mask",
+  "face": []
+ }
+}

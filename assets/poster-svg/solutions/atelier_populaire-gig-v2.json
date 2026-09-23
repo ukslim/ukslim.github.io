@@ -1,0 +1,529 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/atelier_populaire-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#0D1212",
+ "median_texture": 1.8,
+ "alignment": "cannot align 8 copy lines to 4 bands",
+ "alignment_cost": 0.0,
+ "lines": [
+  {
+   "colour": "red",
+   "rgb": "#DA1E1B",
+   "y0": 670,
+   "y1": 678,
+   "baseline": 678,
+   "cap_top": 670,
+   "cap": 8,
+   "x_height": 8,
+   "left": 620,
+   "right": 631,
+   "width": 12,
+   "n_runs": 2,
+   "density": 0.3796,
+   "texture": 1.95,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": null,
+   "runs": [
+    [
+     620,
+     625,
+     670,
+     677
+    ],
+    [
+     628,
+     631,
+     675,
+     678
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#D61D19",
+   "y0": 734,
+   "y1": 787,
+   "baseline": 788,
+   "cap_top": 734,
+   "cap": 54,
+   "x_height": 54,
+   "left": 367,
+   "right": 531,
+   "width": 165,
+   "n_runs": 2,
+   "density": 0.1911,
+   "texture": 1.53,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.3333333333333333,
+   "runs": [
+    [
+     367,
+     419,
+     734,
+     787
+    ],
+    [
+     529,
+     531,
+     754,
+     757
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#D81C18",
+   "y0": 1046,
+   "y1": 1097,
+   "baseline": 1094,
+   "cap_top": 1046,
+   "cap": 48,
+   "x_height": 4,
+   "left": 106,
+   "right": 719,
+   "width": 614,
+   "n_runs": 7,
+   "density": 0.334,
+   "texture": 1.65,
+   "slope": 0.16,
+   "warp": 0.072,
+   "stem_ratio": 0.125,
+   "runs": [
+    [
+     106,
+     108,
+     1090,
+     1093
+    ],
+    [
+     352,
+     357,
+     1089,
+     1096
+    ],
+    [
+     448,
+     453,
+     1079,
+     1086
+    ],
+    [
+     472,
+     478,
+     1077,
+     1093
+    ],
+    [
+     680,
+     681,
+     1072,
+     1075
+    ],
+    [
+     684,
+     719,
+     1046,
+     1093
+    ],
+    [
+     698,
+     699,
+     1093,
+     1097
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#D71E1C",
+   "y0": 1168,
+   "y1": 1233,
+   "baseline": 1234,
+   "cap_top": 1168,
+   "cap": 66,
+   "x_height": 66,
+   "left": 708,
+   "right": 747,
+   "width": 40,
+   "n_runs": 2,
+   "density": 0.464,
+   "texture": 2.07,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.07575757575757576,
+   "runs": [
+    [
+     708,
+     743,
+     1168,
+     1233
+    ],
+    [
+     746,
+     747,
+     1215,
+     1218
+    ]
+   ]
+  }
+ ],
+ "assigned": [],
+ "artwork": [
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 148981,
+   "box": [
+    0,
+    0,
+    707,
+    1535
+   ],
+   "fill": 0.137,
+   "rgb": "#DC1D1A"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 194160,
+   "box": [
+    751,
+    0,
+    1023,
+    1455
+   ],
+   "fill": 0.488,
+   "rgb": "#DA1715"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 13558,
+   "box": [
+    111,
+    160,
+    208,
+    345
+   ],
+   "fill": 0.744,
+   "rgb": "#E11F1C"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 22818,
+   "box": [
+    720,
+    223,
+    902,
+    398
+   ],
+   "fill": 0.708,
+   "rgb": "#D91A16"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 7509,
+   "box": [
+    349,
+    262,
+    455,
+    358
+   ],
+   "fill": 0.723,
+   "rgb": "#DF1E1B"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 56910,
+   "box": [
+    183,
+    289,
+    493,
+    757
+   ],
+   "fill": 0.39,
+   "rgb": "#DE1D1A"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 19735,
+   "box": [
+    349,
+    344,
+    506,
+    518
+   ],
+   "fill": 0.714,
+   "rgb": "#DC1E1A"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 12295,
+   "box": [
+    598,
+    510,
+    732,
+    643
+   ],
+   "fill": 0.68,
+   "rgb": "#D41B17"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 9231,
+   "box": [
+    469,
+    575,
+    566,
+    696
+   ],
+   "fill": 0.772,
+   "rgb": "#D41C18"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 20336,
+   "box": [
+    276,
+    743,
+    385,
+    1001
+   ],
+   "fill": 0.714,
+   "rgb": "#DB1C18"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 8551,
+   "box": [
+    417,
+    827,
+    492,
+    961
+   ],
+   "fill": 0.833,
+   "rgb": "#DA1B17"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 3594,
+   "box": [
+    872,
+    829,
+    933,
+    895
+   ],
+   "fill": 0.865,
+   "rgb": "#D81815"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 14605,
+   "box": [
+    130,
+    952,
+    240,
+    1112
+   ],
+   "fill": 0.817,
+   "rgb": "#DC1D1A"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 53861,
+   "box": [
+    590,
+    1009,
+    841,
+    1535
+   ],
+   "fill": 0.406,
+   "rgb": "#CF1916"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 34388,
+   "box": [
+    266,
+    1015,
+    599,
+    1264
+   ],
+   "fill": 0.412,
+   "rgb": "#D81C18"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 7222,
+   "box": [
+    529,
+    1274,
+    615,
+    1374
+   ],
+   "fill": 0.822,
+   "rgb": "#D41A18"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 31773,
+   "box": [
+    315,
+    1392,
+    639,
+    1535
+   ],
+   "fill": 0.679,
+   "rgb": "#D31B18"
+  },
+  {
+   "colour": "red",
+   "kind": "spans the page",
+   "px": 120972,
+   "box": [
+    44,
+    971,
+    535,
+    1535
+   ],
+   "fill": 0.435,
+   "rgb": "#D31F1B"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "red",
+   "y0": 0,
+   "y1": 22,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 35,
+   "y1": 288,
+   "why": "no shared baseline (6% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 178,
+   "y1": 181,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 590,
+   "y1": 951,
+   "why": "no shared baseline (7% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 617,
+   "y1": 621,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 627,
+   "y1": 701,
+   "why": "no shared baseline (17% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 635,
+   "y1": 671,
+   "why": "no shared baseline (29% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 680,
+   "y1": 684,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1094,
+   "y1": 1116,
+   "why": "no shared baseline (10% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1140,
+   "y1": 1175,
+   "why": "no shared baseline (23% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1242,
+   "y1": 1245,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1247,
+   "y1": 1250,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1252,
+   "y1": 1273,
+   "why": "no shared baseline (17% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1296,
+   "y1": 1320,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1342,
+   "y1": 1483,
+   "why": "no shared baseline (9% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1531,
+   "y1": 1535,
+   "why": "only 1 glyph components"
+  }
+ ],
+ "groups": {},
+ "ambiguities": [
+  {
+   "kind": "no_alignment",
+   "detail": "cannot align 8 copy lines to 4 bands"
+  }
+ ],
+ "knobs": {
+  "solid_radius": 24,
+  "rule_length": 160,
+  "rule_thick": 5,
+  "min_glyphs": 2,
+  "contrast": 40,
+  "window": 61,
+  "wrap_cap_ratio": 1.3,
+  "artwork": "mask",
+  "face": []
+ }
+}

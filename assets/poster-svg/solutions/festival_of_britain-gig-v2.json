@@ -1,0 +1,2762 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/festival_of_britain-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#FEFEFE",
+ "median_texture": 0.14,
+ "alignment": "ok",
+ "alignment_cost": 0.126,
+ "lines": [
+  {
+   "colour": "blue",
+   "rgb": "#132E83",
+   "y0": 25,
+   "y1": 54,
+   "baseline": 49,
+   "cap_top": 25,
+   "cap": 24,
+   "x_height": 17,
+   "lower_frac": 0.815,
+   "left": 298,
+   "right": 740,
+   "width": 443,
+   "n_runs": 30,
+   "density": 0.33,
+   "texture": 0.05,
+   "slope": -0.01,
+   "warp": 0.016,
+   "stem_ratio": 0.20833333333333334,
+   "runs": [
+    [
+     298,
+     313,
+     25,
+     48
+    ],
+    [
+     316,
+     329,
+     32,
+     48
+    ],
+    [
+     333,
+     337,
+     25,
+     48
+    ],
+    [
+     340,
+     354,
+     32,
+     48
+    ],
+    [
+     367,
+     379,
+     25,
+     48
+    ],
+    [
+     382,
+     387,
+     25,
+     30
+    ],
+    [
+     382,
+     386,
+     32,
+     48
+    ],
+    [
+     390,
+     404,
+     32,
+     54
+    ],
+    [
+     408,
+     422,
+     25,
+     48
+    ],
+    [
+     424,
+     434,
+     28,
+     48
+    ],
+    [
+     448,
+     463,
+     25,
+     47
+    ],
+    [
+     466,
+     475,
+     32,
+     48
+    ],
+    [
+     476,
+     491,
+     32,
+     48
+    ],
+    [
+     495,
+     518,
+     32,
+     47
+    ],
+    [
+     521,
+     536,
+     32,
+     48
+    ],
+    [
+     538,
+     548,
+     28,
+     48
+    ],
+    [
+     552,
+     555,
+     25,
+     30
+    ],
+    [
+     552,
+     555,
+     32,
+     47
+    ],
+    [
+     559,
+     574,
+     32,
+     48
+    ],
+    [
+     577,
+     591,
+     32,
+     47
+    ],
+    [
+     594,
+     605,
+     32,
+     48
+    ],
+    [
+     617,
+     632,
+     32,
+     54
+    ],
+    [
+     635,
+     644,
+     32,
+     47
+    ],
+    [
+     645,
+     660,
+     32,
+     48
+    ],
+    [
+     662,
+     673,
+     32,
+     48
+    ],
+    [
+     676,
+     689,
+     32,
+     48
+    ],
+    [
+     693,
+     706,
+     32,
+     48
+    ],
+    [
+     709,
+     719,
+     28,
+     48
+    ],
+    [
+     722,
+     732,
+     32,
+     48
+    ],
+    [
+     736,
+     740,
+     43,
+     48
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#E71C1A",
+   "y0": 76,
+   "y1": 205,
+   "baseline": 204,
+   "cap_top": 76,
+   "cap": 128,
+   "x_height": 125,
+   "lower_frac": 0.0,
+   "left": 83,
+   "right": 937,
+   "width": 855,
+   "n_runs": 7,
+   "density": 0.4685,
+   "texture": 0.0,
+   "slope": -0.05,
+   "warp": 0.005,
+   "stem_ratio": 0.23076923076923078,
+   "runs": [
+    [
+     83,
+     196,
+     76,
+     205
+    ],
+    [
+     207,
+     331,
+     78,
+     203
+    ],
+    [
+     349,
+     446,
+     79,
+     203
+    ],
+    [
+     449,
+     571,
+     79,
+     203
+    ],
+    [
+     588,
+     666,
+     79,
+     203
+    ],
+    [
+     688,
+     782,
+     79,
+     203
+    ],
+    [
+     830,
+     937,
+     78,
+     204
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#E61B1A",
+   "y0": 225,
+   "y1": 351,
+   "baseline": 350,
+   "cap_top": 225,
+   "cap": 125,
+   "x_height": 123,
+   "lower_frac": 0.0,
+   "left": 78,
+   "right": 951,
+   "width": 874,
+   "n_runs": 8,
+   "density": 0.4633,
+   "texture": 0.0,
+   "slope": 0.09,
+   "warp": 0.006,
+   "stem_ratio": 0.2283464566929134,
+   "runs": [
+    [
+     78,
+     167,
+     227,
+     349
+    ],
+    [
+     185,
+     284,
+     227,
+     349
+    ],
+    [
+     312,
+     390,
+     227,
+     349
+    ],
+    [
+     449,
+     521,
+     227,
+     349
+    ],
+    [
+     535,
+     604,
+     227,
+     349
+    ],
+    [
+     607,
+     716,
+     225,
+     351
+    ],
+    [
+     731,
+     840,
+     225,
+     351
+    ],
+    [
+     857,
+     951,
+     227,
+     349
+    ]
+   ]
+  },
+  {
+   "colour": "blue",
+   "rgb": "#133288",
+   "y0": 371,
+   "y1": 403,
+   "baseline": 397,
+   "cap_top": 371,
+   "cap": 26,
+   "x_height": 18,
+   "lower_frac": 0.75,
+   "left": 277,
+   "right": 744,
+   "width": 468,
+   "n_runs": 25,
+   "density": 0.311,
+   "texture": 0.14,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.19230769230769232,
+   "runs": [
+    [
+     277,
+     301,
+     379,
+     396
+    ],
+    [
+     305,
+     309,
+     371,
+     376
+    ],
+    [
+     305,
+     309,
+     379,
+     396
+    ],
+    [
+     313,
+     324,
+     374,
+     396
+    ],
+    [
+     327,
+     342,
+     371,
+     396
+    ],
+    [
+     355,
+     367,
+     379,
+     396
+    ],
+    [
+     370,
+     385,
+     379,
+     396
+    ],
+    [
+     389,
+     405,
+     379,
+     403
+    ],
+    [
+     409,
+     425,
+     379,
+     403
+    ],
+    [
+     428,
+     444,
+     379,
+     396
+    ],
+    [
+     448,
+     457,
+     379,
+     396
+    ],
+    [
+     460,
+     471,
+     374,
+     396
+    ],
+    [
+     482,
+     493,
+     371,
+     396
+    ],
+    [
+     496,
+     506,
+     379,
+     396
+    ],
+    [
+     508,
+     524,
+     379,
+     396
+    ],
+    [
+     527,
+     551,
+     379,
+     396
+    ],
+    [
+     564,
+     588,
+     372,
+     396
+    ],
+    [
+     592,
+     607,
+     379,
+     396
+    ],
+    [
+     611,
+     626,
+     379,
+     396
+    ],
+    [
+     630,
+     643,
+     379,
+     396
+    ],
+    [
+     656,
+     679,
+     371,
+     396
+    ],
+    [
+     682,
+     692,
+     379,
+     396
+    ],
+    [
+     694,
+     708,
+     379,
+     396
+    ],
+    [
+     712,
+     727,
+     379,
+     396
+    ],
+    [
+     729,
+     744,
+     379,
+     396
+    ]
+   ]
+  },
+  {
+   "colour": "blue",
+   "rgb": "#0A368D",
+   "y0": 1123,
+   "y1": 1181,
+   "baseline": 1170,
+   "cap_top": 1123,
+   "cap": 47,
+   "x_height": 33,
+   "lower_frac": 0.633,
+   "left": 71,
+   "right": 959,
+   "width": 889,
+   "n_runs": 32,
+   "density": 0.3171,
+   "texture": 0.18,
+   "slope": 0.06,
+   "warp": 0.034,
+   "stem_ratio": 0.1702127659574468,
+   "runs": [
+    [
+     71,
+     94,
+     1124,
+     1168
+    ],
+    [
+     99,
+     115,
+     1137,
+     1168
+    ],
+    [
+     122,
+     130,
+     1123,
+     1132
+    ],
+    [
+     122,
+     129,
+     1137,
+     1168
+    ],
+    [
+     136,
+     163,
+     1123,
+     1169
+    ],
+    [
+     169,
+     192,
+     1136,
+     1169
+    ],
+    [
+     196,
+     223,
+     1137,
+     1181
+    ],
+    [
+     242,
+     258,
+     1124,
+     1168
+    ],
+    [
+     265,
+     292,
+     1123,
+     1168
+    ],
+    [
+     297,
+     316,
+     1129,
+     1169
+    ],
+    [
+     321,
+     346,
+     1123,
+     1168
+    ],
+    [
+     368,
+     395,
+     1123,
+     1169
+    ],
+    [
+     399,
+     424,
+     1136,
+     1169
+    ],
+    [
+     430,
+     457,
+     1136,
+     1181
+    ],
+    [
+     460,
+     479,
+     1129,
+     1169
+    ],
+    [
+     483,
+     507,
+     1136,
+     1169
+    ],
+    [
+     513,
+     553,
+     1136,
+     1168
+    ],
+    [
+     561,
+     588,
+     1124,
+     1169
+    ],
+    [
+     592,
+     617,
+     1137,
+     1169
+    ],
+    [
+     623,
+     639,
+     1137,
+     1168
+    ],
+    [
+     640,
+     649,
+     1159,
+     1177
+    ],
+    [
+     668,
+     693,
+     1124,
+     1169
+    ],
+    [
+     698,
+     722,
+     1137,
+     1169
+    ],
+    [
+     726,
+     750,
+     1137,
+     1169
+    ],
+    [
+     755,
+     770,
+     1137,
+     1168
+    ],
+    [
+     773,
+     791,
+     1137,
+     1169
+    ],
+    [
+     809,
+     831,
+     1124,
+     1168
+    ],
+    [
+     834,
+     841,
+     1159,
+     1169
+    ],
+    [
+     846,
+     867,
+     1124,
+     1169
+    ],
+    [
+     871,
+     896,
+     1124,
+     1169
+    ],
+    [
+     900,
+     923,
+     1137,
+     1181
+    ],
+    [
+     927,
+     959,
+     1137,
+     1168
+    ]
+   ]
+  },
+  {
+   "colour": "blue",
+   "rgb": "#0F368D",
+   "y0": 1201,
+   "y1": 1243,
+   "baseline": 1238,
+   "cap_top": 1201,
+   "cap": 37,
+   "x_height": 37,
+   "lower_frac": 0.487,
+   "left": 67,
+   "right": 960,
+   "width": 894,
+   "n_runs": 42,
+   "density": 0.3524,
+   "texture": 0.24,
+   "slope": 0.02,
+   "warp": 0.036,
+   "stem_ratio": 0.15384615384615385,
+   "runs": [
+    [
+     67,
+     88,
+     1201,
+     1237
+    ],
+    [
+     91,
+     109,
+     1201,
+     1237
+    ],
+    [
+     113,
+     131,
+     1212,
+     1238
+    ],
+    [
+     145,
+     170,
+     1201,
+     1237
+    ],
+    [
+     174,
+     192,
+     1212,
+     1237
+    ],
+    [
+     196,
+     213,
+     1212,
+     1237
+    ],
+    [
+     218,
+     235,
+     1201,
+     1237
+    ],
+    [
+     240,
+     259,
+     1212,
+     1238
+    ],
+    [
+     264,
+     276,
+     1212,
+     1237
+    ],
+    [
+     292,
+     313,
+     1201,
+     1237
+    ],
+    [
+     315,
+     334,
+     1212,
+     1237
+    ],
+    [
+     338,
+     357,
+     1212,
+     1238
+    ],
+    [
+     361,
+     390,
+     1212,
+     1237
+    ],
+    [
+     394,
+     409,
+     1212,
+     1237
+    ],
+    [
+     411,
+     417,
+     1230,
+     1243
+    ],
+    [
+     428,
+     439,
+     1202,
+     1237
+    ],
+    [
+     443,
+     463,
+     1201,
+     1237
+    ],
+    [
+     475,
+     496,
+     1201,
+     1237
+    ],
+    [
+     496,
+     512,
+     1212,
+     1238
+    ],
+    [
+     517,
+     522,
+     1201,
+     1237
+    ],
+    [
+     527,
+     532,
+     1201,
+     1237
+    ],
+    [
+     536,
+     554,
+     1212,
+     1237
+    ],
+    [
+     556,
+     583,
+     1212,
+     1237
+    ],
+    [
+     598,
+     614,
+     1201,
+     1237
+    ],
+    [
+     617,
+     634,
+     1212,
+     1238
+    ],
+    [
+     639,
+     656,
+     1212,
+     1237
+    ],
+    [
+     660,
+     677,
+     1212,
+     1237
+    ],
+    [
+     680,
+     686,
+     1230,
+     1243
+    ],
+    [
+     701,
+     720,
+     1201,
+     1237
+    ],
+    [
+     724,
+     735,
+     1212,
+     1237
+    ],
+    [
+     738,
+     743,
+     1201,
+     1208
+    ],
+    [
+     738,
+     743,
+     1212,
+     1237
+    ],
+    [
+     747,
+     761,
+     1212,
+     1237
+    ],
+    [
+     763,
+     775,
+     1205,
+     1237
+    ],
+    [
+     777,
+     795,
+     1212,
+     1237
+    ],
+    [
+     798,
+     803,
+     1201,
+     1237
+    ],
+    [
+     816,
+     847,
+     1201,
+     1237
+    ],
+    [
+     849,
+     870,
+     1201,
+     1237
+    ],
+    [
+     872,
+     891,
+     1201,
+     1237
+    ],
+    [
+     902,
+     919,
+     1201,
+     1237
+    ],
+    [
+     921,
+     935,
+     1201,
+     1238
+    ],
+    [
+     938,
+     960,
+     1201,
+     1239
+    ]
+   ]
+  },
+  {
+   "colour": "green",
+   "rgb": "#1B8032",
+   "y0": 1307,
+   "y1": 1332,
+   "baseline": 1332,
+   "cap_top": 1307,
+   "cap": 25,
+   "x_height": 18,
+   "lower_frac": 0.533,
+   "left": 220,
+   "right": 794,
+   "width": 575,
+   "n_runs": 32,
+   "density": 0.3518,
+   "texture": 0.28,
+   "slope": 0.0,
+   "warp": 0.007,
+   "stem_ratio": 0.19230769230769232,
+   "runs": [
+    [
+     220,
+     238,
+     1307,
+     1331
+    ],
+    [
+     241,
+     246,
+     1308,
+     1312
+    ],
+    [
+     241,
+     245,
+     1315,
+     1331
+    ],
+    [
+     250,
+     263,
+     1314,
+     1331
+    ],
+    [
+     267,
+     282,
+     1307,
+     1331
+    ],
+    [
+     284,
+     299,
+     1314,
+     1331
+    ],
+    [
+     302,
+     313,
+     1310,
+     1331
+    ],
+    [
+     316,
+     327,
+     1314,
+     1331
+    ],
+    [
+     332,
+     336,
+     1327,
+     1331
+    ],
+    [
+     351,
+     367,
+     1307,
+     1331
+    ],
+    [
+     372,
+     380,
+     1308,
+     1331
+    ],
+    [
+     386,
+     400,
+     1307,
+     1331
+    ],
+    [
+     413,
+     426,
+     1314,
+     1331
+    ],
+    [
+     430,
+     445,
+     1307,
+     1331
+    ],
+    [
+     449,
+     463,
+     1315,
+     1331
+    ],
+    [
+     466,
+     480,
+     1314,
+     1331
+    ],
+    [
+     483,
+     497,
+     1314,
+     1331
+    ],
+    [
+     500,
+     514,
+     1314,
+     1331
+    ],
+    [
+     518,
+     531,
+     1314,
+     1331
+    ],
+    [
+     545,
+     559,
+     1307,
+     1332
+    ],
+    [
+     572,
+     587,
+     1307,
+     1331
+    ],
+    [
+     592,
+     601,
+     1308,
+     1331
+    ],
+    [
+     606,
+     619,
+     1308,
+     1331
+    ],
+    [
+     632,
+     647,
+     1314,
+     1331
+    ],
+    [
+     650,
+     663,
+     1314,
+     1331
+    ],
+    [
+     675,
+     685,
+     1310,
+     1331
+    ],
+    [
+     688,
+     702,
+     1307,
+     1331
+    ],
+    [
+     705,
+     719,
+     1314,
+     1331
+    ],
+    [
+     730,
+     745,
+     1307,
+     1331
+    ],
+    [
+     749,
+     764,
+     1314,
+     1331
+    ],
+    [
+     766,
+     781,
+     1314,
+     1331
+    ],
+    [
+     785,
+     794,
+     1314,
+     1331
+    ]
+   ]
+  },
+  {
+   "colour": "green",
+   "rgb": "#1C7E32",
+   "y0": 1350,
+   "y1": 1378,
+   "baseline": 1373,
+   "cap_top": 1350,
+   "cap": 23,
+   "x_height": 15,
+   "lower_frac": 0.681,
+   "left": 125,
+   "right": 895,
+   "width": 771,
+   "n_runs": 51,
+   "density": 0.3087,
+   "texture": 0.49,
+   "slope": -0.0,
+   "warp": 0.006,
+   "stem_ratio": 0.1956521739130435,
+   "runs": [
+    [
+     125,
+     143,
+     1351,
+     1372
+    ],
+    [
+     145,
+     157,
+     1358,
+     1372
+    ],
+    [
+     160,
+     171,
+     1357,
+     1372
+    ],
+    [
+     175,
+     179,
+     1351,
+     1355
+    ],
+    [
+     175,
+     179,
+     1358,
+     1372
+    ],
+    [
+     182,
+     186,
+     1351,
+     1372
+    ],
+    [
+     189,
+     201,
+     1358,
+     1372
+    ],
+    [
+     205,
+     219,
+     1351,
+     1372
+    ],
+    [
+     222,
+     226,
+     1351,
+     1372
+    ],
+    [
+     229,
+     242,
+     1358,
+     1372
+    ],
+    [
+     255,
+     263,
+     1350,
+     1372
+    ],
+    [
+     266,
+     275,
+     1358,
+     1372
+    ],
+    [
+     276,
+     291,
+     1358,
+     1372
+    ],
+    [
+     294,
+     315,
+     1357,
+     1372
+    ],
+    [
+     327,
+     342,
+     1351,
+     1372
+    ],
+    [
+     345,
+     358,
+     1351,
+     1372
+    ],
+    [
+     361,
+     374,
+     1357,
+     1373
+    ],
+    [
+     386,
+     403,
+     1351,
+     1372
+    ],
+    [
+     406,
+     419,
+     1358,
+     1372
+    ],
+    [
+     422,
+     434,
+     1357,
+     1372
+    ],
+    [
+     438,
+     451,
+     1352,
+     1372
+    ],
+    [
+     454,
+     468,
+     1358,
+     1372
+    ],
+    [
+     471,
+     479,
+     1358,
+     1372
+    ],
+    [
+     492,
+     506,
+     1351,
+     1372
+    ],
+    [
+     509,
+     523,
+     1358,
+     1372
+    ],
+    [
+     526,
+     540,
+     1358,
+     1372
+    ],
+    [
+     543,
+     564,
+     1357,
+     1372
+    ],
+    [
+     567,
+     577,
+     1358,
+     1372
+    ],
+    [
+     589,
+     603,
+     1352,
+     1372
+    ],
+    [
+     606,
+     618,
+     1358,
+     1372
+    ],
+    [
+     621,
+     629,
+     1358,
+     1372
+    ],
+    [
+     641,
+     655,
+     1357,
+     1372
+    ],
+    [
+     658,
+     666,
+     1357,
+     1372
+    ],
+    [
+     677,
+     692,
+     1358,
+     1378
+    ],
+    [
+     694,
+     706,
+     1358,
+     1372
+    ],
+    [
+     710,
+     713,
+     1351,
+     1372
+    ],
+    [
+     717,
+     721,
+     1351,
+     1372
+    ],
+    [
+     724,
+     729,
+     1351,
+     1355
+    ],
+    [
+     725,
+     728,
+     1358,
+     1372
+    ],
+    [
+     732,
+     746,
+     1357,
+     1378
+    ],
+    [
+     749,
+     762,
+     1351,
+     1372
+    ],
+    [
+     764,
+     774,
+     1354,
+     1372
+    ],
+    [
+     776,
+     791,
+     1357,
+     1378
+    ],
+    [
+     794,
+     802,
+     1358,
+     1372
+    ],
+    [
+     803,
+     818,
+     1358,
+     1372
+    ],
+    [
+     820,
+     824,
+     1367,
+     1372
+    ],
+    [
+     827,
+     839,
+     1357,
+     1372
+    ],
+    [
+     842,
+     855,
+     1357,
+     1372
+    ],
+    [
+     858,
+     863,
+     1368,
+     1372
+    ],
+    [
+     866,
+     879,
+     1358,
+     1372
+    ],
+    [
+     882,
+     895,
+     1351,
+     1372
+    ]
+   ]
+  },
+  {
+   "colour": "blue",
+   "rgb": "#0E348A",
+   "y0": 1446,
+   "y1": 1485,
+   "baseline": 1477,
+   "cap_top": 1447,
+   "cap": 30,
+   "x_height": 21,
+   "lower_frac": 0.609,
+   "left": 280,
+   "right": 773,
+   "width": 494,
+   "n_runs": 28,
+   "density": 0.3335,
+   "texture": 0.0,
+   "slope": 0.02,
+   "warp": 0.017,
+   "stem_ratio": 0.22580645161290322,
+   "runs": [
+    [
+     280,
+     305,
+     1447,
+     1476
+    ],
+    [
+     309,
+     314,
+     1447,
+     1476
+    ],
+    [
+     319,
+     325,
+     1447,
+     1476
+    ],
+    [
+     340,
+     357,
+     1456,
+     1477
+    ],
+    [
+     361,
+     380,
+     1456,
+     1485
+    ],
+    [
+     384,
+     402,
+     1456,
+     1477
+    ],
+    [
+     405,
+     420,
+     1456,
+     1477
+    ],
+    [
+     423,
+     430,
+     1470,
+     1477
+    ],
+    [
+     446,
+     466,
+     1447,
+     1476
+    ],
+    [
+     469,
+     486,
+     1456,
+     1477
+    ],
+    [
+     490,
+     502,
+     1456,
+     1476
+    ],
+    [
+     516,
+     534,
+     1456,
+     1477
+    ],
+    [
+     538,
+     555,
+     1456,
+     1476
+    ],
+    [
+     558,
+     572,
+     1450,
+     1477
+    ],
+    [
+     576,
+     581,
+     1447,
+     1453
+    ],
+    [
+     576,
+     581,
+     1456,
+     1476
+    ],
+    [
+     586,
+     592,
+     1447,
+     1476
+    ],
+    [
+     608,
+     636,
+     1456,
+     1476
+    ],
+    [
+     640,
+     647,
+     1447,
+     1453
+    ],
+    [
+     641,
+     646,
+     1456,
+     1476
+    ],
+    [
+     650,
+     670,
+     1447,
+     1477
+    ],
+    [
+     674,
+     691,
+     1456,
+     1476
+    ],
+    [
+     696,
+     702,
+     1446,
+     1453
+    ],
+    [
+     696,
+     702,
+     1456,
+     1476
+    ],
+    [
+     706,
+     725,
+     1456,
+     1485
+    ],
+    [
+     729,
+     747,
+     1447,
+     1477
+    ],
+    [
+     750,
+     763,
+     1450,
+     1477
+    ],
+    [
+     766,
+     773,
+     1470,
+     1477
+    ]
+   ]
+  }
+ ],
+ "assigned": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:",
+   "bands": [
+    0
+   ]
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD",
+   "bands": [
+    1,
+    2
+   ]
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace",
+   "bands": [
+    3
+   ]
+  },
+  {
+   "key": "date",
+   "text": "Friday 19th September, doors 7:30pm",
+   "bands": [
+    4
+   ]
+  },
+  {
+   "key": "venue",
+   "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+   "bands": [
+    5
+   ]
+  },
+  {
+   "key": "tickets",
+   "text": "\u00a312 advance / \u00a315 on the door",
+   "bands": [
+    6
+   ]
+  },
+  {
+   "key": "ticket_source",
+   "text": "The Anchor Rooms bar or pallightpro.co.uk",
+   "bands": [
+    7
+   ]
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight.",
+   "bands": [
+    8
+   ]
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 1237,
+   "box": [
+    367,
+    1086,
+    613,
+    1092
+   ],
+   "fill": 0.715,
+   "rgb": "#0C307F"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 3719,
+   "box": [
+    50,
+    1273,
+    973,
+    1277
+   ],
+   "fill": 0.805,
+   "rgb": "#D71618"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 4618,
+   "box": [
+    50,
+    1395,
+    973,
+    1399
+   ],
+   "fill": 1.0,
+   "rgb": "#CA9C2D"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 7061,
+   "box": [
+    513,
+    411,
+    561,
+    717
+   ],
+   "fill": 0.469,
+   "rgb": "#003F9A"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 1568,
+   "box": [
+    292,
+    489,
+    335,
+    533
+   ],
+   "fill": 0.792,
+   "rgb": "#013E99"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 10493,
+   "box": [
+    101,
+    675,
+    495,
+    730
+   ],
+   "fill": 0.474,
+   "rgb": "#013F9A"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 10382,
+   "box": [
+    529,
+    732,
+    926,
+    788
+   ],
+   "fill": 0.458,
+   "rgb": "#013F9A"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 7271,
+   "box": [
+    463,
+    747,
+    511,
+    1067
+   ],
+   "fill": 0.462,
+   "rgb": "#023F9B"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 1335,
+   "box": [
+    667,
+    910,
+    707,
+    951
+   ],
+   "fill": 0.775,
+   "rgb": "#023F9A"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 6908,
+   "box": [
+    464,
+    410,
+    511,
+    717
+   ],
+   "fill": 0.467,
+   "rgb": "#EA1D1B"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1614,
+   "box": [
+    838,
+    638,
+    883,
+    682
+   ],
+   "fill": 0.78,
+   "rgb": "#EA1F1D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 10207,
+   "box": [
+    529,
+    676,
+    921,
+    730
+   ],
+   "fill": 0.472,
+   "rgb": "#E91E1B"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 10221,
+   "box": [
+    104,
+    733,
+    495,
+    789
+   ],
+   "fill": 0.457,
+   "rgb": "#EA1E1C"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 7094,
+   "box": [
+    513,
+    748,
+    560,
+    1067
+   ],
+   "fill": 0.462,
+   "rgb": "#EA1D1B"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1436,
+   "box": [
+    313,
+    974,
+    355,
+    1015
+   ],
+   "fill": 0.795,
+   "rgb": "#EC201D"
+  },
+  {
+   "colour": "green",
+   "kind": "inside an excluded box",
+   "px": 1484,
+   "box": [
+    749,
+    478,
+    791,
+    520
+   ],
+   "fill": 0.803,
+   "rgb": "#06802F"
+  },
+  {
+   "colour": "green",
+   "kind": "inside an excluded box",
+   "px": 1660,
+   "box": [
+    567,
+    573,
+    650,
+    676
+   ],
+   "fill": 0.19,
+   "rgb": "#088131"
+  },
+  {
+   "colour": "green",
+   "kind": "inside an excluded box",
+   "px": 1631,
+   "box": [
+    376,
+    577,
+    456,
+    676
+   ],
+   "fill": 0.201,
+   "rgb": "#09802E"
+  },
+  {
+   "colour": "green",
+   "kind": "inside an excluded box",
+   "px": 1612,
+   "box": [
+    372,
+    788,
+    457,
+    893
+   ],
+   "fill": 0.177,
+   "rgb": "#098031"
+  },
+  {
+   "colour": "green",
+   "kind": "inside an excluded box",
+   "px": 1578,
+   "box": [
+    569,
+    788,
+    651,
+    893
+   ],
+   "fill": 0.179,
+   "rgb": "#0A8031"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5578,
+   "box": [
+    231,
+    418,
+    489,
+    697
+   ],
+   "fill": 0.077,
+   "rgb": "#D19C3A"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5923,
+   "box": [
+    536,
+    419,
+    893,
+    698
+   ],
+   "fill": 0.059,
+   "rgb": "#D09D3D"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 1054,
+   "box": [
+    130,
+    578,
+    277,
+    709
+   ],
+   "fill": 0.054,
+   "rgb": "#C99E43"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 642,
+   "box": [
+    492,
+    712,
+    531,
+    753
+   ],
+   "fill": 0.382,
+   "rgb": "#D69C2F"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 3464,
+   "box": [
+    69,
+    764,
+    423,
+    1053
+   ],
+   "fill": 0.034,
+   "rgb": "#D09A3D"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6147,
+   "box": [
+    536,
+    765,
+    898,
+    1057
+   ],
+   "fill": 0.058,
+   "rgb": "#D29B39"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 2868,
+   "box": [
+    353,
+    794,
+    487,
+    1005
+   ],
+   "fill": 0.1,
+   "rgb": "#D59D35"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 1083,
+   "box": [
+    133,
+    819,
+    201,
+    854
+   ],
+   "fill": 0.436,
+   "rgb": "#D29729"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 800,
+   "box": [
+    824,
+    824,
+    890,
+    861
+   ],
+   "fill": 0.314,
+   "rgb": "#D3982B"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 449,
+   "box": [
+    66,
+    1418,
+    156,
+    1479
+   ],
+   "fill": 0.08,
+   "rgb": "#C79947"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 937,
+   "box": [
+    870,
+    1418,
+    960,
+    1511
+   ],
+   "fill": 0.11,
+   "rgb": "#C39B4C"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 428,
+   "box": [
+    49,
+    1450,
+    127,
+    1498
+   ],
+   "fill": 0.111,
+   "rgb": "#CA9943"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "dark",
+   "y0": 45,
+   "y1": 48,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 390,
+   "y1": 396,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 408,
+   "y1": 411,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1165,
+   "y1": 1168,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1315,
+   "y1": 1318,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1364,
+   "y1": 1372,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1447,
+   "y1": 1451,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 32,
+   "y1": 38,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1086,
+   "y1": 1092,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1138,
+   "y1": 1147,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 370,
+   "y1": 390,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "green",
+   "y0": 1315,
+   "y1": 1320,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 384,
+   "y1": 409,
+   "why": "only 2 glyph components"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "presenter",
+    "support",
+    "date",
+    "venue",
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "shape_glyphs": "",
+   "confidence": "low",
+   "margin": 0.004,
+   "distortions": [
+    {
+     "key": "presenter",
+     "ratio": 0.895,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "support",
+     "ratio": 0.896,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "date",
+     "ratio": 0.77,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "venue",
+     "ratio": 0.705,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    },
+    {
+     "key": "tickets",
+     "ratio": 1.177,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "ticket_source",
+     "ratio": 1.199,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "footer",
+     "ratio": 0.927,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Figtree",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Figtree-700.ttf",
+     "index": null,
+     "cap_ratio": 0.701,
+     "width_ratio": 0.8961,
+     "spread": 0.1738,
+     "stem_err": 0.0178,
+     "shape": null,
+     "score": 0.5154
+    },
+    {
+     "family": "Playfair Display",
+     "sub": "Regular",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/PlayfairDisplay-wght600.ttf",
+     "index": null,
+     "cap_ratio": 0.708,
+     "width_ratio": 0.9063,
+     "spread": 0.1774,
+     "stem_err": 0.0106,
+     "shape": null,
+     "score": 0.5174
+    },
+    {
+     "family": "Space Grotesk",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/SpaceGrotesk-700.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.858,
+     "spread": 0.1607,
+     "stem_err": 0.0157,
+     "shape": null,
+     "score": 0.5185
+    },
+    {
+     "family": "Libre Baskerville",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/LibreBaskerville-700.ttf",
+     "index": null,
+     "cap_ratio": 0.77,
+     "width_ratio": 0.8522,
+     "spread": 0.167,
+     "stem_err": 0.0039,
+     "shape": null,
+     "score": 0.5187
+    },
+    {
+     "family": "Raleway",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Raleway-700.ttf",
+     "index": null,
+     "cap_ratio": 0.71,
+     "width_ratio": 0.8777,
+     "spread": 0.1637,
+     "stem_err": 0.007,
+     "shape": null,
+     "score": 0.5215
+    },
+    {
+     "family": "Figtree",
+     "sub": "Light",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Figtree-wght700.ttf",
+     "index": null,
+     "cap_ratio": 0.701,
+     "width_ratio": 0.8961,
+     "spread": 0.1738,
+     "stem_err": 0.0214,
+     "shape": null,
+     "score": 0.5226
+    },
+    {
+     "family": "Archivo",
+     "sub": "SemiBold",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Archivo-600.ttf",
+     "index": null,
+     "cap_ratio": 0.686,
+     "width_ratio": 0.8986,
+     "spread": 0.1702,
+     "stem_err": 0.0131,
+     "shape": null,
+     "score": 0.5641
+    },
+    {
+     "family": "Public Sans",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/PublicSans-700.ttf",
+     "index": null,
+     "cap_ratio": 0.723,
+     "width_ratio": 0.9011,
+     "spread": 0.1751,
+     "stem_err": 0.0436,
+     "shape": null,
+     "score": 0.5664
+    },
+    {
+     "family": "Archivo",
+     "sub": "SemiBold",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Archivo-wdth93-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.686,
+     "width_ratio": 1.0005,
+     "spread": 0.191,
+     "stem_err": 0.4117,
+     "shape": null,
+     "score": 1.3135
+    },
+    {
+     "family": "Fira Sans Condensed",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/FiraSansCondensed-400.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 1.0019,
+     "spread": 0.183,
+     "stem_err": 0.2841,
+     "shape": null,
+     "score": 1.0421
+    },
+    {
+     "family": "Futura",
+     "sub": "Medium",
+     "weight": 500,
+     "embed": false,
+     "path": "/System/Library/Fonts/Supplemental/Futura.ttc",
+     "index": 0,
+     "cap_ratio": 0.75391,
+     "width_ratio": 0.9976,
+     "spread": 0.1732,
+     "stem_err": 0.2251,
+     "shape": null,
+     "score": 0.9225
+    },
+    {
+     "family": "Didot",
+     "sub": "Italic",
+     "weight": 400,
+     "embed": false,
+     "path": "/System/Library/Fonts/Supplemental/Didot.ttc",
+     "index": 1,
+     "cap_ratio": 0.712,
+     "width_ratio": 0.9975,
+     "spread": 0.1956,
+     "stem_err": 0.3431,
+     "shape": null,
+     "score": 1.2153
+    }
+   ]
+  },
+  "display": {
+   "lines": [
+    "headliner"
+   ],
+   "shape_glyphs": "RAVCOH",
+   "confidence": "low",
+   "margin": 0.109,
+   "distortions": [
+    {
+     "key": "headliner",
+     "ratio": 0.899,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Inter",
+     "sub": "Regular",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Inter-opsz14-wght800.ttf",
+     "index": null,
+     "cap_ratio": 0.72754,
+     "width_ratio": 0.9317,
+     "spread": 0.0,
+     "stem_err": 0.0275,
+     "shape": 0.7263,
+     "score": 1.1159
+    },
+    {
+     "family": "Public Sans",
+     "sub": "Thin",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/PublicSans-wght800.ttf",
+     "index": null,
+     "cap_ratio": 0.723,
+     "width_ratio": 0.9108,
+     "spread": 0.0,
+     "stem_err": 0.0196,
+     "shape": 0.8025,
+     "score": 1.2378
+    },
+    {
+     "family": "Roboto",
+     "sub": "Black",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Roboto-900.ttf",
+     "index": null,
+     "cap_ratio": 0.71094,
+     "width_ratio": 0.978,
+     "spread": 0.0,
+     "stem_err": 0.0412,
+     "shape": 0.869,
+     "score": 1.256
+    },
+    {
+     "family": "Figtree",
+     "sub": "Light",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Figtree-wght800.ttf",
+     "index": null,
+     "cap_ratio": 0.701,
+     "width_ratio": 0.9158,
+     "spread": 0.0,
+     "stem_err": 0.0095,
+     "shape": 0.9197,
+     "score": 1.3327
+    },
+    {
+     "family": "Poppins",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Poppins-700.ttf",
+     "index": null,
+     "cap_ratio": 0.702,
+     "width_ratio": 0.9237,
+     "spread": 0.0,
+     "stem_err": 0.0449,
+     "shape": 0.9586,
+     "score": 1.3352
+    },
+    {
+     "family": "Poppins",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Poppins-Bold.ttf",
+     "index": null,
+     "cap_ratio": 0.702,
+     "width_ratio": 0.9237,
+     "spread": 0.0,
+     "stem_err": 0.0449,
+     "shape": 0.9586,
+     "score": 1.3352
+    },
+    {
+     "family": "Anybody",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Anybody-700.ttf",
+     "index": null,
+     "cap_ratio": 0.675,
+     "width_ratio": 0.8997,
+     "spread": 0.0,
+     "stem_err": 0.0914,
+     "shape": 1.3229,
+     "score": 1.7116
+    },
+    {
+     "family": "Familjen Grotesk",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/FamiljenGrotesk-700.ttf",
+     "index": null,
+     "cap_ratio": 0.65,
+     "width_ratio": 0.9377,
+     "spread": 0.0,
+     "stem_err": 0.0667,
+     "shape": 1.2732,
+     "score": 1.7128
+    },
+    {
+     "family": "Space Grotesk",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/SpaceGrotesk-700.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0002,
+     "spread": 0.0,
+     "stem_err": 0.1797,
+     "shape": 1.3495,
+     "score": 2.0384
+    },
+    {
+     "family": "Rock Salt",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/RockSalt-400.ttf",
+     "index": null,
+     "cap_ratio": 1.04102,
+     "width_ratio": 0.9996,
+     "spread": 0.0,
+     "stem_err": 0.6778,
+     "shape": 4.0061,
+     "score": 5.6468
+    },
+    {
+     "family": "JetBrains Mono",
+     "sub": "Regular",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/JetBrainsMono-wght700.ttf",
+     "index": null,
+     "cap_ratio": 0.73,
+     "width_ratio": 0.9994,
+     "spread": 0.0,
+     "stem_err": 0.258,
+     "shape": 2.733,
+     "score": 3.5237
+    },
+    {
+     "family": "JetBrains Mono",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/JetBrainsMono-700.ttf",
+     "index": null,
+     "cap_ratio": 0.73,
+     "width_ratio": 0.9994,
+     "spread": 0.0,
+     "stem_err": 0.258,
+     "shape": 2.7703,
+     "score": 3.561
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "Figtree",
+    "Playfair Display",
+    "Space Grotesk"
+   ]
+  },
+  {
+   "kind": "face_choice",
+   "group": "display",
+   "confidence": "low",
+   "top": [
+    "Inter",
+    "Public Sans",
+    "Roboto"
+   ]
+  }
+ ],
+ "knobs": {
+  "solid_radius": 24,
+  "rule_length": 160,
+  "rule_thick": 5,
+  "min_glyphs": 3,
+  "contrast": 40,
+  "window": 61,
+  "wrap_cap_ratio": 1.3,
+  "artwork": "mask",
+  "face": [],
+  "exclude": [
+   "0,410,1024,1080",
+   "0,1400,140,1536",
+   "880,1400,1024,1536"
+  ],
+  "knockout": []
+ }
+}

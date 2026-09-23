@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536"
+     viewBox="0 0 1024 1536" role="img"
+     aria-label="Not converted to SVG. The headline is custom techno lettering distorted in perspective.">
+  <title>Not converted to SVG &#8212; Designers Republic &#8212; gig poster</title>
+  <style type="text/css"><![CDATA[
+    text { font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue",
+            Arial, sans-serif; fill: #2B2B2B; }
+    .label  { font-size: 22px; letter-spacing: 3px; fill: #6B6B6B; }
+    .head   { font-size: 54px; font-weight: 700; }
+    .subject{ font-size: 28px; fill: #6B6B6B; }
+    .reason { font-size: 28px; line-height: 40px; }
+  ]]></style>
+
+  <rect width="1024" height="1536" fill="#EFEEEC"/>
+  <rect x="56" y="56" width="912" height="1424"
+        fill="none" stroke="#C9C7C3" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <text class="label"   x="112" y="588">COULD NOT CONVERT</text>
+  <line x1="112" y1="618" x2="912" y2="618"
+        stroke="#C9C7C3" stroke-width="2"/>
+  <text class="head"    x="112" y="682">No SVG version</text>
+  <text class="subject" x="112" y="728">Designers Republic &#8212; gig poster</text>
+  <text class="reason"  x="112" y="798">
+    <tspan x="112" dy="0">The headline is custom techno lettering distorted in</tspan>
+    <tspan x="112" dy="40">perspective.</tspan>
+  </text>
+</svg>

@@ -14,3 +14,8 @@ memory
 .env
 .env.*
 .v2_working_files/
+
+# Local Claude Code state: the poster-to-svg skill is a symlink to its own
+# repo (github.com/ukslim/poster-to-svg), and settings.local.json is personal
+.claude/skills/
+.claude/settings.local.json

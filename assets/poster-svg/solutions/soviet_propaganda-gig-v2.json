@@ -1,0 +1,1939 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/soviet_propaganda-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#13130F",
+ "median_texture": 6.54,
+ "alignment": "weak alignment (mean cost 1.01)",
+ "alignment_cost": 1.014,
+ "lines": [
+  {
+   "colour": "yellow",
+   "rgb": "#F2DBAC",
+   "y0": 57,
+   "y1": 72,
+   "baseline": 73,
+   "cap_top": 57,
+   "cap": 16,
+   "x_height": 16,
+   "left": 212,
+   "right": 303,
+   "width": 92,
+   "n_runs": 2,
+   "density": 0.3546,
+   "texture": 3.78,
+   "stem_ratio": 0.5,
+   "runs": [
+    [
+     212,
+     279,
+     57,
+     72
+    ],
+    [
+     288,
+     303,
+     57,
+     62
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#DED1B4",
+   "y0": 268,
+   "y1": 272,
+   "baseline": 273,
+   "cap_top": 268,
+   "cap": 5,
+   "x_height": 4,
+   "left": 206,
+   "right": 579,
+   "width": 374,
+   "n_runs": 2,
+   "density": 0.0203,
+   "texture": 7.28,
+   "stem_ratio": null,
+   "runs": [
+    [
+     206,
+     208,
+     269,
+     272
+    ],
+    [
+     553,
+     579,
+     268,
+     272
+    ]
+   ]
+  },
+  {
+   "colour": "yellow",
+   "rgb": "#EFD3A0",
+   "y0": 318,
+   "y1": 428,
+   "baseline": 413,
+   "cap_top": 318,
+   "cap": 95,
+   "x_height": 73,
+   "left": 0,
+   "right": 311,
+   "width": 312,
+   "n_runs": 2,
+   "density": 0.241,
+   "texture": 4.31,
+   "stem_ratio": 0.2671232876712329,
+   "runs": [
+    [
+     0,
+     39,
+     340,
+     412
+    ],
+    [
+     105,
+     311,
+     318,
+     428
+    ]
+   ]
+  },
+  {
+   "colour": "red",
+   "rgb": "#83311B",
+   "y0": 482,
+   "y1": 504,
+   "baseline": 488,
+   "cap_top": 482,
+   "cap": 6,
+   "x_height": 6,
+   "left": 635,
+   "right": 1021,
+   "width": 387,
+   "n_runs": 2,
+   "density": 0.009,
+   "texture": 5.17,
+   "stem_ratio": null,
+   "runs": [
+    [
+     635,
+     640,
+     482,
+     487
+    ],
+    [
+     1019,
+     1021,
+     482,
+     504
+    ]
+   ]
+  },
+  {
+   "colour": "yellow",
+   "rgb": "#EBD09D",
+   "y0": 552,
+   "y1": 559,
+   "baseline": 556,
+   "cap_top": 552,
+   "cap": 4,
+   "x_height": 4,
+   "left": 242,
+   "right": 399,
+   "width": 158,
+   "n_runs": 2,
+   "density": 0.625,
+   "texture": 5.34,
+   "stem_ratio": null,
+   "runs": [
+    [
+     242,
+     250,
+     552,
+     555
+    ],
+    [
+     392,
+     399,
+     552,
+     559
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#EFDFBD",
+   "y0": 576,
+   "y1": 589,
+   "baseline": 590,
+   "cap_top": 576,
+   "cap": 14,
+   "x_height": 7,
+   "left": 120,
+   "right": 607,
+   "width": 488,
+   "n_runs": 4,
+   "density": 0.0192,
+   "texture": 8.25,
+   "stem_ratio": null,
+   "runs": [
+    [
+     120,
+     122,
+     583,
+     589
+    ],
+    [
+     343,
+     356,
+     579,
+     583
+    ],
+    [
+     377,
+     411,
+     578,
+     583
+    ],
+    [
+     589,
+     607,
+     576,
+     589
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#826F55",
+   "y0": 610,
+   "y1": 620,
+   "baseline": 616,
+   "cap_top": 610,
+   "cap": 6,
+   "x_height": 6,
+   "left": 130,
+   "right": 410,
+   "width": 281,
+   "n_runs": 2,
+   "density": 0.0136,
+   "texture": 6.12,
+   "stem_ratio": null,
+   "runs": [
+    [
+     130,
+     131,
+     610,
+     615
+    ],
+    [
+     407,
+     410,
+     613,
+     620
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#837156",
+   "y0": 617,
+   "y1": 634,
+   "baseline": 635,
+   "cap_top": 617,
+   "cap": 18,
+   "x_height": 18,
+   "left": 232,
+   "right": 630,
+   "width": 399,
+   "n_runs": 2,
+   "density": 0.0157,
+   "texture": 6.97,
+   "stem_ratio": 0.05555555555555555,
+   "runs": [
+    [
+     232,
+     241,
+     617,
+     634
+    ],
+    [
+     628,
+     630,
+     627,
+     634
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#E0D1AF",
+   "y0": 683,
+   "y1": 695,
+   "baseline": 696,
+   "cap_top": 683,
+   "cap": 13,
+   "x_height": 13,
+   "left": 379,
+   "right": 667,
+   "width": 289,
+   "n_runs": 2,
+   "density": 0.0141,
+   "texture": 7.27,
+   "stem_ratio": 0.07692307692307693,
+   "runs": [
+    [
+     379,
+     380,
+     683,
+     695
+    ],
+    [
+     658,
+     667,
+     685,
+     694
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#D7C9AA",
+   "y0": 740,
+   "y1": 751,
+   "baseline": 752,
+   "cap_top": 740,
+   "cap": 12,
+   "x_height": 11,
+   "left": 593,
+   "right": 686,
+   "width": 94,
+   "n_runs": 2,
+   "density": 0.0222,
+   "texture": 7.24,
+   "stem_ratio": 0.18181818181818182,
+   "runs": [
+    [
+     593,
+     603,
+     741,
+     751
+    ],
+    [
+     685,
+     686,
+     740,
+     743
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#D8C7A6",
+   "y0": 749,
+   "y1": 766,
+   "baseline": 767,
+   "cap_top": 763,
+   "cap": 4,
+   "x_height": 4,
+   "left": 179,
+   "right": 563,
+   "width": 385,
+   "n_runs": 5,
+   "density": 0.014,
+   "texture": 5.09,
+   "stem_ratio": 0.14285714285714285,
+   "runs": [
+    [
+     179,
+     183,
+     749,
+     760
+    ],
+    [
+     184,
+     185,
+     763,
+     766
+    ],
+    [
+     386,
+     397,
+     751,
+     764
+    ],
+    [
+     556,
+     557,
+     755,
+     759
+    ],
+    [
+     559,
+     563,
+     763,
+     766
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#E6D4B4",
+   "y0": 766,
+   "y1": 783,
+   "baseline": 784,
+   "cap_top": 766,
+   "cap": 18,
+   "x_height": 18,
+   "left": 376,
+   "right": 571,
+   "width": 196,
+   "n_runs": 2,
+   "density": 0.0264,
+   "texture": 7.32,
+   "stem_ratio": 0.1111111111111111,
+   "runs": [
+    [
+     376,
+     396,
+     766,
+     783
+    ],
+    [
+     565,
+     571,
+     769,
+     775
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#7E6C55",
+   "y0": 824,
+   "y1": 841,
+   "baseline": 837,
+   "cap_top": 824,
+   "cap": 13,
+   "x_height": 2,
+   "left": 210,
+   "right": 517,
+   "width": 308,
+   "n_runs": 5,
+   "density": 0.0153,
+   "texture": 7.1,
+   "stem_ratio": 0.07692307692307693,
+   "runs": [
+    [
+     210,
+     211,
+     835,
+     839
+    ],
+    [
+     248,
+     251,
+     824,
+     836
+    ],
+    [
+     293,
+     295,
+     833,
+     836
+    ],
+    [
+     448,
+     449,
+     838,
+     841
+    ],
+    [
+     515,
+     517,
+     832,
+     835
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#887C5E",
+   "y0": 839,
+   "y1": 850,
+   "baseline": 849,
+   "cap_top": 839,
+   "cap": 10,
+   "x_height": 10,
+   "left": 244,
+   "right": 607,
+   "width": 364,
+   "n_runs": 2,
+   "density": 0.0114,
+   "texture": 6.1,
+   "stem_ratio": 0.2,
+   "runs": [
+    [
+     244,
+     247,
+     839,
+     848
+    ],
+    [
+     605,
+     607,
+     845,
+     850
+    ]
+   ]
+  },
+  {
+   "colour": "yellow",
+   "rgb": "#E3C58F",
+   "y0": 919,
+   "y1": 930,
+   "baseline": 930,
+   "cap_top": 919,
+   "cap": 11,
+   "x_height": 8,
+   "left": 78,
+   "right": 422,
+   "width": 345,
+   "n_runs": 4,
+   "density": 0.3292,
+   "texture": 5.66,
+   "stem_ratio": null,
+   "runs": [
+    [
+     78,
+     85,
+     922,
+     930
+    ],
+    [
+     88,
+     94,
+     923,
+     929
+    ],
+    [
+     172,
+     177,
+     919,
+     922
+    ],
+    [
+     418,
+     422,
+     921,
+     929
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#B5A582",
+   "y0": 999,
+   "y1": 1005,
+   "baseline": 1004,
+   "cap_top": 999,
+   "cap": 5,
+   "x_height": 5,
+   "left": 467,
+   "right": 589,
+   "width": 123,
+   "n_runs": 2,
+   "density": 0.0139,
+   "texture": 4.71,
+   "stem_ratio": null,
+   "runs": [
+    [
+     467,
+     469,
+     999,
+     1003
+    ],
+    [
+     588,
+     589,
+     1001,
+     1005
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#867A5C",
+   "y0": 1025,
+   "y1": 1029,
+   "baseline": 1030,
+   "cap_top": 1025,
+   "cap": 5,
+   "x_height": 5,
+   "left": 155,
+   "right": 214,
+   "width": 60,
+   "n_runs": 2,
+   "density": 0.0667,
+   "texture": 16.92,
+   "stem_ratio": null,
+   "runs": [
+    [
+     155,
+     158,
+     1025,
+     1029
+    ],
+    [
+     212,
+     214,
+     1026,
+     1029
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#837458",
+   "y0": 1029,
+   "y1": 1037,
+   "baseline": 1038,
+   "cap_top": 1029,
+   "cap": 9,
+   "x_height": 9,
+   "left": 217,
+   "right": 239,
+   "width": 23,
+   "n_runs": 2,
+   "density": 0.1111,
+   "texture": 7.28,
+   "stem_ratio": null,
+   "runs": [
+    [
+     217,
+     223,
+     1029,
+     1037
+    ],
+    [
+     234,
+     239,
+     1031,
+     1035
+    ]
+   ]
+  },
+  {
+   "colour": "light",
+   "rgb": "#7E7157",
+   "y0": 1042,
+   "y1": 1054,
+   "baseline": 1051,
+   "cap_top": 1042,
+   "cap": 9,
+   "x_height": 4,
+   "left": 102,
+   "right": 205,
+   "width": 104,
+   "n_runs": 5,
+   "density": 0.057,
+   "texture": 7.14,
+   "stem_ratio": null,
+   "runs": [
+    [
+     102,
+     117,
+     1047,
+     1050
+    ],
+    [
+     165,
+     173,
+     1049,
+     1054
+    ],
+    [
+     190,
+     191,
+     1042,
+     1046
+    ],
+    [
+     192,
+     193,
+     1048,
+     1052
+    ],
+    [
+     203,
+     205,
+     1044,
+     1050
+    ]
+   ]
+  },
+  {
+   "colour": "yellow",
+   "rgb": "#DBBA83",
+   "y0": 1448,
+   "y1": 1523,
+   "baseline": 1506,
+   "cap_top": 1476,
+   "cap": 30,
+   "x_height": 20,
+   "left": 0,
+   "right": 1023,
+   "width": 1024,
+   "n_runs": 28,
+   "density": 0.1664,
+   "texture": 4.01,
+   "stem_ratio": 0.06060606060606061,
+   "runs": [
+    [
+     0,
+     16,
+     1455,
+     1520
+    ],
+    [
+     283,
+     301,
+     1476,
+     1503
+    ],
+    [
+     306,
+     311,
+     1476,
+     1503
+    ],
+    [
+     317,
+     321,
+     1476,
+     1503
+    ],
+    [
+     340,
+     353,
+     1484,
+     1503
+    ],
+    [
+     359,
+     372,
+     1484,
+     1510
+    ],
+    [
+     378,
+     391,
+     1484,
+     1504
+    ],
+    [
+     397,
+     409,
+     1485,
+     1504
+    ],
+    [
+     416,
+     420,
+     1500,
+     1504
+    ],
+    [
+     438,
+     454,
+     1478,
+     1504
+    ],
+    [
+     460,
+     473,
+     1486,
+     1505
+    ],
+    [
+     480,
+     490,
+     1485,
+     1504
+    ],
+    [
+     506,
+     519,
+     1486,
+     1505
+    ],
+    [
+     525,
+     538,
+     1486,
+     1505
+    ],
+    [
+     542,
+     552,
+     1480,
+     1505
+    ],
+    [
+     558,
+     562,
+     1486,
+     1505
+    ],
+    [
+     569,
+     573,
+     1480,
+     1505
+    ],
+    [
+     592,
+     615,
+     1486,
+     1505
+    ],
+    [
+     621,
+     625,
+     1487,
+     1505
+    ],
+    [
+     631,
+     644,
+     1480,
+     1505
+    ],
+    [
+     650,
+     663,
+     1487,
+     1506
+    ],
+    [
+     669,
+     673,
+     1487,
+     1505
+    ],
+    [
+     678,
+     692,
+     1488,
+     1511
+    ],
+    [
+     697,
+     759,
+     1448,
+     1461
+    ],
+    [
+     697,
+     711,
+     1480,
+     1505
+    ],
+    [
+     715,
+     724,
+     1482,
+     1506
+    ],
+    [
+     730,
+     734,
+     1502,
+     1505
+    ],
+    [
+     1020,
+     1023,
+     1480,
+     1523
+    ]
+   ]
+  }
+ ],
+ "assigned": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:",
+   "bands": [
+    7
+   ]
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD",
+   "bands": [
+    9
+   ]
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace",
+   "bands": [
+    11
+   ]
+  },
+  {
+   "key": "date",
+   "text": "Friday 19th September, doors 7:30pm",
+   "bands": [
+    12
+   ]
+  },
+  {
+   "key": "venue",
+   "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+   "bands": [
+    13
+   ]
+  },
+  {
+   "key": "tickets",
+   "text": "\u00a312 advance / \u00a315 on the door",
+   "bands": [
+    14
+   ]
+  },
+  {
+   "key": "ticket_source",
+   "text": "The Anchor Rooms bar or pallightpro.co.uk",
+   "bands": [
+    15
+   ]
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight.",
+   "bands": [
+    16
+   ]
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 257181,
+   "box": [
+    172,
+    204,
+    1023,
+    950
+   ],
+   "fill": 0.404,
+   "rgb": "#972010"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 7657,
+   "box": [
+    30,
+    350,
+    120,
+    458
+   ],
+   "fill": 0.772,
+   "rgb": "#A12614"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 12516,
+   "box": [
+    2,
+    1095,
+    89,
+    1274
+   ],
+   "fill": 0.79,
+   "rgb": "#A62513"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 5835,
+   "box": [
+    950,
+    1190,
+    1022,
+    1280
+   ],
+   "fill": 0.878,
+   "rgb": "#A02311"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 30806,
+   "box": [
+    1,
+    0,
+    480,
+    105
+   ],
+   "fill": 0.605,
+   "rgb": "#EFD09A"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 2009,
+   "box": [
+    483,
+    0,
+    553,
+    32
+   ],
+   "fill": 0.857,
+   "rgb": "#F3D8A4"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 44696,
+   "box": [
+    0,
+    412,
+    132,
+    919
+   ],
+   "fill": 0.662,
+   "rgb": "#E7C489"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 5542,
+   "box": [
+    335,
+    903,
+    417,
+    975
+   ],
+   "fill": 0.915,
+   "rgb": "#EACD98"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 10043,
+   "box": [
+    925,
+    941,
+    1023,
+    1058
+   ],
+   "fill": 0.86,
+   "rgb": "#E9C68C"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 2495,
+   "box": [
+    0,
+    1275,
+    48,
+    1334
+   ],
+   "fill": 0.849,
+   "rgb": "#E5BE83"
+  },
+  {
+   "colour": "red",
+   "kind": "spans the page",
+   "px": 13279,
+   "box": [
+    3,
+    0,
+    871,
+    121
+   ],
+   "fill": 0.125,
+   "rgb": "#B42715"
+  },
+  {
+   "colour": "red",
+   "kind": "spans the page",
+   "px": 99501,
+   "box": [
+    68,
+    1104,
+    1023,
+    1327
+   ],
+   "fill": 0.465,
+   "rgb": "#A32111"
+  },
+  {
+   "colour": "yellow",
+   "kind": "spans the page",
+   "px": 184850,
+   "box": [
+    0,
+    396,
+    1023,
+    1197
+   ],
+   "fill": 0.225,
+   "rgb": "#E2C189"
+  },
+  {
+   "colour": "yellow",
+   "kind": "spans the page",
+   "px": 39154,
+   "box": [
+    0,
+    479,
+    231,
+    1046
+   ],
+   "fill": 0.297,
+   "rgb": "#C8A362"
+  },
+  {
+   "colour": "yellow",
+   "kind": "spans the page",
+   "px": 33242,
+   "box": [
+    49,
+    1286,
+    1023,
+    1381
+   ],
+   "fill": 0.355,
+   "rgb": "#E3C38D"
+  },
+  {
+   "colour": "yellow",
+   "kind": "spans the page",
+   "px": 29767,
+   "box": [
+    0,
+    1396,
+    1023,
+    1465
+   ],
+   "fill": 0.415,
+   "rgb": "#E2C28C"
+  },
+  {
+   "colour": "yellow",
+   "kind": "spans the page",
+   "px": 7119,
+   "box": [
+    0,
+    1525,
+    1023,
+    1535
+   ],
+   "fill": 0.632,
+   "rgb": "#E5C48C"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "light",
+   "y0": 17,
+   "y1": 20,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 90,
+   "y1": 93,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 158,
+   "y1": 161,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 171,
+   "y1": 174,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 174,
+   "y1": 178,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 210,
+   "y1": 213,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 228,
+   "y1": 232,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 288,
+   "y1": 292,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 326,
+   "y1": 330,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 452,
+   "y1": 458,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 461,
+   "y1": 468,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 497,
+   "y1": 506,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 510,
+   "y1": 515,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 527,
+   "y1": 540,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 542,
+   "y1": 556,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 548,
+   "y1": 553,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 563,
+   "y1": 575,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 592,
+   "y1": 610,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 642,
+   "y1": 648,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 657,
+   "y1": 661,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 665,
+   "y1": 684,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 722,
+   "y1": 720,
+   "why": "no shared baseline (22% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 733,
+   "y1": 740,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 787,
+   "y1": 795,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 853,
+   "y1": 857,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 892,
+   "y1": 895,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 899,
+   "y1": 905,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 906,
+   "y1": 912,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 912,
+   "y1": 916,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 921,
+   "y1": 930,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 940,
+   "y1": 951,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 973,
+   "y1": 976,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 983,
+   "y1": 988,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1018,
+   "y1": 1021,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1059,
+   "y1": 1062,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1069,
+   "y1": 1072,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1077,
+   "y1": 1081,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1312,
+   "y1": 1318,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1319,
+   "y1": 1322,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1327,
+   "y1": 1339,
+   "why": "no shared baseline (14% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1375,
+   "y1": 1381,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1394,
+   "y1": 1397,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1400,
+   "y1": 1405,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1404,
+   "y1": 1413,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1412,
+   "y1": 1422,
+   "why": "runs too wide to be glyphs"
+  },
+  {
+   "colour": "light",
+   "y0": 1427,
+   "y1": 1433,
+   "why": "no shared baseline (9% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1464,
+   "y1": 1472,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1486,
+   "y1": 1489,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1523,
+   "y1": 1529,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 5,
+   "y1": 277,
+   "why": "no shared baseline (7% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 362,
+   "y1": 391,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 387,
+   "y1": 477,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 546,
+   "y1": 603,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 951,
+   "y1": 975,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1152,
+   "y1": 1173,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1177,
+   "y1": 1230,
+   "why": "no shared baseline (8% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1234,
+   "y1": 1252,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1257,
+   "y1": 1271,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "red",
+   "y0": 1275,
+   "y1": 1279,
+   "why": "no shared baseline (20% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 0,
+   "y1": 12,
+   "why": "no shared baseline (20% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 34,
+   "y1": 45,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 103,
+   "y1": 122,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 124,
+   "y1": 129,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 138,
+   "y1": 144,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 143,
+   "y1": 162,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 222,
+   "y1": 199,
+   "why": "no shared baseline (6% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 436,
+   "y1": 440,
+   "why": "no shared baseline (18% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 454,
+   "y1": 460,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 462,
+   "y1": 470,
+   "why": "no shared baseline (20% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 472,
+   "y1": 528,
+   "why": "no shared baseline (29% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 536,
+   "y1": 871,
+   "why": "no shared baseline (5% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 542,
+   "y1": 547,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 604,
+   "y1": 609,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 673,
+   "y1": 678,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 681,
+   "y1": 703,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 888,
+   "y1": 904,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 913,
+   "y1": 916,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 936,
+   "y1": 943,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 967,
+   "y1": 970,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 977,
+   "y1": 980,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 990,
+   "y1": 992,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1000,
+   "y1": 1003,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1011,
+   "y1": 1030,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1032,
+   "y1": 1094,
+   "why": "no shared baseline (18% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1035,
+   "y1": 1042,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1047,
+   "y1": 1059,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1095,
+   "y1": 1103,
+   "why": "no shared baseline (27% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1142,
+   "y1": 1226,
+   "why": "no shared baseline (2% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1131,
+   "y1": 1148,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1313,
+   "y1": 1318,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1324,
+   "y1": 1327,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1333,
+   "y1": 1335,
+   "why": "no shared baseline (22% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1358,
+   "y1": 1391,
+   "why": "no shared baseline (9% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1415,
+   "y1": 1427,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1431,
+   "y1": 1439,
+   "why": "no shared baseline (17% of runs)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1467,
+   "y1": 1473,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1479,
+   "y1": 1484,
+   "why": "duplicate of yellow band y1448..1523"
+  },
+  {
+   "colour": "yellow",
+   "y0": 610,
+   "y1": 619,
+   "why": "duplicate of light band y610..620"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "presenter",
+    "headliner",
+    "support",
+    "date",
+    "venue",
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "shape_glyphs": "",
+   "confidence": "low",
+   "margin": 0.005,
+   "distortions": [
+    {
+     "key": "headliner",
+     "ratio": 0.506,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    },
+    {
+     "key": "support",
+     "ratio": 0.534,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "tickets",
+     "ratio": 1.535,
+     "kind": "wider_than_face",
+     "stem_matches": false,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "ticket_source",
+     "ratio": 0.859,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    },
+    {
+     "key": "footer",
+     "ratio": 0.668,
+     "kind": "horizontal_squash",
+     "stem_matches": false,
+     "action": "do NOT reproduce; set at natural width"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Questrial",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Questrial-400.ttf",
+     "index": null,
+     "cap_ratio": 0.662,
+     "width_ratio": 0.9013,
+     "spread": 0.3149,
+     "stem_err": 0.0189,
+     "shape": null,
+     "score": 1.4898
+    },
+    {
+     "family": "Zilla Slab",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/ZillaSlab-400.ttf",
+     "index": null,
+     "cap_ratio": 0.65,
+     "width_ratio": 0.913,
+     "spread": 0.3462,
+     "stem_err": 0.0,
+     "shape": null,
+     "score": 1.4969
+    },
+    {
+     "family": "JetBrains Mono",
+     "sub": "Regular",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/JetBrainsMono-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.73,
+     "width_ratio": 0.7817,
+     "spread": 0.263,
+     "stem_err": 0.0137,
+     "shape": null,
+     "score": 1.4994
+    },
+    {
+     "family": "Archivo",
+     "sub": "SemiBold",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Archivo-wdth93-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.686,
+     "width_ratio": 1.0091,
+     "spread": 0.3655,
+     "stem_err": 0.0183,
+     "shape": null,
+     "score": 1.5069
+    },
+    {
+     "family": "Public Sans",
+     "sub": "Thin",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/PublicSans-wght300.ttf",
+     "index": null,
+     "cap_ratio": 0.723,
+     "width_ratio": 0.9523,
+     "spread": 0.3446,
+     "stem_err": 0.0346,
+     "shape": null,
+     "score": 1.525
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/InstrumentSans-wdth100-wght400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9495,
+     "spread": 0.3506,
+     "stem_err": 0.0312,
+     "shape": null,
+     "score": 1.5324
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/InstrumentSans-400.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 0.9495,
+     "spread": 0.3506,
+     "stem_err": 0.0348,
+     "shape": null,
+     "score": 1.5396
+    },
+    {
+     "family": "Italiana",
+     "sub": "Regular",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Italiana-400.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9995,
+     "spread": 0.3505,
+     "stem_err": 0.0607,
+     "shape": null,
+     "score": 1.5492
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "type_on_imagery",
+   "median_texture": 6.54,
+   "detail": "the type sits on a busy ground. Look at the poster and decide which kind: over a PHOTOGRAPH or illustration it cannot be removed (nothing can reconstruct what is behind the letters) and the answer is the escape hatch; over a distressed or grainy flat ground it is recoverable, because the fill is taken from the surrounding pixels"
+  },
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "Questrial",
+    "Zilla Slab",
+    "JetBrains Mono"
+   ]
+  },
+  {
+   "kind": "weak_alignment",
+   "detail": "weak alignment (mean cost 1.01)",
+   "mean_cost": 1.014
+  }
+ ],
+ "knobs": {
+  "solid_radius": 24,
+  "rule_length": 160,
+  "rule_thick": 5,
+  "min_glyphs": 2,
+  "contrast": 40,
+  "window": 61,
+  "artwork": "mask",
+  "face": []
+ }
+}
