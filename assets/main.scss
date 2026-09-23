@@ -538,3 +538,100 @@
   }
 }
 
+
+// Poster SVG comparison page (/poster-prompts/svg.html): each original beside
+// its SVG rebuild, or stacked with a click to flip between them.
+.svg-compare {
+  .svg-pair {
+    margin: 0 0 2.5rem;
+  }
+
+  figcaption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+  }
+
+  .svg-pair-mode {
+    flex: none;
+    padding: 0.15rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight: normal;
+    cursor: pointer;
+    background: white;
+    color: #021a40;
+    border: 1px solid #021a40;
+    border-radius: 3px;
+
+    &:hover { background: #f0f4f8; }
+  }
+
+  .svg-pair-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .svg-pair-cell {
+    position: relative;
+    margin: 0;
+
+    img, object {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1024 / 1536;
+      background: #f3f3f3;
+    }
+  }
+
+  .svg-pair-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
+    margin-top: 0.25rem;
+  }
+
+  // Click to flip: the two images share one cell, sized so a poster fits the
+  // window, and a badge says which one is showing. Set per pair.
+  .svg-pair[data-mode="flip"] {
+    .svg-pair-images {
+      grid-template-columns: 1fr;
+      max-width: min(100%, calc(85vh / 1.5));
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .svg-pair-cell {
+      grid-area: 1 / 1;
+    }
+
+    &[data-showing="original"] .svg-pair-svg,
+    &[data-showing="svg"] .svg-pair-original {
+      visibility: hidden;
+    }
+
+    .svg-pair-label {
+      position: absolute;
+      top: 0.6rem;
+      left: 0.6rem;
+      margin: 0;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: white;
+      background: rgba(2, 26, 64, 0.85);
+    }
+
+    .svg-pair-svg .svg-pair-label {
+      background: rgba(160, 30, 30, 0.9);
+    }
+  }
+}

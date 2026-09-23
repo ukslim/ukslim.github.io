@@ -1,0 +1,141 @@
+---
+layout: page
+title: Poster Prompts as SVG
+permalink: /poster-prompts/svg.html
+description: "Each example poster beside its SVG rebuild: the artwork cut out of the generated bitmap, the type reset in a real typeface."
+robots: noindex
+---
+
+{%- comment -%}
+Orphaned for now (noindex, not linked). Every V2 example beside its SVG
+rebuild from assets/poster-svg/. Some SVGs carry a "flawed" alert icon, and
+some are "could not convert" placeholders; both are shown as they are.
+{%- endcomment -%}
+
+<p>
+  Every example poster beside its SVG rebuild: the artwork cut out of the
+  generated bitmap, and the type reset in a real typeface. Rebuilds marked with
+  an alert icon are known to be flawed; some posters could not be converted at
+  all, and say why.
+</p>
+
+<div class="thumb-toggle" role="group" aria-label="Comparison mode">
+  <button type="button" class="active" aria-pressed="true" data-mode="side">
+    Side by side
+  </button>
+  <button type="button" aria-pressed="false" data-mode="flip">
+    Click to flip
+  </button>
+</div>
+
+<div class="svg-compare">
+{% include poster_styles_ordered.html %}
+{% assign events = "fete,gig" | split: "," %}
+{% for style in ordered_styles %}
+{% assign slug = style.id | replace: '_', '-' %}
+{% for event in events %}
+{% assign base = style.id | append: '-' | append: event | append: '-v2' %}
+  <figure class="svg-pair" data-mode="side" data-showing="original">
+    <figcaption>
+      <span>
+        <a href="/poster-prompts/{{ slug }}/">{{ style.name }}</a>
+        — {% if event == "fete" %}fête{% else %}gig{% endif %}
+      </span>
+      <button type="button" class="svg-pair-mode">Click to flip</button>
+    </figcaption>
+    <div class="svg-pair-images">
+      <div class="svg-pair-cell svg-pair-original">
+        <img src="/assets/poster-examples/{{ base }}.webp" loading="lazy"
+             width="1024" height="1536"
+             alt="{{ style.name }} {{ event }} poster, original bitmap">
+        <span class="svg-pair-label">Original</span>
+      </div>
+      <div class="svg-pair-cell svg-pair-svg">
+        {%- comment -%} <object>, not <img>, so the SVG stays live: a flawed
+        rebuild's alert icon opens its explanation on hover. Loaded as it nears
+        the viewport (object has no loading="lazy"). {%- endcomment %}
+        <object type="image/svg+xml" data-src="/assets/poster-svg/{{ base }}.svg"
+                width="1024" height="1536"
+                aria-label="{{ style.name }} {{ event }} poster, SVG rebuild"></object>
+        <span class="svg-pair-label">SVG</span>
+      </div>
+    </div>
+  </figure>
+{% endfor %}
+{% endfor %}
+</div>
+
+<script>
+  (function () {
+    var compare = document.querySelector('.svg-compare');
+    var buttons = document.querySelectorAll('.thumb-toggle [data-mode]');
+
+    // Each pair has its own mode; its button offers the other one.
+    function setMode(fig, mode) {
+      fig.dataset.mode = mode;
+      fig.querySelector('.svg-pair-mode').textContent =
+        mode === 'flip' ? 'Side by side' : 'Click to flip';
+    }
+
+    // The buttons at the top set every pair at once.
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        buttons.forEach(function (b) {
+          var on = b === btn;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        compare.querySelectorAll('.svg-pair').forEach(function (fig) {
+          setMode(fig, btn.dataset.mode);
+        });
+      });
+    });
+
+    function flip(fig) {
+      if (fig.dataset.mode !== 'flip') return;
+      fig.dataset.showing = fig.dataset.showing === 'original' ? 'svg' : 'original';
+    }
+
+    compare.addEventListener('click', function (e) {
+      var fig = e.target.closest('.svg-pair');
+      if (!fig) return;
+      if (e.target.closest('.svg-pair-mode')) {
+        setMode(fig, fig.dataset.mode === 'flip' ? 'side' : 'flip');
+      } else if (e.target.closest('.svg-pair-images')) {
+        // In flip mode a click anywhere on the poster swaps original and SVG.
+        flip(fig);
+      }
+    });
+
+    // A click on an <object> lands in the SVG's own document, not this page,
+    // so listen there too (same origin, so its document is reachable).
+    function wire(obj) {
+      obj.addEventListener('load', function () {
+        var doc = obj.contentDocument;
+        if (!doc) return;
+        doc.addEventListener('click', function () {
+          flip(obj.closest('.svg-pair'));
+        });
+        doc.documentElement.style.cursor = 'inherit';
+      });
+    }
+
+    // Load each SVG as it nears the viewport.
+    var objects = compare.querySelectorAll('object[data-src]');
+    function load(obj) {
+      wire(obj);
+      obj.data = obj.getAttribute('data-src');
+      obj.removeAttribute('data-src');
+    }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { io.unobserve(en.target); load(en.target); }
+        });
+      }, { rootMargin: '1500px 0px' });
+      objects.forEach(function (o) { io.observe(o); });
+    } else {
+      objects.forEach(load);
+    }
+  })();
+</script>
