@@ -13,12 +13,12 @@ some are "could not convert" placeholders; both are shown as they are.
 {%- endcomment -%}
 
 <p>
-  This is the outcome of a running a vibe-coded agent skill on every V2 poster.
+  This is the outcome of running a vibe-coded agent skill on every V2 poster.
 </p>
 <p>
   The motivation is, people would look at the posters and say:
   <ul>
-    <li>"Wouldn't it be better if it used a real typeface?" - so it benefits from the painstaking desgin that font designers put into typefaces</li>
+    <li>"Wouldn't it be better if it used a real typeface?" - so it benefits from the painstaking design that font designers put into typefaces</li>
     <li>"Wouldn't it be better if it were an editable vector file?" - so a human can change the text, move elements around, etc.</li>
   </ul>
 </p>
@@ -32,11 +32,11 @@ some are "could not convert" placeholders; both are shown as they are.
   ad-hoc Python code to locate artwork and text, find a best-fit typeface, and replace the text -- when it could. This consumed a lot of tokens, and I
   ran out that day. When my quota reset, I asked it to write the tools it would need to do this more efficiently. So we end up with deterministic tools
   that measure, which the LLM uses to rebuild the poster. As we converted more posters, Claude made changes to the tools on the fly. It is fully vibe coded,
-  so I have no idea whether the code is good or bad. As you can see, doesn't always get things right, but I have called this a stopping point.
+  so I have no idea whether the code is good or bad. As you can see, it doesn't always get things right, but I have called this a stopping point.
 </p>
 
 <p>
-  Claude chose a a palette of 300 fonts from Google Fonts, refusing to use license-encumbered fonts. It tries to pick a font close to the one that 
+  Claude chose a palette of 300 fonts from Google Fonts, refusing to use license-encumbered fonts. It tries to pick a font close to the one that 
   the AI image generation model invented for the poster, and does not always succeed. It also apparently doesn't take advantage of the layout engine's
   ability to centre text on a line.
 </p>
@@ -46,9 +46,9 @@ some are "could not convert" placeholders; both are shown as they are.
   <ul>
     <li>Skill abandoned early, correctly, with an explanation</li>
     <li>Skill abandoned early, maybe it should have tried harder</li>
-    <li>Conversion done, look OK</li>
+    <li>Conversion done, looks OK</li>
     <li>Conversion done, obvious flaws, but the skill thinks it succeeded</li>
-    <li>Conversion done, skill has acknowledged flaws, and explained why (alert icon top left corner</li>
+    <li>Conversion done, skill has acknowledged flaws, and explained why (alert icon top left corner)</li>
     <li>Conversion done, skill has acknowledged flaws, and explained why (alert icon top left corner), but flaw description is wrong</li>
   </ul>
 </p>
