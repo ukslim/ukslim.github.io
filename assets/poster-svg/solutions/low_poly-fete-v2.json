@@ -18,102 +18,85 @@
   "footer0=231,1449"
  ],
  "frames": [],
- "median_texture": 1.79,
- "alignment": "ok; 9 line(s) assigned by hand",
- "alignment_cost": 0.093,
- "lines": [
+ "art": [
   {
-   "colour": "yellow",
-   "rgb": "#FBDFA0",
-   "ground": "#10103C",
-   "is_ground": false,
-   "y0": 64,
-   "y1": 203,
-   "baseline": 192,
-   "cap_top": 64,
-   "cap": 128,
-   "x_height": 115,
-   "lower_frac": 0.0,
-   "left": 83,
-   "right": 963,
-   "width": 881,
-   "n_runs": 11,
-   "density": 0.5831,
-   "texture": 0.25,
-   "slope": -0.26,
-   "warp": 0.038,
-   "stem_ratio": 0.5433070866141733,
-   "runs": [
-    [
-     83,
-     161,
-     77,
-     203
-    ],
-    [
-     175,
-     255,
-     72,
-     198
-    ],
-    [
-     265,
-     293,
-     70,
-     193
-    ],
-    [
-     307,
-     394,
-     67,
-     191
-    ],
-    [
-     404,
-     481,
-     65,
-     189
-    ],
-    [
-     494,
-     561,
-     64,
-     187
-    ],
-    [
-     568,
-     640,
-     65,
-     188
-    ],
-    [
-     646,
-     749,
-     66,
-     190
-    ],
-    [
-     760,
-     789,
-     70,
-     191
-    ],
-    [
-     801,
-     875,
-     72,
-     194
-    ],
-    [
-     886,
-     963,
-     77,
-     200
-    ]
+   "keys": [
+    "title"
    ],
-   "marker": null,
-   "track": 0.0
+   "box": [
+    20,
+    38,
+    1010,
+    352
+   ]
+  }
+ ],
+ "copy": [
+  {
+   "key": "title",
+   "text": "Brindlewick Village F\u00eate"
   },
+  {
+   "key": "date",
+   "text": "Saturday 6th September, 12 noon \u2013 5pm"
+  },
+  {
+   "key": "venue",
+   "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "key": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "key": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "key": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "key": "attraction7",
+   "text": "Local craft and maker stalls"
+  },
+  {
+   "key": "footer0",
+   "text": "Free entry. All welcome."
+  },
+  {
+   "key": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
+ "median_texture": 1.88,
+ "alignment": "ok; 9 line(s) assigned by hand",
+ "alignment_cost": 0.101,
+ "lines": [
   {
    "colour": "red",
    "rgb": "#EA810D",
@@ -3227,39 +3210,31 @@
  ],
  "assigned": [
   {
-   "key": "title",
-   "text": "BRINDLEWICK VILLAGE F\u00caTE",
-   "bands": [
-    0
-   ],
-   "upper": true
-  },
-  {
    "key": "date",
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
-    1
+    0
    ]
   },
   {
    "key": "venue",
    "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
    "bands": [
-    2
+    1
    ]
   },
   {
    "key": "attractions_label",
    "text": "Attractions:",
    "bands": [
-    3
+    2
    ]
   },
   {
    "key": "attraction0",
    "text": "Grand tombola",
    "bands": [
-    4
+    3
    ],
    "assigned_by": "hand"
   },
@@ -3267,7 +3242,7 @@
    "key": "attraction1",
    "text": "Homemade cakes, jams and preserves",
    "bands": [
-    5
+    4
    ],
    "assigned_by": "hand"
   },
@@ -3275,7 +3250,7 @@
    "key": "attraction2",
    "text": "BBQ and refreshments",
    "bands": [
-    6
+    5
    ],
    "assigned_by": "hand"
   },
@@ -3283,7 +3258,7 @@
    "key": "attraction3",
    "text": "Plant and produce stall",
    "bands": [
-    7
+    6
    ],
    "assigned_by": "hand"
   },
@@ -3291,7 +3266,7 @@
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
-    8
+    7
    ],
    "assigned_by": "hand"
   },
@@ -3299,7 +3274,7 @@
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
-    9
+    8
    ],
    "assigned_by": "hand"
   },
@@ -3307,7 +3282,7 @@
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
-    10
+    9
    ],
    "assigned_by": "hand"
   },
@@ -3315,7 +3290,7 @@
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
-    11
+    10
    ],
    "assigned_by": "hand"
   },
@@ -3323,14 +3298,14 @@
    "key": "beneficiary",
    "text": "In aid of St. Peter's Church Restoration Fund",
    "bands": [
-    12
+    11
    ]
   },
   {
    "key": "footer0",
    "text": "Free entry. All welcome.",
    "bands": [
-    13
+    12
    ],
    "assigned_by": "hand"
   },
@@ -3338,11 +3313,115 @@
    "key": "footer1",
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
-    14
+    13
    ]
   }
  ],
  "artwork": [
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 584,
+   "box": [
+    398,
+    86,
+    404,
+    171
+   ],
+   "fill": 0.97,
+   "rgb": "#07050E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 451,
+   "box": [
+    746,
+    89,
+    753,
+    166
+   ],
+   "fill": 0.723,
+   "rgb": "#0B080F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 414,
+   "box": [
+    302,
+    90,
+    306,
+    173
+   ],
+   "fill": 0.986,
+   "rgb": "#0A0500"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 830,
+   "box": [
+    482,
+    90,
+    494,
+    163
+   ],
+   "fill": 0.863,
+   "rgb": "#080A20"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 438,
+   "box": [
+    247,
+    94,
+    264,
+    165
+   ],
+   "fill": 0.338,
+   "rgb": "#0C070B"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 446,
+   "box": [
+    436,
+    136,
+    454,
+    161
+   ],
+   "fill": 0.903,
+   "rgb": "#0C0C2D"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 606,
+   "box": [
+    540,
+    259,
+    550,
+    328
+   ],
+   "fill": 0.787,
+   "rgb": "#0B0D26"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 670,
+   "box": [
+    446,
+    277,
+    463,
+    331
+   ],
+   "fill": 0.677,
+   "rgb": "#0F0E2E"
+  },
   {
    "colour": "light",
    "kind": "inside an excluded box",
@@ -3502,6 +3581,409 @@
   {
    "colour": "red",
    "kind": "inside an excluded box",
+   "px": 1078,
+   "box": [
+    268,
+    73,
+    301,
+    205
+   ],
+   "fill": 0.238,
+   "rgb": "#742D03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1266,
+   "box": [
+    568,
+    77,
+    639,
+    201
+   ],
+   "fill": 0.141,
+   "rgb": "#762F03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 988,
+   "box": [
+    754,
+    77,
+    787,
+    201
+   ],
+   "fill": 0.232,
+   "rgb": "#793104"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 967,
+   "box": [
+    644,
+    78,
+    685,
+    200
+   ],
+   "fill": 0.187,
+   "rgb": "#763005"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 869,
+   "box": [
+    364,
+    79,
+    397,
+    203
+   ],
+   "fill": 0.204,
+   "rgb": "#732D04"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1396,
+   "box": [
+    876,
+    83,
+    911,
+    209
+   ],
+   "fill": 0.305,
+   "rgb": "#793203"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 581,
+   "box": [
+    238,
+    93,
+    260,
+    160
+   ],
+   "fill": 0.371,
+   "rgb": "#6F2C03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 451,
+   "box": [
+    602,
+    94,
+    637,
+    107
+   ],
+   "fill": 0.895,
+   "rgb": "#753001"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1329,
+   "box": [
+    794,
+    94,
+    861,
+    207
+   ],
+   "fill": 0.171,
+   "rgb": "#712D02"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 615,
+   "box": [
+    830,
+    102,
+    872,
+    130
+   ],
+   "fill": 0.493,
+   "rgb": "#702D02"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 629,
+   "box": [
+    308,
+    144,
+    341,
+    203
+   ],
+   "fill": 0.308,
+   "rgb": "#742F03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1331,
+   "box": [
+    85,
+    150,
+    171,
+    215
+   ],
+   "fill": 0.232,
+   "rgb": "#702E03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 595,
+   "box": [
+    178,
+    159,
+    211,
+    209
+   ],
+   "fill": 0.343,
+   "rgb": "#6D2C01"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 729,
+   "box": [
+    915,
+    163,
+    960,
+    211
+   ],
+   "fill": 0.323,
+   "rgb": "#702D03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 509,
+   "box": [
+    699,
+    166,
+    739,
+    201
+   ],
+   "fill": 0.345,
+   "rgb": "#692A03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 947,
+   "box": [
+    406,
+    172,
+    482,
+    201
+   ],
+   "fill": 0.41,
+   "rgb": "#762D00"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 808,
+   "box": [
+    496,
+    188,
+    560,
+    201
+   ],
+   "fill": 0.888,
+   "rgb": "#762F01"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1070,
+   "box": [
+    658,
+    231,
+    690,
+    365
+   ],
+   "fill": 0.24,
+   "rgb": "#803306"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 713,
+   "box": [
+    239,
+    232,
+    247,
+    324
+   ],
+   "fill": 0.852,
+   "rgb": "#762F02"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 608,
+   "box": [
+    319,
+    232,
+    325,
+    321
+   ],
+   "fill": 0.965,
+   "rgb": "#7C3204"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1314,
+   "box": [
+    172,
+    234,
+    206,
+    367
+   ],
+   "fill": 0.28,
+   "rgb": "#712D03"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1557,
+   "box": [
+    730,
+    234,
+    803,
+    368
+   ],
+   "fill": 0.156,
+   "rgb": "#7A3003"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1595,
+   "box": [
+    106,
+    235,
+    166,
+    370
+   ],
+   "fill": 0.192,
+   "rgb": "#712D02"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1665,
+   "box": [
+    804,
+    235,
+    863,
+    370
+   ],
+   "fill": 0.204,
+   "rgb": "#793104"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 515,
+   "box": [
+    108,
+    236,
+    119,
+    311
+   ],
+   "fill": 0.565,
+   "rgb": "#722F02"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 1989,
+   "box": [
+    888,
+    239,
+    959,
+    374
+   ],
+   "fill": 0.203,
+   "rgb": "#783003"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 433,
+   "box": [
+    494,
+    256,
+    538,
+    277
+   ],
+   "fill": 0.437,
+   "rgb": "#712D04"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 403,
+   "box": [
+    581,
+    256,
+    615,
+    267
+   ],
+   "fill": 0.96,
+   "rgb": "#732D01"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 880,
+   "box": [
+    292,
+    326,
+    362,
+    364
+   ],
+   "fill": 0.318,
+   "rgb": "#793104"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 681,
+   "box": [
+    369,
+    329,
+    425,
+    363
+   ],
+   "fill": 0.341,
+   "rgb": "#763104"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 790,
+   "box": [
+    465,
+    337,
+    539,
+    363
+   ],
+   "fill": 0.39,
+   "rgb": "#763004"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
    "px": 6416,
    "box": [
     550,
@@ -3511,6 +3993,305 @@
    ],
    "fill": 0.417,
    "rgb": "#7C2809"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 4233,
+   "box": [
+    496,
+    65,
+    560,
+    187
+   ],
+   "fill": 0.529,
+   "rgb": "#FBE0A1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 7140,
+   "box": [
+    405,
+    66,
+    481,
+    188
+   ],
+   "fill": 0.754,
+   "rgb": "#FCE1A2"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6009,
+   "box": [
+    573,
+    66,
+    639,
+    187
+   ],
+   "fill": 0.735,
+   "rgb": "#FBE0A1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 8227,
+   "box": [
+    649,
+    67,
+    748,
+    190
+   ],
+   "fill": 0.663,
+   "rgb": "#FBDF9F"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 8369,
+   "box": [
+    308,
+    68,
+    391,
+    192
+   ],
+   "fill": 0.797,
+   "rgb": "#FBDFA0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 3141,
+   "box": [
+    266,
+    71,
+    292,
+    193
+   ],
+   "fill": 0.946,
+   "rgb": "#FCDFA0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 3007,
+   "box": [
+    762,
+    71,
+    789,
+    191
+   ],
+   "fill": 0.888,
+   "rgb": "#FCDFA0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 7467,
+   "box": [
+    176,
+    73,
+    255,
+    198
+   ],
+   "fill": 0.741,
+   "rgb": "#FBDFA1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5675,
+   "box": [
+    801,
+    74,
+    875,
+    195
+   ],
+   "fill": 0.62,
+   "rgb": "#FADD9E"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 7744,
+   "box": [
+    85,
+    78,
+    161,
+    202
+   ],
+   "fill": 0.805,
+   "rgb": "#FBE0A2"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6358,
+   "box": [
+    886,
+    78,
+    962,
+    200
+   ],
+   "fill": 0.671,
+   "rgb": "#FADC9D"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 678,
+   "box": [
+    743,
+    198,
+    792,
+    221
+   ],
+   "fill": 0.565,
+   "rgb": "#F9DEA3"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6721,
+   "box": [
+    369,
+    227,
+    454,
+    351
+   ],
+   "fill": 0.625,
+   "rgb": "#FBE1A2"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6598,
+   "box": [
+    465,
+    227,
+    538,
+    351
+   ],
+   "fill": 0.713,
+   "rgb": "#FBE0A2"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5963,
+   "box": [
+    552,
+    227,
+    617,
+    351
+   ],
+   "fill": 0.723,
+   "rgb": "#FBE1A0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 4383,
+   "box": [
+    291,
+    228,
+    355,
+    352
+   ],
+   "fill": 0.539,
+   "rgb": "#FBE0A3"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5084,
+   "box": [
+    659,
+    228,
+    725,
+    363
+   ],
+   "fill": 0.558,
+   "rgb": "#FBE1A1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 4279,
+   "box": [
+    212,
+    230,
+    277,
+    354
+   ],
+   "fill": 0.519,
+   "rgb": "#FDE2A5"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5875,
+   "box": [
+    738,
+    230,
+    803,
+    355
+   ],
+   "fill": 0.706,
+   "rgb": "#FBE0A0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 3182,
+   "box": [
+    170,
+    232,
+    197,
+    355
+   ],
+   "fill": 0.916,
+   "rgb": "#FCE1A1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 6166,
+   "box": [
+    80,
+    233,
+    157,
+    358
+   ],
+   "fill": 0.627,
+   "rgb": "#FBDFA1"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 4498,
+   "box": [
+    813,
+    233,
+    886,
+    358
+   ],
+   "fill": 0.482,
+   "rgb": "#FBDEA0"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 5742,
+   "box": [
+    899,
+    237,
+    961,
+    362
+   ],
+   "fill": 0.723,
+   "rgb": "#FADD9E"
   },
   {
    "colour": "yellow",
@@ -3541,82 +4322,10 @@
  ],
  "rejected": [
   {
-   "colour": "dark",
-   "y0": 86,
-   "y1": 175,
-   "why": "no shared baseline (24% of runs)"
-  },
-  {
-   "colour": "dark",
-   "y0": 250,
-   "y1": 301,
-   "why": "no shared baseline (33% of runs)"
-  },
-  {
-   "colour": "dark",
-   "y0": 259,
-   "y1": 331,
-   "why": "no shared baseline (33% of runs)"
-  },
-  {
-   "colour": "dark",
-   "y0": 285,
-   "y1": 302,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "dark",
-   "y0": 278,
-   "y1": 285,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "dark",
-   "y0": 325,
-   "y1": 333,
-   "why": "only 1 glyph components"
-  },
-  {
    "colour": "light",
-   "y0": 68,
-   "y1": 80,
-   "why": "no shared baseline (22% of runs)"
-  },
-  {
-   "colour": "light",
-   "y0": 109,
-   "y1": 114,
+   "y0": 352,
+   "y1": 358,
    "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 100,
-   "y1": 116,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 210,
-   "y1": 215,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 211,
-   "y1": 214,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 218,
-   "y1": 222,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 227,
-   "y1": 351,
-   "why": "no shared baseline (12% of runs)"
   },
   {
    "colour": "light",
@@ -3710,21 +4419,15 @@
   },
   {
    "colour": "red",
-   "y0": 72,
-   "y1": 201,
-   "why": "no shared baseline (29% of runs)"
-  },
-  {
-   "colour": "red",
-   "y0": 96,
-   "y1": 99,
+   "y0": 350,
+   "y1": 366,
    "why": "only 1 glyph components"
   },
   {
    "colour": "red",
-   "y0": 231,
+   "y0": 351,
    "y1": 363,
-   "why": "no shared baseline (27% of runs)"
+   "why": "only 1 glyph components"
   },
   {
    "colour": "red",
@@ -3776,62 +4479,26 @@
   },
   {
    "colour": "yellow",
-   "y0": 87,
-   "y1": 97,
+   "y0": 358,
+   "y1": 366,
    "why": "only 1 glyph components"
   },
   {
    "colour": "yellow",
-   "y0": 88,
-   "y1": 97,
+   "y0": 356,
+   "y1": 359,
    "why": "only 1 glyph components"
   },
   {
    "colour": "yellow",
-   "y0": 99,
-   "y1": 109,
+   "y0": 358,
+   "y1": 361,
    "why": "only 1 glyph components"
   },
   {
    "colour": "yellow",
-   "y0": 96,
-   "y1": 115,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "yellow",
-   "y0": 198,
-   "y1": 221,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "yellow",
-   "y0": 227,
-   "y1": 351,
-   "why": "no shared baseline (29% of runs)"
-  },
-  {
-   "colour": "yellow",
-   "y0": 243,
-   "y1": 249,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "yellow",
-   "y0": 241,
-   "y1": 260,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "yellow",
-   "y0": 262,
-   "y1": 314,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "yellow",
-   "y0": 264,
-   "y1": 271,
+   "y0": 349,
+   "y1": 364,
    "why": "only 1 glyph components"
   },
   {
@@ -3919,12 +4586,6 @@
    "why": "counters of dark lettering (18% dark ink)"
   },
   {
-   "colour": "red",
-   "y0": 216,
-   "y1": 228,
-   "why": "counters of dark lettering (30% dark ink)"
-  },
-  {
    "colour": "yellow",
    "y0": 404,
    "y1": 441,
@@ -3956,313 +4617,6 @@
   }
  ],
  "groups": {
-  "display": {
-   "lines": [
-    "title"
-   ],
-   "shape_glyphs": "",
-   "brief": {
-    "/Sans/*": 90,
-    "/Expressive/Loud": 85,
-    "/Expressive/Playful": 40
-   },
-   "features": {
-    "weight": 0.219,
-    "contrast": null,
-    "slant": null,
-    "square": null,
-    "cap": null
-   },
-   "confidence": "low",
-   "margin": 0.0,
-   "distortions": [
-    {
-     "key": "title",
-     "ratio": 0.611,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    }
-   ],
-   "candidates": [
-    {
-     "family": "Anton",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Anton-0-0-400-00a82c4faa2e89f8.ttf",
-     "index": null,
-     "cap_ratio": 0.859375,
-     "width_ratio": 0.611,
-     "spread": 0.0,
-     "stem_err": 0.1254,
-     "shape": null,
-     "features": 0.125,
-     "character": 0.26,
-     "record": {
-      "family": "Anton",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.4569
-    },
-    {
-     "family": "Anton SC",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AntonSC-0-0-400-719b6f03f8b25770.ttf",
-     "index": null,
-     "cap_ratio": 0.859375,
-     "width_ratio": 0.611,
-     "spread": 0.0,
-     "stem_err": 0.1254,
-     "shape": null,
-     "features": 0.125,
-     "character": 0.26,
-     "record": {
-      "family": "Anton SC",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.4569
-    },
-    {
-     "family": "Saira",
-     "sub": "900 wdth50",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Saira-0-50-900-f6a3a5649a6725ba.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 0.7093,
-     "spread": 0.0,
-     "stem_err": 0.4254,
-     "shape": null,
-     "features": 0.425,
-     "character": 0.24,
-     "record": {
-      "family": "Saira",
-      "weight": 900,
-      "italic": false,
-      "wdth": 50,
-      "source": "google"
-     },
-     "score": 0.4875
-    },
-    {
-     "family": "Smooch Sans",
-     "sub": "800",
-     "weight": 800,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SmoochSans-0-0-800-3dc86df5408ad3d3.ttf",
-     "index": null,
-     "cap_ratio": 0.62,
-     "width_ratio": 0.5311,
-     "spread": 0.0,
-     "stem_err": 0.0246,
-     "shape": null,
-     "features": 0.025,
-     "character": 0.251,
-     "record": {
-      "family": "Smooch Sans",
-      "weight": 800,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.5185
-    },
-    {
-     "family": "Sofia Sans Extra Condensed",
-     "sub": "900 italic",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-1-0-900-779d573063c5dab0.ttf",
-     "index": null,
-     "cap_ratio": 0.655,
-     "width_ratio": 0.5043,
-     "spread": 0.0,
-     "stem_err": 0.0246,
-     "shape": null,
-     "features": 0.025,
-     "character": 0.233,
-     "record": {
-      "family": "Sofia Sans Extra Condensed",
-      "weight": 900,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.5599
-    },
-    {
-     "family": "Sofia Sans Extra Condensed",
-     "sub": "900",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-0-0-900-d41e27ba0d3ff180.ttf",
-     "index": null,
-     "cap_ratio": 0.655,
-     "width_ratio": 0.4993,
-     "spread": 0.0,
-     "stem_err": 0.0246,
-     "shape": null,
-     "features": 0.025,
-     "character": 0.233,
-     "record": {
-      "family": "Sofia Sans Extra Condensed",
-      "weight": 900,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.5679
-    },
-    {
-     "family": "Boldonse",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Boldonse-0-0-400-d2cfc8b4baaec861.ttf",
-     "index": null,
-     "cap_ratio": 1.19,
-     "width_ratio": 0.5331,
-     "spread": 0.0,
-     "stem_err": 0.225,
-     "shape": null,
-     "features": 0.225,
-     "character": 0.221,
-     "record": {
-      "family": "Boldonse",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 0.6158
-    },
-    {
-     "family": "Special Gothic",
-     "sub": "700 wdth75",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SpecialGothic-0-75-700-f442b09c834310df.ttf",
-     "index": null,
-     "cap_ratio": 0.71,
-     "width_ratio": 0.5113,
-     "spread": 0.0,
-     "stem_err": 0.1746,
-     "shape": null,
-     "features": 0.175,
-     "character": 0.24,
-     "record": {
-      "family": "Special Gothic",
-      "weight": 700,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 0.6239
-    },
-    {
-     "family": "League Gothic",
-     "sub": "400 wdth75",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/LeagueGothic-0-75-400-b5f1000f50703ac2.ttf",
-     "index": null,
-     "cap_ratio": 0.735,
-     "width_ratio": 1.0231,
-     "spread": 0.0,
-     "stem_err": 1.2246,
-     "shape": null,
-     "features": 1.225,
-     "character": 0.435,
-     "record": {
-      "family": "League Gothic",
-      "weight": 400,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 1.7082
-    },
-    {
-     "family": "Anybody",
-     "sub": "400 wdth50",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Anybody-0-50-400-0e22521930e9131f.ttf",
-     "index": null,
-     "cap_ratio": 0.675,
-     "width_ratio": 1.1476,
-     "spread": 0.0,
-     "stem_err": 1.2246,
-     "shape": null,
-     "features": 1.225,
-     "character": 0.517,
-     "record": {
-      "family": "Anybody",
-      "weight": 400,
-      "italic": false,
-      "wdth": 50,
-      "source": "google"
-     },
-     "score": 2.46
-    },
-    {
-     "family": "Dorsa",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Dorsa-0-0-400-915e718223bc8bfe.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.1789,
-     "spread": 0.0,
-     "stem_err": 2.025,
-     "shape": null,
-     "features": 2.025,
-     "character": 0.534,
-     "record": {
-      "family": "Dorsa",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.0161
-    },
-    {
-     "family": "Six Caps",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SixCaps-0-0-400-3513e9fdf0c8149f.ttf",
-     "index": null,
-     "cap_ratio": 0.84375,
-     "width_ratio": 1.2101,
-     "spread": 0.0,
-     "stem_err": 1.6254,
-     "shape": null,
-     "features": 1.625,
-     "character": 0.534,
-     "record": {
-      "family": "Six Caps",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.8408
-    }
-   ]
-  },
   "body": {
    "lines": [
     "date",
@@ -4628,16 +4982,6 @@
  "ambiguities": [
   {
    "kind": "face_choice",
-   "group": "display",
-   "confidence": "low",
-   "top": [
-    "Anton",
-    "Anton SC",
-    "Saira"
-   ]
-  },
-  {
-   "kind": "face_choice",
    "group": "body",
    "confidence": "low",
    "top": [
@@ -4677,6 +5021,9 @@
    "date=Sans 90, Loud 60"
   ],
   "case": [],
-  "tilted": []
+  "tilted": [],
+  "art": [
+   "title@20,38,1010,352"
+  ]
  }
 }
