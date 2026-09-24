@@ -16,6 +16,7 @@
   "ticket_source=319,1416",
   "footer=180,1493"
  ],
+ "frames": [],
  "median_texture": 3.56,
  "alignment": "ok; 8 line(s) assigned by hand",
  "alignment_cost": 0.186,
@@ -4500,7 +4501,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 11.0634
+     "score": 11.3634
     },
     {
      "family": "Saira",
@@ -4942,6 +4943,7 @@
   ],
   "case": [
    "support=mixed"
-  ]
+  ],
+  "tilted": []
  }
 }

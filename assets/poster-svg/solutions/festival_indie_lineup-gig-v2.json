@@ -16,6 +16,7 @@
   "ticket_source=513,1449",
   "footer=510,1500"
  ],
+ "frames": [],
  "median_texture": 1.03,
  "alignment": "ok; 8 line(s) assigned by hand",
  "alignment_cost": 0.15,
@@ -2441,7 +2442,7 @@
     "cap": 23.0
    },
    "confidence": "low",
-   "margin": 0.058,
+   "margin": 0.042,
    "distortions": [
     {
      "key": "support",
@@ -2488,6 +2489,29 @@
       "source": "google"
      },
      "score": 2.7223
+    },
+    {
+     "family": "Oswald",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Oswald-0-0-600-54e1a6c6ef51059e.ttf",
+     "index": null,
+     "cap_ratio": 0.81,
+     "width_ratio": 1.0168,
+     "spread": 0.0824,
+     "stem_err": 0.004,
+     "shape": 1.653,
+     "features": 1.407,
+     "character": null,
+     "record": {
+      "family": "Oswald",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.8362
     },
     {
      "family": "Truculenta",
@@ -2626,29 +2650,6 @@
       "source": "google"
      },
      "score": 2.9607
-    },
-    {
-     "family": "Instrument Sans",
-     "sub": "700 wdth75",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/InstrumentSans-0-75-700-3e9707b4e759d420.ttf",
-     "index": null,
-     "cap_ratio": 0.72,
-     "width_ratio": 1.0299,
-     "spread": 0.0986,
-     "stem_err": 0.0641,
-     "shape": 1.9429,
-     "features": 1.02,
-     "character": null,
-     "record": {
-      "family": "Instrument Sans",
-      "weight": 700,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 3.0223
     },
     {
      "family": "Charm",
@@ -2828,52 +2829,6 @@
      "score": 5.8047
     },
     {
-     "family": "M PLUS Code Latin",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/MPLUSCodeLatin-0-0-600-645f44867e47b444.ttf",
-     "index": null,
-     "cap_ratio": 0.73,
-     "width_ratio": 0.7406,
-     "spread": 0.0084,
-     "stem_err": 0.1518,
-     "shape": 4.2461,
-     "features": 1.928,
-     "character": 0.294,
-     "record": {
-      "family": "M PLUS Code Latin",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 5.8922
-    },
-    {
-     "family": "M PLUS Code Latin",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/MPLUSCodeLatin-0-0-700-556395d9e9607368.ttf",
-     "index": null,
-     "cap_ratio": 0.73,
-     "width_ratio": 0.7402,
-     "spread": 0.0083,
-     "stem_err": 0.0751,
-     "shape": 4.2924,
-     "features": 1.816,
-     "character": 0.294,
-     "record": {
-      "family": "M PLUS Code Latin",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 5.9936
-    },
-    {
      "family": "BBH Bogle",
      "sub": "400",
      "weight": 400,
@@ -2964,6 +2919,52 @@
       "source": "google"
      },
      "score": 6.1134
+    },
+    {
+     "family": "Fjalla One",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/FjallaOne-0-0-400-fc86c34b03650efc.ttf",
+     "index": null,
+     "cap_ratio": 0.833984375,
+     "width_ratio": 0.9576,
+     "spread": 0.0134,
+     "stem_err": 0.2655,
+     "shape": 4.4958,
+     "features": 2.302,
+     "character": 0.279,
+     "record": {
+      "family": "Fjalla One",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.1257
+    },
+    {
+     "family": "Staatliches",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Staatliches-0-0-400-d79df23c58a0bf99.ttf",
+     "index": null,
+     "cap_ratio": 0.696,
+     "width_ratio": 0.9016,
+     "spread": 0.0062,
+     "stem_err": 0.0387,
+     "shape": 4.5862,
+     "features": 1.94,
+     "character": 0.218,
+     "record": {
+      "family": "Staatliches",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.1287
     },
     {
      "family": "Road Rage",
@@ -3077,8 +3078,8 @@
    "confidence": "low",
    "top": [
     "Sofia Sans Extra Condensed",
-    "Truculenta",
-    "Freeman"
+    "Oswald",
+    "Truculenta"
    ]
   },
   {
@@ -3088,7 +3089,7 @@
    "top": [
     "Boldonse",
     "Mozilla Headline",
-    "M PLUS Code Latin"
+    "BBH Bogle"
    ]
   }
  ],
@@ -3120,6 +3121,7 @@
    "headliner=Sans 90, Loud 80, Playful 5",
    "date=Sans 90, Loud 60, Playful 5"
   ],
-  "case": []
+  "case": [],
+  "tilted": []
  }
 }

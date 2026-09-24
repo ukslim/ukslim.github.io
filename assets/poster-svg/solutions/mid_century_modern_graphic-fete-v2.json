@@ -22,6 +22,7 @@
   "footer0=524,1407",
   "footer1=512,1492"
  ],
+ "frames": [],
  "median_texture": 0.43,
  "alignment": "ok; 14 line(s) assigned by hand",
  "alignment_cost": 0.146,
@@ -5533,27 +5534,27 @@
      "score": 5.8378
     },
     {
-     "family": "Bitcount Grid Single Ink",
+     "family": "Bitcount Prop Double",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BitcountGridSingleInk-0-0-400-7c636663f0f23bc2.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BitcountPropDouble-0-0-400-8c52659e38615216.ttf",
      "index": null,
      "cap_ratio": 0.6,
-     "width_ratio": 0.4823,
-     "spread": 0.0301,
+     "width_ratio": 0.5323,
+     "spread": 0.0175,
      "stem_err": 0.014,
-     "shape": 3.7763,
-     "features": 1.261,
+     "shape": 3.6334,
+     "features": 1.591,
      "character": null,
      "record": {
-      "family": "Bitcount Grid Single Ink",
+      "family": "Bitcount Prop Double",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 5.8784
+     "score": 5.8988
     },
     {
      "family": "Jacquard 24 Charted",
@@ -6013,6 +6014,7 @@
    "title=Sans 90, Vintage 70, Happy 40",
    "date=Sans 90, Business 50"
   ],
-  "case": []
+  "case": [],
+  "tilted": []
  }
 }
