@@ -42,7 +42,7 @@ When it works, you get pretty close matches, and the knowledge that the type is 
 
 <div class="image-pair">
 {% include image path="/assets/poster-examples/de_stijl-gig-v2.webp" w="400" link="/poster-prompts/de-stijl/" caption="De Stijl gig — original" %}
-{% include image path="/assets/poster-svg/de_stijl-gig-v2.svg" w="400" caption="De Stijl gig — SVG rebuild" %}
+{% include image path="/assets/posts/2026-09-23-poster-svg/de_stijl-gig-v2.svg" w="400" caption="De Stijl gig — SVG rebuild" %}
 </div>
 
 So that's better, right?
@@ -55,7 +55,7 @@ in this one word, in this one position, a pointy V works.
 
 <div class="image-pair">
 {% include image path="/assets/poster-examples/bauhaus_modernist-gig-v2.webp" w="400" link="/poster-prompts/bauhaus-modernist/" caption="Bauhaus / Modernist gig — original" %}
-{% include image path="/assets/poster-svg/bauhaus_modernist-gig-v2.svg" w="400" caption="Bauhaus / Modernist gig — SVG rebuild" %}
+{% include image path="/assets/posts/2026-09-23-poster-svg/bauhaus_modernist-gig-v2.svg" w="400" caption="Bauhaus / Modernist gig — SVG rebuild" %}
 </div>
 
 In other places, like the Festival of Britain gig below, the model-generated drawn text lines up just-so: "CARVER &" the same width as "THE FLOOD". You

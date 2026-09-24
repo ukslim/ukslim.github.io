@@ -47,6 +47,7 @@ Push to the default branch; GitHub Pages builds and publishes automatically. No 
 | `assets/poster-thumbnails/` | Fête thumbnail images (`{style_id}-fete.jpg`) used on the poster-prompts index grid |
 | `assets/poster-svg/` | SVG rebuilds of the V2 poster examples (`{style_id}-{event}-v2.svg`): real type over cut-out artwork. Some carry a "flawed" alert icon; some are "could not convert" placeholders |
 | `assets/poster-svg/solutions/` | How each SVG was built (settings, measurements); excluded from the published site |
+| `assets/posts/{post-slug}/` | Frozen copies of assets a post embeds, so later rebuilds of `assets/poster-svg/` do not change a published post |
 | `assets/og-default.png` | Sitewide social-preview card (source: `assets/og-default.svg`) |
 | `assets/og-poster-prompts.jpg` | Social-preview card for the poster-prompts index |
 
