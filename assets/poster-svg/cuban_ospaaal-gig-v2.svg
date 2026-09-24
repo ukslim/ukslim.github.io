@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536"
      viewBox="0 0 1024 1536" role="img"
-     aria-label="Not converted to SVG. The headline and the date lines are all set on a steep diagonal; the builder sets only level baselines.">
+     aria-label="Not converted to SVG. Tool limitation: the headline and the date block are straight but on a slant, and --tilted now finds both (14 and 11 degrees) and sets the date block correctly. But in the headline's levelled frame the support line merges into THE FLOOD as one band, so the headline cannot be reset whole; splitting merged lines would rescue it.">
   <title>Not converted to SVG &#8212; Cuban OSPAAAL &#8212; gig poster</title>
   <style type="text/css"><![CDATA[
     text { font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue",
@@ -22,8 +22,12 @@
   <text class="head"    x="112" y="682">No SVG version</text>
   <text class="subject" x="112" y="728">Cuban OSPAAAL &#8212; gig poster</text>
   <text class="reason"  x="112" y="798">
-    <tspan x="112" dy="0">The headline and the date lines are all set on a</tspan>
-    <tspan x="112" dy="40">steep diagonal; the builder sets only level</tspan>
-    <tspan x="112" dy="40">baselines.</tspan>
+    <tspan x="112" dy="0">Tool limitation: the headline and the date block are</tspan>
+    <tspan x="112" dy="40">straight but on a slant, and --tilted now finds both</tspan>
+    <tspan x="112" dy="40">(14 and 11 degrees) and sets the date block</tspan>
+    <tspan x="112" dy="40">correctly. But in the headline's levelled frame the</tspan>
+    <tspan x="112" dy="40">support line merges into THE FLOOD as one band, so</tspan>
+    <tspan x="112" dy="40">the headline cannot be reset whole; splitting merged</tspan>
+    <tspan x="112" dy="40">lines would rescue it.</tspan>
   </text>
 </svg>

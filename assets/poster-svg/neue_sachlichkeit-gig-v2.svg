@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536"
      viewBox="0 0 1024 1536" role="img"
-     aria-label="Not converted to SVG. The headline is set on a tilted banner, rotated roughly ten degrees across the poster, and the solver only measures horizontal baselines. It never finds those letters at all: the band it takes for the headline is a cap-65 line elsewhere on the page, so the copy shifts up by one and the presenter is set across the top at display size, colliding with everything under it. Reset horizontally the poster would also lose the diagonal that is the whole composition. A rotated headline is reproducible in principle -- an SVG can carry a rotate transform -- but nothing in the pipeline measures the angle, so this is a limit of the tooling rather than of the poster.">
-  <title>Not converted to SVG &#8212; neue_sachlichkeit &#8212; gig poster</title>
+     aria-label="Not converted to SVG. Tool limitation: the headline is straight on a banner tilted 7 degrees, which --tilted levels correctly, but its big grainy white letters on red are rejected as having no shared baseline -- the grain breaks off specks that outvote the letters. A speck-tolerant baseline test fixed this poster but broke five others, so it waits for a better one.">
+  <title>Not converted to SVG &#8212; Neue Sachlichkeit &#8212; gig poster</title>
   <style type="text/css"><![CDATA[
     text { font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue",
             Arial, sans-serif; fill: #2B2B2B; }
@@ -20,21 +20,14 @@
   <line x1="112" y1="618" x2="912" y2="618"
         stroke="#C9C7C3" stroke-width="2"/>
   <text class="head"    x="112" y="682">No SVG version</text>
-  <text class="subject" x="112" y="728">neue_sachlichkeit &#8212; gig poster</text>
+  <text class="subject" x="112" y="728">Neue Sachlichkeit &#8212; gig poster</text>
   <text class="reason"  x="112" y="798">
-    <tspan x="112" dy="0">The headline is set on a tilted banner, rotated</tspan>
-    <tspan x="112" dy="40">roughly ten degrees across the poster, and the</tspan>
-    <tspan x="112" dy="40">solver only measures horizontal baselines. It never</tspan>
-    <tspan x="112" dy="40">finds those letters at all: the band it takes for</tspan>
-    <tspan x="112" dy="40">the headline is a cap-65 line elsewhere on the page,</tspan>
-    <tspan x="112" dy="40">so the copy shifts up by one and the presenter is</tspan>
-    <tspan x="112" dy="40">set across the top at display size, colliding with</tspan>
-    <tspan x="112" dy="40">everything under it. Reset horizontally the poster</tspan>
-    <tspan x="112" dy="40">would also lose the diagonal that is the whole</tspan>
-    <tspan x="112" dy="40">composition. A rotated headline is reproducible in</tspan>
-    <tspan x="112" dy="40">principle -- an SVG can carry a rotate transform --</tspan>
-    <tspan x="112" dy="40">but nothing in the pipeline measures the angle, so</tspan>
-    <tspan x="112" dy="40">this is a limit of the tooling rather than of the</tspan>
-    <tspan x="112" dy="40">poster.</tspan>
+    <tspan x="112" dy="0">Tool limitation: the headline is straight on a</tspan>
+    <tspan x="112" dy="40">banner tilted 7 degrees, which --tilted levels</tspan>
+    <tspan x="112" dy="40">correctly, but its big grainy white letters on red</tspan>
+    <tspan x="112" dy="40">are rejected as having no shared baseline -- the</tspan>
+    <tspan x="112" dy="40">grain breaks off specks that outvote the letters. A</tspan>
+    <tspan x="112" dy="40">speck-tolerant baseline test fixed this poster but</tspan>
+    <tspan x="112" dy="40">broke five others, so it waits for a better one.</tspan>
   </text>
 </svg>
