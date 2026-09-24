@@ -6,13 +6,25 @@
   1536
  ],
  "paper": "#FDFDFD",
- "median_texture": 0.28,
- "alignment": "ok",
- "alignment_cost": 0.125,
+ "assign_points": [
+  "presenter=179,52",
+  "headliner=520,174",
+  "support=230,280",
+  "date=301,1292",
+  "venue=386,1337",
+  "tickets=223,1419",
+  "ticket_source=299,1453",
+  "footer=169,1484"
+ ],
+ "median_texture": 0.27,
+ "alignment": "ok; 8 line(s) assigned by hand",
+ "alignment_cost": 0.038,
  "lines": [
   {
    "colour": "dark",
    "rgb": "#292929",
+   "ground": "#FEFEFE",
+   "is_ground": false,
    "y0": 43,
    "y1": 61,
    "baseline": 58,
@@ -24,9 +36,9 @@
    "right": 300,
    "width": 243,
    "n_runs": 27,
-   "density": 0.2638,
+   "density": 0.2476,
    "texture": 0.39,
-   "slope": 0.0,
+   "slope": -0.0,
    "warp": 0.0,
    "stem_ratio": 0.13333333333333333,
    "runs": [
@@ -57,7 +69,7 @@
     [
      96,
      104,
-     43,
+     44,
      57
     ],
     [
@@ -139,16 +151,16 @@
      57
     ],
     [
-     220,
+     221,
      227,
      48,
      57
     ],
     [
-     234,
+     235,
      242,
      48,
-     61
+     60
     ],
     [
      245,
@@ -164,12 +176,12 @@
     ],
     [
      260,
-     267,
+     266,
      48,
      57
     ],
     [
-     268,
+     269,
      276,
      48,
      57
@@ -192,11 +204,15 @@
      48,
      57
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#101010",
+   "ground": "#FDFDFD",
+   "is_ground": false,
    "y0": 110,
    "y1": 239,
    "baseline": 238,
@@ -208,7 +224,7 @@
    "right": 983,
    "width": 926,
    "n_runs": 15,
-   "density": 0.5146,
+   "density": 0.5231,
    "texture": 0.07,
    "slope": 0.02,
    "warp": 0.007,
@@ -275,7 +291,7 @@
      237
     ],
     [
-     718,
+     719,
      759,
      112,
      237
@@ -294,7 +310,7 @@
     ],
     [
      872,
-     921,
+     922,
      110,
      239
     ],
@@ -304,25 +320,29 @@
      112,
      237
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#101010",
+   "ground": "#FEFEFE",
+   "is_ground": false,
    "y0": 267,
    "y1": 293,
    "baseline": 289,
    "cap_top": 267,
    "cap": 22,
-   "x_height": 16,
-   "lower_frac": 0.75,
+   "x_height": 15,
+   "lower_frac": 0.833,
    "left": 58,
    "right": 403,
    "width": 346,
    "n_runs": 24,
-   "density": 0.2853,
+   "density": 0.2584,
    "texture": 0.24,
-   "slope": 0.0,
+   "slope": -0.0,
    "warp": 0.0,
    "stem_ratio": 0.18181818181818182,
    "runs": [
@@ -341,19 +361,19 @@
     [
      84,
      91,
-     269,
+     270,
      288
     ],
     [
      94,
-     105,
+     104,
      268,
      288
     ],
     [
      114,
      125,
-     273,
+     274,
      288
     ],
     [
@@ -365,19 +385,19 @@
     [
      142,
      154,
-     273,
+     274,
      293
     ],
     [
      157,
-     169,
-     273,
+     168,
+     274,
      293
     ],
     [
      171,
      183,
-     273,
+     274,
      288
     ],
     [
@@ -387,14 +407,14 @@
      288
     ],
     [
-     194,
+     195,
      201,
-     269,
+     270,
      288
     ],
     [
      209,
-     216,
+     215,
      268,
      288
     ],
@@ -407,13 +427,13 @@
     [
      225,
      237,
-     273,
+     274,
      288
     ],
     [
      240,
      258,
-     273,
+     274,
      288
     ],
     [
@@ -425,19 +445,19 @@
     [
      289,
      301,
-     273,
+     274,
      288
     ],
     [
      304,
      314,
-     273,
+     274,
      288
     ],
     [
      317,
      329,
-     273,
+     274,
      288
     ],
     [
@@ -447,36 +467,40 @@
      288
     ],
     [
-     356,
+     357,
      363,
      274,
      288
     ],
     [
-     364,
+     365,
      376,
-     273,
+     274,
      288
     ],
     [
      378,
      389,
-     273,
+     274,
      288
     ],
     [
      391,
      403,
-     273,
+     274,
      288
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#0C0C0C",
+   "ground": "#FEFEFE",
+   "is_ground": false,
    "y0": 1276,
-   "y1": 1309,
+   "y1": 1308,
    "baseline": 1303,
    "cap_top": 1276,
    "cap": 27,
@@ -486,9 +510,9 @@
    "right": 543,
    "width": 484,
    "n_runs": 32,
-   "density": 0.2878,
-   "texture": 0.2,
-   "slope": 0.0,
+   "density": 0.2748,
+   "texture": 0.19,
+   "slope": -0.0,
    "warp": 0.0,
    "stem_ratio": 0.14814814814814814,
    "runs": [
@@ -501,13 +525,13 @@
     [
      76,
      84,
-     1283,
+     1284,
      1302
     ],
     [
      87,
      89,
-     1276,
+     1277,
      1280
     ],
     [
@@ -518,7 +542,7 @@
     ],
     [
      93,
-     107,
+     106,
      1276,
      1302
     ],
@@ -532,7 +556,7 @@
      125,
      138,
      1284,
-     1309
+     1308
     ],
     [
      148,
@@ -560,7 +584,7 @@
     ],
     [
      213,
-     229,
+     228,
      1276,
      1302
     ],
@@ -584,7 +608,7 @@
     ],
     [
      273,
-     287,
+     286,
      1283,
      1302
     ],
@@ -608,8 +632,8 @@
     ],
     [
      347,
-     355,
-     1283,
+     354,
+     1284,
      1302
     ],
     [
@@ -626,7 +650,7 @@
     ],
     [
      385,
-     399,
+     398,
      1283,
      1302
     ],
@@ -656,7 +680,7 @@
     ],
     [
      464,
-     467,
+     466,
      1298,
      1302
     ],
@@ -668,7 +692,7 @@
     ],
     [
      488,
-     503,
+     502,
      1276,
      1302
     ],
@@ -684,11 +708,15 @@
      1283,
      1302
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#0A0A0A",
+   "ground": "#FDFDFD",
+   "is_ground": false,
    "y0": 1321,
    "y1": 1353,
    "baseline": 1348,
@@ -700,21 +728,21 @@
    "right": 714,
    "width": 656,
    "n_runs": 42,
-   "density": 0.2913,
+   "density": 0.2667,
    "texture": 0.18,
-   "slope": 0.02,
+   "slope": 0.01,
    "warp": 0.02,
    "stem_ratio": 0.13793103448275862,
    "runs": [
     [
      59,
-     75,
-     1321,
+     74,
+     1322,
      1347
     ],
     [
-     77,
-     90,
+     78,
+     89,
      1322,
      1347
     ],
@@ -750,7 +778,7 @@
     ],
     [
      181,
-     195,
+     194,
      1329,
      1348
     ],
@@ -786,7 +814,7 @@
     ],
     [
      288,
-     300,
+     299,
      1329,
      1348
     ],
@@ -797,7 +825,7 @@
      1353
     ],
     [
-     316,
+     317,
      324,
      1322,
      1347
@@ -846,7 +874,7 @@
     ],
     [
      439,
-     452,
+     451,
      1322,
      1347
     ],
@@ -872,7 +900,7 @@
      500,
      503,
      1344,
-     1353
+     1352
     ],
     [
      514,
@@ -905,10 +933,10 @@
      1348
     ],
     [
-     560,
+     561,
      568,
      1324,
-     1348
+     1347
     ],
     [
      570,
@@ -923,7 +951,7 @@
      1347
     ],
     [
-     597,
+     598,
      622,
      1322,
      1347
@@ -948,7 +976,7 @@
     ],
     [
      681,
-     693,
+     692,
      1322,
      1348
     ],
@@ -958,30 +986,34 @@
      1321,
      1349
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#2A2A2A",
+   "ground": "#FDFDFD",
+   "is_ground": false,
    "y0": 1412,
-   "y1": 1428,
+   "y1": 1427,
    "baseline": 1428,
    "cap_top": 1412,
    "cap": 16,
-   "x_height": 16,
+   "x_height": 11,
    "lower_frac": 0.533,
-   "left": 58,
-   "right": 389,
-   "width": 332,
+   "left": 59,
+   "right": 388,
+   "width": 330,
    "n_runs": 30,
-   "density": 0.295,
-   "texture": 0.31,
-   "slope": 0.0,
-   "warp": 0.011,
-   "stem_ratio": 0.11764705882352941,
+   "density": 0.2896,
+   "texture": 0.29,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.125,
    "runs": [
     [
-     58,
+     59,
      69,
      1412,
      1427
@@ -995,7 +1027,7 @@
     [
      75,
      83,
-     1416,
+     1417,
      1427
     ],
     [
@@ -1019,7 +1051,7 @@
     [
      110,
      118,
-     1416,
+     1417,
      1427
     ],
     [
@@ -1035,7 +1067,7 @@
      1427
     ],
     [
-     151,
+     152,
      160,
      1412,
      1427
@@ -1043,7 +1075,7 @@
     [
      168,
      176,
-     1416,
+     1417,
      1427
     ],
     [
@@ -1061,7 +1093,7 @@
     [
      198,
      206,
-     1416,
+     1417,
      1427
     ],
     [
@@ -1078,7 +1110,7 @@
     ],
     [
      228,
-     237,
+     236,
      1417,
      1427
     ],
@@ -1086,7 +1118,7 @@
      243,
      249,
      1412,
-     1428
+     1427
     ],
     [
      256,
@@ -1096,7 +1128,7 @@
     ],
     [
      269,
-     274,
+     273,
      1412,
      1427
     ],
@@ -1108,8 +1140,8 @@
     ],
     [
      294,
-     303,
-     1416,
+     302,
+     1417,
      1427
     ],
     [
@@ -1156,29 +1188,33 @@
     ],
     [
      384,
-     389,
+     388,
      1417,
      1427
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#262626",
+   "ground": "#FDFDFD",
+   "is_ground": false,
    "y0": 1444,
    "y1": 1463,
    "baseline": 1460,
    "cap_top": 1444,
    "cap": 16,
-   "x_height": 12,
+   "x_height": 11,
    "lower_frac": 0.66,
    "left": 59,
    "right": 539,
    "width": 481,
    "n_runs": 47,
-   "density": 0.268,
+   "density": 0.2431,
    "texture": 0.35,
-   "slope": 0.0,
+   "slope": -0.0,
    "warp": 0.0,
    "stem_ratio": 0.125,
    "runs": [
@@ -1196,7 +1232,7 @@
     ],
     [
      80,
-     89,
+     88,
      1448,
      1459
     ],
@@ -1233,7 +1269,7 @@
     [
      124,
      132,
-     1448,
+     1449,
      1459
     ],
     [
@@ -1251,11 +1287,11 @@
     [
      151,
      160,
-     1448,
+     1449,
      1459
     ],
     [
-     162,
+     163,
      175,
      1448,
      1459
@@ -1268,14 +1304,14 @@
     ],
     [
      195,
-     203,
+     202,
      1444,
      1459
     ],
     [
      205,
      213,
-     1448,
+     1449,
      1459
     ],
     [
@@ -1293,19 +1329,19 @@
     [
      243,
      251,
-     1448,
+     1449,
      1459
     ],
     [
      254,
-     262,
+     261,
      1444,
      1459
     ],
     [
      264,
-     273,
-     1448,
+     272,
+     1449,
      1459
     ],
     [
@@ -1329,7 +1365,7 @@
     [
      309,
      317,
-     1448,
+     1449,
      1459
     ],
     [
@@ -1341,12 +1377,12 @@
     [
      335,
      343,
-     1448,
+     1449,
      1459
     ],
     [
      350,
-     359,
+     358,
      1444,
      1459
     ],
@@ -1365,7 +1401,7 @@
     [
      382,
      390,
-     1448,
+     1449,
      1459
     ],
     [
@@ -1377,7 +1413,7 @@
     [
      404,
      412,
-     1448,
+     1449,
      1463
     ],
     [
@@ -1399,7 +1435,7 @@
      1459
     ],
     [
-     433,
+     434,
      435,
      1449,
      1459
@@ -1407,7 +1443,7 @@
     [
      437,
      446,
-     1448,
+     1449,
      1463
     ],
     [
@@ -1425,7 +1461,7 @@
     [
      465,
      474,
-     1448,
+     1449,
      1463
     ],
     [
@@ -1442,14 +1478,14 @@
     ],
     [
      497,
-     505,
-     1448,
+     504,
+     1449,
      1459
     ],
     [
-     506,
+     507,
      515,
-     1448,
+     1449,
      1459
     ],
     [
@@ -1464,11 +1500,15 @@
      1444,
      1459
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   },
   {
    "colour": "dark",
    "rgb": "#2C2C2C",
+   "ground": "#FDFDFD",
+   "is_ground": false,
    "y0": 1475,
    "y1": 1494,
    "baseline": 1491,
@@ -1480,11 +1520,11 @@
    "right": 280,
    "width": 222,
    "n_runs": 23,
-   "density": 0.2811,
+   "density": 0.2592,
    "texture": 0.32,
    "slope": -0.0,
    "warp": 0.0,
-   "stem_ratio": 0.1875,
+   "stem_ratio": 0.125,
    "runs": [
     [
      59,
@@ -1494,7 +1534,7 @@
     ],
     [
      72,
-     74,
+     73,
      1475,
      1490
     ],
@@ -1512,7 +1552,7 @@
     ],
     [
      95,
-     104,
+     103,
      1480,
      1494
     ],
@@ -1601,7 +1641,7 @@
      1490
     ],
     [
-     250,
+     251,
      252,
      1480,
      1490
@@ -1624,7 +1664,9 @@
      1476,
      1490
     ]
-   ]
+   ],
+   "marker": null,
+   "track": 0.0
   }
  ],
  "assigned": [
@@ -1633,56 +1675,64 @@
    "text": "Pale Light Promotions presents:",
    "bands": [
     0
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "headliner",
    "text": "CARVER & THE FLOOD",
    "bands": [
     1
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "support",
    "text": "with support from Mena Grace",
    "bands": [
     2
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
     3
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "tickets",
-   "text": "\u00a312 advance / \u00a315 on the door",
+   "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "ticket_source",
-   "text": "The Anchor Rooms bar or pallightpro.co.uk",
+   "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -1698,6 +1748,201 @@
    ],
    "fill": 0.003,
    "rgb": "#7D7D7D"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 504,
+   "box": [
+    520,
+    319,
+    521,
+    570
+   ],
+   "fill": 1.0,
+   "rgb": "#FFF6E6"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 756,
+   "box": [
+    721,
+    319,
+    723,
+    570
+   ],
+   "fill": 1.0,
+   "rgb": "#F2FFF1"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 504,
+   "box": [
+    772,
+    319,
+    773,
+    570
+   ],
+   "fill": 1.0,
+   "rgb": "#E5FFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 518,
+   "box": [
+    823,
+    319,
+    825,
+    570
+   ],
+   "fill": 0.685,
+   "rgb": "#E5FFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 756,
+   "box": [
+    873,
+    319,
+    875,
+    570
+   ],
+   "fill": 1.0,
+   "rgb": "#E5FCFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 504,
+   "box": [
+    924,
+    319,
+    925,
+    570
+   ],
+   "fill": 1.0,
+   "rgb": "#FFF6FF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 404,
+   "box": [
+    45,
+    385,
+    246,
+    386
+   ],
+   "fill": 1.0,
+   "rgb": "#FFEDDB"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 404,
+   "box": [
+    45,
+    694,
+    246,
+    695
+   ],
+   "fill": 1.0,
+   "rgb": "#EFFFEA"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 601,
+   "box": [
+    45,
+    752,
+    246,
+    754
+   ],
+   "fill": 0.992,
+   "rgb": "#DAFFFA"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 404,
+   "box": [
+    45,
+    812,
+    246,
+    813
+   ],
+   "fill": 1.0,
+   "rgb": "#E6FFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 411,
+   "box": [
+    45,
+    871,
+    246,
+    873
+   ],
+   "fill": 0.678,
+   "rgb": "#D4FFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 404,
+   "box": [
+    45,
+    931,
+    246,
+    932
+   ],
+   "fill": 1.0,
+   "rgb": "#E5FFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 606,
+   "box": [
+    45,
+    992,
+    246,
+    994
+   ],
+   "fill": 1.0,
+   "rgb": "#ECE6FF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 570,
+   "box": [
+    45,
+    1054,
+    246,
+    1056
+   ],
+   "fill": 0.941,
+   "rgb": "#FFF2FF"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 577,
+   "box": [
+    45,
+    1115,
+    246,
+    1117
+   ],
+   "fill": 0.952,
+   "rgb": "#FFF2FF"
   },
   {
    "colour": "blue",
@@ -2168,6 +2413,19 @@
    "rgb": "#FBBC15"
   },
   {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 933,
+   "box": [
+    45,
+    1170,
+    258,
+    1231
+   ],
+   "fill": 0.07,
+   "rgb": "#FFF2FF"
+  },
+  {
    "colour": "blue",
    "kind": "inside an excluded box",
    "px": 10538,
@@ -2632,9 +2890,15 @@
   },
   {
    "colour": "light",
-   "y0": 139,
-   "y1": 207,
-   "why": "no shared baseline (19% of runs)"
+   "y0": 119,
+   "y1": 143,
+   "why": "no shared baseline (24% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 230,
+   "y1": 235,
+   "why": "only 1 glyph components"
   }
  ],
  "groups": {
@@ -2648,228 +2912,320 @@
     "ticket_source",
     "footer"
    ],
-   "shape_glyphs": "MGeamw",
+   "shape_glyphs": "WQSRM2Geag",
+   "brief": {
+    "/Sans/*": 90,
+    "/Expressive/Business": 60,
+    "/Expressive/Playful": 10
+   },
+   "features": {
+    "weight": 0.154,
+    "contrast": 0.977,
+    "slant": 0.0,
+    "square": null,
+    "cap": 26.0
+   },
    "confidence": "low",
-   "margin": 0.113,
+   "margin": 0.017,
    "distortions": [
     {
-     "key": "presenter",
-     "ratio": 0.919,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
-     "key": "support",
-     "ratio": 0.928,
-     "kind": "horizontal_squash",
-     "stem_matches": false,
-     "action": "do NOT reproduce; set at natural width"
-    },
-    {
-     "key": "date",
-     "ratio": 0.862,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
      "key": "venue",
-     "ratio": 0.849,
+     "ratio": 0.939,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
     },
     {
      "key": "tickets",
-     "ratio": 1.273,
+     "ratio": 1.107,
      "kind": "wider_than_face",
      "stem_matches": true,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "ticket_source",
-     "ratio": 1.259,
+     "ratio": 1.061,
      "kind": "wider_than_face",
      "stem_matches": true,
      "action": "do NOT stretch; let the line run short"
-    },
-    {
-     "key": "footer",
-     "ratio": 0.916,
-     "kind": "horizontal_squash",
-     "stem_matches": false,
-     "action": "do NOT reproduce; set at natural width"
     }
    ],
    "candidates": [
     {
-     "family": "Instrument Sans",
-     "sub": "Regular",
+     "family": "Encode Sans Condensed",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/EncodeSansCondensed-0-0-600-686af6bc9d695199.ttf",
+     "index": null,
+     "cap_ratio": 0.74,
+     "width_ratio": 1.0307,
+     "spread": 0.051,
+     "stem_err": 0.0463,
+     "shape": 1.3664,
+     "features": 0.357,
+     "character": 0.141,
+     "record": {
+      "family": "Encode Sans Condensed",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.9276
+    },
+    {
+     "family": "Cossette Texte",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/CossetteTexte-0-0-400-b5b1c50b323553c4.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 0.9368,
+     "spread": 0.0412,
+     "stem_err": 0.1337,
+     "shape": 1.2746,
+     "features": 0.438,
+     "character": 0.082,
+     "record": {
+      "family": "Cossette Texte",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.9596
+    },
+    {
+     "family": "Yaldevi",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Yaldevi-0-0-600-62edacc4623ff316.ttf",
+     "index": null,
+     "cap_ratio": 0.768,
+     "width_ratio": 0.9469,
+     "spread": 0.0417,
+     "stem_err": 0.0005,
+     "shape": 1.3758,
+     "features": 0.394,
+     "character": 0.069,
+     "record": {
+      "family": "Yaldevi",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.9925
+    },
+    {
+     "family": "Zalando Sans",
+     "sub": "400 wdth75",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ZalandoSans-0-75-400-03ab04bb9d261fbe.ttf",
+     "index": null,
+     "cap_ratio": 0.714,
+     "width_ratio": 0.9732,
+     "spread": 0.0365,
+     "stem_err": 0.1337,
+     "shape": 1.4038,
+     "features": 0.393,
+     "character": 0.166,
+     "record": {
+      "family": "Zalando Sans",
+      "weight": 400,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.0072
+    },
+    {
+     "family": "Reddit Sans Condensed",
+     "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/InstrumentSans-wdth87-wght500.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-500-81bbc8e57fcf34b0.ttf",
      "index": null,
-     "cap_ratio": 0.72,
-     "width_ratio": 0.9186,
-     "spread": 0.1699,
-     "stem_err": 0.007,
-     "shape": 1.372,
-     "score": 1.8482
+     "cap_ratio": 0.7197265625,
+     "width_ratio": 0.9673,
+     "spread": 0.0443,
+     "stem_err": 0.074,
+     "shape": 1.4998,
+     "features": 0.302,
+     "character": 0.097,
+     "record": {
+      "family": "Reddit Sans Condensed",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0151
+    },
+    {
+     "family": "Radio Canada",
+     "sub": "400 wdth75",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/RadioCanada-0-75-400-c1c837a196807135.ttf",
+     "index": null,
+     "cap_ratio": 0.69,
+     "width_ratio": 0.9599,
+     "spread": 0.0409,
+     "stem_err": 0.074,
+     "shape": 1.3947,
+     "features": 0.39,
+     "character": 0.181,
+     "record": {
+      "family": "Radio Canada",
+      "weight": 400,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.043
     },
     {
      "family": "Archivo Narrow",
-     "sub": "Regular",
+     "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/ArchivoNarrow-wght500.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ArchivoNarrow-0-0-500-c269c88c25561fa3.ttf",
      "index": null,
      "cap_ratio": 0.686,
-     "width_ratio": 0.9366,
-     "spread": 0.1692,
-     "stem_err": 0.0584,
-     "shape": 1.4636,
-     "score": 2.0575
+     "width_ratio": 0.9871,
+     "spread": 0.0501,
+     "stem_err": 0.0412,
+     "shape": 1.4182,
+     "features": 0.483,
+     "character": 0.215,
+     "record": {
+      "family": "Archivo Narrow",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0578
     },
     {
-     "family": "Helvetica",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": false,
-     "path": "/System/Library/Fonts/Helvetica.ttc",
-     "index": 0,
-     "cap_ratio": 0.71729,
-     "width_ratio": 0.8286,
-     "spread": 0.1473,
-     "stem_err": 0.0148,
-     "shape": 1.6419,
-     "score": 2.174
-    },
-    {
-     "family": "Roboto",
-     "sub": "Regular",
+     "family": "Archivo Narrow",
+     "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Roboto-400.ttf",
-     "index": null,
-     "cap_ratio": 0.71094,
-     "width_ratio": 0.8182,
-     "spread": 0.1433,
-     "stem_err": 0.0299,
-     "shape": 1.713,
-     "score": 2.2844
-    },
-    {
-     "family": "Arial",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": false,
-     "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
-     "index": null,
-     "cap_ratio": 0.71582,
-     "width_ratio": 0.8277,
-     "spread": 0.1465,
-     "stem_err": 0.0401,
-     "shape": 1.7099,
-     "score": 2.2917
-    },
-    {
-     "family": "Archivo",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Archivo-400.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ArchivoNarrow-0-0-400-a735ed0cec20e30e.ttf",
      "index": null,
      "cap_ratio": 0.686,
-     "width_ratio": 0.8007,
-     "spread": 0.1447,
-     "stem_err": 0.0055,
-     "shape": 1.7298,
-     "score": 2.2991
-    },
-    {
-     "family": "Fira Sans Condensed",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/FiraSansCondensed-400.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 0.8635,
-     "spread": 0.1514,
-     "stem_err": 0.0018,
-     "shape": 1.9782,
-     "score": 2.489
-    },
-    {
-     "family": "Arimo",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Arimo-400.ttf",
-     "index": null,
-     "cap_ratio": 0.68799,
-     "width_ratio": 0.796,
-     "spread": 0.1413,
-     "stem_err": 0.021,
-     "shape": 1.8921,
-     "score": 2.4923
+     "width_ratio": 1.0114,
+     "spread": 0.0523,
+     "stem_err": 0.1172,
+     "shape": 1.3994,
+     "features": 0.537,
+     "character": 0.215,
+     "record": {
+      "family": "Archivo Narrow",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0982
     },
     {
      "family": "Encode Sans Condensed",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/EncodeSansCondensed-400.ttf",
-     "index": null,
-     "cap_ratio": 0.74,
-     "width_ratio": 0.9995,
-     "spread": 0.1868,
-     "stem_err": 0.2432,
-     "shape": 2.0436,
-     "score": 2.9551
-    },
-    {
-     "family": "Impact",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": false,
-     "path": "/System/Library/Fonts/Supplemental/Impact.ttf",
-     "index": null,
-     "cap_ratio": 0.79053,
-     "width_ratio": 0.9951,
-     "spread": 0.1774,
-     "stem_err": 0.8813,
-     "shape": 3.2791,
-     "score": 5.5524
-    },
-    {
-     "family": "Archivo",
-     "sub": "SemiBold",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/Archivo-wdth62-wght900.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 1.0068,
-     "spread": 0.1911,
-     "stem_err": 0.9245,
-     "shape": 2.9214,
-     "score": 5.2407
-    },
-    {
-     "family": "Saira Condensed Condensed",
-     "sub": "Bold",
+     "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/SairaCondensed-700.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/EncodeSansCondensed-0-0-700-076f81ca0a960254.ttf",
      "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 0.9923,
-     "spread": 0.188,
-     "stem_err": 0.45,
-     "shape": 2.2569,
-     "score": 3.5929
+     "cap_ratio": 0.74,
+     "width_ratio": 0.9998,
+     "spread": 0.0494,
+     "stem_err": 0.1662,
+     "shape": 1.7902,
+     "features": 0.56,
+     "character": 0.141,
+     "record": {
+      "family": "Encode Sans Condensed",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.7462
+    },
+    {
+     "family": "Ancizar Sans",
+     "sub": "500 italic",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AncizarSans-1-0-500-92f4d1ecd9263b99.ttf",
+     "index": null,
+     "cap_ratio": 0.612,
+     "width_ratio": 1.0005,
+     "spread": 0.0483,
+     "stem_err": 0.0138,
+     "shape": 1.9868,
+     "features": 1.671,
+     "character": 0.13,
+     "record": {
+      "family": "Ancizar Sans",
+      "weight": 500,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.2782
+    },
+    {
+     "family": "Jost",
+     "sub": "200",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jost-0-0-200-4191c67b8af0a4de.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0006,
+     "spread": 0.0481,
+     "stem_err": 0.3738,
+     "shape": 2.6566,
+     "features": 0.958,
+     "character": 0.191,
+     "record": {
+      "family": "Jost",
+      "weight": 200,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.4206
+    },
+    {
+     "family": "Stick No Bills",
+     "sub": "300",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/StickNoBills-0-0-300-dd2c674c02488781.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9994,
+     "spread": 0.0496,
+     "stem_err": 0.254,
+     "shape": 1.9256,
+     "features": 0.605,
+     "character": 0.636,
+     "record": {
+      "family": "Stick No Bills",
+      "weight": 300,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.3197
     }
    ]
   },
@@ -2877,186 +3233,298 @@
    "lines": [
     "headliner"
    ],
-   "shape_glyphs": "RAVHCO",
+   "shape_glyphs": "RAVHCODTEF",
+   "brief": {
+    "/Sans/*": 90,
+    "/Expressive/Loud": 80,
+    "/Expressive/Playful": 5
+   },
+   "features": {
+    "weight": 0.143,
+    "contrast": 0.9,
+    "slant": 0.0,
+    "square": 0.926,
+    "cap": 126.0
+   },
    "confidence": "low",
-   "margin": 0.045,
-   "distortions": [
-    {
-     "key": "headliner",
-     "ratio": 0.87,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    }
-   ],
+   "margin": 0.243,
+   "distortions": [],
    "candidates": [
     {
-     "family": "Antonio",
-     "sub": "Bold",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Antonio-700.ttf",
-     "index": null,
-     "cap_ratio": 0.85938,
-     "width_ratio": 0.8699,
-     "spread": 0.0,
-     "stem_err": 0.0917,
-     "shape": 0.5303,
-     "score": 0.9862
-    },
-    {
-     "family": "Antonio",
-     "sub": "SemiBold",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Antonio-600.ttf",
-     "index": null,
-     "cap_ratio": 0.85938,
-     "width_ratio": 0.8858,
-     "spread": 0.0,
-     "stem_err": 0.0553,
-     "shape": 0.6617,
-     "score": 1.0303
-    },
-    {
-     "family": "Big Shoulders Display",
-     "sub": "Bold",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/BigShouldersDisplay-700.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 0.872,
-     "spread": 0.0,
-     "stem_err": 0.0325,
-     "shape": 0.5822,
-     "score": 1.0425
-    },
-    {
      "family": "League Gothic",
-     "sub": "Regular",
+     "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/LeagueGothic-wdth100.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/LeagueGothic-0-0-400-9efe0d04adc2ee71.ttf",
      "index": null,
      "cap_ratio": 0.735,
-     "width_ratio": 0.9347,
+     "width_ratio": 0.9449,
      "spread": 0.0,
-     "stem_err": 0.0563,
-     "shape": 0.5898,
-     "score": 1.0492
+     "stem_err": 0.1147,
+     "shape": 0.5737,
+     "features": 0.516,
+     "character": 0.341,
+     "record": {
+      "family": "League Gothic",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.2722
     },
     {
-     "family": "Big Shoulders Display",
-     "sub": "Thin",
-     "weight": 700,
+     "family": "Karantina",
+     "sub": "400",
+     "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/BigShouldersDisplay-wght700.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Karantina-0-0-400-16d69e6d7d449386.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.032,
+     "spread": 0.0,
+     "stem_err": 0.1147,
+     "shape": 0.7388,
+     "features": 0.691,
+     "character": 0.327,
+     "record": {
+      "family": "Karantina",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.5809
+    },
+    {
+     "family": "Big Shoulders",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BigShoulders-0-0-500-68d2b006b4f3a075.ttf",
      "index": null,
      "cap_ratio": 0.8,
-     "width_ratio": 0.872,
+     "width_ratio": 0.8341,
      "spread": 0.0,
-     "stem_err": 0.0295,
-     "shape": 0.6406,
-     "score": 1.0949
+     "stem_err": 0.1147,
+     "shape": 1.0889,
+     "features": 0.394,
+     "character": 0.293,
+     "record": {
+      "family": "Big Shoulders",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8102
+    },
+    {
+     "family": "Big Shoulders",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BigShoulders-0-0-600-9d3f33e2f983faaa.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 0.8021,
+     "spread": 0.0,
+     "stem_err": 0.0857,
+     "shape": 1.3493,
+     "features": 0.51,
+     "character": 0.293,
+     "record": {
+      "family": "Big Shoulders",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0096
     },
     {
      "family": "Antonio",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/Antonio-400.ttf",
-     "index": null,
-     "cap_ratio": 0.85938,
-     "width_ratio": 0.8976,
-     "spread": 0.0,
-     "stem_err": 0.1602,
-     "shape": 0.8295,
-     "score": 1.3974
-    },
-    {
-     "family": "Bebas Neue",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/BebasNeue-400.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.816,
-     "spread": 0.0,
-     "stem_err": 0.1349,
-     "shape": 1.0072,
-     "score": 1.4587
-    },
-    {
-     "family": "Bebas Neue",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/BebasNeue-Regular.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.816,
-     "spread": 0.0,
-     "stem_err": 0.1349,
-     "shape": 1.0316,
-     "score": 1.4831
-    },
-    {
-     "family": "Big Shoulders Display",
-     "sub": "Thin",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/BigShouldersDisplay-wght500.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 0.9818,
-     "spread": 0.0,
-     "stem_err": 0.3229,
-     "shape": 1.3391,
-     "score": 2.2853
-    },
-    {
-     "family": "Big Shoulders Display",
-     "sub": "Thin",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/_instances/BigShouldersDisplay-wght400.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 1.026,
-     "spread": 0.0,
-     "stem_err": 0.4132,
-     "shape": 1.6311,
-     "score": 2.7637
-    },
-    {
-     "family": "Big Shoulders Display",
-     "sub": "Regular",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/BigShouldersDisplay-400.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 1.026,
-     "spread": 0.0,
-     "stem_err": 0.4132,
-     "shape": 1.726,
-     "score": 2.8586
-    },
-    {
-     "family": "Amatic SC",
-     "sub": "Bold",
+     "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/AmaticSC-700.ttf",
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Antonio-0-0-700-f530f8699cca7481.ttf",
      "index": null,
-     "cap_ratio": 0.757,
-     "width_ratio": 1.0345,
+     "cap_ratio": 0.859375,
+     "width_ratio": 0.8803,
      "spread": 0.0,
-     "stem_err": 0.5326,
-     "shape": 2.4032,
-     "score": 3.6278
+     "stem_err": 0.0857,
+     "shape": 0.4861,
+     "features": 0.44,
+     "character": 0.445,
+     "record": {
+      "family": "Antonio",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0515
+    },
+    {
+     "family": "Tektur",
+     "sub": "400 wdth75",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Tektur-0-75-400-3251cca1157d9579.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9751,
+     "spread": 0.0,
+     "stem_err": 0.1147,
+     "shape": 1.0713,
+     "features": 0.444,
+     "character": 0.404,
+     "record": {
+      "family": "Tektur",
+      "weight": 400,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.3537
+    },
+    {
+     "family": "Antonio",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Antonio-0-0-600-a00c69f6a33ae96b.ttf",
+     "index": null,
+     "cap_ratio": 0.859375,
+     "width_ratio": 0.8969,
+     "spread": 0.0,
+     "stem_err": 0.1147,
+     "shape": 0.6787,
+     "features": 0.415,
+     "character": 0.445,
+     "record": {
+      "family": "Antonio",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.3548
+    },
+    {
+     "family": "Inconsolata",
+     "sub": "900 wdth50",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Inconsolata-0-50-900-7dd2bf1afa9b874c.ttf",
+     "index": null,
+     "cap_ratio": 0.623,
+     "width_ratio": 1.0238,
+     "spread": 0.0,
+     "stem_err": 0.1147,
+     "shape": 1.3855,
+     "features": 0.949,
+     "character": 0.065,
+     "record": {
+      "family": "Inconsolata",
+      "weight": 900,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 2.3774
+    },
+    {
+     "family": "Saira",
+     "sub": "400 wdth50",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Saira-0-50-400-9b8b17e144930636.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9998,
+     "spread": 0.0,
+     "stem_err": 0.7147,
+     "shape": 1.8192,
+     "features": 1.23,
+     "character": 0.065,
+     "record": {
+      "family": "Saira",
+      "weight": 400,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 3.7231
+    },
+    {
+     "family": "Saira Stencil",
+     "sub": "400 wdth50",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SairaStencil-0-50-400-a51fec439c7bcd6e.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9998,
+     "spread": 0.0,
+     "stem_err": 0.7147,
+     "shape": 1.8623,
+     "features": 4.099,
+     "character": 0.294,
+     "record": {
+      "family": "Saira Stencil",
+      "weight": 400,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 5.3868
+    },
+    {
+     "family": "Saira",
+     "sub": "900 wdth50",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Saira-0-50-900-f6a3a5649a6725ba.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9933,
+     "spread": 0.0,
+     "stem_err": 0.4853,
+     "shape": 1.442,
+     "features": 0.875,
+     "character": 0.065,
+     "record": {
+      "family": "Saira",
+      "weight": 900,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 2.4749
+    },
+    {
+     "family": "Saira Stencil",
+     "sub": "900 wdth50",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SairaStencil-0-50-900-4e8c168fee226e6c.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9933,
+     "spread": 0.0,
+     "stem_err": 0.4853,
+     "shape": 1.3096,
+     "features": 1.576,
+     "character": 0.294,
+     "record": {
+      "family": "Saira Stencil",
+      "weight": 900,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 2.5042
     }
    ]
   }
@@ -3067,9 +3535,9 @@
    "group": "body",
    "confidence": "low",
    "top": [
-    "Instrument Sans",
-    "Archivo Narrow",
-    "Helvetica"
+    "Encode Sans Condensed",
+    "Cossette Texte",
+    "Yaldevi"
    ]
   },
   {
@@ -3077,13 +3545,15 @@
    "group": "display",
    "confidence": "low",
    "top": [
-    "Antonio",
-    "Antonio",
-    "Big Shoulders Display"
+    "League Gothic",
+    "Karantina",
+    "Big Shoulders"
    ]
   }
  ],
  "knobs": {
+  "artwork": "mask",
+  "face": [],
   "solid_radius": 24,
   "rule_length": 160,
   "rule_thick": 5,
@@ -3091,8 +3561,6 @@
   "contrast": 40,
   "window": 61,
   "wrap_cap_ratio": 1.3,
-  "artwork": "mask",
-  "face": [],
   "exclude": [
    "20,300,1010,1240"
   ],
@@ -3103,9 +3571,14 @@
    "support=230,280",
    "date=301,1292",
    "venue=386,1337",
-   "tickets=223,1420",
+   "tickets=223,1419",
    "ticket_source=299,1453",
    "footer=169,1484"
-  ]
+  ],
+  "character": [
+   "headliner=Sans 90, Loud 80, Playful 5",
+   "date=Sans 90, Business 60, Playful 10"
+  ],
+  "case": []
  }
 }
