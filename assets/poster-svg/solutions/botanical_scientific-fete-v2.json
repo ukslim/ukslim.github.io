@@ -3544,6 +3544,23 @@
   "exclude": [
    "620,0,1024,640",
    "470,640,1024,1470"
+  ],
+  "assign": [
+   "title=313,158;309,327",
+   "date=304,491",
+   "venue=314,536",
+   "beneficiary=252,595",
+   "attractions_label=106,663",
+   "attraction0=119,702",
+   "attraction1=224,744",
+   "attraction2=156,784",
+   "attraction3=155,825",
+   "attraction4=214,866",
+   "attraction5=108,906",
+   "attraction6=233,946",
+   "attraction7=176,984",
+   "footer0=154,1057",
+   "footer1=201,1106;158,1135"
   ]
  }
 }

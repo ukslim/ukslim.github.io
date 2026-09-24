@@ -4394,6 +4394,23 @@
   "exclude": [
    "0,315,1024,1065"
   ],
-  "knockout": []
+  "knockout": [],
+  "assign": [
+   "title=515,89;520,246",
+   "date=513,1098",
+   "venue=515,1148",
+   "beneficiary=524,1207",
+   "attractions_label=519,1260",
+   "attraction0=181,1291",
+   "attraction1=289,1325",
+   "attraction2=219,1358",
+   "attraction3=218,1394",
+   "attraction4=750,1294",
+   "attraction5=636,1328",
+   "attraction6=764,1363",
+   "attraction7=711,1395",
+   "footer0=514,1461",
+   "footer1=513,1499"
+  ]
  }
 }

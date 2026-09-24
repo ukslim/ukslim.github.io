@@ -2249,6 +2249,16 @@
   "exclude": [
    "0,320,1024,1290"
   ],
-  "knockout": []
+  "knockout": [],
+  "assign": [
+   "presenter=191,42",
+   "headliner=512,165",
+   "support=204,295",
+   "date=328,1318",
+   "venue=427,1366",
+   "tickets=231,1416",
+   "ticket_source=321,1450",
+   "footer=160,1496"
+  ]
  }
 }

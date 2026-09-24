@@ -2590,6 +2590,16 @@
   "artwork": "mask",
   "face": [],
   "exclude": [],
-  "knockout": []
+  "knockout": [],
+  "assign": [
+   "presenter=232,63",
+   "headliner=398,179;401,347",
+   "support=262,472",
+   "date=336,559",
+   "venue=355,599",
+   "tickets=228,652",
+   "ticket_source=318,681",
+   "footer=173,728"
+  ]
  }
 }

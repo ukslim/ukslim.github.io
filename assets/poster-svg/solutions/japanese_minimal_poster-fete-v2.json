@@ -3509,6 +3509,23 @@
    "display=Inter"
   ],
   "exclude": [],
-  "knockout": []
+  "knockout": [],
+  "assign": [
+   "title=415,132;403,282",
+   "date=209,385;148,424",
+   "venue=206,459;227,501",
+   "beneficiary=253,1121",
+   "attractions_label=108,1172",
+   "attraction0=124,1199",
+   "attraction1=223,1227",
+   "attraction2=157,1253",
+   "attraction3=158,1281",
+   "attraction4=213,1308",
+   "attraction5=115,1335",
+   "attraction6=223,1362",
+   "attraction7=178,1387",
+   "footer0=161,1442",
+   "footer1=303,1468"
+  ]
  }
 }

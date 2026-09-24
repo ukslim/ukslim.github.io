@@ -697,6 +697,16 @@
   "rule_thick": 5,
   "min_glyphs": 2,
   "artwork": "mask",
-  "face": []
+  "face": [],
+  "assign": [
+   "presenter=252,104",
+   "headliner=566,421;534,588;597,754",
+   "support=486,973",
+   "date=521,1164",
+   "venue=590,1201",
+   "tickets=478,1299",
+   "ticket_source=554,1333",
+   "footer=425,1368"
+  ]
  }
 }

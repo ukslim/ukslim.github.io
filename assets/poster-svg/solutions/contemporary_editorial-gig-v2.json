@@ -2321,6 +2321,16 @@
   "window": 61,
   "wrap_cap_ratio": 1.3,
   "artwork": "auto",
-  "face": []
+  "face": [],
+  "assign": [
+   "presenter=241,59",
+   "headliner=500,172;508,326",
+   "support=350,440",
+   "date=373,1265",
+   "venue=435,1313",
+   "tickets=266,1405",
+   "ticket_source=363,1442",
+   "footer=196,1485"
+  ]
  }
 }

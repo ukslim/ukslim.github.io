@@ -4239,6 +4239,23 @@
   "artwork": "mask",
   "face": [],
   "exclude": [],
-  "knockout": []
+  "knockout": [],
+  "assign": [
+   "title=445,105;450,265",
+   "date=327,386",
+   "venue=330,428",
+   "beneficiary=269,477",
+   "attractions_label=155,558",
+   "attraction0=117,610",
+   "attraction1=228,656",
+   "attraction2=159,699",
+   "attraction3=161,746",
+   "attraction4=222,791",
+   "attraction5=109,837",
+   "attraction6=232,882",
+   "attraction7=182,924",
+   "footer0=185,1009",
+   "footer1=205,1055;163,1089"
+  ]
  }
 }
