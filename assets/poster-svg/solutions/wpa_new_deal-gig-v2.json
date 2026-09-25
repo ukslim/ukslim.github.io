@@ -1,0 +1,4082 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/wpa_new_deal-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#F9DDA9",
+ "assign_points": [
+  "presenter=513,35",
+  "headliner=514,1077",
+  "support=524,1213",
+  "date=516,1297",
+  "venue=515,1354"
+ ],
+ "frames": [],
+ "art": [
+  {
+   "keys": [
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "box": [
+    8,
+    1380,
+    1016,
+    1522
+   ],
+   "why": "cream type on a red panel breaks into specks the band finder cannot read"
+  }
+ ],
+ "copy": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:"
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD"
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace"
+  },
+  {
+   "key": "date",
+   "text": "Friday 19th September, doors 7:30pm"
+  },
+  {
+   "key": "venue",
+   "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ"
+  },
+  {
+   "key": "tickets",
+   "text": "Tickets: \u00a312 advance / \u00a315 on the door"
+  },
+  {
+   "key": "ticket_source",
+   "text": "Available from The Anchor Rooms bar or pallightpro.co.uk"
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight."
+  }
+ ],
+ "median_texture": 0.73,
+ "alignment": "ok; 5 line(s) assigned by hand",
+ "alignment_cost": 0.09,
+ "lines": [
+  {
+   "colour": "dark",
+   "rgb": "#102334",
+   "ground": "#F9DEAC",
+   "is_ground": false,
+   "y0": 22,
+   "y1": 48,
+   "baseline": 48,
+   "cap_top": 22,
+   "cap": 26,
+   "x_height": 26,
+   "lower_frac": 0.0,
+   "left": 233,
+   "right": 793,
+   "width": 561,
+   "n_runs": 29,
+   "density": 0.4775,
+   "texture": 0.39,
+   "slope": 0.02,
+   "warp": 0.013,
+   "stem_ratio": 0.18518518518518517,
+   "runs": [
+    [
+     233,
+     247,
+     22,
+     47
+    ],
+    [
+     250,
+     266,
+     22,
+     47
+    ],
+    [
+     272,
+     283,
+     22,
+     47
+    ],
+    [
+     289,
+     301,
+     22,
+     47
+    ],
+    [
+     319,
+     331,
+     22,
+     47
+    ],
+    [
+     336,
+     341,
+     22,
+     47
+    ],
+    [
+     348,
+     362,
+     22,
+     48
+    ],
+    [
+     368,
+     383,
+     22,
+     47
+    ],
+    [
+     388,
+     402,
+     22,
+     47
+    ],
+    [
+     421,
+     435,
+     22,
+     47
+    ],
+    [
+     440,
+     455,
+     22,
+     47
+    ],
+    [
+     461,
+     475,
+     22,
+     48
+    ],
+    [
+     482,
+     501,
+     22,
+     47
+    ],
+    [
+     508,
+     522,
+     22,
+     47
+    ],
+    [
+     527,
+     542,
+     22,
+     47
+    ],
+    [
+     547,
+     552,
+     22,
+     47
+    ],
+    [
+     559,
+     573,
+     22,
+     47
+    ],
+    [
+     579,
+     594,
+     22,
+     47
+    ],
+    [
+     600,
+     615,
+     22,
+     47
+    ],
+    [
+     633,
+     647,
+     22,
+     47
+    ],
+    [
+     653,
+     668,
+     22,
+     47
+    ],
+    [
+     674,
+     685,
+     22,
+     47
+    ],
+    [
+     691,
+     705,
+     22,
+     48
+    ],
+    [
+     711,
+     722,
+     22,
+     47
+    ],
+    [
+     728,
+     743,
+     22,
+     47
+    ],
+    [
+     748,
+     763,
+     22,
+     47
+    ],
+    [
+     768,
+     782,
+     22,
+     48
+    ],
+    [
+     788,
+     793,
+     29,
+     34
+    ],
+    [
+     788,
+     793,
+     42,
+     47
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "red",
+   "rgb": "#A0221B",
+   "ground": "#F9DDAB",
+   "is_ground": false,
+   "y0": 977,
+   "y1": 1177,
+   "baseline": 1177,
+   "cap_top": 977,
+   "cap": 200,
+   "x_height": 198,
+   "lower_frac": 0.0,
+   "left": 32,
+   "right": 997,
+   "width": 966,
+   "n_runs": 15,
+   "density": 0.6181,
+   "texture": 0.79,
+   "slope": 0.03,
+   "warp": 0.002,
+   "stem_ratio": 0.125,
+   "runs": [
+    [
+     32,
+     90,
+     977,
+     1176
+    ],
+    [
+     97,
+     163,
+     979,
+     1176
+    ],
+    [
+     171,
+     231,
+     979,
+     1176
+    ],
+    [
+     237,
+     300,
+     979,
+     1176
+    ],
+    [
+     308,
+     353,
+     979,
+     1176
+    ],
+    [
+     363,
+     423,
+     979,
+     1176
+    ],
+    [
+     445,
+     517,
+     997,
+     1177
+    ],
+    [
+     529,
+     582,
+     979,
+     1176
+    ],
+    [
+     590,
+     646,
+     979,
+     1176
+    ],
+    [
+     657,
+     701,
+     979,
+     1176
+    ],
+    [
+     734,
+     775,
+     979,
+     1176
+    ],
+    [
+     783,
+     823,
+     979,
+     1176
+    ],
+    [
+     827,
+     878,
+     979,
+     1177
+    ],
+    [
+     886,
+     936,
+     979,
+     1177
+    ],
+    [
+     945,
+     997,
+     980,
+     1176
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0F2538",
+   "ground": "#F9DDAB",
+   "is_ground": false,
+   "y0": 1195,
+   "y1": 1232,
+   "baseline": 1233,
+   "cap_top": 1195,
+   "cap": 38,
+   "x_height": 37,
+   "lower_frac": 0.0,
+   "left": 88,
+   "right": 960,
+   "width": 873,
+   "n_runs": 24,
+   "density": 0.4901,
+   "texture": 0.73,
+   "slope": 0.01,
+   "warp": 0.005,
+   "stem_ratio": 0.3684210526315789,
+   "runs": [
+    [
+     88,
+     126,
+     1196,
+     1232
+    ],
+    [
+     135,
+     144,
+     1196,
+     1231
+    ],
+    [
+     153,
+     177,
+     1196,
+     1232
+    ],
+    [
+     186,
+     211,
+     1196,
+     1232
+    ],
+    [
+     241,
+     265,
+     1195,
+     1232
+    ],
+    [
+     275,
+     300,
+     1196,
+     1232
+    ],
+    [
+     311,
+     335,
+     1196,
+     1232
+    ],
+    [
+     344,
+     368,
+     1196,
+     1232
+    ],
+    [
+     377,
+     402,
+     1195,
+     1232
+    ],
+    [
+     412,
+     436,
+     1196,
+     1232
+    ],
+    [
+     443,
+     467,
+     1196,
+     1232
+    ],
+    [
+     496,
+     516,
+     1196,
+     1232
+    ],
+    [
+     525,
+     549,
+     1196,
+     1232
+    ],
+    [
+     558,
+     582,
+     1195,
+     1232
+    ],
+    [
+     592,
+     622,
+     1196,
+     1232
+    ],
+    [
+     651,
+     682,
+     1196,
+     1232
+    ],
+    [
+     692,
+     712,
+     1196,
+     1232
+    ],
+    [
+     721,
+     747,
+     1196,
+     1232
+    ],
+    [
+     755,
+     783,
+     1196,
+     1232
+    ],
+    [
+     811,
+     835,
+     1195,
+     1232
+    ],
+    [
+     844,
+     867,
+     1196,
+     1232
+    ],
+    [
+     874,
+     901,
+     1196,
+     1232
+    ],
+    [
+     908,
+     931,
+     1195,
+     1232
+    ],
+    [
+     940,
+     960,
+     1196,
+     1232
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#ECE1C1",
+   "ground": "#0C243B",
+   "is_ground": false,
+   "y0": 1270,
+   "y1": 1324,
+   "baseline": 1318,
+   "cap_top": 1270,
+   "cap": 48,
+   "x_height": 47,
+   "lower_frac": 0.0,
+   "left": 51,
+   "right": 981,
+   "width": 931,
+   "n_runs": 31,
+   "density": 0.4593,
+   "texture": 0.92,
+   "slope": 0.03,
+   "warp": 0.026,
+   "stem_ratio": 0.25510204081632654,
+   "runs": [
+    [
+     51,
+     71,
+     1270,
+     1317
+    ],
+    [
+     79,
+     103,
+     1270,
+     1317
+    ],
+    [
+     111,
+     119,
+     1270,
+     1317
+    ],
+    [
+     128,
+     153,
+     1271,
+     1317
+    ],
+    [
+     158,
+     187,
+     1271,
+     1317
+    ],
+    [
+     187,
+     214,
+     1271,
+     1317
+    ],
+    [
+     234,
+     248,
+     1271,
+     1317
+    ],
+    [
+     257,
+     280,
+     1270,
+     1317
+    ],
+    [
+     287,
+     310,
+     1271,
+     1317
+    ],
+    [
+     317,
+     341,
+     1271,
+     1317
+    ],
+    [
+     365,
+     389,
+     1270,
+     1318
+    ],
+    [
+     397,
+     417,
+     1271,
+     1317
+    ],
+    [
+     424,
+     448,
+     1271,
+     1317
+    ],
+    [
+     453,
+     477,
+     1271,
+     1317
+    ],
+    [
+     484,
+     504,
+     1271,
+     1317
+    ],
+    [
+     512,
+     544,
+     1271,
+     1317
+    ],
+    [
+     552,
+     577,
+     1271,
+     1317
+    ],
+    [
+     584,
+     604,
+     1271,
+     1317
+    ],
+    [
+     612,
+     636,
+     1271,
+     1317
+    ],
+    [
+     642,
+     648,
+     1309,
+     1324
+    ],
+    [
+     667,
+     690,
+     1271,
+     1317
+    ],
+    [
+     697,
+     721,
+     1270,
+     1317
+    ],
+    [
+     729,
+     753,
+     1270,
+     1317
+    ],
+    [
+     760,
+     784,
+     1271,
+     1317
+    ],
+    [
+     790,
+     813,
+     1270,
+     1318
+    ],
+    [
+     833,
+     855,
+     1271,
+     1317
+    ],
+    [
+     858,
+     866,
+     1308,
+     1317
+    ],
+    [
+     871,
+     892,
+     1270,
+     1318
+    ],
+    [
+     898,
+     919,
+     1270,
+     1317
+    ],
+    [
+     928,
+     948,
+     1271,
+     1317
+    ],
+    [
+     954,
+     981,
+     1271,
+     1317
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#C7BAA1",
+   "ground": null,
+   "is_ground": false,
+   "y0": 1338,
+   "y1": 1370,
+   "baseline": 1366,
+   "cap_top": 1338,
+   "cap": 28,
+   "x_height": 28,
+   "lower_frac": 0.5,
+   "left": 52,
+   "right": 978,
+   "width": 927,
+   "n_runs": 133,
+   "density": 0.0882,
+   "texture": 0.63,
+   "slope": 0.02,
+   "warp": 0.082,
+   "stem_ratio": 0.034482758620689655,
+   "runs": [
+    [
+     52,
+     69,
+     1338,
+     1343
+    ],
+    [
+     85,
+     90,
+     1338,
+     1347
+    ],
+    [
+     103,
+     108,
+     1349,
+     1354
+    ],
+    [
+     104,
+     110,
+     1338,
+     1343
+    ],
+    [
+     109,
+     110,
+     1360,
+     1365
+    ],
+    [
+     128,
+     129,
+     1346,
+     1354
+    ],
+    [
+     130,
+     138,
+     1338,
+     1344
+    ],
+    [
+     149,
+     150,
+     1359,
+     1365
+    ],
+    [
+     149,
+     156,
+     1338,
+     1344
+    ],
+    [
+     153,
+     154,
+     1354,
+     1365
+    ],
+    [
+     157,
+     158,
+     1345,
+     1348
+    ],
+    [
+     158,
+     159,
+     1360,
+     1363
+    ],
+    [
+     161,
+     165,
+     1338,
+     1341
+    ],
+    [
+     163,
+     165,
+     1361,
+     1365
+    ],
+    [
+     172,
+     176,
+     1338,
+     1341
+    ],
+    [
+     182,
+     187,
+     1338,
+     1347
+    ],
+    [
+     182,
+     187,
+     1356,
+     1365
+    ],
+    [
+     193,
+     198,
+     1338,
+     1347
+    ],
+    [
+     197,
+     204,
+     1354,
+     1365
+    ],
+    [
+     200,
+     208,
+     1338,
+     1349
+    ],
+    [
+     214,
+     215,
+     1356,
+     1362
+    ],
+    [
+     215,
+     219,
+     1338,
+     1342
+    ],
+    [
+     221,
+     230,
+     1358,
+     1366
+    ],
+    [
+     222,
+     225,
+     1354,
+     1361
+    ],
+    [
+     222,
+     230,
+     1338,
+     1343
+    ],
+    [
+     224,
+     225,
+     1343,
+     1349
+    ],
+    [
+     236,
+     241,
+     1357,
+     1365
+    ],
+    [
+     236,
+     247,
+     1338,
+     1341
+    ],
+    [
+     249,
+     252,
+     1339,
+     1356
+    ],
+    [
+     269,
+     284,
+     1338,
+     1365
+    ],
+    [
+     273,
+     274,
+     1359,
+     1365
+    ],
+    [
+     278,
+     280,
+     1361,
+     1365
+    ],
+    [
+     282,
+     284,
+     1357,
+     1362
+    ],
+    [
+     290,
+     306,
+     1338,
+     1347
+    ],
+    [
+     299,
+     301,
+     1343,
+     1350
+    ],
+    [
+     303,
+     306,
+     1356,
+     1365
+    ],
+    [
+     312,
+     316,
+     1361,
+     1365
+    ],
+    [
+     322,
+     323,
+     1355,
+     1360
+    ],
+    [
+     324,
+     328,
+     1338,
+     1345
+    ],
+    [
+     324,
+     328,
+     1358,
+     1365
+    ],
+    [
+     334,
+     339,
+     1361,
+     1365
+    ],
+    [
+     342,
+     343,
+     1343,
+     1347
+    ],
+    [
+     342,
+     347,
+     1359,
+     1364
+    ],
+    [
+     348,
+     355,
+     1338,
+     1343
+    ],
+    [
+     350,
+     351,
+     1358,
+     1365
+    ],
+    [
+     361,
+     364,
+     1360,
+     1365
+    ],
+    [
+     361,
+     366,
+     1338,
+     1346
+    ],
+    [
+     367,
+     377,
+     1351,
+     1366
+    ],
+    [
+     368,
+     371,
+     1358,
+     1361
+    ],
+    [
+     371,
+     376,
+     1341,
+     1346
+    ],
+    [
+     381,
+     387,
+     1360,
+     1370
+    ],
+    [
+     402,
+     412,
+     1338,
+     1365
+    ],
+    [
+     406,
+     409,
+     1346,
+     1365
+    ],
+    [
+     417,
+     429,
+     1354,
+     1365
+    ],
+    [
+     420,
+     423,
+     1344,
+     1349
+    ],
+    [
+     424,
+     427,
+     1348,
+     1355
+    ],
+    [
+     426,
+     435,
+     1338,
+     1357
+    ],
+    [
+     450,
+     466,
+     1338,
+     1343
+    ],
+    [
+     473,
+     481,
+     1338,
+     1342
+    ],
+    [
+     478,
+     479,
+     1351,
+     1355
+    ],
+    [
+     481,
+     486,
+     1362,
+     1365
+    ],
+    [
+     482,
+     483,
+     1344,
+     1349
+    ],
+    [
+     491,
+     492,
+     1345,
+     1365
+    ],
+    [
+     503,
+     505,
+     1361,
+     1365
+    ],
+    [
+     510,
+     512,
+     1338,
+     1362
+    ],
+    [
+     514,
+     515,
+     1338,
+     1342
+    ],
+    [
+     528,
+     532,
+     1343,
+     1365
+    ],
+    [
+     529,
+     535,
+     1338,
+     1341
+    ],
+    [
+     536,
+     539,
+     1343,
+     1361
+    ],
+    [
+     540,
+     544,
+     1338,
+     1344
+    ],
+    [
+     541,
+     544,
+     1360,
+     1365
+    ],
+    [
+     549,
+     555,
+     1338,
+     1344
+    ],
+    [
+     553,
+     559,
+     1362,
+     1365
+    ],
+    [
+     560,
+     564,
+     1338,
+     1341
+    ],
+    [
+     568,
+     570,
+     1362,
+     1365
+    ],
+    [
+     569,
+     575,
+     1338,
+     1343
+    ],
+    [
+     591,
+     597,
+     1338,
+     1365
+    ],
+    [
+     599,
+     605,
+     1360,
+     1365
+    ],
+    [
+     610,
+     611,
+     1355,
+     1361
+    ],
+    [
+     612,
+     613,
+     1346,
+     1353
+    ],
+    [
+     614,
+     623,
+     1338,
+     1343
+    ],
+    [
+     626,
+     628,
+     1356,
+     1365
+    ],
+    [
+     633,
+     635,
+     1362,
+     1365
+    ],
+    [
+     637,
+     638,
+     1353,
+     1365
+    ],
+    [
+     655,
+     656,
+     1354,
+     1363
+    ],
+    [
+     655,
+     668,
+     1338,
+     1349
+    ],
+    [
+     661,
+     667,
+     1345,
+     1358
+    ],
+    [
+     667,
+     669,
+     1361,
+     1365
+    ],
+    [
+     673,
+     678,
+     1360,
+     1366
+    ],
+    [
+     693,
+     709,
+     1338,
+     1365
+    ],
+    [
+     705,
+     709,
+     1361,
+     1365
+    ],
+    [
+     715,
+     718,
+     1338,
+     1345
+    ],
+    [
+     719,
+     720,
+     1360,
+     1365
+    ],
+    [
+     724,
+     726,
+     1361,
+     1365
+    ],
+    [
+     736,
+     742,
+     1338,
+     1365
+    ],
+    [
+     747,
+     752,
+     1357,
+     1361
+    ],
+    [
+     748,
+     753,
+     1338,
+     1341
+    ],
+    [
+     748,
+     757,
+     1363,
+     1366
+    ],
+    [
+     758,
+     762,
+     1338,
+     1342
+    ],
+    [
+     759,
+     763,
+     1354,
+     1365
+    ],
+    [
+     767,
+     783,
+     1338,
+     1343
+    ],
+    [
+     772,
+     773,
+     1344,
+     1365
+    ],
+    [
+     787,
+     792,
+     1338,
+     1347
+    ],
+    [
+     788,
+     791,
+     1362,
+     1365
+    ],
+    [
+     800,
+     803,
+     1360,
+     1365
+    ],
+    [
+     801,
+     803,
+     1339,
+     1342
+    ],
+    [
+     809,
+     814,
+     1338,
+     1359
+    ],
+    [
+     821,
+     822,
+     1360,
+     1365
+    ],
+    [
+     836,
+     841,
+     1338,
+     1341
+    ],
+    [
+     838,
+     839,
+     1350,
+     1357
+    ],
+    [
+     845,
+     847,
+     1360,
+     1365
+    ],
+    [
+     846,
+     851,
+     1338,
+     1342
+    ],
+    [
+     851,
+     852,
+     1360,
+     1365
+    ],
+    [
+     856,
+     858,
+     1357,
+     1365
+    ],
+    [
+     856,
+     862,
+     1338,
+     1341
+    ],
+    [
+     866,
+     872,
+     1338,
+     1344
+    ],
+    [
+     880,
+     881,
+     1342,
+     1345
+    ],
+    [
+     880,
+     881,
+     1357,
+     1360
+    ],
+    [
+     880,
+     883,
+     1362,
+     1365
+    ],
+    [
+     886,
+     896,
+     1357,
+     1362
+    ],
+    [
+     892,
+     895,
+     1352,
+     1355
+    ],
+    [
+     920,
+     921,
+     1343,
+     1346
+    ],
+    [
+     920,
+     923,
+     1357,
+     1365
+    ],
+    [
+     921,
+     924,
+     1338,
+     1341
+    ],
+    [
+     925,
+     928,
+     1351,
+     1354
+    ],
+    [
+     929,
+     930,
+     1343,
+     1347
+    ],
+    [
+     932,
+     936,
+     1338,
+     1347
+    ],
+    [
+     935,
+     936,
+     1360,
+     1365
+    ],
+    [
+     940,
+     945,
+     1356,
+     1365
+    ],
+    [
+     946,
+     956,
+     1338,
+     1366
+    ],
+    [
+     962,
+     967,
+     1338,
+     1343
+    ],
+    [
+     963,
+     970,
+     1363,
+     1366
+    ],
+    [
+     974,
+     978,
+     1338,
+     1343
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  }
+ ],
+ "assigned": [
+  {
+   "key": "presenter",
+   "text": "PALE LIGHT PROMOTIONS PRESENTS:",
+   "bands": [
+    0
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD",
+   "bands": [
+    1
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "support",
+   "text": "WITH SUPPORT FROM MENA GRACE",
+   "bands": [
+    2
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "date",
+   "text": "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM",
+   "bands": [
+    3
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "venue",
+   "text": "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+   "bands": [
+    4
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 610,
+   "box": [
+    317,
+    53,
+    806,
+    54
+   ],
+   "fill": 0.622,
+   "rgb": "#F6F3D5"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 35323,
+   "box": [
+    20,
+    54,
+    74,
+    706
+   ],
+   "fill": 0.984,
+   "rgb": "#A8241C"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 36277,
+   "box": [
+    804,
+    125,
+    873,
+    649
+   ],
+   "fill": 0.987,
+   "rgb": "#AA241C"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 52589,
+   "box": [
+    915,
+    152,
+    1003,
+    755
+   ],
+   "fill": 0.978,
+   "rgb": "#AA241C"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 6060,
+   "box": [
+    803,
+    655,
+    873,
+    743
+   ],
+   "fill": 0.959,
+   "rgb": "#AA241C"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 8575,
+   "box": [
+    886,
+    857,
+    1003,
+    957
+   ],
+   "fill": 0.719,
+   "rgb": "#AC271E"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 639,
+   "box": [
+    929,
+    857,
+    1003,
+    887
+   ],
+   "fill": 0.275,
+   "rgb": "#AB271E"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 708,
+   "box": [
+    886,
+    912,
+    954,
+    957
+   ],
+   "fill": 0.223,
+   "rgb": "#AE281E"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 29149,
+   "box": [
+    20,
+    1385,
+    302,
+    1517
+   ],
+   "fill": 0.774,
+   "rgb": "#9B2019"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 27498,
+   "box": [
+    739,
+    1385,
+    1003,
+    1517
+   ],
+   "fill": 0.78,
+   "rgb": "#991F19"
+  },
+  {
+   "colour": "dark",
+   "kind": "spans the page",
+   "px": 13477,
+   "box": [
+    76,
+    55,
+    309,
+    739
+   ],
+   "fill": 0.084,
+   "rgb": "#0B2033"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 12508,
+   "box": [
+    301,
+    55,
+    1003,
+    261
+   ],
+   "fill": 0.086,
+   "rgb": "#0C2239"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1125,
+   "box": [
+    979,
+    86,
+    1003,
+    150
+   ],
+   "fill": 0.692,
+   "rgb": "#0C1E31"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 719,
+   "box": [
+    578,
+    123,
+    615,
+    164
+   ],
+   "fill": 0.451,
+   "rgb": "#0E100E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 633,
+   "box": [
+    548,
+    124,
+    581,
+    166
+   ],
+   "fill": 0.433,
+   "rgb": "#0E0F0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 501,
+   "box": [
+    610,
+    130,
+    641,
+    166
+   ],
+   "fill": 0.423,
+   "rgb": "#0B0E0D"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 492,
+   "box": [
+    521,
+    131,
+    549,
+    171
+   ],
+   "fill": 0.414,
+   "rgb": "#0D0F0D"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1231,
+   "box": [
+    544,
+    183,
+    617,
+    204
+   ],
+   "fill": 0.756,
+   "rgb": "#0E0F0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 854,
+   "box": [
+    478,
+    190,
+    528,
+    224
+   ],
+   "fill": 0.478,
+   "rgb": "#0D0E0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1012,
+   "box": [
+    538,
+    216,
+    600,
+    236
+   ],
+   "fill": 0.765,
+   "rgb": "#0E0E0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 807,
+   "box": [
+    472,
+    222,
+    522,
+    255
+   ],
+   "fill": 0.465,
+   "rgb": "#0F1010"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 939,
+   "box": [
+    532,
+    247,
+    595,
+    267
+   ],
+   "fill": 0.699,
+   "rgb": "#0E0F0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 825,
+   "box": [
+    466,
+    253,
+    517,
+    287
+   ],
+   "fill": 0.453,
+   "rgb": "#0E100F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 954,
+   "box": [
+    529,
+    278,
+    590,
+    296
+   ],
+   "fill": 0.81,
+   "rgb": "#0C0E0D"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 734,
+   "box": [
+    460,
+    284,
+    510,
+    316
+   ],
+   "fill": 0.436,
+   "rgb": "#0F0F0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 436,
+   "box": [
+    505,
+    292,
+    524,
+    320
+   ],
+   "fill": 0.752,
+   "rgb": "#0D0D0C"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 903,
+   "box": [
+    522,
+    309,
+    583,
+    328
+   ],
+   "fill": 0.728,
+   "rgb": "#0C0F0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 746,
+   "box": [
+    455,
+    317,
+    502,
+    347
+   ],
+   "fill": 0.501,
+   "rgb": "#0D0E0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 978,
+   "box": [
+    516,
+    341,
+    573,
+    359
+   ],
+   "fill": 0.887,
+   "rgb": "#0C0E0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 846,
+   "box": [
+    449,
+    345,
+    500,
+    378
+   ],
+   "fill": 0.479,
+   "rgb": "#0E0F0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1037,
+   "box": [
+    510,
+    372,
+    572,
+    391
+   ],
+   "fill": 0.823,
+   "rgb": "#0D0E10"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 845,
+   "box": [
+    444,
+    377,
+    494,
+    409
+   ],
+   "fill": 0.502,
+   "rgb": "#0D0F0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1208,
+   "box": [
+    503,
+    404,
+    578,
+    424
+   ],
+   "fill": 0.757,
+   "rgb": "#0C0E0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 853,
+   "box": [
+    439,
+    408,
+    489,
+    439
+   ],
+   "fill": 0.523,
+   "rgb": "#0E1010"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 12155,
+   "box": [
+    408,
+    440,
+    576,
+    727
+   ],
+   "fill": 0.25,
+   "rgb": "#0C0E0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 983,
+   "box": [
+    520,
+    441,
+    542,
+    502
+   ],
+   "fill": 0.689,
+   "rgb": "#0C0E0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1083,
+   "box": [
+    491,
+    443,
+    518,
+    511
+   ],
+   "fill": 0.561,
+   "rgb": "#0D0F0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 543,
+   "box": [
+    553,
+    443,
+    575,
+    476
+   ],
+   "fill": 0.694,
+   "rgb": "#0B0D0D"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 958,
+   "box": [
+    465,
+    446,
+    494,
+    519
+   ],
+   "fill": 0.432,
+   "rgb": "#0E0E0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 838,
+   "box": [
+    442,
+    452,
+    467,
+    521
+   ],
+   "fill": 0.46,
+   "rgb": "#0D0E0C"
+  },
+  {
+   "colour": "dark",
+   "kind": "spans the page",
+   "px": 12490,
+   "box": [
+    600,
+    484,
+    736,
+    957
+   ],
+   "fill": 0.192,
+   "rgb": "#0B0E0F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 974,
+   "box": [
+    657,
+    562,
+    695,
+    619
+   ],
+   "fill": 0.431,
+   "rgb": "#0C243C"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 637,
+   "box": [
+    575,
+    612,
+    594,
+    671
+   ],
+   "fill": 0.531,
+   "rgb": "#0B0E0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1561,
+   "box": [
+    710,
+    645,
+    787,
+    745
+   ],
+   "fill": 0.198,
+   "rgb": "#0B233B"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 14488,
+   "box": [
+    21,
+    730,
+    562,
+    956
+   ],
+   "fill": 0.118,
+   "rgb": "#0B1E30"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 760,
+   "box": [
+    21,
+    802,
+    46,
+    847
+   ],
+   "fill": 0.635,
+   "rgb": "#0D2133"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 3667,
+   "box": [
+    552,
+    817,
+    600,
+    957
+   ],
+   "fill": 0.531,
+   "rgb": "#0B0D0E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1178,
+   "box": [
+    21,
+    847,
+    38,
+    920
+   ],
+   "fill": 0.884,
+   "rgb": "#0C2032"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1515,
+   "box": [
+    323,
+    876,
+    428,
+    913
+   ],
+   "fill": 0.376,
+   "rgb": "#0B1E2F"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 541,
+   "box": [
+    596,
+    930,
+    617,
+    957
+   ],
+   "fill": 0.878,
+   "rgb": "#0C2034"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 855,
+   "box": [
+    644,
+    939,
+    727,
+    957
+   ],
+   "fill": 0.536,
+   "rgb": "#0E2030"
+  },
+  {
+   "colour": "dark",
+   "kind": "spans the page",
+   "px": 76737,
+   "box": [
+    20,
+    1246,
+    1003,
+    1384
+   ],
+   "fill": 0.561,
+   "rgb": "#0C243B"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 2544,
+   "box": [
+    881,
+    64,
+    1003,
+    135
+   ],
+   "fill": 0.287,
+   "rgb": "#A5261E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 2389,
+   "box": [
+    588,
+    126,
+    675,
+    190
+   ],
+   "fill": 0.418,
+   "rgb": "#A2241D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 822,
+   "box": [
+    582,
+    202,
+    642,
+    223
+   ],
+   "fill": 0.613,
+   "rgb": "#A8251E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 2280,
+   "box": [
+    666,
+    226,
+    714,
+    459
+   ],
+   "fill": 0.199,
+   "rgb": "#A2261E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 456,
+   "box": [
+    724,
+    226,
+    751,
+    289
+   ],
+   "fill": 0.254,
+   "rgb": "#A22620"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 800,
+   "box": [
+    576,
+    234,
+    638,
+    255
+   ],
+   "fill": 0.577,
+   "rgb": "#A5251D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 810,
+   "box": [
+    570,
+    265,
+    633,
+    286
+   ],
+   "fill": 0.575,
+   "rgb": "#A7261F"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 830,
+   "box": [
+    565,
+    296,
+    628,
+    318
+   ],
+   "fill": 0.564,
+   "rgb": "#A5261F"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 823,
+   "box": [
+    559,
+    328,
+    623,
+    349
+   ],
+   "fill": 0.576,
+   "rgb": "#A8271F"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 854,
+   "box": [
+    553,
+    359,
+    617,
+    381
+   ],
+   "fill": 0.571,
+   "rgb": "#A7271E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 882,
+   "box": [
+    547,
+    390,
+    612,
+    413
+   ],
+   "fill": 0.557,
+   "rgb": "#A8281E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 4406,
+   "box": [
+    539,
+    422,
+    621,
+    543
+   ],
+   "fill": 0.435,
+   "rgb": "#AD271E"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 520,
+   "box": [
+    516,
+    501,
+    564,
+    549
+   ],
+   "fill": 0.217,
+   "rgb": "#A42820"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 443,
+   "box": [
+    488,
+    504,
+    534,
+    550
+   ],
+   "fill": 0.201,
+   "rgb": "#A72921"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 2417,
+   "box": [
+    20,
+    715,
+    81,
+    755
+   ],
+   "fill": 0.951,
+   "rgb": "#A6241D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 42317,
+   "box": [
+    20,
+    740,
+    523,
+    953
+   ],
+   "fill": 0.392,
+   "rgb": "#A4251C"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 39370,
+   "box": [
+    632,
+    746,
+    1003,
+    957
+   ],
+   "fill": 0.499,
+   "rgb": "#AC261D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 634,
+   "box": [
+    601,
+    779,
+    617,
+    827
+   ],
+   "fill": 0.761,
+   "rgb": "#AD291D"
+  },
+  {
+   "colour": "red",
+   "kind": "inside an excluded box",
+   "px": 50408,
+   "box": [
+    216,
+    1385,
+    810,
+    1517
+   ],
+   "fill": 0.637,
+   "rgb": "#9A211B"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "dark",
+   "y0": 1280,
+   "y1": 1291,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1280,
+   "y1": 1307,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1279,
+   "y1": 1291,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1280,
+   "y1": 1292,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1280,
+   "y1": 1288,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1298,
+   "y1": 1308,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1280,
+   "y1": 1291,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1279,
+   "y1": 1308,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1337,
+   "y1": 1343,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1355,
+   "y1": 1359,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1361,
+   "y1": 1373,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1360,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1360,
+   "why": "only 3 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1350,
+   "y1": 1354,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1363,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1351,
+   "y1": 1355,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1355,
+   "y1": 1359,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1359,
+   "y1": 1371,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1356,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1349,
+   "y1": 1352,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1349,
+   "y1": 1356,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1356,
+   "y1": 1378,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1361,
+   "y1": 1364,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1357,
+   "y1": 1367,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 40,
+   "y1": 49,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1096,
+   "y1": 1133,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1099,
+   "y1": 1115,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1118,
+   "y1": 1141,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1216,
+   "y1": 1227,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1202,
+   "y1": 1209,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1218,
+   "y1": 1225,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1200,
+   "y1": 1206,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1216,
+   "y1": 1226,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1201,
+   "y1": 1212,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1215,
+   "y1": 1226,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1210,
+   "y1": 1219,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 34,
+   "y1": 37,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 29,
+   "y1": 35,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 41,
+   "y1": 45,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 36,
+   "y1": 44,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 40,
+   "y1": 43,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 33,
+   "y1": 36,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 29,
+   "y1": 40,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 29,
+   "y1": 38,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 26,
+   "y1": 35,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 35,
+   "y1": 42,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 28,
+   "y1": 32,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 33,
+   "y1": 46,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 34,
+   "y1": 38,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1197,
+   "y1": 1203,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1200,
+   "y1": 1207,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1207,
+   "y1": 1212,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1217,
+   "y1": 1222,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1206,
+   "y1": 1214,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1200,
+   "y1": 1203,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1200,
+   "y1": 1208,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1216,
+   "y1": 1221,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1212,
+   "y1": 1220,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1214,
+   "y1": 1222,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1208,
+   "y1": 1221,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1206,
+   "y1": 1211,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1214,
+   "y1": 1218,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1221,
+   "y1": 1224,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1199,
+   "y1": 1206,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1216,
+   "y1": 1220,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1218,
+   "y1": 1221,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1225,
+   "y1": 1228,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1226,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1225,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1226,
+   "y1": 1229,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1227,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1225,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1227,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1227,
+   "y1": 1230,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1282,
+   "y1": 1286,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1294,
+   "y1": 1298,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1294,
+   "y1": 1306,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1273,
+   "y1": 1297,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1281,
+   "y1": 1286,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1279,
+   "y1": 1286,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1302,
+   "y1": 1306,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1280,
+   "y1": 1306,
+   "why": "no shared baseline (25% of runs)"
+  },
+  {
+   "colour": "blue",
+   "y0": 1299,
+   "y1": 1303,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1296,
+   "y1": 1306,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1305,
+   "y1": 1310,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1313,
+   "y1": 1316,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1315,
+   "y1": 1318,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1310,
+   "y1": 1314,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1349,
+   "y1": 1356,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1348,
+   "y1": 1355,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1340,
+   "y1": 1352,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1354,
+   "y1": 1359,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1360,
+   "y1": 1363,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1363,
+   "y1": 1366,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1355,
+   "y1": 1370,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1336,
+   "y1": 1339,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1343,
+   "y1": 1351,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1365,
+   "y1": 1371,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1349,
+   "y1": 1354,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1346,
+   "y1": 1351,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1359,
+   "y1": 1363,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1363,
+   "y1": 1366,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1360,
+   "y1": 1364,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1338,
+   "y1": 1342,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1342,
+   "y1": 1352,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1346,
+   "y1": 1351,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1357,
+   "y1": 1360,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1367,
+   "y1": 1370,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1274,
+   "y1": 1277,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1273,
+   "y1": 1276,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1274,
+   "y1": 1277,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1277,
+   "y1": 1285,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1283,
+   "y1": 1290,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1296,
+   "y1": 1300,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1288,
+   "y1": 1299,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1299,
+   "y1": 1303,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1310,
+   "y1": 1314,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1306,
+   "y1": 1314,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1303,
+   "y1": 1308,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1306,
+   "y1": 1311,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1340,
+   "y1": 1351,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1351,
+   "y1": 1364,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1351,
+   "y1": 1359,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1343,
+   "y1": 1350,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 28,
+   "y1": 39,
+   "why": "counters of dark lettering (49% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 27,
+   "y1": 52,
+   "why": "counters of dark lettering (53% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 29,
+   "y1": 49,
+   "why": "counters of dark lettering (50% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 1204,
+   "y1": 1220,
+   "why": "counters of dark lettering (53% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 1202,
+   "y1": 1223,
+   "why": "counters of dark lettering (56% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 1204,
+   "y1": 1223,
+   "why": "counters of dark lettering (54% dark ink)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1340,
+   "y1": 1365,
+   "why": "counters of dark lettering (25% dark ink)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1348,
+   "y1": 1365,
+   "why": "counters of dark lettering (16% dark ink)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1340,
+   "y1": 1352,
+   "why": "counters of dark lettering (12% dark ink)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1340,
+   "y1": 1365,
+   "why": "counters of dark lettering (21% dark ink)"
+  },
+  {
+   "colour": "yellow",
+   "y0": 1339,
+   "y1": 1365,
+   "why": "counters of dark lettering (21% dark ink)"
+  },
+  {
+   "colour": "dark",
+   "y0": 1279,
+   "y1": 1308,
+   "why": "duplicate of light band y1270..1324"
+  },
+  {
+   "colour": "light",
+   "y0": 1203,
+   "y1": 1219,
+   "why": "duplicate of dark band y1195..1232"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1353,
+   "why": "duplicate of light band y1338..1370"
+  },
+  {
+   "colour": "dark",
+   "y0": 1344,
+   "y1": 1371,
+   "why": "duplicate of light band y1338..1370"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "presenter",
+    "support",
+    "date",
+    "venue"
+   ],
+   "shape_glyphs": "MSRGAYDBOH",
+   "brief": null,
+   "features": {
+    "weight": 0.213,
+    "contrast": 1.0,
+    "slant": 0.0,
+    "square": 0.915,
+    "cap": 47.0
+   },
+   "confidence": "low",
+   "margin": 0.032,
+   "distortions": [
+    {
+     "key": "presenter",
+     "ratio": 1.25,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "support",
+     "ratio": 1.486,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "venue",
+     "ratio": 1.291,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "BBH Bogle",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BBHBogle-0-0-400-c6ce8dee033c7629.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.2701,
+     "spread": 0.1639,
+     "stem_err": 0.0305,
+     "shape": 1.0598,
+     "features": 0.628,
+     "character": null,
+     "record": {
+      "family": "BBH Bogle",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0047
+    },
+    {
+     "family": "Barlow Condensed",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowCondensed-0-0-700-82f231c8fd1dbdc0.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.1719,
+     "spread": 0.1335,
+     "stem_err": 0.0989,
+     "shape": 0.9508,
+     "features": 0.489,
+     "character": null,
+     "record": {
+      "family": "Barlow Condensed",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0685
+    },
+    {
+     "family": "Oswald",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-700-684a2938747fe932.ttf",
+     "index": null,
+     "cap_ratio": 0.81,
+     "width_ratio": 1.1822,
+     "spread": 0.1346,
+     "stem_err": 0.0989,
+     "shape": 1.0382,
+     "features": 0.684,
+     "character": null,
+     "record": {
+      "family": "Oswald",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2196
+    },
+    {
+     "family": "Barlow Condensed",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowCondensed-0-0-800-3dfdd204d8aeafc8.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.146,
+     "spread": 0.1312,
+     "stem_err": 0.1591,
+     "shape": 1.1528,
+     "features": 0.642,
+     "character": null,
+     "record": {
+      "family": "Barlow Condensed",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2401
+    },
+    {
+     "family": "Big Shoulders",
+     "sub": "900",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BigShoulders-0-0-900-34f8611e78e05dc5.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 1.2264,
+     "spread": 0.1353,
+     "stem_err": 0.2284,
+     "shape": 1.186,
+     "features": 0.563,
+     "character": null,
+     "record": {
+      "family": "Big Shoulders",
+      "weight": 900,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.3158
+    },
+    {
+     "family": "Smooch Sans",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SmoochSans-0-0-800-3dc86df5408ad3d3.ttf",
+     "index": null,
+     "cap_ratio": 0.62,
+     "width_ratio": 1.2525,
+     "spread": 0.1508,
+     "stem_err": 0.0305,
+     "shape": 1.1848,
+     "features": 0.517,
+     "character": null,
+     "record": {
+      "family": "Smooch Sans",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.3478
+    },
+    {
+     "family": "Saira Extra Condensed",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-800-af595d091477bbcf.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 1.3591,
+     "spread": 0.1554,
+     "stem_err": 0.0989,
+     "shape": 1.1818,
+     "features": 0.474,
+     "character": null,
+     "record": {
+      "family": "Saira Extra Condensed",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.3729
+    },
+    {
+     "family": "Sofia Sans Extra Condensed",
+     "sub": "900",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-0-0-900-d41e27ba0d3ff180.ttf",
+     "index": null,
+     "cap_ratio": 0.655,
+     "width_ratio": 1.1887,
+     "spread": 0.1404,
+     "stem_err": 0.0305,
+     "shape": 1.1907,
+     "features": 0.718,
+     "character": null,
+     "record": {
+      "family": "Sofia Sans Extra Condensed",
+      "weight": 900,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.3732
+    },
+    {
+     "family": "Epilogue",
+     "sub": "200",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Epilogue-0-0-200-b9fb271a131dbe55.ttf",
+     "index": null,
+     "cap_ratio": 0.7375,
+     "width_ratio": 0.9998,
+     "spread": 0.1088,
+     "stem_err": 1.2614,
+     "shape": 3.0482,
+     "features": 2.301,
+     "character": null,
+     "record": {
+      "family": "Epilogue",
+      "weight": 200,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 8.5266
+    },
+    {
+     "family": "Lacquer",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Lacquer-0-0-400-8ebf96cd8df84ef4.ttf",
+     "index": null,
+     "cap_ratio": 0.6526000000000001,
+     "width_ratio": 1.0003,
+     "spread": 0.1319,
+     "stem_err": 0.4578,
+     "shape": 3.1154,
+     "features": 4.901,
+     "character": null,
+     "record": {
+      "family": "Lacquer",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.7657
+    },
+    {
+     "family": "Jersey 10",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10-0-0-400-1ab5bab557bf92f3.ttf",
+     "index": null,
+     "cap_ratio": 0.5357142857142857,
+     "width_ratio": 0.9997,
+     "spread": 0.1134,
+     "stem_err": 0.0989,
+     "shape": 3.4386,
+     "features": 0.895,
+     "character": null,
+     "record": {
+      "family": "Jersey 10",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 4.6094
+    },
+    {
+     "family": "Edu VIC WA NT Beginner",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EduVICWANTBeginner-0-0-400-b609c09cff627380.ttf",
+     "index": null,
+     "cap_ratio": 0.772,
+     "width_ratio": 0.9996,
+     "spread": 0.1034,
+     "stem_err": 1.0034,
+     "shape": 3.4867,
+     "features": 5.271,
+     "character": null,
+     "record": {
+      "family": "Edu VIC WA NT Beginner",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 9.9759
+    }
+   ]
+  },
+  "display": {
+   "lines": [
+    "headliner"
+   ],
+   "shape_glyphs": "RAVCHTDOEF",
+   "brief": null,
+   "features": {
+    "weight": 0.121,
+    "contrast": 0.929,
+    "slant": 0.0,
+    "square": 0.968,
+    "cap": 198.0
+   },
+   "confidence": "low",
+   "margin": 0.056,
+   "distortions": [],
+   "candidates": [
+    {
+     "family": "League Gothic",
+     "sub": "400 wdth75",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LeagueGothic-0-75-400-b5f1000f50703ac2.ttf",
+     "index": null,
+     "cap_ratio": 0.735,
+     "width_ratio": 0.9424,
+     "spread": 0.0,
+     "stem_err": 0.0541,
+     "shape": 0.5781,
+     "features": 0.556,
+     "character": null,
+     "record": {
+      "family": "League Gothic",
+      "weight": 400,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 1.081
+    },
+    {
+     "family": "Anybody",
+     "sub": "400 wdth50",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Anybody-0-50-400-0e22521930e9131f.ttf",
+     "index": null,
+     "cap_ratio": 0.675,
+     "width_ratio": 1.0648,
+     "spread": 0.0,
+     "stem_err": 0.0541,
+     "shape": 0.7034,
+     "features": 0.529,
+     "character": null,
+     "record": {
+      "family": "Anybody",
+      "weight": 400,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 1.1414
+    },
+    {
+     "family": "Six Caps",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SixCaps-0-0-400-3513e9fdf0c8149f.ttf",
+     "index": null,
+     "cap_ratio": 0.84375,
+     "width_ratio": 1.1168,
+     "spread": 0.0,
+     "stem_err": 0.4549,
+     "shape": 1.5071,
+     "features": 1.448,
+     "character": null,
+     "record": {
+      "family": "Six Caps",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.992
+    },
+    {
+     "family": "Karantina",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Karantina-0-0-400-16d69e6d7d449386.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.689,
+     "spread": 0.0,
+     "stem_err": 0.1451,
+     "shape": 1.6826,
+     "features": 1.286,
+     "character": null,
+     "record": {
+      "family": "Karantina",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.0113
+    },
+    {
+     "family": "Bahianita",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Bahianita-0-0-400-7618f7cdd6301a7e.ttf",
+     "index": null,
+     "cap_ratio": 0.71,
+     "width_ratio": 0.7159,
+     "spread": 0.0,
+     "stem_err": 0.2545,
+     "shape": 1.4108,
+     "features": 0.977,
+     "character": null,
+     "record": {
+      "family": "Bahianita",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.0536
+    },
+    {
+     "family": "Inconsolata",
+     "sub": "900 wdth50",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Inconsolata-0-50-900-7dd2bf1afa9b874c.ttf",
+     "index": null,
+     "cap_ratio": 0.623,
+     "width_ratio": 0.6835,
+     "spread": 0.0,
+     "stem_err": 0.1451,
+     "shape": 1.1946,
+     "features": 1.615,
+     "character": null,
+     "record": {
+      "family": "Inconsolata",
+      "weight": 900,
+      "italic": false,
+      "wdth": 50,
+      "source": "google"
+     },
+     "score": 3.0698
+    },
+    {
+     "family": "Bahiana",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Bahiana-0-0-400-164b0da9c7e4dcb8.ttf",
+     "index": null,
+     "cap_ratio": 0.71,
+     "width_ratio": 0.6741,
+     "spread": 0.0,
+     "stem_err": 0.2545,
+     "shape": 1.4084,
+     "features": 1.024,
+     "character": null,
+     "record": {
+      "family": "Bahiana",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.1233
+    },
+    {
+     "family": "League Gothic",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LeagueGothic-0-0-400-9efe0d04adc2ee71.ttf",
+     "index": null,
+     "cap_ratio": 0.735,
+     "width_ratio": 0.6309,
+     "spread": 0.0,
+     "stem_err": 0.1451,
+     "shape": 1.9774,
+     "features": 1.721,
+     "character": null,
+     "record": {
+      "family": "League Gothic",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.6479
+    },
+    {
+     "family": "Dorsa",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Dorsa-0-0-400-915e718223bc8bfe.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0808,
+     "spread": 0.0,
+     "stem_err": 0.8545,
+     "shape": 2.2095,
+     "features": 1.695,
+     "character": null,
+     "record": {
+      "family": "Dorsa",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.3949
+    },
+    {
+     "family": "Foldit",
+     "sub": "100",
+     "weight": 100,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Foldit-0-0-100-5d2b921dfe3baea8.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.7924,
+     "spread": 0.0,
+     "stem_err": 1.0549,
+     "shape": 2.1094,
+     "features": 1.752,
+     "character": null,
+     "record": {
+      "family": "Foldit",
+      "weight": 100,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.4799
+    },
+    {
+     "family": "Karantina",
+     "sub": "300",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Karantina-0-0-300-b9647e70a5f03326.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.7541,
+     "spread": 0.0,
+     "stem_err": 0.4549,
+     "shape": 1.6505,
+     "features": 1.267,
+     "character": null,
+     "record": {
+      "family": "Karantina",
+      "weight": 300,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 4.169
+    },
+    {
+     "family": "Wire One",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/WireOne-0-0-400-eb44d94689aa55e0.ttf",
+     "index": null,
+     "cap_ratio": 0.71,
+     "width_ratio": 0.7525,
+     "spread": 0.0,
+     "stem_err": 1.0549,
+     "shape": 2.0907,
+     "features": 1.695,
+     "character": null,
+     "record": {
+      "family": "Wire One",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.2807
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "BBH Bogle",
+    "Barlow Condensed",
+    "Oswald"
+   ]
+  },
+  {
+   "kind": "face_choice",
+   "group": "display",
+   "confidence": "low",
+   "top": [
+    "League Gothic",
+    "Anybody",
+    "Six Caps"
+   ]
+  }
+ ],
+ "knobs": {
+  "artwork": "mask",
+  "face": [
+   "display=League Gothic 400 wdth75",
+   "body=Oswald:600"
+  ],
+  "solid_radius": 24,
+  "rule_length": 160,
+  "rule_thick": 5,
+  "min_glyphs": 3,
+  "contrast": 40,
+  "window": 61,
+  "wrap_cap_ratio": 1.3,
+  "exclude": [
+   "0,55,1024,965"
+  ],
+  "knockout": [],
+  "assign": [
+   "presenter=513,35",
+   "headliner=514,1077",
+   "support=524,1213",
+   "date=516,1297",
+   "venue=515,1354"
+  ],
+  "character": [],
+  "case": [
+   "venue=upper"
+  ],
+  "tilted": [],
+  "art": [
+   "tickets,ticket_source,footer@8,1380,1016,1522@cream type on a red panel breaks into specks the band finder cannot read"
+  ],
+  "align": [],
+  "track": [
+   "presenter=fit",
+   "support=fit",
+   "venue=fit"
+  ],
+  "fill": [],
+  "shadow": [],
+  "fit": []
+ }
+}
