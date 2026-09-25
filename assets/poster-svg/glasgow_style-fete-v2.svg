@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "Every attraction is broken into one- or two-word lines inside narrow vertical boxes; copy lines wrap far beyond the three bands the aligner allows.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[

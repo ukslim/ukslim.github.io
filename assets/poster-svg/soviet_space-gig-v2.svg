@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "The presenter sits below the headline and a large 19 IX date block is read as a line. Tool limitation, possibly recoverable now the presenter may move.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[

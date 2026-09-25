@@ -23,6 +23,70 @@
   "beneficiary=276,1422",
   "footer1=337,1470"
  ],
+ "frames": [],
+ "art": [],
+ "copy": [
+  {
+   "key": "title",
+   "text": "Brindlewick Village F\u00eate"
+  },
+  {
+   "key": "date",
+   "text": "Saturday 6th September, 12 noon \u2013 5pm"
+  },
+  {
+   "key": "venue",
+   "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "key": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "key": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "key": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "key": "attraction7",
+   "text": "Local craft and maker stalls"
+  },
+  {
+   "key": "footer0",
+   "text": "Free entry. All welcome."
+  },
+  {
+   "key": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
  "median_texture": 0.23,
  "alignment": "ok; 15 line(s) assigned by hand",
  "alignment_cost": 0.06,
@@ -3321,7 +3385,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ZalandoSans-0-0-600-5bc2ae9468b848aa.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-0-600-5bc2ae9468b848aa.ttf",
      "index": null,
      "cap_ratio": 0.714,
      "width_ratio": 0.8861,
@@ -3367,7 +3431,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Rubik-0-0-500-5fb9caf87046358a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Rubik-0-0-500-5fb9caf87046358a.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.8774,
@@ -3390,7 +3454,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Almarai-0-0-700-df0842723ee27230.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Almarai-0-0-700-df0842723ee27230.ttf",
      "index": null,
      "cap_ratio": 0.716,
      "width_ratio": 0.9062,
@@ -3413,7 +3477,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/MozillaText-0-0-700-263fba6fe0d846cd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MozillaText-0-0-700-263fba6fe0d846cd.ttf",
      "index": null,
      "cap_ratio": 0.69,
      "width_ratio": 0.8509,
@@ -3436,7 +3500,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/StrichpunktSans-0-0-600-6ad5ec2488283a61.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/StrichpunktSans-0-0-600-6ad5ec2488283a61.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.8685,
@@ -3459,7 +3523,7 @@
      "sub": "300",
      "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/IBMPlexSansJP-0-0-300-b837ec2b229ae1fd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IBMPlexSansJP-0-0-300-b837ec2b229ae1fd.ttf",
      "index": null,
      "cap_ratio": 0.733,
      "width_ratio": 1.0,
@@ -3482,7 +3546,7 @@
      "sub": "300 italic",
      "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AsapSharp-1-0-300-b70a074b82926399.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AsapSharp-1-0-300-b70a074b82926399.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0,
@@ -3505,7 +3569,7 @@
      "sub": "400 italic",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Wittgenstein-1-0-400-638e04f0b640cf69.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Wittgenstein-1-0-400-638e04f0b640cf69.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
@@ -3528,7 +3592,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/IosevkaCharon-0-0-700-b4b97f066509be8f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IosevkaCharon-0-0-700-b4b97f066509be8f.ttf",
      "index": null,
      "cap_ratio": 0.735,
      "width_ratio": 0.9999,
@@ -3553,8 +3617,7 @@
     "date",
     "venue",
     "attractions_label",
-    "footer0",
-    "footer1"
+    "footer0"
    ],
    "shape_glyphs": "S2aegCAmBH",
    "brief": {
@@ -3599,7 +3662,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Yantramanav-0-0-700-14e7de25d0a95164.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Yantramanav-0-0-700-14e7de25d0a95164.ttf",
      "index": null,
      "cap_ratio": 0.6396484375,
      "width_ratio": 0.9494,
@@ -3622,7 +3685,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Vazirmatn-0-0-700-f27958082e830c4d.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-700-f27958082e830c4d.ttf",
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9386,
@@ -3645,7 +3708,7 @@
      "sub": "900",
      "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/GothicA1-0-0-900-10e9881651a4bb24.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/GothicA1-0-0-900-10e9881651a4bb24.ttf",
      "index": null,
      "cap_ratio": 0.7998046875,
      "width_ratio": 0.9262,
@@ -3668,7 +3731,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SplineSans-0-0-600-6ca74c09a2f4ca8c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SplineSans-0-0-600-6ca74c09a2f4ca8c.ttf",
      "index": null,
      "cap_ratio": 0.727,
      "width_ratio": 0.9302,
@@ -3691,7 +3754,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Vazirmatn-0-0-600-97513e71288b2add.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-600-97513e71288b2add.ttf",
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9431,
@@ -3714,7 +3777,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/CossetteTexte-0-0-700-e7165cd5bd48ca74.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CossetteTexte-0-0-700-e7165cd5bd48ca74.ttf",
      "index": null,
      "cap_ratio": 0.8,
      "width_ratio": 0.9712,
@@ -3737,7 +3800,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Signika-0-0-600-4435a63845421c0e.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Signika-0-0-600-4435a63845421c0e.ttf",
      "index": null,
      "cap_ratio": 0.6875,
      "width_ratio": 0.9442,
@@ -3760,7 +3823,7 @@
      "sub": "700 wdth75",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/IBMPlexSans-0-75-700-4df55199e9c9aba3.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IBMPlexSans-0-75-700-4df55199e9c9aba3.ttf",
      "index": null,
      "cap_ratio": 0.698,
      "width_ratio": 0.9621,
@@ -3783,7 +3846,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/CaesarDressing-0-0-400-be10fb3a955b996d.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CaesarDressing-0-0-400-be10fb3a955b996d.ttf",
      "index": null,
      "cap_ratio": 0.7255859375,
      "width_ratio": 1.0001,
@@ -3806,7 +3869,7 @@
      "sub": "200 italic",
      "weight": 200,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/JosefinSlab-1-0-200-c8ddb12e0924b0c7.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/JosefinSlab-1-0-200-c8ddb12e0924b0c7.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9999,
@@ -3829,7 +3892,7 @@
      "sub": "600 italic",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/FiraSansCondensed-1-0-600-a51233c7b3377fe8.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FiraSansCondensed-1-0-600-a51233c7b3377fe8.ttf",
      "index": null,
      "cap_ratio": 0.692,
      "width_ratio": 0.9998,
@@ -3852,7 +3915,7 @@
      "sub": "400 italic",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/IMFellDWPica-1-0-400-6f7ee0bda4a6ec4d.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IMFellDWPica-1-0-400-6f7ee0bda4a6ec4d.ttf",
      "index": null,
      "cap_ratio": 0.69287109375,
      "width_ratio": 1.0009,
@@ -3959,7 +4022,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Overpass-0-0-400-94734c25fc46c7bb.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Overpass-0-0-400-94734c25fc46c7bb.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9082,
@@ -3982,7 +4045,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/NationalPark-0-0-400-621b8f286ae7d61b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/NationalPark-0-0-400-621b8f286ae7d61b.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9207,
@@ -4005,7 +4068,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Almarai-0-0-400-c38d90c0031f658a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Almarai-0-0-400-c38d90c0031f658a.ttf",
      "index": null,
      "cap_ratio": 0.716,
      "width_ratio": 0.9437,
@@ -4028,7 +4091,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/InterTight-0-0-400-1747c2fe13b76ffb.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InterTight-0-0-400-1747c2fe13b76ffb.ttf",
      "index": null,
      "cap_ratio": 0.7275390625,
      "width_ratio": 0.9764,
@@ -4051,7 +4114,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Thasadith-0-0-700-a26fb329cb19d1fd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Thasadith-0-0-700-a26fb329cb19d1fd.ttf",
      "index": null,
      "cap_ratio": 0.706,
      "width_ratio": 0.9498,
@@ -4074,7 +4137,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/GothicA1-0-0-400-361df0d17f04ba5c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/GothicA1-0-0-400-361df0d17f04ba5c.ttf",
      "index": null,
      "cap_ratio": 0.7314453125,
      "width_ratio": 0.9399,
@@ -4097,7 +4160,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/MeeraInimai-0-0-400-3c2917758ddac4f8.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MeeraInimai-0-0-400-3c2917758ddac4f8.ttf",
      "index": null,
      "cap_ratio": 0.712890625,
      "width_ratio": 0.9318,
@@ -4120,7 +4183,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SpecialGothic-0-0-400-a52ff4dd93b4f0dd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SpecialGothic-0-0-400-a52ff4dd93b4f0dd.ttf",
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 0.9528,
@@ -4143,7 +4206,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Alegreya-0-0-500-d50275f4f2cef5e7.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Alegreya-0-0-500-d50275f4f2cef5e7.ttf",
      "index": null,
      "cap_ratio": 0.647,
      "width_ratio": 1.0001,
@@ -4166,7 +4229,7 @@
      "sub": "700 italic",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Nobile-1-0-700-8318281d3fa4bddf.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Nobile-1-0-700-8318281d3fa4bddf.ttf",
      "index": null,
      "cap_ratio": 0.78369140625,
      "width_ratio": 1.0001,
@@ -4189,7 +4252,7 @@
      "sub": "900 italic",
      "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AncizarSans-1-0-900-0540339cd877f8cb.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AncizarSans-1-0-900-0540339cd877f8cb.ttf",
      "index": null,
      "cap_ratio": 0.612,
      "width_ratio": 1.0001,
@@ -4212,7 +4275,7 @@
      "sub": "500 italic",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Faustina-1-0-500-0d2d2578747bf922.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Faustina-1-0-500-0d2d2578747bf922.ttf",
      "index": null,
      "cap_ratio": 0.648,
      "width_ratio": 1.0002,
@@ -4229,6 +4292,312 @@
       "source": "google"
      },
      "score": 3.8862
+    }
+   ]
+  },
+  "footer1": {
+   "lines": [
+    "footer1"
+   ],
+   "shape_glyphs": "S2aegCAmBH",
+   "brief": {
+    "/Sans/Neo Grotesque": 90,
+    "/Expressive/Business": 70
+   },
+   "features": {
+    "weight": 0.2,
+    "contrast": 0.943,
+    "slant": 0.0,
+    "square": null,
+    "cap": 29.0
+   },
+   "confidence": "low",
+   "margin": 0.045,
+   "distortions": [
+    {
+     "key": "footer1",
+     "ratio": 0.876,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Yantramanav",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Yantramanav-0-0-700-14e7de25d0a95164.ttf",
+     "index": null,
+     "cap_ratio": 0.6396484375,
+     "width_ratio": 0.9494,
+     "spread": 0.0424,
+     "stem_err": 0.0008,
+     "shape": 0.938,
+     "features": 0.306,
+     "character": 0.158,
+     "record": {
+      "family": "Yantramanav",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.5612
+    },
+    {
+     "family": "Vazirmatn",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-700-f27958082e830c4d.ttf",
+     "index": null,
+     "cap_ratio": 0.7109375,
+     "width_ratio": 0.9386,
+     "spread": 0.0393,
+     "stem_err": 0.0008,
+     "shape": 1.0003,
+     "features": 0.329,
+     "character": 0.184,
+     "record": {
+      "family": "Vazirmatn",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6307
+    },
+    {
+     "family": "Gothic A1",
+     "sub": "900",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/GothicA1-0-0-900-10e9881651a4bb24.ttf",
+     "index": null,
+     "cap_ratio": 0.7998046875,
+     "width_ratio": 0.9262,
+     "spread": 0.0351,
+     "stem_err": 0.0008,
+     "shape": 1.0127,
+     "features": 0.289,
+     "character": 0.251,
+     "record": {
+      "family": "Gothic A1",
+      "weight": 900,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6535
+    },
+    {
+     "family": "Spline Sans",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SplineSans-0-0-600-6ca74c09a2f4ca8c.ttf",
+     "index": null,
+     "cap_ratio": 0.727,
+     "width_ratio": 0.9302,
+     "spread": 0.0426,
+     "stem_err": 0.0008,
+     "shape": 1.0782,
+     "features": 0.281,
+     "character": 0.158,
+     "record": {
+      "family": "Spline Sans",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.655
+    },
+    {
+     "family": "Vazirmatn",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-600-97513e71288b2add.ttf",
+     "index": null,
+     "cap_ratio": 0.7109375,
+     "width_ratio": 0.9431,
+     "spread": 0.0402,
+     "stem_err": 0.0609,
+     "shape": 1.0194,
+     "features": 0.365,
+     "character": 0.184,
+     "record": {
+      "family": "Vazirmatn",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7272
+    },
+    {
+     "family": "Cossette Texte",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CossetteTexte-0-0-700-e7165cd5bd48ca74.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 0.9712,
+     "spread": 0.0383,
+     "stem_err": 0.0008,
+     "shape": 1.0876,
+     "features": 0.33,
+     "character": 0.158,
+     "record": {
+      "family": "Cossette Texte",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7277
+    },
+    {
+     "family": "Signika",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Signika-0-0-600-4435a63845421c0e.ttf",
+     "index": null,
+     "cap_ratio": 0.6875,
+     "width_ratio": 0.9442,
+     "spread": 0.0401,
+     "stem_err": 0.0501,
+     "shape": 1.1572,
+     "features": 0.303,
+     "character": 0.142,
+     "record": {
+      "family": "Signika",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7506
+    },
+    {
+     "family": "IBM Plex Sans",
+     "sub": "700 wdth75",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IBMPlexSans-0-75-700-4df55199e9c9aba3.ttf",
+     "index": null,
+     "cap_ratio": 0.698,
+     "width_ratio": 0.9621,
+     "spread": 0.0374,
+     "stem_err": 0.0008,
+     "shape": 1.1774,
+     "features": 0.359,
+     "character": 0.158,
+     "record": {
+      "family": "IBM Plex Sans",
+      "weight": 700,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 1.7671
+    },
+    {
+     "family": "Caesar Dressing",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CaesarDressing-0-0-400-be10fb3a955b996d.ttf",
+     "index": null,
+     "cap_ratio": 0.7255859375,
+     "width_ratio": 1.0001,
+     "spread": 0.038,
+     "stem_err": 0.1088,
+     "shape": 3.5138,
+     "features": 1.52,
+     "character": 0.876,
+     "record": {
+      "family": "Caesar Dressing",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 9.7016
+    },
+    {
+     "family": "Josefin Slab",
+     "sub": "200 italic",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/JosefinSlab-1-0-200-c8ddb12e0924b0c7.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9999,
+     "spread": 0.0643,
+     "stem_err": 0.6009,
+     "shape": 3.2029,
+     "features": 3.472,
+     "character": 0.728,
+     "record": {
+      "family": "Josefin Slab",
+      "weight": 200,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 13.2777
+    },
+    {
+     "family": "Fira Sans Condensed",
+     "sub": "600 italic",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FiraSansCondensed-1-0-600-a51233c7b3377fe8.ttf",
+     "index": null,
+     "cap_ratio": 0.692,
+     "width_ratio": 0.9998,
+     "spread": 0.0495,
+     "stem_err": 0.0184,
+     "shape": 2.1836,
+     "features": 2.376,
+     "character": 0.376,
+     "record": {
+      "family": "Fira Sans Condensed",
+      "weight": 600,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 4.5237
+    },
+    {
+     "family": "IM Fell DW Pica",
+     "sub": "400 italic",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IMFellDWPica-1-0-400-6f7ee0bda4a6ec4d.ttf",
+     "index": null,
+     "cap_ratio": 0.69287109375,
+     "width_ratio": 1.0009,
+     "spread": 0.0541,
+     "stem_err": 0.2841,
+     "shape": 3.5505,
+     "features": 7.428,
+     "character": 0.5,
+     "record": {
+      "family": "IM Fell DW Pica",
+      "weight": 400,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 10.3416
     }
    ]
   }
@@ -4267,7 +4636,12 @@
  ],
  "knobs": {
   "artwork": "shapes:circle 974 753 442 #E72F1A",
-  "face": [],
+  "face": [
+   "display=Zalando Sans 600",
+   "body=Yantramanav 700",
+   "body_light=Overpass 400",
+   "footer1=Overpass:500"
+  ],
   "solid_radius": 24,
   "rule_length": 160,
   "rule_thick": 5,
@@ -4298,6 +4672,12 @@
    "title=Neo Grotesque 90, Business 70, Playful 5",
    "date=Neo Grotesque 90, Business 70"
   ],
-  "case": []
+  "case": [],
+  "tilted": [],
+  "art": [],
+  "align": [],
+  "track": [],
+  "fill": [],
+  "shadow": []
  }
 }

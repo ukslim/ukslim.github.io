@@ -7,6 +7,70 @@
  ],
  "paper": "#000000",
  "assign_points": [],
+ "frames": [],
+ "art": [],
+ "copy": [
+  {
+   "key": "title",
+   "text": "Brindlewick Village F\u00eate"
+  },
+  {
+   "key": "date",
+   "text": "Saturday 6th September, 12 noon \u2013 5pm"
+  },
+  {
+   "key": "venue",
+   "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "key": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "key": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "key": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "key": "attraction7",
+   "text": "Local craft and maker stalls"
+  },
+  {
+   "key": "footer0",
+   "text": "Free entry. All welcome."
+  },
+  {
+   "key": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
  "median_texture": 0.47,
  "alignment": "ok",
  "alignment_cost": 0.158,
@@ -4133,7 +4197,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey20-0-0-400-c506d680d2b8dc58.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey20-0-0-400-c506d680d2b8dc58.ttf",
      "index": null,
      "cap_ratio": 0.5882352941176471,
      "width_ratio": 0.9113,
@@ -4156,7 +4220,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Micro5-0-0-400-f3ee25b525e037cb.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Micro5-0-0-400-f3ee25b525e037cb.ttf",
      "index": null,
      "cap_ratio": 0.45454545454545453,
      "width_ratio": 0.8897,
@@ -4179,7 +4243,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey25Charted-0-0-400-048fa609df7c963f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey25Charted-0-0-400-048fa609df7c963f.ttf",
      "index": null,
      "cap_ratio": 0.8048780487804879,
      "width_ratio": 1.1369,
@@ -4202,7 +4266,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey15-0-0-400-8f9908768482605b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey15-0-0-400-8f9908768482605b.ttf",
      "index": null,
      "cap_ratio": 0.5555555555555556,
      "width_ratio": 0.9112,
@@ -4225,7 +4289,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey25-0-0-400-718c17b25e864f6a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey25-0-0-400-718c17b25e864f6a.ttf",
      "index": null,
      "cap_ratio": 0.6097560975609756,
      "width_ratio": 0.8781,
@@ -4248,7 +4312,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey10-0-0-400-1ab5bab557bf92f3.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10-0-0-400-1ab5bab557bf92f3.ttf",
      "index": null,
      "cap_ratio": 0.5357142857142857,
      "width_ratio": 0.9348,
@@ -4294,7 +4358,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ShareTech-0-0-400-41b5bbf17e976ee6.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ShareTech-0-0-400-41b5bbf17e976ee6.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9999,
@@ -4317,7 +4381,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Neucha-0-0-400-e140a6a1e48b5c28.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Neucha-0-0-400-e140a6a1e48b5c28.ttf",
      "index": null,
      "cap_ratio": 0.7138671875,
      "width_ratio": 0.9998,
@@ -4340,7 +4404,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/UbuntuCondensed-0-0-400-3a6652f162c7b3d0.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/UbuntuCondensed-0-0-400-3a6652f162c7b3d0.ttf",
      "index": null,
      "cap_ratio": 0.693,
      "width_ratio": 1.0003,
@@ -4363,7 +4427,7 @@
      "sub": "800",
      "weight": 800,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/FiraSansExtraCondensed-0-0-800-ed598d5f319f05ef.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FiraSansExtraCondensed-0-0-800-ed598d5f319f05ef.ttf",
      "index": null,
      "cap_ratio": 0.695,
      "width_ratio": 1.0008,
@@ -4512,7 +4576,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey25-0-0-400-718c17b25e864f6a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey25-0-0-400-718c17b25e864f6a.ttf",
      "index": null,
      "cap_ratio": 0.6097560975609756,
      "width_ratio": 1.117,
@@ -4535,7 +4599,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey20-0-0-400-c506d680d2b8dc58.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey20-0-0-400-c506d680d2b8dc58.ttf",
      "index": null,
      "cap_ratio": 0.5882352941176471,
      "width_ratio": 1.155,
@@ -4558,7 +4622,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey15-0-0-400-8f9908768482605b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey15-0-0-400-8f9908768482605b.ttf",
      "index": null,
      "cap_ratio": 0.5555555555555556,
      "width_ratio": 1.1445,
@@ -4581,7 +4645,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey10-0-0-400-1ab5bab557bf92f3.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10-0-0-400-1ab5bab557bf92f3.ttf",
      "index": null,
      "cap_ratio": 0.5357142857142857,
      "width_ratio": 1.1742,
@@ -4650,7 +4714,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey25Charted-0-0-400-048fa609df7c963f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey25Charted-0-0-400-048fa609df7c963f.ttf",
      "index": null,
      "cap_ratio": 0.8048780487804879,
      "width_ratio": 1.4554,
@@ -4673,7 +4737,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Jersey10Charted-0-0-400-fc9eb2ad56329735.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10Charted-0-0-400-fc9eb2ad56329735.ttf",
      "index": null,
      "cap_ratio": 0.8071428571428572,
      "width_ratio": 1.7527,
@@ -4696,7 +4760,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/KumbhSans-0-0-700-ee81123ff85c3e25.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/KumbhSans-0-0-700-ee81123ff85c3e25.ttf",
      "index": null,
      "cap_ratio": 0.732421875,
      "width_ratio": 1.0,
@@ -4719,7 +4783,7 @@
      "sub": "600 italic",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AndadaPro-1-0-600-d0b4f21d7ad947ef.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AndadaPro-1-0-600-d0b4f21d7ad947ef.ttf",
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 1.0,
@@ -4742,7 +4806,7 @@
      "sub": "300",
      "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Lilex-0-0-300-435bfdb370ac429c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Lilex-0-0-300-435bfdb370ac429c.ttf",
      "index": null,
      "cap_ratio": 0.698,
      "width_ratio": 1.0001,
@@ -4765,7 +4829,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Comfortaa-0-0-700-e10cbd6a37bf0b6c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Comfortaa-0-0-700-e10cbd6a37bf0b6c.ttf",
      "index": null,
      "cap_ratio": 0.781,
      "width_ratio": 0.9999,
@@ -4810,7 +4874,10 @@
  ],
  "knobs": {
   "artwork": "mask",
-  "face": [],
+  "face": [
+   "display=Jersey 20 400",
+   "body=Jersey 25 400"
+  ],
   "solid_radius": 24,
   "rule_length": 160,
   "rule_thick": 5,
@@ -4827,6 +4894,27 @@
    "title=Pixel 95",
    "date=Pixel 95"
   ],
-  "case": []
+  "case": [],
+  "tilted": [],
+  "art": [],
+  "align": [],
+  "track": [
+   "date=fit",
+   "venue=fit",
+   "beneficiary=fit",
+   "attractions_label=fit",
+   "attraction0=fit",
+   "attraction1=fit",
+   "attraction2=fit",
+   "attraction3=fit",
+   "attraction4=fit",
+   "attraction5=fit",
+   "attraction6=fit",
+   "attraction7=fit",
+   "footer0=fit",
+   "footer1=fit"
+  ],
+  "fill": [],
+  "shadow": []
  }
 }

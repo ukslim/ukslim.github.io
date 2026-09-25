@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "The type is printed over a heavily distressed, aged ground: measured, the background between the letters is 6.5 against 0.03 for a poster with flat ground, and masking the type found 839 letter-sized specks of texture it could not tell from glyphs. The headline also runs across a waving banner in perspective, which no straight baseline can reproduce.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[

@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "The distressing is inside the letterforms, not behind them: the headline strokes are up to 42% eroded to black, and patches of background are brighter than patches of letter, so no threshold separates the words from the artwork. Resetting it in clean type would throw away the style itself.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[

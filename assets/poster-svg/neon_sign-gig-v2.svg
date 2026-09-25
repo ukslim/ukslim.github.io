@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "Neon-tube script lettering: outlined glowing strokes, not a solid font.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[

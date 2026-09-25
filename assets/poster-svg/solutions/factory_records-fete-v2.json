@@ -9,9 +9,73 @@
  "assign_points": [
   "title=512,137;342,341;511,634"
  ],
- "median_texture": 0.27,
- "alignment": "weak alignment (mean cost 0.27); 1 line(s) assigned by hand",
- "alignment_cost": 0.275,
+ "frames": [],
+ "art": [],
+ "copy": [
+  {
+   "key": "title",
+   "text": "Brindlewick Village F\u00eate"
+  },
+  {
+   "key": "date",
+   "text": "Saturday 6th September, 12 noon \u2013 5pm"
+  },
+  {
+   "key": "venue",
+   "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "key": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "key": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "key": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "key": "attraction7",
+   "text": "Local craft and maker stalls"
+  },
+  {
+   "key": "footer0",
+   "text": "Free entry. All welcome."
+  },
+  {
+   "key": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
+ "median_texture": 0.29,
+ "alignment": "ok; 1 line(s) assigned by hand",
+ "alignment_cost": 0.137,
  "lines": [
   {
    "colour": "dark",
@@ -278,74 +342,6 @@
      971,
      666,
      830
-    ]
-   ],
-   "marker": null,
-   "track": 0.0
-  },
-  {
-   "colour": "dark",
-   "rgb": "#0C0E0E",
-   "ground": "#FEFEFE",
-   "is_ground": false,
-   "y0": 911,
-   "y1": 927,
-   "baseline": 928,
-   "cap_top": 911,
-   "cap": 17,
-   "x_height": 17,
-   "lower_frac": 0.0,
-   "left": 54,
-   "right": 155,
-   "width": 102,
-   "n_runs": 7,
-   "density": 0.3852,
-   "texture": 0.04,
-   "slope": -0.0,
-   "warp": 0.0,
-   "stem_ratio": 0.17647058823529413,
-   "runs": [
-    [
-     54,
-     66,
-     911,
-     927
-    ],
-    [
-     68,
-     87,
-     911,
-     927
-    ],
-    [
-     96,
-     106,
-     912,
-     927
-    ],
-    [
-     109,
-     119,
-     911,
-     927
-    ],
-    [
-     124,
-     126,
-     918,
-     920
-    ],
-    [
-     132,
-     141,
-     912,
-     927
-    ],
-    [
-     145,
-     155,
-     912,
-     927
     ]
    ],
    "marker": null,
@@ -3029,98 +3025,98 @@
    "key": "date",
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
-    4
+    3
    ]
   },
   {
    "key": "venue",
    "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
    "bands": [
-    5
+    4
    ]
   },
   {
    "key": "beneficiary",
    "text": "In aid of St. Peter's Church Restoration Fund",
    "bands": [
-    6
+    5
    ]
   },
   {
    "key": "attractions_label",
    "text": "Attractions:",
    "bands": [
-    7
+    6
    ]
   },
   {
    "key": "attraction0",
    "text": "Grand tombola",
    "bands": [
-    8
+    7
    ]
   },
   {
    "key": "attraction1",
    "text": "Homemade cakes, jams and preserves",
    "bands": [
-    9
+    8
    ]
   },
   {
    "key": "attraction2",
    "text": "BBQ and refreshments",
    "bands": [
-    10
+    9
    ]
   },
   {
    "key": "attraction3",
    "text": "Plant and produce stall",
    "bands": [
-    11
+    10
    ]
   },
   {
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
-    12
+    11
    ]
   },
   {
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
-    13
+    12
    ]
   },
   {
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
-    14
+    13
    ]
   },
   {
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
-    15
+    14
    ]
   },
   {
    "key": "footer0",
    "text": "Free entry. All welcome.",
    "bands": [
-    16
+    15
    ]
   },
   {
    "key": "footer1",
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
-    17
+    16
    ]
   }
  ],
@@ -3635,12 +3631,6 @@
   },
   {
    "colour": "green",
-   "y0": 912,
-   "y1": 927,
-   "why": "counters of dark lettering (40% dark ink)"
-  },
-  {
-   "colour": "green",
    "y0": 1051,
    "y1": 1058,
    "why": "counters of dark lettering (43% dark ink)"
@@ -3759,7 +3749,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/TaiHeritagePro-0-0-400-6aa04b8dbe17b6ce.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TaiHeritagePro-0-0-400-6aa04b8dbe17b6ce.ttf",
      "index": null,
      "cap_ratio": 0.662109375,
      "width_ratio": 0.9114,
@@ -3782,7 +3772,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ScheherazadeNew-0-0-400-956eef70e016337b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ScheherazadeNew-0-0-400-956eef70e016337b.ttf",
      "index": null,
      "cap_ratio": 0.5986328125,
      "width_ratio": 0.9108,
@@ -3805,7 +3795,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/FrankRuhlLibre-0-0-400-6624caccd0e303cf.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FrankRuhlLibre-0-0-400-6624caccd0e303cf.ttf",
      "index": null,
      "cap_ratio": 0.66,
      "width_ratio": 0.8663,
@@ -3828,7 +3818,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/IbarraRealNova-0-0-500-90c28c6f4996d9cf.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IbarraRealNova-0-0-500-90c28c6f4996d9cf.ttf",
      "index": null,
      "cap_ratio": 0.673,
      "width_ratio": 0.8882,
@@ -3851,7 +3841,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ShipporiMinchoB1-0-0-600-10e10326a3807db4.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ShipporiMinchoB1-0-0-600-10e10326a3807db4.ttf",
      "index": null,
      "cap_ratio": 0.734,
      "width_ratio": 0.8171,
@@ -3874,7 +3864,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ShipporiMincho-0-0-600-baafc197c65fd94f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ShipporiMincho-0-0-600-baafc197c65fd94f.ttf",
      "index": null,
      "cap_ratio": 0.734,
      "width_ratio": 0.8187,
@@ -3920,7 +3910,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Cuprum-0-0-700-addc912b3e9b3de1.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Cuprum-0-0-700-addc912b3e9b3de1.ttf",
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
@@ -3943,7 +3933,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/RopaSans-0-0-400-8ba54daad9484e64.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RopaSans-0-0-400-8ba54daad9484e64.ttf",
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9999,
@@ -3966,7 +3956,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Foldit-0-0-500-0e5f87ff633c2f7c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Foldit-0-0-500-0e5f87ff633c2f7c.ttf",
      "index": null,
      "cap_ratio": 0.713,
      "width_ratio": 0.9998,
@@ -3989,7 +3979,7 @@
      "sub": "900 italic",
      "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SofiaSansCondensed-1-0-900-cb9dd539ec24e893.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-1-0-900-cb9dd539ec24e893.ttf",
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9997,
@@ -4062,7 +4052,7 @@
      "sub": "800",
      "weight": 800,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/GothicA1-0-0-800-79064193a42e8645.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/GothicA1-0-0-800-79064193a42e8645.ttf",
      "index": null,
      "cap_ratio": 0.7861328125,
      "width_ratio": 0.9931,
@@ -4085,7 +4075,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Tuffy-0-0-700-222f81fc204d0965.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Tuffy-0-0-700-222f81fc204d0965.ttf",
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9486,
@@ -4108,7 +4098,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Vazirmatn-0-0-500-69c3c4caab6b5d70.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-500-69c3c4caab6b5d70.ttf",
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9944,
@@ -4131,7 +4121,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Vazirmatn-0-0-600-97513e71288b2add.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vazirmatn-0-0-600-97513e71288b2add.ttf",
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9901,
@@ -4154,7 +4144,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Yantramanav-0-0-700-14e7de25d0a95164.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Yantramanav-0-0-700-14e7de25d0a95164.ttf",
      "index": null,
      "cap_ratio": 0.6396484375,
      "width_ratio": 0.99,
@@ -4177,7 +4167,7 @@
      "sub": "500",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Yantramanav-0-0-500-744cdc7d9f48cdd5.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Yantramanav-0-0-500-744cdc7d9f48cdd5.ttf",
      "index": null,
      "cap_ratio": 0.6396484375,
      "width_ratio": 0.9923,
@@ -4200,7 +4190,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Almarai-0-0-700-df0842723ee27230.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Almarai-0-0-700-df0842723ee27230.ttf",
      "index": null,
      "cap_ratio": 0.716,
      "width_ratio": 0.9258,
@@ -4223,7 +4213,7 @@
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/GothicA1-0-0-700-59c7c17a65dfc40f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/GothicA1-0-0-700-59c7c17a65dfc40f.ttf",
      "index": null,
      "cap_ratio": 0.7724609375,
      "width_ratio": 0.9946,
@@ -4246,7 +4236,7 @@
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/EpundaSans-0-0-600-efc48973111f2794.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EpundaSans-0-0-600-efc48973111f2794.ttf",
      "index": null,
      "cap_ratio": 0.667,
      "width_ratio": 1.0,
@@ -4269,7 +4259,7 @@
      "sub": "500 italic",
      "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/UbuntuSans-1-0-500-073a167a053e0c0d.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/UbuntuSans-1-0-500-073a167a053e0c0d.ttf",
      "index": null,
      "cap_ratio": 0.693,
      "width_ratio": 1.0,
@@ -4292,7 +4282,7 @@
      "sub": "100",
      "weight": 100,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/EncodeSansExpanded-0-0-100-2a0957d60d2b35ec.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EncodeSansExpanded-0-0-100-2a0957d60d2b35ec.ttf",
      "index": null,
      "cap_ratio": 0.74,
      "width_ratio": 1.0,
@@ -4315,7 +4305,7 @@
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SofiaSansSemiCondensed-0-0-400-42c9d2b53156a3f2.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansSemiCondensed-0-0-400-42c9d2b53156a3f2.ttf",
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 1.0001,
@@ -4360,7 +4350,10 @@
  ],
  "knobs": {
   "artwork": "mask",
-  "face": [],
+  "face": [
+   "display=Tai Heritage Pro 400",
+   "body=Gothic A1:600"
+  ],
   "solid_radius": 24,
   "rule_length": 160,
   "rule_thick": 5,
@@ -4368,7 +4361,9 @@
   "contrast": 40,
   "window": 61,
   "wrap_cap_ratio": 1.3,
-  "exclude": [],
+  "exclude": [
+   "48,902,162,934"
+  ],
   "knockout": [],
   "assign": [
    "title=512,137;342,341;511,634"
@@ -4377,6 +4372,12 @@
    "title=Serif 90, Sophisticated 70, Vintage 60, Playful 5",
    "date=Neo Grotesque 80, Business 70"
   ],
-  "case": []
+  "case": [],
+  "tilted": [],
+  "art": [],
+  "align": [],
+  "track": [],
+  "fill": [],
+  "shadow": []
  }
 }

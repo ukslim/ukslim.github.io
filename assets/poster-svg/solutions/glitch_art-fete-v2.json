@@ -6,7 +6,10 @@
   1536
  ],
  "paper": "#000000",
- "assign_points": [],
+ "assign_points": [
+  "attractions_label=119,1106",
+  "attraction0=110,1137"
+ ],
  "frames": [],
  "art": [
   {
@@ -85,7 +88,7 @@
   }
  ],
  "median_texture": 1.24,
- "alignment": "ok",
+ "alignment": "ok; 2 line(s) assigned by hand",
  "alignment_cost": 0.218,
  "lines": [
   {
@@ -3078,23 +3081,20 @@
   },
   {
    "key": "attractions_label",
-   "text": "Attractions:",
+   "text": "ATTRACTIONS:",
    "bands": [
-    7
-   ]
+    6
+   ],
+   "assigned_by": "hand",
+   "upper": true
   },
   {
    "key": "attraction0",
-   "text": "Grand TOMBOLA",
+   "text": "Grand tombola",
    "bands": [
-    8,
-    9
+    7
    ],
-   "parts": [
-    "Grand",
-    "TOMBOLA"
-   ],
-   "upper": "partly"
+   "assigned_by": "hand"
   },
   {
    "key": "attraction1",
@@ -5643,80 +5643,44 @@
     "footer0",
     "footer1"
    ],
-   "shape_glyphs": "GS2aeMRQgm",
+   "shape_glyphs": "S2aeRMQGgm",
    "brief": {
     "/Sans/*": 90,
     "/Expressive/Business": 60
    },
    "features": {
-    "weight": 0.186,
+    "weight": 0.189,
     "contrast": 0.667,
     "slant": -1.5,
     "square": null,
-    "cap": 26.5
+    "cap": 25.0
    },
    "confidence": "low",
-   "margin": 0.005,
-   "distortions": [
-    {
-     "key": "venue",
-     "ratio": 0.928,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
-     "key": "beneficiary",
-     "ratio": 0.939,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
-     "key": "attractions_label",
-     "ratio": 1.185,
-     "kind": "wider_than_face",
-     "stem_matches": true,
-     "action": "do NOT stretch; let the line run short"
-    },
-    {
-     "key": "attraction0",
-     "ratio": 0.846,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
-     "key": "attraction7",
-     "ratio": 0.907,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    }
-   ],
+   "margin": 0.003,
+   "distortions": [],
    "candidates": [
     {
-     "family": "Barlow Semi Condensed",
+     "family": "Saira Semi Condensed",
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-600-94d3cd3ba8e8f834.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaSemiCondensed-0-0-600-4fd2e9135446b9a9.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9861,
-     "spread": 0.0639,
-     "stem_err": 0.069,
-     "shape": 1.7578,
-     "features": 0.902,
-     "character": 0.224,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9753,
+     "spread": 0.0272,
+     "stem_err": 0.0189,
+     "shape": 1.2716,
+     "features": 0.786,
+     "character": 0.292,
      "record": {
-      "family": "Barlow Semi Condensed",
+      "family": "Saira Semi Condensed",
       "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.7174
+     "score": 1.9674
     },
     {
      "family": "Helvetica Neue",
@@ -5726,11 +5690,11 @@
      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
      "index": 4,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0012,
-     "spread": 0.0727,
-     "stem_err": 0.0509,
-     "shape": 1.5903,
-     "features": 1.028,
+     "width_ratio": 0.9986,
+     "spread": 0.0328,
+     "stem_err": 0.0412,
+     "shape": 1.2282,
+     "features": 0.804,
      "character": 0.25,
      "record": {
       "family": "Helvetica Neue",
@@ -5739,53 +5703,99 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 2.7309
+     "score": 1.9726
     },
     {
-     "family": "Saira Semi Condensed",
+     "family": "Barlow Semi Condensed",
      "sub": "600",
      "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/SairaSemiCondensed-0-0-600-4fd2e9135446b9a9.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-600-94d3cd3ba8e8f834.ttf",
      "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 0.9753,
-     "spread": 0.051,
-     "stem_err": 0.0092,
-     "shape": 1.6833,
-     "features": 1.003,
-     "character": 0.292,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9861,
+     "spread": 0.0304,
+     "stem_err": 0.0787,
+     "shape": 1.4185,
+     "features": 0.705,
+     "character": 0.224,
      "record": {
-      "family": "Saira Semi Condensed",
+      "family": "Barlow Semi Condensed",
       "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.7615
+     "score": 1.9773
     },
     {
-     "family": "Reddit Sans Condensed",
+     "family": "Cuprum",
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-700-6080dfb7dac07d37.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Cuprum-0-0-700-addc912b3e9b3de1.ttf",
      "index": null,
-     "cap_ratio": 0.7197265625,
-     "width_ratio": 0.9893,
-     "spread": 0.0532,
-     "stem_err": 0.0092,
-     "shape": 1.8914,
-     "features": 0.914,
-     "character": 0.1,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9752,
+     "spread": 0.0414,
+     "stem_err": 0.0189,
+     "shape": 1.3645,
+     "features": 0.581,
+     "character": 0.292,
      "record": {
-      "family": "Reddit Sans Condensed",
+      "family": "Cuprum",
       "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8361
+     "score": 2.16
+    },
+    {
+     "family": "PT Sans Narrow",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PTSansNarrow-0-0-700-104c793e5117101e.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0867,
+     "spread": 0.0317,
+     "stem_err": 0.0611,
+     "shape": 1.5369,
+     "features": 0.652,
+     "character": 0.11,
+     "record": {
+      "family": "PT Sans Narrow",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2956
+    },
+    {
+     "family": "Saira Semi Condensed",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaSemiCondensed-0-0-500-b54c5673d2dd8271.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 0.9825,
+     "spread": 0.0254,
+     "stem_err": 0.1388,
+     "shape": 1.3452,
+     "features": 0.85,
+     "character": 0.292,
+     "record": {
+      "family": "Saira Semi Condensed",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2968
     },
     {
      "family": "Arial Narrow",
@@ -5795,11 +5805,11 @@
      "path": "/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf",
      "index": null,
      "cap_ratio": 0.7158203125,
-     "width_ratio": 1.0078,
-     "spread": 0.0725,
-     "stem_err": 0.069,
-     "shape": 1.8496,
-     "features": 0.943,
+     "width_ratio": 1.0051,
+     "spread": 0.0294,
+     "stem_err": 0.0787,
+     "shape": 1.6402,
+     "features": 0.8,
      "character": 0.25,
      "record": {
       "family": "Arial Narrow",
@@ -5808,168 +5818,122 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 2.8842
+     "score": 2.3041
     },
     {
-     "family": "Reddit Sans Condensed",
-     "sub": "600",
-     "weight": 600,
+     "family": "Sofia Sans Condensed",
+     "sub": "700",
+     "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-600-3af003676521e175.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-700-42c236976d2e5fbf.ttf",
      "index": null,
-     "cap_ratio": 0.7197265625,
-     "width_ratio": 1.0106,
-     "spread": 0.0558,
-     "stem_err": 0.1,
-     "shape": 1.835,
-     "features": 0.914,
+     "cap_ratio": 0.655,
+     "width_ratio": 1.053,
+     "spread": 0.0303,
+     "stem_err": 0.0787,
+     "shape": 1.725,
+     "features": 0.701,
      "character": 0.1,
      "record": {
-      "family": "Reddit Sans Condensed",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.9456
-    },
-    {
-     "family": "Archivo Narrow",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/ArchivoNarrow-0-0-700-d8815274f91281da.ttf",
-     "index": null,
-     "cap_ratio": 0.686,
-     "width_ratio": 0.9976,
-     "spread": 0.0614,
-     "stem_err": 0.0092,
-     "shape": 1.8168,
-     "features": 1.094,
-     "character": 0.255,
-     "record": {
-      "family": "Archivo Narrow",
+      "family": "Sofia Sans Condensed",
       "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.9571
+     "score": 2.308
     },
     {
-     "family": "Cuprum",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Cuprum-0-0-700-addc912b3e9b3de1.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9793,
-     "spread": 0.0672,
-     "stem_err": 0.0092,
-     "shape": 1.8342,
-     "features": 0.775,
-     "character": 0.292,
-     "record": {
-      "family": "Cuprum",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.9682
-    },
-    {
-     "family": "Cantora One",
-     "sub": "400",
+     "family": "Andada Pro",
+     "sub": "400 italic",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/CantoraOne-0-0-400-afa18158ffe54fe2.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AndadaPro-1-0-400-d6ae0163538adaf8.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9999,
-     "spread": 0.0576,
-     "stem_err": 0.0092,
-     "shape": 2.2032,
-     "features": 1.056,
-     "character": 0.292,
+     "cap_ratio": 0.71,
+     "width_ratio": 1.0,
+     "spread": 0.066,
+     "stem_err": 0.3188,
+     "shape": 2.5316,
+     "features": 3.259,
+     "character": 0.64,
      "record": {
-      "family": "Cantora One",
+      "family": "Andada Pro",
       "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.4946
-    },
-    {
-     "family": "Glory",
-     "sub": "100 italic",
-     "weight": 100,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/Glory-1-0-100-323ae3d562ec5d96.ttf",
-     "index": null,
-     "cap_ratio": 0.672,
-     "width_ratio": 1.0003,
-     "spread": 0.0588,
-     "stem_err": 0.4891,
-     "shape": 3.5196,
-     "features": 4.563,
-     "character": 0.474,
-     "record": {
-      "family": "Glory",
-      "weight": 100,
       "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 10.8756
+     "score": 8.6845
     },
     {
-     "family": "Advent Pro",
-     "sub": "900",
-     "weight": 900,
+     "family": "IBM Plex Sans Condensed",
+     "sub": "300",
+     "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/AdventPro-0-0-900-56fb9b267ee40f1f.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IBMPlexSansCondensed-0-0-300-18cce3065ead7889.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9997,
-     "spread": 0.0758,
-     "stem_err": 0.291,
-     "shape": 3.1131,
-     "features": 1.101,
-     "character": 0.296,
+     "cap_ratio": 0.698,
+     "width_ratio": 1.0001,
+     "spread": 0.0277,
+     "stem_err": 0.3789,
+     "shape": 2.3568,
+     "features": 1.107,
+     "character": 0.217,
      "record": {
-      "family": "Advent Pro",
-      "weight": 900,
+      "family": "IBM Plex Sans Condensed",
+      "weight": 300,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.8704
+     "score": 4.9808
     },
     {
-     "family": "Barlow Semi Condensed",
-     "sub": "500",
-     "weight": 500,
+     "family": "Texturina",
+     "sub": "600 italic",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-500-82f9b20bc8c5b25b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Texturina-1-0-600-d83c0030d18fe1eb.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9995,
-     "spread": 0.0656,
-     "stem_err": 0.1892,
-     "shape": 1.7895,
-     "features": 0.97,
-     "character": 0.224,
+     "cap_ratio": 0.704,
+     "width_ratio": 0.9999,
+     "spread": 0.0728,
+     "stem_err": 0.222,
+     "shape": 2.4934,
+     "features": 4.578,
+     "character": 0.645,
      "record": {
-      "family": "Barlow Semi Condensed",
-      "weight": 500,
-      "italic": false,
+      "family": "Texturina",
+      "weight": 600,
+      "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 3.0808
+     "score": 8.8706
+    },
+    {
+     "family": "Nobile",
+     "sub": "400 italic",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Nobile-1-0-400-7019ee576cff4cea.ttf",
+     "index": null,
+     "cap_ratio": 0.7705078125,
+     "width_ratio": 1.0002,
+     "spread": 0.0305,
+     "stem_err": 0.3188,
+     "shape": 2.5133,
+     "features": 3.1,
+     "character": 0.071,
+     "record": {
+      "family": "Nobile",
+      "weight": 400,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.9244
     }
    ]
   }
@@ -5980,15 +5944,17 @@
    "group": "body",
    "confidence": "low",
    "top": [
-    "Barlow Semi Condensed",
+    "Saira Semi Condensed",
     "Helvetica Neue",
-    "Saira Semi Condensed"
+    "Barlow Semi Condensed"
    ]
   }
  ],
  "knobs": {
   "artwork": "mask",
-  "face": [],
+  "face": [
+   "body=Barlow Semi Condensed:500"
+  ],
   "solid_radius": 24,
   "rule_length": 160,
   "rule_thick": 5,
@@ -5998,7 +5964,10 @@
   "wrap_cap_ratio": 1.3,
   "exclude": [],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "attractions_label=119,1106",
+   "attraction0=110,1137"
+  ],
   "character": [
    "date=Sans 90, Business 60"
   ],
@@ -6006,6 +5975,10 @@
   "tilted": [],
   "art": [
    "title@20,50,1004,620@glitch effect: RGB-split, sliced and displaced letters"
-  ]
+  ],
+  "align": [],
+  "track": [],
+  "fill": [],
+  "shadow": []
  }
 }

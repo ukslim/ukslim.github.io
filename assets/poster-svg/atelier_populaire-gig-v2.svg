@@ -10,8 +10,13 @@
  "fault_verdict": null,
  "fault_outlook": null,
  "skip_reason": "The headline is brush-drawn, not set. Every letter is an individual stroke: the two R's of CARVER differ in width, angle and terminal, the A is asymmetric, and the edges are ragged where the brush ran dry, so no typeface can stand in for it without replacing the poster's whole character. The silkscreened fist is drawn by the same hand and overlaps the lettering (the ticket crosses the R), so the artwork cannot be cut out from behind the type either. Measured, the solver finds only 4 text bands where the copy needs 8, because the strokes merge into each other and into the illustration. This is a limit of resetting drawn lettering as type, not of the poster.",
- "tool": null,
- "built": null
+ "version": {
+  "commit": "a07e349",
+  "date": "2026-09-25",
+  "tag": null
+ },
+ "built": "2026-09-25",
+ "reviewed": null
 }
   ]]></metadata>
   <style type="text/css"><![CDATA[
