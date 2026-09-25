@@ -7,12 +7,12 @@
  ],
  "paper": "#010103",
  "assign_points": [
-  "presenter=none",
   "date=517,1141;522,1195",
   "venue=518,1272;517,1338",
   "tickets=512,1397",
   "ticket_source=513,1449",
-  "footer=510,1500"
+  "footer=510,1500",
+  "presenter=none"
  ],
  "frames": [],
  "art": [
@@ -2734,12 +2734,12 @@
   ],
   "knockout": [],
   "assign": [
-   "presenter=none",
    "date=517,1141;522,1195",
    "venue=518,1272;517,1338",
    "tickets=512,1397",
    "ticket_source=513,1449",
-   "footer=510,1500"
+   "footer=510,1500",
+   "presenter=none"
   ],
   "character": [
    "headliner=Sans 90, Loud 80, Playful 5",
@@ -2760,6 +2760,7 @@
    "footer=fit"
   ],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

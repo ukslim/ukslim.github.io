@@ -6,7 +6,16 @@
   1536
  ],
  "paper": "#FDFDFD",
- "assign_points": [],
+ "assign_points": [
+  "presenter=229,64",
+  "headliner=359,198;246,355;314,514",
+  "support=221,635",
+  "date=313,1270",
+  "venue=338,1311",
+  "tickets=243,1375",
+  "ticket_source=322,1410",
+  "footer=180,1474"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -44,7 +53,7 @@
   }
  ],
  "median_texture": 0.03,
- "alignment": "ok",
+ "alignment": "ok; 8 line(s) assigned by hand",
  "alignment_cost": 0.054,
  "lines": [
   {
@@ -1820,7 +1829,8 @@
    "text": "Pale Light Promotions presents:",
    "bands": [
     0
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "headliner",
@@ -1829,49 +1839,56 @@
     1,
     2,
     3
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "support",
    "text": "with support from Mena Grace",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "tickets",
    "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "ticket_source",
    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
     8
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
     9
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -2703,7 +2720,16 @@
   "wrap_cap_ratio": 1.3,
   "exclude": [],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "presenter=229,64",
+   "headliner=359,198;246,355;314,514",
+   "support=221,635",
+   "date=313,1270",
+   "venue=338,1311",
+   "tickets=243,1375",
+   "ticket_source=322,1410",
+   "footer=180,1474"
+  ],
   "character": [],
   "case": [],
   "tilted": [],
@@ -2711,6 +2737,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

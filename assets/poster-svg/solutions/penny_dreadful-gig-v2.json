@@ -8,7 +8,20 @@
  "paper": "#FCFBFC",
  "assign_points": [],
  "frames": [],
- "art": [],
+ "art": [
+  {
+   "keys": [
+    "support"
+   ],
+   "box": [
+    255,
+    426,
+    762,
+    484
+   ],
+   "why": "set on the engraving's hatching, which blanking cannot repaint"
+  }
+ ],
  "copy": [
   {
    "key": "presenter",
@@ -43,9 +56,9 @@
    "text": "All ages. Bar until midnight."
   }
  ],
- "median_texture": 0.44,
+ "median_texture": 0.52,
  "alignment": "ok",
- "alignment_cost": 0.203,
+ "alignment_cost": 0.23,
  "lines": [
   {
    "colour": "dark",
@@ -397,6 +410,44 @@
   },
   {
    "colour": "light",
+   "rgb": "#FBF6F5",
+   "ground": "#0A0A09",
+   "is_ground": false,
+   "y0": 418,
+   "y1": 440,
+   "baseline": 441,
+   "cap_top": 418,
+   "cap": 23,
+   "x_height": 23,
+   "lower_frac": 0.0,
+   "left": 983,
+   "right": 1023,
+   "width": 41,
+   "n_runs": 2,
+   "density": 0.4581,
+   "texture": 11.57,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": null,
+   "runs": [
+    [
+     983,
+     1023,
+     418,
+     440
+    ],
+    [
+     996,
+     1000,
+     433,
+     436
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
    "rgb": "#F5F5F5",
    "ground": null,
    "is_ground": false,
@@ -440,178 +491,6 @@
      22,
      441,
      445
-    ]
-   ],
-   "marker": null,
-   "track": 0.0
-  },
-  {
-   "colour": "light",
-   "rgb": "#FBF6F5",
-   "ground": "#0A0A09",
-   "is_ground": false,
-   "y0": 418,
-   "y1": 440,
-   "baseline": 441,
-   "cap_top": 418,
-   "cap": 23,
-   "x_height": 23,
-   "lower_frac": 0.0,
-   "left": 983,
-   "right": 1023,
-   "width": 41,
-   "n_runs": 2,
-   "density": 0.4581,
-   "texture": 11.57,
-   "slope": 0.0,
-   "warp": 0.0,
-   "stem_ratio": null,
-   "runs": [
-    [
-     983,
-     1023,
-     418,
-     440
-    ],
-    [
-     996,
-     1000,
-     433,
-     436
-    ]
-   ],
-   "marker": null,
-   "track": 0.0
-  },
-  {
-   "colour": "dark",
-   "rgb": "#090909",
-   "ground": "#FCFBFC",
-   "is_ground": false,
-   "y0": 440,
-   "y1": 476,
-   "baseline": 468,
-   "cap_top": 440,
-   "cap": 28,
-   "x_height": 28,
-   "lower_frac": 0.0,
-   "left": 268,
-   "right": 749,
-   "width": 482,
-   "n_runs": 18,
-   "density": 0.2985,
-   "texture": 0.29,
-   "slope": 0.05,
-   "warp": 0.017,
-   "stem_ratio": 0.13513513513513514,
-   "runs": [
-    [
-     268,
-     291,
-     441,
-     466
-    ],
-    [
-     293,
-     302,
-     441,
-     466
-    ],
-    [
-     350,
-     362,
-     440,
-     467
-    ],
-    [
-     365,
-     382,
-     441,
-     467
-    ],
-    [
-     384,
-     401,
-     440,
-     476
-    ],
-    [
-     403,
-     419,
-     440,
-     475
-    ],
-    [
-     423,
-     437,
-     440,
-     467
-    ],
-    [
-     440,
-     453,
-     440,
-     466
-    ],
-    [
-     493,
-     506,
-     440,
-     466
-    ],
-    [
-     508,
-     523,
-     440,
-     467
-    ],
-    [
-     525,
-     551,
-     440,
-     466
-    ],
-    [
-     596,
-     610,
-     440,
-     467
-    ],
-    [
-     612,
-     630,
-     440,
-     466
-    ],
-    [
-     632,
-     648,
-     440,
-     467
-    ],
-    [
-     685,
-     699,
-     440,
-     466
-    ],
-    [
-     700,
-     716,
-     440,
-     467
-    ],
-    [
-     719,
-     732,
-     440,
-     467
-    ],
-    [
-     735,
-     749,
-     440,
-     467
     ]
    ],
    "marker": null,
@@ -1863,45 +1742,38 @@
    ]
   },
   {
-   "key": "support",
-   "text": "with support from Mena Grace",
-   "bands": [
-    5
-   ]
-  },
-  {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
-    6
+    5
    ]
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
-    7
+    6
    ]
   },
   {
    "key": "tickets",
    "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
-    8
+    7
    ]
   },
   {
    "key": "ticket_source",
    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
-    9
+    8
    ]
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
-    10
+    9
    ]
   }
  ],
@@ -1948,6 +1820,45 @@
   {
    "colour": "dark",
    "kind": "inside an excluded box",
+   "px": 437,
+   "box": [
+    663,
+    429,
+    683,
+    467
+   ],
+   "fill": 0.534,
+   "rgb": "#080808"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 419,
+   "box": [
+    316,
+    430,
+    334,
+    467
+   ],
+   "fill": 0.58,
+   "rgb": "#090909"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 683,
+   "box": [
+    567,
+    430,
+    593,
+    467
+   ],
+   "fill": 0.666,
+   "rgb": "#070707"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
    "px": 3399,
    "box": [
     0,
@@ -1957,6 +1868,32 @@
    ],
    "fill": 0.057,
    "rgb": "#1F1F1E"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 407,
+   "box": [
+    403,
+    440,
+    419,
+    476
+   ],
+   "fill": 0.647,
+   "rgb": "#080808"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 518,
+   "box": [
+    525,
+    440,
+    551,
+    467
+   ],
+   "fill": 0.685,
+   "rgb": "#090909"
   },
   {
    "colour": "dark",
@@ -2415,24 +2352,6 @@
   },
   {
    "colour": "dark",
-   "y0": 429,
-   "y1": 467,
-   "why": "only 2 glyph components"
-  },
-  {
-   "colour": "dark",
-   "y0": 430,
-   "y1": 467,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "dark",
-   "y0": 429,
-   "y1": 467,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "dark",
    "y0": 427,
    "y1": 437,
    "why": "only 2 glyph components"
@@ -2571,18 +2490,6 @@
   },
   {
    "colour": "light",
-   "y0": 422,
-   "y1": 434,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
-   "y0": 457,
-   "y1": 460,
-   "why": "only 1 glyph components"
-  },
-  {
-   "colour": "light",
    "y0": 445,
    "y1": 452,
    "why": "only 1 glyph components"
@@ -2591,6 +2498,12 @@
    "colour": "light",
    "y0": 449,
    "y1": 452,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 457,
+   "y1": 460,
    "why": "only 1 glyph components"
   },
   {
@@ -2685,36 +2598,6 @@
   },
   {
    "colour": "light",
-   "y0": 444,
-   "y1": 458,
-   "why": "counters of dark lettering (43% dark ink)"
-  },
-  {
-   "colour": "light",
-   "y0": 447,
-   "y1": 463,
-   "why": "counters of dark lettering (59% dark ink)"
-  },
-  {
-   "colour": "light",
-   "y0": 447,
-   "y1": 457,
-   "why": "counters of dark lettering (62% dark ink)"
-  },
-  {
-   "colour": "light",
-   "y0": 439,
-   "y1": 461,
-   "why": "counters of dark lettering (58% dark ink)"
-  },
-  {
-   "colour": "light",
-   "y0": 450,
-   "y1": 458,
-   "why": "counters of dark lettering (45% dark ink)"
-  },
-  {
-   "colour": "light",
    "y0": 1327,
    "y1": 1350,
    "why": "counters of dark lettering (49% dark ink)"
@@ -2742,100 +2625,63 @@
    "y0": 1331,
    "y1": 1347,
    "why": "counters of dark lettering (61% dark ink)"
-  },
-  {
-   "colour": "dark",
-   "y0": 430,
-   "y1": 467,
-   "why": "duplicate of dark band y440..476"
   }
  ],
  "groups": {
   "body": {
    "lines": [
     "presenter",
-    "support",
     "date",
     "venue",
     "tickets",
     "ticket_source",
     "footer"
    ],
-   "shape_glyphs": "SaRe2gGmhp",
+   "shape_glyphs": "SaRe2gmhpF",
    "brief": {
     "/Serif/*": 90,
     "/Expressive/Vintage": 70
    },
    "features": {
     "weight": 0.186,
-    "contrast": 0.675,
+    "contrast": 0.611,
     "slant": 0.0,
     "square": null,
     "cap": 43.0
    },
    "confidence": "low",
-   "margin": 0.012,
+   "margin": 0.106,
    "distortions": [
     {
-     "key": "support",
-     "ratio": 1.16,
-     "kind": "wider_than_face",
+     "key": "presenter",
+     "ratio": 0.897,
+     "kind": "squeezed_to_fit",
      "stem_matches": true,
-     "action": "do NOT stretch; let the line run short"
-    },
-    {
-     "key": "venue",
-     "ratio": 1.163,
-     "kind": "wider_than_face",
-     "stem_matches": true,
-     "action": "do NOT stretch; let the line run short"
+     "action": "resize this line so it fits naturally"
     },
     {
      "key": "tickets",
-     "ratio": 1.471,
+     "ratio": 1.25,
      "kind": "wider_than_face",
      "stem_matches": true,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "ticket_source",
-     "ratio": 1.301,
+     "ratio": 1.175,
      "kind": "wider_than_face",
      "stem_matches": true,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "footer",
-     "ratio": 1.445,
+     "ratio": 1.309,
      "kind": "wider_than_face",
      "stem_matches": true,
      "action": "do NOT stretch; let the line run short"
     }
    ],
    "candidates": [
-    {
-     "family": "Imbue",
-     "sub": "900",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Imbue-0-0-900-b307dc5bfa97a93c.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.1633,
-     "spread": 0.1689,
-     "stem_err": 0.2069,
-     "shape": 1.6892,
-     "features": 0.791,
-     "character": 0.079,
-     "record": {
-      "family": "Imbue",
-      "weight": 900,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.761
-    },
     {
      "family": "Helvetica Neue",
      "sub": "Condensed Bold",
@@ -2844,11 +2690,11 @@
      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
      "index": 4,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0385,
-     "spread": 0.1449,
+     "width_ratio": 1.0902,
+     "spread": 0.1548,
      "stem_err": 0.0942,
-     "shape": 1.9127,
-     "features": 0.585,
+     "shape": 1.8185,
+     "features": 0.593,
      "character": 0.25,
      "record": {
       "family": "Helvetica Neue",
@@ -2857,122 +2703,7 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 2.7933
-    },
-    {
-     "family": "Imbue",
-     "sub": "800",
-     "weight": 800,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Imbue-0-0-800-b616c6134e237785.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.2143,
-     "spread": 0.1762,
-     "stem_err": 0.0942,
-     "shape": 1.8138,
-     "features": 0.708,
-     "character": 0.079,
-     "record": {
-      "family": "Imbue",
-      "weight": 800,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.9135
-    },
-    {
-     "family": "Arial Narrow",
-     "sub": "Bold",
-     "weight": 700,
-     "embed": false,
-     "path": "/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf",
-     "index": null,
-     "cap_ratio": 0.7158203125,
-     "width_ratio": 1.0611,
-     "spread": 0.1539,
-     "stem_err": 0.1306,
-     "shape": 2.2284,
-     "features": 0.708,
-     "character": 0.25,
-     "record": {
-      "family": "Arial Narrow",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "system"
-     },
-     "score": 3.0773
-    },
-    {
-     "family": "Sahitya",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Sahitya-0-0-700-e220b7f288318dc7.ttf",
-     "index": null,
-     "cap_ratio": 0.649,
-     "width_ratio": 1.0016,
-     "spread": 0.1569,
-     "stem_err": 0.0172,
-     "shape": 2.1729,
-     "features": 0.793,
-     "character": 0.082,
-     "record": {
-      "family": "Sahitya",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.3265
-    },
-    {
-     "family": "Alegreya",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Alegreya-0-0-700-d9ed145738d53254.ttf",
-     "index": null,
-     "cap_ratio": 0.649,
-     "width_ratio": 1.0012,
-     "spread": 0.1569,
-     "stem_err": 0.0185,
-     "shape": 2.1676,
-     "features": 0.791,
-     "character": 0.079,
-     "record": {
-      "family": "Alegreya",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.3297
-    },
-    {
-     "family": "Patua One",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PatuaOne-0-0-400-628fddd929fb63c6.ttf",
-     "index": null,
-     "cap_ratio": 0.69,
-     "width_ratio": 0.9282,
-     "spread": 0.1393,
-     "stem_err": 0.0942,
-     "shape": 2.441,
-     "features": 0.797,
-     "character": 0.224,
-     "record": {
-      "family": "Patua One",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.3637
+     "score": 2.7176
     },
     {
      "family": "Gupter",
@@ -2982,11 +2713,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Gupter-0-0-700-08643c36ee6ed948.ttf",
      "index": null,
      "cap_ratio": 0.628,
-     "width_ratio": 0.8963,
-     "spread": 0.1352,
+     "width_ratio": 0.9511,
+     "spread": 0.1428,
      "stem_err": 0.0185,
-     "shape": 2.0676,
-     "features": 0.885,
+     "shape": 1.7602,
+     "features": 0.736,
      "character": 0.1,
      "record": {
       "family": "Gupter",
@@ -2995,99 +2726,237 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.4603
+     "score": 3.0058
     },
     {
-     "family": "Crimson Pro",
-     "sub": "500 italic",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CrimsonPro-1-0-500-839f72daedcfe066.ttf",
+     "family": "Arial Narrow",
+     "sub": "Bold",
+     "weight": 700,
+     "embed": false,
+     "path": "/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf",
      "index": null,
-     "cap_ratio": 0.5732421875,
-     "width_ratio": 1.0,
-     "spread": 0.1493,
-     "stem_err": 0.2494,
-     "shape": 2.839,
-     "features": 4.379,
-     "character": 0.361,
+     "cap_ratio": 0.7158203125,
+     "width_ratio": 1.0977,
+     "spread": 0.1649,
+     "stem_err": 0.1306,
+     "shape": 2.1318,
+     "features": 0.667,
+     "character": 0.25,
      "record": {
-      "family": "Crimson Pro",
-      "weight": 500,
-      "italic": true,
+      "family": "Arial Narrow",
+      "weight": 700,
+      "italic": false,
       "wdth": null,
-      "source": "google"
+      "source": "system"
      },
-     "score": 7.0005
+     "score": 3.0188
     },
     {
-     "family": "Ancizar Sans",
-     "sub": "600",
-     "weight": 600,
+     "family": "Parastoo",
+     "sub": "700",
+     "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AncizarSans-0-0-600-d22cc56829894083.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Parastoo-0-0-700-95d3e66c414ca393.ttf",
      "index": null,
-     "cap_ratio": 0.612,
-     "width_ratio": 1.0001,
-     "spread": 0.1473,
-     "stem_err": 0.0185,
-     "shape": 2.6095,
-     "features": 0.624,
-     "character": 0.691,
+     "cap_ratio": 0.5258525852585259,
+     "width_ratio": 0.9368,
+     "spread": 0.1433,
+     "stem_err": 0.0942,
+     "shape": 1.8808,
+     "features": 0.855,
+     "character": 0.146,
      "record": {
-      "family": "Ancizar Sans",
-      "weight": 600,
+      "family": "Parastoo",
+      "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 6.8354
+     "score": 3.0541
     },
     {
-     "family": "Tagesschrift",
+     "family": "Alegreya",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Alegreya-0-0-700-d9ed145738d53254.ttf",
+     "index": null,
+     "cap_ratio": 0.649,
+     "width_ratio": 1.0544,
+     "spread": 0.1663,
+     "stem_err": 0.0185,
+     "shape": 1.9199,
+     "features": 0.66,
+     "character": 0.079,
+     "record": {
+      "family": "Alegreya",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.1045
+    },
+    {
+     "family": "Patua One",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Tagesschrift-0-0-400-16d75b4ee9117485.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PatuaOne-0-0-400-628fddd929fb63c6.ttf",
      "index": null,
-     "cap_ratio": 0.703,
-     "width_ratio": 1.0001,
-     "spread": 0.1508,
-     "stem_err": 0.1306,
-     "shape": 2.2201,
-     "features": 1.282,
-     "character": 0.701,
+     "cap_ratio": 0.69,
+     "width_ratio": 0.9866,
+     "spread": 0.1478,
+     "stem_err": 0.0942,
+     "shape": 2.2256,
+     "features": 0.745,
+     "character": 0.224,
      "record": {
-      "family": "Tagesschrift",
+      "family": "Patua One",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 7.2456
+     "score": 3.106
     },
     {
-     "family": "Cabin",
-     "sub": "500",
-     "weight": 500,
+     "family": "Sahitya",
+     "sub": "700",
+     "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Cabin-0-0-500-68ea9ef037fed867.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Sahitya-0-0-700-e220b7f288318dc7.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0001,
-     "spread": 0.161,
-     "stem_err": 0.2433,
-     "shape": 2.9674,
-     "features": 0.902,
-     "character": 0.728,
+     "cap_ratio": 0.649,
+     "width_ratio": 1.0591,
+     "spread": 0.1661,
+     "stem_err": 0.0172,
+     "shape": 1.949,
+     "features": 0.663,
+     "character": 0.082,
      "record": {
-      "family": "Cabin",
-      "weight": 500,
+      "family": "Sahitya",
+      "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 7.7698
+     "score": 3.1246
+    },
+    {
+     "family": "Faustina",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Faustina-0-0-600-ea1927a814dc16bc.ttf",
+     "index": null,
+     "cap_ratio": 0.648,
+     "width_ratio": 0.9745,
+     "spread": 0.1504,
+     "stem_err": 0.0185,
+     "shape": 2.0067,
+     "features": 0.865,
+     "character": 0.292,
+     "record": {
+      "family": "Faustina",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.1912
+    },
+    {
+     "family": "IBM Plex Serif",
+     "sub": "600 italic",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IBMPlexSerif-1-0-600-9185142367c4fe80.ttf",
+     "index": null,
+     "cap_ratio": 0.698,
+     "width_ratio": 1.0,
+     "spread": 0.151,
+     "stem_err": 0.2183,
+     "shape": 2.5299,
+     "features": 4.808,
+     "character": 0.292,
+     "record": {
+      "family": "IBM Plex Serif",
+      "weight": 600,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.2856
+    },
+    {
+     "family": "Ubuntu Sans",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/UbuntuSans-0-0-600-9897fe1e57a35bfe.ttf",
+     "index": null,
+     "cap_ratio": 0.693,
+     "width_ratio": 1.0,
+     "spread": 0.1526,
+     "stem_err": 0.1306,
+     "shape": 2.4839,
+     "features": 0.79,
+     "character": 0.806,
+     "record": {
+      "family": "Ubuntu Sans",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.6609
+    },
+    {
+     "family": "Labrada",
+     "sub": "800 italic",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Labrada-1-0-800-b1d97922b774d6f3.ttf",
+     "index": null,
+     "cap_ratio": 0.661,
+     "width_ratio": 1.0001,
+     "spread": 0.1562,
+     "stem_err": 0.319,
+     "shape": 2.2447,
+     "features": 3.156,
+     "character": 0.428,
+     "record": {
+      "family": "Labrada",
+      "weight": 800,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.4771
+    },
+    {
+     "family": "Kay Pho Du",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/KayPhoDu-0-0-700-fc4b059708eb62d4.ttf",
+     "index": null,
+     "cap_ratio": 0.7060546875,
+     "width_ratio": 0.9999,
+     "spread": 0.1407,
+     "stem_err": 0.2433,
+     "shape": 1.755,
+     "features": 0.683,
+     "character": 0.645,
+     "record": {
+      "family": "Kay Pho Du",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.6283
     }
    ]
   },
@@ -3405,9 +3274,9 @@
    "group": "body",
    "confidence": "low",
    "top": [
-    "Imbue",
     "Helvetica Neue",
-    "Imbue"
+    "Gupter",
+    "Arial Narrow"
    ]
   },
   {
@@ -3437,7 +3306,9 @@
   "exclude": [
    "0,460,1024,1110"
   ],
-  "knockout": [],
+  "knockout": [
+   "20,238,1010,425"
+  ],
   "assign": [],
   "character": [
    "headliner=Slab 90, Vintage 85, Loud 80",
@@ -3447,10 +3318,13 @@
    "support=mixed"
   ],
   "tilted": [],
-  "art": [],
+  "art": [
+   "support@255,426,762,484@set on the engraving's hatching, which blanking cannot repaint"
+  ],
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

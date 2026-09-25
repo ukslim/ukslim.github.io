@@ -6,7 +6,23 @@
   1536
  ],
  "paper": "#E0C69F",
- "assign_points": [],
+ "assign_points": [
+  "title=522,911;527,1047",
+  "date=521,1144",
+  "venue=513,1190",
+  "beneficiary=516,1238",
+  "attractions_label=508,1288",
+  "attraction0=262,1317",
+  "attraction1=260,1347",
+  "attraction2=266,1373",
+  "attraction3=265,1401",
+  "attraction4=745,1320",
+  "attraction5=740,1347",
+  "attraction6=752,1374",
+  "attraction7=745,1399",
+  "footer0=517,1460",
+  "footer1=511,1508"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -72,7 +88,7 @@
   }
  ],
  "median_texture": 0.56,
- "alignment": "ok",
+ "alignment": "ok; 15 line(s) assigned by hand",
  "alignment_cost": 0.1,
  "lines": [
   {
@@ -2858,6 +2874,7 @@
     0,
     1
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2865,21 +2882,24 @@
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
     2
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
    "bands": [
     3
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "beneficiary",
    "text": "In aid of St. Peter's Church Restoration Fund",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attractions_label",
@@ -2887,6 +2907,7 @@
    "bands": [
     5
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2894,56 +2915,64 @@
    "text": "Grand tombola",
    "bands": [
     6
-   ]
-  },
-  {
-   "key": "attraction1",
-   "text": "Homemade cakes, jams and preserves",
-   "bands": [
-    7
-   ]
-  },
-  {
-   "key": "attraction2",
-   "text": "BBQ and refreshments",
-   "bands": [
-    8
-   ]
-  },
-  {
-   "key": "attraction3",
-   "text": "Plant and produce stall",
-   "bands": [
-    9
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
     10
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves",
+   "bands": [
+    7
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments",
+   "bands": [
+    8
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
     12
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall",
+   "bands": [
+    9
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
     13
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer0",
@@ -2951,6 +2980,7 @@
    "bands": [
     14
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2958,7 +2988,8 @@
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
     15
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -4632,12 +4663,12 @@
     "venue",
     "attractions_label",
     "attraction0",
-    "attraction1",
-    "attraction2",
-    "attraction3",
     "attraction4",
+    "attraction1",
     "attraction5",
+    "attraction2",
     "attraction6",
+    "attraction3",
     "attraction7",
     "footer0",
     "footer1"
@@ -4655,18 +4686,18 @@
    "margin": 0.012,
    "distortions": [
     {
-     "key": "attraction3",
-     "ratio": 1.078,
-     "kind": "wider_than_face",
-     "stem_matches": true,
-     "action": "do NOT stretch; let the line run short"
-    },
-    {
      "key": "attraction5",
      "ratio": 0.911,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "attraction3",
+     "ratio": 1.078,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "attraction7",
@@ -5330,7 +5361,23 @@
    "0,0,1024,830"
   ],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "title=522,911;527,1047",
+   "date=521,1144",
+   "venue=513,1190",
+   "beneficiary=516,1238",
+   "attractions_label=508,1288",
+   "attraction0=262,1317",
+   "attraction1=260,1347",
+   "attraction2=266,1373",
+   "attraction3=265,1401",
+   "attraction4=745,1320",
+   "attraction5=740,1347",
+   "attraction6=752,1374",
+   "attraction7=745,1399",
+   "footer0=517,1460",
+   "footer1=511,1508"
+  ],
   "character": [
    "title=Sans 90, Loud 70, Vintage 50, Playful 5",
    "date=Sans 90, Business 60",
@@ -5345,6 +5392,7 @@
    "attractions_label=fit"
   ],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

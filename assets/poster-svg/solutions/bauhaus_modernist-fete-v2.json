@@ -6,7 +6,23 @@
   1536
  ],
  "paper": "#FBF8F2",
- "assign_points": [],
+ "assign_points": [
+  "title=336,327;336,525",
+  "date=337,743;227,806",
+  "venue=283,900;288,944",
+  "beneficiary=297,1019",
+  "attractions_label=139,1089",
+  "attraction0=142,1121",
+  "attraction1=261,1152",
+  "attraction2=183,1180",
+  "attraction3=197,1208",
+  "attraction4=262,1237",
+  "attraction5=133,1267",
+  "attraction6=264,1297",
+  "attraction7=220,1326",
+  "footer0=332,1398",
+  "footer1=286,1466"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -72,7 +88,7 @@
   }
  ],
  "median_texture": 0.52,
- "alignment": "ok",
+ "alignment": "ok; 15 line(s) assigned by hand",
  "alignment_cost": 0.098,
  "lines": [
   {
@@ -2922,6 +2938,7 @@
     0,
     1
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2931,6 +2948,7 @@
     2,
     3
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2940,6 +2958,7 @@
     4,
     5
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2948,6 +2967,7 @@
    "bands": [
     6
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2956,6 +2976,7 @@
    "bands": [
     7
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2964,6 +2985,7 @@
    "bands": [
     8
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2972,6 +2994,7 @@
    "bands": [
     9
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2980,6 +3003,7 @@
    "bands": [
     10
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2988,6 +3012,7 @@
    "bands": [
     11
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2996,6 +3021,7 @@
    "bands": [
     12
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -3004,6 +3030,7 @@
    "bands": [
     13
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -3012,6 +3039,7 @@
    "bands": [
     14
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -3020,6 +3048,7 @@
    "bands": [
     15
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -3028,6 +3057,7 @@
    "bands": [
     16
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -3036,6 +3066,7 @@
    "bands": [
     17
    ],
+   "assigned_by": "hand",
    "upper": true
   }
  ],
@@ -4307,7 +4338,23 @@
   "knockout": [
    "546,236,624,505"
   ],
-  "assign": [],
+  "assign": [
+   "title=336,327;336,525",
+   "date=337,743;227,806",
+   "venue=283,900;288,944",
+   "beneficiary=297,1019",
+   "attractions_label=139,1089",
+   "attraction0=142,1121",
+   "attraction1=261,1152",
+   "attraction2=183,1180",
+   "attraction3=197,1208",
+   "attraction4=262,1237",
+   "attraction5=133,1267",
+   "attraction6=264,1297",
+   "attraction7=220,1326",
+   "footer0=332,1398",
+   "footer1=286,1466"
+  ],
   "character": [
    "title=Sans 90, Loud 80, Playful 5",
    "date=Sans 90, Loud 60"
@@ -4318,6 +4365,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

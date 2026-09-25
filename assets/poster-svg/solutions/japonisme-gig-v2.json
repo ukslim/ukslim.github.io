@@ -8,7 +8,12 @@
  "paper": "#091A2F",
  "assign_points": [
   "presenter=218,72",
-  "support=269,458"
+  "support=269,458",
+  "date=272,559",
+  "venue=237,600;245,644",
+  "tickets=235,751",
+  "ticket_source=300,780",
+  "footer=189,819"
  ],
  "frames": [],
  "art": [
@@ -60,7 +65,7 @@
   }
  ],
  "median_texture": 0.39,
- "alignment": "ok; 2 line(s) assigned by hand",
+ "alignment": "ok; 7 line(s) assigned by hand",
  "alignment_cost": 0.034,
  "lines": [
   {
@@ -1623,6 +1628,7 @@
    "bands": [
     2
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -1632,6 +1638,7 @@
     3,
     4
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -1640,6 +1647,7 @@
    "bands": [
     5
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -1648,6 +1656,7 @@
    "bands": [
     6
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -1656,6 +1665,7 @@
    "bands": [
     7
    ],
+   "assigned_by": "hand",
    "upper": true
   }
  ],
@@ -2554,7 +2564,12 @@
   "knockout": [],
   "assign": [
    "presenter=218,72",
-   "support=269,458"
+   "support=269,458",
+   "date=272,559",
+   "venue=237,600;245,644",
+   "tickets=235,751",
+   "ticket_source=300,780",
+   "footer=189,819"
   ],
   "character": [
    "date=Sans 80, Business 60"
@@ -2575,6 +2590,7 @@
    "footer=fit"
   ],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

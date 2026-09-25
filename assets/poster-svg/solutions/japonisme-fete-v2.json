@@ -6,7 +6,21 @@
   1536
  ],
  "paper": "#F3DEB3",
- "assign_points": [],
+ "assign_points": [
+  "date=697,424",
+  "venue=726,472;726,513",
+  "attractions_label=791,1003",
+  "attraction0=729,1058",
+  "attraction1=818,1091",
+  "attraction2=761,1120",
+  "attraction3=761,1151",
+  "attraction4=811,1182",
+  "attraction5=718,1212",
+  "attraction6=821,1243",
+  "attraction7=777,1271",
+  "footer0=816,1358",
+  "footer1=823,1404;816,1431"
+ ],
  "frames": [],
  "art": [
   {
@@ -97,7 +111,7 @@
   }
  ],
  "median_texture": 2.38,
- "alignment": "ok",
+ "alignment": "ok; 13 line(s) assigned by hand",
  "alignment_cost": 0.102,
  "lines": [
   {
@@ -2549,7 +2563,8 @@
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
     0
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
@@ -2557,7 +2572,8 @@
    "bands": [
     1,
     2
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attractions_label",
@@ -2565,6 +2581,7 @@
    "bands": [
     3
    ],
+   "assigned_by": "hand",
    "upper": true
   },
   {
@@ -2572,63 +2589,72 @@
    "text": "Grand tombola",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction1",
    "text": "Homemade cakes, jams and preserves",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction2",
    "text": "BBQ and refreshments",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction3",
    "text": "Plant and produce stall",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
     8
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
     9
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
     10
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer0",
    "text": "Free entry. All welcome.",
    "bands": [
     12
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer1",
@@ -2636,7 +2662,8 @@
    "bands": [
     13,
     14
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -4370,7 +4397,21 @@
    "0,560,640,1536"
   ],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "date=697,424",
+   "venue=726,472;726,513",
+   "attractions_label=791,1003",
+   "attraction0=729,1058",
+   "attraction1=818,1091",
+   "attraction2=761,1120",
+   "attraction3=761,1151",
+   "attraction4=811,1182",
+   "attraction5=718,1212",
+   "attraction6=821,1243",
+   "attraction7=777,1271",
+   "footer0=816,1358",
+   "footer1=823,1404;816,1431"
+  ],
   "character": [],
   "case": [],
   "tilted": [],
@@ -4381,6 +4422,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

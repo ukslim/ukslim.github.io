@@ -7,7 +7,21 @@
  ],
  "paper": "#FEFEFE",
  "assign_points": [
-  "title=512,137;342,341;511,634"
+  "title=512,137;342,341;511,634",
+  "date=516,926",
+  "venue=602,976",
+  "beneficiary=512,1056",
+  "attractions_label=298,1104",
+  "attraction0=314,1133",
+  "attraction1=442,1164",
+  "attraction2=355,1192",
+  "attraction3=356,1224",
+  "attraction4=428,1254",
+  "attraction5=302,1284",
+  "attraction6=440,1313",
+  "attraction7=383,1340",
+  "footer0=372,1418",
+  "footer1=511,1451"
  ],
  "frames": [],
  "art": [],
@@ -74,7 +88,7 @@
   }
  ],
  "median_texture": 0.29,
- "alignment": "ok; 1 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand",
  "alignment_cost": 0.137,
  "lines": [
   {
@@ -3026,98 +3040,112 @@
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
     3
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "beneficiary",
    "text": "In aid of St. Peter's Church Restoration Fund",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attractions_label",
    "text": "Attractions:",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction0",
    "text": "Grand tombola",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction1",
    "text": "Homemade cakes, jams and preserves",
    "bands": [
     8
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction2",
    "text": "BBQ and refreshments",
    "bands": [
     9
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction3",
    "text": "Plant and produce stall",
    "bands": [
     10
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
     12
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
     13
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
     14
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer0",
    "text": "Free entry. All welcome.",
    "bands": [
     15
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer1",
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
     16
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -4366,7 +4394,21 @@
   ],
   "knockout": [],
   "assign": [
-   "title=512,137;342,341;511,634"
+   "title=512,137;342,341;511,634",
+   "date=516,926",
+   "venue=602,976",
+   "beneficiary=512,1056",
+   "attractions_label=298,1104",
+   "attraction0=314,1133",
+   "attraction1=442,1164",
+   "attraction2=355,1192",
+   "attraction3=356,1224",
+   "attraction4=428,1254",
+   "attraction5=302,1284",
+   "attraction6=440,1313",
+   "attraction7=383,1340",
+   "footer0=372,1418",
+   "footer1=511,1451"
   ],
   "character": [
    "title=Serif 90, Sophisticated 70, Vintage 60, Playful 5",
@@ -4378,6 +4420,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

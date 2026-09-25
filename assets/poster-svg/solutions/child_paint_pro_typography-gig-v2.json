@@ -6,7 +6,16 @@
   1536
  ],
  "paper": "#F7F6F2",
- "assign_points": [],
+ "assign_points": [
+  "presenter=239,953",
+  "headliner=476,1037;511,1166",
+  "support=285,1254",
+  "date=371,1336",
+  "venue=485,1379",
+  "tickets=271,1428",
+  "ticket_source=377,1462",
+  "footer=205,1496"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -44,7 +53,7 @@
   }
  ],
  "median_texture": 0.35,
- "alignment": "weak alignment (mean cost 0.29)",
+ "alignment": "weak alignment (mean cost 0.29); 8 line(s) assigned by hand",
  "alignment_cost": 0.293,
  "lines": [
   {
@@ -1952,7 +1961,8 @@
    "text": "Pale Light Promotions presents:",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "headliner",
@@ -1960,49 +1970,56 @@
    "bands": [
     5,
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "support",
    "text": "with support from Mena Grace",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
     8
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
     9
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "tickets",
    "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
     10
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "ticket_source",
    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
     12
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -3496,11 +3513,6 @@
     "Hubot Sans",
     "Zalando Sans SemiExpanded"
    ]
-  },
-  {
-   "kind": "weak_alignment",
-   "detail": "weak alignment (mean cost 0.29)",
-   "mean_cost": 0.293
   }
  ],
  "knobs": {
@@ -3518,7 +3530,16 @@
   "wrap_cap_ratio": 1.3,
   "exclude": [],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "presenter=239,953",
+   "headliner=476,1037;511,1166",
+   "support=285,1254",
+   "date=371,1336",
+   "venue=485,1379",
+   "tickets=271,1428",
+   "ticket_source=377,1462",
+   "footer=205,1496"
+  ],
   "character": [],
   "case": [],
   "tilted": [],
@@ -3526,6 +3547,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

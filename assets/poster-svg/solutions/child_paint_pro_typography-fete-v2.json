@@ -13,13 +13,13 @@
   "beneficiary=400,1203",
   "attractions_label=147,1267",
   "attraction0=174,1304",
-  "attraction1=283,1339",
-  "attraction2=210,1372",
-  "attraction3=210,1406",
   "attraction4=735,1306",
+  "attraction1=283,1339",
   "attraction5=622,1339",
+  "attraction2=210,1372",
   "attraction6=749,1373",
   "attraction7=694,1403",
+  "attraction3=210,1406",
   "footer0=261,1468",
   "footer1=365,1504"
  ],
@@ -6533,13 +6533,13 @@
    "beneficiary=400,1203",
    "attractions_label=147,1267",
    "attraction0=174,1304",
-   "attraction1=283,1339",
-   "attraction2=210,1372",
-   "attraction3=210,1406",
    "attraction4=735,1306",
+   "attraction1=283,1339",
    "attraction5=622,1339",
+   "attraction2=210,1372",
    "attraction6=749,1373",
    "attraction7=694,1403",
+   "attraction3=210,1406",
    "footer0=261,1468",
    "footer1=365,1504"
   ],
@@ -6553,6 +6553,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

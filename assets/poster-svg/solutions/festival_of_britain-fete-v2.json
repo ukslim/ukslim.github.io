@@ -13,12 +13,12 @@
   "beneficiary=524,1206",
   "attractions_label=519,1260",
   "attraction0=180,1291",
-  "attraction1=289,1325",
-  "attraction2=219,1358",
-  "attraction3=218,1394",
   "attraction4=751,1294",
+  "attraction1=289,1325",
   "attraction5=635,1328",
+  "attraction2=219,1358",
   "attraction6=763,1362",
+  "attraction3=218,1394",
   "attraction7=711,1395",
   "footer0=514,1461",
   "footer1=513,1499"
@@ -4870,12 +4870,12 @@
    "beneficiary=524,1206",
    "attractions_label=519,1260",
    "attraction0=180,1291",
-   "attraction1=289,1325",
-   "attraction2=219,1358",
-   "attraction3=218,1394",
    "attraction4=751,1294",
+   "attraction1=289,1325",
    "attraction5=635,1328",
+   "attraction2=219,1358",
    "attraction6=763,1362",
+   "attraction3=218,1394",
    "attraction7=711,1395",
    "footer0=514,1461",
    "footer1=513,1499"
@@ -4890,6 +4890,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

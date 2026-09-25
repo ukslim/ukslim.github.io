@@ -6,7 +6,16 @@
   1536
  ],
  "paper": "#FBF0D2",
- "assign_points": [],
+ "assign_points": [
+  "presenter=268,55",
+  "headliner=419,179;426,381",
+  "support=291,519",
+  "date=503,1230",
+  "venue=479,1297",
+  "tickets=379,1393",
+  "ticket_source=480,1444",
+  "footer=251,1491"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -44,7 +53,7 @@
   }
  ],
  "median_texture": 0.28,
- "alignment": "ok",
+ "alignment": "ok; 8 line(s) assigned by hand",
  "alignment_cost": 0.029,
  "lines": [
   {
@@ -1824,7 +1833,8 @@
    "text": "Pale Light Promotions presents:",
    "bands": [
     0
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "headliner",
@@ -1832,49 +1842,56 @@
    "bands": [
     1,
     2
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "support",
    "text": "with support from Mena Grace",
    "bands": [
     3
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "tickets",
    "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "ticket_source",
    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
     7
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
     8
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -3458,7 +3475,16 @@
    "800,440,1024,620"
   ],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "presenter=268,55",
+   "headliner=419,179;426,381",
+   "support=291,519",
+   "date=503,1230",
+   "venue=479,1297",
+   "tickets=379,1393",
+   "ticket_source=480,1444",
+   "footer=251,1491"
+  ],
   "character": [
    "headliner=Sans 90, Loud 80, Vintage 60, Playful 5",
    "date=Sans 90, Business 60, Playful 10"
@@ -3469,6 +3495,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

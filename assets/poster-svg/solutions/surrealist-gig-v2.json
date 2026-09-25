@@ -2751,7 +2751,7 @@
  "knobs": {
   "artwork": "mask",
   "face": [
-   "subhead=Imbue:500",
+   "subhead=Instrument Serif:400",
    "body=Gentium Plus 400"
   ],
   "solid_radius": 24,
@@ -2785,6 +2785,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

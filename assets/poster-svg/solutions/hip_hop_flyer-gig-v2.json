@@ -7,13 +7,13 @@
  ],
  "paper": "#FDFDFD",
  "assign_points": [
-  "presenter=none",
-  "support=none",
   "date=511,1197",
   "venue=513,1294",
   "tickets=495,1383",
   "ticket_source=504,1429",
-  "footer=509,1489"
+  "footer=509,1489",
+  "presenter=none",
+  "support=none"
  ],
  "frames": [],
  "art": [
@@ -4373,13 +4373,13 @@
   ],
   "knockout": [],
   "assign": [
-   "presenter=none",
-   "support=none",
    "date=511,1197",
    "venue=513,1294",
    "tickets=495,1383",
    "ticket_source=504,1429",
-   "footer=509,1489"
+   "footer=509,1489",
+   "presenter=none",
+   "support=none"
   ],
   "character": [
    "date=Sans 90, Business 60"
@@ -4392,6 +4392,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

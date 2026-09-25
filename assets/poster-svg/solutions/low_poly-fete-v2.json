@@ -7,6 +7,9 @@
  ],
  "paper": "#10103B",
  "assign_points": [
+  "date=526,428",
+  "venue=524,482",
+  "attractions_label=178,1014",
   "attraction0=209,1060",
   "attraction1=400,1104",
   "attraction2=276,1140",
@@ -15,7 +18,9 @@
   "attraction5=198,1265",
   "attraction6=401,1304",
   "attraction7=322,1341",
-  "footer0=231,1449"
+  "beneficiary=391,1407",
+  "footer0=231,1449",
+  "footer1=466,1486"
  ],
  "frames": [],
  "art": [
@@ -95,7 +100,7 @@
   }
  ],
  "median_texture": 1.88,
- "alignment": "ok; 9 line(s) assigned by hand",
+ "alignment": "ok; 14 line(s) assigned by hand",
  "alignment_cost": 0.101,
  "lines": [
   {
@@ -3215,21 +3220,24 @@
    "text": "Saturday 6th September, 12 noon \u2013 5pm",
    "bands": [
     0
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
    "bands": [
     1
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attractions_label",
    "text": "Attractions:",
    "bands": [
     2
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction0",
@@ -3300,7 +3308,8 @@
    "text": "In aid of St. Peter's Church Restoration Fund",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer0",
@@ -3315,7 +3324,8 @@
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
     13
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -5009,6 +5019,9 @@
   ],
   "knockout": [],
   "assign": [
+   "date=526,428",
+   "venue=524,482",
+   "attractions_label=178,1014",
    "attraction0=209,1060",
    "attraction1=400,1104",
    "attraction2=276,1140",
@@ -5017,7 +5030,9 @@
    "attraction5=198,1265",
    "attraction6=401,1304",
    "attraction7=322,1341",
-   "footer0=231,1449"
+   "beneficiary=391,1407",
+   "footer0=231,1449",
+   "footer1=466,1486"
   ],
   "character": [
    "title=Sans 90, Loud 85, Playful 40",
@@ -5046,6 +5061,7 @@
    "beneficiary=3,3,#1A140C",
    "footer0=3,3,#1A140C",
    "footer1=3,3,#1A140C"
-  ]
+  ],
+  "fit": []
  }
 }

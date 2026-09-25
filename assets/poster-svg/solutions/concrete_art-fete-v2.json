@@ -6,7 +6,23 @@
   1536
  ],
  "paper": "#FEFEFE",
- "assign_points": [],
+ "assign_points": [
+  "title=387,88;387,191",
+  "date=258,1099;164,1149",
+  "venue=244,1195;257,1242",
+  "beneficiary=248,1324",
+  "attractions_label=621,1088",
+  "attraction0=631,1119",
+  "attraction1=740,1152",
+  "attraction2=668,1181",
+  "attraction3=668,1214",
+  "attraction4=728,1244",
+  "attraction5=620,1276",
+  "attraction6=740,1307",
+  "attraction7=689,1335",
+  "footer0=169,1427",
+  "footer1=343,1485"
+ ],
  "frames": [],
  "art": [],
  "copy": [
@@ -72,7 +88,7 @@
   }
  ],
  "median_texture": 0.22,
- "alignment": "ok",
+ "alignment": "ok; 15 line(s) assigned by hand",
  "alignment_cost": 0.065,
  "lines": [
   {
@@ -2922,7 +2938,16 @@
     0,
     1
    ],
+   "assigned_by": "hand",
    "upper": true
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:",
+   "bands": [
+    7
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "date",
@@ -2930,7 +2955,32 @@
    "bands": [
     2,
     3
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola",
+   "bands": [
+    8
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves",
+   "bands": [
+    9
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments",
+   "bands": [
+    10
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
@@ -2938,91 +2988,72 @@
    "bands": [
     4,
     5
-   ]
-  },
-  {
-   "key": "beneficiary",
-   "text": "In aid of St. Peter's Church Restoration Fund",
-   "bands": [
-    6
-   ]
-  },
-  {
-   "key": "attractions_label",
-   "text": "Attractions:",
-   "bands": [
-    7
-   ]
-  },
-  {
-   "key": "attraction0",
-   "text": "Grand tombola",
-   "bands": [
-    8
-   ]
-  },
-  {
-   "key": "attraction1",
-   "text": "Homemade cakes, jams and preserves",
-   "bands": [
-    9
-   ]
-  },
-  {
-   "key": "attraction2",
-   "text": "BBQ and refreshments",
-   "bands": [
-    10
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction3",
    "text": "Plant and produce stall",
    "bands": [
     11
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction4",
    "text": "Children's games and bouncy castle",
    "bands": [
     12
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction5",
    "text": "Ferret racing",
    "bands": [
     13
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction6",
    "text": "Live folk music from The Muddy Boots",
    "bands": [
     14
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund",
+   "bands": [
+    6
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "attraction7",
    "text": "Local craft and maker stalls",
    "bands": [
     15
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer0",
    "text": "Free entry. All welcome.",
    "bands": [
     16
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer1",
    "text": "Organised by Brindlewick Village Community Association.",
    "bands": [
     17
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -6832,9 +6863,9 @@
   },
   "body": {
    "lines": [
+    "attractions_label",
     "date",
-    "venue",
-    "attractions_label"
+    "venue"
    ],
    "shape_glyphs": "S2aemC6y5d",
    "brief": {
@@ -7148,7 +7179,6 @@
   },
   "body_light": {
    "lines": [
-    "beneficiary",
     "attraction0",
     "attraction1",
     "attraction2",
@@ -7156,6 +7186,7 @@
     "attraction4",
     "attraction5",
     "attraction6",
+    "beneficiary",
     "attraction7",
     "footer0",
     "footer1"
@@ -7173,15 +7204,15 @@
    "margin": 0.036,
    "distortions": [
     {
-     "key": "beneficiary",
-     "ratio": 0.901,
+     "key": "attraction5",
+     "ratio": 0.934,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
     },
     {
-     "key": "attraction5",
-     "ratio": 0.934,
+     "key": "beneficiary",
+     "ratio": 0.901,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -7531,7 +7562,23 @@
    "20,250,1000,1005"
   ],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "title=387,88;387,191",
+   "date=258,1099;164,1149",
+   "venue=244,1195;257,1242",
+   "beneficiary=248,1324",
+   "attractions_label=621,1088",
+   "attraction0=631,1119",
+   "attraction1=740,1152",
+   "attraction2=668,1181",
+   "attraction3=668,1214",
+   "attraction4=728,1244",
+   "attraction5=620,1276",
+   "attraction6=740,1307",
+   "attraction7=689,1335",
+   "footer0=169,1427",
+   "footer1=343,1485"
+  ],
   "character": [
    "title=Neo Grotesque 80, Business 70, Playful 5",
    "date=Neo Grotesque 80, Business 70, Playful 5"
@@ -7542,6 +7589,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }

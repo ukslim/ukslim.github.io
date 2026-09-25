@@ -2560,7 +2560,7 @@
  "knobs": {
   "artwork": "mask",
   "face": [
-   "display=Recursive 900",
+   "display=Tektur 900 wdth75",
    "body=Exo 900"
   ],
   "solid_radius": 24,
@@ -2596,6 +2596,7 @@
   "fill": [],
   "shadow": [
    "headliner=6,6,#1C1D28"
-  ]
+  ],
+  "fit": []
  }
 }

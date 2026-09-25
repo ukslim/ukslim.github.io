@@ -6,7 +6,14 @@
   1536
  ],
  "paper": "#020406",
- "assign_points": [],
+ "assign_points": [
+  "presenter=236,1386",
+  "date=450,1234",
+  "venue=492,1312",
+  "tickets=263,1422",
+  "ticket_source=354,1463",
+  "footer=201,1501"
+ ],
  "frames": [],
  "art": [
   {
@@ -58,7 +65,7 @@
   }
  ],
  "median_texture": 0.45,
- "alignment": "ok",
+ "alignment": "ok; 6 line(s) assigned by hand",
  "alignment_cost": 0.124,
  "lines": [
   {
@@ -1554,46 +1561,52 @@
  ],
  "assigned": [
   {
-   "key": "presenter",
-   "text": "Pale Light Promotions presents:",
-   "bands": [
-    3
-   ]
-  },
-  {
    "key": "date",
    "text": "Friday 19th September, doors 7:30pm",
    "bands": [
     1
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "venue",
    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
    "bands": [
     2
-   ]
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:",
+   "bands": [
+    3
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "tickets",
    "text": "Tickets: \u00a312 advance / \u00a315 on the door",
    "bands": [
     4
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "ticket_source",
    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
    "bands": [
     5
-   ]
+   ],
+   "assigned_by": "hand"
   },
   {
    "key": "footer",
    "text": "All ages. Bar until midnight.",
    "bands": [
     6
-   ]
+   ],
+   "assigned_by": "hand"
   }
  ],
  "artwork": [
@@ -2167,313 +2180,6 @@
   }
  ],
  "groups": {
-  "body": {
-   "lines": [
-    "presenter",
-    "venue",
-    "tickets",
-    "ticket_source",
-    "footer"
-   ],
-   "shape_glyphs": "Q2aegRATmB",
-   "brief": null,
-   "features": {
-    "weight": 0.136,
-    "contrast": 0.954,
-    "slant": 0.0,
-    "square": null,
-    "cap": 44.0
-   },
-   "confidence": "low",
-   "margin": 0.018,
-   "distortions": [
-    {
-     "key": "venue",
-     "ratio": 0.918,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    }
-   ],
-   "candidates": [
-    {
-     "family": "Teko",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Teko-0-0-400-f7067e7854520b5c.ttf",
-     "index": null,
-     "cap_ratio": 0.626,
-     "width_ratio": 0.996,
-     "spread": 0.0447,
-     "stem_err": 0.0955,
-     "shape": 1.1468,
-     "features": 1.089,
-     "character": null,
-     "record": {
-      "family": "Teko",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.0785
-    },
-    {
-     "family": "Fjalla One",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FjallaOne-0-0-400-fc86c34b03650efc.ttf",
-     "index": null,
-     "cap_ratio": 0.833984375,
-     "width_ratio": 0.9954,
-     "spread": 0.0401,
-     "stem_err": 0.0955,
-     "shape": 1.0434,
-     "features": 1.056,
-     "character": null,
-     "record": {
-      "family": "Fjalla One",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.1169
-    },
-    {
-     "family": "League Gothic",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LeagueGothic-0-0-400-9efe0d04adc2ee71.ttf",
-     "index": null,
-     "cap_ratio": 0.735,
-     "width_ratio": 1.2077,
-     "spread": 0.0458,
-     "stem_err": 0.0214,
-     "shape": 1.268,
-     "features": 0.505,
-     "character": null,
-     "record": {
-      "family": "League Gothic",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.1353
-    },
-    {
-     "family": "Odibee Sans",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/OdibeeSans-0-0-400-36ed20317a336f25.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0324,
-     "spread": 0.0709,
-     "stem_err": 0.0214,
-     "shape": 1.3733,
-     "features": 0.714,
-     "character": null,
-     "record": {
-      "family": "Odibee Sans",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.1371
-    },
-    {
-     "family": "Karantina",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Karantina-0-0-400-16d69e6d7d449386.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.1938,
-     "spread": 0.0566,
-     "stem_err": 0.0214,
-     "shape": 1.3785,
-     "features": 0.393,
-     "character": null,
-     "record": {
-      "family": "Karantina",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.1926
-    },
-    {
-     "family": "Truculenta",
-     "sub": "900 wdth75",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Truculenta-0-75-900-fe811b91257d5425.ttf",
-     "index": null,
-     "cap_ratio": 0.708,
-     "width_ratio": 1.0584,
-     "spread": 0.0448,
-     "stem_err": 0.0955,
-     "shape": 1.4253,
-     "features": 0.644,
-     "character": null,
-     "record": {
-      "family": "Truculenta",
-      "weight": 900,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 2.1975
-    },
-    {
-     "family": "Big Shoulders",
-     "sub": "500",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BigShoulders-0-0-500-68d2b006b4f3a075.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 0.9721,
-     "spread": 0.0365,
-     "stem_err": 0.0214,
-     "shape": 1.2364,
-     "features": 0.75,
-     "character": null,
-     "record": {
-      "family": "Big Shoulders",
-      "weight": 500,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.2084
-    },
-    {
-     "family": "Yanone Kaffeesatz",
-     "sub": "500",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/YanoneKaffeesatz-0-0-500-178702be4914b418.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.054,
-     "spread": 0.0499,
-     "stem_err": 0.0214,
-     "shape": 1.2758,
-     "features": 0.847,
-     "character": null,
-     "record": {
-      "family": "Yanone Kaffeesatz",
-      "weight": 500,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.2622
-    },
-    {
-     "family": "Micro 5 Charted",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Micro5Charted-0-0-400-24d6b5755e7a3251.ttf",
-     "index": null,
-     "cap_ratio": 0.7272727272727273,
-     "width_ratio": 0.9987,
-     "spread": 0.0411,
-     "stem_err": 0.0214,
-     "shape": 3.9098,
-     "features": 2.157,
-     "character": null,
-     "record": {
-      "family": "Micro 5 Charted",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 6.3172
-    },
-    {
-     "family": "Antonio",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Antonio-0-0-600-a00c69f6a33ae96b.ttf",
-     "index": null,
-     "cap_ratio": 0.859375,
-     "width_ratio": 1.0019,
-     "spread": 0.0306,
-     "stem_err": 0.0214,
-     "shape": 1.3493,
-     "features": 0.773,
-     "character": null,
-     "record": {
-      "family": "Antonio",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.4095
-    },
-    {
-     "family": "Sofia Sans Extra Condensed",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-0-0-700-19a2b413f2499175.ttf",
-     "index": null,
-     "cap_ratio": 0.655,
-     "width_ratio": 1.0035,
-     "spread": 0.0431,
-     "stem_err": 0.2124,
-     "shape": 1.4331,
-     "features": 1.2,
-     "character": null,
-     "record": {
-      "family": "Sofia Sans Extra Condensed",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.4674
-    },
-    {
-     "family": "Jersey 10 Charted",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10Charted-0-0-400-fc9eb2ad56329735.ttf",
-     "index": null,
-     "cap_ratio": 0.8071428571428572,
-     "width_ratio": 0.9959,
-     "spread": 0.0451,
-     "stem_err": 0.0955,
-     "shape": 3.8164,
-     "features": 2.265,
-     "character": null,
-     "record": {
-      "family": "Jersey 10 Charted",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 5.982
-    }
-   ]
-  },
   "subhead": {
    "lines": [
     "date"
@@ -2779,19 +2485,316 @@
      "score": 8.9137
     }
    ]
+  },
+  "body": {
+   "lines": [
+    "venue",
+    "presenter",
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "shape_glyphs": "Q2aegRATmB",
+   "brief": null,
+   "features": {
+    "weight": 0.136,
+    "contrast": 0.954,
+    "slant": 0.0,
+    "square": null,
+    "cap": 44.0
+   },
+   "confidence": "low",
+   "margin": 0.018,
+   "distortions": [
+    {
+     "key": "venue",
+     "ratio": 0.918,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "Teko",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Teko-0-0-400-f7067e7854520b5c.ttf",
+     "index": null,
+     "cap_ratio": 0.626,
+     "width_ratio": 0.996,
+     "spread": 0.0447,
+     "stem_err": 0.0955,
+     "shape": 1.1468,
+     "features": 1.089,
+     "character": null,
+     "record": {
+      "family": "Teko",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.0785
+    },
+    {
+     "family": "Fjalla One",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FjallaOne-0-0-400-fc86c34b03650efc.ttf",
+     "index": null,
+     "cap_ratio": 0.833984375,
+     "width_ratio": 0.9954,
+     "spread": 0.0401,
+     "stem_err": 0.0955,
+     "shape": 1.0434,
+     "features": 1.056,
+     "character": null,
+     "record": {
+      "family": "Fjalla One",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.1169
+    },
+    {
+     "family": "League Gothic",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LeagueGothic-0-0-400-9efe0d04adc2ee71.ttf",
+     "index": null,
+     "cap_ratio": 0.735,
+     "width_ratio": 1.2077,
+     "spread": 0.0458,
+     "stem_err": 0.0214,
+     "shape": 1.268,
+     "features": 0.505,
+     "character": null,
+     "record": {
+      "family": "League Gothic",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.1353
+    },
+    {
+     "family": "Odibee Sans",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/OdibeeSans-0-0-400-36ed20317a336f25.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0324,
+     "spread": 0.0709,
+     "stem_err": 0.0214,
+     "shape": 1.3733,
+     "features": 0.714,
+     "character": null,
+     "record": {
+      "family": "Odibee Sans",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.1371
+    },
+    {
+     "family": "Karantina",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Karantina-0-0-400-16d69e6d7d449386.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.1938,
+     "spread": 0.0566,
+     "stem_err": 0.0214,
+     "shape": 1.3785,
+     "features": 0.393,
+     "character": null,
+     "record": {
+      "family": "Karantina",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.1926
+    },
+    {
+     "family": "Truculenta",
+     "sub": "900 wdth75",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Truculenta-0-75-900-fe811b91257d5425.ttf",
+     "index": null,
+     "cap_ratio": 0.708,
+     "width_ratio": 1.0584,
+     "spread": 0.0448,
+     "stem_err": 0.0955,
+     "shape": 1.4253,
+     "features": 0.644,
+     "character": null,
+     "record": {
+      "family": "Truculenta",
+      "weight": 900,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.1975
+    },
+    {
+     "family": "Big Shoulders",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BigShoulders-0-0-500-68d2b006b4f3a075.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 0.9721,
+     "spread": 0.0365,
+     "stem_err": 0.0214,
+     "shape": 1.2364,
+     "features": 0.75,
+     "character": null,
+     "record": {
+      "family": "Big Shoulders",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2084
+    },
+    {
+     "family": "Yanone Kaffeesatz",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/YanoneKaffeesatz-0-0-500-178702be4914b418.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.054,
+     "spread": 0.0499,
+     "stem_err": 0.0214,
+     "shape": 1.2758,
+     "features": 0.847,
+     "character": null,
+     "record": {
+      "family": "Yanone Kaffeesatz",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.2622
+    },
+    {
+     "family": "Micro 5 Charted",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Micro5Charted-0-0-400-24d6b5755e7a3251.ttf",
+     "index": null,
+     "cap_ratio": 0.7272727272727273,
+     "width_ratio": 0.9987,
+     "spread": 0.0411,
+     "stem_err": 0.0214,
+     "shape": 3.9098,
+     "features": 2.157,
+     "character": null,
+     "record": {
+      "family": "Micro 5 Charted",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.3172
+    },
+    {
+     "family": "Antonio",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Antonio-0-0-600-a00c69f6a33ae96b.ttf",
+     "index": null,
+     "cap_ratio": 0.859375,
+     "width_ratio": 1.0019,
+     "spread": 0.0306,
+     "stem_err": 0.0214,
+     "shape": 1.3493,
+     "features": 0.773,
+     "character": null,
+     "record": {
+      "family": "Antonio",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.4095
+    },
+    {
+     "family": "Sofia Sans Extra Condensed",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-0-0-700-19a2b413f2499175.ttf",
+     "index": null,
+     "cap_ratio": 0.655,
+     "width_ratio": 1.0035,
+     "spread": 0.0431,
+     "stem_err": 0.2124,
+     "shape": 1.4331,
+     "features": 1.2,
+     "character": null,
+     "record": {
+      "family": "Sofia Sans Extra Condensed",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.4674
+    },
+    {
+     "family": "Jersey 10 Charted",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jersey10Charted-0-0-400-fc9eb2ad56329735.ttf",
+     "index": null,
+     "cap_ratio": 0.8071428571428572,
+     "width_ratio": 0.9959,
+     "spread": 0.0451,
+     "stem_err": 0.0955,
+     "shape": 3.8164,
+     "features": 2.265,
+     "character": null,
+     "record": {
+      "family": "Jersey 10 Charted",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.982
+    }
+   ]
   }
  },
  "ambiguities": [
-  {
-   "kind": "face_choice",
-   "group": "body",
-   "confidence": "low",
-   "top": [
-    "Teko",
-    "Fjalla One",
-    "League Gothic"
-   ]
-  },
   {
    "kind": "face_choice",
    "group": "subhead",
@@ -2800,6 +2803,16 @@
     "League Gothic",
     "Inconsolata",
     "Truculenta"
+   ]
+  },
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "Teko",
+    "Fjalla One",
+    "League Gothic"
    ]
   }
  ],
@@ -2818,7 +2831,14 @@
   "wrap_cap_ratio": 1.3,
   "exclude": [],
   "knockout": [],
-  "assign": [],
+  "assign": [
+   "presenter=236,1386",
+   "date=450,1234",
+   "venue=492,1312",
+   "tickets=263,1422",
+   "ticket_source=354,1463",
+   "footer=201,1501"
+  ],
   "character": [
    "date=Sans 90, Business 60"
   ],
@@ -2830,6 +2850,7 @@
   "align": [],
   "track": [],
   "fill": [],
-  "shadow": []
+  "shadow": [],
+  "fit": []
  }
 }
