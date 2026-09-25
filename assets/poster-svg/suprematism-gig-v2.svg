@@ -3,6 +3,63 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="suprematism gig poster">
   <title>suprematism gig poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "Minor: where FLOOD crosses the red bar and the black square, the repainted edges are rough, and a red fleck is left by the D.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: the repaint fits one straight edge per tile; where the bar, the square and the paper all meet under a letter it needs two.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [
+  {
+   "lines": [
+    "headliner"
+   ],
+   "angle": -13.7
+  }
+ ],
+ "faces": [
+  {
+   "family": "Sofia Sans Condensed",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "PALE LIGHT PROMOTIONS PRESENTS:",
+    "WITH SUPPORT FROM",
+    "MENA GRACE",
+    "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+    "TICKETS: \u00a312 ADVANCE / \u00a315 ON THE DOOR",
+    "AVAILABLE FROM THE ANCHOR ROOMS BAR OR PALLIGHTPRO.CO.UK",
+    "ALL AGES. BAR UNTIL MIDNIGHT."
+   ]
+  },
+  {
+   "family": "Big Shoulders",
+   "style": "900",
+   "weight": 900,
+   "text": [
+    "CARVER",
+    "& THE",
+    "FLOOD"
+   ]
+  },
+  {
+   "family": "Sofia Sans Condensed",
+   "style": "800",
+   "weight": 800,
+   "text": [
+    "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 19816,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

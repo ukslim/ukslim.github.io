@@ -1,0 +1,2598 @@
+{
+ "act_up_aids-fete-v2": {
+  "faces": [
+   "Anton",
+   "Zalando Sans 900 wdth75",
+   "Cairo 900"
+  ],
+  "fault_outlook": "Fixable: blanking should stop at the artwork a letter touches rather than repaint part of it.",
+  "faults": "Minor: small pink fragments of the ferret's feet are left where they touch the top of BRINDLEWICK.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "act_up_aids-gig-v2": {
+  "faces": [
+   "Anton"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "art_deco-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the small letterspaced Deco list is split into word fragments; at 16px the letter gaps are too pixel-coarse to pass the tracking evenness test.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "art_deco-gig-v2": {
+  "faces": [
+   "Passion One Black",
+   "Archivo"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The gold type and the gold Deco ornament are the same colour and much the same scale, so nothing measurable separates them. On a pure black ground the neutral masks are empty and everything lands in one colour mask of 400,000 pixels: rays, borders and lettering alike. That yields 19 candidate lines of which only about 8 are text, and the aligner puts the headline on a 21-pixel band. The type is font-like and the ground is flat, so this is a limit of telling ornament from lettering, not of the poster.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "art_nouveau-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title is drawn, not set. Art Nouveau lettering of this kind is built to its own line: the letters of 'Brindlewick Village Fete' vary in width and slope to fill the arc, the terminals grow into the surrounding foliage, and the whole is part of the ornamental frame rather than a typeface applied to it. No face can stand in for it. The frame itself is continuous with the lettering, so the artwork cannot be cut out from behind the words either. Measured, the solver rejects 63 bands against the 22 it keeps and cannot align the copy better than a mean cost of 1.11.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "art_nouveau-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Custom Art Nouveau headline lettering integrated into the curves of the illustration.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "arts_and_crafts-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type sits on and inside a dense patterned ornamental ground, which feeds hundreds of glyph-like bands; the title was never found (alignment 0.46).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "arts_and_crafts-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type sits inside a dense patterned ornamental border and ground; only the ticket block was found as type.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "atelier_populaire-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered, screen-printed slogan integrated with the image.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "atelier_populaire-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is brush-drawn, not set. Every letter is an individual stroke: the two R's of CARVER differ in width, angle and terminal, the A is asymmetric, and the edges are ragged where the brush ran dry, so no typeface can stand in for it without replacing the poster's whole character. The silkscreened fist is drawn by the same hand and overlaps the lettering (the ticket crosses the R), so the artwork cannot be cut out from behind the type either. Measured, the solver finds only 4 text bands where the copy needs 8, because the strokes merge into each other and into the illustration. This is a limit of resetting drawn lettering as type, not of the poster.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "bauhaus_modernist-fete-v2": {
+  "faces": [
+   "League Gothic 400 wdth75",
+   "Instrument Sans 700 wdth75",
+   "Heebo 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "bauhaus_modernist-gig-v2": {
+  "faces": [
+   "Instrument Sans",
+   "Roboto Condensed"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "belle_epoque_lithograph-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The lettering is hand-drawn lithographic display type woven into the illustration, on shifting baselines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "belle_epoque_lithograph-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The display lettering is hand-drawn lithography. 'CARVER &amp; THE FLOOD' carries a drawn outline and a cast shadow that are part of each letter rather than an effect applied to a face, the strokes swell and taper by hand, and the words are fitted around the dancer rather than set on a line. Resetting them in a typeface would remove the thing the style consists of. Measured, 71 bands are rejected against 25 kept, and the copy cannot be aligned better than a mean cost of 1.07.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "big_eyes-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type is painted into the picture: it sits on the painting's own dark ground, not on a flat field. The ground measures smooth (0.46), which is why the solver did not flag it, but resetting it would lift the lettering off the painting.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "big_eyes-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is painted into the picture's dark ground and was never detected as type; the smaller lines sit on the same painted gradient.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "blaxploitation-fete-v2": {
+  "faces": [
+   "Spicy Rice",
+   "Bricolage Grotesque 800 wdth75"
+  ],
+  "fault_outlook": "Fixable: a line of copy that gets no band should keep its pixels rather than be swept.",
+  "faults": "The list item Ferret racing and the Organised-by footer are missing: neither was detected, and both were blanked with their neighbours.",
+  "not_reset": [
+   "Ferret racing",
+   "Organised by Brindlewick Village Community Association."
+  ],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate",
+    "why": "painted, textured lettering with a drawn drop shadow"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "blaxploitation-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title is painted over the painted image and treated as an illustrated object.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "botanical_scientific-fete-v2": {
+  "faces": [
+   "Antonio",
+   "Imbue",
+   "Overlock",
+   "Benne"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "botanical_scientific-gig-v2": {
+  "faces": [
+   "Cossette Texte",
+   "League Gothic 400 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "brazilian_tropicalia-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-drawn, wavy graphic lettering inside a dense collage.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "brazilian_tropicalia-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-drawn, wavy graphic lettering inside a dense collage.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "brutalist_graphic-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is the design: VILLAGE and FETE are cropped by the page edge and cut through by the orange bar, and the list is numbered in the lettering. Reset in a real face at natural proportions it becomes a different, clean poster; measured, the alignment never got below a mean cost of 0.58.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "brutalist_graphic-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "CARVER&amp; and THE FLOOD are stretched vertically to fill the page, each line a different distortion of a condensed grotesk. Resetting at natural proportions would halve the headline; reproducing the stretch is exactly what the conversion must not do.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "child_paint_pro_typography-fete-v2": {
+  "faces": [
+   "Reddit Sans Condensed 800",
+   "Vazirmatn 700",
+   "Hind Mysuru 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "child_paint_pro_typography-gig-v2": {
+  "faces": [
+   "TeXGyreHeros",
+   "TeXGyreHeros Bold"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cobra-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title is hand-painted or roughly stencilled into the image.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cobra-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title is hand-painted or roughly stencilled into the image.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "concrete_art-fete-v2": {
+  "faces": [
+   "IBM Plex Sans Condensed 600",
+   "Barlow 600",
+   "Sarabun"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "concrete_art-gig-v2": {
+  "faces": [
+   "Encode Sans Condensed 600",
+   "League Gothic"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "constructivist-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title and date are set at an angle across the composition; the builder sets only level baselines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "constructivist-gig-v2": {
+  "faces": [
+   "Saira ExtraCondensed Black",
+   "Six Caps",
+   "Amatic SC"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type sits on aged, textured paper and in places over a photographic loudspeaker. The background between the letters measures 8.1, the busiest of any poster tried, so the type cannot be lifted out without leaving a scar where the texture used to be.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "contemporary_editorial-fete-v2": {
+  "faces": [
+   "Castoro",
+   "Inter 600",
+   "TikTok Sans",
+   "Inter Tight 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "contemporary_editorial-gig-v2": {
+  "faces": [
+   "Vazirmatn",
+   "Playfair Display 500"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "contemporary_flat_illustration-fete-v2": {
+  "faces": [
+   "Anton",
+   "Barlow Condensed Bold",
+   "Oswald Medium",
+   "Inter"
+  ],
+  "fault_outlook": "Probably fixable by re-converting with the current tools, which blank only the lines they reset.",
+  "faults": "A ghost of FREE ENTRY. ALL WELCOME. remains in the artwork, and the pavilion under the jar is smudged.",
+  "not_reset": [
+   "Attractions:"
+  ],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "contemporary_flat_illustration-gig-v2": {
+  "faces": [
+   "Roboto Condensed",
+   "League Gothic"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "crayon_folk_handmade-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered crayon and marker type; the wobble is the style.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "crayon_folk_handmade-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered crayon and marker type; the wobble is the style.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cuban_ospaaal-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the huge condensed headline is classed as solid artwork even at a raised solid radius, so the title copy lands on the date line.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cuban_ospaaal-gig-v2": {
+  "faces": [
+   "Sofia Sans Extra Condensed 700 italic",
+   "Asap Condensed 500 italic"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Pale Light Promotions presents: / CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "hand-drawn condensed lettering on a slant, overlapping the illustrated hand"
+   }
+  ],
+  "tilted": [
+   10.6
+  ],
+  "vector": false
+ },
+ "cubist_exhibition-fete-v2": {
+  "faces": [
+   "Imbue 800",
+   "Gupter 700",
+   "TikTok Sans 500"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cubist_exhibition-gig-v2": {
+  "faces": [
+   "Frank Ruhl Libre 500",
+   "Wittgenstein 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cut_paper_matisse-fete-v2": {
+  "faces": [
+   "Sofia Sans Extra Condensed 800",
+   "Special Gothic Condensed One"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cut_paper_matisse-gig-v2": {
+  "faces": [
+   "Radio Canada 700 wdth75",
+   "Sofia Sans Extra Condensed 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cyanotype-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: its letterspacing is now measured, but the blueprint grid and dash markers still scatter the attractions across the wrong lines (alignment 0.30).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "cyanotype-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: its letterspacing is now measured, but the presenter and date lines are still not found whole among the blueprint grid (alignment 0.29).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "dada_collage-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The lettering is a collage: 'BRnDLEWiCK' mixes capitals and lower case at different sizes, weights and baselines because each letter is a separate cut scrap, exactly as in the punk fanzine poster. That is the style, not a defect to be tidied, and setting it in one face would erase it. Measured, the solver finds 11 usable bands for 15 lines of copy, rejects 39, and cannot align better than a mean cost of 1.02.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "dada_collage-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Ransom-note collage: mixed cut-out type at random orientations, deliberately part-illegible.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "de_stijl-fete-v2": {
+  "faces": [
+   "Big Shoulders 600",
+   "Freeman"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "de_stijl-gig-v2": {
+  "faces": [
+   "League Gothic",
+   "Fira Sans Condensed Bold"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": true
+ },
+ "designers_republic-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Dense techno layout of small labels, vertical text and boxed blocks; the aligner could not separate copy from interface decoration (0.56).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "designers_republic-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is custom techno lettering distorted in perspective.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "dnb_fractal_flyer-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome futuristic display lettering over a dark fractal render.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "dnb_fractal_flyer-gig-v2": {
+  "faces": [
+   "Anybody 800 italic",
+   "Cuprum 700 italic",
+   "League Gothic 400 wdth75",
+   "Bahianita"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "chrome lettering with bevels and glow"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "east_german_defa-fete-v2": {
+  "faces": [
+   "Open Sans 800 wdth75",
+   "Radio Canada 700 wdth75",
+   "Encode Sans Condensed 800",
+   "Caramel"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "east_german_defa-gig-v2": {
+  "faces": [
+   "Barlow Semi Condensed 700",
+   "Sofia Sans 900",
+   "Exo 2 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "etching_engraving-fete-v2": {
+  "faces": [
+   "Playfair Display SC",
+   "League Spartan Thin",
+   "Schibsted Grotesk",
+   "Source Serif 4"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "etching_engraving-gig-v2": {
+  "faces": [
+   "Vollkorn",
+   "Namdhinggo",
+   "Imbue 100"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "expressionist_woodcut-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The lettering is hand-carved woodcut, part of the block print itself.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "expressionist_woodcut-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The lettering is hand-carved woodcut, part of the block print itself.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "factory_records-fete-v2": {
+  "faces": [
+   "Tai Heritage Pro",
+   "Gothic A1 800"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "factory_records-gig-v2": {
+  "faces": [
+   "Manrope",
+   "Cinzel"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "festival_indie_lineup-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The attractions are listed in a different order from the copy, festival-bill style. Tool limitation: the aligner cannot reorder the list.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "festival_indie_lineup-gig-v2": {
+  "faces": [
+   "Sofia Sans Extra Condensed 800",
+   "Oswald 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [
+   "Pale Light Promotions presents:"
+  ],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "set over light beams that cannot be repainted behind the letters"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "festival_of_britain-fete-v2": {
+  "faces": [
+   "Inter 700",
+   "Gothic A1 800",
+   "Reddit Sans Condensed 700"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "festival_of_britain-gig-v2": {
+  "faces": [
+   "Barlow Semi Condensed 600",
+   "Mada 700"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "four_ad_records-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Delicate type set into dark photographic imagery, partly obscured by design.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "four_ad_records-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Delicate type set into dark photographic imagery, partly obscured by design.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "futurist-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Type is set at aggressive angles and fragmented across the surface.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "futurist-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Type is set at aggressive angles and fragmented across the surface.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "german_expressionist_film-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is set in perspective at an angle, as part of the architecture.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "german_expressionist_film-gig-v2": {
+  "faces": [
+   "Teko",
+   "League Gothic"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "hand-drawn angular lettering, warped to the composition's diagonals"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "glasgow_style-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Every attraction is broken into one- or two-word lines inside narrow vertical boxes; copy lines wrap far beyond the three bands the aligner allows.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "glasgow_style-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is stacked one word per line over four bands, and a copy line may span at most three; the lettering is also part of the ornament.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "glitch_art-fete-v2": {
+  "faces": [
+   "Barlow Semi Condensed 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate",
+    "why": "glitch effect: RGB-split, sliced and displaced letters"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "glitch_art-gig-v2": {
+  "faces": [
+   "Barlow Condensed 500",
+   "BenchNine",
+   "Sofia Sans Condensed 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "glitch effect: RGB-split, sliced and displaced letters"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "golden_age_travel-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The letterspaced list in its boxed panel is skipped line by line and the title is measured at a fraction of its size. Tool limitation: letterspaced type.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "golden_age_travel-gig-v2": {
+  "faces": [
+   "Barlow Condensed 500",
+   "Beiruti 500",
+   "Instrument Sans 700 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "graffiti_street_art-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Sprayed graffiti lettering on a textured wall; the lettering is the design and cannot be separated from the ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "graffiti_street_art-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Sprayed graffiti lettering with outlines and drips on a textured wall; not font-like type.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "grunge_typography-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Distressed, torn and overprinted lettering at mixed angles on a textured ground; the style is the lettering.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "grunge_typography-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The distressing is inside the letterforms, not behind them: the headline strokes are up to 42% eroded to black, and patches of background are brighter than patches of letter, so no threshold separates the words from the artwork. Resetting it in clean type would throw away the style itself.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "halftone_newsprint-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the halftone-screened headline was measured as one band at twice its size, and copy shifted onto the wrong lines (0.32).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "halftone_newsprint-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: halftone dot texture breaks the type into specks; only 5 of 8 copy lines found any band.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "heavy_metal_poster-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Custom thorned and blackletter band lettering over dark painted imagery.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "heavy_metal_poster-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Custom thorned and blackletter band lettering over dark painted imagery.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "hip_hop_flyer-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Bubble and throw-up graffiti lettering for the key names, with handwritten elements.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "hip_hop_flyer-gig-v2": {
+  "faces": [
+   "Saira 900 wdth50",
+   "Anybody 400 wdth50",
+   "Science Gothic 400 wdth50"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [
+   "Pale Light Promotions presents:",
+   "with support from Mena Grace"
+  ],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "graffiti lettering, outlined and overlapping"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "hong_kong_cinema-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Brush-painted title, painted to match the image, over a painted poster ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "hong_kong_cinema-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Brush-painted title, painted to match the image, over a painted poster ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "italian_futurist_typography-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Text is the image: mixed faces with reading direction changing inside a line.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "italian_futurist_typography-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Text is the image: mixed faces with reading direction changing inside a line.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "japanese_minimal_poster-fete-v2": {
+  "faces": [
+   "Liter",
+   "Vazirmatn"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "japanese_minimal_poster-gig-v2": {
+  "faces": [
+   "Roboto Condensed",
+   "Big Shoulders Display Thin"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": true
+ },
+ "japonisme-fete-v2": {
+  "faces": [
+   "Bebas Neue",
+   "Archivo Narrow",
+   "Archivo SemiBold"
+  ],
+  "fault_outlook": "A feature: type that changes colour across a shape needs clipped two-colour text, which the builder does not do.",
+  "faults": "Where the title and beneficiary cross the navy wave their letters change colour, and a ghost VILL and a half-erased In aid of St. remain.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "japonisme-gig-v2": {
+  "faces": [
+   "News Cycle 700",
+   "Bricolage Grotesque 400 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "two-colour headline whose second line the band finder only half detects"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "low_poly-fete-v2": {
+  "faces": [
+   "Concert One"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate",
+    "why": "3D extruded lettering"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "low_poly-gig-v2": {
+  "faces": [
+   "Exo 900",
+   "Recursive 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "madhubani-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered text treated as decoration within a densely filled painted field.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "madhubani-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered text treated as decoration within a densely filled painted field.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "memphis_postmodern-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The date and venue sit on rotated, skewed panels; the builder sets only level baselines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "memphis_postmodern-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline words sit on skewed, rotated panels.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mexican_calavera-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered display type with floral and bone embellishments, set into the decorative border.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mexican_calavera-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered display type with floral and bone embellishments, set into the decorative border.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mid_century_modern_graphic-fete-v2": {
+  "faces": [
+   "Truculenta 700",
+   "Stick No Bills 500",
+   "Hind Mysuru 700"
+  ],
+  "fault_outlook": "Fixable: the accent word should be placed after its line, not at its own measured origin; the date's two lines are merged into one band.",
+  "faults": "Fete in its accent colour runs into Village, and the two-line white date is set small.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mid_century_modern_graphic-gig-v2": {
+  "faces": [
+   "Radio Canada 700 wdth75",
+   "Karantina 700"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mimeograph-fete-v2": {
+  "faces": [
+   "BIZ UDMincho 700",
+   "Ribeye Marrow",
+   "Manuale 500"
+  ],
+  "fault_outlook": "Fixable: decide markers once per list, and never split a line at a typewriter double space.",
+  "faults": "The list's dash markers are kept on some items and not others, so the items no longer line up.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "mimeograph-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is hand-drawn crayon-style lettering; only the small text is typewriter.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "minimalism_art-fete-v2": {
+  "faces": [
+   "Sofia Sans Extra Condensed 800",
+   "Inter Tight 500"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "minimalism_art-gig-v2": {
+  "faces": [
+   "Overpass 600",
+   "Geist 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "monochrome_single_accent-fete-v2": {
+  "faces": [
+   "Smooch Sans 800",
+   "Radio Canada 700 wdth75"
+  ],
+  "fault_outlook": "Fixable: the four small lines are measured as two bands; splitting stacked small lines would fix it.",
+  "faults": "The date and venue are split across the wrong lines and set small.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "monochrome_single_accent-gig-v2": {
+  "faces": [
+   "Special Gothic 700 wdth75",
+   "Fira Sans Condensed",
+   "Saira 900 wdth50"
+  ],
+  "fault_outlook": "Fixable: the huge green FLOOD is classed as solid artwork; detection needs a size-aware test.",
+  "faults": "The headline is split CARVER & THE / FLOOD and the original green FLOOD is left in the artwork.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "nasa_worm_modernist-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "A dense grid of small labels in several columns, with annotations set among the copy; the aligner could not separate copy from labels.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "nasa_worm_modernist-gig-v2": {
+  "faces": [
+   "Anton",
+   "Roboto Condensed"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "neon_sign-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Neon-tube script lettering: outlined glowing strokes, not a solid font.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "neon_sign-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Neon-tube script lettering: outlined glowing strokes, not a solid font.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "neue_sachlichkeit-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The attractions list sits on the photograph of grass, so the ground behind it cannot be repainted; a skip by the type-on-imagery rule.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "neue_sachlichkeit-gig-v2": {
+  "faces": [
+   "Bebas Neue",
+   "Impact",
+   "Caveat"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the headline is straight on a banner tilted 7 degrees, which --tilted levels correctly, but its big grainy white letters on red are rejected as having no shared baseline -- the grain breaks off specks that outvote the letters. A speck-tolerant baseline test fixed this poster but broke five others, so it waits for a better one.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "new_wave_typography-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Giant overlapping letters broken by photo and colour blocks, with small type inside boxes; the letters are fragments, not lines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "new_wave_typography-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is giant overlapping letters, cropped and interrupted by a photograph; not resettable as lines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "north_korean_propaganda-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is Korean hangul, which the copy does not contain, over a painted scene.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "north_korean_propaganda-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is Korean hangul, which the copy does not contain, over a painted scene.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "op_art-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type panel is surrounded by a dense moire of stripes that defeats line-finding: only 2 bands were found, even with the pattern excluded.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "op_art-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The concentric stripe pattern defeats line-finding; even with everything outside the text panel excluded, the small lines were not found.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "orphism-fete-v2": {
+  "faces": [
+   "Reddit Sans 800",
+   "Vazirmatn 800"
+  ],
+  "fault_outlook": "Fixable: blanking small light type on a coloured bar needs the bar's colour, not the paper's.",
+  "faults": "Minor: the beneficiary is the original's own pixels, not reset type -- reset, it ghosted on the red bar.",
+  "not_reset": [
+   "In aid of St. Peter's Church Restoration Fund"
+  ],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "orphism-gig-v2": {
+  "faces": [
+   "Freeman",
+   "Francois One"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "each letter a different colour"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "pennsylvania_dutch-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-painted Fraktur lettering set into folk-art cartouches.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pennsylvania_dutch-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-painted Fraktur lettering set into folk-art cartouches.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "penny_dreadful-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Distressed woodtype and a list boxed into the engraving; only four copy lines found any band (alignment 1.87).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "penny_dreadful-gig-v2": {
+  "faces": [
+   "Imbue 900",
+   "Spicy Rice"
+  ],
+  "fault_outlook": "Probably a dead end for those fragments: the letters and the engraving share strokes.",
+  "faults": "Minor: small fragments of the original support line survive round the reset one, where its letters fuse with the hatching.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pixel_art-fete-v2": {
+  "faces": [
+   "Jersey 20",
+   "Jersey 25"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pixel_art-gig-v2": {
+  "faces": [
+   "Rozha One",
+   "Luckiest Guy",
+   "Bebas Neue"
+  ],
+  "fault_outlook": "Fixable: add a magenta ink mask and a pixel font such as Silkscreen to the shortlists.",
+  "faults": "The magenta FLOOD was never detected, so the headline splits wrongly and loses its colours, and the pixel lettering is set in ordinary faces.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "polish_poster_school-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The small type is painted onto a brushy painted ground beside the painted ferret; type on a painting is a skip (alignment 0.66).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "polish_poster_school-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The small type is painted onto a brushy red painted ground, and the tall condensed headline's second part is never found; type on a painting is a skip.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pop_art-fete-v2": {
+  "faces": [
+   "Sofia Sans Extra Condensed 900",
+   "Geologica 900"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate",
+    "why": "comic lettering with a heavy outline and drop shadow, slanted"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "pop_art-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the outlined, drop-shadowed comic headline and panelled date are not found; only 7 bands for 8 copy lines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pre_raphaelite-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Ornate hand-lettered title over a painting; the smaller type sits on the painted ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "pre_raphaelite-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Ornate hand-lettered title over a painting; the smaller type sits on the painted ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "psychedelic_seventies_corporate-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the outlined, shadowed rounded title is never detected as type, so its copy lands on the date.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "psychedelic_seventies_corporate-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the outlined, shadowed headline merges into one band with its ground; only 4 bands found for 8 copy lines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "psychedelic_sixties-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The lettering is hand-drawn psychedelic type, warped to fill its shapes; its style is its lettering, so a font reset would be a clean, wrong poster.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "psychedelic_sixties-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-drawn, warped psychedelic lettering that fills and follows its shapes; not font-like type.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "punk_fanzine-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Cut-and-paste ransom-note lettering and photocopy texture; every word is its own scrap.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "punk_fanzine-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is a ransom-note paste-up: every letter is a separate scrap cut from a different source, at its own angle and size, mixed black-on-white and white-on-black. Measured, 13 of its rows share no baseline and 12 are single isolated glyphs. The lower text is font-like, but it sits on torn strips over a photocopied texture that cannot be separated from it, and the cut-up lettering is what the style is.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "push_pin_studios-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered display type integrated into the illustration, by the style definition not a digital font.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "push_pin_studios-gig-v2": {
+  "faces": [
+   "Imbue 500"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "psychedelic hand-drawn lettering woven into the illustration"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "rave_acid_graphics-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome and outlined hand-drawn display lettering over a busy smiley-face graphic; the headline is illustrated, not typeset.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "rave_acid_graphics-gig-v2": {
+  "faces": [
+   "Sofia Sans Semi Condensed 900 italic",
+   "Zalando Sans 900 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [
+   "Pale Light Promotions presents:",
+   "with support from Mena Grace"
+  ],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "melting psychedelic lettering with outlines"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "reggae_sound_system-fete-v2": {
+  "faces": [
+   "Lexend 900"
+  ],
+  "fault_outlook": "Fixable: blanking should stop at the neighbouring line's ink.",
+  "faults": "Minor: the attractions list and title are the original's pixels; the end of 'Local craft and maker stalls' is smudged where a reset line's blanking reached it.",
+  "not_reset": [
+   "Attractions:",
+   "Grand tombola",
+   "Homemade cakes, jams and preserves",
+   "BBQ and refreshments",
+   "Plant and produce stall",
+   "Children's games and bouncy castle",
+   "Ferret racing",
+   "Live folk music from The Muddy Boots",
+   "Local craft and maker stalls"
+  ],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate",
+    "why": "painted, outlined lettering in three colours, bent to an arch"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "reggae_sound_system-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-lettered, stencil-cut display type with outlines and drop shadows.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "risograph-fete-v2": {
+  "faces": [
+   "League Gothic",
+   "BBH Bogle",
+   "Staatliches"
+  ],
+  "fault_outlook": "Fixable: splitting copy across wrapped lines should follow the original's line widths.",
+  "faults": "Two list items and the footer wrap at the wrong words.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "risograph-gig-v2": {
+  "faces": [
+   "Oswald 700",
+   "Truculenta 900 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "printed over the microphone: a reset left a ghost R and scarred the mic"
+   },
+   {
+    "text": "with support from Mena Grace",
+    "why": "two sizes on one line, which the band finder takes as one band"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "scandinavian_rosemaling-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-painted scroll lettering flowing within the decorative painting.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "scandinavian_rosemaling-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Hand-painted scroll lettering flowing within the decorative painting.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "school_cutout_collage-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Cut-out paper letters on uneven baselines; every letter is its own scrap.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "school_cutout_collage-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Cut-out paper letters on uneven baselines; every letter is its own scrap.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "screenprint_pop-fete-v2": {
+  "faces": [
+   "Smooch Sans 800",
+   "Zalando Sans 900 wdth75",
+   "Alexandria 900"
+  ],
+  "fault_outlook": "Fixable: the list's bands are fragmented by the halftone; --assign from the overlay would place them.",
+  "faults": "The attractions list is on the wrong lines over the halftone.",
+  "not_reset": [
+   "In aid of St. Peter's Church Restoration Fund",
+   "BBQ and refreshments",
+   "Organised by Brindlewick Village Community Association."
+  ],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "screenprint_pop-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Most lines sit in coloured bands and panels over halftone texture; the support and ticket lines were never found. Tool limitation.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "shanghai_yuefenpai-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the title sits in an ornamented banner and the copy in decorative frames; the aligner could not place it (alignment 1.28).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "shanghai_yuefenpai-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the headline merges with the painting beside it into one band, and the copy sits in an ornamented frame (alignment 0.55).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "skateboard_graphics-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Custom spiky and dripping graffiti-style lettering with outlines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "skateboard_graphics-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Custom spiky and dripping graffiti-style lettering with outlines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "soviet_propaganda-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The date and venue run on a diagonal banner across the flag, and the title is slightly tilted.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "soviet_propaganda-gig-v2": {
+  "faces": [
+   "Questrial"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The type is printed over a heavily distressed, aged ground: measured, the background between the letters is 6.5 against 0.03 for a poster with flat ground, and masking the type found 839 letter-sized specks of texture it could not tell from glyphs. The headline also runs across a waving banner in perspective, which no straight baseline can reproduce.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "soviet_space-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the date is broken up and reordered around a giant red 6 (6 / SEPTEMBER / SATURDAY / 12 NOON - 5PM), which the aligner cannot match to the copy.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "soviet_space-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The presenter sits below the headline and a large 19 IX date block is read as a line. Tool limitation, possibly recoverable now the presenter may move.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "stamp_letterpress_modern-fete-v2": {
+  "faces": [
+   "Alumni Sans Inline One",
+   "Solway 800"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [
+   "Attractions:"
+  ],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "stamp_letterpress_modern-gig-v2": {
+  "faces": [
+   "Road Rage",
+   "Imbue 600"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "worn letterpress ink texture in two colours"
+   }
+  ],
+  "tilted": [],
+  "vector": false
+ },
+ "streamline_moderne-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Italic display type on dark paper broke into fragments; the title was measured at a fraction of its size. Tool limitation: dark-paper italic headlines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "streamline_moderne-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Italic white headline over a speed-line illustration on dark paper; the headline was never found as one band. Tool limitation: dark-paper italic headlines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "suprematism-fete-v2": {
+  "faces": [
+   "Karantina",
+   "Bebas Neue"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "suprematism-gig-v2": {
+  "faces": [
+   "Sofia Sans Condensed 700",
+   "Big Shoulders 900",
+   "Sofia Sans Condensed 800"
+  ],
+  "fault_outlook": "Fixable: the repaint fits one straight edge per tile; where the bar, the square and the paper all meet under a letter it needs two.",
+  "faults": "Minor: where FLOOD crosses the red bar and the black square, the repainted edges are rough, and a red fleck is left by the D.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [
+   13.7
+  ],
+  "vector": false
+ },
+ "surrealist-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The attractions are run together two or three to a line with bullets. Tool limitation: the aligner puts only one copy line on a band.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "surrealist-gig-v2": {
+  "faces": [
+   "Gentium Plus",
+   "Girassol"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "swiss_international-fete-v2": {
+  "faces": [
+   "Zalando Sans 600",
+   "Yantramanav 700",
+   "Overpass"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": true
+ },
+ "swiss_international-gig-v2": {
+  "faces": [
+   "Barlow Condensed Bold",
+   "TeXGyreHerosCn Bold",
+   "TeXGyreHeros"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": true
+ },
+ "synthwave-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome, bevelled and neon-outlined display type on a glowing dark ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "synthwave-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome, bevelled and neon-outlined display type on a glowing dark ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "taisho_modern-fete-v2": {
+  "faces": [
+   "Anton",
+   "Ancizar Serif 700",
+   "Qahiri",
+   "Rosario 700"
+  ],
+  "fault_outlook": "Fixable: blanking should stay inside the letters where type overlaps a figure.",
+  "faults": "The venue line is garbled where it crosses the figure's hand.",
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "taisho_modern-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Tool limitation: the headline is stacked over four bands (CARVER / &amp; / THE / FLOOD) and a copy line may span at most three.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "ukiyo_e_woodblock-fete-v2": {
+  "faces": [
+   "Futura",
+   "EB Garamond",
+   "Enriqueta"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The title is brush lettering that no typeface matches, and it sits on a graded woodblock sky that cannot be repainted exactly: every rebuild left pale smears where the letters were. The small type in the panel converts, but a fete poster reset around a smeared title is worse than the original.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "ukiyo_e_woodblock-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The text is tiny and set into the wave print beside vertical katakana; the headline merges into one band and the small lines fall on the wave (alignment 0.46).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vaporwave-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome, glitched and double-exposed display type over a gradient scene.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vaporwave-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome, glitched and double-exposed display type over a gradient scene.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "victorian_broadside-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Distressed wood type with a different face on every line, and the title was never found as type (alignment 0.57); broadside style is its lettering.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "victorian_broadside-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is ornamented, distressed wood type with a different decorative face per word; resetting it in fonts would lose the style.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vienna_secession-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Every line sits inside an ornamental frame whose fine gilt detail swamps line-finding (alignment cost 2.2); the lettering is also part of the decorative scheme.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vienna_secession-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Every line sits inside ornamental frame bands, which merge with the headline and presenter (alignment 0.52).",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vorticism-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Every line of type is rotated into the diagonal wedge composition; the builder sets only level baselines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "vorticism-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Every line of type is rotated into the diagonal wedge composition; the builder sets only level baselines.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "wayfinding_signage-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "A short second column of labels never shares a row with the list, so column detection cannot see it, and three-line labels wrap at mixed sizes. Tool limitation.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "wayfinding_signage-gig-v2": {
+  "faces": [
+   "Anton",
+   "Barlow Condensed Bold"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "hand-built",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "wpa_new_deal-fete-v2": {
+  "faces": [
+   "Sofia Sans Condensed 900",
+   "Chiron Hei HK 900",
+   "Radio Canada 700 wdth75"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "wpa_new_deal-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The ticket lines are cream type knocked out of a red panel, which is measured as one giant red line. Tool limitation: coloured panels read as type.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "y2k_chrome-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome and gradient-filled inflated lettering on a glossy rendered ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "y2k_chrome-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Chrome and gradient-filled inflated lettering on a glossy rendered ground.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "zagreb_school_animation-fete-v2": {
+  "faces": [
+   "Big Shoulders 800",
+   "Sofia Sans Extra Condensed 700",
+   "Khand 600",
+   "Asap Condensed 500"
+  ],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "zagreb_school_animation-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "The headline is hand-cut, animation-cel lettering with angular, irregular strokes; the solver never detected it as type (only 6 of 8 copy lines found any band), and resetting it in a font would lose the style's point.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "zine_cut_and_paste-fete-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Photocopied cut-and-paste zine: typewriter scraps, handwriting and stamps at odd angles.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ },
+ "zine_cut_and_paste-gig-v2": {
+  "faces": [],
+  "fault_outlook": null,
+  "faults": null,
+  "not_reset": [],
+  "skip_reason": "Photocopied cut-and-paste zine: typewriter scraps, handwriting and stamps at odd angles.",
+  "status": "skipped",
+  "text_as_bitmap": [],
+  "tilted": [],
+  "vector": false
+ }
+}

@@ -4,6 +4,59 @@
      aria-label="stamp letterpress modern gig poster">
   <title>stamp letterpress modern gig poster</title>
   <desc>Pale Light Promotions presents: / CARVER &amp; THE FLOOD / with support from Mena Grace / Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ / Tickets: &#163;12 advance / &#163;15 on the door / Available from The Anchor Rooms bar or pallightpro.co.uk / All ages. Bar until midnight.</desc>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": null,
+ "fault_verdict": null,
+ "fault_outlook": null,
+ "skip_reason": null,
+ "text_as_bitmap": [
+  {
+   "lines": [
+    "headliner"
+   ],
+   "text": "CARVER & THE FLOOD",
+   "box": [
+    20,
+    130,
+    1004,
+    460
+   ],
+   "why": "worn letterpress ink texture in two colours"
+  }
+ ],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Road Rage",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "PALE LIGHT PROMOTIONS PRESENTS:",
+    "WITH SUPPORT FROM MENA GRACE",
+    "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+    "TICKETS: \u00a312 ADVANCE / \u00a315 ON THE DOOR",
+    "AVAILABLE FROM THE ANCHOR ROOMS BAR OR PALLIGHTPRO.CO.UK",
+    "ALL AGES. BAR UNTIL MIDNIGHT."
+   ]
+  },
+  {
+   "family": "Imbue",
+   "style": "600",
+   "weight": 600,
+   "text": [
+    "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 304484,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

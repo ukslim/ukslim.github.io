@@ -3,6 +3,54 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="pixel art gig poster">
   <title>pixel art gig poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "The magenta FLOOD was never detected, so the headline splits wrongly and loses its colours, and the pixel lettering is set in ordinary faces.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: add a magenta ink mask and a pixel font such as Silkscreen to the shortlists.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Rozha One",
+   "style": "Regular",
+   "weight": 400,
+   "text": [
+    "PALE LIGHT PROMOTIONS PRESENTS:",
+    "WITH SUPPORT FROM MENA GRACE",
+    "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM",
+    "TICKETS: \u00a312 ADVANCE / \u00a315 ON THE DOOR",
+    "AVAILABLE FROM THE ANCHOR ROOMS BAR OR PALLIGHTPRO.CO.UK",
+    "ALL AGES. BAR UNTIL MIDNIGHT."
+   ]
+  },
+  {
+   "family": "Luckiest Guy",
+   "style": "Regular",
+   "weight": 400,
+   "text": [
+    "CARVER & THE",
+    "FLOOD"
+   ]
+  },
+  {
+   "family": "Bebas Neue",
+   "style": "Regular",
+   "weight": 400,
+   "text": [
+    "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 159240,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

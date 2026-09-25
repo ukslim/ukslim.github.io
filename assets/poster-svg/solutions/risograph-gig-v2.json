@@ -25,7 +25,8 @@
     70,
     1010,
     770
-   ]
+   ],
+   "why": "printed over the microphone: a reset left a ghost R and scarred the mic"
   },
   {
    "keys": [
@@ -36,7 +37,8 @@
     800,
     560,
     990
-   ]
+   ],
+   "why": "two sizes on one line, which the band finder takes as one band"
   }
  ],
  "copy": [
@@ -3954,8 +3956,8 @@
   ],
   "tilted": [],
   "art": [
-   "headliner@0,70,1010,770",
-   "support@0,800,560,990"
+   "headliner@0,70,1010,770@printed over the microphone: a reset left a ghost R and scarred the mic",
+   "support@0,800,560,990@two sizes on one line, which the band finder takes as one band"
   ]
  }
 }

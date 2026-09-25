@@ -3,6 +3,67 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="risograph fete poster">
   <title>risograph fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "Two list items and the footer wrap at the wrong words.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: splitting copy across wrapped lines should follow the original's line widths.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "League Gothic",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "BRINDLEWICK",
+    "VILLAGE F\u00caTE"
+   ]
+  },
+  {
+   "family": "BBH Bogle",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM"
+   ]
+  },
+  {
+   "family": "Staatliches",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+    "IN AID OF ST. PETER'S CHURCH",
+    "RESTORATION FUND",
+    "ATTRACTIONS:",
+    "GRAND TOMBOLA",
+    "HOMEMADE CAKES, JAMS",
+    "AND PRESERVES",
+    "BBQ AND REFRESHMENTS",
+    "PLANT AND PRODUCE STALL",
+    "CHILDREN'S GAMES AND BOUNCY CASTLE",
+    "FERRET RACING",
+    "LIVE FOLK MUSIC FROM",
+    "THE MUDDY BOOTS",
+    "LOCAL CRAFT AND",
+    "MAKER STALLS",
+    "FREE ENTRY. ALL",
+    "WELCOME.",
+    "ORGANISED BY BRINDLEWICK",
+    "VILLAGE COMMUNITY ASSOCIATION."
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 218998,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

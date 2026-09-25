@@ -3,6 +3,17 @@
      viewBox="0 0 1024 1536" role="img"
      aria-label="Not converted to SVG. The headline is brush-drawn, not set. Every letter is an individual stroke: the two R's of CARVER differ in width, angle and terminal, the A is asymmetric, and the edges are ragged where the brush ran dry, so no typeface can stand in for it without replacing the poster's whole character. The silkscreened fist is drawn by the same hand and overlaps the lettering (the ticket crosses the R), so the artwork cannot be cut out from behind the type either. Measured, the solver finds only 4 text bands where the copy needs 8, because the strokes merge into each other and into the illustration. This is a limit of resetting drawn lettering as type, not of the poster.">
   <title>Not converted to SVG &#8212; atelier_populaire &#8212; gig poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "skipped",
+ "faults": null,
+ "fault_verdict": null,
+ "fault_outlook": null,
+ "skip_reason": "The headline is brush-drawn, not set. Every letter is an individual stroke: the two R's of CARVER differ in width, angle and terminal, the A is asymmetric, and the edges are ragged where the brush ran dry, so no typeface can stand in for it without replacing the poster's whole character. The silkscreened fist is drawn by the same hand and overlaps the lettering (the ticket crosses the R), so the artwork cannot be cut out from behind the type either. Measured, the solver finds only 4 text bands where the copy needs 8, because the strokes merge into each other and into the illustration. This is a limit of resetting drawn lettering as type, not of the poster.",
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <style type="text/css"><![CDATA[
     text { font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue",
             Arial, sans-serif; fill: #2B2B2B; }

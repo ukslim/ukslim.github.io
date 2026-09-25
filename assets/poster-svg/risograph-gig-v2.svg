@@ -4,6 +4,71 @@
      aria-label="risograph gig poster">
   <title>risograph gig poster</title>
   <desc>Pale Light Promotions presents: / CARVER &amp; THE FLOOD / with support from Mena Grace / Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ / Tickets: &#163;12 advance / &#163;15 on the door / Available from The Anchor Rooms bar or pallightpro.co.uk / All ages. Bar until midnight.</desc>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": null,
+ "fault_verdict": null,
+ "fault_outlook": null,
+ "skip_reason": null,
+ "text_as_bitmap": [
+  {
+   "lines": [
+    "headliner"
+   ],
+   "text": "CARVER & THE FLOOD",
+   "box": [
+    0,
+    70,
+    1010,
+    770
+   ],
+   "why": "printed over the microphone: a reset left a ghost R and scarred the mic"
+  },
+  {
+   "lines": [
+    "support"
+   ],
+   "text": "with support from Mena Grace",
+   "box": [
+    0,
+    800,
+    560,
+    990
+   ],
+   "why": "two sizes on one line, which the band finder takes as one band"
+  }
+ ],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Oswald",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "Pale Light Promotions presents:",
+    "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "Tickets: \u00a312 advance / \u00a315 on the door",
+    "Available from The Anchor Rooms bar or pallightpro.co.uk",
+    "All ages. Bar until midnight."
+   ]
+  },
+  {
+   "family": "Truculenta",
+   "style": "900 wdth75",
+   "weight": 900,
+   "text": [
+    "Friday 19th September, doors 7:30pm"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 310672,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

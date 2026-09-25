@@ -3,6 +3,63 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="mid century modern graphic fete poster">
   <title>mid century modern graphic fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "Fete in its accent colour runs into Village, and the two-line white date is set small.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: the accent word should be placed after its line, not at its own measured origin; the date's two lines are merged into one band.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Truculenta",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "BRINDLEWICK",
+    "Village",
+    "F\u00eate",
+    "Saturday 6th September, 12 noon \u2013 5pm",
+    "Free entry. All welcome.",
+    "Organised by Brindlewick Village Community Association."
+   ]
+  },
+  {
+   "family": "Stick No Bills",
+   "style": "500",
+   "weight": 500,
+   "text": [
+    "Brindlewick Cricket Club,",
+    "Hawthorn Lane, Brindlewick",
+    "In aid of St. Peter's Church Restoration Fund",
+    "Grand tombola",
+    "Homemade cakes, jams and preserves",
+    "BBQ and refreshments",
+    "Plant and produce stall",
+    "Children's games and bouncy castle",
+    "Ferret racing",
+    "Live folk music from The Muddy Boots",
+    "Local craft and maker stalls"
+   ]
+  },
+  {
+   "family": "Hind Mysuru",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "ATTRACTIONS:"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 47636,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

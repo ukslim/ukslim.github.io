@@ -8,7 +8,9 @@ description: "Each example poster beside its SVG rebuild: the artwork cut out of
 {%- comment -%}
 Every V2 example beside its SVG rebuild from assets/poster-svg/. Some SVGs
 carry a "flawed" alert icon, and some are "could not convert" placeholders;
-both are shown as they are.
+both are shown as they are. The notes under each pair come from the metadata
+each SVG carries, gathered into _data/poster_svg.json by the poster-to-svg
+manifest tool (see "Poster prompts subsite" in AGENTS.md).
 {%- endcomment -%}
 
 <p>
@@ -74,7 +76,8 @@ both are shown as they are.
 </p>
 
 <p>
-  Anyway, scroll through and judge for yourself.
+  Anyway, scroll through and judge for yourself. Under each pair are notes the conversion recorded about itself: known faults,
+  lettering it kept as the original's pixels and why, and the typefaces it chose.
 </p>
 
 
@@ -93,14 +96,15 @@ both are shown as they are.
 {% include poster_styles_ordered.html %}
 {% assign events = "fete,gig" | split: "," %}
 {%- comment -%} Converted pairs first, then the "no SVG version" placeholders
-listed in _data/poster_svg_skipped.yaml. {%- endcomment %}
+(status "skipped" in _data/poster_svg.json). {%- endcomment %}
 {% assign passes = "converted,skipped" | split: "," %}
 {% for pass in passes %}
 {% for style in ordered_styles %}
 {% assign slug = style.id | replace: '_', '-' %}
 {% for event in events %}
 {% assign base = style.id | append: '-' | append: event | append: '-v2' %}
-{% if site.data.poster_svg_skipped contains base %}{% assign kind = "skipped" %}{% else %}{% assign kind = "converted" %}{% endif %}
+{% assign info = site.data.poster_svg[base] %}
+{% if info.status == "skipped" %}{% assign kind = "skipped" %}{% else %}{% assign kind = "converted" %}{% endif %}
 {% if kind != pass %}{% continue %}{% endif %}
   <figure class="svg-pair" data-mode="side" data-showing="original"
           data-thumb="/assets/poster-thumbnails/{{ base }}.jpg">
@@ -128,6 +132,21 @@ listed in _data/poster_svg_skipped.yaml. {%- endcomment %}
         <span class="svg-pair-label">SVG</span>
       </div>
     </div>
+    {%- comment -%} A skipped poster's placeholder already says why. {%- endcomment -%}
+    {%- capture notes -%}
+      {%- if kind == "converted" -%}
+      {%- if info.faults %}<li class="svg-note-fault"><strong>Known fault:</strong> {{ info.faults | escape }}{% if info.fault_outlook %} <span class="svg-note-aside">{{ info.fault_outlook | escape }}</span>{% endif %}</li>{% endif -%}
+      {%- for art in info.text_as_bitmap %}<li><strong>Kept as the original's pixels:</strong> &ldquo;{{ art.text | escape }}&rdquo;{% if art.why %} &mdash; {{ art.why | escape }}{% endif %}</li>{% endfor -%}
+      {%- if info.not_reset.size > 0 %}<li><strong>Not reset:</strong> {% for t in info.not_reset %}&ldquo;{{ t | escape }}&rdquo;{% unless forloop.last %}, {% endunless %}{% endfor %} <span class="svg-note-aside">(missing from the poster, or left in the artwork)</span></li>{% endif -%}
+      {%- for angle in info.tilted %}<li>Some lines set on a {{ angle }}&deg; slant.</li>{% endfor -%}
+      {%- if info.vector %}<li>Artwork redrawn as vector shapes: no bitmap at all.</li>{% endif -%}
+      {%- if info.status == "hand-built" %}<li>Built by hand in an early exploratory session, before the tool existed.</li>{% endif -%}
+      {%- if info.faces.size > 0 %}<li><strong>Typefaces:</strong> {{ info.faces | join: ", " | escape }}</li>{% endif -%}
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- if notes != "" %}
+    <ul class="svg-notes">{{ notes }}</ul>
+    {%- endif %}
   </figure>
 {% endfor %}
 {% endfor %}

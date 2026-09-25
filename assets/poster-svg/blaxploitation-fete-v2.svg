@@ -4,6 +4,74 @@
      aria-label="blaxploitation fete poster">
   <title>blaxploitation fete poster</title>
   <desc>Brindlewick Village F&#234;te / Saturday 6th September, 12 noon &#8211; 5pm / Brindlewick Cricket Club, Hawthorn Lane, Brindlewick / In aid of St. Peter's Church Restoration Fund / Attractions: / Grand tombola / Homemade cakes, jams and preserves / BBQ and refreshments / Plant and produce stall / Children's games and bouncy castle / Ferret racing / Live folk music from The Muddy Boots / Local craft and maker stalls / Free entry. All welcome. / Organised by Brindlewick Village Community Association.</desc>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "The list item Ferret racing and the Organised-by footer are missing: neither was detected, and both were blanked with their neighbours.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: a line of copy that gets no band should keep its pixels rather than be swept.",
+ "skip_reason": null,
+ "text_as_bitmap": [
+  {
+   "lines": [
+    "title"
+   ],
+   "text": "Brindlewick Village F\u00eate",
+   "box": [
+    20,
+    30,
+    1004,
+    260
+   ],
+   "why": "painted, textured lettering with a drawn drop shadow"
+  }
+ ],
+ "not_reset": [
+  {
+   "line": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "line": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Spicy Rice",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "Saturday 6th September, 12 noon \u2013 5pm"
+   ]
+  },
+  {
+   "family": "Bricolage Grotesque",
+   "style": "800 wdth75",
+   "weight": 800,
+   "text": [
+    "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
+    "In aid of St. Peter's Church",
+    "Restoration Fund",
+    "Attractions:",
+    "Grand tombola",
+    "Homemade cakes, jams and preserves",
+    "BBQ and refreshments",
+    "Plant and produce stall",
+    "Children's games and bouncy castle",
+    "Live folk music from The Muddy Boots",
+    "Local craft and maker stalls",
+    "Free entry. All welcome."
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 165508,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

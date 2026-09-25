@@ -4,6 +4,59 @@
      aria-label="german expressionist film gig poster">
   <title>german expressionist film gig poster</title>
   <desc>Pale Light Promotions presents: / CARVER &amp; THE FLOOD / with support from Mena Grace / Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ / Tickets: &#163;12 advance / &#163;15 on the door / Available from The Anchor Rooms bar or pallightpro.co.uk / All ages. Bar until midnight.</desc>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": null,
+ "fault_verdict": null,
+ "fault_outlook": null,
+ "skip_reason": null,
+ "text_as_bitmap": [
+  {
+   "lines": [
+    "headliner",
+    "support"
+   ],
+   "text": "CARVER & THE FLOOD / with support from Mena Grace",
+   "box": [
+    60,
+    80,
+    1000,
+    700
+   ],
+   "why": "hand-drawn angular lettering, warped to the composition's diagonals"
+  }
+ ],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Teko",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "Pale Light Promotions presents:",
+    "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "Tickets: \u00a312 advance / \u00a315 on the door",
+    "Available from The Anchor Rooms bar or pallightpro.co.uk",
+    "All ages. Bar until midnight."
+   ]
+  },
+  {
+   "family": "League Gothic",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "Friday 19th September, doors 7:30pm"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 107620,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

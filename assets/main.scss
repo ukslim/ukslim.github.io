@@ -601,6 +601,21 @@
     margin-top: 0.25rem;
   }
 
+  // What the conversion recorded about itself (the SVG's metadata).
+  .svg-notes {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: #333;
+
+    li { margin: 0.15rem 0; }
+  }
+
+  .svg-note-fault { color: #8a1c1c; }
+
+  .svg-note-aside { color: #666; }
+
   // Click to flip: the two images share one cell, sized so a poster fits the
   // window, and a badge says which one is showing. Set per pair.
   .svg-pair[data-mode="flip"] {

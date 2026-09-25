@@ -3,6 +3,72 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="contemporary flat illustration fete poster">
   <title>contemporary flat illustration fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "A ghost of FREE ENTRY. ALL WELCOME. remains in the artwork, and the pavilion under the jar is smudged.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Probably fixable by re-converting with the current tools, which blank only the lines they reset.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [
+  {
+   "line": "attractions_label",
+   "text": "Attractions:"
+  }
+ ],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Anton",
+   "style": "Regular",
+   "weight": 400,
+   "text": [
+    "BRINDLEWICK",
+    "VILLAGE F\u00caTE"
+   ]
+  },
+  {
+   "family": "Barlow Condensed",
+   "style": "Bold",
+   "weight": 700,
+   "text": [
+    "Saturday 6th September, 12 noon \u2013 5pm"
+   ]
+  },
+  {
+   "family": "Oswald",
+   "style": "Medium",
+   "weight": 500,
+   "text": [
+    "In aid of St. Peter's Church Restoration Fund",
+    "Grand tombola",
+    "Homemade cakes, jams and preserves",
+    "BBQ and refreshments",
+    "Plant and produce stall",
+    "Children's games and bouncy castle",
+    "Ferret racing",
+    "Live folk music from The Muddy Boots",
+    "Local craft and maker stalls",
+    "FREE ENTRY. ALL WELCOME.",
+    "Organised by Brindlewick Village Community Association."
+   ]
+  },
+  {
+   "family": "Inter",
+   "style": "Regular",
+   "weight": 200,
+   "text": [
+    "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 44826,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

@@ -26,7 +26,8 @@
     840,
     1000,
     1000
-   ]
+   ],
+   "why": "set over light beams that cannot be repainted behind the letters"
   }
  ],
  "copy": [
@@ -2836,7 +2837,7 @@
   "case": [],
   "tilted": [],
   "art": [
-   "headliner@30,840,1000,1000"
+   "headliner@30,840,1000,1000@set over light beams that cannot be repainted behind the letters"
   ]
  }
 }

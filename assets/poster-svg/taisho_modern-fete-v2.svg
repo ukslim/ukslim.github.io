@@ -3,6 +3,68 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="taisho modern fete poster">
   <title>taisho modern fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "The venue line is garbled where it crosses the figure's hand.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: blanking should stay inside the letters where type overlaps a figure.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Anton",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "BRINDLEWICK",
+    "VILLAGE F\u00caTE"
+   ]
+  },
+  {
+   "family": "Ancizar Serif",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "Saturday 6th September, 12 noon \u2013 5pm",
+    "Attractions:",
+    "Grand tombola",
+    "Homemade cakes, jams and preserves",
+    "BBQ and refreshments",
+    "Plant and produce stall",
+    "Children's games and bouncy castle",
+    "Ferret racing",
+    "Live folk music from The Muddy Boots",
+    "Local craft and maker stalls"
+   ]
+  },
+  {
+   "family": "Qahiri",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+   ]
+  },
+  {
+   "family": "Rosario",
+   "style": "700",
+   "weight": 700,
+   "text": [
+    "In aid of St. Peter's Church Restoration Fund",
+    "Free entry. All welcome.",
+    "Organised by Brindlewick Village Community Association."
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 116174,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

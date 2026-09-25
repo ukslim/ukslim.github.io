@@ -3,6 +3,54 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="monochrome single accent gig poster">
   <title>monochrome single accent gig poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "The headline is split CARVER & THE / FLOOD and the original green FLOOD is left in the artwork.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: the huge green FLOOD is classed as solid artwork; detection needs a size-aware test.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Special Gothic",
+   "style": "700 wdth75",
+   "weight": 700,
+   "text": [
+    "Pale Light Promotions presents:",
+    "with support from Mena Grace",
+    "Friday 19th September, doors 7:30pm",
+    "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "All ages. Bar until midnight."
+   ]
+  },
+  {
+   "family": "Fira Sans Condensed",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "Tickets: \u00a312 advance / \u00a315 on the door",
+    "Available from The Anchor Rooms bar or pallightpro.co.uk"
+   ]
+  },
+  {
+   "family": "Saira",
+   "style": "900 wdth50",
+   "weight": 900,
+   "text": [
+    "CARVER & THE",
+    "FLOOD"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 5614,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

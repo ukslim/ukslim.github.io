@@ -3,6 +3,63 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="act up aids fete poster">
   <title>act up aids fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "Minor: small pink fragments of the ferret's feet are left where they touch the top of BRINDLEWICK.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: blanking should stop at the artwork a letter touches rather than repaint part of it.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Anton",
+   "style": "400",
+   "weight": 400,
+   "text": [
+    "BRINDLEWICK",
+    "VILLAGE F\u00caTE"
+   ]
+  },
+  {
+   "family": "Zalando Sans",
+   "style": "900 wdth75",
+   "weight": 900,
+   "text": [
+    "SATURDAY 6TH SEPTEMBER,",
+    "12 NOON \u2013 5PM",
+    "BRINDLEWICK CRICKET CLUB,",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ]
+  },
+  {
+   "family": "Cairo",
+   "style": "900",
+   "weight": 900,
+   "text": [
+    "IN AID OF ST. PETER'S CHURCH RESTORATION FUND",
+    "ATTRACTIONS:",
+    "GRAND TOMBOLA",
+    "HOMEMADE CAKES, JAMS AND PRESERVES",
+    "BBQ AND REFRESHMENTS",
+    "PLANT AND PRODUCE STALL",
+    "CHILDREN'S GAMES AND BOUNCY CASTLE",
+    "FERRET RACING",
+    "LIVE FOLK MUSIC FROM THE MUDDY BOOTS",
+    "LOCAL CRAFT AND MAKER STALLS",
+    "FREE ENTRY. ALL WELCOME.",
+    "ORGANISED BY BRINDLEWICK VILLAGE COMMUNITY ASSOCIATION."
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 17520,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

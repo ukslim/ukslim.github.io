@@ -3,6 +3,72 @@
      width="1024" height="1536" viewBox="0 0 1024 1536" role="img"
      aria-label="screenprint pop fete poster">
   <title>screenprint pop fete poster</title>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "The attractions list is on the wrong lines over the halftone.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: the list's bands are fragmented by the halftone; --assign from the overlay would place them.",
+ "skip_reason": null,
+ "text_as_bitmap": [],
+ "not_reset": [
+  {
+   "line": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "line": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "line": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Smooch Sans",
+   "style": "800",
+   "weight": 800,
+   "text": [
+    "BRINDLEWICK",
+    "VILLAGE F\u00caTE"
+   ]
+  },
+  {
+   "family": "Zalando Sans",
+   "style": "900 wdth75",
+   "weight": 900,
+   "text": [
+    "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+    "BRINDLEWICK CRICKET CLUB,",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ]
+  },
+  {
+   "family": "Alexandria",
+   "style": "900",
+   "weight": 900,
+   "text": [
+    "ATTRACTIONS:",
+    "GRAND TOMBOLA",
+    "HOMEMADE CAKES, JAMS AND PRESERVES",
+    "PLANT AND PRODUCE STALL",
+    "Children's games and bouncy castle",
+    "FERRET RACING",
+    "Free entry. All welcome.",
+    "Live folk music from The Muddy Boots",
+    "LOCAL CRAFT AND MAKER STALLS"
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 213192,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->

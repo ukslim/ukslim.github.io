@@ -4,6 +4,90 @@
      aria-label="reggae sound system fete poster">
   <title>reggae sound system fete poster</title>
   <desc>Brindlewick Village F&#234;te / Saturday 6th September, 12 noon &#8211; 5pm / Brindlewick Cricket Club, Hawthorn Lane, Brindlewick / In aid of St. Peter's Church Restoration Fund / Attractions: / Grand tombola / Homemade cakes, jams and preserves / BBQ and refreshments / Plant and produce stall / Children's games and bouncy castle / Ferret racing / Live folk music from The Muddy Boots / Local craft and maker stalls / Free entry. All welcome. / Organised by Brindlewick Village Community Association.</desc>
+  <metadata id="p2svg-meta"><![CDATA[
+{
+ "status": "converted",
+ "faults": "Minor: the attractions list and title are the original's pixels; the end of 'Local craft and maker stalls' is smudged where a reset line's blanking reached it.",
+ "fault_verdict": "fixable",
+ "fault_outlook": "Fixable: blanking should stop at the neighbouring line's ink.",
+ "skip_reason": null,
+ "text_as_bitmap": [
+  {
+   "lines": [
+    "title"
+   ],
+   "text": "Brindlewick Village F\u00eate",
+   "box": [
+    20,
+    20,
+    1004,
+    630
+   ],
+   "why": "painted, outlined lettering in three colours, bent to an arch"
+  }
+ ],
+ "not_reset": [
+  {
+   "line": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "line": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "line": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "line": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "line": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "line": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "line": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "line": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "line": "attraction7",
+   "text": "Local craft and maker stalls"
+  }
+ ],
+ "tilted": [],
+ "faces": [
+  {
+   "family": "Lexend",
+   "style": "900",
+   "weight": 900,
+   "text": [
+    "SATURDAY 6TH SEPTEMBER,",
+    "12 NOON \u2013 5PM",
+    "BRINDLEWICK CRICKET CLUB,",
+    "HAWTHORN LANE, BRINDLEWICK",
+    "IN AID OF ST. PETER'S CHURCH RESTORATION FUND",
+    "FREE ENTRY.",
+    "ALL WELCOME.",
+    "ORGANISED BY BRINDLEWICK VILLAGE COMMUNITY ASSOCIATION."
+   ]
+  }
+ ],
+ "artwork": "mask",
+ "raster_bytes": 198274,
+ "tool": null,
+ "built": null
+}
+  ]]></metadata>
   <defs>
     <!-- Subset to the glyphs used; kerning retained, so the browser sets each
          line itself. No tracking is applied anywhere. -->
