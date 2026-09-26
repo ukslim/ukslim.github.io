@@ -287,20 +287,28 @@
   }
  },
  "big_eyes-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Libre Caslon Text",
+   "Libre Caslon Text 400italic"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "The headline is painted into the picture's dark ground and was never detected as type; the smaller lines sit on the same painted gradient.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "painted into the picture's dark ground"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },
@@ -1823,20 +1831,31 @@
   }
  },
  "hong_kong_cinema-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Barlow Semi Condensed 700"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "Brush-painted title, painted to match the image, over a painted poster ground.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Pale Light Promotions presents: / CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "brush-painted title over a painted poster, with the small lines on the painting"
+   },
+   {
+    "text": "Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "why": "brush-italic display lettering"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },
@@ -2201,20 +2220,27 @@
   }
  },
  "mimeograph-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Special Elite"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "The headline is hand-drawn crayon-style lettering; only the small text is typewriter.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "hand-drawn crayon lettering"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },
@@ -3649,20 +3675,47 @@
   }
  },
  "synthwave-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Rajdhani 500"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "Chrome, bevelled and neon-outlined display type on a glowing dark ground.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Pale Light Promotions presents:",
+    "why": "chrome-gradient script too fine for the band finder"
+   },
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "chrome, bevelled display lettering"
+   },
+   {
+    "text": "Friday 19th September, doors 7:30pm",
+    "why": "gradient-filled display lettering"
+   },
+   {
+    "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "why": "its neon glow defeats measuring and blanking"
+   },
+   {
+    "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
+    "why": "breaks into fragments in the pink glow"
+   },
+   {
+    "text": "with support from Mena Grace",
+    "why": "its neon glow defeats measuring and blanking"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },
@@ -3773,20 +3826,31 @@
   }
  },
  "vaporwave-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Rubik"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "Chrome, glitched and double-exposed display type over a gradient scene.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD",
+    "why": "chrome, glitched display lettering"
+   },
+   {
+    "text": "Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "why": "on the glowing grid, where the band finder cannot find them"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },
@@ -4062,20 +4126,27 @@
   }
  },
  "zagreb_school_animation-gig-v2": {
-  "built": "2026-09-25",
-  "faces": [],
+  "built": "2026-09-26",
+  "faces": [
+   "Sofia Sans Extra Condensed 700"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "The headline is hand-cut, animation-cel lettering with angular, irregular strokes; the solver never detected it as type (only 6 of 8 copy lines found any band), and resetting it in a font would lose the style's point.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-26",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "CARVER & THE FLOOD / with support from Mena Grace",
+    "why": "hand-cut animation-cel lettering, set on a rising slant"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
-   "commit": "01a1629",
-   "date": "2026-09-25",
+   "commit": "ed79b96",
+   "date": "2026-09-26",
    "tag": null
   }
  },

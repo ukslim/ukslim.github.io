@@ -1,0 +1,3074 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/vaporwave-gig-v2.webp",
+ "event": "gig",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#00021D",
+ "assign_points": [
+  "presenter=514,44",
+  "support=517,445",
+  "tickets=511,1439",
+  "ticket_source=511,1474",
+  "footer=506,1513"
+ ],
+ "frames": [],
+ "art": [
+  {
+   "keys": [
+    "headliner"
+   ],
+   "box": [
+    20,
+    70,
+    1004,
+    425
+   ],
+   "why": "chrome, glitched display lettering"
+  },
+  {
+   "keys": [
+    "date",
+    "venue"
+   ],
+   "box": [
+    60,
+    1295,
+    990,
+    1405
+   ],
+   "why": "on the glowing grid, where the band finder cannot find them"
+  }
+ ],
+ "copy": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:"
+  },
+  {
+   "key": "headliner",
+   "text": "CARVER & THE FLOOD"
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace"
+  },
+  {
+   "key": "date",
+   "text": "Friday 19th September, doors 7:30pm"
+  },
+  {
+   "key": "venue",
+   "text": "The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ"
+  },
+  {
+   "key": "tickets",
+   "text": "Tickets: \u00a312 advance / \u00a315 on the door"
+  },
+  {
+   "key": "ticket_source",
+   "text": "Available from The Anchor Rooms bar or pallightpro.co.uk"
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight."
+  }
+ ],
+ "median_texture": 0.7,
+ "alignment": "weak alignment (mean cost 0.45); 5 line(s) assigned by hand",
+ "alignment_cost": 0.448,
+ "lines": [
+  {
+   "colour": "blue",
+   "rgb": "#906BC7",
+   "ground": "#020116",
+   "is_ground": false,
+   "y0": 33,
+   "y1": 56,
+   "baseline": 52,
+   "cap_top": 33,
+   "cap": 19,
+   "x_height": 14,
+   "lower_frac": 0.704,
+   "left": 313,
+   "right": 715,
+   "width": 403,
+   "n_runs": 28,
+   "density": 0.2505,
+   "texture": 0.24,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.15789473684210525,
+   "runs": [
+    [
+     313,
+     326,
+     33,
+     51
+    ],
+    [
+     329,
+     340,
+     38,
+     51
+    ],
+    [
+     345,
+     347,
+     33,
+     51
+    ],
+    [
+     352,
+     363,
+     38,
+     51
+    ],
+    [
+     377,
+     389,
+     33,
+     51
+    ],
+    [
+     393,
+     394,
+     39,
+     51
+    ],
+    [
+     399,
+     410,
+     38,
+     56
+    ],
+    [
+     415,
+     426,
+     33,
+     51
+    ],
+    [
+     429,
+     437,
+     34,
+     51
+    ],
+    [
+     451,
+     464,
+     33,
+     51
+    ],
+    [
+     468,
+     475,
+     38,
+     51
+    ],
+    [
+     478,
+     490,
+     38,
+     51
+    ],
+    [
+     494,
+     512,
+     38,
+     51
+    ],
+    [
+     516,
+     527,
+     38,
+     51
+    ],
+    [
+     530,
+     538,
+     34,
+     51
+    ],
+    [
+     542,
+     545,
+     38,
+     51
+    ],
+    [
+     549,
+     561,
+     38,
+     51
+    ],
+    [
+     565,
+     575,
+     38,
+     51
+    ],
+    [
+     580,
+     589,
+     38,
+     51
+    ],
+    [
+     603,
+     614,
+     38,
+     56
+    ],
+    [
+     619,
+     625,
+     38,
+     51
+    ],
+    [
+     629,
+     640,
+     38,
+     51
+    ],
+    [
+     644,
+     654,
+     38,
+     51
+    ],
+    [
+     657,
+     669,
+     38,
+     51
+    ],
+    [
+     673,
+     683,
+     38,
+     51
+    ],
+    [
+     687,
+     695,
+     35,
+     51
+    ],
+    [
+     699,
+     708,
+     38,
+     51
+    ],
+    [
+     713,
+     715,
+     48,
+     51
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#A36ED7",
+   "ground": "#010121",
+   "is_ground": false,
+   "y0": 434,
+   "y1": 456,
+   "baseline": 452,
+   "cap_top": 434,
+   "cap": 18,
+   "x_height": 13,
+   "lower_frac": 0.75,
+   "left": 331,
+   "right": 704,
+   "width": 374,
+   "n_runs": 25,
+   "density": 0.284,
+   "texture": 0.63,
+   "slope": 0.09,
+   "warp": 0.016,
+   "stem_ratio": 0.21052631578947367,
+   "runs": [
+    [
+     331,
+     348,
+     439,
+     451
+    ],
+    [
+     352,
+     354,
+     434,
+     437
+    ],
+    [
+     352,
+     354,
+     439,
+     451
+    ],
+    [
+     358,
+     365,
+     435,
+     451
+    ],
+    [
+     369,
+     380,
+     434,
+     451
+    ],
+    [
+     393,
+     402,
+     439,
+     451
+    ],
+    [
+     406,
+     417,
+     439,
+     451
+    ],
+    [
+     421,
+     432,
+     439,
+     456
+    ],
+    [
+     436,
+     447,
+     439,
+     456
+    ],
+    [
+     451,
+     462,
+     439,
+     451
+    ],
+    [
+     466,
+     473,
+     439,
+     451
+    ],
+    [
+     476,
+     484,
+     436,
+     451
+    ],
+    [
+     495,
+     503,
+     434,
+     451
+    ],
+    [
+     507,
+     513,
+     439,
+     451
+    ],
+    [
+     516,
+     528,
+     439,
+     451
+    ],
+    [
+     531,
+     548,
+     439,
+     451
+    ],
+    [
+     562,
+     579,
+     434,
+     451
+    ],
+    [
+     583,
+     594,
+     439,
+     451
+    ],
+    [
+     598,
+     609,
+     439,
+     451
+    ],
+    [
+     613,
+     623,
+     439,
+     451
+    ],
+    [
+     636,
+     651,
+     434,
+     452
+    ],
+    [
+     655,
+     662,
+     439,
+     451
+    ],
+    [
+     665,
+     676,
+     439,
+     452
+    ],
+    [
+     680,
+     690,
+     439,
+     451
+    ],
+    [
+     694,
+     704,
+     439,
+     452
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "red",
+   "rgb": "#D736A0",
+   "ground": null,
+   "is_ground": false,
+   "y0": 594,
+   "y1": 601,
+   "baseline": 602,
+   "cap_top": 594,
+   "cap": 8,
+   "x_height": 6,
+   "lower_frac": 0.0,
+   "left": 624,
+   "right": 654,
+   "width": 31,
+   "n_runs": 3,
+   "density": 0.2339,
+   "texture": 13.78,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": null,
+   "runs": [
+    [
+     624,
+     630,
+     596,
+     601
+    ],
+    [
+     636,
+     637,
+     596,
+     599
+    ],
+    [
+     650,
+     654,
+     594,
+     598
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#6B209B",
+   "ground": null,
+   "is_ground": true,
+   "y0": 945,
+   "y1": 1018,
+   "baseline": 969,
+   "cap_top": 945,
+   "cap": 24,
+   "x_height": 24,
+   "lower_frac": 0.0,
+   "left": 0,
+   "right": 234,
+   "width": 235,
+   "n_runs": 5,
+   "density": 0.258,
+   "texture": 8.66,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.1891891891891892,
+   "runs": [
+    [
+     0,
+     14,
+     945,
+     1018
+    ],
+    [
+     16,
+     233,
+     945,
+     968
+    ],
+    [
+     17,
+     40,
+     990,
+     993
+    ],
+    [
+     82,
+     112,
+     961,
+     967
+    ],
+    [
+     115,
+     234,
+     960,
+     968
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#6B209B",
+   "ground": null,
+   "is_ground": false,
+   "y0": 932,
+   "y1": 1016,
+   "baseline": 1012,
+   "cap_top": 932,
+   "cap": 80,
+   "x_height": 62,
+   "lower_frac": 0.0,
+   "left": 476,
+   "right": 941,
+   "width": 466,
+   "n_runs": 5,
+   "density": 0.0579,
+   "texture": 6.78,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.203125,
+   "runs": [
+    [
+     476,
+     517,
+     950,
+     1011
+    ],
+    [
+     644,
+     672,
+     937,
+     961
+    ],
+    [
+     795,
+     809,
+     978,
+     998
+    ],
+    [
+     799,
+     806,
+     932,
+     960
+    ],
+    [
+     929,
+     941,
+     953,
+     1016
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#B99BC0",
+   "ground": null,
+   "is_ground": true,
+   "y0": 1243,
+   "y1": 1260,
+   "baseline": 1260,
+   "cap_top": 1243,
+   "cap": 17,
+   "x_height": 14,
+   "lower_frac": 0.5,
+   "left": 456,
+   "right": 562,
+   "width": 107,
+   "n_runs": 7,
+   "density": 0.1906,
+   "texture": 3.36,
+   "slope": 2.07,
+   "warp": 0.063,
+   "stem_ratio": 0.08333333333333333,
+   "runs": [
+    [
+     456,
+     464,
+     1246,
+     1257
+    ],
+    [
+     465,
+     491,
+     1243,
+     1255
+    ],
+    [
+     491,
+     498,
+     1246,
+     1249
+    ],
+    [
+     499,
+     512,
+     1252,
+     1259
+    ],
+    [
+     512,
+     516,
+     1255,
+     1258
+    ],
+    [
+     524,
+     556,
+     1255,
+     1260
+    ],
+    [
+     558,
+     562,
+     1256,
+     1259
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#4E9DC7",
+   "ground": "#02072A",
+   "is_ground": false,
+   "y0": 1429,
+   "y1": 1450,
+   "baseline": 1449,
+   "cap_top": 1429,
+   "cap": 20,
+   "x_height": 14,
+   "lower_frac": 0.533,
+   "left": 248,
+   "right": 774,
+   "width": 527,
+   "n_runs": 32,
+   "density": 0.2595,
+   "texture": 0.7,
+   "slope": 0.0,
+   "warp": 0.019,
+   "stem_ratio": 0.13636363636363635,
+   "runs": [
+    [
+     248,
+     263,
+     1430,
+     1448
+    ],
+    [
+     266,
+     268,
+     1435,
+     1448
+    ],
+    [
+     266,
+     269,
+     1430,
+     1432
+    ],
+    [
+     273,
+     284,
+     1435,
+     1448
+    ],
+    [
+     288,
+     299,
+     1430,
+     1448
+    ],
+    [
+     302,
+     313,
+     1435,
+     1448
+    ],
+    [
+     316,
+     324,
+     1431,
+     1448
+    ],
+    [
+     328,
+     338,
+     1435,
+     1448
+    ],
+    [
+     342,
+     345,
+     1445,
+     1448
+    ],
+    [
+     360,
+     374,
+     1429,
+     1448
+    ],
+    [
+     378,
+     384,
+     1430,
+     1448
+    ],
+    [
+     391,
+     403,
+     1429,
+     1448
+    ],
+    [
+     418,
+     429,
+     1435,
+     1448
+    ],
+    [
+     433,
+     445,
+     1430,
+     1448
+    ],
+    [
+     449,
+     461,
+     1435,
+     1448
+    ],
+    [
+     464,
+     476,
+     1435,
+     1449
+    ],
+    [
+     480,
+     491,
+     1435,
+     1448
+    ],
+    [
+     496,
+     507,
+     1435,
+     1448
+    ],
+    [
+     510,
+     522,
+     1435,
+     1448
+    ],
+    [
+     537,
+     545,
+     1429,
+     1450
+    ],
+    [
+     563,
+     577,
+     1429,
+     1448
+    ],
+    [
+     582,
+     589,
+     1430,
+     1448
+    ],
+    [
+     595,
+     608,
+     1430,
+     1448
+    ],
+    [
+     622,
+     635,
+     1435,
+     1448
+    ],
+    [
+     639,
+     650,
+     1435,
+     1448
+    ],
+    [
+     664,
+     673,
+     1431,
+     1448
+    ],
+    [
+     677,
+     688,
+     1429,
+     1448
+    ],
+    [
+     692,
+     704,
+     1435,
+     1448
+    ],
+    [
+     718,
+     730,
+     1429,
+     1448
+    ],
+    [
+     734,
+     746,
+     1435,
+     1448
+    ],
+    [
+     750,
+     762,
+     1435,
+     1448
+    ],
+    [
+     767,
+     774,
+     1435,
+     1448
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#48A6CD",
+   "ground": "#000521",
+   "is_ground": false,
+   "y0": 1462,
+   "y1": 1486,
+   "baseline": 1482,
+   "cap_top": 1462,
+   "cap": 20,
+   "x_height": 14,
+   "lower_frac": 0.66,
+   "left": 146,
+   "right": 877,
+   "width": 732,
+   "n_runs": 51,
+   "density": 0.2603,
+   "texture": 0.37,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.15,
+   "runs": [
+    [
+     146,
+     161,
+     1463,
+     1481
+    ],
+    [
+     163,
+     175,
+     1468,
+     1481
+    ],
+    [
+     178,
+     189,
+     1468,
+     1481
+    ],
+    [
+     194,
+     196,
+     1463,
+     1465
+    ],
+    [
+     194,
+     196,
+     1468,
+     1481
+    ],
+    [
+     201,
+     203,
+     1462,
+     1481
+    ],
+    [
+     207,
+     218,
+     1468,
+     1481
+    ],
+    [
+     223,
+     234,
+     1463,
+     1481
+    ],
+    [
+     238,
+     240,
+     1463,
+     1481
+    ],
+    [
+     244,
+     256,
+     1468,
+     1481
+    ],
+    [
+     269,
+     277,
+     1462,
+     1481
+    ],
+    [
+     281,
+     288,
+     1468,
+     1481
+    ],
+    [
+     291,
+     302,
+     1468,
+     1481
+    ],
+    [
+     306,
+     324,
+     1468,
+     1481
+    ],
+    [
+     338,
+     352,
+     1463,
+     1481
+    ],
+    [
+     355,
+     366,
+     1463,
+     1481
+    ],
+    [
+     370,
+     381,
+     1468,
+     1481
+    ],
+    [
+     395,
+     411,
+     1463,
+     1481
+    ],
+    [
+     415,
+     425,
+     1468,
+     1481
+    ],
+    [
+     429,
+     440,
+     1468,
+     1481
+    ],
+    [
+     444,
+     455,
+     1463,
+     1481
+    ],
+    [
+     459,
+     470,
+     1468,
+     1481
+    ],
+    [
+     475,
+     481,
+     1468,
+     1481
+    ],
+    [
+     495,
+     509,
+     1463,
+     1481
+    ],
+    [
+     512,
+     524,
+     1468,
+     1481
+    ],
+    [
+     528,
+     539,
+     1468,
+     1481
+    ],
+    [
+     543,
+     561,
+     1468,
+     1481
+    ],
+    [
+     565,
+     575,
+     1468,
+     1481
+    ],
+    [
+     589,
+     600,
+     1462,
+     1481
+    ],
+    [
+     604,
+     615,
+     1468,
+     1481
+    ],
+    [
+     619,
+     626,
+     1468,
+     1481
+    ],
+    [
+     639,
+     651,
+     1468,
+     1481
+    ],
+    [
+     655,
+     662,
+     1468,
+     1481
+    ],
+    [
+     676,
+     687,
+     1468,
+     1486
+    ],
+    [
+     690,
+     702,
+     1468,
+     1481
+    ],
+    [
+     706,
+     708,
+     1462,
+     1481
+    ],
+    [
+     713,
+     715,
+     1463,
+     1481
+    ],
+    [
+     720,
+     722,
+     1463,
+     1465
+    ],
+    [
+     720,
+     722,
+     1468,
+     1481
+    ],
+    [
+     726,
+     738,
+     1468,
+     1486
+    ],
+    [
+     742,
+     753,
+     1463,
+     1481
+    ],
+    [
+     756,
+     764,
+     1464,
+     1481
+    ],
+    [
+     768,
+     780,
+     1468,
+     1486
+    ],
+    [
+     784,
+     791,
+     1468,
+     1481
+    ],
+    [
+     794,
+     805,
+     1468,
+     1481
+    ],
+    [
+     809,
+     812,
+     1478,
+     1481
+    ],
+    [
+     816,
+     827,
+     1468,
+     1481
+    ],
+    [
+     830,
+     841,
+     1468,
+     1481
+    ],
+    [
+     845,
+     848,
+     1478,
+     1481
+    ],
+    [
+     852,
+     863,
+     1468,
+     1481
+    ],
+    [
+     867,
+     877,
+     1462,
+     1481
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "blue",
+   "rgb": "#9470C6",
+   "ground": null,
+   "is_ground": false,
+   "y0": 1502,
+   "y1": 1525,
+   "baseline": 1520,
+   "cap_top": 1502,
+   "cap": 18,
+   "x_height": 13,
+   "lower_frac": 0.75,
+   "left": 343,
+   "right": 669,
+   "width": 327,
+   "n_runs": 30,
+   "density": 0.2221,
+   "texture": 0.41,
+   "slope": -0.23,
+   "warp": 0.061,
+   "stem_ratio": 0.15789473684210525,
+   "runs": [
+    [
+     343,
+     357,
+     1502,
+     1519
+    ],
+    [
+     361,
+     364,
+     1502,
+     1515
+    ],
+    [
+     368,
+     370,
+     1503,
+     1519
+    ],
+    [
+     384,
+     388,
+     1508,
+     1511
+    ],
+    [
+     384,
+     395,
+     1507,
+     1521
+    ],
+    [
+     398,
+     409,
+     1507,
+     1525
+    ],
+    [
+     414,
+     420,
+     1509,
+     1520
+    ],
+    [
+     422,
+     425,
+     1509,
+     1518
+    ],
+    [
+     427,
+     438,
+     1509,
+     1521
+    ],
+    [
+     434,
+     437,
+     1507,
+     1511
+    ],
+    [
+     458,
+     471,
+     1502,
+     1520
+    ],
+    [
+     474,
+     485,
+     1509,
+     1520
+    ],
+    [
+     489,
+     495,
+     1508,
+     1517
+    ],
+    [
+     509,
+     519,
+     1508,
+     1520
+    ],
+    [
+     524,
+     526,
+     1510,
+     1519
+    ],
+    [
+     532,
+     534,
+     1511,
+     1519
+    ],
+    [
+     537,
+     545,
+     1505,
+     1520
+    ],
+    [
+     548,
+     551,
+     1502,
+     1505
+    ],
+    [
+     548,
+     551,
+     1507,
+     1519
+    ],
+    [
+     556,
+     558,
+     1504,
+     1519
+    ],
+    [
+     573,
+     589,
+     1507,
+     1519
+    ],
+    [
+     593,
+     595,
+     1508,
+     1519
+    ],
+    [
+     593,
+     596,
+     1502,
+     1505
+    ],
+    [
+     599,
+     611,
+     1503,
+     1520
+    ],
+    [
+     614,
+     625,
+     1507,
+     1520
+    ],
+    [
+     630,
+     632,
+     1512,
+     1520
+    ],
+    [
+     636,
+     647,
+     1507,
+     1525
+    ],
+    [
+     659,
+     662,
+     1510,
+     1518
+    ],
+    [
+     664,
+     667,
+     1506,
+     1511
+    ],
+    [
+     667,
+     669,
+     1513,
+     1516
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  }
+ ],
+ "assigned": [
+  {
+   "key": "presenter",
+   "text": "Pale Light Promotions presents:",
+   "bands": [
+    0
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "support",
+   "text": "with support from Mena Grace",
+   "bands": [
+    1
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "tickets",
+   "text": "Tickets: \u00a312 advance / \u00a315 on the door",
+   "bands": [
+    6
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "ticket_source",
+   "text": "Available from The Anchor Rooms bar or pallightpro.co.uk",
+   "bands": [
+    7
+   ],
+   "assigned_by": "hand"
+  },
+  {
+   "key": "footer",
+   "text": "All ages. Bar until midnight.",
+   "bands": [
+    8
+   ],
+   "assigned_by": "hand"
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 521,
+   "box": [
+    54,
+    466,
+    223,
+    470
+   ],
+   "fill": 0.613,
+   "rgb": "#3A216E"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 603,
+   "box": [
+    30,
+    488,
+    223,
+    492
+   ],
+   "fill": 0.622,
+   "rgb": "#3C2573"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 584,
+   "box": [
+    62,
+    513,
+    223,
+    517
+   ],
+   "fill": 0.721,
+   "rgb": "#1E0D57"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 161994,
+   "box": [
+    0,
+    550,
+    510,
+    1033
+   ],
+   "fill": 0.655,
+   "rgb": "#24117A"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 116918,
+   "box": [
+    602,
+    568,
+    1023,
+    1026
+   ],
+   "fill": 0.604,
+   "rgb": "#16096E"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 10443,
+   "box": [
+    0,
+    1154,
+    95,
+    1288
+   ],
+   "fill": 0.806,
+   "rgb": "#14257D"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 9963,
+   "box": [
+    348,
+    1177,
+    459,
+    1299
+   ],
+   "fill": 0.723,
+   "rgb": "#2A4C9A"
+  },
+  {
+   "colour": "blue",
+   "kind": "solid",
+   "px": 6066,
+   "box": [
+    111,
+    1215,
+    186,
+    1298
+   ],
+   "fill": 0.95,
+   "rgb": "#101B68"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 472,
+   "box": [
+    83,
+    87,
+    207,
+    106
+   ],
+   "fill": 0.189,
+   "rgb": "#FCF1FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 464,
+   "box": [
+    244,
+    87,
+    343,
+    171
+   ],
+   "fill": 0.055,
+   "rgb": "#DEEFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 418,
+   "box": [
+    382,
+    88,
+    523,
+    131
+   ],
+   "fill": 0.067,
+   "rgb": "#F8EFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 416,
+   "box": [
+    524,
+    88,
+    591,
+    157
+   ],
+   "fill": 0.087,
+   "rgb": "#DFEEFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 806,
+   "box": [
+    706,
+    88,
+    827,
+    168
+   ],
+   "fill": 0.082,
+   "rgb": "#E3EFFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 584,
+   "box": [
+    837,
+    88,
+    959,
+    208
+   ],
+   "fill": 0.039,
+   "rgb": "#DDEDFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1489,
+   "box": [
+    843,
+    103,
+    970,
+    172
+   ],
+   "fill": 0.166,
+   "rgb": "#DBEDFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1230,
+   "box": [
+    74,
+    104,
+    199,
+    167
+   ],
+   "fill": 0.153,
+   "rgb": "#E5F0FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1102,
+   "box": [
+    631,
+    110,
+    679,
+    178
+   ],
+   "fill": 0.326,
+   "rgb": "#DCEBFD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 811,
+   "box": [
+    542,
+    111,
+    586,
+    166
+   ],
+   "fill": 0.322,
+   "rgb": "#DAEEFE"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 988,
+   "box": [
+    386,
+    117,
+    437,
+    167
+   ],
+   "fill": 0.373,
+   "rgb": "#DBE8FE"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1227,
+   "box": [
+    711,
+    117,
+    813,
+    172
+   ],
+   "fill": 0.213,
+   "rgb": "#E1EEFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1134,
+   "box": [
+    432,
+    118,
+    520,
+    173
+   ],
+   "fill": 0.228,
+   "rgb": "#DDEDFF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 999,
+   "box": [
+    295,
+    122,
+    338,
+    171
+   ],
+   "fill": 0.454,
+   "rgb": "#DEEDFD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 679,
+   "box": [
+    245,
+    128,
+    283,
+    162
+   ],
+   "fill": 0.497,
+   "rgb": "#DAEFFD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 933,
+   "box": [
+    69,
+    292,
+    149,
+    355
+   ],
+   "fill": 0.18,
+   "rgb": "#DEE6FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 410,
+   "box": [
+    793,
+    298,
+    814,
+    356
+   ],
+   "fill": 0.316,
+   "rgb": "#D8E9FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 434,
+   "box": [
+    812,
+    313,
+    876,
+    356
+   ],
+   "fill": 0.152,
+   "rgb": "#DDE9FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 440,
+   "box": [
+    894,
+    313,
+    924,
+    358
+   ],
+   "fill": 0.309,
+   "rgb": "#D9E8FF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 460,
+   "box": [
+    928,
+    314,
+    973,
+    358
+   ],
+   "fill": 0.222,
+   "rgb": "#DDE2FF"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 5197,
+   "box": [
+    52,
+    81,
+    215,
+    251
+   ],
+   "fill": 0.185,
+   "rgb": "#4771DC"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 34609,
+   "box": [
+    156,
+    82,
+    608,
+    279
+   ],
+   "fill": 0.386,
+   "rgb": "#535ACD"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 35084,
+   "box": [
+    552,
+    82,
+    993,
+    279
+   ],
+   "fill": 0.401,
+   "rgb": "#4E58CC"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 3818,
+   "box": [
+    68,
+    91,
+    202,
+    141
+   ],
+   "fill": 0.555,
+   "rgb": "#4BA3F2"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 612,
+   "box": [
+    827,
+    248,
+    882,
+    279
+   ],
+   "fill": 0.342,
+   "rgb": "#2D0C69"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 1403,
+   "box": [
+    701,
+    262,
+    823,
+    279
+   ],
+   "fill": 0.634,
+   "rgb": "#2B1071"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 7174,
+   "box": [
+    57,
+    284,
+    176,
+    393
+   ],
+   "fill": 0.543,
+   "rgb": "#574BBC"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 21728,
+   "box": [
+    199,
+    285,
+    493,
+    417
+   ],
+   "fill": 0.554,
+   "rgb": "#4F63CA"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 30591,
+   "box": [
+    519,
+    287,
+    1000,
+    417
+   ],
+   "fill": 0.484,
+   "rgb": "#5654BE"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 591,
+   "box": [
+    888,
+    287,
+    985,
+    331
+   ],
+   "fill": 0.134,
+   "rgb": "#5D8CF2"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 844,
+   "box": [
+    76,
+    395,
+    179,
+    417
+   ],
+   "fill": 0.353,
+   "rgb": "#2D206C"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 28130,
+   "box": [
+    607,
+    1224,
+    1023,
+    1377
+   ],
+   "fill": 0.438,
+   "rgb": "#190F5B"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 7459,
+   "box": [
+    0,
+    1285,
+    236,
+    1392
+   ],
+   "fill": 0.291,
+   "rgb": "#072F62"
+  },
+  {
+   "colour": "blue",
+   "kind": "inside an excluded box",
+   "px": 11405,
+   "box": [
+    352,
+    1294,
+    618,
+    1364
+   ],
+   "fill": 0.602,
+   "rgb": "#093261"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "dark",
+   "y0": 504,
+   "y1": 512,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 519,
+   "y1": 527,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 730,
+   "y1": 739,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 767,
+   "y1": 775,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 785,
+   "y1": 800,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 932,
+   "y1": 968,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "dark",
+   "y0": 970,
+   "y1": 1057,
+   "why": "no shared baseline (29% of runs)"
+  },
+  {
+   "colour": "dark",
+   "y0": 1003,
+   "y1": 1012,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1060,
+   "y1": 1080,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1068,
+   "y1": 1071,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1069,
+   "y1": 1076,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1089,
+   "y1": 1095,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1090,
+   "y1": 1098,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1097,
+   "y1": 1109,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1084,
+   "y1": 1093,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1095,
+   "y1": 1104,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 470,
+   "y1": 473,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 512,
+   "y1": 592,
+   "why": "no shared baseline (17% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 619,
+   "y1": 625,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 649,
+   "y1": 680,
+   "why": "no shared baseline (30% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 663,
+   "y1": 667,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 701,
+   "y1": 726,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 742,
+   "y1": 762,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 773,
+   "y1": 787,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 801,
+   "y1": 823,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 888,
+   "y1": 891,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 892,
+   "y1": 908,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 916,
+   "y1": 920,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 922,
+   "y1": 926,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 963,
+   "y1": 966,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 963,
+   "y1": 968,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 963,
+   "y1": 966,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 991,
+   "y1": 996,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 968,
+   "y1": 979,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 974,
+   "y1": 993,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1000,
+   "y1": 1003,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1007,
+   "y1": 1011,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1000,
+   "y1": 1013,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1020,
+   "y1": 1023,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1018,
+   "y1": 1021,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1030,
+   "y1": 1033,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1022,
+   "y1": 1034,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1040,
+   "y1": 1049,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1038,
+   "y1": 1044,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1040,
+   "y1": 1046,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1052,
+   "y1": 1055,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1062,
+   "y1": 1067,
+   "why": "no shared baseline (16% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1116,
+   "y1": 1146,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1184,
+   "y1": 1190,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1191,
+   "y1": 1199,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1204,
+   "y1": 1207,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1203,
+   "y1": 1207,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1209,
+   "y1": 1223,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1237,
+   "y1": 1259,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1258,
+   "y1": 1266,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1265,
+   "y1": 1287,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 439,
+   "y1": 443,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 460,
+   "y1": 557,
+   "why": "no shared baseline (11% of runs)"
+  },
+  {
+   "colour": "blue",
+   "y0": 500,
+   "y1": 504,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 700,
+   "y1": 721,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 706,
+   "y1": 711,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 723,
+   "y1": 737,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 727,
+   "y1": 751,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 851,
+   "y1": 861,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 817,
+   "y1": 855,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 839,
+   "y1": 855,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 858,
+   "y1": 861,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 874,
+   "y1": 888,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 921,
+   "y1": 928,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 962,
+   "y1": 966,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 963,
+   "y1": 967,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 972,
+   "y1": 985,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "blue",
+   "y0": 972,
+   "y1": 975,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 972,
+   "y1": 975,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 978,
+   "y1": 981,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 978,
+   "y1": 981,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 987,
+   "y1": 1160,
+   "why": "no shared baseline (18% of runs)"
+  },
+  {
+   "colour": "blue",
+   "y0": 1048,
+   "y1": 1150,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1224,
+   "y1": 1358,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1283,
+   "y1": 1300,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1277,
+   "y1": 1302,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "blue",
+   "y0": 1435,
+   "y1": 1439,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 600,
+   "y1": 623,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 624,
+   "y1": 627,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 628,
+   "y1": 639,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 643,
+   "y1": 649,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 652,
+   "y1": 673,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 676,
+   "y1": 696,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 707,
+   "y1": 710,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 744,
+   "y1": 759,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 760,
+   "y1": 763,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 791,
+   "y1": 795,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 797,
+   "y1": 806,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 816,
+   "y1": 819,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 822,
+   "y1": 843,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 876,
+   "y1": 879,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 882,
+   "y1": 890,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 883,
+   "y1": 893,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 901,
+   "y1": 915,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 923,
+   "y1": 929,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 961,
+   "y1": 1008,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1037,
+   "y1": 1085,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1088,
+   "y1": 1111,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1037,
+   "y1": 1114,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1118,
+   "y1": 1129,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1133,
+   "y1": 1137,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1156,
+   "y1": 1163,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1174,
+   "y1": 1181,
+   "why": "only 2 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1193,
+   "y1": 1196,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1221,
+   "y1": 1235,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "red",
+   "y0": 1254,
+   "y1": 1257,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 476,
+   "y1": 492,
+   "why": "counters of dark lettering (27% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 494,
+   "y1": 504,
+   "why": "counters of dark lettering (28% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 606,
+   "y1": 610,
+   "why": "counters of dark lettering (43% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 928,
+   "y1": 932,
+   "why": "counters of dark lettering (14% dark ink)"
+  },
+  {
+   "colour": "red",
+   "y0": 936,
+   "y1": 1055,
+   "why": "duplicate of blue band y932..1016"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "presenter",
+    "support",
+    "tickets",
+    "ticket_source",
+    "footer"
+   ],
+   "shape_glyphs": "MGR2gaeATP",
+   "brief": null,
+   "features": {
+    "weight": 0.211,
+    "contrast": 0.894,
+    "slant": -1.5,
+    "square": null,
+    "cap": 19.0
+   },
+   "confidence": "low",
+   "margin": 0.075,
+   "distortions": [],
+   "candidates": [
+    {
+     "family": "Istok Web",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/IstokWeb-0-0-700-7aa1f7840e6694c2.ttf",
+     "index": null,
+     "cap_ratio": 0.7001953125,
+     "width_ratio": 1.0278,
+     "spread": 0.0261,
+     "stem_err": 0.0379,
+     "shape": 1.0398,
+     "features": 0.588,
+     "character": null,
+     "record": {
+      "family": "Istok Web",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6808
+    },
+    {
+     "family": "SN Pro",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SNPro-0-0-700-86fbbd0c9e68ce2c.ttf",
+     "index": null,
+     "cap_ratio": 0.678,
+     "width_ratio": 0.981,
+     "spread": 0.03,
+     "stem_err": 0.0379,
+     "shape": 1.1816,
+     "features": 0.631,
+     "character": null,
+     "record": {
+      "family": "SN Pro",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8061
+    },
+    {
+     "family": "TikTok Sans",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-0-600-8455c942c310eafe.ttf",
+     "index": null,
+     "cap_ratio": 0.705,
+     "width_ratio": 1.0107,
+     "spread": 0.0274,
+     "stem_err": 0.098,
+     "shape": 1.1982,
+     "features": 0.671,
+     "character": null,
+     "record": {
+      "family": "TikTok Sans",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8121
+    },
+    {
+     "family": "Konkhmer Sleokchher",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/KonkhmerSleokchher-0-0-400-1195d782e2c42279.ttf",
+     "index": null,
+     "cap_ratio": 0.7275390625,
+     "width_ratio": 0.9952,
+     "spread": 0.0321,
+     "stem_err": 0.0222,
+     "shape": 1.1791,
+     "features": 0.59,
+     "character": null,
+     "record": {
+      "family": "Konkhmer Sleokchher",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.825
+    },
+    {
+     "family": "SN Pro",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SNPro-0-0-600-c651bee726cc46ab.ttf",
+     "index": null,
+     "cap_ratio": 0.678,
+     "width_ratio": 1.0041,
+     "spread": 0.0292,
+     "stem_err": 0.098,
+     "shape": 1.1563,
+     "features": 0.651,
+     "character": null,
+     "record": {
+      "family": "SN Pro",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8253
+    },
+    {
+     "family": "Zalando Sans",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-0-600-5bc2ae9468b848aa.ttf",
+     "index": null,
+     "cap_ratio": 0.714,
+     "width_ratio": 1.0002,
+     "spread": 0.0342,
+     "stem_err": 0.0379,
+     "shape": 1.1652,
+     "features": 0.651,
+     "character": null,
+     "record": {
+      "family": "Zalando Sans",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8388
+    },
+    {
+     "family": "Asta Sans",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AstaSans-0-0-800-115dc0b581752932.ttf",
+     "index": null,
+     "cap_ratio": 0.707,
+     "width_ratio": 1.0283,
+     "spread": 0.0325,
+     "stem_err": 0.0779,
+     "shape": 1.1614,
+     "features": 0.62,
+     "character": null,
+     "record": {
+      "family": "Asta Sans",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8438
+    },
+    {
+     "family": "Inter",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Inter-0-0-600-4f41da1604ff2e8e.ttf",
+     "index": null,
+     "cap_ratio": 0.7275390625,
+     "width_ratio": 1.0137,
+     "spread": 0.0312,
+     "stem_err": 0.098,
+     "shape": 1.2202,
+     "features": 0.641,
+     "character": null,
+     "record": {
+      "family": "Inter",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.8694
+    },
+    {
+     "family": "Schibsted Grotesk",
+     "sub": "900 italic",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SchibstedGrotesk-1-0-900-c8855afdda2b4a93.ttf",
+     "index": null,
+     "cap_ratio": 0.703125,
+     "width_ratio": 1.0,
+     "spread": 0.0354,
+     "stem_err": 0.1907,
+     "shape": 3.1451,
+     "features": 4.322,
+     "character": null,
+     "record": {
+      "family": "Schibsted Grotesk",
+      "weight": 900,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.9012
+    },
+    {
+     "family": "Lacquer",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Lacquer-0-0-400-8ebf96cd8df84ef4.ttf",
+     "index": null,
+     "cap_ratio": 0.6526000000000001,
+     "width_ratio": 1.0,
+     "spread": 0.0244,
+     "stem_err": 0.2046,
+     "shape": 3.5135,
+     "features": 3.056,
+     "character": null,
+     "record": {
+      "family": "Lacquer",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.9136
+    },
+    {
+     "family": "Libre Franklin",
+     "sub": "900 italic",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LibreFranklin-1-0-900-25b455ffccf89682.ttf",
+     "index": null,
+     "cap_ratio": 0.742,
+     "width_ratio": 1.0001,
+     "spread": 0.0376,
+     "stem_err": 0.1849,
+     "shape": 2.8088,
+     "features": 3.054,
+     "character": null,
+     "record": {
+      "family": "Libre Franklin",
+      "weight": 900,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.0614
+    },
+    {
+     "family": "Estedad",
+     "sub": "300",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Estedad-0-0-300-73d9216c352fe6e9.ttf",
+     "index": null,
+     "cap_ratio": 0.653,
+     "width_ratio": 0.9999,
+     "spread": 0.0381,
+     "stem_err": 0.3979,
+     "shape": 2.2465,
+     "features": 1.004,
+     "character": null,
+     "record": {
+      "family": "Estedad",
+      "weight": 300,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 4.2296
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "Istok Web",
+    "SN Pro",
+    "TikTok Sans"
+   ]
+  }
+ ],
+ "knobs": {
+  "artwork": "mask",
+  "face": [
+   "body=Rubik:400"
+  ],
+  "solid_radius": 24,
+  "rule_length": 160,
+  "rule_thick": 5,
+  "min_glyphs": 3,
+  "contrast": 40,
+  "window": 61,
+  "wrap_cap_ratio": 1.3,
+  "exclude": [],
+  "knockout": [],
+  "assign": [
+   "presenter=514,44",
+   "support=517,445",
+   "tickets=511,1439",
+   "ticket_source=511,1474",
+   "footer=506,1513"
+  ],
+  "character": [],
+  "case": [],
+  "tilted": [],
+  "art": [
+   "headliner@20,70,1004,425@chrome, glitched display lettering",
+   "date,venue@60,1295,990,1405@on the glowing grid, where the band finder cannot find them"
+  ],
+  "align": [],
+  "track": [],
+  "fill": [
+   "presenter=#AA85E1",
+   "support=#BC83EE",
+   "tickets=#74CCF6",
+   "ticket_source=#61CBF2",
+   "footer=#B38CE3"
+  ],
+  "shadow": [],
+  "fit": []
+ }
+}
