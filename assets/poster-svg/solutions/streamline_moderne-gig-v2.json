@@ -3406,10 +3406,10 @@
  "knobs": {
   "artwork": "mask",
   "face": [
-   "display=Sofia Sans Extra Condensed:900i",
    "body=Sofia Sans Extra Condensed:900i",
    "subhead=Oswald:700",
-   "body_italic=Oswald:600"
+   "body_italic=Oswald:600",
+   "display=Share:700i"
   ],
   "solid_radius": 24,
   "rule_length": 160,
