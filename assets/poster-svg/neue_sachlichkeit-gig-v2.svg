@@ -11,11 +11,11 @@
  "fault_outlook": null,
  "skip_reason": "Tool limitation: the headline is straight on a banner tilted 7 degrees, which --tilted levels correctly, but its big grainy white letters on red are rejected as having no shared baseline -- the grain breaks off specks that outvote the letters. A speck-tolerant baseline test fixed this poster but broke five others, so it waits for a better one.",
  "version": {
-  "commit": "01a1629",
-  "date": "2026-09-25",
+  "commit": "ed79b96",
+  "date": "2026-09-26",
   "tag": null
  },
- "built": "2026-09-25",
+ "built": "2026-09-26",
  "reviewed": null
 }
   ]]></metadata>
