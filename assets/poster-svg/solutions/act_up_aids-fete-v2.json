@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.39,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.045,
  "lines": [
   {
@@ -2961,23 +2961,33 @@
   },
   {
    "key": "date",
-   "text": "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+   "text": "SATURDAY 6TH SEPTEMBER 12 NOON \u2013 5PM",
    "bands": [
     2,
     3
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "SATURDAY 6TH SEPTEMBER",
+    "12 NOON \u2013 5PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     4,
     5
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -3222,8 +3232,16 @@
     "cap": 46.0
    },
    "confidence": "medium",
-   "margin": 0.256,
-   "distortions": [],
+   "margin": 0.263,
+   "distortions": [
+    {
+     "key": "venue",
+     "ratio": 1.066,
+     "kind": "wider_than_face",
+     "stem_matches": true,
+     "action": "do NOT stretch; let the line run short"
+    }
+   ],
    "candidates": [
     {
      "family": "Helvetica Neue",
@@ -3233,8 +3251,8 @@
      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
      "index": 9,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0891,
-     "spread": 0.0087,
+     "width_ratio": 1.1018,
+     "spread": 0.007,
      "stem_err": 0.0815,
      "shape": 0.7116,
      "features": 0.376,
@@ -3246,7 +3264,7 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.0414
+     "score": 1.0475
     },
     {
      "family": "Zalando Sans",
@@ -3256,8 +3274,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-75-900-a951d5993bb2112a.ttf",
      "index": null,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0792,
-     "spread": 0.0004,
+     "width_ratio": 1.0944,
+     "spread": 0.003,
      "stem_err": 0.0437,
      "shape": 0.9499,
      "features": 0.433,
@@ -3269,7 +3287,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.3078
+     "score": 1.3235
     },
     {
      "family": "Saira Semi Condensed",
@@ -3279,8 +3297,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaSemiCondensed-0-0-800-5964c4eca5319f18.ttf",
      "index": null,
      "cap_ratio": 0.688,
-     "width_ratio": 1.0057,
-     "spread": 0.0063,
+     "width_ratio": 1.0184,
+     "spread": 0.0046,
      "stem_err": 0.0815,
      "shape": 0.9704,
      "features": 0.441,
@@ -3292,7 +3310,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.3179
+     "score": 1.3248
     },
     {
      "family": "TikTok Sans",
@@ -3302,8 +3320,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
      "index": null,
      "cap_ratio": 0.705,
-     "width_ratio": 0.9983,
-     "spread": 0.0054,
+     "width_ratio": 1.0119,
+     "spread": 0.0076,
      "stem_err": 0.0815,
      "shape": 1.0237,
      "features": 0.55,
@@ -3315,7 +3333,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.5066
+     "score": 1.5188
     },
     {
      "family": "Sofia Sans Condensed",
@@ -3325,8 +3343,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-900-06c935dd65e45c7a.ttf",
      "index": null,
      "cap_ratio": 0.655,
-     "width_ratio": 1.0699,
-     "spread": 0.0008,
+     "width_ratio": 1.0851,
+     "spread": 0.003,
      "stem_err": 0.2068,
      "shape": 1.1248,
      "features": 0.47,
@@ -3338,30 +3356,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.547
-    },
-    {
-     "family": "Barlow Semi Condensed",
-     "sub": "900",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-900-b5aa0758a3b85781.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0674,
-     "spread": 0.0084,
-     "stem_err": 0.0437,
-     "shape": 1.1957,
-     "features": 0.367,
-     "character": 0.132,
-     "record": {
-      "family": "Barlow Semi Condensed",
-      "weight": 900,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.6424
+     "score": 1.5624
     },
     {
      "family": "Barlow",
@@ -3371,8 +3366,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Barlow-0-0-800-0d76d18a30eb5e3b.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 0.9679,
-     "spread": 0.0092,
+     "width_ratio": 0.9785,
+     "spread": 0.0109,
      "stem_err": 0.0815,
      "shape": 1.1782,
      "features": 0.479,
@@ -3384,7 +3379,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6492
+     "score": 1.6437
+    },
+    {
+     "family": "Barlow Semi Condensed",
+     "sub": "900",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-900-b5aa0758a3b85781.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0798,
+     "spread": 0.0107,
+     "stem_err": 0.0437,
+     "shape": 1.1957,
+     "features": 0.367,
+     "character": 0.132,
+     "record": {
+      "family": "Barlow Semi Condensed",
+      "weight": 900,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6556
     },
     {
      "family": "Barlow Semi Condensed",
@@ -3394,8 +3412,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowSemiCondensed-0-0-800-b1927fb3863139e2.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 1.0795,
-     "spread": 0.0087,
+     "width_ratio": 1.0918,
+     "spread": 0.0108,
      "stem_err": 0.2068,
      "shape": 1.2258,
      "features": 0.637,
@@ -3407,99 +3425,99 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7275
+     "score": 1.7404
     },
     {
-     "family": "Catamaran",
+     "family": "Winky Rough",
+     "sub": "700 italic",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/WinkyRough-1-0-700-215dfecbfcb2fa7b.ttf",
+     "index": null,
+     "cap_ratio": 0.678,
+     "width_ratio": 1.0,
+     "spread": 0.0033,
+     "stem_err": 0.2158,
+     "shape": 2.4526,
+     "features": 3.289,
+     "character": 0.419,
+     "record": {
+      "family": "Winky Rough",
+      "weight": 700,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.5296
+    },
+    {
+     "family": "Barlow",
+     "sub": "900 italic",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Barlow-1-0-900-d451c839a1bda80c.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9999,
+     "spread": 0.0123,
+     "stem_err": 0.0073,
+     "shape": 1.9668,
+     "features": 2.585,
+     "character": 0.132,
+     "record": {
+      "family": "Barlow",
+      "weight": 900,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.4435
+    },
+    {
+     "family": "Ancizar Sans",
+     "sub": "300 italic",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AncizarSans-1-0-300-6e42f74505ca0e2c.ttf",
+     "index": null,
+     "cap_ratio": 0.612,
+     "width_ratio": 0.9999,
+     "spread": 0.0002,
+     "stem_err": 1.2065,
+     "shape": 3.5874,
+     "features": 3.06,
+     "character": 0.187,
+     "record": {
+      "family": "Ancizar Sans",
+      "weight": 300,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.4026
+    },
+    {
+     "family": "Urbanist",
      "sub": "300",
      "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Catamaran-0-0-300-bc4228cf48d1183b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Urbanist-0-0-300-7a5be28b3e1538b0.ttf",
      "index": null,
-     "cap_ratio": 0.685,
-     "width_ratio": 1.0,
-     "spread": 0.0022,
-     "stem_err": 1.2065,
-     "shape": 3.6361,
-     "features": 1.922,
-     "character": 0.187,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9998,
+     "spread": 0.0178,
+     "stem_err": 1.3318,
+     "shape": 3.765,
+     "features": 2.208,
+     "character": 0.081,
      "record": {
-      "family": "Catamaran",
+      "family": "Urbanist",
       "weight": 300,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 7.2543
-    },
-    {
-     "family": "Fira Sans",
-     "sub": "200",
-     "weight": 200,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FiraSans-0-0-200-ca5931b5d7011c70.ttf",
-     "index": null,
-     "cap_ratio": 0.684,
-     "width_ratio": 1.0,
-     "spread": 0.0078,
-     "stem_err": 1.4563,
-     "shape": 4.0059,
-     "features": 2.313,
-     "character": 0.257,
-     "record": {
-      "family": "Fira Sans",
-      "weight": 200,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 8.3714
-    },
-    {
-     "family": "Faustina",
-     "sub": "500 italic",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Faustina-1-0-500-0d2d2578747bf922.ttf",
-     "index": null,
-     "cap_ratio": 0.648,
-     "width_ratio": 1.0,
-     "spread": 0.0222,
-     "stem_err": 0.926,
-     "shape": 3.1638,
-     "features": 3.697,
-     "character": 0.543,
-     "record": {
-      "family": "Faustina",
-      "weight": 500,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 8.7423
-    },
-    {
-     "family": "Winky Sans",
-     "sub": "800",
-     "weight": 800,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/WinkySans-0-0-800-e301f15143f65b0a.ttf",
-     "index": null,
-     "cap_ratio": 0.687,
-     "width_ratio": 1.0002,
-     "spread": 0.0067,
-     "stem_err": 0.0437,
-     "shape": 1.6597,
-     "features": 0.709,
-     "character": 0.292,
-     "record": {
-      "family": "Winky Sans",
-      "weight": 800,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.2035
+     "score": 7.7558
     }
    ]
   },
@@ -4198,6 +4216,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

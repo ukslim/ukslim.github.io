@@ -100,7 +100,7 @@
   }
  ],
  "median_texture": 4.36,
- "alignment": "weak alignment (mean cost 0.47); 14 line(s) assigned by hand",
+ "alignment": "weak alignment (mean cost 0.47); 14 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.472,
  "lines": [
   {
@@ -1602,23 +1602,33 @@
  "assigned": [
   {
    "key": "date",
-   "text": "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+   "text": "SATURDAY 6TH SEPTEMBER 12 NOON \u2013 5PM",
    "bands": [
     2,
     3
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "SATURDAY 6TH SEPTEMBER",
+    "12 NOON \u2013 5PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     4,
     5
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -3657,14 +3667,14 @@
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.727,
+     "ratio": 0.736,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
     },
     {
      "key": "venue",
-     "ratio": 0.467,
+     "ratio": 0.471,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -3694,7 +3704,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -3706,7 +3716,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Lexend Deca",
@@ -3717,7 +3727,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -3729,7 +3739,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Parkinsans",
@@ -3740,7 +3750,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 1.021,
-     "spread": 0.2815,
+     "spread": 0.2786,
      "stem_err": 0.0059,
      "shape": 1.6799,
      "features": 0.426,
@@ -3752,7 +3762,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8114
+     "score": 2.8062
     },
     {
      "family": "SUSE",
@@ -3763,7 +3773,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0129,
-     "spread": 0.2896,
+     "spread": 0.2868,
      "stem_err": 0.0059,
      "shape": 1.514,
      "features": 0.439,
@@ -3775,7 +3785,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8442
+     "score": 2.8392
     },
     {
      "family": "Lexend",
@@ -3786,7 +3796,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -3798,7 +3808,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Lexend Deca",
@@ -3809,7 +3819,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -3821,7 +3831,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Geologica",
@@ -3832,7 +3842,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9622,
-     "spread": 0.2787,
+     "spread": 0.2758,
      "stem_err": 0.0059,
      "shape": 1.6802,
      "features": 0.434,
@@ -3844,7 +3854,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8612
+     "score": 2.856
     },
     {
      "family": "Prompt",
@@ -3855,7 +3865,7 @@
      "index": null,
      "cap_ratio": 0.699,
      "width_ratio": 1.026,
-     "spread": 0.2927,
+     "spread": 0.2892,
      "stem_err": 0.0059,
      "shape": 1.6396,
      "features": 0.31,
@@ -3867,7 +3877,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8715
+     "score": 2.8652
     },
     {
      "family": "Texturina",
@@ -3878,7 +3888,7 @@
      "index": null,
      "cap_ratio": 0.704,
      "width_ratio": 1.0,
-     "spread": 0.2924,
+     "spread": 0.2902,
      "stem_err": 1.202,
      "shape": 3.6138,
      "features": 1.995,
@@ -3890,7 +3900,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.0808
+     "score": 10.0769
     },
     {
      "family": "Elms Sans",
@@ -3901,7 +3911,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
-     "spread": 0.2768,
+     "spread": 0.2747,
      "stem_err": 1.323,
      "shape": 3.9733,
      "features": 4.534,
@@ -3913,7 +3923,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 9.4104
+     "score": 9.4067
     },
     {
      "family": "Mulish",
@@ -3924,7 +3934,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 0.9999,
-     "spread": 0.2826,
+     "spread": 0.2802,
      "stem_err": 0.7191,
      "shape": 3.3293,
      "features": 1.199,
@@ -3936,7 +3946,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.7161
+     "score": 5.7119
     },
     {
      "family": "Work Sans",
@@ -3947,7 +3957,7 @@
      "index": null,
      "cap_ratio": 0.66,
      "width_ratio": 0.9999,
-     "spread": 0.282,
+     "spread": 0.2804,
      "stem_err": 1.5079,
      "shape": 4.2439,
      "features": 5.342,
@@ -3959,7 +3969,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.7451
+     "score": 10.7422
     }
    ]
   },
@@ -3986,7 +3996,7 @@
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.727,
+     "ratio": 0.736,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -4002,7 +4012,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -4014,7 +4024,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Lexend Deca",
@@ -4025,7 +4035,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -4037,7 +4047,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Parkinsans",
@@ -4048,7 +4058,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 1.021,
-     "spread": 0.2815,
+     "spread": 0.2786,
      "stem_err": 0.0059,
      "shape": 1.6799,
      "features": 0.426,
@@ -4060,7 +4070,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8114
+     "score": 2.8062
     },
     {
      "family": "SUSE",
@@ -4071,7 +4081,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0129,
-     "spread": 0.2896,
+     "spread": 0.2868,
      "stem_err": 0.0059,
      "shape": 1.514,
      "features": 0.439,
@@ -4083,7 +4093,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8442
+     "score": 2.8392
     },
     {
      "family": "Lexend",
@@ -4094,7 +4104,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -4106,7 +4116,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Lexend Deca",
@@ -4117,7 +4127,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -4129,7 +4139,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Geologica",
@@ -4140,7 +4150,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9622,
-     "spread": 0.2787,
+     "spread": 0.2758,
      "stem_err": 0.0059,
      "shape": 1.6802,
      "features": 0.434,
@@ -4152,7 +4162,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8612
+     "score": 2.856
     },
     {
      "family": "Prompt",
@@ -4163,7 +4173,7 @@
      "index": null,
      "cap_ratio": 0.699,
      "width_ratio": 1.026,
-     "spread": 0.2927,
+     "spread": 0.2892,
      "stem_err": 0.0059,
      "shape": 1.6396,
      "features": 0.31,
@@ -4175,7 +4185,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8715
+     "score": 2.8652
     },
     {
      "family": "Texturina",
@@ -4186,7 +4196,7 @@
      "index": null,
      "cap_ratio": 0.704,
      "width_ratio": 1.0,
-     "spread": 0.2924,
+     "spread": 0.2902,
      "stem_err": 1.202,
      "shape": 3.6138,
      "features": 1.995,
@@ -4198,7 +4208,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.0808
+     "score": 10.0769
     },
     {
      "family": "Elms Sans",
@@ -4209,7 +4219,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
-     "spread": 0.2768,
+     "spread": 0.2747,
      "stem_err": 1.323,
      "shape": 3.9733,
      "features": 4.534,
@@ -4221,7 +4231,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 9.4104
+     "score": 9.4067
     },
     {
      "family": "Mulish",
@@ -4232,7 +4242,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 0.9999,
-     "spread": 0.2826,
+     "spread": 0.2802,
      "stem_err": 0.7191,
      "shape": 3.3293,
      "features": 1.199,
@@ -4244,7 +4254,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.7161
+     "score": 5.7119
     },
     {
      "family": "Work Sans",
@@ -4255,7 +4265,7 @@
      "index": null,
      "cap_ratio": 0.66,
      "width_ratio": 0.9999,
-     "spread": 0.282,
+     "spread": 0.2804,
      "stem_err": 1.5079,
      "shape": 4.2439,
      "features": 5.342,
@@ -4267,7 +4277,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.7451
+     "score": 10.7422
     }
    ]
   },
@@ -4294,7 +4304,7 @@
    "distortions": [
     {
      "key": "venue",
-     "ratio": 0.467,
+     "ratio": 0.471,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -4310,7 +4320,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -4322,7 +4332,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Lexend Deca",
@@ -4333,7 +4343,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9323,
-     "spread": 0.2533,
+     "spread": 0.2508,
      "stem_err": 0.0168,
      "shape": 1.5227,
      "features": 0.343,
@@ -4345,7 +4355,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6515
+     "score": 2.647
     },
     {
      "family": "Parkinsans",
@@ -4356,7 +4366,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 1.021,
-     "spread": 0.2815,
+     "spread": 0.2786,
      "stem_err": 0.0059,
      "shape": 1.6799,
      "features": 0.426,
@@ -4368,7 +4378,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8114
+     "score": 2.8062
     },
     {
      "family": "SUSE",
@@ -4379,7 +4389,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0129,
-     "spread": 0.2896,
+     "spread": 0.2868,
      "stem_err": 0.0059,
      "shape": 1.514,
      "features": 0.439,
@@ -4391,7 +4401,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8442
+     "score": 2.8392
     },
     {
      "family": "Lexend",
@@ -4402,7 +4412,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -4414,7 +4424,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Lexend Deca",
@@ -4425,7 +4435,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9416,
-     "spread": 0.2565,
+     "spread": 0.2539,
      "stem_err": 0.1145,
      "shape": 1.6533,
      "features": 0.474,
@@ -4437,7 +4447,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8581
+     "score": 2.8535
     },
     {
      "family": "Geologica",
@@ -4448,7 +4458,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9622,
-     "spread": 0.2787,
+     "spread": 0.2758,
      "stem_err": 0.0059,
      "shape": 1.6802,
      "features": 0.434,
@@ -4460,7 +4470,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8612
+     "score": 2.856
     },
     {
      "family": "Prompt",
@@ -4471,7 +4481,7 @@
      "index": null,
      "cap_ratio": 0.699,
      "width_ratio": 1.026,
-     "spread": 0.2927,
+     "spread": 0.2892,
      "stem_err": 0.0059,
      "shape": 1.6396,
      "features": 0.31,
@@ -4483,7 +4493,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8715
+     "score": 2.8652
     },
     {
      "family": "Texturina",
@@ -4494,7 +4504,7 @@
      "index": null,
      "cap_ratio": 0.704,
      "width_ratio": 1.0,
-     "spread": 0.2924,
+     "spread": 0.2902,
      "stem_err": 1.202,
      "shape": 3.6138,
      "features": 1.995,
@@ -4506,7 +4516,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.0808
+     "score": 10.0769
     },
     {
      "family": "Elms Sans",
@@ -4517,7 +4527,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
-     "spread": 0.2768,
+     "spread": 0.2747,
      "stem_err": 1.323,
      "shape": 3.9733,
      "features": 4.534,
@@ -4529,7 +4539,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 9.4104
+     "score": 9.4067
     },
     {
      "family": "Mulish",
@@ -4540,7 +4550,7 @@
      "index": null,
      "cap_ratio": 0.705,
      "width_ratio": 0.9999,
-     "spread": 0.2826,
+     "spread": 0.2802,
      "stem_err": 0.7191,
      "shape": 3.3293,
      "features": 1.199,
@@ -4552,7 +4562,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.7161
+     "score": 5.7119
     },
     {
      "family": "Work Sans",
@@ -4563,7 +4573,7 @@
      "index": null,
      "cap_ratio": 0.66,
      "width_ratio": 0.9999,
-     "spread": 0.282,
+     "spread": 0.2804,
      "stem_err": 1.5079,
      "shape": 4.2439,
      "features": 5.342,
@@ -4575,7 +4585,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.7451
+     "score": 10.7422
     }
    ]
   }
@@ -4638,6 +4648,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

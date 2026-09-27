@@ -111,7 +111,7 @@
   }
  ],
  "median_texture": 1.99,
- "alignment": "weak alignment (mean cost 0.63); 5 line(s) assigned by hand",
+ "alignment": "weak alignment (mean cost 0.63); 5 line(s) assigned by hand; not printed: venue ','",
  "alignment_cost": 0.63,
  "lines": [
   {
@@ -691,13 +691,18 @@
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     1,
     2
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   }
  ],
  "artwork": [
@@ -2491,22 +2496,22 @@
    "lines": [
     "date"
    ],
-   "shape_glyphs": "WMRSKCADBU",
+   "shape_glyphs": "WMRSNKCADB",
    "brief": {
     "/Sans/*": 90,
     "/Expressive/Loud": 60
    },
    "features": {
-    "weight": 0.278,
+    "weight": 0.264,
     "contrast": 0.833,
     "slant": 0.0,
     "square": null,
-    "corner": 0.713,
+    "corner": 0.794,
     "bend": 0.189,
     "cap": 42.0
    },
    "confidence": "low",
-   "margin": 0.058,
+   "margin": 0.114,
    "distortions": [],
    "candidates": [
     {
@@ -2517,11 +2522,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-75-900-a951d5993bb2112a.ttf",
      "index": null,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0136,
-     "spread": 0.0586,
-     "stem_err": 0.0705,
-     "shape": 1.207,
-     "features": 0.322,
+     "width_ratio": 1.0203,
+     "spread": 0.0653,
+     "stem_err": 0.0163,
+     "shape": 1.2478,
+     "features": 0.272,
      "character": 0.158,
      "record": {
       "family": "Zalando Sans",
@@ -2530,7 +2535,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.5584
+     "score": 1.6056
     },
     {
      "family": "Helvetica Neue",
@@ -2540,11 +2545,11 @@
      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
      "index": 9,
      "cap_ratio": 0.714,
-     "width_ratio": 1.021,
-     "spread": 0.07,
-     "stem_err": 0.179,
-     "shape": 1.2113,
-     "features": 0.449,
+     "width_ratio": 1.0268,
+     "spread": 0.0758,
+     "stem_err": 0.0923,
+     "shape": 1.3529,
+     "features": 0.393,
      "character": 0.25,
      "record": {
       "family": "Helvetica Neue",
@@ -2553,7 +2558,7 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.6493
+     "score": 1.7883
     },
     {
      "family": "Sofia Sans Condensed",
@@ -2563,11 +2568,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-900-06c935dd65e45c7a.ttf",
      "index": null,
      "cap_ratio": 0.655,
-     "width_ratio": 1.0056,
-     "spread": 0.0567,
-     "stem_err": 0.2876,
-     "shape": 1.2877,
-     "features": 0.497,
+     "width_ratio": 1.0125,
+     "spread": 0.0636,
+     "stem_err": 0.2008,
+     "shape": 1.3334,
+     "features": 0.434,
      "character": 0.171,
      "record": {
       "family": "Sofia Sans Condensed",
@@ -2576,53 +2581,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7972
-    },
-    {
-     "family": "TikTok Sans",
-     "sub": "900 wdth75",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
-     "index": null,
-     "cap_ratio": 0.705,
-     "width_ratio": 0.9381,
-     "spread": 0.0488,
-     "stem_err": 0.179,
-     "shape": 1.3966,
-     "features": 0.406,
-     "character": 0.127,
-     "record": {
-      "family": "TikTok Sans",
-      "weight": 900,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 1.9345
-    },
-    {
-     "family": "Fredoka",
-     "sub": "700 wdth75",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Fredoka-0-75-700-155b9cd2543b915b.ttf",
-     "index": null,
-     "cap_ratio": 0.691,
-     "width_ratio": 0.9959,
-     "spread": 0.0502,
-     "stem_err": 0.0705,
-     "shape": 1.5419,
-     "features": 0.402,
-     "character": 0.146,
-     "record": {
-      "family": "Fredoka",
-      "weight": 700,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 1.9433
+     "score": 1.8151
     },
     {
      "family": "Lilita One",
@@ -2632,11 +2591,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LilitaOne-0-0-400-f45fe8dac24ad3a5.ttf",
      "index": null,
      "cap_ratio": 0.701,
-     "width_ratio": 0.9284,
-     "spread": 0.0426,
-     "stem_err": 0.0705,
-     "shape": 1.5645,
-     "features": 0.371,
+     "width_ratio": 0.9345,
+     "spread": 0.0487,
+     "stem_err": 0.0163,
+     "shape": 1.4469,
+     "features": 0.26,
      "character": 0.188,
      "record": {
       "family": "Lilita One",
@@ -2645,30 +2604,53 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0093
+     "score": 1.8417
     },
     {
-     "family": "Open Sans",
-     "sub": "800 wdth75",
-     "weight": 800,
+     "family": "TikTok Sans",
+     "sub": "900 wdth75",
+     "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/OpenSans-0-75-800-e2ed4e9815e37c73.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
      "index": null,
-     "cap_ratio": 0.7138671875,
-     "width_ratio": 1.0404,
-     "spread": 0.0613,
-     "stem_err": 0.2876,
-     "shape": 1.5184,
-     "features": 0.636,
+     "cap_ratio": 0.705,
+     "width_ratio": 0.9442,
+     "spread": 0.0548,
+     "stem_err": 0.0923,
+     "shape": 1.5339,
+     "features": 0.313,
      "character": 0.127,
      "record": {
-      "family": "Open Sans",
-      "weight": 800,
+      "family": "TikTok Sans",
+      "weight": 900,
       "italic": false,
       "wdth": 75,
       "source": "google"
      },
-     "score": 2.1143
+     "score": 2.0118
+    },
+    {
+     "family": "Fredoka",
+     "sub": "700 wdth75",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Fredoka-0-75-700-155b9cd2543b915b.ttf",
+     "index": null,
+     "cap_ratio": 0.691,
+     "width_ratio": 1.0014,
+     "spread": 0.0557,
+     "stem_err": 0.0163,
+     "shape": 1.6484,
+     "features": 0.358,
+     "character": 0.146,
+     "record": {
+      "family": "Fredoka",
+      "weight": 700,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.0452
     },
     {
      "family": "Passion One",
@@ -2678,11 +2660,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PassionOne-0-0-400-b5917b10e0b71e40.ttf",
      "index": null,
      "cap_ratio": 0.621,
-     "width_ratio": 1.0152,
-     "spread": 0.0662,
-     "stem_err": 0.0705,
-     "shape": 1.5172,
-     "features": 0.331,
+     "width_ratio": 1.0227,
+     "spread": 0.0737,
+     "stem_err": 0.0163,
+     "shape": 1.5272,
+     "features": 0.294,
      "character": 0.316,
      "record": {
       "family": "Passion One",
@@ -2691,99 +2673,122 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1198
+     "score": 2.1657
     },
     {
-     "family": "Edu SA Beginner",
-     "sub": "500",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EduSABeginner-0-0-500-c548aab6e45a6a12.ttf",
-     "index": null,
-     "cap_ratio": 0.772,
-     "width_ratio": 1.0001,
-     "spread": 0.0514,
-     "stem_err": 1.154,
-     "shape": 3.7691,
-     "features": 3.086,
-     "character": 0.765,
-     "record": {
-      "family": "Edu SA Beginner",
-      "weight": 500,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.4129
-    },
-    {
-     "family": "Glory",
-     "sub": "300 italic",
-     "weight": 300,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Glory-1-0-300-66de4e2a9a3828c1.ttf",
-     "index": null,
-     "cap_ratio": 0.672,
-     "width_ratio": 0.9999,
-     "spread": 0.0729,
-     "stem_err": 1.2626,
-     "shape": 4.2033,
-     "features": 4.571,
-     "character": 0.474,
-     "record": {
-      "family": "Glory",
-      "weight": 300,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.0512
-    },
-    {
-     "family": "Epilogue",
-     "sub": "200",
-     "weight": 200,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Epilogue-0-0-200-b9fb271a131dbe55.ttf",
-     "index": null,
-     "cap_ratio": 0.7375,
-     "width_ratio": 1.0002,
-     "spread": 0.0672,
-     "stem_err": 1.479,
-     "shape": 3.9861,
-     "features": 2.118,
-     "character": 0.122,
-     "record": {
-      "family": "Epilogue",
-      "weight": 200,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 8.8197
-    },
-    {
-     "family": "Elsie Swash Caps",
+     "family": "Reddit Sans Condensed",
      "sub": "900",
      "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ElsieSwashCaps-0-0-900-6fa86936354254b6.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-900-a9eb8a2e26a5f6f8.ttf",
      "index": null,
-     "cap_ratio": 0.719,
-     "width_ratio": 1.0003,
-     "spread": 0.0448,
-     "stem_err": 0.0374,
-     "shape": 2.5786,
-     "features": 1.203,
-     "character": 0.761,
+     "cap_ratio": 0.7197265625,
+     "width_ratio": 0.9755,
+     "spread": 0.0608,
+     "stem_err": 0.0923,
+     "shape": 1.5817,
+     "features": 0.297,
+     "character": 0.177,
      "record": {
-      "family": "Elsie Swash Caps",
+      "family": "Reddit Sans Condensed",
       "weight": 900,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 8.18
+     "score": 2.1841
+    },
+    {
+     "family": "Rosario",
+     "sub": "700 italic",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Rosario-1-0-700-bfe11da5c2521a5e.ttf",
+     "index": null,
+     "cap_ratio": 0.732,
+     "width_ratio": 1.0,
+     "spread": 0.0639,
+     "stem_err": 0.6506,
+     "shape": 2.9833,
+     "features": 2.952,
+     "character": 0.409,
+     "record": {
+      "family": "Rosario",
+      "weight": 700,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.6212
+    },
+    {
+     "family": "Vibur",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vibur-0-0-400-9430ead0f9e99c2f.ttf",
+     "index": null,
+     "cap_ratio": 0.7578125,
+     "width_ratio": 0.9998,
+     "spread": 0.0753,
+     "stem_err": 1.0673,
+     "shape": 3.7873,
+     "features": 3.362,
+     "character": 0.761,
+     "record": {
+      "family": "Vibur",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 11.2018
+    },
+    {
+     "family": "LXGW WenKai Mono TC",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LXGWWenKaiMonoTC-0-0-400-1c0a4f802e27cf46.ttf",
+     "index": null,
+     "cap_ratio": 0.705,
+     "width_ratio": 0.9997,
+     "spread": 0.0771,
+     "stem_err": 1.0673,
+     "shape": 4.2117,
+     "features": 1.887,
+     "character": 0.761,
+     "record": {
+      "family": "LXGW WenKai Mono TC",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 11.2104
+    },
+    {
+     "family": "Epilogue",
+     "sub": "200 italic",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Epilogue-1-0-200-84576bd546dbc4fd.ttf",
+     "index": null,
+     "cap_ratio": 0.7375,
+     "width_ratio": 0.9996,
+     "spread": 0.0711,
+     "stem_err": 1.3923,
+     "shape": 4.1967,
+     "features": 4.756,
+     "character": 0.122,
+     "record": {
+      "family": "Epilogue",
+      "weight": 200,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 10.7226
     }
    ]
   },
@@ -2791,22 +2796,22 @@
    "lines": [
     "venue"
    ],
-   "shape_glyphs": "WMRSKCADBU",
+   "shape_glyphs": "WMRSNKCADB",
    "brief": {
     "/Sans/*": 90,
     "/Expressive/Loud": 60
    },
    "features": {
-    "weight": 0.278,
+    "weight": 0.264,
     "contrast": 0.833,
     "slant": 0.0,
     "square": null,
-    "corner": 0.713,
+    "corner": 0.794,
     "bend": 0.189,
     "cap": 42.0
    },
    "confidence": "low",
-   "margin": 0.058,
+   "margin": 0.114,
    "distortions": [],
    "candidates": [
     {
@@ -2817,11 +2822,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-75-900-a951d5993bb2112a.ttf",
      "index": null,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0136,
-     "spread": 0.0586,
-     "stem_err": 0.0705,
-     "shape": 1.207,
-     "features": 0.322,
+     "width_ratio": 1.0203,
+     "spread": 0.0653,
+     "stem_err": 0.0163,
+     "shape": 1.2478,
+     "features": 0.272,
      "character": 0.158,
      "record": {
       "family": "Zalando Sans",
@@ -2830,7 +2835,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.5584
+     "score": 1.6056
     },
     {
      "family": "Helvetica Neue",
@@ -2840,11 +2845,11 @@
      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
      "index": 9,
      "cap_ratio": 0.714,
-     "width_ratio": 1.021,
-     "spread": 0.07,
-     "stem_err": 0.179,
-     "shape": 1.2113,
-     "features": 0.449,
+     "width_ratio": 1.0268,
+     "spread": 0.0758,
+     "stem_err": 0.0923,
+     "shape": 1.3529,
+     "features": 0.393,
      "character": 0.25,
      "record": {
       "family": "Helvetica Neue",
@@ -2853,7 +2858,7 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.6493
+     "score": 1.7883
     },
     {
      "family": "Sofia Sans Condensed",
@@ -2863,11 +2868,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-900-06c935dd65e45c7a.ttf",
      "index": null,
      "cap_ratio": 0.655,
-     "width_ratio": 1.0056,
-     "spread": 0.0567,
-     "stem_err": 0.2876,
-     "shape": 1.2877,
-     "features": 0.497,
+     "width_ratio": 1.0125,
+     "spread": 0.0636,
+     "stem_err": 0.2008,
+     "shape": 1.3334,
+     "features": 0.434,
      "character": 0.171,
      "record": {
       "family": "Sofia Sans Condensed",
@@ -2876,53 +2881,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7972
-    },
-    {
-     "family": "TikTok Sans",
-     "sub": "900 wdth75",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
-     "index": null,
-     "cap_ratio": 0.705,
-     "width_ratio": 0.9381,
-     "spread": 0.0488,
-     "stem_err": 0.179,
-     "shape": 1.3966,
-     "features": 0.406,
-     "character": 0.127,
-     "record": {
-      "family": "TikTok Sans",
-      "weight": 900,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 1.9345
-    },
-    {
-     "family": "Fredoka",
-     "sub": "700 wdth75",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Fredoka-0-75-700-155b9cd2543b915b.ttf",
-     "index": null,
-     "cap_ratio": 0.691,
-     "width_ratio": 0.9959,
-     "spread": 0.0502,
-     "stem_err": 0.0705,
-     "shape": 1.5419,
-     "features": 0.402,
-     "character": 0.146,
-     "record": {
-      "family": "Fredoka",
-      "weight": 700,
-      "italic": false,
-      "wdth": 75,
-      "source": "google"
-     },
-     "score": 1.9433
+     "score": 1.8151
     },
     {
      "family": "Lilita One",
@@ -2932,11 +2891,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LilitaOne-0-0-400-f45fe8dac24ad3a5.ttf",
      "index": null,
      "cap_ratio": 0.701,
-     "width_ratio": 0.9284,
-     "spread": 0.0426,
-     "stem_err": 0.0705,
-     "shape": 1.5645,
-     "features": 0.371,
+     "width_ratio": 0.9345,
+     "spread": 0.0487,
+     "stem_err": 0.0163,
+     "shape": 1.4469,
+     "features": 0.26,
      "character": 0.188,
      "record": {
       "family": "Lilita One",
@@ -2945,30 +2904,53 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0093
+     "score": 1.8417
     },
     {
-     "family": "Open Sans",
-     "sub": "800 wdth75",
-     "weight": 800,
+     "family": "TikTok Sans",
+     "sub": "900 wdth75",
+     "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/OpenSans-0-75-800-e2ed4e9815e37c73.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
      "index": null,
-     "cap_ratio": 0.7138671875,
-     "width_ratio": 1.0404,
-     "spread": 0.0613,
-     "stem_err": 0.2876,
-     "shape": 1.5184,
-     "features": 0.636,
+     "cap_ratio": 0.705,
+     "width_ratio": 0.9442,
+     "spread": 0.0548,
+     "stem_err": 0.0923,
+     "shape": 1.5339,
+     "features": 0.313,
      "character": 0.127,
      "record": {
-      "family": "Open Sans",
-      "weight": 800,
+      "family": "TikTok Sans",
+      "weight": 900,
       "italic": false,
       "wdth": 75,
       "source": "google"
      },
-     "score": 2.1143
+     "score": 2.0118
+    },
+    {
+     "family": "Fredoka",
+     "sub": "700 wdth75",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Fredoka-0-75-700-155b9cd2543b915b.ttf",
+     "index": null,
+     "cap_ratio": 0.691,
+     "width_ratio": 1.0014,
+     "spread": 0.0557,
+     "stem_err": 0.0163,
+     "shape": 1.6484,
+     "features": 0.358,
+     "character": 0.146,
+     "record": {
+      "family": "Fredoka",
+      "weight": 700,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.0452
     },
     {
      "family": "Passion One",
@@ -2978,11 +2960,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PassionOne-0-0-400-b5917b10e0b71e40.ttf",
      "index": null,
      "cap_ratio": 0.621,
-     "width_ratio": 1.0152,
-     "spread": 0.0662,
-     "stem_err": 0.0705,
-     "shape": 1.5172,
-     "features": 0.331,
+     "width_ratio": 1.0227,
+     "spread": 0.0737,
+     "stem_err": 0.0163,
+     "shape": 1.5272,
+     "features": 0.294,
      "character": 0.316,
      "record": {
       "family": "Passion One",
@@ -2991,99 +2973,122 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1198
+     "score": 2.1657
     },
     {
-     "family": "Edu SA Beginner",
-     "sub": "500",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EduSABeginner-0-0-500-c548aab6e45a6a12.ttf",
-     "index": null,
-     "cap_ratio": 0.772,
-     "width_ratio": 1.0001,
-     "spread": 0.0514,
-     "stem_err": 1.154,
-     "shape": 3.7691,
-     "features": 3.086,
-     "character": 0.765,
-     "record": {
-      "family": "Edu SA Beginner",
-      "weight": 500,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.4129
-    },
-    {
-     "family": "Glory",
-     "sub": "300 italic",
-     "weight": 300,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Glory-1-0-300-66de4e2a9a3828c1.ttf",
-     "index": null,
-     "cap_ratio": 0.672,
-     "width_ratio": 0.9999,
-     "spread": 0.0729,
-     "stem_err": 1.2626,
-     "shape": 4.2033,
-     "features": 4.571,
-     "character": 0.474,
-     "record": {
-      "family": "Glory",
-      "weight": 300,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.0512
-    },
-    {
-     "family": "Epilogue",
-     "sub": "200",
-     "weight": 200,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Epilogue-0-0-200-b9fb271a131dbe55.ttf",
-     "index": null,
-     "cap_ratio": 0.7375,
-     "width_ratio": 1.0002,
-     "spread": 0.0672,
-     "stem_err": 1.479,
-     "shape": 3.9861,
-     "features": 2.118,
-     "character": 0.122,
-     "record": {
-      "family": "Epilogue",
-      "weight": 200,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 8.8197
-    },
-    {
-     "family": "Elsie Swash Caps",
+     "family": "Reddit Sans Condensed",
      "sub": "900",
      "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ElsieSwashCaps-0-0-900-6fa86936354254b6.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-900-a9eb8a2e26a5f6f8.ttf",
      "index": null,
-     "cap_ratio": 0.719,
-     "width_ratio": 1.0003,
-     "spread": 0.0448,
-     "stem_err": 0.0374,
-     "shape": 2.5786,
-     "features": 1.203,
-     "character": 0.761,
+     "cap_ratio": 0.7197265625,
+     "width_ratio": 0.9755,
+     "spread": 0.0608,
+     "stem_err": 0.0923,
+     "shape": 1.5817,
+     "features": 0.297,
+     "character": 0.177,
      "record": {
-      "family": "Elsie Swash Caps",
+      "family": "Reddit Sans Condensed",
       "weight": 900,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 8.18
+     "score": 2.1841
+    },
+    {
+     "family": "Rosario",
+     "sub": "700 italic",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Rosario-1-0-700-bfe11da5c2521a5e.ttf",
+     "index": null,
+     "cap_ratio": 0.732,
+     "width_ratio": 1.0,
+     "spread": 0.0639,
+     "stem_err": 0.6506,
+     "shape": 2.9833,
+     "features": 2.952,
+     "character": 0.409,
+     "record": {
+      "family": "Rosario",
+      "weight": 700,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.6212
+    },
+    {
+     "family": "Vibur",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Vibur-0-0-400-9430ead0f9e99c2f.ttf",
+     "index": null,
+     "cap_ratio": 0.7578125,
+     "width_ratio": 0.9998,
+     "spread": 0.0753,
+     "stem_err": 1.0673,
+     "shape": 3.7873,
+     "features": 3.362,
+     "character": 0.761,
+     "record": {
+      "family": "Vibur",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 11.2018
+    },
+    {
+     "family": "LXGW WenKai Mono TC",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LXGWWenKaiMonoTC-0-0-400-1c0a4f802e27cf46.ttf",
+     "index": null,
+     "cap_ratio": 0.705,
+     "width_ratio": 0.9997,
+     "spread": 0.0771,
+     "stem_err": 1.0673,
+     "shape": 4.2117,
+     "features": 1.887,
+     "character": 0.761,
+     "record": {
+      "family": "LXGW WenKai Mono TC",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 11.2104
+    },
+    {
+     "family": "Epilogue",
+     "sub": "200 italic",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Epilogue-1-0-200-84576bd546dbc4fd.ttf",
+     "index": null,
+     "cap_ratio": 0.7375,
+     "width_ratio": 0.9996,
+     "spread": 0.0711,
+     "stem_err": 1.3923,
+     "shape": 4.1967,
+     "features": 4.756,
+     "character": 0.122,
+     "record": {
+      "family": "Epilogue",
+      "weight": 200,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 10.7226
     }
    ]
   }
@@ -3138,6 +3143,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

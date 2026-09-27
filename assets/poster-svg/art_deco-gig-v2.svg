@@ -11,7 +11,7 @@
  "fault_outlook": null,
  "skip_reason": "The gold type and the gold Deco ornament are the same colour and much the same scale, so nothing measurable separates them. On a pure black ground the neutral masks are empty and everything lands in one colour mask of 400,000 pixels: rays, borders and lettering alike. That yields 19 candidate lines of which only about 8 are text, and the aligner puts the headline on a 21-pixel band. The type is font-like and the ground is flat, so this is a limit of telling ornament from lettering, not of the poster.",
  "version": {
-  "commit": "6f71f0b",
+  "commit": "de6efae",
   "date": "2026-09-27",
   "tag": null
  },

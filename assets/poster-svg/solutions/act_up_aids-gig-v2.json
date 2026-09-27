@@ -53,7 +53,7 @@
   }
  ],
  "median_texture": 0.28,
- "alignment": "ok; 8 line(s) assigned by hand",
+ "alignment": "ok; 8 line(s) assigned by hand; not printed: venue ','",
  "alignment_cost": 0.05,
  "lines": [
   {
@@ -1838,13 +1838,18 @@
   },
   {
    "key": "venue",
-   "text": "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+   "text": "THE ANCHOR ROOMS 14 TALLOW LANE, BRISTOL WX4 2JQ",
    "bands": [
     5,
     6
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "THE ANCHOR ROOMS",
+    "14 TALLOW LANE, BRISTOL WX4 2JQ"
+   ],
+   "dropped": ","
   },
   {
    "key": "tickets",
@@ -1952,20 +1957,20 @@
     "ticket_source",
     "footer"
    ],
-   "shape_glyphs": "MWRSQ2GAON",
+   "shape_glyphs": "MWSRQ2GAON",
    "brief": {
     "/Sans/*": 90,
     "/Expressive/Loud": 50,
     "/Expressive/Playful": 5
    },
    "features": {
-    "weight": 0.218,
+    "weight": 0.222,
     "contrast": 0.837,
     "slant": 0.0,
     "square": 0.907,
     "corner": 0.557,
     "bend": 0.156,
-    "cap": 49.5
+    "cap": 51.0
    },
    "confidence": "low",
    "margin": 0.0,
@@ -2015,11 +2020,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Anton-0-0-400-00a82c4faa2e89f8.ttf",
      "index": null,
      "cap_ratio": 0.859375,
-     "width_ratio": 1.1343,
+     "width_ratio": 1.1483,
      "spread": 0.0494,
-     "stem_err": 0.0796,
-     "shape": 0.9151,
-     "features": 0.436,
+     "stem_err": 0.1236,
+     "shape": 0.9521,
+     "features": 0.502,
      "character": 0.21,
      "record": {
       "family": "Anton",
@@ -2028,7 +2033,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.4495
+     "score": 1.5353
     },
     {
      "family": "Anton SC",
@@ -2038,11 +2043,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AntonSC-0-0-400-719b6f03f8b25770.ttf",
      "index": null,
      "cap_ratio": 0.859375,
-     "width_ratio": 1.1343,
+     "width_ratio": 1.1483,
      "spread": 0.0494,
-     "stem_err": 0.0796,
-     "shape": 0.9151,
-     "features": 0.436,
+     "stem_err": 0.1236,
+     "shape": 0.9521,
+     "features": 0.502,
      "character": 0.21,
      "record": {
       "family": "Anton SC",
@@ -2051,30 +2056,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.4495
-    },
-    {
-     "family": "Saira Extra Condensed",
-     "sub": "800",
-     "weight": 800,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-800-af595d091477bbcf.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 1.0956,
-     "spread": 0.0505,
-     "stem_err": 0.1491,
-     "shape": 1.1028,
-     "features": 0.384,
-     "character": 0.29,
-     "record": {
-      "family": "Saira Extra Condensed",
-      "weight": 800,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.567
+     "score": 1.5353
     },
     {
      "family": "Oswald",
@@ -2085,10 +2067,10 @@
      "index": null,
      "cap_ratio": 0.81,
      "width_ratio": 0.9525,
-     "spread": 0.0417,
-     "stem_err": 0.1491,
-     "shape": 1.0212,
-     "features": 0.57,
+     "spread": 0.0422,
+     "stem_err": 0.1962,
+     "shape": 0.9942,
+     "features": 0.605,
      "character": 0.24,
      "record": {
       "family": "Oswald",
@@ -2097,7 +2079,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6034
+     "score": 1.5908
+    },
+    {
+     "family": "Saira Extra Condensed",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-800-af595d091477bbcf.ttf",
+     "index": null,
+     "cap_ratio": 0.688,
+     "width_ratio": 1.0956,
+     "spread": 0.0508,
+     "stem_err": 0.1962,
+     "shape": 1.1037,
+     "features": 0.452,
+     "character": 0.29,
+     "record": {
+      "family": "Saira Extra Condensed",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6023
     },
     {
      "family": "Smooch Sans",
@@ -2107,11 +2112,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SmoochSans-0-0-800-3dc86df5408ad3d3.ttf",
      "index": null,
      "cap_ratio": 0.62,
-     "width_ratio": 1.0097,
-     "spread": 0.0438,
-     "stem_err": 0.0092,
-     "shape": 1.141,
-     "features": 0.415,
+     "width_ratio": 1.0215,
+     "spread": 0.0439,
+     "stem_err": 0.0501,
+     "shape": 1.0815,
+     "features": 0.442,
      "character": 0.248,
      "record": {
       "family": "Smooch Sans",
@@ -2120,7 +2125,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6514
+     "score": 1.6206
     },
     {
      "family": "Saira Extra Condensed",
@@ -2131,10 +2136,10 @@
      "index": null,
      "cap_ratio": 0.688,
      "width_ratio": 1.0926,
-     "spread": 0.0513,
-     "stem_err": 0.0092,
-     "shape": 1.2627,
-     "features": 0.216,
+     "spread": 0.0514,
+     "stem_err": 0.0501,
+     "shape": 1.2512,
+     "features": 0.277,
      "character": 0.29,
      "record": {
       "family": "Saira Extra Condensed",
@@ -2143,7 +2148,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.655
+     "score": 1.6711
+    },
+    {
+     "family": "Barlow Condensed",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowCondensed-0-0-800-3dfdd204d8aeafc8.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9325,
+     "spread": 0.0395,
+     "stem_err": 0.0952,
+     "shape": 1.1941,
+     "features": 0.67,
+     "character": 0.29,
+     "record": {
+      "family": "Barlow Condensed",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7407
     },
     {
      "family": "Impact",
@@ -2153,11 +2181,11 @@
      "path": "/System/Library/Fonts/Supplemental/Impact.ttf",
      "index": null,
      "cap_ratio": 0.79052734375,
-     "width_ratio": 1.0132,
-     "spread": 0.0394,
-     "stem_err": 0.2696,
-     "shape": 1.2056,
-     "features": 0.754,
+     "width_ratio": 1.0178,
+     "spread": 0.0398,
+     "stem_err": 0.2413,
+     "shape": 1.1709,
+     "features": 0.714,
      "character": 0.25,
      "record": {
       "family": "Impact",
@@ -2166,53 +2194,7 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.8285
-    },
-    {
-     "family": "Barlow Condensed",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowCondensed-0-0-700-82f231c8fd1dbdc0.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9508,
-     "spread": 0.04,
-     "stem_err": 0.1491,
-     "shape": 1.1955,
-     "features": 0.614,
-     "character": 0.29,
-     "record": {
-      "family": "Barlow Condensed",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.8807
-    },
-    {
-     "family": "Smooch Sans",
-     "sub": "900",
-     "weight": 900,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SmoochSans-0-0-900-302a427fa54f2f58.ttf",
-     "index": null,
-     "cap_ratio": 0.62,
-     "width_ratio": 1.0,
-     "spread": 0.0445,
-     "stem_err": 0.2696,
-     "shape": 1.3324,
-     "features": 0.703,
-     "character": 0.248,
-     "record": {
-      "family": "Smooch Sans",
-      "weight": 900,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.9773
+     "score": 1.7824
     },
     {
      "family": "Covered By Your Grace",
@@ -2223,10 +2205,10 @@
      "index": null,
      "cap_ratio": 0.7763671875,
      "width_ratio": 1.0003,
-     "spread": 0.0382,
-     "stem_err": 0.9749,
-     "shape": 3.6154,
-     "features": 2.97,
+     "spread": 0.0386,
+     "stem_err": 1.059,
+     "shape": 3.5991,
+     "features": 3.039,
      "character": 0.715,
      "record": {
       "family": "Covered By Your Grace",
@@ -2235,7 +2217,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 10.484
+     "score": 10.4996
     },
     {
      "family": "Alumni Sans SC",
@@ -2246,10 +2228,10 @@
      "index": null,
      "cap_ratio": 0.591,
      "width_ratio": 0.9994,
-     "spread": 0.0383,
-     "stem_err": 0.8467,
-     "shape": 2.5695,
-     "features": 1.394,
+     "spread": 0.0392,
+     "stem_err": 0.9251,
+     "shape": 2.5696,
+     "features": 1.498,
      "character": 0.43,
      "record": {
       "family": "Alumni Sans SC",
@@ -2258,7 +2240,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.9586
+     "score": 6.0129
     },
     {
      "family": "Alumni Sans",
@@ -2269,10 +2251,10 @@
      "index": null,
      "cap_ratio": 0.591,
      "width_ratio": 0.9994,
-     "spread": 0.0383,
-     "stem_err": 0.8467,
-     "shape": 2.5695,
-     "features": 1.394,
+     "spread": 0.0392,
+     "stem_err": 0.9251,
+     "shape": 2.5696,
+     "features": 1.498,
      "character": 0.432,
      "record": {
       "family": "Alumni Sans",
@@ -2281,7 +2263,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.9743
+     "score": 6.0287
+    },
+    {
+     "family": "Oswald",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-500-bd54c32397ca4570.ttf",
+     "index": null,
+     "cap_ratio": 0.81,
+     "width_ratio": 0.999,
+     "spread": 0.0424,
+     "stem_err": 0.4876,
+     "shape": 1.4144,
+     "features": 0.814,
+     "character": 0.24,
+     "record": {
+      "family": "Oswald",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.4795
     }
    ]
   },
@@ -2595,7 +2600,7 @@
    "top": [
     "Anton",
     "Anton SC",
-    "Saira Extra Condensed"
+    "Oswald"
    ]
   },
   {
@@ -2645,6 +2650,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

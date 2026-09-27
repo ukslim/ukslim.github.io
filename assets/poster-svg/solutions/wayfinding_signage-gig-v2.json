@@ -53,7 +53,7 @@
   }
  ],
  "median_texture": 0.28,
- "alignment": "ok; 8 line(s) assigned by hand",
+ "alignment": "ok; 8 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.181,
  "lines": [
   {
@@ -1898,24 +1898,35 @@
   },
   {
    "key": "date",
-   "text": "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM",
+   "text": "FRIDAY 19TH SEPTEMBER DOORS 7:30PM",
    "bands": [
     5,
     6
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "FRIDAY 19TH SEPTEMBER",
+    "DOORS 7:30PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+   "text": "THE ANCHOR ROOMS 14 TALLOW LANE, BRISTOL WX4 2JQ",
    "bands": [
     7,
     8,
     9
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "THE ANCHOR ROOMS",
+    "14 TALLOW LANE,",
+    "BRISTOL WX4 2JQ"
+   ],
+   "dropped": ","
   },
   {
    "key": "tickets",
@@ -2560,11 +2571,11 @@
     "ticket_source",
     "footer"
    ],
-   "shape_glyphs": "MWRSGQ2AON",
+   "shape_glyphs": "MWSRGQ2AON",
    "brief": null,
    "features": {
     "weight": 0.18,
-    "contrast": 0.75,
+    "contrast": 0.775,
     "slant": 0.0,
     "square": 0.85,
     "corner": 0.742,
@@ -2572,7 +2583,7 @@
     "cap": 44.5
    },
    "confidence": "low",
-   "margin": 0.041,
+   "margin": 0.072,
    "distortions": [
     {
      "key": "presenter",
@@ -2583,14 +2594,14 @@
     },
     {
      "key": "date",
-     "ratio": 0.853,
+     "ratio": 0.864,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
     },
     {
      "key": "venue",
-     "ratio": 0.813,
+     "ratio": 0.82,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -2606,10 +2617,10 @@
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 0.9777,
-     "spread": 0.0661,
+     "spread": 0.0668,
      "stem_err": 0.0932,
-     "shape": 1.3345,
-     "features": 0.545,
+     "shape": 1.2936,
+     "features": 0.49,
      "character": null,
      "record": {
       "family": "Special Gothic Condensed One",
@@ -2618,7 +2629,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9137
+     "score": 1.8299
     },
     {
      "family": "Oswald",
@@ -2629,10 +2640,10 @@
      "index": null,
      "cap_ratio": 0.81,
      "width_ratio": 0.8867,
-     "spread": 0.0641,
+     "spread": 0.0649,
      "stem_err": 0.0251,
-     "shape": 1.2848,
-     "features": 0.679,
+     "shape": 1.2693,
+     "features": 0.601,
      "character": null,
      "record": {
       "family": "Oswald",
@@ -2641,7 +2652,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9913
+     "score": 1.9621
     },
     {
      "family": "Oswald",
@@ -2652,10 +2663,10 @@
      "index": null,
      "cap_ratio": 0.81,
      "width_ratio": 0.911,
-     "spread": 0.0654,
+     "spread": 0.0662,
      "stem_err": 0.0932,
-     "shape": 1.3801,
-     "features": 0.732,
+     "shape": 1.3693,
+     "features": 0.703,
      "character": null,
      "record": {
       "family": "Oswald",
@@ -2664,7 +2675,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0711
+     "score": 2.0547
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -2675,10 +2686,10 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9273,
-     "spread": 0.0675,
+     "spread": 0.0684,
      "stem_err": 0.0251,
-     "shape": 1.5018,
-     "features": 0.647,
+     "shape": 1.4515,
+     "features": 0.584,
      "character": null,
      "record": {
       "family": "Sofia Sans Extra Condensed",
@@ -2687,7 +2698,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1355
+     "score": 2.0791
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -2698,10 +2709,10 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9698,
-     "spread": 0.0703,
+     "spread": 0.0714,
      "stem_err": 0.0932,
-     "shape": 1.5675,
-     "features": 0.809,
+     "shape": 1.5404,
+     "features": 0.781,
      "character": null,
      "record": {
       "family": "Sofia Sans Extra Condensed",
@@ -2710,30 +2721,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.2704
-    },
-    {
-     "family": "Saira Extra Condensed",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-700-c1e7c9c71be3aa1b.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 1.0112,
-     "spread": 0.0705,
-     "stem_err": 0.0932,
-     "shape": 1.5476,
-     "features": 0.936,
-     "character": null,
-     "record": {
-      "family": "Saira Extra Condensed",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.2809
+     "score": 2.228
     },
     {
      "family": "Truculenta",
@@ -2744,10 +2732,10 @@
      "index": null,
      "cap_ratio": 0.708,
      "width_ratio": 0.907,
-     "spread": 0.0665,
+     "spread": 0.0671,
      "stem_err": 0.0251,
-     "shape": 1.6488,
-     "features": 0.494,
+     "shape": 1.5975,
+     "features": 0.417,
      "character": null,
      "record": {
       "family": "Truculenta",
@@ -2756,7 +2744,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.2969
+     "score": 2.2366
     },
     {
      "family": "Cossette Titre",
@@ -2767,10 +2755,10 @@
      "index": null,
      "cap_ratio": 0.8,
      "width_ratio": 0.9663,
-     "spread": 0.065,
+     "spread": 0.0656,
      "stem_err": 0.0932,
-     "shape": 1.609,
-     "features": 0.787,
+     "shape": 1.5653,
+     "features": 0.726,
      "character": null,
      "record": {
       "family": "Cossette Titre",
@@ -2779,7 +2767,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3047
+     "score": 2.2496
+    },
+    {
+     "family": "Mozilla Headline",
+     "sub": "700 wdth75",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MozillaHeadline-0-75-700-e2151f92464d8267.ttf",
+     "index": null,
+     "cap_ratio": 0.69,
+     "width_ratio": 0.8873,
+     "spread": 0.0599,
+     "stem_err": 0.0251,
+     "shape": 1.6108,
+     "features": 0.459,
+     "character": null,
+     "record": {
+      "family": "Mozilla Headline",
+      "weight": 700,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.258
     },
     {
      "family": "Fjalla One",
@@ -2790,10 +2801,10 @@
      "index": null,
      "cap_ratio": 0.833984375,
      "width_ratio": 0.9997,
-     "spread": 0.0713,
+     "spread": 0.0719,
      "stem_err": 0.2121,
-     "shape": 1.6661,
-     "features": 1.037,
+     "shape": 1.6528,
+     "features": 1.034,
      "character": null,
      "record": {
       "family": "Fjalla One",
@@ -2802,7 +2813,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4955
+     "score": 2.4793
     },
     {
      "family": "Imbue",
@@ -2813,10 +2824,10 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0008,
-     "spread": 0.0692,
+     "spread": 0.0705,
      "stem_err": 0.0251,
-     "shape": 2.3599,
-     "features": 1.182,
+     "shape": 2.3911,
+     "features": 1.259,
      "character": null,
      "record": {
       "family": "Imbue",
@@ -2825,7 +2836,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.6685
+     "score": 3.7205
     },
     {
      "family": "Big Shoulders Stencil",
@@ -2836,10 +2847,10 @@
      "index": null,
      "cap_ratio": 0.8,
      "width_ratio": 0.9991,
-     "spread": 0.069,
+     "spread": 0.0698,
      "stem_err": 0.2121,
-     "shape": 1.8131,
-     "features": 2.333,
+     "shape": 1.8123,
+     "features": 2.329,
      "character": null,
      "record": {
       "family": "Big Shoulders Stencil",
@@ -2848,7 +2859,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.2501
+     "score": 3.2776
     },
     {
      "family": "Economica",
@@ -2859,10 +2870,10 @@
      "index": null,
      "cap_ratio": 0.72,
      "width_ratio": 0.998,
-     "spread": 0.0707,
+     "spread": 0.0714,
      "stem_err": 0.6874,
-     "shape": 2.8788,
-     "features": 1.856,
+     "shape": 2.894,
+     "features": 1.895,
      "character": null,
      "record": {
       "family": "Economica",
@@ -2871,7 +2882,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.5549
+     "score": 5.5821
     }
    ]
   },
@@ -3243,6 +3254,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

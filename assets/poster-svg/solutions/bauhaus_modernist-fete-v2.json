@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.52,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.098,
  "lines": [
   {
@@ -2943,23 +2943,33 @@
   },
   {
    "key": "date",
-   "text": "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+   "text": "SATURDAY 6TH SEPTEMBER 12 NOON \u2013 5PM",
    "bands": [
     2,
     3
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "SATURDAY 6TH SEPTEMBER",
+    "12 NOON \u2013 5PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     4,
     5
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -3665,7 +3675,7 @@
     "cap": 43.0
    },
    "confidence": "low",
-   "margin": 0.157,
+   "margin": 0.155,
    "distortions": [],
    "candidates": [
     {
@@ -3677,7 +3687,7 @@
      "index": null,
      "cap_ratio": 0.72,
      "width_ratio": 1.0329,
-     "spread": 0.0345,
+     "spread": 0.0331,
      "stem_err": 0.0695,
      "shape": 0.9809,
      "features": 0.398,
@@ -3689,7 +3699,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.4225
+     "score": 1.42
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -3700,7 +3710,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 1.0687,
-     "spread": 0.0332,
+     "spread": 0.03,
      "stem_err": 0.0432,
      "shape": 1.1477,
      "features": 0.423,
@@ -3712,7 +3722,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6462
+     "score": 1.6404
     },
     {
      "family": "Special Gothic",
@@ -3723,7 +3733,7 @@
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 1.0424,
-     "spread": 0.0312,
+     "spread": 0.0297,
      "stem_err": 0.2943,
      "shape": 1.0371,
      "features": 0.577,
@@ -3735,7 +3745,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.6711
+     "score": 1.6683
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -3746,7 +3756,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 1.0124,
-     "spread": 0.0314,
+     "spread": 0.0283,
      "stem_err": 0.1822,
      "shape": 1.0838,
      "features": 0.53,
@@ -3758,7 +3768,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6778
+     "score": 1.6722
     },
     {
      "family": "Freeman",
@@ -3769,7 +3779,7 @@
      "index": null,
      "cap_ratio": 0.75,
      "width_ratio": 0.9555,
-     "spread": 0.0301,
+     "spread": 0.0288,
      "stem_err": 0.0695,
      "shape": 1.0414,
      "features": 0.369,
@@ -3781,7 +3791,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6801
+     "score": 1.6778
     },
     {
      "family": "Mozilla Headline",
@@ -3792,7 +3802,7 @@
      "index": null,
      "cap_ratio": 0.69,
      "width_ratio": 1.0226,
-     "spread": 0.0284,
+     "spread": 0.027,
      "stem_err": 0.0432,
      "shape": 1.2625,
      "features": 0.201,
@@ -3804,7 +3814,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.6857
+     "score": 1.6832
     },
     {
      "family": "Francois One",
@@ -3815,7 +3825,7 @@
      "index": null,
      "cap_ratio": 0.75,
      "width_ratio": 0.9436,
-     "spread": 0.031,
+     "spread": 0.0297,
      "stem_err": 0.0695,
      "shape": 1.1787,
      "features": 0.45,
@@ -3827,7 +3837,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.773
+     "score": 1.7707
     },
     {
      "family": "Truculenta",
@@ -3838,7 +3848,7 @@
      "index": null,
      "cap_ratio": 0.708,
      "width_ratio": 1.0513,
-     "spread": 0.0373,
+     "spread": 0.0359,
      "stem_err": 0.0432,
      "shape": 1.3809,
      "features": 0.331,
@@ -3850,7 +3860,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.8754
+     "score": 1.8728
+    },
+    {
+     "family": "Asap Condensed",
+     "sub": "200",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AsapCondensed-0-0-200-78b6a39e25e4a971.ttf",
+     "index": null,
+     "cap_ratio": 0.702,
+     "width_ratio": 1.0,
+     "spread": 0.0343,
+     "stem_err": 0.7182,
+     "shape": 3.1021,
+     "features": 1.098,
+     "character": 0.423,
+     "record": {
+      "family": "Asap Condensed",
+      "weight": 200,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.1874
     },
     {
      "family": "Saira Condensed",
@@ -3861,7 +3894,7 @@
      "index": null,
      "cap_ratio": 0.688,
      "width_ratio": 0.9997,
-     "spread": 0.038,
+     "spread": 0.0364,
      "stem_err": 0.3807,
      "shape": 1.9534,
      "features": 0.934,
@@ -3873,7 +3906,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 4.2418
+     "score": 4.2389
     },
     {
      "family": "Advent Pro",
@@ -3884,7 +3917,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.999,
-     "spread": 0.046,
+     "spread": 0.0446,
      "stem_err": 0.943,
      "shape": 3.4012,
      "features": 1.474,
@@ -3896,53 +3929,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 8.0052
+     "score": 8.0026
     },
     {
-     "family": "Advent Pro",
-     "sub": "100 italic",
-     "weight": 100,
+     "family": "Asap Condensed",
+     "sub": "300",
+     "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AdventPro-1-0-100-79e098e605901a75.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AsapCondensed-0-0-300-7b219270fe477b78.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9987,
-     "spread": 0.0443,
-     "stem_err": 1.0557,
-     "shape": 4.1433,
-     "features": 5.278,
-     "character": 0.316,
+     "cap_ratio": 0.702,
+     "width_ratio": 0.9989,
+     "spread": 0.0345,
+     "stem_err": 0.6055,
+     "shape": 2.7075,
+     "features": 0.925,
+     "character": 0.423,
      "record": {
-      "family": "Advent Pro",
-      "weight": 100,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 12.3331
-    },
-    {
-     "family": "Waiting for the Sunrise",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/WaitingfortheSunrise-0-0-400-30c202c59cffcba2.ttf",
-     "index": null,
-     "cap_ratio": 0.65234375,
-     "width_ratio": 0.9986,
-     "spread": 0.0484,
-     "stem_err": 0.8303,
-     "shape": 4.0439,
-     "features": 2.846,
-     "character": 0.765,
-     "record": {
-      "family": "Waiting for the Sunrise",
-      "weight": 400,
+      "family": "Asap Condensed",
+      "weight": 300,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 13.3924
+     "score": 6.0881
     }
    ]
   },
@@ -4372,6 +4382,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

@@ -72,7 +72,7 @@
   }
  ],
  "median_texture": 2.35,
- "alignment": "ok",
+ "alignment": "ok; not printed: venue ','",
  "alignment_cost": 0.194,
  "lines": [
   {
@@ -3150,12 +3150,17 @@
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     7,
     8
    ],
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -4487,18 +4492,11 @@
     "cap": 39.5
    },
    "confidence": "low",
-   "margin": 0.005,
+   "margin": 0.006,
    "distortions": [
     {
      "key": "date",
      "ratio": 0.759,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
-     "key": "venue",
-     "ratio": 0.93,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -4513,8 +4511,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ChironHeiHK-0-0-900-d34e12d096d51c25.ttf",
      "index": null,
      "cap_ratio": 0.725,
-     "width_ratio": 0.9067,
-     "spread": 0.1482,
+     "width_ratio": 0.9132,
+     "spread": 0.1547,
      "stem_err": 0.0188,
      "shape": 1.4355,
      "features": 0.329,
@@ -4526,7 +4524,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0656
+     "score": 2.0716
     },
     {
      "family": "Mada",
@@ -4536,8 +4534,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Mada-0-0-800-6efd8338533ffb01.ttf",
      "index": null,
      "cap_ratio": 0.651,
-     "width_ratio": 0.9231,
-     "spread": 0.1509,
+     "width_ratio": 0.9296,
+     "spread": 0.1574,
      "stem_err": 0.0188,
      "shape": 1.4761,
      "features": 0.312,
@@ -4549,30 +4547,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0769
-    },
-    {
-     "family": "Source Sans 3",
-     "sub": "800",
-     "weight": 800,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SourceSans3-0-0-800-f143c0c9f4b33710.ttf",
-     "index": null,
-     "cap_ratio": 0.651,
-     "width_ratio": 0.9218,
-     "spread": 0.1506,
-     "stem_err": 0.0188,
-     "shape": 1.49,
-     "features": 0.339,
-     "character": 0.292,
-     "record": {
-      "family": "Source Sans 3",
-      "weight": 800,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.1048
+     "score": 2.0831
     },
     {
      "family": "Palanquin Dark",
@@ -4582,8 +4557,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PalanquinDark-0-0-600-fbf243fa59d64243.ttf",
      "index": null,
      "cap_ratio": 0.685,
-     "width_ratio": 0.8927,
-     "spread": 0.1333,
+     "width_ratio": 0.8971,
+     "spread": 0.1377,
      "stem_err": 0.0188,
      "shape": 1.4934,
      "features": 0.361,
@@ -4595,7 +4570,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1066
+     "score": 2.1106
+    },
+    {
+     "family": "Source Sans 3",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SourceSans3-0-0-800-f143c0c9f4b33710.ttf",
+     "index": null,
+     "cap_ratio": 0.651,
+     "width_ratio": 0.9284,
+     "spread": 0.1572,
+     "stem_err": 0.0188,
+     "shape": 1.49,
+     "features": 0.339,
+     "character": 0.292,
+     "record": {
+      "family": "Source Sans 3",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.1109
     },
     {
      "family": "Mada",
@@ -4605,8 +4603,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Mada-0-0-700-2ccfdddfd9f19974.ttf",
      "index": null,
      "cap_ratio": 0.652,
-     "width_ratio": 0.9317,
-     "spread": 0.1527,
+     "width_ratio": 0.9382,
+     "spread": 0.1592,
      "stem_err": 0.1169,
      "shape": 1.435,
      "features": 0.4,
@@ -4618,7 +4616,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1265
+     "score": 2.1326
     },
     {
      "family": "Source Sans 3",
@@ -4628,8 +4626,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SourceSans3-0-0-700-5c218d0b1910954c.ttf",
      "index": null,
      "cap_ratio": 0.652,
-     "width_ratio": 0.9316,
-     "spread": 0.1527,
+     "width_ratio": 0.9381,
+     "spread": 0.1592,
      "stem_err": 0.1169,
      "shape": 1.4583,
      "features": 0.401,
@@ -4641,7 +4639,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1337
+     "score": 2.1398
     },
     {
      "family": "Akatab",
@@ -4651,8 +4649,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Akatab-0-0-900-758084df4e9f048d.ttf",
      "index": null,
      "cap_ratio": 0.671875,
-     "width_ratio": 0.9112,
-     "spread": 0.1574,
+     "width_ratio": 0.9175,
+     "spread": 0.1637,
      "stem_err": 0.181,
      "shape": 1.4289,
      "features": 0.448,
@@ -4664,7 +4662,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1674
+     "score": 2.1732
     },
     {
      "family": "Tirra",
@@ -4674,8 +4672,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Tirra-0-0-900-e1473f0e48e4881a.ttf",
      "index": null,
      "cap_ratio": 0.671875,
-     "width_ratio": 0.9112,
-     "spread": 0.1574,
+     "width_ratio": 0.9175,
+     "spread": 0.1637,
      "stem_err": 0.181,
      "shape": 1.4289,
      "features": 0.448,
@@ -4687,99 +4685,99 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1674
+     "score": 2.1732
     },
     {
-     "family": "Anek Telugu",
-     "sub": "200",
+     "family": "Pathway Extreme",
+     "sub": "200 italic",
      "weight": 200,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AnekTelugu-0-0-200-de7bc349e38a6d4a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PathwayExtreme-1-0-200-d5e4a2257a7e977a.ttf",
      "index": null,
-     "cap_ratio": 0.639,
-     "width_ratio": 1.0001,
-     "spread": 0.1778,
-     "stem_err": 1.0957,
-     "shape": 3.5564,
-     "features": 1.536,
-     "character": 0.43,
-     "record": {
-      "family": "Anek Telugu",
-      "weight": 200,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 8.8455
-    },
-    {
-     "family": "Anek Gurmukhi",
-     "sub": "100",
-     "weight": 100,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AnekGurmukhi-0-0-100-90c0db62e6381336.ttf",
-     "index": null,
-     "cap_ratio": 0.639,
-     "width_ratio": 1.0001,
-     "spread": 0.1833,
-     "stem_err": 1.2919,
-     "shape": 3.8649,
-     "features": 1.891,
-     "character": 0.43,
-     "record": {
-      "family": "Anek Gurmukhi",
-      "weight": 100,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.3144
-    },
-    {
-     "family": "Anek Tamil",
-     "sub": "100",
-     "weight": 100,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AnekTamil-0-0-100-7a92b2a8c7ae4f81.ttf",
-     "index": null,
-     "cap_ratio": 0.639,
-     "width_ratio": 1.0001,
-     "spread": 0.1833,
-     "stem_err": 1.2919,
-     "shape": 3.8649,
-     "features": 1.891,
-     "character": 0.43,
-     "record": {
-      "family": "Anek Tamil",
-      "weight": 100,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.3144
-    },
-    {
-     "family": "Grandstander",
-     "sub": "700 italic",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Grandstander-1-0-700-85a7d3765e7f0dd1.ttf",
-     "index": null,
-     "cap_ratio": 0.654,
+     "cap_ratio": 0.7,
      "width_ratio": 0.9999,
-     "spread": 0.1891,
-     "stem_err": 0.1739,
-     "shape": 2.8978,
-     "features": 4.473,
-     "character": 0.497,
+     "spread": 0.18,
+     "stem_err": 0.9359,
+     "shape": 3.2355,
+     "features": 3.201,
+     "character": 0.447,
      "record": {
-      "family": "Grandstander",
-      "weight": 700,
+      "family": "Pathway Extreme",
+      "weight": 200,
       "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 7.3223
+     "score": 8.5244
+    },
+    {
+     "family": "SUSE",
+     "sub": "100 italic",
+     "weight": 100,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SUSE-1-0-100-e3e4d01e50720b6f.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9999,
+     "spread": 0.1708,
+     "stem_err": 1.2109,
+     "shape": 4.0607,
+     "features": 4.96,
+     "character": 0.395,
+     "record": {
+      "family": "SUSE",
+      "weight": 100,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 12.2329
+    },
+    {
+     "family": "Cabin",
+     "sub": "600 italic",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Cabin-1-0-600-d24e83c56363a10b.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0002,
+     "spread": 0.1718,
+     "stem_err": 0.5235,
+     "shape": 2.8097,
+     "features": 3.441,
+     "character": 0.292,
+     "record": {
+      "family": "Cabin",
+      "weight": 600,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.8198
+    },
+    {
+     "family": "Inria Sans",
+     "sub": "300",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InriaSans-0-0-300-bec4353d43fcf0bb.ttf",
+     "index": null,
+     "cap_ratio": 0.68,
+     "width_ratio": 1.0002,
+     "spread": 0.1708,
+     "stem_err": 0.9001,
+     "shape": 3.3132,
+     "features": 1.374,
+     "character": 0.292,
+     "record": {
+      "family": "Inria Sans",
+      "weight": 300,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.1728
     }
    ]
   },
@@ -5139,7 +5137,7 @@
    "top": [
     "Chiron Hei HK",
     "Mada",
-    "Source Sans 3"
+    "Palanquin Dark"
    ]
   },
   {
@@ -5184,6 +5182,7 @@
   ],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

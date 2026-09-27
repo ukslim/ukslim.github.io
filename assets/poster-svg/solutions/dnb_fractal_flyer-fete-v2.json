@@ -87,7 +87,7 @@
   }
  ],
  "median_texture": 0.49,
- "alignment": "ok; 1 line(s) assigned by hand",
+ "alignment": "ok; 1 line(s) assigned by hand; not printed: date ','",
  "alignment_cost": 0.2,
  "lines": [
   {
@@ -2718,14 +2718,20 @@
  "assigned": [
   {
    "key": "date",
-   "text": "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+   "text": "SATURDAY 6TH SEPTEMBER 12 NOON \u2013 5PM",
    "bands": [
     0,
     1,
     2
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "SATURDAY 6TH SEPTEMBER",
+    "12 NOON \u2013",
+    "5PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
@@ -3610,7 +3616,7 @@
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.893,
+     "ratio": 0.904,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -3661,7 +3667,7 @@
      "index": null,
      "cap_ratio": 0.723,
      "width_ratio": 1.0281,
-     "spread": 0.0554,
+     "spread": 0.0539,
      "stem_err": 0.0856,
      "shape": 1.2975,
      "features": 0.216,
@@ -3673,7 +3679,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.8144
+     "score": 1.8117
     },
     {
      "family": "Chakra Petch",
@@ -3684,7 +3690,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.028,
-     "spread": 0.055,
+     "spread": 0.0532,
      "stem_err": 0.0343,
      "shape": 1.3934,
      "features": 0.22,
@@ -3696,7 +3702,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9051
+     "score": 1.902
     },
     {
      "family": "Inclusive Sans",
@@ -3707,7 +3713,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0087,
-     "spread": 0.0593,
+     "spread": 0.058,
      "stem_err": 0.0258,
      "shape": 1.3723,
      "features": 0.18,
@@ -3719,7 +3725,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.945
+     "score": 1.9427
     },
     {
      "family": "Saira",
@@ -3730,7 +3736,7 @@
      "index": null,
      "cap_ratio": 0.688,
      "width_ratio": 1.0222,
-     "spread": 0.0581,
+     "spread": 0.0566,
      "stem_err": 0.0856,
      "shape": 1.4145,
      "features": 0.231,
@@ -3742,7 +3748,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9531
+     "score": 1.9504
     },
     {
      "family": "Miranda Sans",
@@ -3753,7 +3759,7 @@
      "index": null,
      "cap_ratio": 0.72,
      "width_ratio": 1.0406,
-     "spread": 0.0566,
+     "spread": 0.0549,
      "stem_err": 0.0258,
      "shape": 1.3518,
      "features": 0.15,
@@ -3765,7 +3771,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9539
+     "score": 1.951
     },
     {
      "family": "Averia Sans Libre",
@@ -3776,7 +3782,7 @@
      "index": null,
      "cap_ratio": 0.68701171875,
      "width_ratio": 1.0604,
-     "spread": 0.0566,
+     "spread": 0.0548,
      "stem_err": 0.0478,
      "shape": 1.4329,
      "features": 0.174,
@@ -3788,7 +3794,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9561
+     "score": 1.953
     },
     {
      "family": "Mozilla Text",
@@ -3799,7 +3805,7 @@
      "index": null,
      "cap_ratio": 0.69,
      "width_ratio": 1.0008,
-     "spread": 0.0561,
+     "spread": 0.0547,
      "stem_err": 0.0258,
      "shape": 1.5113,
      "features": 0.22,
@@ -3811,7 +3817,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0289
+     "score": 2.0265
     },
     {
      "family": "Chiron GoRound TC",
@@ -3822,7 +3828,7 @@
      "index": null,
      "cap_ratio": 0.713,
      "width_ratio": 0.9995,
-     "spread": 0.0529,
+     "spread": 0.0514,
      "stem_err": 0.015,
      "shape": 1.53,
      "features": 0.235,
@@ -3834,7 +3840,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0393
+     "score": 2.0366
     },
     {
      "family": "Rubik",
@@ -3845,7 +3851,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0,
-     "spread": 0.0524,
+     "spread": 0.0507,
      "stem_err": 0.2143,
      "shape": 2.2846,
      "features": 0.552,
@@ -3857,7 +3863,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.3028
+     "score": 3.2998
     },
     {
      "family": "Oxanium",
@@ -3868,7 +3874,7 @@
      "index": null,
      "cap_ratio": 0.69,
      "width_ratio": 1.0,
-     "spread": 0.0537,
+     "spread": 0.0519,
      "stem_err": 0.2143,
      "shape": 2.1716,
      "features": 0.405,
@@ -3880,7 +3886,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.3064
+     "score": 3.3031
     },
     {
      "family": "Lisu Bosa",
@@ -3891,7 +3897,7 @@
      "index": null,
      "cap_ratio": 0.613,
      "width_ratio": 1.0,
-     "spread": 0.0511,
+     "spread": 0.0499,
      "stem_err": 0.2656,
      "shape": 2.8938,
      "features": 3.307,
@@ -3903,7 +3909,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.8951
+     "score": 5.8929
     },
     {
      "family": "Strichpunkt Sans",
@@ -3914,7 +3920,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0001,
-     "spread": 0.0534,
+     "spread": 0.0518,
      "stem_err": 0.4544,
      "shape": 2.9816,
      "features": 1.016,
@@ -3926,7 +3932,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 4.5051
+     "score": 4.5021
     }
    ]
   },
@@ -4295,6 +4301,7 @@
   ],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

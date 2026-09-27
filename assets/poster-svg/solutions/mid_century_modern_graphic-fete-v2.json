@@ -110,7 +110,7 @@
   }
  ],
  "median_texture": 0.44,
- "alignment": "ok; 12 line(s) assigned by hand",
+ "alignment": "ok; 12 line(s) assigned by hand; not printed: attractions_label ':'",
  "alignment_cost": 0.105,
  "lines": [
   {
@@ -3330,11 +3330,15 @@
   },
   {
    "key": "attractions_label",
-   "text": "ATTRACTIONS:",
+   "text": "ATTRACTIONS",
    "bands": [
     3
    ],
-   "upper": true
+   "upper": true,
+   "parts": [
+    "ATTRACTIONS"
+   ],
+   "dropped": ":"
   },
   {
    "key": "attraction0",
@@ -5172,10 +5176,10 @@
    "lines": [
     "attractions_label"
    ],
-   "shape_glyphs": "ROACNT",
+   "shape_glyphs": "RSOACNT",
    "brief": null,
    "features": {
-    "weight": 0.254,
+    "weight": 0.24,
     "contrast": 0.75,
     "slant": 0.0,
     "square": 0.813,
@@ -5195,11 +5199,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HindMysuru-0-0-700-7c014c3a4e50eef0.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6866,
-     "features": 0.252,
+     "stem_err": 0.0852,
+     "shape": 0.6917,
+     "features": 0.218,
      "character": null,
      "record": {
       "family": "Hind Mysuru",
@@ -5208,7 +5212,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8696
+     "score": 0.8909
     },
     {
      "family": "Hind",
@@ -5218,11 +5222,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Hind-0-0-700-708bbf3359b4ff8e.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6922,
-     "features": 0.251,
+     "stem_err": 0.0852,
+     "shape": 0.6989,
+     "features": 0.216,
      "character": null,
      "record": {
       "family": "Hind",
@@ -5231,7 +5235,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8745
+     "score": 0.8959
     },
     {
      "family": "Hind Madurai",
@@ -5241,11 +5245,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HindMadurai-0-0-700-76a4f47aa3d25cd4.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6922,
-     "features": 0.251,
+     "stem_err": 0.0852,
+     "shape": 0.6989,
+     "features": 0.216,
      "character": null,
      "record": {
       "family": "Hind Madurai",
@@ -5254,7 +5258,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8745
+     "score": 0.8959
     },
     {
      "family": "Hind Siliguri",
@@ -5264,11 +5268,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HindSiliguri-0-0-700-be863738673b160a.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6922,
-     "features": 0.251,
+     "stem_err": 0.0852,
+     "shape": 0.6989,
+     "features": 0.216,
      "character": null,
      "record": {
       "family": "Hind Siliguri",
@@ -5277,7 +5281,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8745
+     "score": 0.8959
     },
     {
      "family": "Hind Guntur",
@@ -5287,11 +5291,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HindGuntur-0-0-700-5a74135555c35c18.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6922,
-     "features": 0.251,
+     "stem_err": 0.0852,
+     "shape": 0.6989,
+     "features": 0.216,
      "character": null,
      "record": {
       "family": "Hind Guntur",
@@ -5300,7 +5304,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8745
+     "score": 0.8959
     },
     {
      "family": "Hind Vadodara",
@@ -5310,11 +5314,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HindVadodara-0-0-700-0e01238686f220cb.ttf",
      "index": null,
      "cap_ratio": 0.674,
-     "width_ratio": 1.0022,
+     "width_ratio": 1.0429,
      "spread": 0.0,
-     "stem_err": 0.1325,
-     "shape": 0.6922,
-     "features": 0.251,
+     "stem_err": 0.0852,
+     "shape": 0.6989,
+     "features": 0.216,
      "character": null,
      "record": {
       "family": "Hind Vadodara",
@@ -5323,145 +5327,145 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.8745
+     "score": 0.8959
     },
     {
-     "family": "M PLUS 2",
+     "family": "M PLUS 1",
      "sub": "800",
      "weight": 800,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MPLUS2-0-0-800-cd9584573d635e3a.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MPLUS1-0-0-800-d970f60ddc5f9180.ttf",
      "index": null,
      "cap_ratio": 0.73,
-     "width_ratio": 0.9415,
+     "width_ratio": 0.9835,
      "spread": 0.0,
-     "stem_err": 0.0728,
-     "shape": 0.6751,
-     "features": 0.242,
+     "stem_err": 0.0255,
+     "shape": 0.7781,
+     "features": 0.259,
      "character": null,
      "record": {
-      "family": "M PLUS 2",
+      "family": "M PLUS 1",
       "weight": 800,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 0.9651
+     "score": 1.0085
     },
     {
-     "family": "Baloo Bhaijaan 2",
+     "family": "Radio Canada",
      "sub": "700",
      "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BalooBhaijaan2-0-0-700-06173b00cca7c7bc.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RadioCanada-0-0-700-22ec8e7f116cc47b.ttf",
      "index": null,
-     "cap_ratio": 0.616,
-     "width_ratio": 0.9465,
+     "cap_ratio": 0.69,
+     "width_ratio": 0.9902,
      "spread": 0.0,
-     "stem_err": 0.0127,
-     "shape": 0.7785,
-     "features": 0.184,
+     "stem_err": 0.0852,
+     "shape": 0.8183,
+     "features": 0.302,
      "character": null,
      "record": {
-      "family": "Baloo Bhaijaan 2",
+      "family": "Radio Canada",
       "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 1.0245
+     "score": 1.0235
     },
     {
-     "family": "Cascadia Code",
-     "sub": "700 italic",
-     "weight": 700,
+     "family": "Instrument Sans",
+     "sub": "500",
+     "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CascadiaCode-1-0-700-2fe2319b84c092e6.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InstrumentSans-0-0-500-c5ae1de50a4464d5.ttf",
      "index": null,
-     "cap_ratio": 0.693359375,
+     "cap_ratio": 0.72,
      "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.2337,
-     "shape": 2.6577,
-     "features": 3.186,
+     "stem_err": 0.3253,
+     "shape": 2.3156,
+     "features": 0.591,
      "character": null,
      "record": {
-      "family": "Cascadia Code",
-      "weight": 700,
-      "italic": true,
+      "family": "Instrument Sans",
+      "weight": 500,
+      "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.969
+     "score": 3.7163
     },
     {
-     "family": "Cascadia Mono",
-     "sub": "700 italic",
-     "weight": 700,
+     "family": "Lisu Bosa",
+     "sub": "300",
+     "weight": 300,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CascadiaMono-1-0-700-631d923e8b41dcfd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LisuBosa-0-0-300-d001d3c98cf22059.ttf",
      "index": null,
-     "cap_ratio": 0.693359375,
+     "cap_ratio": 0.615,
      "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.2337,
-     "shape": 2.6577,
-     "features": 3.186,
+     "stem_err": 0.3855,
+     "shape": 2.4801,
+     "features": 0.813,
      "character": null,
      "record": {
-      "family": "Cascadia Mono",
-      "weight": 700,
-      "italic": true,
+      "family": "Lisu Bosa",
+      "weight": 300,
+      "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.969
+     "score": 4.5032
     },
     {
-     "family": "Stack Sans Text",
-     "sub": "200",
-     "weight": 200,
+     "family": "Urbanist",
+     "sub": "800",
+     "weight": 800,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/StackSansText-0-0-200-ce85196311a7853e.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Urbanist-0-0-800-a40a24dbd5619fc3.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 1.0,
+     "width_ratio": 1.0001,
      "spread": 0.0,
-     "stem_err": 0.5285,
-     "shape": 2.9677,
-     "features": 0.835,
+     "stem_err": 0.1453,
+     "shape": 0.9186,
+     "features": 0.506,
      "character": null,
      "record": {
-      "family": "Stack Sans Text",
-      "weight": 200,
+      "family": "Urbanist",
+      "weight": 800,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 5.1117
+     "score": 1.3719
     },
     {
-     "family": "Commissioner",
-     "sub": "100",
-     "weight": 100,
+     "family": "Libre Franklin",
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Commissioner-0-0-100-7326be8492624fc7.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LibreFranklin-0-0-600-ac26bbee2fe20c10.ttf",
      "index": null,
-     "cap_ratio": 0.713,
-     "width_ratio": 1.0,
+     "cap_ratio": 0.742,
+     "width_ratio": 1.0001,
      "spread": 0.0,
-     "stem_err": 0.7327,
-     "shape": 3.7713,
-     "features": 1.062,
+     "stem_err": 0.2055,
+     "shape": 1.5646,
+     "features": 0.431,
      "character": null,
      "record": {
-      "family": "Commissioner",
-      "weight": 100,
+      "family": "Libre Franklin",
+      "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 8.7638
+     "score": 2.2713
     }
    ]
   },
@@ -5847,6 +5851,7 @@
    "attraction5=#2B2019"
   ],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

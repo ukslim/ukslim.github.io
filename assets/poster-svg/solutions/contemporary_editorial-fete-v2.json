@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.37,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ',', attractions_label ':'",
  "alignment_cost": 0.067,
  "lines": [
   {
@@ -2962,12 +2962,17 @@
   },
   {
    "key": "date",
-   "text": "Saturday 6th September, 12 noon \u2013 5pm",
+   "text": "Saturday 6th September 12 noon \u2013 5pm",
    "bands": [
     2,
     3
    ],
-   "assigned_by": "hand"
+   "assigned_by": "hand",
+   "parts": [
+    "Saturday 6th September",
+    "12 noon \u2013 5pm"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
@@ -2980,11 +2985,15 @@
   },
   {
    "key": "attractions_label",
-   "text": "Attractions:",
+   "text": "Attractions",
    "bands": [
     8
    ],
-   "assigned_by": "hand"
+   "assigned_by": "hand",
+   "parts": [
+    "Attractions"
+   ],
+   "dropped": ":"
   },
   {
    "key": "beneficiary",
@@ -4298,11 +4307,11 @@
     "cap": 29.0
    },
    "confidence": "low",
-   "margin": 0.07,
+   "margin": 0.075,
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.912,
+     "ratio": 0.928,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -4317,7 +4326,7 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Inter-0-0-600-4f41da1604ff2e8e.ttf",
      "index": null,
      "cap_ratio": 0.7275390625,
-     "width_ratio": 0.9928,
+     "width_ratio": 1.0073,
      "spread": 0.0,
      "stem_err": 0.0266,
      "shape": 0.7371,
@@ -4330,30 +4339,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 0.9915
-    },
-    {
-     "family": "Instrument Sans",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InstrumentSans-0-0-600-00e52251f314bca2.ttf",
-     "index": null,
-     "cap_ratio": 0.72,
-     "width_ratio": 1.0004,
-     "spread": 0.0,
-     "stem_err": 0.0266,
-     "shape": 0.8059,
-     "features": 0.225,
-     "character": 0.191,
-     "record": {
-      "family": "Instrument Sans",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.0608
+     "score": 0.9916
     },
     {
      "family": "Miranda Sans",
@@ -4363,7 +4349,7 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MirandaSans-0-0-600-000fab78aaf912f8.ttf",
      "index": null,
      "cap_ratio": 0.72,
-     "width_ratio": 0.9856,
+     "width_ratio": 0.9979,
      "spread": 0.0,
      "stem_err": 0.0266,
      "shape": 0.8421,
@@ -4376,7 +4362,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.076
+     "score": 1.066
+    },
+    {
+     "family": "Instrument Sans",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InstrumentSans-0-0-600-00e52251f314bca2.ttf",
+     "index": null,
+     "cap_ratio": 0.72,
+     "width_ratio": 1.0135,
+     "spread": 0.0,
+     "stem_err": 0.0266,
+     "shape": 0.8059,
+     "features": 0.225,
+     "character": 0.191,
+     "record": {
+      "family": "Instrument Sans",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.0713
     },
     {
      "family": "Zalando Sans",
@@ -4386,7 +4395,7 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-0-500-ec2c1faf8f598332.ttf",
      "index": null,
      "cap_ratio": 0.714,
-     "width_ratio": 0.9878,
+     "width_ratio": 1.0025,
      "spread": 0.0,
      "stem_err": 0.0864,
      "shape": 0.7703,
@@ -4399,30 +4408,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.1232
-    },
-    {
-     "family": "Figtree",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Figtree-0-0-600-468c11455c490811.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0071,
-     "spread": 0.0,
-     "stem_err": 0.0864,
-     "shape": 0.8239,
-     "features": 0.319,
-     "character": 0.144,
-     "record": {
-      "family": "Figtree",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.1379
+     "score": 1.1154
     },
     {
      "family": "Chiron GoRound TC",
@@ -4432,7 +4418,7 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ChironGoRoundTC-0-0-600-c8f21e493a5ea5cb.ttf",
      "index": null,
      "cap_ratio": 0.713,
-     "width_ratio": 0.9811,
+     "width_ratio": 0.9933,
      "spread": 0.0,
      "stem_err": 0.0158,
      "shape": 0.8754,
@@ -4445,7 +4431,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.1386
+     "score": 1.1287
     },
     {
      "family": "Arial",
@@ -4455,7 +4441,7 @@
      "path": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
      "index": null,
      "cap_ratio": 0.7158203125,
-     "width_ratio": 0.99,
+     "width_ratio": 1.0011,
      "spread": 0.0,
      "stem_err": 0.0335,
      "shape": 0.8522,
@@ -4468,7 +4454,30 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.1408
+     "score": 1.1336
+    },
+    {
+     "family": "Estedad",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Estedad-0-0-600-6b3ce64d620a43a7.ttf",
+     "index": null,
+     "cap_ratio": 0.658,
+     "width_ratio": 0.989,
+     "spread": 0.0,
+     "stem_err": 0.0158,
+     "shape": 0.842,
+     "features": 0.354,
+     "character": 0.19,
+     "record": {
+      "family": "Estedad",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.1366
     },
     {
      "family": "Pliant",
@@ -4478,7 +4487,7 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Pliant-0-0-500-47a8445984d57bf1.ttf",
      "index": null,
      "cap_ratio": 0.714,
-     "width_ratio": 1.0099,
+     "width_ratio": 1.0219,
      "spread": 0.0,
      "stem_err": 0.0266,
      "shape": 0.9368,
@@ -4491,99 +4500,99 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.1455
+     "score": 1.155
     },
     {
-     "family": "Gabarito",
-     "sub": "700",
-     "weight": 700,
+     "family": "Scoutie Sans",
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Gabarito-0-0-700-d6dfaef8a4323bd9.ttf",
-     "index": null,
-     "cap_ratio": 0.681,
-     "width_ratio": 1.0,
-     "spread": 0.0,
-     "stem_err": 0.0936,
-     "shape": 1.3915,
-     "features": 0.352,
-     "character": 0.091,
-     "record": {
-      "family": "Gabarito",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.0513
-    },
-    {
-     "family": "Inter",
-     "sub": "500 italic",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Inter-1-0-500-4eac36bb6c307777.ttf",
-     "index": null,
-     "cap_ratio": 0.7275390625,
-     "width_ratio": 1.0,
-     "spread": 0.0,
-     "stem_err": 0.1465,
-     "shape": 1.969,
-     "features": 2.845,
-     "character": 0.164,
-     "record": {
-      "family": "Inter",
-      "weight": 500,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 4.0289
-    },
-    {
-     "family": "Miranda Sans",
-     "sub": "500 italic",
-     "weight": 500,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MirandaSans-1-0-500-ace165ceb06f4764.ttf",
-     "index": null,
-     "cap_ratio": 0.72,
-     "width_ratio": 1.0,
-     "spread": 0.0,
-     "stem_err": 0.1465,
-     "shape": 1.8507,
-     "features": 3.192,
-     "character": 0.211,
-     "record": {
-      "family": "Miranda Sans",
-      "weight": 500,
-      "italic": true,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 4.0388
-    },
-    {
-     "family": "Akt",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Akt-0-0-700-73f9f0b42025873b.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ScoutieSans-0-0-600-b86f50b57b0b01f1.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 1.0001,
+     "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.0936,
-     "shape": 1.0918,
-     "features": 0.304,
-     "character": 0.169,
+     "stem_err": 0.0094,
+     "shape": 1.092,
+     "features": 0.272,
+     "character": 0.455,
      "record": {
-      "family": "Akt",
-      "weight": 700,
+      "family": "Scoutie Sans",
+      "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6882
+     "score": 2.5393
+    },
+    {
+     "family": "Comfortaa",
+     "sub": "600",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Comfortaa-0-0-600-de60b1f665342ca2.ttf",
+     "index": null,
+     "cap_ratio": 0.781,
+     "width_ratio": 1.0,
+     "spread": 0.0,
+     "stem_err": 0.2664,
+     "shape": 1.8709,
+     "features": 0.539,
+     "character": 0.201,
+     "record": {
+      "family": "Comfortaa",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.2227
+    },
+    {
+     "family": "Proza Libre",
+     "sub": "700 italic",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ProzaLibre-1-0-700-1ef8f038aedeeeb9.ttf",
+     "index": null,
+     "cap_ratio": 0.71533203125,
+     "width_ratio": 1.0,
+     "spread": 0.0,
+     "stem_err": 0.1534,
+     "shape": 2.243,
+     "features": 2.102,
+     "character": 0.1,
+     "record": {
+      "family": "Proza Libre",
+      "weight": 700,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.5542
+    },
+    {
+     "family": "Rethink Sans",
+     "sub": "700 italic",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RethinkSans-1-0-700-5ed06f16da3d9bcb.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0,
+     "spread": 0.0,
+     "stem_err": 0.0266,
+     "shape": 1.9879,
+     "features": 3.107,
+     "character": 0.179,
+     "record": {
+      "family": "Rethink Sans",
+      "weight": 700,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.8405
     }
    ]
   },
@@ -4928,7 +4937,7 @@
    "lines": [
     "attractions_label"
    ],
-   "shape_glyphs": "aAocntri",
+   "shape_glyphs": "aAocnstri",
    "brief": null,
    "features": {
     "weight": 0.211,
@@ -4940,55 +4949,9 @@
     "cap": 19.0
    },
    "confidence": "low",
-   "margin": 0.03,
+   "margin": 0.032,
    "distortions": [],
    "candidates": [
-    {
-     "family": "Inter Tight",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InterTight-0-0-600-3680d66102973ade.ttf",
-     "index": null,
-     "cap_ratio": 0.7275390625,
-     "width_ratio": 0.9851,
-     "spread": 0.0,
-     "stem_err": 0.098,
-     "shape": 1.2215,
-     "features": 0.465,
-     "character": null,
-     "record": {
-      "family": "Inter Tight",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.6187
-    },
-    {
-     "family": "Inter Tight",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InterTight-0-0-700-759b8646a04529fe.ttf",
-     "index": null,
-     "cap_ratio": 0.7275390625,
-     "width_ratio": 0.9513,
-     "spread": 0.0,
-     "stem_err": 0.0222,
-     "shape": 1.1863,
-     "features": 0.437,
-     "character": null,
-     "record": {
-      "family": "Inter Tight",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 1.667
-    },
     {
      "family": "Funnel Sans",
      "sub": "600",
@@ -4997,11 +4960,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FunnelSans-0-0-600-c97ec85bba435b12.ttf",
      "index": null,
      "cap_ratio": 0.675,
-     "width_ratio": 0.9102,
+     "width_ratio": 0.9565,
      "spread": 0.0,
      "stem_err": 0.098,
-     "shape": 1.2202,
-     "features": 0.43,
+     "shape": 1.2129,
+     "features": 0.439,
      "character": null,
      "record": {
       "family": "Funnel Sans",
@@ -5010,7 +4973,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.676
+     "score": 1.6195
     },
     {
      "family": "Arial",
@@ -5020,11 +4983,11 @@
      "path": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
      "index": null,
      "cap_ratio": 0.7158203125,
-     "width_ratio": 0.9225,
+     "width_ratio": 0.9725,
      "spread": 0.0,
      "stem_err": 0.0379,
-     "shape": 1.2304,
-     "features": 0.419,
+     "shape": 1.2545,
+     "features": 0.452,
      "character": null,
      "record": {
       "family": "Arial",
@@ -5033,7 +4996,30 @@
       "wdth": null,
       "source": "system"
      },
-     "score": 1.6772
+     "score": 1.6715
+    },
+    {
+     "family": "Inter Tight",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/InterTight-0-0-700-759b8646a04529fe.ttf",
+     "index": null,
+     "cap_ratio": 0.7275390625,
+     "width_ratio": 0.9985,
+     "spread": 0.0,
+     "stem_err": 0.0222,
+     "shape": 1.2245,
+     "features": 0.474,
+     "character": null,
+     "record": {
+      "family": "Inter Tight",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.6716
     },
     {
      "family": "Momo Trust Sans",
@@ -5043,11 +5029,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MomoTrustSans-0-0-700-7902093f176c3369.ttf",
      "index": null,
      "cap_ratio": 0.75,
-     "width_ratio": 0.9303,
+     "width_ratio": 0.9762,
      "spread": 0.0,
      "stem_err": 0.0379,
-     "shape": 1.2348,
-     "features": 0.286,
+     "shape": 1.2222,
+     "features": 0.284,
      "character": null,
      "record": {
       "family": "Momo Trust Sans",
@@ -5056,30 +5042,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.728
-    },
-    {
-     "family": "Helvetica Neue",
-     "sub": "Bold",
-     "weight": 700,
-     "embed": false,
-     "path": "/System/Library/Fonts/HelveticaNeue.ttc",
-     "index": 1,
-     "cap_ratio": 0.714,
-     "width_ratio": 0.9222,
-     "spread": 0.0,
-     "stem_err": 0.0379,
-     "shape": 1.2518,
-     "features": 0.399,
-     "character": null,
-     "record": {
-      "family": "Helvetica Neue",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "system"
-     },
-     "score": 1.7331
+     "score": 1.675
     },
     {
      "family": "Momo Trust Sans",
@@ -5089,11 +5052,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MomoTrustSans-0-0-600-0f3dbe3b29ae877b.ttf",
      "index": null,
      "cap_ratio": 0.75,
-     "width_ratio": 0.9413,
+     "width_ratio": 0.9856,
      "spread": 0.0,
      "stem_err": 0.098,
-     "shape": 1.3597,
-     "features": 0.336,
+     "shape": 1.3283,
+     "features": 0.331,
      "character": null,
      "record": {
       "family": "Momo Trust Sans",
@@ -5102,122 +5065,168 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7559
+     "score": 1.6777
+    },
+    {
+     "family": "SN Pro",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SNPro-0-0-700-86fbbd0c9e68ce2c.ttf",
+     "index": null,
+     "cap_ratio": 0.678,
+     "width_ratio": 0.9459,
+     "spread": 0.0,
+     "stem_err": 0.0379,
+     "shape": 1.3222,
+     "features": 0.345,
+     "character": null,
+     "record": {
+      "family": "SN Pro",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7022
+    },
+    {
+     "family": "Asta Sans",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AstaSans-0-0-800-115dc0b581752932.ttf",
+     "index": null,
+     "cap_ratio": 0.707,
+     "width_ratio": 0.9713,
+     "spread": 0.0,
+     "stem_err": 0.0779,
+     "shape": 1.282,
+     "features": 0.499,
+     "character": null,
+     "record": {
+      "family": "Asta Sans",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 1.7329
     },
     {
      "family": "Special Gothic",
-     "sub": "500",
-     "weight": 500,
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SpecialGothic-0-0-500-82f8dcf98a8d8428.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SpecialGothic-0-0-600-82f01f88140ab1a7.ttf",
      "index": null,
      "cap_ratio": 0.71,
-     "width_ratio": 0.9653,
+     "width_ratio": 0.989,
      "spread": 0.0,
-     "stem_err": 0.098,
-     "shape": 1.2684,
-     "features": 0.423,
+     "stem_err": 0.0379,
+     "shape": 1.2744,
+     "features": 0.325,
      "character": null,
      "record": {
       "family": "Special Gothic",
-      "weight": 500,
+      "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7643
+     "score": 1.7384
     },
     {
-     "family": "Chiron Hei HK",
-     "sub": "300",
-     "weight": 300,
+     "family": "Nunito Sans",
+     "sub": "500 italic",
+     "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ChironHeiHK-0-0-300-93c8887bd0efabcb.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/NunitoSans-1-0-500-7d4cf8d1ed085c8f.ttf",
      "index": null,
-     "cap_ratio": 0.711,
+     "cap_ratio": 0.705,
      "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.458,
-     "shape": 3.5495,
-     "features": 1.227,
+     "stem_err": 0.278,
+     "shape": 2.4937,
+     "features": 0.815,
      "character": null,
      "record": {
-      "family": "Chiron Hei HK",
-      "weight": 300,
-      "italic": false,
+      "family": "Nunito Sans",
+      "weight": 500,
+      "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 5.8492
+     "score": 4.1712
     },
     {
-     "family": "Jost",
-     "sub": "700",
-     "weight": 700,
+     "family": "Baskervville SC",
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jost-0-0-700-de1914e318c73afd.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BaskervvilleSC-0-0-600-e81b929287cf9d51.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0001,
+     "cap_ratio": 0.713,
+     "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.0222,
-     "shape": 2.3064,
-     "features": 0.545,
+     "stem_err": 0.2179,
+     "shape": 2.62,
+     "features": 1.078,
      "character": null,
      "record": {
-      "family": "Jost",
-      "weight": 700,
+      "family": "Baskervville SC",
+      "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 3.191
+     "score": 4.5207
     },
     {
-     "family": "Asap Sharp",
-     "sub": "300",
-     "weight": 300,
+     "family": "Baskervville",
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AsapSharp-0-0-300-48b6864980582567.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Baskervville-0-0-600-1d683a2f75bdd6a8.ttf",
      "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 0.9999,
+     "cap_ratio": 0.713,
+     "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.3979,
-     "shape": 3.1884,
-     "features": 1.38,
+     "stem_err": 0.2179,
+     "shape": 2.62,
+     "features": 1.078,
      "character": null,
      "record": {
-      "family": "Asap Sharp",
-      "weight": 300,
+      "family": "Baskervville",
+      "weight": 600,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.8355
+     "score": 4.5207
     },
     {
-     "family": "Kreon",
-     "sub": "700",
-     "weight": 700,
+     "family": "Libre Baskerville",
+     "sub": "600 italic",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Kreon-0-0-700-c2436aa5c77cab39.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/LibreBaskerville-1-0-600-1bf3775bd21c54c4.ttf",
      "index": null,
-     "cap_ratio": 0.691,
-     "width_ratio": 1.0002,
+     "cap_ratio": 0.77,
+     "width_ratio": 1.0,
      "spread": 0.0,
-     "stem_err": 0.098,
-     "shape": 2.3955,
-     "features": 0.854,
+     "stem_err": 0.2719,
+     "shape": 3.4263,
+     "features": 1.124,
      "character": null,
      "record": {
-      "family": "Kreon",
-      "weight": 700,
-      "italic": false,
+      "family": "Libre Baskerville",
+      "weight": 600,
+      "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 3.1743
+     "score": 5.0756
     }
    ]
   }
@@ -5239,8 +5248,8 @@
    "confidence": "low",
    "top": [
     "Inter",
-    "Instrument Sans",
-    "Miranda Sans"
+    "Miranda Sans",
+    "Instrument Sans"
    ]
   },
   {
@@ -5258,9 +5267,9 @@
    "group": "body_heavy",
    "confidence": "low",
    "top": [
-    "Inter Tight",
-    "Inter Tight",
-    "Funnel Sans"
+    "Funnel Sans",
+    "Arial",
+    "Inter Tight"
    ]
   }
  ],
@@ -5311,6 +5320,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

@@ -100,7 +100,7 @@
   }
  ],
  "median_texture": 0.5,
- "alignment": "ok; 14 line(s) assigned by hand",
+ "alignment": "ok; 14 line(s) assigned by hand; not printed: attractions_label ':'",
  "alignment_cost": 0.151,
  "lines": [
   {
@@ -2851,12 +2851,16 @@
   },
   {
    "key": "attractions_label",
-   "text": "ATTRACTIONS:",
+   "text": "ATTRACTIONS",
    "bands": [
     5
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "ATTRACTIONS"
+   ],
+   "dropped": ":"
   },
   {
    "key": "attraction0",
@@ -3752,19 +3756,19 @@
     "venue",
     "attractions_label"
    ],
-   "shape_glyphs": "eRaHcwCBLk",
+   "shape_glyphs": "eRSaHcwCBL",
    "brief": null,
    "features": {
     "weight": 0.154,
     "contrast": 1.0,
-    "slant": 0.0,
+    "slant": -0.75,
     "square": null,
     "corner": 0.919,
     "bend": null,
     "cap": 26.0
    },
    "confidence": "low",
-   "margin": 0.077,
+   "margin": 0.062,
    "distortions": [],
    "candidates": [
     {
@@ -3775,11 +3779,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/STIXTwoText-0-0-400-96cbc146497273b5.ttf",
      "index": null,
      "cap_ratio": 0.657,
-     "width_ratio": 0.9967,
-     "spread": 0.0156,
+     "width_ratio": 1.0134,
+     "spread": 0.0322,
      "stem_err": 0.074,
-     "shape": 2.0201,
-     "features": 0.917,
+     "shape": 2.0673,
+     "features": 1.099,
      "character": null,
      "record": {
       "family": "STIX Two Text",
@@ -3788,7 +3792,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.9551
+     "score": 3.1221
     },
     {
      "family": "Alice",
@@ -3798,11 +3802,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Alice-0-0-400-9612561640d664c7.ttf",
      "index": null,
      "cap_ratio": 0.634,
-     "width_ratio": 0.9858,
-     "spread": 0.0144,
+     "width_ratio": 1.0031,
+     "spread": 0.0317,
      "stem_err": 0.0138,
-     "shape": 2.1662,
-     "features": 0.839,
+     "shape": 2.1863,
+     "features": 0.972,
      "character": null,
      "record": {
       "family": "Alice",
@@ -3811,7 +3815,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.1823
+     "score": 3.317
     },
     {
      "family": "Petrona",
@@ -3821,11 +3825,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Petrona-0-0-500-b2ad03250055c654.ttf",
      "index": null,
      "cap_ratio": 0.641,
-     "width_ratio": 0.9985,
-     "spread": 0.0007,
+     "width_ratio": 1.0145,
+     "spread": 0.0153,
      "stem_err": 0.0138,
-     "shape": 2.2073,
-     "features": 0.872,
+     "shape": 2.2314,
+     "features": 1.056,
      "character": null,
      "record": {
       "family": "Petrona",
@@ -3834,53 +3838,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.2054
-    },
-    {
-     "family": "Scheherazade New",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ScheherazadeNew-0-0-400-956eef70e016337b.ttf",
-     "index": null,
-     "cap_ratio": 0.5986328125,
-     "width_ratio": 1.0024,
-     "spread": 0.0035,
-     "stem_err": 0.074,
-     "shape": 2.2209,
-     "features": 0.974,
-     "character": null,
-     "record": {
-      "family": "Scheherazade New",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.264
-    },
-    {
-     "family": "Literata",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Literata-0-0-400-22f6d8fbf6fc830b.ttf",
-     "index": null,
-     "cap_ratio": 0.701,
-     "width_ratio": 0.9587,
-     "spread": 0.0139,
-     "stem_err": 0.074,
-     "shape": 2.1067,
-     "features": 0.925,
-     "character": null,
-     "record": {
-      "family": "Literata",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.2679
+     "score": 3.3434
     },
     {
      "family": "STIX Two Text",
@@ -3890,11 +3848,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/STIXTwoText-0-0-500-d5d10367c2087775.ttf",
      "index": null,
      "cap_ratio": 0.657,
-     "width_ratio": 0.9692,
-     "spread": 0.0216,
+     "width_ratio": 0.9858,
+     "spread": 0.0382,
      "stem_err": 0.0463,
-     "shape": 2.1103,
-     "features": 0.901,
+     "shape": 2.1107,
+     "features": 1.061,
      "character": null,
      "record": {
       "family": "STIX Two Text",
@@ -3903,145 +3861,191 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.2712
+     "score": 3.361
     },
     {
      "family": "Abhaya Libre",
-     "sub": "400",
-     "weight": 400,
+     "sub": "500",
+     "weight": 500,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AbhayaLibre-0-0-400-fd0cb76515a46915.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AbhayaLibre-0-0-500-3824f2d6eef14a98.ttf",
      "index": null,
      "cap_ratio": 0.5859375,
-     "width_ratio": 0.967,
-     "spread": 0.0308,
-     "stem_err": 0.074,
-     "shape": 2.2951,
-     "features": 0.95,
+     "width_ratio": 0.98,
+     "spread": 0.0488,
+     "stem_err": 0.0171,
+     "shape": 2.3864,
+     "features": 1.043,
      "character": null,
      "record": {
       "family": "Abhaya Libre",
-      "weight": 400,
+      "weight": 500,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 3.2859
+     "score": 3.3747
     },
     {
-     "family": "Lateef",
-     "sub": "300",
-     "weight": 300,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Lateef-0-0-300-ad9bccac2aa8aa41.ttf",
-     "index": null,
-     "cap_ratio": 0.4599609375,
-     "width_ratio": 1.028,
-     "spread": 0.0039,
-     "stem_err": 0.074,
-     "shape": 2.2763,
-     "features": 0.896,
-     "character": null,
-     "record": {
-      "family": "Lateef",
-      "weight": 300,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 3.2879
-    },
-    {
-     "family": "Rufina",
+     "family": "Castoro",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Rufina-0-0-400-0e665d335ce434d3.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Castoro-0-0-400-39e6ab986259d0c6.ttf",
      "index": null,
-     "cap_ratio": 0.668,
-     "width_ratio": 1.0,
-     "spread": 0.0089,
+     "cap_ratio": 0.701,
+     "width_ratio": 1.0215,
+     "spread": 0.0245,
      "stem_err": 0.0138,
-     "shape": 2.4172,
-     "features": 0.885,
+     "shape": 2.2477,
+     "features": 1.059,
      "character": null,
      "record": {
-      "family": "Rufina",
+      "family": "Castoro",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 3.3663
+     "score": 3.3748
     },
     {
-     "family": "Maven Pro",
-     "sub": "500",
-     "weight": 500,
+     "family": "Tiro Bangla",
+     "sub": "400",
+     "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MavenPro-0-0-500-e86161e33d74b43d.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TiroBangla-0-0-400-d3832d1e3c40f9cb.ttf",
      "index": null,
-     "cap_ratio": 0.667,
-     "width_ratio": 1.0,
-     "spread": 0.06,
-     "stem_err": 0.0463,
-     "shape": 2.8092,
-     "features": 1.0,
+     "cap_ratio": 0.701,
+     "width_ratio": 1.0175,
+     "spread": 0.0285,
+     "stem_err": 0.0138,
+     "shape": 2.2477,
+     "features": 1.059,
      "character": null,
      "record": {
-      "family": "Maven Pro",
-      "weight": 500,
+      "family": "Tiro Bangla",
+      "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.5781
+     "score": 3.3788
     },
     {
-     "family": "Sour Gummy",
-     "sub": "500",
-     "weight": 500,
+     "family": "Tiro Devanagari Hindi",
+     "sub": "400",
+     "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SourGummy-0-0-500-6cc27d9d14f8115c.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TiroDevanagariHindi-0-0-400-789ac66b36b55391.ttf",
      "index": null,
-     "cap_ratio": 0.649,
-     "width_ratio": 1.0,
-     "spread": 0.1379,
-     "stem_err": 0.106,
-     "shape": 3.2998,
-     "features": 1.028,
+     "cap_ratio": 0.701,
+     "width_ratio": 1.0175,
+     "spread": 0.0285,
+     "stem_err": 0.0138,
+     "shape": 2.2477,
+     "features": 1.059,
      "character": null,
      "record": {
-      "family": "Sour Gummy",
-      "weight": 500,
+      "family": "Tiro Devanagari Hindi",
+      "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 5.7856
+     "score": 3.3788
     },
     {
-     "family": "Hanuman",
-     "sub": "500",
-     "weight": 500,
+     "family": "Chivo",
+     "sub": "600",
+     "weight": 600,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Hanuman-0-0-500-706110836b141198.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Chivo-0-0-600-3d696672f9d9bea5.ttf",
      "index": null,
-     "cap_ratio": 0.7109375,
+     "cap_ratio": 0.686,
+     "width_ratio": 1.0,
+     "spread": 0.0882,
+     "stem_err": 0.1662,
+     "shape": 2.8713,
+     "features": 1.286,
+     "character": null,
+     "record": {
+      "family": "Chivo",
+      "weight": 600,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.3469
+    },
+    {
+     "family": "DM Sans",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/DMSans-0-0-800-4ef2f46b0a949dcd.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.0,
+     "spread": 0.1037,
+     "stem_err": 0.1662,
+     "shape": 2.9162,
+     "features": 1.25,
+     "character": null,
+     "record": {
+      "family": "DM Sans",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 5.4496
+    },
+    {
+     "family": "Rufina",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Rufina-0-0-700-bdaaa32a4a63b570.ttf",
+     "index": null,
+     "cap_ratio": 0.668,
      "width_ratio": 1.0001,
-     "spread": 0.053,
-     "stem_err": 0.0463,
-     "shape": 2.5082,
-     "features": 0.938,
+     "spread": 0.0262,
+     "stem_err": 0.1662,
+     "shape": 2.3841,
+     "features": 1.173,
      "character": null,
      "record": {
-      "family": "Hanuman",
-      "weight": 500,
+      "family": "Rufina",
+      "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.1885
+     "score": 3.5529
+    },
+    {
+     "family": "Arvo",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Arvo-0-0-400-184e82fbc7d27c6b.ttf",
+     "index": null,
+     "cap_ratio": 0.740234375,
+     "width_ratio": 1.0001,
+     "spread": 0.0722,
+     "stem_err": 0.074,
+     "shape": 2.5872,
+     "features": 1.125,
+     "character": null,
+     "record": {
+      "family": "Arvo",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.9177
     }
    ]
   },
@@ -4449,6 +4453,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

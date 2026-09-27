@@ -76,7 +76,7 @@
   }
  ],
  "median_texture": 1.27,
- "alignment": "ok; 6 line(s) assigned by hand",
+ "alignment": "ok; 6 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.164,
  "lines": [
   {
@@ -1297,23 +1297,33 @@
  "assigned": [
   {
    "key": "date",
-   "text": "FRIDAY 19TH SEPTEMBER, DOORS 7:30PM",
+   "text": "FRIDAY 19TH SEPTEMBER DOORS 7:30PM",
    "bands": [
     0,
     1
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "FRIDAY 19TH SEPTEMBER",
+    "DOORS 7:30PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "THE ANCHOR ROOMS, 14 TALLOW LANE, BRISTOL WX4 2JQ",
+   "text": "THE ANCHOR ROOMS 14 TALLOW LANE, BRISTOL WX4 2JQ",
    "bands": [
     2,
     3
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "THE ANCHOR ROOMS",
+    "14 TALLOW LANE, BRISTOL WX4 2JQ"
+   ],
+   "dropped": ","
   },
   {
    "key": "tickets",
@@ -2079,7 +2089,7 @@
    },
    "features": {
     "weight": 0.184,
-    "contrast": 0.806,
+    "contrast": 0.813,
     "slant": 0.0,
     "square": 0.933,
     "corner": 0.525,
@@ -2087,18 +2097,18 @@
     "cap": 76.0
    },
    "confidence": "low",
-   "margin": 0.058,
+   "margin": 0.047,
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.756,
+     "ratio": 0.767,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
     },
     {
      "key": "venue",
-     "ratio": 0.595,
+     "ratio": 0.601,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -2113,11 +2123,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-600-54e1a6c6ef51059e.ttf",
      "index": null,
      "cap_ratio": 0.81,
-     "width_ratio": 1.0332,
-     "spread": 0.0248,
+     "width_ratio": 1.0516,
+     "spread": 0.0244,
      "stem_err": 0.0109,
-     "shape": 1.5996,
-     "features": 0.842,
+     "shape": 1.6118,
+     "features": 0.862,
      "character": 0.294,
      "record": {
       "family": "Oswald",
@@ -2126,30 +2136,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3655
-    },
-    {
-     "family": "Oswald",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-700-684a2938747fe932.ttf",
-     "index": null,
-     "cap_ratio": 0.81,
-     "width_ratio": 1.0136,
-     "spread": 0.0255,
-     "stem_err": 0.1895,
-     "shape": 1.677,
-     "features": 1.102,
-     "character": 0.294,
-     "record": {
-      "family": "Oswald",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.5029
+     "score": 2.4068
     },
     {
      "family": "Bebas Neue",
@@ -2159,11 +2146,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BebasNeue-0-0-400-27174579bef9a5d4.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 1.2002,
-     "spread": 0.0456,
+     "width_ratio": 1.2224,
+     "spread": 0.0462,
      "stem_err": 0.2101,
-     "shape": 1.4434,
-     "features": 0.892,
+     "shape": 1.4413,
+     "features": 0.889,
      "character": 0.301,
      "record": {
       "family": "Bebas Neue",
@@ -2172,53 +2159,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.5032
+     "score": 2.5206
     },
     {
-     "family": "Anton",
-     "sub": "400",
-     "weight": 400,
+     "family": "Oswald",
+     "sub": "700",
+     "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Anton-0-0-400-00a82c4faa2e89f8.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-700-684a2938747fe932.ttf",
      "index": null,
-     "cap_ratio": 0.859375,
-     "width_ratio": 1.2076,
-     "spread": 0.0323,
-     "stem_err": 0.2891,
-     "shape": 1.4235,
-     "features": 1.092,
-     "character": 0.166,
+     "cap_ratio": 0.81,
+     "width_ratio": 1.0321,
+     "spread": 0.0252,
+     "stem_err": 0.1895,
+     "shape": 1.6889,
+     "features": 1.122,
+     "character": 0.294,
      "record": {
-      "family": "Anton",
-      "weight": 400,
+      "family": "Oswald",
+      "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.5634
-    },
-    {
-     "family": "Anton SC",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AntonSC-0-0-400-719b6f03f8b25770.ttf",
-     "index": null,
-     "cap_ratio": 0.859375,
-     "width_ratio": 1.2076,
-     "spread": 0.0323,
-     "stem_err": 0.2891,
-     "shape": 1.4235,
-     "features": 1.092,
-     "character": 0.166,
-     "record": {
-      "family": "Anton SC",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.5634
+     "score": 2.5421
     },
     {
      "family": "Smooch Sans",
@@ -2228,11 +2192,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SmoochSans-0-0-700-5c4e2905e6190ac3.ttf",
      "index": null,
      "cap_ratio": 0.62,
-     "width_ratio": 1.085,
-     "spread": 0.0389,
+     "width_ratio": 1.104,
+     "spread": 0.0408,
      "stem_err": 0.0109,
-     "shape": 1.8286,
-     "features": 0.596,
+     "shape": 1.7945,
+     "features": 0.616,
      "character": 0.212,
      "record": {
       "family": "Smooch Sans",
@@ -2241,7 +2205,53 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.5683
+     "score": 2.5668
+    },
+    {
+     "family": "Anton",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Anton-0-0-400-00a82c4faa2e89f8.ttf",
+     "index": null,
+     "cap_ratio": 0.859375,
+     "width_ratio": 1.2324,
+     "spread": 0.0326,
+     "stem_err": 0.2891,
+     "shape": 1.4318,
+     "features": 1.089,
+     "character": 0.166,
+     "record": {
+      "family": "Anton",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.5793
+    },
+    {
+     "family": "Anton SC",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AntonSC-0-0-400-719b6f03f8b25770.ttf",
+     "index": null,
+     "cap_ratio": 0.859375,
+     "width_ratio": 1.2324,
+     "spread": 0.0326,
+     "stem_err": 0.2891,
+     "shape": 1.4318,
+     "features": 1.089,
+     "character": 0.166,
+     "record": {
+      "family": "Anton SC",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.5793
     },
     {
      "family": "Big Shoulders",
@@ -2251,11 +2261,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BigShoulders-0-0-800-18fe708b1fdd57a9.ttf",
      "index": null,
      "cap_ratio": 0.8,
-     "width_ratio": 1.0909,
-     "spread": 0.02,
+     "width_ratio": 1.1149,
+     "spread": 0.0201,
      "stem_err": 0.0109,
-     "shape": 1.8996,
-     "features": 0.613,
+     "shape": 1.8966,
+     "features": 0.61,
      "character": 0.298,
      "record": {
       "family": "Big Shoulders",
@@ -2264,99 +2274,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6028
+     "score": 2.6184
     },
     {
-     "family": "Big Shoulders",
-     "sub": "900",
-     "weight": 900,
+     "family": "Smooch Sans",
+     "sub": "800",
+     "weight": 800,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BigShoulders-0-0-900-34f8611e78e05dc5.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SmoochSans-0-0-800-3dc86df5408ad3d3.ttf",
      "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 1.0571,
-     "spread": 0.0199,
-     "stem_err": 0.0109,
-     "shape": 1.9537,
-     "features": 0.805,
-     "character": 0.298,
+     "cap_ratio": 0.62,
+     "width_ratio": 1.0907,
+     "spread": 0.0414,
+     "stem_err": 0.3899,
+     "shape": 1.7919,
+     "features": 1.005,
+     "character": 0.212,
      "record": {
-      "family": "Big Shoulders",
-      "weight": 900,
+      "family": "Smooch Sans",
+      "weight": 800,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6649
-    },
-    {
-     "family": "Sofia Sans Condensed",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-400-3c4f64ec771be53c.ttf",
-     "index": null,
-     "cap_ratio": 0.655,
-     "width_ratio": 1.0,
-     "spread": 0.0244,
-     "stem_err": 0.8101,
-     "shape": 2.6337,
-     "features": 1.695,
-     "character": 0.141,
-     "record": {
-      "family": "Sofia Sans Condensed",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 4.953
-    },
-    {
-     "family": "Shadows Into Light Two",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ShadowsIntoLightTwo-0-0-400-cf5d045045ec44e1.ttf",
-     "index": null,
-     "cap_ratio": 0.8276909722222222,
-     "width_ratio": 0.9994,
-     "spread": 0.0088,
-     "stem_err": 1.4053,
-     "shape": 3.1689,
-     "features": 3.074,
-     "character": 0.635,
-     "record": {
-      "family": "Shadows Into Light Two",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 10.5087
-    },
-    {
-     "family": "Saira Condensed",
-     "sub": "100",
-     "weight": 100,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaCondensed-0-0-100-d2a3ff1dd5b99624.ttf",
-     "index": null,
-     "cap_ratio": 0.688,
-     "width_ratio": 0.9992,
-     "spread": 0.0208,
-     "stem_err": 1.6105,
-     "shape": 2.89,
-     "features": 2.51,
-     "character": 0.347,
-     "record": {
-      "family": "Saira Condensed",
-      "weight": 100,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 7.8457
+     "score": 2.6854
     },
     {
      "family": "Advent Pro",
@@ -2366,11 +2307,11 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/AdventPro-1-0-100-79e098e605901a75.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 0.9988,
-     "spread": 0.0292,
+     "width_ratio": 1.0001,
+     "spread": 0.0304,
      "stem_err": 1.8109,
-     "shape": 4.442,
-     "features": 7.183,
+     "shape": 4.4501,
+     "features": 7.18,
      "character": 0.275,
      "record": {
       "family": "Advent Pro",
@@ -2379,7 +2320,76 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 13.8646
+     "score": 13.8803
+    },
+    {
+     "family": "Sofia Sans Condensed",
+     "sub": "600 italic",
+     "weight": 600,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-1-0-600-382c6ad7ac4f5a3c.ttf",
+     "index": null,
+     "cap_ratio": 0.655,
+     "width_ratio": 1.0003,
+     "spread": 0.0298,
+     "stem_err": 0.6109,
+     "shape": 2.6908,
+     "features": 4.623,
+     "character": 0.141,
+     "record": {
+      "family": "Sofia Sans Condensed",
+      "weight": 600,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.3315
+    },
+    {
+     "family": "Sofia Sans Condensed",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansCondensed-0-0-500-7c8fdac9dc774f4a.ttf",
+     "index": null,
+     "cap_ratio": 0.655,
+     "width_ratio": 0.999,
+     "spread": 0.0253,
+     "stem_err": 0.6109,
+     "shape": 2.5804,
+     "features": 1.602,
+     "character": 0.141,
+     "record": {
+      "family": "Sofia Sans Condensed",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 4.4702
+    },
+    {
+     "family": "Maiden Orange",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MaidenOrange-0-0-400-3fdfe0eeebc9a31e.ttf",
+     "index": null,
+     "cap_ratio": 0.6962890625,
+     "width_ratio": 1.0011,
+     "spread": 0.0299,
+     "stem_err": 0.6109,
+     "shape": 2.347,
+     "features": 2.243,
+     "character": 0.627,
+     "record": {
+      "family": "Maiden Orange",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.0196
     }
    ]
   },
@@ -2705,8 +2715,8 @@
    "confidence": "low",
    "top": [
     "Oswald",
-    "Oswald",
-    "Bebas Neue"
+    "Bebas Neue",
+    "Oswald"
    ]
   },
   {
@@ -2765,6 +2775,7 @@
   ],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

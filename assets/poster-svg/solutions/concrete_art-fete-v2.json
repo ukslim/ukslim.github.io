@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.22,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ','",
  "alignment_cost": 0.065,
  "lines": [
   {
@@ -2951,12 +2951,17 @@
   },
   {
    "key": "date",
-   "text": "Saturday 6th September, 12 noon \u2013 5pm",
+   "text": "Saturday 6th September 12 noon \u2013 5pm",
    "bands": [
     2,
     3
    ],
-   "assigned_by": "hand"
+   "assigned_by": "hand",
+   "parts": [
+    "Saturday 6th September",
+    "12 noon \u2013 5pm"
+   ],
+   "dropped": ","
   },
   {
    "key": "attraction0",
@@ -6889,7 +6894,7 @@
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.874,
+     "ratio": 0.888,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -6912,7 +6917,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9287,
-     "spread": 0.014,
+     "spread": 0.0098,
      "stem_err": 0.0145,
      "shape": 0.9759,
      "features": 0.298,
@@ -6924,7 +6929,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.4941
+     "score": 1.4866
     },
     {
      "family": "Yantramanav",
@@ -6935,7 +6940,7 @@
      "index": null,
      "cap_ratio": 0.6396484375,
      "width_ratio": 0.9762,
-     "spread": 0.0353,
+     "spread": 0.0308,
      "stem_err": 0.0145,
      "shape": 0.9262,
      "features": 0.365,
@@ -6947,7 +6952,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.5094
+     "score": 1.5014
     },
     {
      "family": "Sofia Sans Semi Condensed",
@@ -6958,7 +6963,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9377,
-     "spread": 0.0252,
+     "spread": 0.0195,
      "stem_err": 0.0742,
      "shape": 0.9717,
      "features": 0.416,
@@ -6970,7 +6975,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.5858
+     "score": 1.5755
     },
     {
      "family": "IBM Plex Sans Condensed",
@@ -6981,7 +6986,7 @@
      "index": null,
      "cap_ratio": 0.698,
      "width_ratio": 1.0116,
-     "spread": 0.0277,
+     "spread": 0.0214,
      "stem_err": 0.0742,
      "shape": 1.1191,
      "features": 0.405,
@@ -6993,7 +6998,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.599
+     "score": 1.5875
     },
     {
      "family": "Vazirmatn",
@@ -7004,7 +7009,7 @@
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 0.9767,
-     "spread": 0.0312,
+     "spread": 0.0266,
      "stem_err": 0.0145,
      "shape": 1.0314,
      "features": 0.353,
@@ -7016,7 +7021,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.6085
+     "score": 1.6002
     },
     {
      "family": "Spline Sans",
@@ -7026,8 +7031,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SplineSans-0-0-500-8601093dc1ca7e30.ttf",
      "index": null,
      "cap_ratio": 0.727,
-     "width_ratio": 0.9442,
-     "spread": 0.0165,
+     "width_ratio": 0.9525,
+     "spread": 0.0142,
      "stem_err": 0.0145,
      "shape": 1.0564,
      "features": 0.374,
@@ -7039,7 +7044,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.671
+     "score": 1.66
     },
     {
      "family": "Special Gothic",
@@ -7050,7 +7055,7 @@
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 0.9444,
-     "spread": 0.0223,
+     "spread": 0.0179,
      "stem_err": 0.0742,
      "shape": 1.0919,
      "features": 0.434,
@@ -7062,7 +7067,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.688
+     "score": 1.68
     },
     {
      "family": "Asap",
@@ -7073,7 +7078,7 @@
      "index": null,
      "cap_ratio": 0.702,
      "width_ratio": 0.9877,
-     "spread": 0.0288,
+     "spread": 0.0243,
      "stem_err": 0.0742,
      "shape": 1.2218,
      "features": 0.41,
@@ -7085,7 +7090,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.7626
+     "score": 1.7544
     },
     {
      "family": "Dai Banna SIL",
@@ -7096,7 +7101,7 @@
      "index": null,
      "cap_ratio": 0.56591796875,
      "width_ratio": 1.0001,
-     "spread": 0.0599,
+     "spread": 0.0631,
      "stem_err": 0.1945,
      "shape": 2.5881,
      "features": 2.967,
@@ -7108,7 +7113,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 6.5931
+     "score": 6.5989
     },
     {
      "family": "Winky Rough",
@@ -7119,7 +7124,7 @@
      "index": null,
      "cap_ratio": 0.668,
      "width_ratio": 1.0001,
-     "spread": 0.0502,
+     "spread": 0.0465,
      "stem_err": 0.1655,
      "shape": 2.5243,
      "features": 2.879,
@@ -7131,7 +7136,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 6.6566
+     "score": 6.6499
     },
     {
      "family": "Merienda",
@@ -7142,7 +7147,7 @@
      "index": null,
      "cap_ratio": 0.802,
      "width_ratio": 1.0001,
-     "spread": 0.0667,
+     "spread": 0.0641,
      "stem_err": 0.1288,
      "shape": 2.3077,
      "features": 1.979,
@@ -7154,7 +7159,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 8.0367
+     "score": 8.0321
     },
     {
      "family": "Encode Sans Semi Expanded",
@@ -7165,7 +7170,7 @@
      "index": null,
      "cap_ratio": 0.74,
      "width_ratio": 0.9999,
-     "spread": 0.0268,
+     "spread": 0.023,
      "stem_err": 0.2858,
      "shape": 2.5804,
      "features": 0.619,
@@ -7177,7 +7182,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.0406
+     "score": 5.0336
     }
    ]
   },
@@ -7596,6 +7601,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

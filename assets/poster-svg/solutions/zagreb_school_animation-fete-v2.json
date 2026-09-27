@@ -99,7 +99,7 @@
   }
  ],
  "median_texture": 1.15,
- "alignment": "ok; 13 line(s) assigned by hand",
+ "alignment": "ok; 13 line(s) assigned by hand; not printed: date ','",
  "alignment_cost": 0.155,
  "lines": [
   {
@@ -2978,12 +2978,17 @@
  "assigned": [
   {
    "key": "date",
-   "text": "Saturday 6th September, 12 noon \u2013 5pm",
+   "text": "Saturday 6th September 12 noon \u2013 5pm",
    "bands": [
     0,
     1
    ],
-   "assigned_by": "hand"
+   "assigned_by": "hand",
+   "parts": [
+    "Saturday 6th September",
+    "12 noon \u2013 5pm"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
@@ -4374,7 +4379,7 @@
     "cap": 42.0
    },
    "confidence": "low",
-   "margin": 0.046,
+   "margin": 0.043,
    "distortions": [
     {
      "key": "venue",
@@ -4393,8 +4398,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SofiaSansExtraCondensed-0-0-700-19a2b413f2499175.ttf",
      "index": null,
      "cap_ratio": 0.655,
-     "width_ratio": 0.9929,
-     "spread": 0.0124,
+     "width_ratio": 1.0016,
+     "spread": 0.0211,
      "stem_err": 0.0224,
      "shape": 1.1844,
      "features": 0.583,
@@ -4406,7 +4411,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0587
+     "score": 2.0699
     },
     {
      "family": "Special Gothic Condensed One",
@@ -4416,8 +4421,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SpecialGothicCondensedOne-0-0-400-bc9661a624879fc4.ttf",
      "index": null,
      "cap_ratio": 0.71,
-     "width_ratio": 0.9622,
-     "spread": 0.0241,
+     "width_ratio": 0.968,
+     "spread": 0.03,
      "stem_err": 0.0224,
      "shape": 1.3402,
      "features": 0.507,
@@ -4429,7 +4434,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1524
+     "score": 2.1581
     },
     {
      "family": "Oswald",
@@ -4439,8 +4444,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-500-bd54c32397ca4570.ttf",
      "index": null,
      "cap_ratio": 0.81,
-     "width_ratio": 0.9213,
-     "spread": 0.0174,
+     "width_ratio": 0.9272,
+     "spread": 0.0234,
      "stem_err": 0.0224,
      "shape": 1.362,
      "features": 0.476,
@@ -4452,7 +4457,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.306
+     "score": 2.3115
     },
     {
      "family": "Saira Extra Condensed",
@@ -4462,8 +4467,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-600-0a22c6a6d7aa421b.ttf",
      "index": null,
      "cap_ratio": 0.688,
-     "width_ratio": 1.0593,
-     "spread": 0.0052,
+     "width_ratio": 1.0665,
+     "spread": 0.002,
      "stem_err": 0.0861,
      "shape": 1.4023,
      "features": 0.711,
@@ -4475,7 +4480,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3126
+     "score": 2.3122
     },
     {
      "family": "Cossette Titre",
@@ -4485,8 +4490,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CossetteTitre-0-0-700-2f3b75e8906b66b7.ttf",
      "index": null,
      "cap_ratio": 0.8,
-     "width_ratio": 0.9983,
-     "spread": 0.0194,
+     "width_ratio": 1.0048,
+     "spread": 0.0259,
      "stem_err": 0.0224,
      "shape": 1.2727,
      "features": 0.65,
@@ -4498,7 +4503,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3272
+     "score": 2.3414
     },
     {
      "family": "Saira Extra Condensed",
@@ -4508,8 +4513,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/SairaExtraCondensed-0-0-700-c1e7c9c71be3aa1b.ttf",
      "index": null,
      "cap_ratio": 0.688,
-     "width_ratio": 1.0489,
-     "spread": 0.0019,
+     "width_ratio": 1.0567,
+     "spread": 0.0059,
      "stem_err": 0.0224,
      "shape": 1.2766,
      "features": 0.608,
@@ -4521,7 +4526,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3298
+     "score": 2.3431
     },
     {
      "family": "Barlow Condensed",
@@ -4531,8 +4536,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BarlowCondensed-0-0-500-293b23e5246b59d7.ttf",
      "index": null,
      "cap_ratio": 0.7,
-     "width_ratio": 0.901,
-     "spread": 0.0223,
+     "width_ratio": 0.9066,
+     "spread": 0.0279,
      "stem_err": 0.1947,
      "shape": 1.4024,
      "features": 0.778,
@@ -4544,7 +4549,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4133
+     "score": 2.4184
     },
     {
      "family": "Oswald",
@@ -4554,8 +4559,8 @@
      "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Oswald-0-0-400-84747762e048ed71.ttf",
      "index": null,
      "cap_ratio": 0.81,
-     "width_ratio": 0.9797,
-     "spread": 0.0141,
+     "width_ratio": 0.9854,
+     "spread": 0.0198,
      "stem_err": 0.1947,
      "shape": 1.4669,
      "features": 0.738,
@@ -4567,99 +4572,99 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4139
+     "score": 2.4195
     },
     {
-     "family": "Henny Penny",
+     "family": "Jacquard 24 Charted",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/HennyPenny-0-0-400-a9862ed416cfbdde.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Jacquard24Charted-0-0-400-d1744f6b4365f681.ttf",
      "index": null,
-     "cap_ratio": 0.8759765625,
-     "width_ratio": 0.9997,
-     "spread": 0.0036,
+     "cap_ratio": 0.7922480620155039,
+     "width_ratio": 1.0001,
+     "spread": 0.0568,
      "stem_err": 0.3026,
-     "shape": 3.0561,
-     "features": 2.031,
-     "character": 0.535,
+     "shape": 2.8729,
+     "features": 1.985,
+     "character": 0.707,
      "record": {
-      "family": "Henny Penny",
+      "family": "Jacquard 24 Charted",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 7.9511
+     "score": 7.8799
     },
     {
-     "family": "Charmonman",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Charmonman-0-0-700-d1baef70842436ad.ttf",
-     "index": null,
-     "cap_ratio": 0.787,
-     "width_ratio": 1.0004,
-     "spread": 0.0554,
-     "stem_err": 0.4293,
-     "shape": 3.3622,
-     "features": 5.332,
-     "character": 0.728,
-     "record": {
-      "family": "Charmonman",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 11.9745
-    },
-    {
-     "family": "Imbue",
-     "sub": "600",
-     "weight": 600,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Imbue-0-0-600-14e6ade82194cf24.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.0009,
-     "spread": 0.0216,
-     "stem_err": 0.0861,
-     "shape": 2.1267,
-     "features": 0.993,
-     "character": 0.671,
-     "record": {
-      "family": "Imbue",
-      "weight": 600,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 6.333
-    },
-    {
-     "family": "Bad Script",
+     "family": "Ruge Boogie",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BadScript-0-0-400-56fdd5f0fa037b33.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RugeBoogie-0-0-400-8821a96e12cc4f8b.ttf",
      "index": null,
-     "cap_ratio": 0.978,
-     "width_ratio": 1.0009,
-     "spread": 0.1496,
-     "stem_err": 0.7361,
-     "shape": 3.1489,
-     "features": 5.187,
-     "character": 0.728,
+     "cap_ratio": 0.651,
+     "width_ratio": 1.0001,
+     "spread": 0.0099,
+     "stem_err": 0.6705,
+     "shape": 2.9172,
+     "features": 3.113,
+     "character": 0.661,
      "record": {
-      "family": "Bad Script",
+      "family": "Ruge Boogie",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 12.1961
+     "score": 9.7124
+    },
+    {
+     "family": "Puppies Play",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/PuppiesPlay-0-0-400-8244a265dcd2432b.ttf",
+     "index": null,
+     "cap_ratio": 0.583,
+     "width_ratio": 1.0001,
+     "spread": 0.0832,
+     "stem_err": 0.7361,
+     "shape": 3.1553,
+     "features": 3.644,
+     "character": 0.728,
+     "record": {
+      "family": "Puppies Play",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 11.6311
+    },
+    {
+     "family": "Shadows Into Light",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ShadowsIntoLight-0-0-400-4ae48127b9b77080.ttf",
+     "index": null,
+     "cap_ratio": 0.6640625,
+     "width_ratio": 1.0002,
+     "spread": 0.0416,
+     "stem_err": 0.5197,
+     "shape": 3.2636,
+     "features": 2.024,
+     "character": 0.728,
+     "record": {
+      "family": "Shadows Into Light",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 10.1781
     }
    ]
   },
@@ -5683,6 +5688,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

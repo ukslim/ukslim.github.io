@@ -85,7 +85,7 @@
   }
  ],
  "median_texture": 5.9,
- "alignment": "ok",
+ "alignment": "ok; not printed: venue ','",
  "alignment_cost": 0.153,
  "lines": [
   {
@@ -2690,12 +2690,17 @@
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     1,
     2
    ],
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -4463,7 +4468,7 @@
    "shape_glyphs": "WRMSGaeKUB",
    "brief": null,
    "features": {
-    "weight": 0.235,
+    "weight": 0.238,
     "contrast": 0.667,
     "slant": -1.5,
     "square": null,
@@ -4472,11 +4477,11 @@
     "cap": 20.5
    },
    "confidence": "low",
-   "margin": 0.013,
+   "margin": 0.017,
    "distortions": [
     {
      "key": "venue",
-     "ratio": 0.841,
+     "ratio": 0.848,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -4506,10 +4511,10 @@
      "index": null,
      "cap_ratio": 0.66,
      "width_ratio": 0.9871,
-     "spread": 0.0421,
-     "stem_err": 0.1131,
+     "spread": 0.0414,
+     "stem_err": 0.1046,
      "shape": 1.6471,
-     "features": 0.792,
+     "features": 0.766,
      "character": null,
      "record": {
       "family": "Labrada",
@@ -4518,7 +4523,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.3902
+     "score": 2.3757
     },
     {
      "family": "Rasa",
@@ -4529,10 +4534,10 @@
      "index": null,
      "cap_ratio": 0.573,
      "width_ratio": 0.9984,
-     "spread": 0.05,
-     "stem_err": 0.0072,
+     "spread": 0.0493,
+     "stem_err": 0.0156,
      "shape": 1.6207,
-     "features": 0.741,
+     "features": 0.731,
      "character": null,
      "record": {
       "family": "Rasa",
@@ -4541,7 +4546,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4221
+     "score": 2.4162
     },
     {
      "family": "Yrsa",
@@ -4552,10 +4557,10 @@
      "index": null,
      "cap_ratio": 0.573,
      "width_ratio": 0.9984,
-     "spread": 0.05,
-     "stem_err": 0.0072,
+     "spread": 0.0493,
+     "stem_err": 0.0156,
      "shape": 1.6207,
-     "features": 0.741,
+     "features": 0.731,
      "character": null,
      "record": {
       "family": "Yrsa",
@@ -4564,7 +4569,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4221
+     "score": 2.4162
     },
     {
      "family": "Stardos Stencil",
@@ -4575,10 +4580,10 @@
      "index": null,
      "cap_ratio": 0.69384765625,
      "width_ratio": 1.0438,
-     "spread": 0.033,
-     "stem_err": 0.0137,
+     "spread": 0.0324,
+     "stem_err": 0.0221,
      "shape": 1.5916,
-     "features": 0.631,
+     "features": 0.622,
      "character": null,
      "record": {
       "family": "Stardos Stencil",
@@ -4587,7 +4592,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4679
+     "score": 2.4622
     },
     {
      "family": "Vollkorn",
@@ -4598,10 +4603,10 @@
      "index": null,
      "cap_ratio": 0.679,
      "width_ratio": 0.9886,
-     "spread": 0.0304,
-     "stem_err": 0.0529,
+     "spread": 0.0297,
+     "stem_err": 0.0445,
      "shape": 1.8004,
-     "features": 0.572,
+     "features": 0.545,
      "character": null,
      "record": {
       "family": "Vollkorn",
@@ -4610,7 +4615,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.4891
+     "score": 2.4746
     },
     {
      "family": "Halant",
@@ -4621,10 +4626,10 @@
      "index": null,
      "cap_ratio": 0.695,
      "width_ratio": 1.056,
-     "spread": 0.0448,
-     "stem_err": 0.0072,
+     "spread": 0.0438,
+     "stem_err": 0.0156,
      "shape": 1.8439,
-     "features": 0.542,
+     "features": 0.544,
      "character": null,
      "record": {
       "family": "Halant",
@@ -4633,30 +4638,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.5139
-    },
-    {
-     "family": "Zilla Slab",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZillaSlab-0-0-700-2645a6792e360a38.ttf",
-     "index": null,
-     "cap_ratio": 0.65,
-     "width_ratio": 1.005,
-     "spread": 0.0403,
-     "stem_err": 0.1271,
-     "shape": 1.8812,
-     "features": 0.738,
-     "character": null,
-     "record": {
-      "family": "Zilla Slab",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.5336
+     "score": 2.5133
     },
     {
      "family": "Merriweather",
@@ -4667,10 +4649,10 @@
      "index": null,
      "cap_ratio": 0.743,
      "width_ratio": 1.0369,
-     "spread": 0.0479,
-     "stem_err": 0.0435,
+     "spread": 0.0472,
+     "stem_err": 0.052,
      "shape": 1.753,
-     "features": 0.765,
+     "features": 0.756,
      "character": null,
      "record": {
       "family": "Merriweather",
@@ -4679,30 +4661,53 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.5355
+     "score": 2.5296
     },
     {
-     "family": "M PLUS U",
-     "sub": "600",
-     "weight": 600,
+     "family": "Zilla Slab",
+     "sub": "700",
+     "weight": 700,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MPLUSU-0-0-600-a87122a071ea7749.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZillaSlab-0-0-700-2645a6792e360a38.ttf",
      "index": null,
-     "cap_ratio": 0.73,
-     "width_ratio": 1.0,
-     "spread": 0.0296,
-     "stem_err": 0.2469,
-     "shape": 2.9159,
-     "features": 0.984,
+     "cap_ratio": 0.65,
+     "width_ratio": 1.005,
+     "spread": 0.0398,
+     "stem_err": 0.1355,
+     "shape": 1.8812,
+     "features": 0.741,
      "character": null,
      "record": {
-      "family": "M PLUS U",
-      "weight": 600,
+      "family": "Zilla Slab",
+      "weight": 700,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.2671
+     "score": 2.5339
+    },
+    {
+     "family": "Yarndings 12 Charted",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Yarndings12Charted-0-0-400-b9770bb7e6210c8d.ttf",
+     "index": null,
+     "cap_ratio": 0.8798076923076923,
+     "width_ratio": 1.0,
+     "spread": 0.0761,
+     "stem_err": 0.3155,
+     "shape": 3.4452,
+     "features": 2.353,
+     "character": null,
+     "record": {
+      "family": "Yarndings 12 Charted",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 6.0475
     },
     {
      "family": "Vollkorn",
@@ -4713,10 +4718,10 @@
      "index": null,
      "cap_ratio": 0.679,
      "width_ratio": 1.0001,
-     "spread": 0.0335,
-     "stem_err": 0.0669,
+     "spread": 0.0328,
+     "stem_err": 0.0754,
      "shape": 1.8587,
-     "features": 0.529,
+     "features": 0.532,
      "character": null,
      "record": {
       "family": "Vollkorn",
@@ -4725,7 +4730,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.6483
+     "score": 2.6481
     },
     {
      "family": "Averia Serif Libre",
@@ -4736,10 +4741,10 @@
      "index": null,
      "cap_ratio": 0.67724609375,
      "width_ratio": 1.0001,
-     "spread": 0.0419,
-     "stem_err": 0.2469,
+     "spread": 0.0413,
+     "stem_err": 0.2554,
      "shape": 2.3326,
-     "features": 0.864,
+     "features": 0.878,
      "character": null,
      "record": {
       "family": "Averia Serif Libre",
@@ -4748,30 +4753,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.7346
+     "score": 3.7406
     },
     {
-     "family": "Rubik Gemstones",
-     "sub": "400",
-     "weight": 400,
+     "family": "Texturina",
+     "sub": "900 italic",
+     "weight": 900,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RubikGemstones-0-0-400-157c1a885854d693.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Texturina-1-0-900-ff030c036f9510f3.ttf",
      "index": null,
-     "cap_ratio": 0.718,
+     "cap_ratio": 0.704,
      "width_ratio": 1.0001,
-     "spread": 0.0257,
-     "stem_err": 0.4143,
-     "shape": 2.7099,
-     "features": 1.457,
+     "spread": 0.0846,
+     "stem_err": 0.2435,
+     "shape": 2.452,
+     "features": 4.041,
      "character": null,
      "record": {
-      "family": "Rubik Gemstones",
-      "weight": 400,
-      "italic": false,
+      "family": "Texturina",
+      "weight": 900,
+      "italic": true,
       "wdth": null,
       "source": "google"
      },
-     "score": 4.097
+     "score": 5.2384
     }
    ]
   }
@@ -4836,6 +4841,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

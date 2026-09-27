@@ -87,7 +87,7 @@
   }
  ],
  "median_texture": 0.63,
- "alignment": "ok; 1 line(s) assigned by hand",
+ "alignment": "ok; 1 line(s) assigned by hand; not printed: venue ','",
  "alignment_cost": 0.084,
  "lines": [
   {
@@ -2714,12 +2714,17 @@
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     1,
     2
    ],
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -4321,124 +4326,85 @@
     "footer0",
     "footer1"
    ],
-   "shape_glyphs": "WMSR2QGAOU",
+   "shape_glyphs": "WMRS2QGAOU",
    "brief": null,
    "features": {
-    "weight": 0.182,
+    "weight": 0.191,
     "contrast": 0.894,
-    "slant": 0.0,
+    "slant": -0.75,
     "square": 0.827,
     "corner": 0.65,
     "bend": null,
-    "cap": 22.0
+    "cap": 21.0
    },
    "confidence": "low",
-   "margin": 0.002,
+   "margin": 0.0,
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.782,
+     "ratio": 0.817,
      "kind": "horizontal_squash",
      "stem_matches": false,
      "action": "do NOT reproduce; set at natural width"
     },
     {
-     "key": "venue",
-     "ratio": 0.921,
-     "kind": "horizontal_squash",
+     "key": "attraction0",
+     "ratio": 1.075,
+     "kind": "wider_than_face",
      "stem_matches": false,
-     "action": "do NOT reproduce; set at natural width"
+     "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "attraction1",
-     "ratio": 1.104,
+     "ratio": 1.128,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "attraction2",
-     "ratio": 1.087,
+     "ratio": 1.109,
+     "kind": "wider_than_face",
+     "stem_matches": false,
+     "action": "do NOT stretch; let the line run short"
+    },
+    {
+     "key": "attraction4",
+     "ratio": 1.067,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "attraction6",
-     "ratio": 1.077,
+     "ratio": 1.106,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "attraction7",
-     "ratio": 1.136,
+     "ratio": 1.145,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "footer0",
-     "ratio": 1.084,
+     "ratio": 1.099,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     },
     {
      "key": "footer1",
-     "ratio": 1.091,
+     "ratio": 1.131,
      "kind": "wider_than_face",
      "stem_matches": false,
      "action": "do NOT stretch; let the line run short"
     }
    ],
    "candidates": [
-    {
-     "family": "Fjalla One",
-     "sub": "400",
-     "weight": 400,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FjallaOne-0-0-400-fc86c34b03650efc.ttf",
-     "index": null,
-     "cap_ratio": 0.833984375,
-     "width_ratio": 1.0446,
-     "spread": 0.0849,
-     "stem_err": 0.1145,
-     "shape": 1.7603,
-     "features": 0.955,
-     "character": null,
-     "record": {
-      "family": "Fjalla One",
-      "weight": 400,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.7478
-    },
-    {
-     "family": "Yanone Kaffeesatz",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/YanoneKaffeesatz-0-0-700-7e42a5c3a9ee61f9.ttf",
-     "index": null,
-     "cap_ratio": 0.7,
-     "width_ratio": 1.1534,
-     "spread": 0.0959,
-     "stem_err": 0.0544,
-     "shape": 1.8453,
-     "features": 0.681,
-     "character": null,
-     "record": {
-      "family": "Yanone Kaffeesatz",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.7535
-    },
     {
      "family": "Road Rage",
      "sub": "400",
@@ -4448,10 +4414,10 @@
      "index": null,
      "cap_ratio": 0.603,
      "width_ratio": 1.0711,
-     "spread": 0.0815,
-     "stem_err": 0.0731,
-     "shape": 1.9707,
-     "features": 0.684,
+     "spread": 0.0808,
+     "stem_err": 0.1059,
+     "shape": 1.8466,
+     "features": 0.844,
      "character": null,
      "record": {
       "family": "Road Rage",
@@ -4460,30 +4426,30 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.7785
+     "score": 2.7306
     },
     {
-     "family": "Mouse Memoirs",
+     "family": "Fjalla One",
      "sub": "400",
      "weight": 400,
      "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/MouseMemoirs-0-0-400-29aa37cae2c808cc.ttf",
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FjallaOne-0-0-400-fc86c34b03650efc.ttf",
      "index": null,
-     "cap_ratio": 0.701171875,
-     "width_ratio": 1.2263,
-     "spread": 0.0931,
-     "stem_err": 0.1145,
-     "shape": 1.9481,
-     "features": 0.63,
+     "cap_ratio": 0.833984375,
+     "width_ratio": 1.0446,
+     "spread": 0.0842,
+     "stem_err": 0.1473,
+     "shape": 1.706,
+     "features": 1.115,
      "character": null,
      "record": {
-      "family": "Mouse Memoirs",
+      "family": "Fjalla One",
       "weight": 400,
       "italic": false,
       "wdth": null,
       "source": "google"
      },
-     "score": 2.7962
+     "score": 2.7313
     },
     {
      "family": "Staatliches",
@@ -4494,10 +4460,10 @@
      "index": null,
      "cap_ratio": 0.696,
      "width_ratio": 0.9716,
-     "spread": 0.0726,
-     "stem_err": 0.0053,
-     "shape": 2.0838,
-     "features": 0.905,
+     "spread": 0.072,
+     "stem_err": 0.0274,
+     "shape": 1.9463,
+     "features": 1.054,
      "character": null,
      "record": {
       "family": "Staatliches",
@@ -4506,30 +4472,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8362
-    },
-    {
-     "family": "Cossette Titre",
-     "sub": "700",
-     "weight": 700,
-     "embed": true,
-     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CossetteTitre-0-0-700-2f3b75e8906b66b7.ttf",
-     "index": null,
-     "cap_ratio": 0.8,
-     "width_ratio": 0.9883,
-     "spread": 0.0687,
-     "stem_err": 0.0544,
-     "shape": 2.1374,
-     "features": 0.698,
-     "character": null,
-     "record": {
-      "family": "Cossette Titre",
-      "weight": 700,
-      "italic": false,
-      "wdth": null,
-      "source": "google"
-     },
-     "score": 2.8389
+     "score": 2.7582
     },
     {
      "family": "Caacupe One",
@@ -4540,10 +4483,10 @@
      "index": null,
      "cap_ratio": 0.62,
      "width_ratio": 0.9708,
-     "spread": 0.0759,
-     "stem_err": 0.0655,
-     "shape": 2.0424,
-     "features": 0.855,
+     "spread": 0.0754,
+     "stem_err": 0.0327,
+     "shape": 1.9076,
+     "features": 0.95,
      "character": null,
      "record": {
       "family": "Caacupe One",
@@ -4552,7 +4495,76 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.8468
+     "score": 2.7712
+    },
+    {
+     "family": "Cossette Titre",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/CossetteTitre-0-0-700-2f3b75e8906b66b7.ttf",
+     "index": null,
+     "cap_ratio": 0.8,
+     "width_ratio": 0.9883,
+     "spread": 0.0682,
+     "stem_err": 0.0872,
+     "shape": 2.0271,
+     "features": 0.858,
+     "character": null,
+     "record": {
+      "family": "Cossette Titre",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.7925
+    },
+    {
+     "family": "BBH Bogle",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BBHBogle-0-0-400-c6ce8dee033c7629.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 0.9917,
+     "spread": 0.0775,
+     "stem_err": 0.0928,
+     "shape": 1.7909,
+     "features": 1.155,
+     "character": null,
+     "record": {
+      "family": "BBH Bogle",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.8517
+    },
+    {
+     "family": "Yanone Kaffeesatz",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/YanoneKaffeesatz-0-0-700-7e42a5c3a9ee61f9.ttf",
+     "index": null,
+     "cap_ratio": 0.7,
+     "width_ratio": 1.1534,
+     "spread": 0.0953,
+     "stem_err": 0.0872,
+     "shape": 1.8576,
+     "features": 0.885,
+     "character": null,
+     "record": {
+      "family": "Yanone Kaffeesatz",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.8642
     },
     {
      "family": "DynaPuff",
@@ -4563,10 +4575,10 @@
      "index": null,
      "cap_ratio": 0.741,
      "width_ratio": 0.9217,
-     "spread": 0.0679,
-     "stem_err": 0.0053,
-     "shape": 2.1711,
-     "features": 0.642,
+     "spread": 0.0674,
+     "stem_err": 0.0274,
+     "shape": 2.066,
+     "features": 0.791,
      "character": null,
      "record": {
       "family": "DynaPuff",
@@ -4575,7 +4587,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 2.917
+     "score": 2.8646
     },
     {
      "family": "Teko",
@@ -4586,10 +4598,10 @@
      "index": null,
      "cap_ratio": 0.626,
      "width_ratio": 0.9986,
-     "spread": 0.0739,
-     "stem_err": 0.1145,
-     "shape": 2.0624,
-     "features": 1.454,
+     "spread": 0.0731,
+     "stem_err": 0.1473,
+     "shape": 2.0399,
+     "features": 1.614,
      "character": null,
      "record": {
       "family": "Teko",
@@ -4598,7 +4610,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.2687
+     "score": 3.3141
     },
     {
      "family": "Handjet",
@@ -4609,10 +4621,10 @@
      "index": null,
      "cap_ratio": 0.6470588235294118,
      "width_ratio": 0.9976,
-     "spread": 0.0768,
-     "stem_err": 0.2945,
-     "shape": 2.4382,
-     "features": 1.288,
+     "spread": 0.0762,
+     "stem_err": 0.3273,
+     "shape": 2.4341,
+     "features": 1.505,
      "character": null,
      "record": {
       "family": "Handjet",
@@ -4621,7 +4633,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 4.4441
+     "score": 4.5304
     },
     {
      "family": "Barlow Condensed",
@@ -4632,10 +4644,10 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 0.9964,
-     "spread": 0.0742,
-     "stem_err": 0.4144,
-     "shape": 2.4765,
-     "features": 1.335,
+     "spread": 0.0737,
+     "stem_err": 0.4472,
+     "shape": 2.583,
+     "features": 1.566,
      "character": null,
      "record": {
       "family": "Barlow Condensed",
@@ -4644,7 +4656,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.9812
+     "score": 6.1942
     },
     {
      "family": "Big Shoulders Stencil",
@@ -4655,10 +4667,10 @@
      "index": null,
      "cap_ratio": 0.8,
      "width_ratio": 1.0039,
-     "spread": 0.0739,
-     "stem_err": 0.0544,
-     "shape": 2.2395,
-     "features": 1.786,
+     "spread": 0.0732,
+     "stem_err": 0.0872,
+     "shape": 2.1655,
+     "features": 1.946,
      "character": null,
      "record": {
       "family": "Big Shoulders Stencil",
@@ -4667,7 +4679,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.5721
+     "score": 3.6152
     }
    ]
   }
@@ -4678,9 +4690,9 @@
    "group": "body",
    "confidence": "low",
    "top": [
+    "Road Rage",
     "Fjalla One",
-    "Yanone Kaffeesatz",
-    "Road Rage"
+    "Staatliches"
    ]
   }
  ],
@@ -4718,6 +4730,7 @@
   "shadow": [],
   "fit": [
    "date"
-  ]
+  ],
+  "text": []
  }
 }

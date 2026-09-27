@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.32,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ',', venue ','",
  "alignment_cost": 0.047,
  "lines": [
   {
@@ -2957,23 +2957,33 @@
   },
   {
    "key": "date",
-   "text": "SATURDAY 6TH SEPTEMBER, 12 NOON \u2013 5PM",
+   "text": "SATURDAY 6TH SEPTEMBER 12 NOON \u2013 5PM",
    "bands": [
     2,
     3
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "SATURDAY 6TH SEPTEMBER",
+    "12 NOON \u2013 5PM"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
-   "text": "BRINDLEWICK CRICKET CLUB, HAWTHORN LANE, BRINDLEWICK",
+   "text": "BRINDLEWICK CRICKET CLUB HAWTHORN LANE, BRINDLEWICK",
    "bands": [
     4,
     5
    ],
    "assigned_by": "hand",
-   "upper": true
+   "upper": true,
+   "parts": [
+    "BRINDLEWICK CRICKET CLUB",
+    "HAWTHORN LANE, BRINDLEWICK"
+   ],
+   "dropped": ","
   },
   {
    "key": "beneficiary",
@@ -3733,13 +3743,6 @@
    "margin": 0.041,
    "distortions": [
     {
-     "key": "venue",
-     "ratio": 0.936,
-     "kind": "squeezed_to_fit",
-     "stem_matches": true,
-     "action": "resize this line so it fits naturally"
-    },
-    {
      "key": "attraction2",
      "ratio": 1.062,
      "kind": "wider_than_face",
@@ -3764,7 +3767,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0495,
-     "spread": 0.0259,
+     "spread": 0.023,
      "stem_err": 0.0592,
      "shape": 0.9469,
      "features": 0.333,
@@ -3776,7 +3779,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.853
+     "score": 1.8478
     },
     {
      "family": "Truculenta",
@@ -3787,7 +3790,7 @@
      "index": null,
      "cap_ratio": 0.708,
      "width_ratio": 1.1123,
-     "spread": 0.0326,
+     "spread": 0.0296,
      "stem_err": 0.1218,
      "shape": 1.4188,
      "features": 0.387,
@@ -3799,7 +3802,7 @@
       "wdth": 75,
       "source": "google"
      },
-     "score": 1.9282
+     "score": 1.9227
     },
     {
      "family": "Fjalla One",
@@ -3810,7 +3813,7 @@
      "index": null,
      "cap_ratio": 0.833984375,
      "width_ratio": 1.0135,
-     "spread": 0.0289,
+     "spread": 0.0254,
      "stem_err": 0.1218,
      "shape": 1.1665,
      "features": 0.378,
@@ -3822,7 +3825,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.982
+     "score": 1.9756
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -3833,7 +3836,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9558,
-     "spread": 0.0248,
+     "spread": 0.0216,
      "stem_err": 0.0592,
      "shape": 1.4732,
      "features": 0.441,
@@ -3845,7 +3848,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0083
+     "score": 2.0026
     },
     {
      "family": "Mouse Memoirs",
@@ -3856,7 +3859,7 @@
      "index": null,
      "cap_ratio": 0.701171875,
      "width_ratio": 1.177,
-     "spread": 0.0358,
+     "spread": 0.0328,
      "stem_err": 0.1218,
      "shape": 1.3801,
      "features": 0.579,
@@ -3868,7 +3871,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0394
+     "score": 2.034
     },
     {
      "family": "Special Gothic Condensed One",
@@ -3879,7 +3882,7 @@
      "index": null,
      "cap_ratio": 0.71,
      "width_ratio": 0.966,
-     "spread": 0.0232,
+     "spread": 0.0211,
      "stem_err": 0.0592,
      "shape": 1.5329,
      "features": 0.464,
@@ -3891,7 +3894,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0547
+     "score": 2.0509
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -3902,7 +3905,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9832,
-     "spread": 0.0252,
+     "spread": 0.0219,
      "stem_err": 0.1844,
      "shape": 1.49,
      "features": 0.485,
@@ -3914,7 +3917,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.1852
+     "score": 2.1794
     },
     {
      "family": "Staatliches",
@@ -3925,7 +3928,7 @@
      "index": null,
      "cap_ratio": 0.696,
      "width_ratio": 0.9286,
-     "spread": 0.0241,
+     "spread": 0.0218,
      "stem_err": 0.0031,
      "shape": 1.6294,
      "features": 0.525,
@@ -3937,7 +3940,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.197
+     "score": 2.1928
     },
     {
      "family": "Sofia Sans Extra Condensed",
@@ -3948,7 +3951,7 @@
      "index": null,
      "cap_ratio": 0.655,
      "width_ratio": 0.9993,
-     "spread": 0.0244,
+     "spread": 0.0218,
      "stem_err": 0.1844,
      "shape": 2.2294,
      "features": 2.993,
@@ -3960,7 +3963,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 4.4346
+     "score": 4.4299
     },
     {
      "family": "Zen Loop",
@@ -3971,7 +3974,7 @@
      "index": null,
      "cap_ratio": 0.69,
      "width_ratio": 0.9993,
-     "spread": 0.0201,
+     "spread": 0.0196,
      "stem_err": 0.5594,
      "shape": 3.8145,
      "features": 4.912,
@@ -3983,7 +3986,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 12.1519
+     "score": 12.1511
     },
     {
      "family": "Oswald",
@@ -3994,7 +3997,7 @@
      "index": null,
      "cap_ratio": 0.81,
      "width_ratio": 1.0012,
-     "spread": 0.0267,
+     "spread": 0.0243,
      "stem_err": 0.3093,
      "shape": 1.9537,
      "features": 0.495,
@@ -4006,7 +4009,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 4.1805
+     "score": 4.176
     },
     {
      "family": "Handjet",
@@ -4017,7 +4020,7 @@
      "index": null,
      "cap_ratio": 0.6764705882352942,
      "width_ratio": 1.0014,
-     "spread": 0.0333,
+     "spread": 0.0308,
      "stem_err": 0.0031,
      "shape": 2.0757,
      "features": 0.434,
@@ -4029,7 +4032,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.7049
+     "score": 5.7006
     }
    ]
   }
@@ -4102,6 +4105,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }

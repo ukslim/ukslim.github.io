@@ -88,7 +88,7 @@
   }
  ],
  "median_texture": 0.36,
- "alignment": "ok; 15 line(s) assigned by hand",
+ "alignment": "ok; 15 line(s) assigned by hand; not printed: date ','",
  "alignment_cost": 0.132,
  "lines": [
   {
@@ -3000,12 +3000,17 @@
   },
   {
    "key": "date",
-   "text": "Saturday 6th September, 12 noon \u2013 5pm",
+   "text": "Saturday 6th September 12 noon \u2013 5pm",
    "bands": [
     2,
     3
    ],
-   "assigned_by": "hand"
+   "assigned_by": "hand",
+   "parts": [
+    "Saturday 6th September",
+    "12 noon \u2013 5pm"
+   ],
+   "dropped": ","
   },
   {
    "key": "venue",
@@ -3312,7 +3317,7 @@
    "distortions": [
     {
      "key": "date",
-     "ratio": 0.868,
+     "ratio": 0.877,
      "kind": "squeezed_to_fit",
      "stem_matches": true,
      "action": "resize this line so it fits naturally"
@@ -3342,7 +3347,7 @@
      "index": null,
      "cap_ratio": 0.7109375,
      "width_ratio": 1.0051,
-     "spread": 0.0468,
+     "spread": 0.0456,
      "stem_err": 0.0197,
      "shape": 1.0899,
      "features": 0.667,
@@ -3354,7 +3359,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.799
+     "score": 1.7968
     },
     {
      "family": "Yantramanav",
@@ -3365,7 +3370,7 @@
      "index": null,
      "cap_ratio": 0.6396484375,
      "width_ratio": 1.0052,
-     "spread": 0.0492,
+     "spread": 0.048,
      "stem_err": 0.0197,
      "shape": 1.1489,
      "features": 0.667,
@@ -3377,7 +3382,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.8398
+     "score": 1.8377
     },
     {
      "family": "Spline Sans",
@@ -3388,7 +3393,7 @@
      "index": null,
      "cap_ratio": 0.727,
      "width_ratio": 1.0282,
-     "spread": 0.0637,
+     "spread": 0.0628,
      "stem_err": 0.0197,
      "shape": 1.1813,
      "features": 0.614,
@@ -3400,7 +3405,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.8799
+     "score": 1.8782
     },
     {
      "family": "Sarabun",
@@ -3411,7 +3416,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0035,
-     "spread": 0.0518,
+     "spread": 0.0504,
      "stem_err": 0.0404,
      "shape": 1.2823,
      "features": 0.556,
@@ -3423,7 +3428,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 1.9471
+     "score": 1.9446
     },
     {
      "family": "Pontano Sans",
@@ -3434,7 +3439,7 @@
      "index": null,
      "cap_ratio": 0.71484375,
      "width_ratio": 1.0073,
-     "spread": 0.0412,
+     "spread": 0.0395,
      "stem_err": 0.0095,
      "shape": 1.361,
      "features": 0.547,
@@ -3446,7 +3451,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0078
+     "score": 2.0049
     },
     {
      "family": "Asta Sans",
@@ -3457,7 +3462,7 @@
      "index": null,
      "cap_ratio": 0.707,
      "width_ratio": 0.9418,
-     "spread": 0.0353,
+     "spread": 0.0337,
      "stem_err": 0.0197,
      "shape": 1.2677,
      "features": 0.673,
@@ -3469,7 +3474,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0327
+     "score": 2.0298
     },
     {
      "family": "Akatab",
@@ -3480,7 +3485,7 @@
      "index": null,
      "cap_ratio": 0.67578125,
      "width_ratio": 0.9862,
-     "spread": 0.0528,
+     "spread": 0.0514,
      "stem_err": 0.0131,
      "shape": 1.3741,
      "features": 0.66,
@@ -3492,7 +3497,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0456
+     "score": 2.043
     },
     {
      "family": "Tirra",
@@ -3503,7 +3508,7 @@
      "index": null,
      "cap_ratio": 0.67578125,
      "width_ratio": 0.9862,
-     "spread": 0.0528,
+     "spread": 0.0514,
      "stem_err": 0.0131,
      "shape": 1.3741,
      "features": 0.66,
@@ -3515,7 +3520,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 2.0456
+     "score": 2.043
     },
     {
      "family": "Barlow",
@@ -3526,7 +3531,7 @@
      "index": null,
      "cap_ratio": 0.7,
      "width_ratio": 1.0,
-     "spread": 0.0423,
+     "spread": 0.0415,
      "stem_err": 0.2314,
      "shape": 2.2138,
      "features": 2.784,
@@ -3538,7 +3543,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.1353
+     "score": 5.134
     },
     {
      "family": "Winky Rough",
@@ -3549,7 +3554,7 @@
      "index": null,
      "cap_ratio": 0.675,
      "width_ratio": 1.0001,
-     "spread": 0.0534,
+     "spread": 0.0517,
      "stem_err": 0.2204,
      "shape": 2.5623,
      "features": 1.007,
@@ -3561,7 +3566,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 5.1337
+     "score": 5.1306
     },
     {
      "family": "Arapey",
@@ -3572,7 +3577,7 @@
      "index": null,
      "cap_ratio": 0.63,
      "width_ratio": 1.0001,
-     "spread": 0.048,
+     "spread": 0.0471,
      "stem_err": 0.1997,
      "shape": 2.549,
      "features": 3.946,
@@ -3584,7 +3589,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 8.2976
+     "score": 8.2961
     },
     {
      "family": "Epunda Sans",
@@ -3595,7 +3600,7 @@
      "index": null,
      "cap_ratio": 0.667,
      "width_ratio": 0.9999,
-     "spread": 0.0538,
+     "spread": 0.052,
      "stem_err": 0.2805,
      "shape": 2.1531,
      "features": 0.996,
@@ -3607,7 +3612,7 @@
       "wdth": null,
       "source": "google"
      },
-     "score": 3.5945
+     "score": 3.5912
     }
    ]
   },
@@ -3986,6 +3991,7 @@
   "track": [],
   "fill": [],
   "shadow": [],
-  "fit": []
+  "fit": [],
+  "text": []
  }
 }
