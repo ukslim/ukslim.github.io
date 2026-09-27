@@ -4068,6 +4068,8 @@
     "contrast": 0.8,
     "slant": 0.0,
     "square": null,
+    "corner": 0.431,
+    "bend": 0.215,
     "cap": 124.0
    },
    "confidence": "low",
@@ -4374,6 +4376,8 @@
     "contrast": 0.786,
     "slant": 0.0,
     "square": null,
+    "corner": null,
+    "bend": null,
     "cap": 38.0
    },
    "confidence": "low",
@@ -4680,6 +4684,8 @@
     "contrast": 0.792,
     "slant": 0.0,
     "square": 0.8,
+    "corner": 0.854,
+    "bend": null,
     "cap": 28.5
    },
    "confidence": "low",
@@ -5015,6 +5021,8 @@
     "contrast": null,
     "slant": null,
     "square": null,
+    "corner": null,
+    "bend": null,
     "cap": 29.0
    },
    "confidence": "low",

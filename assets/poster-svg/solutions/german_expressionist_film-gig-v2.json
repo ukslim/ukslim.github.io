@@ -2194,6 +2194,8 @@
     "contrast": 0.8,
     "slant": 0.0,
     "square": null,
+    "corner": null,
+    "bend": null,
     "cap": 69.0
    },
    "confidence": "low",
@@ -2501,6 +2503,8 @@
     "contrast": 0.954,
     "slant": 0.0,
     "square": null,
+    "corner": 0.333,
+    "bend": null,
     "cap": 44.0
    },
    "confidence": "low",
