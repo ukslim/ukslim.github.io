@@ -1,0 +1,3809 @@
+{
+ "image": "/Users/john.hartnup/jhgit/ukslim.github.io/assets/poster-examples/brutalist_graphic-fete-v2.webp",
+ "event": "fete",
+ "size": [
+  1024,
+  1536
+ ],
+ "paper": "#030303",
+ "assign_points": [
+  "attraction0=779,990",
+  "attraction2=822,1080",
+  "attraction3=835,1112",
+  "attraction4=816,1144;776,1168",
+  "attraction5=774,1200",
+  "attraction6=813,1233;788,1257",
+  "footer0=276,1375",
+  "beneficiary=400,1432",
+  "footer1=476,1487"
+ ],
+ "frames": [],
+ "art": [
+  {
+   "keys": [
+    "title",
+    "attractions_label"
+   ],
+   "box": [
+    0,
+    0,
+    1024,
+    978
+   ],
+   "why": "stretched condensed display lettering filling the page, cut by the orange band"
+  },
+  {
+   "keys": [
+    "date",
+    "venue"
+   ],
+   "box": [
+    30,
+    955,
+    630,
+    1330
+   ],
+   "why": "large distressed lettering, broken by the print texture"
+  },
+  {
+   "keys": [
+    "attraction1"
+   ],
+   "box": [
+    688,
+    1010,
+    1000,
+    1062
+   ],
+   "why": "its letters fuse into two long shapes the band finder cannot read"
+  },
+  {
+   "keys": [
+    "attraction7"
+   ],
+   "box": [
+    688,
+    1277,
+    1000,
+    1322
+   ],
+   "why": "its letters fuse into two long shapes the band finder cannot read"
+  }
+ ],
+ "copy": [
+  {
+   "key": "title",
+   "text": "Brindlewick Village F\u00eate"
+  },
+  {
+   "key": "date",
+   "text": "Saturday 6th September, 12 noon \u2013 5pm"
+  },
+  {
+   "key": "venue",
+   "text": "Brindlewick Cricket Club, Hawthorn Lane, Brindlewick"
+  },
+  {
+   "key": "beneficiary",
+   "text": "In aid of St. Peter's Church Restoration Fund"
+  },
+  {
+   "key": "attractions_label",
+   "text": "Attractions:"
+  },
+  {
+   "key": "attraction0",
+   "text": "Grand tombola"
+  },
+  {
+   "key": "attraction1",
+   "text": "Homemade cakes, jams and preserves"
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ and refreshments"
+  },
+  {
+   "key": "attraction3",
+   "text": "Plant and produce stall"
+  },
+  {
+   "key": "attraction4",
+   "text": "Children's games and bouncy castle"
+  },
+  {
+   "key": "attraction5",
+   "text": "Ferret racing"
+  },
+  {
+   "key": "attraction6",
+   "text": "Live folk music from The Muddy Boots"
+  },
+  {
+   "key": "attraction7",
+   "text": "Local craft and maker stalls"
+  },
+  {
+   "key": "footer0",
+   "text": "Free entry. All welcome."
+  },
+  {
+   "key": "footer1",
+   "text": "Organised by Brindlewick Village Community Association."
+  }
+ ],
+ "median_texture": 10.48,
+ "alignment": "ok; 9 line(s) assigned by hand",
+ "alignment_cost": 0.191,
+ "lines": [
+  {
+   "colour": "dark",
+   "rgb": "#0C0906",
+   "ground": "#EBE6DE",
+   "is_ground": false,
+   "y0": 982,
+   "y1": 999,
+   "baseline": 1000,
+   "cap_top": 982,
+   "cap": 18,
+   "x_height": 17,
+   "lower_frac": 0.0,
+   "left": 691,
+   "right": 868,
+   "width": 178,
+   "n_runs": 12,
+   "density": 0.5256,
+   "texture": 8.82,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     691,
+     702,
+     982,
+     999
+    ],
+    [
+     706,
+     717,
+     983,
+     999
+    ],
+    [
+     720,
+     732,
+     983,
+     999
+    ],
+    [
+     735,
+     746,
+     983,
+     999
+    ],
+    [
+     750,
+     761,
+     983,
+     999
+    ],
+    [
+     770,
+     782,
+     983,
+     999
+    ],
+    [
+     783,
+     795,
+     982,
+     999
+    ],
+    [
+     798,
+     813,
+     983,
+     999
+    ],
+    [
+     816,
+     827,
+     983,
+     999
+    ],
+    [
+     830,
+     842,
+     982,
+     999
+    ],
+    [
+     845,
+     854,
+     983,
+     999
+    ],
+    [
+     856,
+     868,
+     983,
+     999
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#EBE7E0",
+   "ground": null,
+   "is_ground": true,
+   "y0": 998,
+   "y1": 1004,
+   "baseline": 1005,
+   "cap_top": 998,
+   "cap": 7,
+   "x_height": 5,
+   "lower_frac": 0.5,
+   "left": 896,
+   "right": 942,
+   "width": 47,
+   "n_runs": 2,
+   "density": 0.2553,
+   "texture": 3.5,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": null,
+   "runs": [
+    [
+     896,
+     909,
+     1000,
+     1004
+    ],
+    [
+     920,
+     942,
+     998,
+     1004
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0E0C08",
+   "ground": "#E9E5DE",
+   "is_ground": false,
+   "y0": 1071,
+   "y1": 1090,
+   "baseline": 1089,
+   "cap_top": 1071,
+   "cap": 18,
+   "x_height": 18,
+   "lower_frac": 0.0,
+   "left": 691,
+   "right": 954,
+   "width": 264,
+   "n_runs": 18,
+   "density": 0.4996,
+   "texture": 25.94,
+   "slope": -0.11,
+   "warp": 0.024,
+   "stem_ratio": 0.2,
+   "runs": [
+    [
+     691,
+     702,
+     1071,
+     1088
+    ],
+    [
+     705,
+     717,
+     1071,
+     1088
+    ],
+    [
+     719,
+     732,
+     1071,
+     1090
+    ],
+    [
+     741,
+     754,
+     1071,
+     1088
+    ],
+    [
+     756,
+     768,
+     1071,
+     1088
+    ],
+    [
+     771,
+     782,
+     1071,
+     1088
+    ],
+    [
+     793,
+     804,
+     1071,
+     1088
+    ],
+    [
+     807,
+     816,
+     1071,
+     1088
+    ],
+    [
+     819,
+     829,
+     1071,
+     1088
+    ],
+    [
+     832,
+     842,
+     1071,
+     1088
+    ],
+    [
+     846,
+     855,
+     1071,
+     1088
+    ],
+    [
+     858,
+     869,
+     1071,
+     1088
+    ],
+    [
+     872,
+     883,
+     1071,
+     1088
+    ],
+    [
+     886,
+     901,
+     1071,
+     1088
+    ],
+    [
+     904,
+     914,
+     1071,
+     1088
+    ],
+    [
+     917,
+     928,
+     1071,
+     1088
+    ],
+    [
+     931,
+     942,
+     1071,
+     1088
+    ],
+    [
+     943,
+     954,
+     1071,
+     1088
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0D0A06",
+   "ground": "#EAE4DD",
+   "is_ground": false,
+   "y0": 1103,
+   "y1": 1121,
+   "baseline": 1121,
+   "cap_top": 1103,
+   "cap": 18,
+   "x_height": 17,
+   "lower_frac": 0.0,
+   "left": 691,
+   "right": 980,
+   "width": 290,
+   "n_runs": 20,
+   "density": 0.447,
+   "texture": 23.89,
+   "slope": 0.05,
+   "warp": 0.016,
+   "stem_ratio": 0.21052631578947367,
+   "runs": [
+    [
+     691,
+     702,
+     1104,
+     1120
+    ],
+    [
+     705,
+     714,
+     1104,
+     1120
+    ],
+    [
+     716,
+     728,
+     1104,
+     1120
+    ],
+    [
+     731,
+     742,
+     1104,
+     1120
+    ],
+    [
+     745,
+     756,
+     1104,
+     1120
+    ],
+    [
+     764,
+     777,
+     1104,
+     1120
+    ],
+    [
+     779,
+     791,
+     1104,
+     1120
+    ],
+    [
+     794,
+     806,
+     1104,
+     1120
+    ],
+    [
+     816,
+     827,
+     1104,
+     1120
+    ],
+    [
+     829,
+     840,
+     1104,
+     1120
+    ],
+    [
+     843,
+     855,
+     1103,
+     1120
+    ],
+    [
+     858,
+     869,
+     1104,
+     1120
+    ],
+    [
+     873,
+     883,
+     1104,
+     1120
+    ],
+    [
+     886,
+     898,
+     1103,
+     1121
+    ],
+    [
+     901,
+     911,
+     1104,
+     1120
+    ],
+    [
+     920,
+     930,
+     1103,
+     1121
+    ],
+    [
+     932,
+     943,
+     1104,
+     1120
+    ],
+    [
+     944,
+     956,
+     1103,
+     1120
+    ],
+    [
+     959,
+     968,
+     1104,
+     1120
+    ],
+    [
+     970,
+     980,
+     1104,
+     1120
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0E0B06",
+   "ground": null,
+   "is_ground": false,
+   "y0": 1136,
+   "y1": 1153,
+   "baseline": 1154,
+   "cap_top": 1136,
+   "cap": 18,
+   "x_height": 18,
+   "lower_frac": 0.067,
+   "left": 691,
+   "right": 941,
+   "width": 251,
+   "n_runs": 20,
+   "density": 0.4606,
+   "texture": 12.5,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     691,
+     702,
+     1136,
+     1153
+    ],
+    [
+     705,
+     716,
+     1136,
+     1153
+    ],
+    [
+     720,
+     723,
+     1150,
+     1153
+    ],
+    [
+     727,
+     736,
+     1150,
+     1153
+    ],
+    [
+     739,
+     750,
+     1148,
+     1153
+    ],
+    [
+     754,
+     758,
+     1137,
+     1153
+    ],
+    [
+     761,
+     765,
+     1146,
+     1153
+    ],
+    [
+     763,
+     764,
+     1141,
+     1144
+    ],
+    [
+     768,
+     778,
+     1136,
+     1153
+    ],
+    [
+     781,
+     792,
+     1136,
+     1153
+    ],
+    [
+     795,
+     797,
+     1136,
+     1142
+    ],
+    [
+     800,
+     811,
+     1136,
+     1153
+    ],
+    [
+     820,
+     832,
+     1136,
+     1153
+    ],
+    [
+     835,
+     847,
+     1136,
+     1153
+    ],
+    [
+     849,
+     864,
+     1136,
+     1153
+    ],
+    [
+     868,
+     877,
+     1136,
+     1153
+    ],
+    [
+     880,
+     891,
+     1136,
+     1153
+    ],
+    [
+     899,
+     912,
+     1136,
+     1153
+    ],
+    [
+     914,
+     926,
+     1136,
+     1153
+    ],
+    [
+     929,
+     941,
+     1136,
+     1153
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0A0704",
+   "ground": null,
+   "is_ground": false,
+   "y0": 1160,
+   "y1": 1177,
+   "baseline": 1178,
+   "cap_top": 1160,
+   "cap": 18,
+   "x_height": 18,
+   "lower_frac": 0.1,
+   "left": 691,
+   "right": 862,
+   "width": 172,
+   "n_runs": 14,
+   "density": 0.3802,
+   "texture": 18.69,
+   "slope": -0.09,
+   "warp": 0.016,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     691,
+     703,
+     1160,
+     1177
+    ],
+    [
+     705,
+     717,
+     1160,
+     1177
+    ],
+    [
+     730,
+     732,
+     1160,
+     1163
+    ],
+    [
+     736,
+     741,
+     1160,
+     1163
+    ],
+    [
+     745,
+     748,
+     1160,
+     1164
+    ],
+    [
+     751,
+     763,
+     1160,
+     1165
+    ],
+    [
+     752,
+     762,
+     1168,
+     1177
+    ],
+    [
+     765,
+     777,
+     1160,
+     1177
+    ],
+    [
+     786,
+     798,
+     1160,
+     1177
+    ],
+    [
+     800,
+     811,
+     1160,
+     1177
+    ],
+    [
+     814,
+     825,
+     1160,
+     1177
+    ],
+    [
+     827,
+     838,
+     1160,
+     1176
+    ],
+    [
+     840,
+     850,
+     1160,
+     1177
+    ],
+    [
+     852,
+     862,
+     1160,
+     1177
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0D0A06",
+   "ground": "#EAE5DE",
+   "is_ground": false,
+   "y0": 1192,
+   "y1": 1209,
+   "baseline": 1210,
+   "cap_top": 1192,
+   "cap": 18,
+   "x_height": 17,
+   "lower_frac": 0.0,
+   "left": 691,
+   "right": 857,
+   "width": 167,
+   "n_runs": 12,
+   "density": 0.52,
+   "texture": 26.67,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     691,
+     701,
+     1193,
+     1209
+    ],
+    [
+     704,
+     714,
+     1193,
+     1209
+    ],
+    [
+     717,
+     729,
+     1193,
+     1209
+    ],
+    [
+     732,
+     744,
+     1193,
+     1209
+    ],
+    [
+     747,
+     757,
+     1193,
+     1209
+    ],
+    [
+     759,
+     770,
+     1193,
+     1209
+    ],
+    [
+     780,
+     792,
+     1193,
+     1209
+    ],
+    [
+     794,
+     807,
+     1193,
+     1209
+    ],
+    [
+     809,
+     820,
+     1192,
+     1209
+    ],
+    [
+     823,
+     826,
+     1193,
+     1209
+    ],
+    [
+     830,
+     842,
+     1193,
+     1209
+    ],
+    [
+     845,
+     857,
+     1192,
+     1209
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0E0A07",
+   "ground": null,
+   "is_ground": false,
+   "y0": 1225,
+   "y1": 1242,
+   "baseline": 1243,
+   "cap_top": 1225,
+   "cap": 18,
+   "x_height": 18,
+   "lower_frac": 0.158,
+   "left": 691,
+   "right": 936,
+   "width": 246,
+   "n_runs": 19,
+   "density": 0.4587,
+   "texture": 10.48,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     691,
+     700,
+     1225,
+     1242
+    ],
+    [
+     703,
+     706,
+     1225,
+     1242
+    ],
+    [
+     709,
+     720,
+     1225,
+     1242
+    ],
+    [
+     724,
+     734,
+     1225,
+     1242
+    ],
+    [
+     744,
+     753,
+     1225,
+     1242
+    ],
+    [
+     756,
+     768,
+     1225,
+     1242
+    ],
+    [
+     771,
+     780,
+     1225,
+     1242
+    ],
+    [
+     783,
+     795,
+     1225,
+     1242
+    ],
+    [
+     805,
+     808,
+     1225,
+     1242
+    ],
+    [
+     809,
+     814,
+     1235,
+     1242
+    ],
+    [
+     817,
+     819,
+     1233,
+     1242
+    ],
+    [
+     823,
+     834,
+     1233,
+     1242
+    ],
+    [
+     837,
+     848,
+     1225,
+     1242
+    ],
+    [
+     851,
+     854,
+     1225,
+     1242
+    ],
+    [
+     857,
+     869,
+     1225,
+     1242
+    ],
+    [
+     879,
+     889,
+     1225,
+     1242
+    ],
+    [
+     891,
+     902,
+     1225,
+     1242
+    ],
+    [
+     905,
+     918,
+     1225,
+     1242
+    ],
+    [
+     920,
+     936,
+     1225,
+     1242
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "dark",
+   "rgb": "#0F0B08",
+   "ground": "#EAE5DE",
+   "is_ground": false,
+   "y0": 1249,
+   "y1": 1266,
+   "baseline": 1267,
+   "cap_top": 1249,
+   "cap": 18,
+   "x_height": 18,
+   "lower_frac": 0.0,
+   "left": 690,
+   "right": 886,
+   "width": 197,
+   "n_runs": 13,
+   "density": 0.5178,
+   "texture": 16.55,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.2222222222222222,
+   "runs": [
+    [
+     690,
+     701,
+     1249,
+     1266
+    ],
+    [
+     704,
+     715,
+     1249,
+     1266
+    ],
+    [
+     718,
+     728,
+     1249,
+     1266
+    ],
+    [
+     738,
+     753,
+     1249,
+     1266
+    ],
+    [
+     756,
+     767,
+     1249,
+     1266
+    ],
+    [
+     771,
+     782,
+     1249,
+     1266
+    ],
+    [
+     785,
+     797,
+     1249,
+     1266
+    ],
+    [
+     798,
+     810,
+     1249,
+     1266
+    ],
+    [
+     820,
+     831,
+     1249,
+     1266
+    ],
+    [
+     834,
+     846,
+     1249,
+     1266
+    ],
+    [
+     848,
+     860,
+     1249,
+     1266
+    ],
+    [
+     862,
+     873,
+     1249,
+     1266
+    ],
+    [
+     875,
+     886,
+     1249,
+     1266
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#EBE8DE",
+   "ground": "#050503",
+   "is_ground": false,
+   "y0": 1336,
+   "y1": 1343,
+   "baseline": 1341,
+   "cap_top": 1336,
+   "cap": 5,
+   "x_height": 5,
+   "lower_frac": 0.5,
+   "left": 971,
+   "right": 983,
+   "width": 13,
+   "n_runs": 2,
+   "density": 0.1827,
+   "texture": 6.0,
+   "slope": 0.0,
+   "warp": 0.0,
+   "stem_ratio": null,
+   "runs": [
+    [
+     971,
+     974,
+     1336,
+     1340
+    ],
+    [
+     979,
+     983,
+     1339,
+     1343
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#E8E4DD",
+   "ground": "#030302",
+   "is_ground": false,
+   "y0": 1361,
+   "y1": 1389,
+   "baseline": 1389,
+   "cap_top": 1361,
+   "cap": 28,
+   "x_height": 27,
+   "lower_frac": 0.0,
+   "left": 46,
+   "right": 506,
+   "width": 461,
+   "n_runs": 21,
+   "density": 0.4913,
+   "texture": 1.5,
+   "slope": 0.02,
+   "warp": 0.007,
+   "stem_ratio": 0.2413793103448276,
+   "runs": [
+    [
+     46,
+     62,
+     1362,
+     1388
+    ],
+    [
+     66,
+     84,
+     1362,
+     1388
+    ],
+    [
+     88,
+     104,
+     1362,
+     1388
+    ],
+    [
+     108,
+     124,
+     1362,
+     1388
+    ],
+    [
+     139,
+     155,
+     1362,
+     1388
+    ],
+    [
+     159,
+     177,
+     1362,
+     1388
+    ],
+    [
+     181,
+     198,
+     1362,
+     1388
+    ],
+    [
+     202,
+     221,
+     1362,
+     1388
+    ],
+    [
+     222,
+     242,
+     1362,
+     1388
+    ],
+    [
+     241,
+     247,
+     1383,
+     1388
+    ],
+    [
+     260,
+     281,
+     1362,
+     1388
+    ],
+    [
+     285,
+     300,
+     1362,
+     1388
+    ],
+    [
+     304,
+     320,
+     1362,
+     1388
+    ],
+    [
+     334,
+     364,
+     1362,
+     1388
+    ],
+    [
+     368,
+     384,
+     1361,
+     1388
+    ],
+    [
+     388,
+     403,
+     1362,
+     1388
+    ],
+    [
+     406,
+     424,
+     1361,
+     1389
+    ],
+    [
+     428,
+     447,
+     1361,
+     1388
+    ],
+    [
+     451,
+     476,
+     1362,
+     1388
+    ],
+    [
+     481,
+     497,
+     1362,
+     1388
+    ],
+    [
+     501,
+     506,
+     1383,
+     1388
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#E5E1DA",
+   "ground": "#030302",
+   "is_ground": false,
+   "y0": 1420,
+   "y1": 1444,
+   "baseline": 1445,
+   "cap_top": 1420,
+   "cap": 25,
+   "x_height": 25,
+   "lower_frac": 0.0,
+   "left": 46,
+   "right": 754,
+   "width": 709,
+   "n_runs": 38,
+   "density": 0.5022,
+   "texture": 2.99,
+   "slope": -0.0,
+   "warp": 0.0,
+   "stem_ratio": 0.24,
+   "runs": [
+    [
+     46,
+     51,
+     1420,
+     1444
+    ],
+    [
+     55,
+     71,
+     1420,
+     1444
+    ],
+    [
+     86,
+     103,
+     1420,
+     1444
+    ],
+    [
+     107,
+     111,
+     1420,
+     1444
+    ],
+    [
+     116,
+     132,
+     1420,
+     1444
+    ],
+    [
+     149,
+     165,
+     1420,
+     1444
+    ],
+    [
+     169,
+     183,
+     1420,
+     1444
+    ],
+    [
+     197,
+     212,
+     1420,
+     1444
+    ],
+    [
+     215,
+     230,
+     1420,
+     1444
+    ],
+    [
+     231,
+     235,
+     1439,
+     1444
+    ],
+    [
+     250,
+     264,
+     1420,
+     1444
+    ],
+    [
+     268,
+     281,
+     1420,
+     1444
+    ],
+    [
+     284,
+     299,
+     1420,
+     1444
+    ],
+    [
+     302,
+     315,
+     1420,
+     1444
+    ],
+    [
+     320,
+     335,
+     1420,
+     1444
+    ],
+    [
+     339,
+     343,
+     1420,
+     1430
+    ],
+    [
+     347,
+     362,
+     1420,
+     1444
+    ],
+    [
+     376,
+     391,
+     1420,
+     1444
+    ],
+    [
+     395,
+     410,
+     1420,
+     1444
+    ],
+    [
+     414,
+     428,
+     1420,
+     1444
+    ],
+    [
+     432,
+     447,
+     1420,
+     1444
+    ],
+    [
+     450,
+     465,
+     1420,
+     1444
+    ],
+    [
+     469,
+     483,
+     1420,
+     1444
+    ],
+    [
+     497,
+     512,
+     1420,
+     1444
+    ],
+    [
+     515,
+     528,
+     1420,
+     1444
+    ],
+    [
+     531,
+     545,
+     1420,
+     1444
+    ],
+    [
+     548,
+     562,
+     1420,
+     1444
+    ],
+    [
+     565,
+     580,
+     1420,
+     1444
+    ],
+    [
+     584,
+     599,
+     1420,
+     1444
+    ],
+    [
+     602,
+     618,
+     1420,
+     1444
+    ],
+    [
+     618,
+     632,
+     1420,
+     1444
+    ],
+    [
+     635,
+     640,
+     1420,
+     1444
+    ],
+    [
+     644,
+     659,
+     1420,
+     1444
+    ],
+    [
+     662,
+     677,
+     1420,
+     1444
+    ],
+    [
+     690,
+     701,
+     1420,
+     1444
+    ],
+    [
+     705,
+     718,
+     1420,
+     1444
+    ],
+    [
+     722,
+     736,
+     1420,
+     1444
+    ],
+    [
+     740,
+     754,
+     1420,
+     1444
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  },
+  {
+   "colour": "light",
+   "rgb": "#E5E2DC",
+   "ground": "#030302",
+   "is_ground": false,
+   "y0": 1475,
+   "y1": 1500,
+   "baseline": 1501,
+   "cap_top": 1475,
+   "cap": 26,
+   "x_height": 26,
+   "lower_frac": 0.0,
+   "left": 45,
+   "right": 908,
+   "width": 864,
+   "n_runs": 50,
+   "density": 0.5223,
+   "texture": 1.53,
+   "slope": -0.01,
+   "warp": 0.005,
+   "stem_ratio": 0.19230769230769232,
+   "runs": [
+    [
+     45,
+     60,
+     1475,
+     1500
+    ],
+    [
+     64,
+     79,
+     1476,
+     1500
+    ],
+    [
+     83,
+     97,
+     1475,
+     1500
+    ],
+    [
+     100,
+     117,
+     1476,
+     1500
+    ],
+    [
+     120,
+     135,
+     1476,
+     1500
+    ],
+    [
+     139,
+     144,
+     1476,
+     1500
+    ],
+    [
+     148,
+     162,
+     1475,
+     1500
+    ],
+    [
+     166,
+     178,
+     1476,
+     1500
+    ],
+    [
+     182,
+     197,
+     1476,
+     1500
+    ],
+    [
+     212,
+     226,
+     1476,
+     1500
+    ],
+    [
+     228,
+     244,
+     1476,
+     1500
+    ],
+    [
+     257,
+     271,
+     1476,
+     1500
+    ],
+    [
+     275,
+     289,
+     1476,
+     1500
+    ],
+    [
+     293,
+     298,
+     1476,
+     1500
+    ],
+    [
+     302,
+     317,
+     1476,
+     1500
+    ],
+    [
+     322,
+     336,
+     1476,
+     1500
+    ],
+    [
+     341,
+     353,
+     1476,
+     1500
+    ],
+    [
+     357,
+     369,
+     1475,
+     1500
+    ],
+    [
+     372,
+     395,
+     1476,
+     1500
+    ],
+    [
+     399,
+     403,
+     1476,
+     1500
+    ],
+    [
+     407,
+     422,
+     1475,
+     1500
+    ],
+    [
+     426,
+     441,
+     1476,
+     1500
+    ],
+    [
+     453,
+     468,
+     1475,
+     1500
+    ],
+    [
+     472,
+     476,
+     1475,
+     1500
+    ],
+    [
+     481,
+     493,
+     1476,
+     1500
+    ],
+    [
+     497,
+     508,
+     1476,
+     1500
+    ],
+    [
+     511,
+     527,
+     1476,
+     1500
+    ],
+    [
+     529,
+     543,
+     1475,
+     1500
+    ],
+    [
+     548,
+     560,
+     1475,
+     1500
+    ],
+    [
+     572,
+     586,
+     1475,
+     1500
+    ],
+    [
+     590,
+     604,
+     1475,
+     1500
+    ],
+    [
+     608,
+     627,
+     1475,
+     1500
+    ],
+    [
+     631,
+     650,
+     1475,
+     1500
+    ],
+    [
+     654,
+     667,
+     1475,
+     1500
+    ],
+    [
+     671,
+     685,
+     1475,
+     1500
+    ],
+    [
+     689,
+     693,
+     1475,
+     1500
+    ],
+    [
+     696,
+     709,
+     1475,
+     1500
+    ],
+    [
+     712,
+     726,
+     1475,
+     1500
+    ],
+    [
+     736,
+     751,
+     1475,
+     1500
+    ],
+    [
+     754,
+     767,
+     1475,
+     1500
+    ],
+    [
+     770,
+     783,
+     1475,
+     1500
+    ],
+    [
+     786,
+     800,
+     1475,
+     1500
+    ],
+    [
+     803,
+     817,
+     1475,
+     1500
+    ],
+    [
+     821,
+     825,
+     1475,
+     1500
+    ],
+    [
+     828,
+     843,
+     1475,
+     1500
+    ],
+    [
+     844,
+     857,
+     1475,
+     1500
+    ],
+    [
+     860,
+     864,
+     1475,
+     1500
+    ],
+    [
+     868,
+     882,
+     1475,
+     1500
+    ],
+    [
+     886,
+     900,
+     1475,
+     1500
+    ],
+    [
+     904,
+     908,
+     1495,
+     1499
+    ]
+   ],
+   "marker": null,
+   "track": 0.0
+  }
+ ],
+ "assigned": [
+  {
+   "key": "attraction0",
+   "text": "GRAND TOMBOLA",
+   "bands": [
+    0
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "attraction2",
+   "text": "BBQ AND REFRESHMENTS",
+   "bands": [
+    2
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "attraction3",
+   "text": "PLANT AND PRODUCE STALL",
+   "bands": [
+    3
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "attraction4",
+   "text": "CHILDREN'S GAMES AND BOUNCY CASTLE",
+   "bands": [
+    4,
+    5
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "attraction5",
+   "text": "FERRET RACING",
+   "bands": [
+    6
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "attraction6",
+   "text": "LIVE FOLK MUSIC FROM THE MUDDY BOOTS",
+   "bands": [
+    7,
+    8
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "footer0",
+   "text": "FREE ENTRY. ALL WELCOME.",
+   "bands": [
+    10
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "beneficiary",
+   "text": "IN AID OF ST. PETER'S CHURCH RESTORATION FUND",
+   "bands": [
+    11
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  },
+  {
+   "key": "footer1",
+   "text": "ORGANISED BY BRINDLEWICK VILLAGE COMMUNITY ASSOCIATION.",
+   "bands": [
+    12
+   ],
+   "assigned_by": "hand",
+   "upper": true
+  }
+ ],
+ "artwork": [
+  {
+   "colour": "dark",
+   "kind": "solid",
+   "px": 537,
+   "box": [
+    739,
+    1005,
+    997,
+    1007
+   ],
+   "fill": 0.691,
+   "rgb": "#100A07"
+  },
+  {
+   "colour": "dark",
+   "kind": "solid",
+   "px": 521,
+   "box": [
+    727,
+    1183,
+    997,
+    1185
+   ],
+   "fill": 0.641,
+   "rgb": "#1D1810"
+  },
+  {
+   "colour": "dark",
+   "kind": "solid",
+   "px": 681,
+   "box": [
+    657,
+    1216,
+    997,
+    1217
+   ],
+   "fill": 0.999,
+   "rgb": "#35312B"
+  },
+  {
+   "colour": "dark",
+   "kind": "solid",
+   "px": 682,
+   "box": [
+    657,
+    1273,
+    997,
+    1274
+   ],
+   "fill": 1.0,
+   "rgb": "#16110B"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 3609,
+   "box": [
+    44,
+    1401,
+    953,
+    1405
+   ],
+   "fill": 0.793,
+   "rgb": "#E9E5DC"
+  },
+  {
+   "colour": "light",
+   "kind": "solid",
+   "px": 3525,
+   "box": [
+    44,
+    1457,
+    952,
+    1461
+   ],
+   "fill": 0.776,
+   "rgb": "#EBE7DE"
+  },
+  {
+   "colour": "red",
+   "kind": "solid",
+   "px": 67153,
+   "box": [
+    12,
+    799,
+    1013,
+    955
+   ],
+   "fill": 0.427,
+   "rgb": "#F45104"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 7668,
+   "box": [
+    744,
+    814,
+    858,
+    889
+   ],
+   "fill": 0.877,
+   "rgb": "#F35004"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 24335,
+   "box": [
+    320,
+    828,
+    679,
+    929
+   ],
+   "fill": 0.663,
+   "rgb": "#F65204"
+  },
+  {
+   "colour": "yellow",
+   "kind": "solid",
+   "px": 7391,
+   "box": [
+    75,
+    878,
+    193,
+    952
+   ],
+   "fill": 0.828,
+   "rgb": "#F45104"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1465,
+   "box": [
+    721,
+    52,
+    741,
+    153
+   ],
+   "fill": 0.684,
+   "rgb": "#040303"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 5159,
+   "box": [
+    193,
+    54,
+    269,
+    323
+   ],
+   "fill": 0.248,
+   "rgb": "#060505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1679,
+   "box": [
+    327,
+    54,
+    359,
+    197
+   ],
+   "fill": 0.353,
+   "rgb": "#060605"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1149,
+   "box": [
+    104,
+    57,
+    128,
+    167
+   ],
+   "fill": 0.414,
+   "rgb": "#070603"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 951,
+   "box": [
+    865,
+    57,
+    876,
+    164
+   ],
+   "fill": 0.734,
+   "rgb": "#060606"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 474,
+   "box": [
+    304,
+    58,
+    319,
+    118
+   ],
+   "fill": 0.486,
+   "rgb": "#090605"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 987,
+   "box": [
+    440,
+    58,
+    452,
+    165
+   ],
+   "fill": 0.703,
+   "rgb": "#080808"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 634,
+   "box": [
+    630,
+    58,
+    644,
+    139
+   ],
+   "fill": 0.515,
+   "rgb": "#060505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 650,
+   "box": [
+    684,
+    58,
+    699,
+    140
+   ],
+   "fill": 0.489,
+   "rgb": "#070505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 2119,
+   "box": [
+    765,
+    58,
+    836,
+    200
+   ],
+   "fill": 0.206,
+   "rgb": "#060503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 459,
+   "box": [
+    73,
+    63,
+    87,
+    96
+   ],
+   "fill": 0.9,
+   "rgb": "#090605"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 593,
+   "box": [
+    161,
+    63,
+    176,
+    105
+   ],
+   "fill": 0.862,
+   "rgb": "#060503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1461,
+   "box": [
+    392,
+    65,
+    408,
+    158
+   ],
+   "fill": 0.914,
+   "rgb": "#050403"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 557,
+   "box": [
+    657,
+    94,
+    672,
+    162
+   ],
+   "fill": 0.505,
+   "rgb": "#060605"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 475,
+   "box": [
+    291,
+    105,
+    306,
+    163
+   ],
+   "fill": 0.503,
+   "rgb": "#070606"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 593,
+   "box": [
+    73,
+    120,
+    89,
+    160
+   ],
+   "fill": 0.851,
+   "rgb": "#070605"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 436,
+   "box": [
+    161,
+    130,
+    174,
+    164
+   ],
+   "fill": 0.89,
+   "rgb": "#070503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 711,
+   "box": [
+    606,
+    178,
+    667,
+    196
+   ],
+   "fill": 0.604,
+   "rgb": "#060705"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 505,
+   "box": [
+    904,
+    181,
+    960,
+    196
+   ],
+   "fill": 0.554,
+   "rgb": "#050505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 408,
+   "box": [
+    62,
+    185,
+    96,
+    197
+   ],
+   "fill": 0.897,
+   "rgb": "#060504"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 443,
+   "box": [
+    452,
+    185,
+    490,
+    196
+   ],
+   "fill": 0.947,
+   "rgb": "#070706"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 2791,
+   "box": [
+    293,
+    206,
+    305,
+    464
+   ],
+   "fill": 0.829,
+   "rgb": "#060503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 2393,
+   "box": [
+    862,
+    225,
+    881,
+    462
+   ],
+   "fill": 0.503,
+   "rgb": "#060503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 565,
+   "box": [
+    785,
+    244,
+    804,
+    278
+   ],
+   "fill": 0.807,
+   "rgb": "#050504"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1301,
+   "box": [
+    626,
+    263,
+    646,
+    382
+   ],
+   "fill": 0.516,
+   "rgb": "#070504"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1370,
+   "box": [
+    123,
+    265,
+    143,
+    398
+   ],
+   "fill": 0.487,
+   "rgb": "#060503"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 2304,
+   "box": [
+    699,
+    285,
+    731,
+    462
+   ],
+   "fill": 0.392,
+   "rgb": "#060504"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1837,
+   "box": [
+    786,
+    306,
+    807,
+    435
+   ],
+   "fill": 0.642,
+   "rgb": "#050403"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1413,
+   "box": [
+    358,
+    489,
+    506,
+    510
+   ],
+   "fill": 0.431,
+   "rgb": "#0A0808"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 662,
+   "box": [
+    788,
+    526,
+    799,
+    594
+   ],
+   "fill": 0.8,
+   "rgb": "#070705"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 580,
+   "box": [
+    548,
+    527,
+    560,
+    574
+   ],
+   "fill": 0.929,
+   "rgb": "#060705"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 745,
+   "box": [
+    310,
+    533,
+    325,
+    587
+   ],
+   "fill": 0.847,
+   "rgb": "#050505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 1737,
+   "box": [
+    633,
+    950,
+    638,
+    1258
+   ],
+   "fill": 0.937,
+   "rgb": "#0E0A0C"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 735,
+   "box": [
+    366,
+    1057,
+    461,
+    1065
+   ],
+   "fill": 0.851,
+   "rgb": "#050401"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 611,
+   "box": [
+    391,
+    1114,
+    437,
+    1126
+   ],
+   "fill": 1.0,
+   "rgb": "#060505"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 496,
+   "box": [
+    379,
+    1168,
+    453,
+    1176
+   ],
+   "fill": 0.735,
+   "rgb": "#050401"
+  },
+  {
+   "colour": "dark",
+   "kind": "inside an excluded box",
+   "px": 432,
+   "box": [
+    43,
+    1268,
+    52,
+    1313
+   ],
+   "fill": 0.939,
+   "rgb": "#060506"
+  },
+  {
+   "colour": "light",
+   "kind": "spans the page",
+   "px": 197914,
+   "box": [
+    0,
+    0,
+    1023,
+    1535
+   ],
+   "fill": 0.126,
+   "rgb": "#ECE7DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 8463,
+   "box": [
+    785,
+    35,
+    866,
+    186
+   ],
+   "fill": 0.679,
+   "rgb": "#EDE7DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 3959,
+   "box": [
+    875,
+    37,
+    910,
+    184
+   ],
+   "fill": 0.743,
+   "rgb": "#EBE4DB"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 4216,
+   "box": [
+    918,
+    37,
+    969,
+    183
+   ],
+   "fill": 0.552,
+   "rgb": "#E9E2D9"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 8774,
+   "box": [
+    41,
+    38,
+    120,
+    185
+   ],
+   "fill": 0.741,
+   "rgb": "#EBE5DC"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 8467,
+   "box": [
+    128,
+    38,
+    209,
+    185
+   ],
+   "fill": 0.698,
+   "rgb": "#ECE7E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 4294,
+   "box": [
+    217,
+    38,
+    251,
+    185
+   ],
+   "fill": 0.829,
+   "rgb": "#EDE8DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 3938,
+   "box": [
+    260,
+    38,
+    306,
+    185
+   ],
+   "fill": 0.566,
+   "rgb": "#EEE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 2343,
+   "box": [
+    318,
+    38,
+    348,
+    139
+   ],
+   "fill": 0.741,
+   "rgb": "#EEE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 9209,
+   "box": [
+    359,
+    38,
+    441,
+    185
+   ],
+   "fill": 0.75,
+   "rgb": "#EDE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 5288,
+   "box": [
+    451,
+    38,
+    516,
+    184
+   ],
+   "fill": 0.545,
+   "rgb": "#EEE7E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 7493,
+   "box": [
+    522,
+    38,
+    589,
+    184
+   ],
+   "fill": 0.75,
+   "rgb": "#EDE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 5090,
+   "box": [
+    593,
+    38,
+    660,
+    184
+   ],
+   "fill": 0.509,
+   "rgb": "#EFEAE2"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 2105,
+   "box": [
+    643,
+    38,
+    685,
+    128
+   ],
+   "fill": 0.538,
+   "rgb": "#EFEAE2"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 5055,
+   "box": [
+    670,
+    38,
+    735,
+    184
+   ],
+   "fill": 0.521,
+   "rgb": "#EFE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 4588,
+   "box": [
+    741,
+    38,
+    775,
+    184
+   ],
+   "fill": 0.892,
+   "rgb": "#EEE9E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1611,
+   "box": [
+    303,
+    132,
+    349,
+    184
+   ],
+   "fill": 0.647,
+   "rgb": "#EEE8E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 8313,
+   "box": [
+    720,
+    194,
+    868,
+    399
+   ],
+   "fill": 0.271,
+   "rgb": "#EEE8E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 12729,
+   "box": [
+    878,
+    196,
+    995,
+    480
+   ],
+   "fill": 0.379,
+   "rgb": "#ECE6DD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 14220,
+   "box": [
+    42,
+    197,
+    209,
+    482
+   ],
+   "fill": 0.296,
+   "rgb": "#ECE7DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 3501,
+   "box": [
+    139,
+    197,
+    217,
+    337
+   ],
+   "fill": 0.314,
+   "rgb": "#EEE8E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 7289,
+   "box": [
+    303,
+    197,
+    422,
+    458
+   ],
+   "fill": 0.232,
+   "rgb": "#EEE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 11989,
+   "box": [
+    428,
+    197,
+    548,
+    480
+   ],
+   "fill": 0.349,
+   "rgb": "#EEE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 9660,
+   "box": [
+    557,
+    197,
+    710,
+    445
+   ],
+   "fill": 0.252,
+   "rgb": "#EEE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 2308,
+   "box": [
+    222,
+    198,
+    292,
+    292
+   ],
+   "fill": 0.342,
+   "rgb": "#EFEAE2"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 5838,
+   "box": [
+    223,
+    240,
+    294,
+    481
+   ],
+   "fill": 0.335,
+   "rgb": "#EEE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 2897,
+   "box": [
+    762,
+    243,
+    791,
+    438
+   ],
+   "fill": 0.493,
+   "rgb": "#EEE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 864,
+   "box": [
+    606,
+    318,
+    630,
+    386
+   ],
+   "fill": 0.501,
+   "rgb": "#EFEAE2"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 848,
+   "box": [
+    642,
+    318,
+    664,
+    383
+   ],
+   "fill": 0.559,
+   "rgb": "#EEE9E2"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1118,
+   "box": [
+    272,
+    320,
+    294,
+    438
+   ],
+   "fill": 0.408,
+   "rgb": "#F1EBE3"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 3417,
+   "box": [
+    794,
+    322,
+    869,
+    440
+   ],
+   "fill": 0.378,
+   "rgb": "#EFE9E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 759,
+   "box": [
+    305,
+    326,
+    327,
+    415
+   ],
+   "fill": 0.367,
+   "rgb": "#F0EAE3"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 405,
+   "box": [
+    850,
+    358,
+    870,
+    418
+   ],
+   "fill": 0.316,
+   "rgb": "#F1ECE4"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 1678,
+   "box": [
+    306,
+    411,
+    382,
+    481
+   ],
+   "fill": 0.307,
+   "rgb": "#EDE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 4335,
+   "box": [
+    553,
+    420,
+    721,
+    480
+   ],
+   "fill": 0.421,
+   "rgb": "#ECE7E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 3449,
+   "box": [
+    726,
+    420,
+    871,
+    484
+   ],
+   "fill": 0.363,
+   "rgb": "#EEE8E0"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 2128,
+   "box": [
+    356,
+    471,
+    509,
+    501
+   ],
+   "fill": 0.446,
+   "rgb": "#EDE8E1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 17328,
+   "box": [
+    799,
+    508,
+    992,
+    816
+   ],
+   "fill": 0.289,
+   "rgb": "#EBE5DC"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 19436,
+   "box": [
+    325,
+    509,
+    559,
+    859
+   ],
+   "fill": 0.236,
+   "rgb": "#ECE6DE"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 17528,
+   "box": [
+    560,
+    509,
+    788,
+    831
+   ],
+   "fill": 0.237,
+   "rgb": "#ECE7DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 525,
+   "box": [
+    402,
+    510,
+    457,
+    531
+   ],
+   "fill": 0.426,
+   "rgb": "#EFEAE1"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 25330,
+   "box": [
+    41,
+    511,
+    310,
+    895
+   ],
+   "fill": 0.244,
+   "rgb": "#EBE6DD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 8022,
+   "box": [
+    670,
+    1008,
+    947,
+    1061
+   ],
+   "fill": 0.534,
+   "rgb": "#ECE7DF"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 443,
+   "box": [
+    225,
+    1093,
+    234,
+    1143
+   ],
+   "fill": 0.869,
+   "rgb": "#EBE6DD"
+  },
+  {
+   "colour": "light",
+   "kind": "inside an excluded box",
+   "px": 477,
+   "box": [
+    281,
+    1093,
+    290,
+    1143
+   ],
+   "fill": 0.935,
+   "rgb": "#E9E6DB"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 9936,
+   "box": [
+    853,
+    800,
+    1013,
+    879
+   ],
+   "fill": 0.771,
+   "rgb": "#F04F05"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 4958,
+   "box": [
+    605,
+    823,
+    765,
+    903
+   ],
+   "fill": 0.38,
+   "rgb": "#F45205"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 8061,
+   "box": [
+    194,
+    862,
+    319,
+    941
+   ],
+   "fill": 0.8,
+   "rgb": "#F35004"
+  },
+  {
+   "colour": "yellow",
+   "kind": "inside an excluded box",
+   "px": 3504,
+   "box": [
+    12,
+    893,
+    74,
+    955
+   ],
+   "fill": 0.883,
+   "rgb": "#F34F05"
+  }
+ ],
+ "rejected": [
+  {
+   "colour": "dark",
+   "y0": 1336,
+   "y1": 1353,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1334,
+   "y1": 1349,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1508,
+   "y1": 1523,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "dark",
+   "y0": 1513,
+   "y1": 1521,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 986,
+   "y1": 989,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 988,
+   "y1": 992,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 986,
+   "y1": 996,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 986,
+   "y1": 996,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1064,
+   "y1": 1110,
+   "why": "no shared baseline (33% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1075,
+   "y1": 1085,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1078,
+   "y1": 1081,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1075,
+   "y1": 1084,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1075,
+   "y1": 1078,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1129,
+   "y1": 1149,
+   "why": "no shared baseline (22% of runs)"
+  },
+  {
+   "colour": "light",
+   "y0": 1200,
+   "y1": 1203,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1205,
+   "y1": 1208,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1243,
+   "y1": 1246,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1330,
+   "y1": 1333,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1335,
+   "y1": 1342,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1352,
+   "y1": 1355,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1517,
+   "y1": 1520,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 1515,
+   "y1": 1518,
+   "why": "only 1 glyph components"
+  },
+  {
+   "colour": "light",
+   "y0": 985,
+   "y1": 997,
+   "why": "counters of dark lettering (48% dark ink)"
+  },
+  {
+   "colour": "light",
+   "y0": 1186,
+   "y1": 1272,
+   "why": "duplicate of dark band y1225..1242"
+  }
+ ],
+ "groups": {
+  "body": {
+   "lines": [
+    "attraction0",
+    "attraction2",
+    "attraction3",
+    "attraction4",
+    "attraction5",
+    "attraction6",
+    "footer0",
+    "beneficiary",
+    "footer1"
+   ],
+   "shape_glyphs": "WMRSGQOAYC",
+   "brief": null,
+   "features": {
+    "weight": 0.233,
+    "contrast": 0.748,
+    "slant": 0.0,
+    "square": 0.739,
+    "corner": 0.546,
+    "bend": null,
+    "cap": 26.0
+   },
+   "confidence": "low",
+   "margin": 0.081,
+   "distortions": [
+    {
+     "key": "attraction0",
+     "ratio": 0.931,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "attraction4",
+     "ratio": 0.927,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "attraction6",
+     "ratio": 0.937,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "beneficiary",
+     "ratio": 0.907,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    },
+    {
+     "key": "footer1",
+     "ratio": 0.818,
+     "kind": "squeezed_to_fit",
+     "stem_matches": true,
+     "action": "resize this line so it fits naturally"
+    }
+   ],
+   "candidates": [
+    {
+     "family": "TikTok Sans",
+     "sub": "900 wdth75",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TikTokSans-0-75-900-fac90790b61a845a.ttf",
+     "index": null,
+     "cap_ratio": 0.705,
+     "width_ratio": 0.9436,
+     "spread": 0.0454,
+     "stem_err": 0.0607,
+     "shape": 1.7777,
+     "features": 0.786,
+     "character": null,
+     "record": {
+      "family": "TikTok Sans",
+      "weight": 900,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.438
+    },
+    {
+     "family": "Bricolage Grotesque",
+     "sub": "800 wdth75",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/BricolageGrotesque-0-75-800-46cb7da79c42b748.ttf",
+     "index": null,
+     "cap_ratio": 0.66,
+     "width_ratio": 1.0453,
+     "spread": 0.0523,
+     "stem_err": 0.0006,
+     "shape": 1.8863,
+     "features": 0.892,
+     "character": null,
+     "record": {
+      "family": "Bricolage Grotesque",
+      "weight": 800,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.6349
+    },
+    {
+     "family": "Fira Sans Condensed",
+     "sub": "800",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/FiraSansCondensed-0-0-800-f6c508b21d3dcf92.ttf",
+     "index": null,
+     "cap_ratio": 0.695,
+     "width_ratio": 1.0158,
+     "spread": 0.0488,
+     "stem_err": 0.0607,
+     "shape": 2.035,
+     "features": 0.864,
+     "character": null,
+     "record": {
+      "family": "Fira Sans Condensed",
+      "weight": 800,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.7375
+    },
+    {
+     "family": "Zalando Sans",
+     "sub": "900 wdth75",
+     "weight": 900,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/ZalandoSans-0-75-900-a951d5993bb2112a.ttf",
+     "index": null,
+     "cap_ratio": 0.714,
+     "width_ratio": 1.034,
+     "spread": 0.0461,
+     "stem_err": 0.1208,
+     "shape": 1.9723,
+     "features": 0.931,
+     "character": null,
+     "record": {
+      "family": "Zalando Sans",
+      "weight": 900,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.7505
+    },
+    {
+     "family": "Magra",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Magra-0-0-700-bebdc3aa834b9f1b.ttf",
+     "index": null,
+     "cap_ratio": 0.708,
+     "width_ratio": 0.9853,
+     "spread": 0.0452,
+     "stem_err": 0.0592,
+     "shape": 2.0144,
+     "features": 0.835,
+     "character": null,
+     "record": {
+      "family": "Magra",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.7698
+    },
+    {
+     "family": "Open Sans",
+     "sub": "800 wdth75",
+     "weight": 800,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/OpenSans-0-75-800-e2ed4e9815e37c73.ttf",
+     "index": null,
+     "cap_ratio": 0.7138671875,
+     "width_ratio": 1.0556,
+     "spread": 0.0553,
+     "stem_err": 0.0006,
+     "shape": 2.1177,
+     "features": 0.805,
+     "character": null,
+     "record": {
+      "family": "Open Sans",
+      "weight": 800,
+      "italic": false,
+      "wdth": 75,
+      "source": "google"
+     },
+     "score": 2.7961
+    },
+    {
+     "family": "Piedra",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Piedra-0-0-400-638db9c37fdd9926.ttf",
+     "index": null,
+     "cap_ratio": 0.786,
+     "width_ratio": 1.0861,
+     "spread": 0.0458,
+     "stem_err": 0.0592,
+     "shape": 2.2844,
+     "features": 0.4,
+     "character": null,
+     "record": {
+      "family": "Piedra",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.8611
+    },
+    {
+     "family": "Tilt Warp",
+     "sub": "400",
+     "weight": 400,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/TiltWarp-0-0-400-9934dbfde1c581b5.ttf",
+     "index": null,
+     "cap_ratio": 0.68,
+     "width_ratio": 0.8863,
+     "spread": 0.0438,
+     "stem_err": 0.0607,
+     "shape": 2.1913,
+     "features": 0.786,
+     "character": null,
+     "record": {
+      "family": "Tilt Warp",
+      "weight": 400,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 2.8965
+    },
+    {
+     "family": "Glory",
+     "sub": "200 italic",
+     "weight": 200,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/Glory-1-0-200-ea060c912486a353.ttf",
+     "index": null,
+     "cap_ratio": 0.672,
+     "width_ratio": 1.0,
+     "spread": 0.0488,
+     "stem_err": 0.5992,
+     "shape": 4.2487,
+     "features": 4.321,
+     "character": null,
+     "record": {
+      "family": "Glory",
+      "weight": 200,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 10.0318
+    },
+    {
+     "family": "Reddit Sans Condensed",
+     "sub": "700",
+     "weight": 700,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/RedditSansCondensed-0-0-700-6080dfb7dac07d37.ttf",
+     "index": null,
+     "cap_ratio": 0.7197265625,
+     "width_ratio": 1.0001,
+     "spread": 0.0502,
+     "stem_err": 0.1794,
+     "shape": 2.5982,
+     "features": 0.913,
+     "character": null,
+     "record": {
+      "family": "Reddit Sans Condensed",
+      "weight": 700,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 3.8348
+    },
+    {
+     "family": "Edu QLD Beginner",
+     "sub": "500",
+     "weight": 500,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/EduQLDBeginner-0-0-500-d464143f76f97b70.ttf",
+     "index": null,
+     "cap_ratio": 0.772,
+     "width_ratio": 1.0001,
+     "spread": 0.0407,
+     "stem_err": 0.4793,
+     "shape": 3.8017,
+     "features": 3.641,
+     "character": null,
+     "record": {
+      "family": "Edu QLD Beginner",
+      "weight": 500,
+      "italic": false,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.7452
+    },
+    {
+     "family": "Winky Sans",
+     "sub": "300 italic",
+     "weight": 300,
+     "embed": true,
+     "path": "/Users/john.hartnup/jhgit/ukslim.github.io/.claude/skills/poster-to-svg/fonts/cache/WinkySans-1-0-300-598194700eb67e54.ttf",
+     "index": null,
+     "cap_ratio": 0.667,
+     "width_ratio": 0.9998,
+     "spread": 0.0456,
+     "stem_err": 0.4192,
+     "shape": 3.5072,
+     "features": 3.327,
+     "character": null,
+     "record": {
+      "family": "Winky Sans",
+      "weight": 300,
+      "italic": true,
+      "wdth": null,
+      "source": "google"
+     },
+     "score": 7.124
+    }
+   ]
+  }
+ },
+ "ambiguities": [
+  {
+   "kind": "type_on_imagery",
+   "median_texture": 10.48,
+   "detail": "the type sits on a busy ground. Look at the poster and decide which kind: over a PHOTOGRAPH or illustration it cannot be removed (nothing can reconstruct what is behind the letters) and the answer is the escape hatch; over a distressed or grainy flat ground it is recoverable, because the fill is taken from the surrounding pixels"
+  },
+  {
+   "kind": "face_choice",
+   "group": "body",
+   "confidence": "low",
+   "top": [
+    "TikTok Sans",
+    "Bricolage Grotesque",
+    "Fira Sans Condensed"
+   ]
+  }
+ ],
+ "knobs": {
+  "artwork": "mask",
+  "face": [
+   "body=Barlow Semi Condensed:800"
+  ],
+  "solid_radius": 24,
+  "rule_length": 60,
+  "rule_thick": 5,
+  "min_glyphs": 2,
+  "contrast": 40,
+  "window": 61,
+  "wrap_cap_ratio": 1.3,
+  "exclude": [
+   "620,960,650,1340",
+   "652,980,688,1330"
+  ],
+  "knockout": [],
+  "assign": [
+   "attraction0=779,990",
+   "attraction2=822,1080",
+   "attraction3=835,1112",
+   "attraction4=816,1144;776,1168",
+   "attraction5=774,1200",
+   "attraction6=813,1233;788,1257",
+   "footer0=276,1375",
+   "beneficiary=400,1432",
+   "footer1=476,1487"
+  ],
+  "character": [],
+  "case": [],
+  "tilted": [],
+  "art": [
+   "title,attractions_label@0,0,1024,978@stretched condensed display lettering filling the page, cut by the orange band",
+   "date,venue@30,955,630,1330@large distressed lettering, broken by the print texture",
+   "attraction1@688,1010,1000,1062@its letters fuse into two long shapes the band finder cannot read",
+   "attraction7@688,1277,1000,1322@its letters fuse into two long shapes the band finder cannot read"
+  ],
+  "align": [],
+  "track": [],
+  "fill": [],
+  "shadow": [],
+  "fit": [],
+  "text": []
+ }
+}

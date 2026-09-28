@@ -440,15 +440,34 @@
   }
  },
  "brutalist_graphic-fete-v2": {
-  "built": "2026-09-27",
-  "faces": [],
-  "fault_outlook": null,
-  "faults": null,
+  "built": "2026-09-28",
+  "faces": [
+   "Barlow Semi Condensed 800"
+  ],
+  "fault_outlook": "Fixable: blanking should stop at a rule a letter touches, and the list's fused rows need a finer band split.",
+  "faults": "In the attractions list the rule under BBQ is broken where the Q's tail touched it, and a dark smudge sits in CHILDREN'S; two items and the big date panel are the original's pixels.",
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "The headline is the design: VILLAGE and FETE are cropped by the page edge and cut through by the orange bar, and the list is numbered in the lettering. Reset in a real face at natural proportions it becomes a different, clean poster; measured, the alignment never got below a mean cost of 0.58.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-28",
+  "skip_reason": null,
+  "status": "flawed",
+  "text_as_bitmap": [
+   {
+    "text": "Brindlewick Village F\u00eate / Attractions:",
+    "why": "stretched condensed display lettering filling the page, cut by the orange band"
+   },
+   {
+    "text": "Saturday 6th September, 12 noon \u2013 5pm / Brindlewick Cricket Club, Hawthorn Lane, Brindlewick",
+    "why": "large distressed lettering, broken by the print texture"
+   },
+   {
+    "text": "Homemade cakes, jams and preserves",
+    "why": "its letters fuse into two long shapes the band finder cannot read"
+   },
+   {
+    "text": "Local craft and maker stalls",
+    "why": "its letters fuse into two long shapes the band finder cannot read"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
@@ -458,15 +477,26 @@
   }
  },
  "brutalist_graphic-gig-v2": {
-  "built": "2026-09-27",
-  "faces": [],
+  "built": "2026-09-28",
+  "faces": [
+   "Anton"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "CARVER&amp; and THE FLOOD are stretched vertically to fill the page, each line a different distortion of a condensed grotesk. Resetting at natural proportions would halve the headline; reproducing the stretch is exactly what the conversion must not do.",
-  "status": "skipped",
-  "text_as_bitmap": [],
+  "reviewed": "2026-09-28",
+  "skip_reason": null,
+  "status": "done",
+  "text_as_bitmap": [
+   {
+    "text": "Pale Light Promotions presents: / CARVER & THE FLOOD",
+    "why": "condensed display lettering stretched to fill the page, part of the layout"
+   },
+   {
+    "text": "Friday 19th September, doors 7:30pm / The Anchor Rooms, 14 Tallow Lane, Bristol WX4 2JQ",
+    "why": "distressed print texture breaks the letters apart"
+   }
+  ],
   "tilted": [],
   "vector": false,
   "version": {
@@ -3988,14 +4018,18 @@
   }
  },
  "wayfinding_signage-fete-v2": {
-  "built": "2026-09-27",
-  "faces": [],
+  "built": "2026-09-28",
+  "faces": [
+   "IBM Plex Sans Condensed 700",
+   "Fira Sans Condensed 600",
+   "Inter"
+  ],
   "fault_outlook": null,
   "faults": null,
   "not_reset": [],
-  "reviewed": true,
-  "skip_reason": "A short second column of labels never shares a row with the list, so column detection cannot see it, and three-line labels wrap at mixed sizes. Tool limitation.",
-  "status": "skipped",
+  "reviewed": "2026-09-28",
+  "skip_reason": null,
+  "status": "done",
   "text_as_bitmap": [],
   "tilted": [],
   "vector": false,
