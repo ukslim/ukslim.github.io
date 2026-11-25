@@ -655,3 +655,40 @@
     }
   }
 }
+
+// --- Quoted Bluesky posts (blockquote with {: .bsky-post }) ---
+blockquote.bsky-post {
+  margin: 0 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d0d7de;
+  border-left: 4px solid #1185fe;
+  border-radius: 8px;
+  background: #f5f9ff;
+  color: inherit;
+  font-size: 1rem;
+  letter-spacing: normal;
+
+  p:last-child { margin-bottom: 0; }
+
+  .bsky-source {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #57606a;
+  }
+}
+
+// --- Quoted verse (blockquote with {: .verse }) ---
+blockquote.verse {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #e3d9b8;
+  border-left: 4px solid #c9a227;
+  border-radius: 8px;
+  background: #fffbea;
+  color: inherit;
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: normal;
+
+  p:last-child { margin-bottom: 0; }
+}
