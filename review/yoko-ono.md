@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /review/yoko-ono/
 sitemap: false
 robots: noindex
 ---
@@ -164,6 +165,10 @@ sense of gravitas. Read it aloud, and it just sounds more wise.
 ... is an interesting observation that _sounds like Shakespeare_ or Milton or
 translated-Homer, or whoever has that cultural stamp of approval. And it's
 just, to me at least, very satisfying to read aloud.
+
+I also greatly enjoy the irony of it being a treatise on the human id's
+contribution to art, yes having been nowhere near a human id -- unless you
+count my whim of asking for it.
 
 I like one line in particular:
 
